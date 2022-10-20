@@ -1,0 +1,8 @@
+prefix=/home/uvision2/Documents/github/rosnode-Kimera/kimera/devel
+
+Name: kimera
+Description: Description of kimera
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

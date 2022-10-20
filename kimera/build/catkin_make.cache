@@ -1,0 +1,2 @@
+kimera
+-DCATKIN_DEVEL_PREFIX=/home/uvision2/Documents/github/rosnode-Kimera/kimera/devel -DCMAKE_INSTALL_PREFIX=/home/uvision2/Documents/github/rosnode-Kimera/kimera/install -G Unix Makefiles
