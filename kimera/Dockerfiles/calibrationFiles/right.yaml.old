@@ -1,0 +1,26 @@
+image_width: 1600
+image_height: 1300
+camera_name: right_camera
+camera_matrix:
+  rows: 3
+  cols: 3
+  data: [  896.43941,   0.     , 813.92619,
+           0.     , 891.38838, 661.79262,
+           0.     ,   0.     ,   1.     ]
+distortion_model: equidistant
+distortion_coefficients:
+  rows: 1
+  cols: 4
+  data: [0.037538, -0.055818, -0.003788, 0.001666]
+rectification_matrix:
+  rows: 3
+  cols: 3
+  data: [ 0.99974597, -0.00081436, -0.02252402,
+          0.00083372,  0.99999929,  0.00085053,
+          0.02252331, -0.0008691 ,  0.99974594]
+projection_matrix:
+  rows: 3
+  cols: 4
+  data: [912.06465,   0.     , 850.37231, -71.46146,
+           0.     , 912.06465, 645.96992,   0.     ,
+           0.     ,   0.     ,   1.     ,   0.     ]
