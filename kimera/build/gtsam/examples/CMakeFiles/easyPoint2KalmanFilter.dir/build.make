@@ -79,7 +79,7 @@ easyPoint2KalmanFilter_EXTERNAL_OBJECTS =
 
 examples/easyPoint2KalmanFilter: examples/CMakeFiles/easyPoint2KalmanFilter.dir/easyPoint2KalmanFilter.cpp.o
 examples/easyPoint2KalmanFilter: examples/CMakeFiles/easyPoint2KalmanFilter.dir/build.make
-examples/easyPoint2KalmanFilter: gtsam/libgtsam.so.4.2.0
+examples/easyPoint2KalmanFilter: gtsam/libgtsam.so.4.1.0
 examples/easyPoint2KalmanFilter: /usr/lib/aarch64-linux-gnu/libboost_program_options.so.1.71.0
 examples/easyPoint2KalmanFilter: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 examples/easyPoint2KalmanFilter: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0

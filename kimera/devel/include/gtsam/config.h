@@ -19,10 +19,10 @@
 
 // Library version
 #define GTSAM_VERSION_MAJOR 4
-#define GTSAM_VERSION_MINOR 2
+#define GTSAM_VERSION_MINOR 1
 #define GTSAM_VERSION_PATCH 0
-#define GTSAM_VERSION_NUMERIC 40200
-#define GTSAM_VERSION_STRING "4.2a7"
+#define GTSAM_VERSION_NUMERIC 40100
+#define GTSAM_VERSION_STRING "4.1.0"
 
 // Paths to example datasets distributed with GTSAM
 #define GTSAM_SOURCE_TREE_DATASET_DIR "/home/catkin_ws/src/gtsam/examples/Data"
@@ -70,7 +70,7 @@
 #define GTSAM_THROW_CHEIRALITY_EXCEPTION
 
 // Make sure dependent projects that want it can see deprecated functions
-#define GTSAM_ALLOW_DEPRECATED_SINCE_V42
+#define GTSAM_ALLOW_DEPRECATED_SINCE_V41
 
 // Support Metis-based nested dissection
 #define GTSAM_SUPPORT_NESTED_DISSECTION

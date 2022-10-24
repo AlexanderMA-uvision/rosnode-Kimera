@@ -34,7 +34,7 @@ namespace gtsam {
   /**
    * A class for a measurement predicted by "between(config[key1],config[key2])"
    * @tparam VALUE the Value type
-   * @ingroup SLAM
+   * @addtogroup SLAM
    */
   template<class VALUE>
   class BetweenFactor: public NoiseModelFactor2<VALUE, VALUE> {
@@ -80,9 +80,7 @@ namespace gtsam {
     /// @{
 
     /// print with optional string
-    void print(
-        const std::string& s = "",
-        const KeyFormatter& keyFormatter = DefaultKeyFormatter) const override {
+    void print(const std::string& s, const KeyFormatter& keyFormatter = DefaultKeyFormatter) const override {
       std::cout << s << "BetweenFactor("
           << keyFormatter(this->key1()) << ","
           << keyFormatter(this->key2()) << ")\n";

@@ -1,0 +1,38 @@
+[35m[1mScanning dependencies of target GenerateTrajectories[0m
+[35m[1mScanning dependencies of target KimeraRPGO[0m
+[  6%] [32mBuilding CXX object CMakeFiles/GenerateTrajectories.dir/examples/GenerateTrajectories.cpp.o[0m
+[ 13%] [32mBuilding CXX object CMakeFiles/KimeraRPGO.dir/src/GenericSolver.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/KimeraRPGO.dir/src/RobustSolver.cpp.o[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/KimeraRPGO.dir/src/utils/GraphUtils.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/KimeraRPGO.dir/src/Logger.cpp.o[0m
+[ 40%] [32m[1mLinking CXX executable GenerateTrajectories[0m
+[ 40%] Built target GenerateTrajectories
+In file included from [01m[K/home/catkin_ws/src/Kimera-RPGO/src/RobustSolver.cpp:22[m[K:
+/home/catkin_ws/src/Kimera-RPGO/include/KimeraRPGO/outlier/Pcm.h: In instantiation of ‘[01m[Kgtsam::Values KimeraRPGO::Pcm<poseT, T>::multirobotValueInitialization(const gtsam::Values&) [with poseT = gtsam::Pose3; T = KimeraRPGO::PoseWithNode][m[K’:
+[01m[K/home/catkin_ws/src/Kimera-RPGO/include/KimeraRPGO/outlier/Pcm.h:260:24:[m[K   required from ‘[01m[Kbool KimeraRPGO::Pcm<poseT, T>::removeOutliers(const gtsam::NonlinearFactorGraph&, const gtsam::Values&, gtsam::NonlinearFactorGraph*, gtsam::Values*) [with poseT = gtsam::Pose3; T = KimeraRPGO::PoseWithNode][m[K’
+[01m[K/home/catkin_ws/src/Kimera-RPGO/include/KimeraRPGO/outlier/Pcm.h:145:8:[m[K   required from here
+[01m[K/home/catkin_ws/src/Kimera-RPGO/include/KimeraRPGO/outlier/Pcm.h:1052:9:[m[K [01;35m[Kwarning: [m[Kcatching polymorphic type ‘[01m[Kclass std::out_of_range[m[K’ by value [[01;35m[K-Wcatch-value=[m[K]
+ 1052 |       } [01;35m[Kcatch[m[K (std::out_of_range e) {
+      |         [01;35m[K^~~~~[m[K
+/home/catkin_ws/src/Kimera-RPGO/include/KimeraRPGO/outlier/Pcm.h: In instantiation of ‘[01m[Kgtsam::Values KimeraRPGO::Pcm<poseT, T>::multirobotValueInitialization(const gtsam::Values&) [with poseT = gtsam::Pose2; T = KimeraRPGO::PoseWithNode][m[K’:
+[01m[K/home/catkin_ws/src/Kimera-RPGO/include/KimeraRPGO/outlier/Pcm.h:260:24:[m[K   required from ‘[01m[Kbool KimeraRPGO::Pcm<poseT, T>::removeOutliers(const gtsam::NonlinearFactorGraph&, const gtsam::Values&, gtsam::NonlinearFactorGraph*, gtsam::Values*) [with poseT = gtsam::Pose2; T = KimeraRPGO::PoseWithNode][m[K’
+[01m[K/home/catkin_ws/src/Kimera-RPGO/include/KimeraRPGO/outlier/Pcm.h:145:8:[m[K   required from here
+[01m[K/home/catkin_ws/src/Kimera-RPGO/include/KimeraRPGO/outlier/Pcm.h:1052:9:[m[K [01;35m[Kwarning: [m[Kcatching polymorphic type ‘[01m[Kclass std::out_of_range[m[K’ by value [[01;35m[K-Wcatch-value=[m[K]
+/home/catkin_ws/src/Kimera-RPGO/include/KimeraRPGO/outlier/Pcm.h: In instantiation of ‘[01m[Kgtsam::Values KimeraRPGO::Pcm<poseT, T>::multirobotValueInitialization(const gtsam::Values&) [with poseT = gtsam::Pose3; T = KimeraRPGO::PoseWithCovariance][m[K’:
+[01m[K/home/catkin_ws/src/Kimera-RPGO/include/KimeraRPGO/outlier/Pcm.h:260:24:[m[K   required from ‘[01m[Kbool KimeraRPGO::Pcm<poseT, T>::removeOutliers(const gtsam::NonlinearFactorGraph&, const gtsam::Values&, gtsam::NonlinearFactorGraph*, gtsam::Values*) [with poseT = gtsam::Pose3; T = KimeraRPGO::PoseWithCovariance][m[K’
+[01m[K/home/catkin_ws/src/Kimera-RPGO/include/KimeraRPGO/outlier/Pcm.h:145:8:[m[K   required from here
+[01m[K/home/catkin_ws/src/Kimera-RPGO/include/KimeraRPGO/outlier/Pcm.h:1052:9:[m[K [01;35m[Kwarning: [m[Kcatching polymorphic type ‘[01m[Kclass std::out_of_range[m[K’ by value [[01;35m[K-Wcatch-value=[m[K]
+/home/catkin_ws/src/Kimera-RPGO/include/KimeraRPGO/outlier/Pcm.h: In instantiation of ‘[01m[Kgtsam::Values KimeraRPGO::Pcm<poseT, T>::multirobotValueInitialization(const gtsam::Values&) [with poseT = gtsam::Pose2; T = KimeraRPGO::PoseWithCovariance][m[K’:
+[01m[K/home/catkin_ws/src/Kimera-RPGO/include/KimeraRPGO/outlier/Pcm.h:260:24:[m[K   required from ‘[01m[Kbool KimeraRPGO::Pcm<poseT, T>::removeOutliers(const gtsam::NonlinearFactorGraph&, const gtsam::Values&, gtsam::NonlinearFactorGraph*, gtsam::Values*) [with poseT = gtsam::Pose2; T = KimeraRPGO::PoseWithCovariance][m[K’
+[01m[K/home/catkin_ws/src/Kimera-RPGO/include/KimeraRPGO/outlier/Pcm.h:145:8:[m[K   required from here
+[01m[K/home/catkin_ws/src/Kimera-RPGO/include/KimeraRPGO/outlier/Pcm.h:1052:9:[m[K [01;35m[Kwarning: [m[Kcatching polymorphic type ‘[01m[Kclass std::out_of_range[m[K’ by value [[01;35m[K-Wcatch-value=[m[K]
+[ 46%] [32m[1mLinking CXX shared library libKimeraRPGO.so[0m
+[ 73%] Built target KimeraRPGO
+[35m[1mScanning dependencies of target RpgoReadG2o[0m
+[35m[1mScanning dependencies of target RpgoReadG2oIncremental[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/RpgoReadG2o.dir/examples/RpgoReadG2o.cpp.o[0m
+[ 86%] [32mBuilding CXX object CMakeFiles/RpgoReadG2oIncremental.dir/examples/RpgoReadG2oIncremental.cpp.o[0m
+[ 93%] [32m[1mLinking CXX executable RpgoReadG2o[0m
+[ 93%] Built target RpgoReadG2o
+[100%] [32m[1mLinking CXX executable RpgoReadG2oIncremental[0m
+[100%] Built target RpgoReadG2oIncremental

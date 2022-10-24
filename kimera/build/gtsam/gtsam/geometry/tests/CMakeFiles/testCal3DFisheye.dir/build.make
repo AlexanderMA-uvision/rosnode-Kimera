@@ -80,7 +80,7 @@ testCal3DFisheye_EXTERNAL_OBJECTS =
 gtsam/geometry/tests/testCal3DFisheye: gtsam/geometry/tests/CMakeFiles/testCal3DFisheye.dir/testCal3DFisheye.cpp.o
 gtsam/geometry/tests/testCal3DFisheye: gtsam/geometry/tests/CMakeFiles/testCal3DFisheye.dir/build.make
 gtsam/geometry/tests/testCal3DFisheye: CppUnitLite/libCppUnitLite.a
-gtsam/geometry/tests/testCal3DFisheye: gtsam/libgtsam.so.4.2.0
+gtsam/geometry/tests/testCal3DFisheye: gtsam/libgtsam.so.4.1.0
 gtsam/geometry/tests/testCal3DFisheye: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 gtsam/geometry/tests/testCal3DFisheye: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 gtsam/geometry/tests/testCal3DFisheye: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

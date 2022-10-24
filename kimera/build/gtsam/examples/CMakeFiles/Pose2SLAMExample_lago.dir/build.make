@@ -79,7 +79,7 @@ Pose2SLAMExample_lago_EXTERNAL_OBJECTS =
 
 examples/Pose2SLAMExample_lago: examples/CMakeFiles/Pose2SLAMExample_lago.dir/Pose2SLAMExample_lago.cpp.o
 examples/Pose2SLAMExample_lago: examples/CMakeFiles/Pose2SLAMExample_lago.dir/build.make
-examples/Pose2SLAMExample_lago: gtsam/libgtsam.so.4.2.0
+examples/Pose2SLAMExample_lago: gtsam/libgtsam.so.4.1.0
 examples/Pose2SLAMExample_lago: /usr/lib/aarch64-linux-gnu/libboost_program_options.so.1.71.0
 examples/Pose2SLAMExample_lago: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 examples/Pose2SLAMExample_lago: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0

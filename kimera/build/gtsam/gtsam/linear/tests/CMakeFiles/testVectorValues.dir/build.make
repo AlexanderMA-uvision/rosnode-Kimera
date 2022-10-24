@@ -80,7 +80,7 @@ testVectorValues_EXTERNAL_OBJECTS =
 gtsam/linear/tests/testVectorValues: gtsam/linear/tests/CMakeFiles/testVectorValues.dir/testVectorValues.cpp.o
 gtsam/linear/tests/testVectorValues: gtsam/linear/tests/CMakeFiles/testVectorValues.dir/build.make
 gtsam/linear/tests/testVectorValues: CppUnitLite/libCppUnitLite.a
-gtsam/linear/tests/testVectorValues: gtsam/libgtsam.so.4.2.0
+gtsam/linear/tests/testVectorValues: gtsam/libgtsam.so.4.1.0
 gtsam/linear/tests/testVectorValues: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 gtsam/linear/tests/testVectorValues: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 gtsam/linear/tests/testVectorValues: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

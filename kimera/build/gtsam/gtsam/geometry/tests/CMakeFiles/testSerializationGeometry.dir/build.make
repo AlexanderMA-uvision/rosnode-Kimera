@@ -80,7 +80,7 @@ testSerializationGeometry_EXTERNAL_OBJECTS =
 gtsam/geometry/tests/testSerializationGeometry: gtsam/geometry/tests/CMakeFiles/testSerializationGeometry.dir/testSerializationGeometry.cpp.o
 gtsam/geometry/tests/testSerializationGeometry: gtsam/geometry/tests/CMakeFiles/testSerializationGeometry.dir/build.make
 gtsam/geometry/tests/testSerializationGeometry: CppUnitLite/libCppUnitLite.a
-gtsam/geometry/tests/testSerializationGeometry: gtsam/libgtsam.so.4.2.0
+gtsam/geometry/tests/testSerializationGeometry: gtsam/libgtsam.so.4.1.0
 gtsam/geometry/tests/testSerializationGeometry: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 gtsam/geometry/tests/testSerializationGeometry: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 gtsam/geometry/tests/testSerializationGeometry: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

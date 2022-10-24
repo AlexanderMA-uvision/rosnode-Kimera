@@ -80,8 +80,8 @@ testBTree_EXTERNAL_OBJECTS =
 gtsam_unstable/base/tests/testBTree: gtsam_unstable/base/tests/CMakeFiles/testBTree.dir/testBTree.cpp.o
 gtsam_unstable/base/tests/testBTree: gtsam_unstable/base/tests/CMakeFiles/testBTree.dir/build.make
 gtsam_unstable/base/tests/testBTree: CppUnitLite/libCppUnitLite.a
-gtsam_unstable/base/tests/testBTree: gtsam_unstable/libgtsam_unstable.so.4.2.0
-gtsam_unstable/base/tests/testBTree: gtsam/libgtsam.so.4.2.0
+gtsam_unstable/base/tests/testBTree: gtsam_unstable/libgtsam_unstable.so.4.1.0
+gtsam_unstable/base/tests/testBTree: gtsam/libgtsam.so.4.1.0
 gtsam_unstable/base/tests/testBTree: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 gtsam_unstable/base/tests/testBTree: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 gtsam_unstable/base/tests/testBTree: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

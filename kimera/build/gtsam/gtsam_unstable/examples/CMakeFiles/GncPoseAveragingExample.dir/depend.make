@@ -12,14 +12,12 @@ gtsam_unstable/examples/CMakeFiles/GncPoseAveragingExample.dir/GncPoseAveragingE
 gtsam_unstable/examples/CMakeFiles/GncPoseAveragingExample.dir/GncPoseAveragingExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Lie.h
 gtsam_unstable/examples/CMakeFiles/GncPoseAveragingExample.dir/GncPoseAveragingExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Manifold.h
 gtsam_unstable/examples/CMakeFiles/GncPoseAveragingExample.dir/GncPoseAveragingExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Matrix.h
-gtsam_unstable/examples/CMakeFiles/GncPoseAveragingExample.dir/GncPoseAveragingExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/MatrixSerialization.h
 gtsam_unstable/examples/CMakeFiles/GncPoseAveragingExample.dir/GncPoseAveragingExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/OptionalJacobian.h
 gtsam_unstable/examples/CMakeFiles/GncPoseAveragingExample.dir/GncPoseAveragingExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/SymmetricBlockMatrix.h
 gtsam_unstable/examples/CMakeFiles/GncPoseAveragingExample.dir/GncPoseAveragingExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Testable.h
 gtsam_unstable/examples/CMakeFiles/GncPoseAveragingExample.dir/GncPoseAveragingExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/ThreadsafeException.h
 gtsam_unstable/examples/CMakeFiles/GncPoseAveragingExample.dir/GncPoseAveragingExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Value.h
 gtsam_unstable/examples/CMakeFiles/GncPoseAveragingExample.dir/GncPoseAveragingExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Vector.h
-gtsam_unstable/examples/CMakeFiles/GncPoseAveragingExample.dir/GncPoseAveragingExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/VectorSerialization.h
 gtsam_unstable/examples/CMakeFiles/GncPoseAveragingExample.dir/GncPoseAveragingExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/VectorSpace.h
 gtsam_unstable/examples/CMakeFiles/GncPoseAveragingExample.dir/GncPoseAveragingExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/VerticalBlockMatrix.h
 gtsam_unstable/examples/CMakeFiles/GncPoseAveragingExample.dir/GncPoseAveragingExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/concepts.h
@@ -37,7 +35,6 @@ gtsam_unstable/examples/CMakeFiles/GncPoseAveragingExample.dir/GncPoseAveragingE
 gtsam_unstable/examples/CMakeFiles/GncPoseAveragingExample.dir/GncPoseAveragingExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/geometry/SOn.h
 gtsam_unstable/examples/CMakeFiles/GncPoseAveragingExample.dir/GncPoseAveragingExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/geometry/Unit3.h
 gtsam_unstable/examples/CMakeFiles/GncPoseAveragingExample.dir/GncPoseAveragingExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/global_includes.h
-gtsam_unstable/examples/CMakeFiles/GncPoseAveragingExample.dir/GncPoseAveragingExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/DotWriter.h
 gtsam_unstable/examples/CMakeFiles/GncPoseAveragingExample.dir/GncPoseAveragingExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/EliminateableFactorGraph.h
 gtsam_unstable/examples/CMakeFiles/GncPoseAveragingExample.dir/GncPoseAveragingExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/Factor.h
 gtsam_unstable/examples/CMakeFiles/GncPoseAveragingExample.dir/GncPoseAveragingExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/FactorGraph-inst.h
@@ -68,7 +65,6 @@ gtsam_unstable/examples/CMakeFiles/GncPoseAveragingExample.dir/GncPoseAveragingE
 gtsam_unstable/examples/CMakeFiles/GncPoseAveragingExample.dir/GncPoseAveragingExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/GaussNewtonOptimizer.h
 gtsam_unstable/examples/CMakeFiles/GncPoseAveragingExample.dir/GncPoseAveragingExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/GncOptimizer.h
 gtsam_unstable/examples/CMakeFiles/GncPoseAveragingExample.dir/GncPoseAveragingExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/GncParams.h
-gtsam_unstable/examples/CMakeFiles/GncPoseAveragingExample.dir/GncPoseAveragingExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/GraphvizFormatting.h
 gtsam_unstable/examples/CMakeFiles/GncPoseAveragingExample.dir/GncPoseAveragingExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/LevenbergMarquardtOptimizer.h
 gtsam_unstable/examples/CMakeFiles/GncPoseAveragingExample.dir/GncPoseAveragingExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/LevenbergMarquardtParams.h
 gtsam_unstable/examples/CMakeFiles/GncPoseAveragingExample.dir/GncPoseAveragingExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/NonlinearFactor.h

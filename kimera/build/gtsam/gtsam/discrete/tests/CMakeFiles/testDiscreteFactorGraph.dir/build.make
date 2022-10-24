@@ -80,7 +80,7 @@ testDiscreteFactorGraph_EXTERNAL_OBJECTS =
 gtsam/discrete/tests/testDiscreteFactorGraph: gtsam/discrete/tests/CMakeFiles/testDiscreteFactorGraph.dir/testDiscreteFactorGraph.cpp.o
 gtsam/discrete/tests/testDiscreteFactorGraph: gtsam/discrete/tests/CMakeFiles/testDiscreteFactorGraph.dir/build.make
 gtsam/discrete/tests/testDiscreteFactorGraph: CppUnitLite/libCppUnitLite.a
-gtsam/discrete/tests/testDiscreteFactorGraph: gtsam/libgtsam.so.4.2.0
+gtsam/discrete/tests/testDiscreteFactorGraph: gtsam/libgtsam.so.4.1.0
 gtsam/discrete/tests/testDiscreteFactorGraph: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 gtsam/discrete/tests/testDiscreteFactorGraph: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 gtsam/discrete/tests/testDiscreteFactorGraph: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

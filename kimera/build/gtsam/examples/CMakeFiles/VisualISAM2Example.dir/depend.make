@@ -14,14 +14,12 @@ examples/CMakeFiles/VisualISAM2Example.dir/VisualISAM2Example.cpp.o: /home/catki
 examples/CMakeFiles/VisualISAM2Example.dir/VisualISAM2Example.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Lie.h
 examples/CMakeFiles/VisualISAM2Example.dir/VisualISAM2Example.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Manifold.h
 examples/CMakeFiles/VisualISAM2Example.dir/VisualISAM2Example.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Matrix.h
-examples/CMakeFiles/VisualISAM2Example.dir/VisualISAM2Example.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/MatrixSerialization.h
 examples/CMakeFiles/VisualISAM2Example.dir/VisualISAM2Example.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/OptionalJacobian.h
 examples/CMakeFiles/VisualISAM2Example.dir/VisualISAM2Example.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/SymmetricBlockMatrix.h
 examples/CMakeFiles/VisualISAM2Example.dir/VisualISAM2Example.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Testable.h
 examples/CMakeFiles/VisualISAM2Example.dir/VisualISAM2Example.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/ThreadsafeException.h
 examples/CMakeFiles/VisualISAM2Example.dir/VisualISAM2Example.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Value.h
 examples/CMakeFiles/VisualISAM2Example.dir/VisualISAM2Example.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Vector.h
-examples/CMakeFiles/VisualISAM2Example.dir/VisualISAM2Example.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/VectorSerialization.h
 examples/CMakeFiles/VisualISAM2Example.dir/VisualISAM2Example.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/VectorSpace.h
 examples/CMakeFiles/VisualISAM2Example.dir/VisualISAM2Example.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/VerticalBlockMatrix.h
 examples/CMakeFiles/VisualISAM2Example.dir/VisualISAM2Example.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/concepts.h
@@ -44,13 +42,9 @@ examples/CMakeFiles/VisualISAM2Example.dir/VisualISAM2Example.cpp.o: /home/catki
 examples/CMakeFiles/VisualISAM2Example.dir/VisualISAM2Example.cpp.o: /home/catkin_ws/src/gtsam/gtsam/geometry/SOn.h
 examples/CMakeFiles/VisualISAM2Example.dir/VisualISAM2Example.cpp.o: /home/catkin_ws/src/gtsam/gtsam/geometry/Unit3.h
 examples/CMakeFiles/VisualISAM2Example.dir/VisualISAM2Example.cpp.o: /home/catkin_ws/src/gtsam/gtsam/global_includes.h
-examples/CMakeFiles/VisualISAM2Example.dir/VisualISAM2Example.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/BayesNet-inst.h
-examples/CMakeFiles/VisualISAM2Example.dir/VisualISAM2Example.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/BayesNet.h
 examples/CMakeFiles/VisualISAM2Example.dir/VisualISAM2Example.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/BayesTree.h
 examples/CMakeFiles/VisualISAM2Example.dir/VisualISAM2Example.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/BayesTreeCliqueBase.h
-examples/CMakeFiles/VisualISAM2Example.dir/VisualISAM2Example.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/Conditional-inst.h
 examples/CMakeFiles/VisualISAM2Example.dir/VisualISAM2Example.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/Conditional.h
-examples/CMakeFiles/VisualISAM2Example.dir/VisualISAM2Example.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/DotWriter.h
 examples/CMakeFiles/VisualISAM2Example.dir/VisualISAM2Example.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/EliminateableFactorGraph.h
 examples/CMakeFiles/VisualISAM2Example.dir/VisualISAM2Example.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/Factor.h
 examples/CMakeFiles/VisualISAM2Example.dir/VisualISAM2Example.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/FactorGraph-inst.h
@@ -80,7 +74,6 @@ examples/CMakeFiles/VisualISAM2Example.dir/VisualISAM2Example.cpp.o: /home/catki
 examples/CMakeFiles/VisualISAM2Example.dir/VisualISAM2Example.cpp.o: /home/catkin_ws/src/gtsam/gtsam/linear/VectorValues.h
 examples/CMakeFiles/VisualISAM2Example.dir/VisualISAM2Example.cpp.o: /home/catkin_ws/src/gtsam/gtsam/linear/linearExceptions.h
 examples/CMakeFiles/VisualISAM2Example.dir/VisualISAM2Example.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/DoglegOptimizerImpl.h
-examples/CMakeFiles/VisualISAM2Example.dir/VisualISAM2Example.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/GraphvizFormatting.h
 examples/CMakeFiles/VisualISAM2Example.dir/VisualISAM2Example.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/ISAM2.h
 examples/CMakeFiles/VisualISAM2Example.dir/VisualISAM2Example.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/ISAM2Clique.h
 examples/CMakeFiles/VisualISAM2Example.dir/VisualISAM2Example.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/ISAM2Params.h

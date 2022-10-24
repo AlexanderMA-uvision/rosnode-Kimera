@@ -80,7 +80,7 @@ testGaussianDensity_EXTERNAL_OBJECTS =
 gtsam/linear/tests/testGaussianDensity: gtsam/linear/tests/CMakeFiles/testGaussianDensity.dir/testGaussianDensity.cpp.o
 gtsam/linear/tests/testGaussianDensity: gtsam/linear/tests/CMakeFiles/testGaussianDensity.dir/build.make
 gtsam/linear/tests/testGaussianDensity: CppUnitLite/libCppUnitLite.a
-gtsam/linear/tests/testGaussianDensity: gtsam/libgtsam.so.4.2.0
+gtsam/linear/tests/testGaussianDensity: gtsam/libgtsam.so.4.1.0
 gtsam/linear/tests/testGaussianDensity: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 gtsam/linear/tests/testGaussianDensity: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 gtsam/linear/tests/testGaussianDensity: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

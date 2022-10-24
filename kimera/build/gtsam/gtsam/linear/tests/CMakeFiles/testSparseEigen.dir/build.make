@@ -80,7 +80,7 @@ testSparseEigen_EXTERNAL_OBJECTS =
 gtsam/linear/tests/testSparseEigen: gtsam/linear/tests/CMakeFiles/testSparseEigen.dir/testSparseEigen.cpp.o
 gtsam/linear/tests/testSparseEigen: gtsam/linear/tests/CMakeFiles/testSparseEigen.dir/build.make
 gtsam/linear/tests/testSparseEigen: CppUnitLite/libCppUnitLite.a
-gtsam/linear/tests/testSparseEigen: gtsam/libgtsam.so.4.2.0
+gtsam/linear/tests/testSparseEigen: gtsam/libgtsam.so.4.1.0
 gtsam/linear/tests/testSparseEigen: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 gtsam/linear/tests/testSparseEigen: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 gtsam/linear/tests/testSparseEigen: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

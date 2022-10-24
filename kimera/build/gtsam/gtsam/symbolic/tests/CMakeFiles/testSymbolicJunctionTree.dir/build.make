@@ -80,7 +80,7 @@ testSymbolicJunctionTree_EXTERNAL_OBJECTS =
 gtsam/symbolic/tests/testSymbolicJunctionTree: gtsam/symbolic/tests/CMakeFiles/testSymbolicJunctionTree.dir/testSymbolicJunctionTree.cpp.o
 gtsam/symbolic/tests/testSymbolicJunctionTree: gtsam/symbolic/tests/CMakeFiles/testSymbolicJunctionTree.dir/build.make
 gtsam/symbolic/tests/testSymbolicJunctionTree: CppUnitLite/libCppUnitLite.a
-gtsam/symbolic/tests/testSymbolicJunctionTree: gtsam/libgtsam.so.4.2.0
+gtsam/symbolic/tests/testSymbolicJunctionTree: gtsam/libgtsam.so.4.1.0
 gtsam/symbolic/tests/testSymbolicJunctionTree: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 gtsam/symbolic/tests/testSymbolicJunctionTree: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 gtsam/symbolic/tests/testSymbolicJunctionTree: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

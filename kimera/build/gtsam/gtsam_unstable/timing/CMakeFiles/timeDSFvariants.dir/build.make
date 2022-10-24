@@ -79,8 +79,8 @@ timeDSFvariants_EXTERNAL_OBJECTS =
 
 gtsam_unstable/timing/timeDSFvariants: gtsam_unstable/timing/CMakeFiles/timeDSFvariants.dir/timeDSFvariants.cpp.o
 gtsam_unstable/timing/timeDSFvariants: gtsam_unstable/timing/CMakeFiles/timeDSFvariants.dir/build.make
-gtsam_unstable/timing/timeDSFvariants: gtsam_unstable/libgtsam_unstable.so.4.2.0
-gtsam_unstable/timing/timeDSFvariants: gtsam/libgtsam.so.4.2.0
+gtsam_unstable/timing/timeDSFvariants: gtsam_unstable/libgtsam_unstable.so.4.1.0
+gtsam_unstable/timing/timeDSFvariants: gtsam/libgtsam.so.4.1.0
 gtsam_unstable/timing/timeDSFvariants: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 gtsam_unstable/timing/timeDSFvariants: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 gtsam_unstable/timing/timeDSFvariants: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

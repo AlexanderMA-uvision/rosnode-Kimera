@@ -14,7 +14,6 @@ examples/CMakeFiles/Pose2SLAMExample_graphviz.dir/Pose2SLAMExample_graphviz.cpp.
  /home/catkin_ws/src/gtsam/gtsam/base/Lie.h
  /home/catkin_ws/src/gtsam/gtsam/base/Manifold.h
  /home/catkin_ws/src/gtsam/gtsam/base/Matrix.h
- /home/catkin_ws/src/gtsam/gtsam/base/MatrixSerialization.h
  /home/catkin_ws/src/gtsam/gtsam/base/OptionalJacobian.h
  /home/catkin_ws/src/gtsam/gtsam/base/SymmetricBlockMatrix.h
  /home/catkin_ws/src/gtsam/gtsam/base/Testable.h
@@ -30,7 +29,6 @@ examples/CMakeFiles/Pose2SLAMExample_graphviz.dir/Pose2SLAMExample_graphviz.cpp.
  /home/catkin_ws/src/gtsam/gtsam/geometry/Pose2.h
  /home/catkin_ws/src/gtsam/gtsam/geometry/Rot2.h
  /home/catkin_ws/src/gtsam/gtsam/global_includes.h
- /home/catkin_ws/src/gtsam/gtsam/inference/DotWriter.h
  /home/catkin_ws/src/gtsam/gtsam/inference/EliminateableFactorGraph.h
  /home/catkin_ws/src/gtsam/gtsam/inference/Factor.h
  /home/catkin_ws/src/gtsam/gtsam/inference/FactorGraph-inst.h
@@ -58,7 +56,6 @@ examples/CMakeFiles/Pose2SLAMExample_graphviz.dir/Pose2SLAMExample_graphviz.cpp.
  /home/catkin_ws/src/gtsam/gtsam/linear/SubgraphSolver.h
  /home/catkin_ws/src/gtsam/gtsam/linear/VectorValues.h
  /home/catkin_ws/src/gtsam/gtsam/linear/linearExceptions.h
- /home/catkin_ws/src/gtsam/gtsam/nonlinear/GraphvizFormatting.h
  /home/catkin_ws/src/gtsam/gtsam/nonlinear/LevenbergMarquardtOptimizer.h
  /home/catkin_ws/src/gtsam/gtsam/nonlinear/LevenbergMarquardtParams.h
  /home/catkin_ws/src/gtsam/gtsam/nonlinear/NonlinearFactor.h

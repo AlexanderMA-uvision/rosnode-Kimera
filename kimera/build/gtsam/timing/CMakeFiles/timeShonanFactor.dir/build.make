@@ -79,7 +79,7 @@ timeShonanFactor_EXTERNAL_OBJECTS =
 
 timing/timeShonanFactor: timing/CMakeFiles/timeShonanFactor.dir/timeShonanFactor.cpp.o
 timing/timeShonanFactor: timing/CMakeFiles/timeShonanFactor.dir/build.make
-timing/timeShonanFactor: gtsam/libgtsam.so.4.2.0
+timing/timeShonanFactor: gtsam/libgtsam.so.4.1.0
 timing/timeShonanFactor: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 timing/timeShonanFactor: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 timing/timeShonanFactor: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

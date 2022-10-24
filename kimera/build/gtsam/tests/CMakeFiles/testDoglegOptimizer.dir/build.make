@@ -80,7 +80,7 @@ testDoglegOptimizer_EXTERNAL_OBJECTS =
 tests/testDoglegOptimizer: tests/CMakeFiles/testDoglegOptimizer.dir/testDoglegOptimizer.cpp.o
 tests/testDoglegOptimizer: tests/CMakeFiles/testDoglegOptimizer.dir/build.make
 tests/testDoglegOptimizer: CppUnitLite/libCppUnitLite.a
-tests/testDoglegOptimizer: gtsam/libgtsam.so.4.2.0
+tests/testDoglegOptimizer: gtsam/libgtsam.so.4.1.0
 tests/testDoglegOptimizer: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 tests/testDoglegOptimizer: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 tests/testDoglegOptimizer: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

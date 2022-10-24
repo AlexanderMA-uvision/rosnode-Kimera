@@ -80,7 +80,7 @@ testGeneralSFMFactor_Cal3Bundler_EXTERNAL_OBJECTS =
 gtsam/slam/tests/testGeneralSFMFactor_Cal3Bundler: gtsam/slam/tests/CMakeFiles/testGeneralSFMFactor_Cal3Bundler.dir/testGeneralSFMFactor_Cal3Bundler.cpp.o
 gtsam/slam/tests/testGeneralSFMFactor_Cal3Bundler: gtsam/slam/tests/CMakeFiles/testGeneralSFMFactor_Cal3Bundler.dir/build.make
 gtsam/slam/tests/testGeneralSFMFactor_Cal3Bundler: CppUnitLite/libCppUnitLite.a
-gtsam/slam/tests/testGeneralSFMFactor_Cal3Bundler: gtsam/libgtsam.so.4.2.0
+gtsam/slam/tests/testGeneralSFMFactor_Cal3Bundler: gtsam/libgtsam.so.4.1.0
 gtsam/slam/tests/testGeneralSFMFactor_Cal3Bundler: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 gtsam/slam/tests/testGeneralSFMFactor_Cal3Bundler: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 gtsam/slam/tests/testGeneralSFMFactor_Cal3Bundler: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

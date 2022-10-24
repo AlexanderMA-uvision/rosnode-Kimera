@@ -13,14 +13,12 @@ examples/CMakeFiles/SFMExampleExpressions_bal.dir/SFMExampleExpressions_bal.cpp.
 examples/CMakeFiles/SFMExampleExpressions_bal.dir/SFMExampleExpressions_bal.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Lie.h
 examples/CMakeFiles/SFMExampleExpressions_bal.dir/SFMExampleExpressions_bal.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Manifold.h
 examples/CMakeFiles/SFMExampleExpressions_bal.dir/SFMExampleExpressions_bal.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Matrix.h
-examples/CMakeFiles/SFMExampleExpressions_bal.dir/SFMExampleExpressions_bal.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/MatrixSerialization.h
 examples/CMakeFiles/SFMExampleExpressions_bal.dir/SFMExampleExpressions_bal.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/OptionalJacobian.h
 examples/CMakeFiles/SFMExampleExpressions_bal.dir/SFMExampleExpressions_bal.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/SymmetricBlockMatrix.h
 examples/CMakeFiles/SFMExampleExpressions_bal.dir/SFMExampleExpressions_bal.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Testable.h
 examples/CMakeFiles/SFMExampleExpressions_bal.dir/SFMExampleExpressions_bal.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/ThreadsafeException.h
 examples/CMakeFiles/SFMExampleExpressions_bal.dir/SFMExampleExpressions_bal.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Value.h
 examples/CMakeFiles/SFMExampleExpressions_bal.dir/SFMExampleExpressions_bal.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Vector.h
-examples/CMakeFiles/SFMExampleExpressions_bal.dir/SFMExampleExpressions_bal.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/VectorSerialization.h
 examples/CMakeFiles/SFMExampleExpressions_bal.dir/SFMExampleExpressions_bal.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/VectorSpace.h
 examples/CMakeFiles/SFMExampleExpressions_bal.dir/SFMExampleExpressions_bal.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/VerticalBlockMatrix.h
 examples/CMakeFiles/SFMExampleExpressions_bal.dir/SFMExampleExpressions_bal.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/concepts.h
@@ -48,7 +46,6 @@ examples/CMakeFiles/SFMExampleExpressions_bal.dir/SFMExampleExpressions_bal.cpp.
 examples/CMakeFiles/SFMExampleExpressions_bal.dir/SFMExampleExpressions_bal.cpp.o: /home/catkin_ws/src/gtsam/gtsam/geometry/SOn.h
 examples/CMakeFiles/SFMExampleExpressions_bal.dir/SFMExampleExpressions_bal.cpp.o: /home/catkin_ws/src/gtsam/gtsam/geometry/Unit3.h
 examples/CMakeFiles/SFMExampleExpressions_bal.dir/SFMExampleExpressions_bal.cpp.o: /home/catkin_ws/src/gtsam/gtsam/global_includes.h
-examples/CMakeFiles/SFMExampleExpressions_bal.dir/SFMExampleExpressions_bal.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/DotWriter.h
 examples/CMakeFiles/SFMExampleExpressions_bal.dir/SFMExampleExpressions_bal.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/EliminateableFactorGraph.h
 examples/CMakeFiles/SFMExampleExpressions_bal.dir/SFMExampleExpressions_bal.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/Factor.h
 examples/CMakeFiles/SFMExampleExpressions_bal.dir/SFMExampleExpressions_bal.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/FactorGraph-inst.h
@@ -81,7 +78,6 @@ examples/CMakeFiles/SFMExampleExpressions_bal.dir/SFMExampleExpressions_bal.cpp.
 examples/CMakeFiles/SFMExampleExpressions_bal.dir/SFMExampleExpressions_bal.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/Expression.h
 examples/CMakeFiles/SFMExampleExpressions_bal.dir/SFMExampleExpressions_bal.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/ExpressionFactor.h
 examples/CMakeFiles/SFMExampleExpressions_bal.dir/SFMExampleExpressions_bal.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/ExpressionFactorGraph.h
-examples/CMakeFiles/SFMExampleExpressions_bal.dir/SFMExampleExpressions_bal.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/GraphvizFormatting.h
 examples/CMakeFiles/SFMExampleExpressions_bal.dir/SFMExampleExpressions_bal.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/LevenbergMarquardtOptimizer.h
 examples/CMakeFiles/SFMExampleExpressions_bal.dir/SFMExampleExpressions_bal.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/LevenbergMarquardtParams.h
 examples/CMakeFiles/SFMExampleExpressions_bal.dir/SFMExampleExpressions_bal.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/NonlinearFactor.h
@@ -97,8 +93,6 @@ examples/CMakeFiles/SFMExampleExpressions_bal.dir/SFMExampleExpressions_bal.cpp.
 examples/CMakeFiles/SFMExampleExpressions_bal.dir/SFMExampleExpressions_bal.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/internal/ExpressionNode.h
 examples/CMakeFiles/SFMExampleExpressions_bal.dir/SFMExampleExpressions_bal.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/internal/JacobianMap.h
 examples/CMakeFiles/SFMExampleExpressions_bal.dir/SFMExampleExpressions_bal.cpp.o: /home/catkin_ws/src/gtsam/gtsam/sfm/BinaryMeasurement.h
-examples/CMakeFiles/SFMExampleExpressions_bal.dir/SFMExampleExpressions_bal.cpp.o: /home/catkin_ws/src/gtsam/gtsam/sfm/SfmData.h
-examples/CMakeFiles/SFMExampleExpressions_bal.dir/SFMExampleExpressions_bal.cpp.o: /home/catkin_ws/src/gtsam/gtsam/sfm/SfmTrack.h
 examples/CMakeFiles/SFMExampleExpressions_bal.dir/SFMExampleExpressions_bal.cpp.o: /home/catkin_ws/src/gtsam/gtsam/slam/BetweenFactor.h
 examples/CMakeFiles/SFMExampleExpressions_bal.dir/SFMExampleExpressions_bal.cpp.o: /home/catkin_ws/src/gtsam/gtsam/slam/dataset.h
 examples/CMakeFiles/SFMExampleExpressions_bal.dir/SFMExampleExpressions_bal.cpp.o: /home/catkin_ws/src/gtsam/gtsam/slam/expressions.h

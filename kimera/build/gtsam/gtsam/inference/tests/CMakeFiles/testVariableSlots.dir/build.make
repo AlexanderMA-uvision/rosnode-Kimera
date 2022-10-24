@@ -80,7 +80,7 @@ testVariableSlots_EXTERNAL_OBJECTS =
 gtsam/inference/tests/testVariableSlots: gtsam/inference/tests/CMakeFiles/testVariableSlots.dir/testVariableSlots.cpp.o
 gtsam/inference/tests/testVariableSlots: gtsam/inference/tests/CMakeFiles/testVariableSlots.dir/build.make
 gtsam/inference/tests/testVariableSlots: CppUnitLite/libCppUnitLite.a
-gtsam/inference/tests/testVariableSlots: gtsam/libgtsam.so.4.2.0
+gtsam/inference/tests/testVariableSlots: gtsam/libgtsam.so.4.1.0
 gtsam/inference/tests/testVariableSlots: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 gtsam/inference/tests/testVariableSlots: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 gtsam/inference/tests/testVariableSlots: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

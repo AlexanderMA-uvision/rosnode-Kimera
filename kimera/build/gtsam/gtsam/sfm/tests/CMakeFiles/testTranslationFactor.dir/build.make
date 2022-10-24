@@ -80,7 +80,7 @@ testTranslationFactor_EXTERNAL_OBJECTS =
 gtsam/sfm/tests/testTranslationFactor: gtsam/sfm/tests/CMakeFiles/testTranslationFactor.dir/testTranslationFactor.cpp.o
 gtsam/sfm/tests/testTranslationFactor: gtsam/sfm/tests/CMakeFiles/testTranslationFactor.dir/build.make
 gtsam/sfm/tests/testTranslationFactor: CppUnitLite/libCppUnitLite.a
-gtsam/sfm/tests/testTranslationFactor: gtsam/libgtsam.so.4.2.0
+gtsam/sfm/tests/testTranslationFactor: gtsam/libgtsam.so.4.1.0
 gtsam/sfm/tests/testTranslationFactor: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 gtsam/sfm/tests/testTranslationFactor: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 gtsam/sfm/tests/testTranslationFactor: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

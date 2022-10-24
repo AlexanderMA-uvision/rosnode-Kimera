@@ -80,8 +80,8 @@ RpgoReadG2o_EXTERNAL_OBJECTS =
 RpgoReadG2o: CMakeFiles/RpgoReadG2o.dir/examples/RpgoReadG2o.cpp.o
 RpgoReadG2o: CMakeFiles/RpgoReadG2o.dir/build.make
 RpgoReadG2o: libKimeraRPGO.so
-RpgoReadG2o: /home/catkin_ws/devel/lib/libgtsam_unstable.so.4.2.0
-RpgoReadG2o: /home/catkin_ws/devel/lib/libgtsam.so.4.2.0
+RpgoReadG2o: /home/catkin_ws/devel/lib/libgtsam_unstable.so.4.1.0
+RpgoReadG2o: /home/catkin_ws/devel/lib/libgtsam.so.4.1.0
 RpgoReadG2o: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 RpgoReadG2o: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 RpgoReadG2o: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

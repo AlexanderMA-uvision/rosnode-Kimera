@@ -80,7 +80,7 @@ testDataset_EXTERNAL_OBJECTS =
 gtsam/slam/tests/testDataset: gtsam/slam/tests/CMakeFiles/testDataset.dir/testDataset.cpp.o
 gtsam/slam/tests/testDataset: gtsam/slam/tests/CMakeFiles/testDataset.dir/build.make
 gtsam/slam/tests/testDataset: CppUnitLite/libCppUnitLite.a
-gtsam/slam/tests/testDataset: gtsam/libgtsam.so.4.2.0
+gtsam/slam/tests/testDataset: gtsam/libgtsam.so.4.1.0
 gtsam/slam/tests/testDataset: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 gtsam/slam/tests/testDataset: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 gtsam/slam/tests/testDataset: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

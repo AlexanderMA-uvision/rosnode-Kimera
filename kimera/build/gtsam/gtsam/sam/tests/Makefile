@@ -125,16 +125,15 @@ test/fast: test
 
 .PHONY : test/fast
 
-# Special rule for the target package_source
-package_source:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/catkin_ws/build/gtsam && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/catkin_ws/build/gtsam/CPackSourceConfig.cmake
-.PHONY : package_source
+# Special rule for the target list_install_components
+list_install_components:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
+.PHONY : list_install_components
 
-# Special rule for the target package_source
-package_source/fast: package_source
+# Special rule for the target list_install_components
+list_install_components/fast: list_install_components
 
-.PHONY : package_source/fast
+.PHONY : list_install_components/fast
 
 # Special rule for the target package
 package: preinstall
@@ -147,15 +146,16 @@ package/fast: package
 
 .PHONY : package/fast
 
-# Special rule for the target list_install_components
-list_install_components:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
-.PHONY : list_install_components
+# Special rule for the target package_source
+package_source:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
+	cd /home/catkin_ws/build/gtsam && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/catkin_ws/build/gtsam/CPackSourceConfig.cmake
+.PHONY : package_source
 
-# Special rule for the target list_install_components
-list_install_components/fast: list_install_components
+# Special rule for the target package_source
+package_source/fast: package_source
 
-.PHONY : list_install_components/fast
+.PHONY : package_source/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -205,21 +205,6 @@ check.sam/fast:
 .PHONY : check.sam/fast
 
 # Convenience name for target.
-gtsam/sam/tests/CMakeFiles/testBearingRangeFactor.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/sam/tests/CMakeFiles/testBearingRangeFactor.dir/rule
-.PHONY : gtsam/sam/tests/CMakeFiles/testBearingRangeFactor.dir/rule
-
-# Convenience name for target.
-testBearingRangeFactor: gtsam/sam/tests/CMakeFiles/testBearingRangeFactor.dir/rule
-
-.PHONY : testBearingRangeFactor
-
-# fast build rule for target.
-testBearingRangeFactor/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/sam/tests/CMakeFiles/testBearingRangeFactor.dir/build.make gtsam/sam/tests/CMakeFiles/testBearingRangeFactor.dir/build
-.PHONY : testBearingRangeFactor/fast
-
-# Convenience name for target.
 gtsam/sam/tests/CMakeFiles/testBearingFactor.dir/rule:
 	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/sam/tests/CMakeFiles/testBearingFactor.dir/rule
 .PHONY : gtsam/sam/tests/CMakeFiles/testBearingFactor.dir/rule
@@ -235,19 +220,19 @@ testBearingFactor/fast:
 .PHONY : testBearingFactor/fast
 
 # Convenience name for target.
-gtsam/sam/tests/CMakeFiles/testSerializationSam.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/sam/tests/CMakeFiles/testSerializationSam.dir/rule
-.PHONY : gtsam/sam/tests/CMakeFiles/testSerializationSam.dir/rule
+gtsam/sam/tests/CMakeFiles/testBearingRangeFactor.dir/rule:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/sam/tests/CMakeFiles/testBearingRangeFactor.dir/rule
+.PHONY : gtsam/sam/tests/CMakeFiles/testBearingRangeFactor.dir/rule
 
 # Convenience name for target.
-testSerializationSam: gtsam/sam/tests/CMakeFiles/testSerializationSam.dir/rule
+testBearingRangeFactor: gtsam/sam/tests/CMakeFiles/testBearingRangeFactor.dir/rule
 
-.PHONY : testSerializationSam
+.PHONY : testBearingRangeFactor
 
 # fast build rule for target.
-testSerializationSam/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/sam/tests/CMakeFiles/testSerializationSam.dir/build.make gtsam/sam/tests/CMakeFiles/testSerializationSam.dir/build
-.PHONY : testSerializationSam/fast
+testBearingRangeFactor/fast:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/sam/tests/CMakeFiles/testBearingRangeFactor.dir/build.make gtsam/sam/tests/CMakeFiles/testBearingRangeFactor.dir/build
+.PHONY : testBearingRangeFactor/fast
 
 # Convenience name for target.
 gtsam/sam/tests/CMakeFiles/testBearingFactor.run.dir/rule:
@@ -325,21 +310,6 @@ testRangeFactor.valgrind/fast:
 .PHONY : testRangeFactor.valgrind/fast
 
 # Convenience name for target.
-gtsam/sam/tests/CMakeFiles/testSerializationSam.run.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/sam/tests/CMakeFiles/testSerializationSam.run.dir/rule
-.PHONY : gtsam/sam/tests/CMakeFiles/testSerializationSam.run.dir/rule
-
-# Convenience name for target.
-testSerializationSam.run: gtsam/sam/tests/CMakeFiles/testSerializationSam.run.dir/rule
-
-.PHONY : testSerializationSam.run
-
-# fast build rule for target.
-testSerializationSam.run/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/sam/tests/CMakeFiles/testSerializationSam.run.dir/build.make gtsam/sam/tests/CMakeFiles/testSerializationSam.run.dir/build
-.PHONY : testSerializationSam.run/fast
-
-# Convenience name for target.
 gtsam/sam/tests/CMakeFiles/testRangeFactor.dir/rule:
 	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/sam/tests/CMakeFiles/testRangeFactor.dir/rule
 .PHONY : gtsam/sam/tests/CMakeFiles/testRangeFactor.dir/rule
@@ -368,21 +338,6 @@ testRangeFactor.run: gtsam/sam/tests/CMakeFiles/testRangeFactor.run.dir/rule
 testRangeFactor.run/fast:
 	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/sam/tests/CMakeFiles/testRangeFactor.run.dir/build.make gtsam/sam/tests/CMakeFiles/testRangeFactor.run.dir/build
 .PHONY : testRangeFactor.run/fast
-
-# Convenience name for target.
-gtsam/sam/tests/CMakeFiles/testSerializationSam.valgrind.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/sam/tests/CMakeFiles/testSerializationSam.valgrind.dir/rule
-.PHONY : gtsam/sam/tests/CMakeFiles/testSerializationSam.valgrind.dir/rule
-
-# Convenience name for target.
-testSerializationSam.valgrind: gtsam/sam/tests/CMakeFiles/testSerializationSam.valgrind.dir/rule
-
-.PHONY : testSerializationSam.valgrind
-
-# fast build rule for target.
-testSerializationSam.valgrind/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/sam/tests/CMakeFiles/testSerializationSam.valgrind.dir/build.make gtsam/sam/tests/CMakeFiles/testSerializationSam.valgrind.dir/build
-.PHONY : testSerializationSam.valgrind/fast
 
 testBearingFactor.o: testBearingFactor.cpp.o
 
@@ -465,33 +420,6 @@ testRangeFactor.cpp.s:
 	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/sam/tests/CMakeFiles/testRangeFactor.dir/build.make gtsam/sam/tests/CMakeFiles/testRangeFactor.dir/testRangeFactor.cpp.s
 .PHONY : testRangeFactor.cpp.s
 
-testSerializationSam.o: testSerializationSam.cpp.o
-
-.PHONY : testSerializationSam.o
-
-# target to build an object file
-testSerializationSam.cpp.o:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/sam/tests/CMakeFiles/testSerializationSam.dir/build.make gtsam/sam/tests/CMakeFiles/testSerializationSam.dir/testSerializationSam.cpp.o
-.PHONY : testSerializationSam.cpp.o
-
-testSerializationSam.i: testSerializationSam.cpp.i
-
-.PHONY : testSerializationSam.i
-
-# target to preprocess a source file
-testSerializationSam.cpp.i:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/sam/tests/CMakeFiles/testSerializationSam.dir/build.make gtsam/sam/tests/CMakeFiles/testSerializationSam.dir/testSerializationSam.cpp.i
-.PHONY : testSerializationSam.cpp.i
-
-testSerializationSam.s: testSerializationSam.cpp.s
-
-.PHONY : testSerializationSam.s
-
-# target to generate assembly for a file
-testSerializationSam.cpp.s:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/sam/tests/CMakeFiles/testSerializationSam.dir/build.make gtsam/sam/tests/CMakeFiles/testSerializationSam.dir/testSerializationSam.cpp.s
-.PHONY : testSerializationSam.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -503,23 +431,20 @@ help:
 	@echo "... install"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... test"
-	@echo "... package_source"
-	@echo "... package"
 	@echo "... check.sam"
-	@echo "... testBearingRangeFactor"
+	@echo "... test"
 	@echo "... testBearingFactor"
-	@echo "... testSerializationSam"
+	@echo "... testBearingRangeFactor"
 	@echo "... testBearingFactor.run"
 	@echo "... testBearingFactor.valgrind"
 	@echo "... list_install_components"
 	@echo "... testBearingRangeFactor.run"
+	@echo "... package"
 	@echo "... testBearingRangeFactor.valgrind"
 	@echo "... testRangeFactor.valgrind"
-	@echo "... testSerializationSam.run"
 	@echo "... testRangeFactor"
 	@echo "... testRangeFactor.run"
-	@echo "... testSerializationSam.valgrind"
+	@echo "... package_source"
 	@echo "... testBearingFactor.o"
 	@echo "... testBearingFactor.i"
 	@echo "... testBearingFactor.s"
@@ -529,9 +454,6 @@ help:
 	@echo "... testRangeFactor.o"
 	@echo "... testRangeFactor.i"
 	@echo "... testRangeFactor.s"
-	@echo "... testSerializationSam.o"
-	@echo "... testSerializationSam.i"
-	@echo "... testSerializationSam.s"
 .PHONY : help
 
 

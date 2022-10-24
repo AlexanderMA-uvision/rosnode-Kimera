@@ -19,13 +19,11 @@
 
 #pragma once
 
-#include <Eigen/Core>
-#include <fstream>
 #include <sstream>
+#include <fstream>
 #include <string>
 
 // includes for standard serialization types
-#include <boost/serialization/version.hpp>
 #include <boost/serialization/optional.hpp>
 #include <boost/serialization/shared_ptr.hpp>
 #include <boost/serialization/vector.hpp>
@@ -41,17 +39,6 @@
 #include <boost/archive/binary_iarchive.hpp>
 #include <boost/archive/binary_oarchive.hpp>
 #include <boost/serialization/export.hpp>
-
-// Workaround a bug in GCC >= 7 and C++17
-// ref. https://gitlab.com/libeigen/eigen/-/issues/1676
-#ifdef __GNUC__
-#if __GNUC__ >= 7 && __cplusplus >= 201703L
-namespace boost { namespace serialization { struct U; } }
-namespace Eigen { namespace internal {
-template<> struct traits<boost::serialization::U> {enum {Flags=0};};
-} }
-#endif
-#endif
 
 namespace gtsam {
 

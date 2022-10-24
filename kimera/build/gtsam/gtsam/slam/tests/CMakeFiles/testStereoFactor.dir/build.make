@@ -80,7 +80,7 @@ testStereoFactor_EXTERNAL_OBJECTS =
 gtsam/slam/tests/testStereoFactor: gtsam/slam/tests/CMakeFiles/testStereoFactor.dir/testStereoFactor.cpp.o
 gtsam/slam/tests/testStereoFactor: gtsam/slam/tests/CMakeFiles/testStereoFactor.dir/build.make
 gtsam/slam/tests/testStereoFactor: CppUnitLite/libCppUnitLite.a
-gtsam/slam/tests/testStereoFactor: gtsam/libgtsam.so.4.2.0
+gtsam/slam/tests/testStereoFactor: gtsam/libgtsam.so.4.1.0
 gtsam/slam/tests/testStereoFactor: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 gtsam/slam/tests/testStereoFactor: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 gtsam/slam/tests/testStereoFactor: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

@@ -80,7 +80,7 @@ testParameterMatrix_EXTERNAL_OBJECTS =
 gtsam/basis/tests/testParameterMatrix: gtsam/basis/tests/CMakeFiles/testParameterMatrix.dir/testParameterMatrix.cpp.o
 gtsam/basis/tests/testParameterMatrix: gtsam/basis/tests/CMakeFiles/testParameterMatrix.dir/build.make
 gtsam/basis/tests/testParameterMatrix: CppUnitLite/libCppUnitLite.a
-gtsam/basis/tests/testParameterMatrix: gtsam/libgtsam.so.4.2.0
+gtsam/basis/tests/testParameterMatrix: gtsam/libgtsam.so.4.1.0
 gtsam/basis/tests/testParameterMatrix: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 gtsam/basis/tests/testParameterMatrix: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 gtsam/basis/tests/testParameterMatrix: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

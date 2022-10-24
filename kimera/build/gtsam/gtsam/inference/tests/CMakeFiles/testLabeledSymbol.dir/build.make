@@ -80,7 +80,7 @@ testLabeledSymbol_EXTERNAL_OBJECTS =
 gtsam/inference/tests/testLabeledSymbol: gtsam/inference/tests/CMakeFiles/testLabeledSymbol.dir/testLabeledSymbol.cpp.o
 gtsam/inference/tests/testLabeledSymbol: gtsam/inference/tests/CMakeFiles/testLabeledSymbol.dir/build.make
 gtsam/inference/tests/testLabeledSymbol: CppUnitLite/libCppUnitLite.a
-gtsam/inference/tests/testLabeledSymbol: gtsam/libgtsam.so.4.2.0
+gtsam/inference/tests/testLabeledSymbol: gtsam/libgtsam.so.4.1.0
 gtsam/inference/tests/testLabeledSymbol: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 gtsam/inference/tests/testLabeledSymbol: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 gtsam/inference/tests/testLabeledSymbol: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

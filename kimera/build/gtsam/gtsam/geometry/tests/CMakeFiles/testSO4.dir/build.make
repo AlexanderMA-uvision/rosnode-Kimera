@@ -80,7 +80,7 @@ testSO4_EXTERNAL_OBJECTS =
 gtsam/geometry/tests/testSO4: gtsam/geometry/tests/CMakeFiles/testSO4.dir/testSO4.cpp.o
 gtsam/geometry/tests/testSO4: gtsam/geometry/tests/CMakeFiles/testSO4.dir/build.make
 gtsam/geometry/tests/testSO4: CppUnitLite/libCppUnitLite.a
-gtsam/geometry/tests/testSO4: gtsam/libgtsam.so.4.2.0
+gtsam/geometry/tests/testSO4: gtsam/libgtsam.so.4.1.0
 gtsam/geometry/tests/testSO4: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 gtsam/geometry/tests/testSO4: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 gtsam/geometry/tests/testSO4: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

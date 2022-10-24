@@ -16,7 +16,6 @@ gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/AllDiff.cpp.o
  /home/catkin_ws/src/gtsam/gtsam/base/FastSet.h
  /home/catkin_ws/src/gtsam/gtsam/base/FastVector.h
  /home/catkin_ws/src/gtsam/gtsam/base/Testable.h
- /home/catkin_ws/src/gtsam/gtsam/base/Vector.h
  /home/catkin_ws/src/gtsam/gtsam/base/timing.h
  /home/catkin_ws/src/gtsam/gtsam/base/types.h
  /home/catkin_ws/src/gtsam/gtsam/discrete/AlgebraicDecisionTree.h
@@ -26,9 +25,8 @@ gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/AllDiff.cpp.o
  /home/catkin_ws/src/gtsam/gtsam/discrete/DecisionTreeFactor.h
  /home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteFactor.h
  /home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteKey.h
- /home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteValues.h
+ /home/catkin_ws/src/gtsam/gtsam/discrete/Potentials.h
  /home/catkin_ws/src/gtsam/gtsam/global_includes.h
- /home/catkin_ws/src/gtsam/gtsam/inference/DotWriter.h
  /home/catkin_ws/src/gtsam/gtsam/inference/Factor.h
  /home/catkin_ws/src/gtsam/gtsam/inference/FactorGraph-inst.h
  /home/catkin_ws/src/gtsam/gtsam/inference/FactorGraph.h
@@ -193,7 +191,6 @@ gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/CSP.cpp.o
  /home/catkin_ws/src/gtsam/gtsam/base/FastSet.h
  /home/catkin_ws/src/gtsam/gtsam/base/FastVector.h
  /home/catkin_ws/src/gtsam/gtsam/base/Testable.h
- /home/catkin_ws/src/gtsam/gtsam/base/Vector.h
  /home/catkin_ws/src/gtsam/gtsam/base/timing.h
  /home/catkin_ws/src/gtsam/gtsam/base/types.h
  /home/catkin_ws/src/gtsam/gtsam/discrete/AlgebraicDecisionTree.h
@@ -203,18 +200,15 @@ gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/CSP.cpp.o
  /home/catkin_ws/src/gtsam/gtsam/discrete/DecisionTreeFactor.h
  /home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteBayesNet.h
  /home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteConditional.h
- /home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteDistribution.h
  /home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteFactor.h
  /home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteFactorGraph.h
  /home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteKey.h
- /home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteLookupDAG.h
- /home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteValues.h
+ /home/catkin_ws/src/gtsam/gtsam/discrete/Potentials.h
  /home/catkin_ws/src/gtsam/gtsam/discrete/Signature.h
  /home/catkin_ws/src/gtsam/gtsam/global_includes.h
  /home/catkin_ws/src/gtsam/gtsam/inference/BayesNet-inst.h
  /home/catkin_ws/src/gtsam/gtsam/inference/BayesNet.h
  /home/catkin_ws/src/gtsam/gtsam/inference/Conditional.h
- /home/catkin_ws/src/gtsam/gtsam/inference/DotWriter.h
  /home/catkin_ws/src/gtsam/gtsam/inference/EliminateableFactorGraph.h
  /home/catkin_ws/src/gtsam/gtsam/inference/Factor.h
  /home/catkin_ws/src/gtsam/gtsam/inference/FactorGraph-inst.h
@@ -382,7 +376,6 @@ gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/Domain.cpp.o
  /home/catkin_ws/src/gtsam/gtsam/base/FastSet.h
  /home/catkin_ws/src/gtsam/gtsam/base/FastVector.h
  /home/catkin_ws/src/gtsam/gtsam/base/Testable.h
- /home/catkin_ws/src/gtsam/gtsam/base/Vector.h
  /home/catkin_ws/src/gtsam/gtsam/base/timing.h
  /home/catkin_ws/src/gtsam/gtsam/base/types.h
  /home/catkin_ws/src/gtsam/gtsam/discrete/AlgebraicDecisionTree.h
@@ -392,9 +385,8 @@ gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/Domain.cpp.o
  /home/catkin_ws/src/gtsam/gtsam/discrete/DecisionTreeFactor.h
  /home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteFactor.h
  /home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteKey.h
- /home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteValues.h
+ /home/catkin_ws/src/gtsam/gtsam/discrete/Potentials.h
  /home/catkin_ws/src/gtsam/gtsam/global_includes.h
- /home/catkin_ws/src/gtsam/gtsam/inference/DotWriter.h
  /home/catkin_ws/src/gtsam/gtsam/inference/Factor.h
  /home/catkin_ws/src/gtsam/gtsam/inference/FactorGraph-inst.h
  /home/catkin_ws/src/gtsam/gtsam/inference/FactorGraph.h
@@ -557,7 +549,6 @@ gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/Scheduler.cpp.o
  /home/catkin_ws/src/gtsam/gtsam/base/FastSet.h
  /home/catkin_ws/src/gtsam/gtsam/base/FastVector.h
  /home/catkin_ws/src/gtsam/gtsam/base/Testable.h
- /home/catkin_ws/src/gtsam/gtsam/base/Vector.h
  /home/catkin_ws/src/gtsam/gtsam/base/debug.h
  /home/catkin_ws/src/gtsam/gtsam/base/timing.h
  /home/catkin_ws/src/gtsam/gtsam/base/types.h
@@ -568,18 +559,15 @@ gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/Scheduler.cpp.o
  /home/catkin_ws/src/gtsam/gtsam/discrete/DecisionTreeFactor.h
  /home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteBayesNet.h
  /home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteConditional.h
- /home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteDistribution.h
  /home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteFactor.h
  /home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteFactorGraph.h
  /home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteKey.h
- /home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteLookupDAG.h
- /home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteValues.h
+ /home/catkin_ws/src/gtsam/gtsam/discrete/Potentials.h
  /home/catkin_ws/src/gtsam/gtsam/discrete/Signature.h
  /home/catkin_ws/src/gtsam/gtsam/global_includes.h
  /home/catkin_ws/src/gtsam/gtsam/inference/BayesNet-inst.h
  /home/catkin_ws/src/gtsam/gtsam/inference/BayesNet.h
  /home/catkin_ws/src/gtsam/gtsam/inference/Conditional.h
- /home/catkin_ws/src/gtsam/gtsam/inference/DotWriter.h
  /home/catkin_ws/src/gtsam/gtsam/inference/EliminateableFactorGraph.h
  /home/catkin_ws/src/gtsam/gtsam/inference/Factor.h
  /home/catkin_ws/src/gtsam/gtsam/inference/FactorGraph-inst.h
@@ -748,7 +736,6 @@ gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/SingleValue.cpp.o
  /home/catkin_ws/src/gtsam/gtsam/base/FastSet.h
  /home/catkin_ws/src/gtsam/gtsam/base/FastVector.h
  /home/catkin_ws/src/gtsam/gtsam/base/Testable.h
- /home/catkin_ws/src/gtsam/gtsam/base/Vector.h
  /home/catkin_ws/src/gtsam/gtsam/base/timing.h
  /home/catkin_ws/src/gtsam/gtsam/base/types.h
  /home/catkin_ws/src/gtsam/gtsam/discrete/AlgebraicDecisionTree.h
@@ -758,9 +745,8 @@ gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/SingleValue.cpp.o
  /home/catkin_ws/src/gtsam/gtsam/discrete/DecisionTreeFactor.h
  /home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteFactor.h
  /home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteKey.h
- /home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteValues.h
+ /home/catkin_ws/src/gtsam/gtsam/discrete/Potentials.h
  /home/catkin_ws/src/gtsam/gtsam/global_includes.h
- /home/catkin_ws/src/gtsam/gtsam/inference/DotWriter.h
  /home/catkin_ws/src/gtsam/gtsam/inference/Factor.h
  /home/catkin_ws/src/gtsam/gtsam/inference/FactorGraph-inst.h
  /home/catkin_ws/src/gtsam/gtsam/inference/FactorGraph.h
@@ -926,7 +912,6 @@ gtsam_unstable/CMakeFiles/gtsam_unstable.dir/dynamics/PoseRTV.cpp.o
  /home/catkin_ws/src/gtsam/gtsam/base/ProductLieGroup.h
  /home/catkin_ws/src/gtsam/gtsam/base/Testable.h
  /home/catkin_ws/src/gtsam/gtsam/base/Vector.h
- /home/catkin_ws/src/gtsam/gtsam/base/VectorSerialization.h
  /home/catkin_ws/src/gtsam/gtsam/base/VectorSpace.h
  /home/catkin_ws/src/gtsam/gtsam/base/concepts.h
  /home/catkin_ws/src/gtsam/gtsam/base/make_shared.h
@@ -1168,13 +1153,11 @@ gtsam_unstable/CMakeFiles/gtsam_unstable.dir/dynamics/SimpleHelicopter.cpp.o
  /home/catkin_ws/src/gtsam/gtsam/base/Lie.h
  /home/catkin_ws/src/gtsam/gtsam/base/Manifold.h
  /home/catkin_ws/src/gtsam/gtsam/base/Matrix.h
- /home/catkin_ws/src/gtsam/gtsam/base/MatrixSerialization.h
  /home/catkin_ws/src/gtsam/gtsam/base/OptionalJacobian.h
  /home/catkin_ws/src/gtsam/gtsam/base/Testable.h
  /home/catkin_ws/src/gtsam/gtsam/base/ThreadsafeException.h
  /home/catkin_ws/src/gtsam/gtsam/base/Value.h
  /home/catkin_ws/src/gtsam/gtsam/base/Vector.h
- /home/catkin_ws/src/gtsam/gtsam/base/VectorSerialization.h
  /home/catkin_ws/src/gtsam/gtsam/base/VectorSpace.h
  /home/catkin_ws/src/gtsam/gtsam/base/VerticalBlockMatrix.h
  /home/catkin_ws/src/gtsam/gtsam/base/concepts.h
@@ -1193,7 +1176,6 @@ gtsam_unstable/CMakeFiles/gtsam_unstable.dir/dynamics/SimpleHelicopter.cpp.o
  /home/catkin_ws/src/gtsam/gtsam/geometry/SOn.h
  /home/catkin_ws/src/gtsam/gtsam/geometry/Unit3.h
  /home/catkin_ws/src/gtsam/gtsam/global_includes.h
- /home/catkin_ws/src/gtsam/gtsam/inference/DotWriter.h
  /home/catkin_ws/src/gtsam/gtsam/inference/Factor.h
  /home/catkin_ws/src/gtsam/gtsam/inference/FactorGraph-inst.h
  /home/catkin_ws/src/gtsam/gtsam/inference/FactorGraph.h
@@ -1434,7 +1416,6 @@ gtsam_unstable/CMakeFiles/gtsam_unstable.dir/geometry/BearingS2.cpp.o
  /home/catkin_ws/src/gtsam/gtsam/base/OptionalJacobian.h
  /home/catkin_ws/src/gtsam/gtsam/base/Testable.h
  /home/catkin_ws/src/gtsam/gtsam/base/Vector.h
- /home/catkin_ws/src/gtsam/gtsam/base/VectorSerialization.h
  /home/catkin_ws/src/gtsam/gtsam/base/VectorSpace.h
  /home/catkin_ws/src/gtsam/gtsam/base/concepts.h
  /home/catkin_ws/src/gtsam/gtsam/base/make_shared.h
@@ -1671,7 +1652,6 @@ gtsam_unstable/CMakeFiles/gtsam_unstable.dir/geometry/Event.cpp.o
  /home/catkin_ws/src/gtsam/gtsam/base/OptionalJacobian.h
  /home/catkin_ws/src/gtsam/gtsam/base/Testable.h
  /home/catkin_ws/src/gtsam/gtsam/base/Vector.h
- /home/catkin_ws/src/gtsam/gtsam/base/VectorSerialization.h
  /home/catkin_ws/src/gtsam/gtsam/base/VectorSpace.h
  /home/catkin_ws/src/gtsam/gtsam/base/types.h
  /home/catkin_ws/src/gtsam/gtsam/geometry/Point3.h
@@ -1896,7 +1876,6 @@ gtsam_unstable/CMakeFiles/gtsam_unstable.dir/geometry/Pose3Upright.cpp.o
  /home/catkin_ws/src/gtsam/gtsam/base/OptionalJacobian.h
  /home/catkin_ws/src/gtsam/gtsam/base/Testable.h
  /home/catkin_ws/src/gtsam/gtsam/base/Vector.h
- /home/catkin_ws/src/gtsam/gtsam/base/VectorSerialization.h
  /home/catkin_ws/src/gtsam/gtsam/base/VectorSpace.h
  /home/catkin_ws/src/gtsam/gtsam/base/concepts.h
  /home/catkin_ws/src/gtsam/gtsam/base/make_shared.h
@@ -2595,7 +2574,6 @@ gtsam_unstable/CMakeFiles/gtsam_unstable.dir/linear/LPInitSolver.cpp.o
  /home/catkin_ws/src/gtsam/gtsam/base/FastSet.h
  /home/catkin_ws/src/gtsam/gtsam/base/FastVector.h
  /home/catkin_ws/src/gtsam/gtsam/base/Matrix.h
- /home/catkin_ws/src/gtsam/gtsam/base/MatrixSerialization.h
  /home/catkin_ws/src/gtsam/gtsam/base/OptionalJacobian.h
  /home/catkin_ws/src/gtsam/gtsam/base/SymmetricBlockMatrix.h
  /home/catkin_ws/src/gtsam/gtsam/base/Testable.h
@@ -2605,7 +2583,6 @@ gtsam_unstable/CMakeFiles/gtsam_unstable.dir/linear/LPInitSolver.cpp.o
  /home/catkin_ws/src/gtsam/gtsam/base/timing.h
  /home/catkin_ws/src/gtsam/gtsam/base/types.h
  /home/catkin_ws/src/gtsam/gtsam/global_includes.h
- /home/catkin_ws/src/gtsam/gtsam/inference/DotWriter.h
  /home/catkin_ws/src/gtsam/gtsam/inference/EliminateableFactorGraph.h
  /home/catkin_ws/src/gtsam/gtsam/inference/Factor.h
  /home/catkin_ws/src/gtsam/gtsam/inference/FactorGraph-inst.h
@@ -2859,7 +2836,6 @@ gtsam_unstable/CMakeFiles/gtsam_unstable.dir/linear/LPSolver.cpp.o
  /home/catkin_ws/src/gtsam/gtsam/base/FastSet.h
  /home/catkin_ws/src/gtsam/gtsam/base/FastVector.h
  /home/catkin_ws/src/gtsam/gtsam/base/Matrix.h
- /home/catkin_ws/src/gtsam/gtsam/base/MatrixSerialization.h
  /home/catkin_ws/src/gtsam/gtsam/base/OptionalJacobian.h
  /home/catkin_ws/src/gtsam/gtsam/base/SymmetricBlockMatrix.h
  /home/catkin_ws/src/gtsam/gtsam/base/Testable.h
@@ -2869,7 +2845,6 @@ gtsam_unstable/CMakeFiles/gtsam_unstable.dir/linear/LPSolver.cpp.o
  /home/catkin_ws/src/gtsam/gtsam/base/timing.h
  /home/catkin_ws/src/gtsam/gtsam/base/types.h
  /home/catkin_ws/src/gtsam/gtsam/global_includes.h
- /home/catkin_ws/src/gtsam/gtsam/inference/DotWriter.h
  /home/catkin_ws/src/gtsam/gtsam/inference/EliminateableFactorGraph.h
  /home/catkin_ws/src/gtsam/gtsam/inference/Factor.h
  /home/catkin_ws/src/gtsam/gtsam/inference/FactorGraph-inst.h
@@ -3126,14 +3101,12 @@ gtsam_unstable/CMakeFiles/gtsam_unstable.dir/linear/QPSParser.cpp.o
  /home/catkin_ws/src/gtsam/gtsam/base/Lie.h
  /home/catkin_ws/src/gtsam/gtsam/base/Manifold.h
  /home/catkin_ws/src/gtsam/gtsam/base/Matrix.h
- /home/catkin_ws/src/gtsam/gtsam/base/MatrixSerialization.h
  /home/catkin_ws/src/gtsam/gtsam/base/OptionalJacobian.h
  /home/catkin_ws/src/gtsam/gtsam/base/SymmetricBlockMatrix.h
  /home/catkin_ws/src/gtsam/gtsam/base/Testable.h
  /home/catkin_ws/src/gtsam/gtsam/base/ThreadsafeException.h
  /home/catkin_ws/src/gtsam/gtsam/base/Value.h
  /home/catkin_ws/src/gtsam/gtsam/base/Vector.h
- /home/catkin_ws/src/gtsam/gtsam/base/VectorSerialization.h
  /home/catkin_ws/src/gtsam/gtsam/base/VectorSpace.h
  /home/catkin_ws/src/gtsam/gtsam/base/VerticalBlockMatrix.h
  /home/catkin_ws/src/gtsam/gtsam/base/concepts.h
@@ -3159,7 +3132,6 @@ gtsam_unstable/CMakeFiles/gtsam_unstable.dir/linear/QPSParser.cpp.o
  /home/catkin_ws/src/gtsam/gtsam/geometry/SOn.h
  /home/catkin_ws/src/gtsam/gtsam/geometry/Unit3.h
  /home/catkin_ws/src/gtsam/gtsam/global_includes.h
- /home/catkin_ws/src/gtsam/gtsam/inference/DotWriter.h
  /home/catkin_ws/src/gtsam/gtsam/inference/EliminateableFactorGraph.h
  /home/catkin_ws/src/gtsam/gtsam/inference/Factor.h
  /home/catkin_ws/src/gtsam/gtsam/inference/FactorGraph-inst.h
@@ -3184,15 +3156,12 @@ gtsam_unstable/CMakeFiles/gtsam_unstable.dir/linear/QPSParser.cpp.o
  /home/catkin_ws/src/gtsam/gtsam/linear/Scatter.h
  /home/catkin_ws/src/gtsam/gtsam/linear/VectorValues.h
  /home/catkin_ws/src/gtsam/gtsam/linear/linearExceptions.h
- /home/catkin_ws/src/gtsam/gtsam/nonlinear/GraphvizFormatting.h
  /home/catkin_ws/src/gtsam/gtsam/nonlinear/NonlinearFactor.h
  /home/catkin_ws/src/gtsam/gtsam/nonlinear/NonlinearFactorGraph.h
  /home/catkin_ws/src/gtsam/gtsam/nonlinear/PriorFactor.h
  /home/catkin_ws/src/gtsam/gtsam/nonlinear/Values-inl.h
  /home/catkin_ws/src/gtsam/gtsam/nonlinear/Values.h
  /home/catkin_ws/src/gtsam/gtsam/sfm/BinaryMeasurement.h
- /home/catkin_ws/src/gtsam/gtsam/sfm/SfmData.h
- /home/catkin_ws/src/gtsam/gtsam/sfm/SfmTrack.h
  /home/catkin_ws/src/gtsam/gtsam/slam/BetweenFactor.h
  /home/catkin_ws/src/gtsam/gtsam/slam/dataset.h
  /home/catkin_ws/src/gtsam/gtsam_unstable/linear/EqualityFactorGraph.h
@@ -3424,14 +3393,12 @@ gtsam_unstable/CMakeFiles/gtsam_unstable.dir/linear/QPSolver.cpp.o
  /home/catkin_ws/src/gtsam/gtsam/base/Lie.h
  /home/catkin_ws/src/gtsam/gtsam/base/Manifold.h
  /home/catkin_ws/src/gtsam/gtsam/base/Matrix.h
- /home/catkin_ws/src/gtsam/gtsam/base/MatrixSerialization.h
  /home/catkin_ws/src/gtsam/gtsam/base/OptionalJacobian.h
  /home/catkin_ws/src/gtsam/gtsam/base/SymmetricBlockMatrix.h
  /home/catkin_ws/src/gtsam/gtsam/base/Testable.h
  /home/catkin_ws/src/gtsam/gtsam/base/ThreadsafeException.h
  /home/catkin_ws/src/gtsam/gtsam/base/Value.h
  /home/catkin_ws/src/gtsam/gtsam/base/Vector.h
- /home/catkin_ws/src/gtsam/gtsam/base/VectorSerialization.h
  /home/catkin_ws/src/gtsam/gtsam/base/VectorSpace.h
  /home/catkin_ws/src/gtsam/gtsam/base/VerticalBlockMatrix.h
  /home/catkin_ws/src/gtsam/gtsam/base/concepts.h
@@ -3457,7 +3424,6 @@ gtsam_unstable/CMakeFiles/gtsam_unstable.dir/linear/QPSolver.cpp.o
  /home/catkin_ws/src/gtsam/gtsam/geometry/SOn.h
  /home/catkin_ws/src/gtsam/gtsam/geometry/Unit3.h
  /home/catkin_ws/src/gtsam/gtsam/global_includes.h
- /home/catkin_ws/src/gtsam/gtsam/inference/DotWriter.h
  /home/catkin_ws/src/gtsam/gtsam/inference/EliminateableFactorGraph.h
  /home/catkin_ws/src/gtsam/gtsam/inference/Factor.h
  /home/catkin_ws/src/gtsam/gtsam/inference/FactorGraph-inst.h
@@ -3481,15 +3447,12 @@ gtsam_unstable/CMakeFiles/gtsam_unstable.dir/linear/QPSolver.cpp.o
  /home/catkin_ws/src/gtsam/gtsam/linear/Scatter.h
  /home/catkin_ws/src/gtsam/gtsam/linear/VectorValues.h
  /home/catkin_ws/src/gtsam/gtsam/linear/linearExceptions.h
- /home/catkin_ws/src/gtsam/gtsam/nonlinear/GraphvizFormatting.h
  /home/catkin_ws/src/gtsam/gtsam/nonlinear/NonlinearFactor.h
  /home/catkin_ws/src/gtsam/gtsam/nonlinear/NonlinearFactorGraph.h
  /home/catkin_ws/src/gtsam/gtsam/nonlinear/PriorFactor.h
  /home/catkin_ws/src/gtsam/gtsam/nonlinear/Values-inl.h
  /home/catkin_ws/src/gtsam/gtsam/nonlinear/Values.h
  /home/catkin_ws/src/gtsam/gtsam/sfm/BinaryMeasurement.h
- /home/catkin_ws/src/gtsam/gtsam/sfm/SfmData.h
- /home/catkin_ws/src/gtsam/gtsam/sfm/SfmTrack.h
  /home/catkin_ws/src/gtsam/gtsam/slam/BetweenFactor.h
  /home/catkin_ws/src/gtsam/gtsam/slam/dataset.h
  /home/catkin_ws/src/gtsam/gtsam_unstable/linear/ActiveSetSolver-inl.h
@@ -3727,7 +3690,6 @@ gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/BatchFixedLagSmoother.cpp
  /home/catkin_ws/src/gtsam/gtsam/base/Lie.h
  /home/catkin_ws/src/gtsam/gtsam/base/Manifold.h
  /home/catkin_ws/src/gtsam/gtsam/base/Matrix.h
- /home/catkin_ws/src/gtsam/gtsam/base/MatrixSerialization.h
  /home/catkin_ws/src/gtsam/gtsam/base/OptionalJacobian.h
  /home/catkin_ws/src/gtsam/gtsam/base/SymmetricBlockMatrix.h
  /home/catkin_ws/src/gtsam/gtsam/base/Testable.h
@@ -3743,15 +3705,11 @@ gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/BatchFixedLagSmoother.cpp
  /home/catkin_ws/src/gtsam/gtsam/base/types.h
  /home/catkin_ws/src/gtsam/gtsam/geometry/Point2.h
  /home/catkin_ws/src/gtsam/gtsam/global_includes.h
- /home/catkin_ws/src/gtsam/gtsam/inference/BayesNet-inst.h
- /home/catkin_ws/src/gtsam/gtsam/inference/BayesNet.h
  /home/catkin_ws/src/gtsam/gtsam/inference/BayesTree.h
  /home/catkin_ws/src/gtsam/gtsam/inference/BayesTreeCliqueBase.h
  /home/catkin_ws/src/gtsam/gtsam/inference/ClusterTree-inst.h
  /home/catkin_ws/src/gtsam/gtsam/inference/ClusterTree.h
- /home/catkin_ws/src/gtsam/gtsam/inference/Conditional-inst.h
  /home/catkin_ws/src/gtsam/gtsam/inference/Conditional.h
- /home/catkin_ws/src/gtsam/gtsam/inference/DotWriter.h
  /home/catkin_ws/src/gtsam/gtsam/inference/EliminateableFactorGraph.h
  /home/catkin_ws/src/gtsam/gtsam/inference/Factor.h
  /home/catkin_ws/src/gtsam/gtsam/inference/FactorGraph-inst.h
@@ -3785,7 +3743,6 @@ gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/BatchFixedLagSmoother.cpp
  /home/catkin_ws/src/gtsam/gtsam/linear/SubgraphSolver.h
  /home/catkin_ws/src/gtsam/gtsam/linear/VectorValues.h
  /home/catkin_ws/src/gtsam/gtsam/linear/linearExceptions.h
- /home/catkin_ws/src/gtsam/gtsam/nonlinear/GraphvizFormatting.h
  /home/catkin_ws/src/gtsam/gtsam/nonlinear/LevenbergMarquardtOptimizer.h
  /home/catkin_ws/src/gtsam/gtsam/nonlinear/LevenbergMarquardtParams.h
  /home/catkin_ws/src/gtsam/gtsam/nonlinear/LinearContainerFactor.h
@@ -4021,7 +3978,6 @@ gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentBatchFilter.cpp
  /home/catkin_ws/src/gtsam/gtsam/base/Lie.h
  /home/catkin_ws/src/gtsam/gtsam/base/Manifold.h
  /home/catkin_ws/src/gtsam/gtsam/base/Matrix.h
- /home/catkin_ws/src/gtsam/gtsam/base/MatrixSerialization.h
  /home/catkin_ws/src/gtsam/gtsam/base/OptionalJacobian.h
  /home/catkin_ws/src/gtsam/gtsam/base/SymmetricBlockMatrix.h
  /home/catkin_ws/src/gtsam/gtsam/base/Testable.h
@@ -4038,15 +3994,11 @@ gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentBatchFilter.cpp
  /home/catkin_ws/src/gtsam/gtsam/base/types.h
  /home/catkin_ws/src/gtsam/gtsam/geometry/Point2.h
  /home/catkin_ws/src/gtsam/gtsam/global_includes.h
- /home/catkin_ws/src/gtsam/gtsam/inference/BayesNet-inst.h
- /home/catkin_ws/src/gtsam/gtsam/inference/BayesNet.h
  /home/catkin_ws/src/gtsam/gtsam/inference/BayesTree.h
  /home/catkin_ws/src/gtsam/gtsam/inference/BayesTreeCliqueBase.h
  /home/catkin_ws/src/gtsam/gtsam/inference/ClusterTree-inst.h
  /home/catkin_ws/src/gtsam/gtsam/inference/ClusterTree.h
- /home/catkin_ws/src/gtsam/gtsam/inference/Conditional-inst.h
  /home/catkin_ws/src/gtsam/gtsam/inference/Conditional.h
- /home/catkin_ws/src/gtsam/gtsam/inference/DotWriter.h
  /home/catkin_ws/src/gtsam/gtsam/inference/EliminateableFactorGraph.h
  /home/catkin_ws/src/gtsam/gtsam/inference/Factor.h
  /home/catkin_ws/src/gtsam/gtsam/inference/FactorGraph-inst.h
@@ -4080,7 +4032,6 @@ gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentBatchFilter.cpp
  /home/catkin_ws/src/gtsam/gtsam/linear/SubgraphSolver.h
  /home/catkin_ws/src/gtsam/gtsam/linear/VectorValues.h
  /home/catkin_ws/src/gtsam/gtsam/linear/linearExceptions.h
- /home/catkin_ws/src/gtsam/gtsam/nonlinear/GraphvizFormatting.h
  /home/catkin_ws/src/gtsam/gtsam/nonlinear/LevenbergMarquardtOptimizer.h
  /home/catkin_ws/src/gtsam/gtsam/nonlinear/LevenbergMarquardtParams.h
  /home/catkin_ws/src/gtsam/gtsam/nonlinear/LinearContainerFactor.h
@@ -4316,7 +4267,6 @@ gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentBatchSmoother.c
  /home/catkin_ws/src/gtsam/gtsam/base/Lie.h
  /home/catkin_ws/src/gtsam/gtsam/base/Manifold.h
  /home/catkin_ws/src/gtsam/gtsam/base/Matrix.h
- /home/catkin_ws/src/gtsam/gtsam/base/MatrixSerialization.h
  /home/catkin_ws/src/gtsam/gtsam/base/OptionalJacobian.h
  /home/catkin_ws/src/gtsam/gtsam/base/SymmetricBlockMatrix.h
  /home/catkin_ws/src/gtsam/gtsam/base/Testable.h
@@ -4333,15 +4283,11 @@ gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentBatchSmoother.c
  /home/catkin_ws/src/gtsam/gtsam/base/types.h
  /home/catkin_ws/src/gtsam/gtsam/geometry/Point2.h
  /home/catkin_ws/src/gtsam/gtsam/global_includes.h
- /home/catkin_ws/src/gtsam/gtsam/inference/BayesNet-inst.h
- /home/catkin_ws/src/gtsam/gtsam/inference/BayesNet.h
  /home/catkin_ws/src/gtsam/gtsam/inference/BayesTree.h
  /home/catkin_ws/src/gtsam/gtsam/inference/BayesTreeCliqueBase.h
  /home/catkin_ws/src/gtsam/gtsam/inference/ClusterTree-inst.h
  /home/catkin_ws/src/gtsam/gtsam/inference/ClusterTree.h
- /home/catkin_ws/src/gtsam/gtsam/inference/Conditional-inst.h
  /home/catkin_ws/src/gtsam/gtsam/inference/Conditional.h
- /home/catkin_ws/src/gtsam/gtsam/inference/DotWriter.h
  /home/catkin_ws/src/gtsam/gtsam/inference/EliminateableFactorGraph.h
  /home/catkin_ws/src/gtsam/gtsam/inference/Factor.h
  /home/catkin_ws/src/gtsam/gtsam/inference/FactorGraph-inst.h
@@ -4375,7 +4321,6 @@ gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentBatchSmoother.c
  /home/catkin_ws/src/gtsam/gtsam/linear/SubgraphSolver.h
  /home/catkin_ws/src/gtsam/gtsam/linear/VectorValues.h
  /home/catkin_ws/src/gtsam/gtsam/linear/linearExceptions.h
- /home/catkin_ws/src/gtsam/gtsam/nonlinear/GraphvizFormatting.h
  /home/catkin_ws/src/gtsam/gtsam/nonlinear/LevenbergMarquardtOptimizer.h
  /home/catkin_ws/src/gtsam/gtsam/nonlinear/LevenbergMarquardtParams.h
  /home/catkin_ws/src/gtsam/gtsam/nonlinear/LinearContainerFactor.h
@@ -4600,7 +4545,6 @@ gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentBatchSmoother.c
  gtsam/dllexport.h
  gtsam_unstable/dllexport.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentFilteringAndSmoothing.cpp.o
- /home/catkin_ws/src/gtsam/gtsam/base/ConcurrentMap.h
  /home/catkin_ws/src/gtsam/gtsam/base/FastDefaultAllocator.h
  /home/catkin_ws/src/gtsam/gtsam/base/FastList.h
  /home/catkin_ws/src/gtsam/gtsam/base/FastMap.h
@@ -4611,7 +4555,6 @@ gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentFilteringAndSmo
  /home/catkin_ws/src/gtsam/gtsam/base/Lie.h
  /home/catkin_ws/src/gtsam/gtsam/base/Manifold.h
  /home/catkin_ws/src/gtsam/gtsam/base/Matrix.h
- /home/catkin_ws/src/gtsam/gtsam/base/MatrixSerialization.h
  /home/catkin_ws/src/gtsam/gtsam/base/OptionalJacobian.h
  /home/catkin_ws/src/gtsam/gtsam/base/SymmetricBlockMatrix.h
  /home/catkin_ws/src/gtsam/gtsam/base/Testable.h
@@ -4624,7 +4567,6 @@ gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentFilteringAndSmo
  /home/catkin_ws/src/gtsam/gtsam/base/types.h
  /home/catkin_ws/src/gtsam/gtsam/geometry/Point2.h
  /home/catkin_ws/src/gtsam/gtsam/global_includes.h
- /home/catkin_ws/src/gtsam/gtsam/inference/DotWriter.h
  /home/catkin_ws/src/gtsam/gtsam/inference/EliminateableFactorGraph.h
  /home/catkin_ws/src/gtsam/gtsam/inference/Factor.h
  /home/catkin_ws/src/gtsam/gtsam/inference/FactorGraph-inst.h
@@ -4646,9 +4588,7 @@ gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentFilteringAndSmo
  /home/catkin_ws/src/gtsam/gtsam/linear/LossFunctions.h
  /home/catkin_ws/src/gtsam/gtsam/linear/NoiseModel.h
  /home/catkin_ws/src/gtsam/gtsam/linear/Scatter.h
- /home/catkin_ws/src/gtsam/gtsam/linear/VectorValues.h
  /home/catkin_ws/src/gtsam/gtsam/linear/linearExceptions.h
- /home/catkin_ws/src/gtsam/gtsam/nonlinear/GraphvizFormatting.h
  /home/catkin_ws/src/gtsam/gtsam/nonlinear/LinearContainerFactor.h
  /home/catkin_ws/src/gtsam/gtsam/nonlinear/NonlinearFactor.h
  /home/catkin_ws/src/gtsam/gtsam/nonlinear/NonlinearFactorGraph.h
@@ -4879,7 +4819,6 @@ gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentIncrementalFilt
  /home/catkin_ws/src/gtsam/gtsam/base/Lie.h
  /home/catkin_ws/src/gtsam/gtsam/base/Manifold.h
  /home/catkin_ws/src/gtsam/gtsam/base/Matrix.h
- /home/catkin_ws/src/gtsam/gtsam/base/MatrixSerialization.h
  /home/catkin_ws/src/gtsam/gtsam/base/OptionalJacobian.h
  /home/catkin_ws/src/gtsam/gtsam/base/SymmetricBlockMatrix.h
  /home/catkin_ws/src/gtsam/gtsam/base/Testable.h
@@ -4893,13 +4832,9 @@ gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentIncrementalFilt
  /home/catkin_ws/src/gtsam/gtsam/base/types.h
  /home/catkin_ws/src/gtsam/gtsam/geometry/Point2.h
  /home/catkin_ws/src/gtsam/gtsam/global_includes.h
- /home/catkin_ws/src/gtsam/gtsam/inference/BayesNet-inst.h
- /home/catkin_ws/src/gtsam/gtsam/inference/BayesNet.h
  /home/catkin_ws/src/gtsam/gtsam/inference/BayesTree.h
  /home/catkin_ws/src/gtsam/gtsam/inference/BayesTreeCliqueBase.h
- /home/catkin_ws/src/gtsam/gtsam/inference/Conditional-inst.h
  /home/catkin_ws/src/gtsam/gtsam/inference/Conditional.h
- /home/catkin_ws/src/gtsam/gtsam/inference/DotWriter.h
  /home/catkin_ws/src/gtsam/gtsam/inference/EliminateableFactorGraph.h
  /home/catkin_ws/src/gtsam/gtsam/inference/Factor.h
  /home/catkin_ws/src/gtsam/gtsam/inference/FactorGraph-inst.h
@@ -4928,7 +4863,6 @@ gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentIncrementalFilt
  /home/catkin_ws/src/gtsam/gtsam/linear/VectorValues.h
  /home/catkin_ws/src/gtsam/gtsam/linear/linearExceptions.h
  /home/catkin_ws/src/gtsam/gtsam/nonlinear/DoglegOptimizerImpl.h
- /home/catkin_ws/src/gtsam/gtsam/nonlinear/GraphvizFormatting.h
  /home/catkin_ws/src/gtsam/gtsam/nonlinear/ISAM2.h
  /home/catkin_ws/src/gtsam/gtsam/nonlinear/ISAM2Clique.h
  /home/catkin_ws/src/gtsam/gtsam/nonlinear/ISAM2Params.h
@@ -5165,7 +5099,6 @@ gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentIncrementalSmoo
  /home/catkin_ws/src/gtsam/gtsam/base/Lie.h
  /home/catkin_ws/src/gtsam/gtsam/base/Manifold.h
  /home/catkin_ws/src/gtsam/gtsam/base/Matrix.h
- /home/catkin_ws/src/gtsam/gtsam/base/MatrixSerialization.h
  /home/catkin_ws/src/gtsam/gtsam/base/OptionalJacobian.h
  /home/catkin_ws/src/gtsam/gtsam/base/SymmetricBlockMatrix.h
  /home/catkin_ws/src/gtsam/gtsam/base/Testable.h
@@ -5179,13 +5112,9 @@ gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentIncrementalSmoo
  /home/catkin_ws/src/gtsam/gtsam/base/types.h
  /home/catkin_ws/src/gtsam/gtsam/geometry/Point2.h
  /home/catkin_ws/src/gtsam/gtsam/global_includes.h
- /home/catkin_ws/src/gtsam/gtsam/inference/BayesNet-inst.h
- /home/catkin_ws/src/gtsam/gtsam/inference/BayesNet.h
  /home/catkin_ws/src/gtsam/gtsam/inference/BayesTree.h
  /home/catkin_ws/src/gtsam/gtsam/inference/BayesTreeCliqueBase.h
- /home/catkin_ws/src/gtsam/gtsam/inference/Conditional-inst.h
  /home/catkin_ws/src/gtsam/gtsam/inference/Conditional.h
- /home/catkin_ws/src/gtsam/gtsam/inference/DotWriter.h
  /home/catkin_ws/src/gtsam/gtsam/inference/EliminateableFactorGraph.h
  /home/catkin_ws/src/gtsam/gtsam/inference/Factor.h
  /home/catkin_ws/src/gtsam/gtsam/inference/FactorGraph-inst.h
@@ -5214,7 +5143,6 @@ gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentIncrementalSmoo
  /home/catkin_ws/src/gtsam/gtsam/linear/VectorValues.h
  /home/catkin_ws/src/gtsam/gtsam/linear/linearExceptions.h
  /home/catkin_ws/src/gtsam/gtsam/nonlinear/DoglegOptimizerImpl.h
- /home/catkin_ws/src/gtsam/gtsam/nonlinear/GraphvizFormatting.h
  /home/catkin_ws/src/gtsam/gtsam/nonlinear/ISAM2.h
  /home/catkin_ws/src/gtsam/gtsam/nonlinear/ISAM2Clique.h
  /home/catkin_ws/src/gtsam/gtsam/nonlinear/ISAM2Params.h
@@ -5450,7 +5378,6 @@ gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/FixedLagSmoother.cpp.o
  /home/catkin_ws/src/gtsam/gtsam/base/Lie.h
  /home/catkin_ws/src/gtsam/gtsam/base/Manifold.h
  /home/catkin_ws/src/gtsam/gtsam/base/Matrix.h
- /home/catkin_ws/src/gtsam/gtsam/base/MatrixSerialization.h
  /home/catkin_ws/src/gtsam/gtsam/base/OptionalJacobian.h
  /home/catkin_ws/src/gtsam/gtsam/base/Testable.h
  /home/catkin_ws/src/gtsam/gtsam/base/ThreadsafeException.h
@@ -5462,7 +5389,6 @@ gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/FixedLagSmoother.cpp.o
  /home/catkin_ws/src/gtsam/gtsam/base/types.h
  /home/catkin_ws/src/gtsam/gtsam/geometry/Point2.h
  /home/catkin_ws/src/gtsam/gtsam/global_includes.h
- /home/catkin_ws/src/gtsam/gtsam/inference/DotWriter.h
  /home/catkin_ws/src/gtsam/gtsam/inference/Factor.h
  /home/catkin_ws/src/gtsam/gtsam/inference/FactorGraph-inst.h
  /home/catkin_ws/src/gtsam/gtsam/inference/FactorGraph.h
@@ -5474,7 +5400,6 @@ gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/FixedLagSmoother.cpp.o
  /home/catkin_ws/src/gtsam/gtsam/linear/LossFunctions.h
  /home/catkin_ws/src/gtsam/gtsam/linear/NoiseModel.h
  /home/catkin_ws/src/gtsam/gtsam/linear/linearExceptions.h
- /home/catkin_ws/src/gtsam/gtsam/nonlinear/GraphvizFormatting.h
  /home/catkin_ws/src/gtsam/gtsam/nonlinear/NonlinearFactor.h
  /home/catkin_ws/src/gtsam/gtsam/nonlinear/NonlinearFactorGraph.h
  /home/catkin_ws/src/gtsam/gtsam/nonlinear/PriorFactor.h
@@ -5704,7 +5629,6 @@ gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/IncrementalFixedLagSmooth
  /home/catkin_ws/src/gtsam/gtsam/base/Lie.h
  /home/catkin_ws/src/gtsam/gtsam/base/Manifold.h
  /home/catkin_ws/src/gtsam/gtsam/base/Matrix.h
- /home/catkin_ws/src/gtsam/gtsam/base/MatrixSerialization.h
  /home/catkin_ws/src/gtsam/gtsam/base/OptionalJacobian.h
  /home/catkin_ws/src/gtsam/gtsam/base/SymmetricBlockMatrix.h
  /home/catkin_ws/src/gtsam/gtsam/base/Testable.h
@@ -5718,13 +5642,9 @@ gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/IncrementalFixedLagSmooth
  /home/catkin_ws/src/gtsam/gtsam/base/types.h
  /home/catkin_ws/src/gtsam/gtsam/geometry/Point2.h
  /home/catkin_ws/src/gtsam/gtsam/global_includes.h
- /home/catkin_ws/src/gtsam/gtsam/inference/BayesNet-inst.h
- /home/catkin_ws/src/gtsam/gtsam/inference/BayesNet.h
  /home/catkin_ws/src/gtsam/gtsam/inference/BayesTree.h
  /home/catkin_ws/src/gtsam/gtsam/inference/BayesTreeCliqueBase.h
- /home/catkin_ws/src/gtsam/gtsam/inference/Conditional-inst.h
  /home/catkin_ws/src/gtsam/gtsam/inference/Conditional.h
- /home/catkin_ws/src/gtsam/gtsam/inference/DotWriter.h
  /home/catkin_ws/src/gtsam/gtsam/inference/EliminateableFactorGraph.h
  /home/catkin_ws/src/gtsam/gtsam/inference/Factor.h
  /home/catkin_ws/src/gtsam/gtsam/inference/FactorGraph-inst.h
@@ -5753,7 +5673,6 @@ gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/IncrementalFixedLagSmooth
  /home/catkin_ws/src/gtsam/gtsam/linear/VectorValues.h
  /home/catkin_ws/src/gtsam/gtsam/linear/linearExceptions.h
  /home/catkin_ws/src/gtsam/gtsam/nonlinear/DoglegOptimizerImpl.h
- /home/catkin_ws/src/gtsam/gtsam/nonlinear/GraphvizFormatting.h
  /home/catkin_ws/src/gtsam/gtsam/nonlinear/ISAM2.h
  /home/catkin_ws/src/gtsam/gtsam/nonlinear/ISAM2Clique.h
  /home/catkin_ws/src/gtsam/gtsam/nonlinear/ISAM2Params.h
@@ -5988,7 +5907,6 @@ gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/LinearizedFactor.cpp.o
  /home/catkin_ws/src/gtsam/gtsam/base/Lie.h
  /home/catkin_ws/src/gtsam/gtsam/base/Manifold.h
  /home/catkin_ws/src/gtsam/gtsam/base/Matrix.h
- /home/catkin_ws/src/gtsam/gtsam/base/MatrixSerialization.h
  /home/catkin_ws/src/gtsam/gtsam/base/OptionalJacobian.h
  /home/catkin_ws/src/gtsam/gtsam/base/SymmetricBlockMatrix.h
  /home/catkin_ws/src/gtsam/gtsam/base/Testable.h
@@ -6247,13 +6165,11 @@ gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/AHRS.cpp.o
  /home/catkin_ws/src/gtsam/gtsam/base/Lie.h
  /home/catkin_ws/src/gtsam/gtsam/base/Manifold.h
  /home/catkin_ws/src/gtsam/gtsam/base/Matrix.h
- /home/catkin_ws/src/gtsam/gtsam/base/MatrixSerialization.h
  /home/catkin_ws/src/gtsam/gtsam/base/OptionalJacobian.h
  /home/catkin_ws/src/gtsam/gtsam/base/SymmetricBlockMatrix.h
  /home/catkin_ws/src/gtsam/gtsam/base/Testable.h
  /home/catkin_ws/src/gtsam/gtsam/base/ThreadsafeException.h
  /home/catkin_ws/src/gtsam/gtsam/base/Vector.h
- /home/catkin_ws/src/gtsam/gtsam/base/VectorSerialization.h
  /home/catkin_ws/src/gtsam/gtsam/base/VectorSpace.h
  /home/catkin_ws/src/gtsam/gtsam/base/VerticalBlockMatrix.h
  /home/catkin_ws/src/gtsam/gtsam/base/concepts.h
@@ -6269,9 +6185,7 @@ gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/AHRS.cpp.o
  /home/catkin_ws/src/gtsam/gtsam/geometry/SOn.h
  /home/catkin_ws/src/gtsam/gtsam/geometry/Unit3.h
  /home/catkin_ws/src/gtsam/gtsam/global_includes.h
- /home/catkin_ws/src/gtsam/gtsam/inference/Conditional-inst.h
  /home/catkin_ws/src/gtsam/gtsam/inference/Conditional.h
- /home/catkin_ws/src/gtsam/gtsam/inference/DotWriter.h
  /home/catkin_ws/src/gtsam/gtsam/inference/EliminateableFactorGraph.h
  /home/catkin_ws/src/gtsam/gtsam/inference/Factor.h
  /home/catkin_ws/src/gtsam/gtsam/inference/FactorGraph-inst.h
@@ -6523,7 +6437,6 @@ gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/DummyFactor.cpp.o
  /home/catkin_ws/src/gtsam/gtsam/base/Lie.h
  /home/catkin_ws/src/gtsam/gtsam/base/Manifold.h
  /home/catkin_ws/src/gtsam/gtsam/base/Matrix.h
- /home/catkin_ws/src/gtsam/gtsam/base/MatrixSerialization.h
  /home/catkin_ws/src/gtsam/gtsam/base/OptionalJacobian.h
  /home/catkin_ws/src/gtsam/gtsam/base/Testable.h
  /home/catkin_ws/src/gtsam/gtsam/base/ThreadsafeException.h
@@ -6769,13 +6682,11 @@ gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/LocalOrientedPlane3Factor.cpp.
  /home/catkin_ws/src/gtsam/gtsam/base/Lie.h
  /home/catkin_ws/src/gtsam/gtsam/base/Manifold.h
  /home/catkin_ws/src/gtsam/gtsam/base/Matrix.h
- /home/catkin_ws/src/gtsam/gtsam/base/MatrixSerialization.h
  /home/catkin_ws/src/gtsam/gtsam/base/OptionalJacobian.h
  /home/catkin_ws/src/gtsam/gtsam/base/Testable.h
  /home/catkin_ws/src/gtsam/gtsam/base/ThreadsafeException.h
  /home/catkin_ws/src/gtsam/gtsam/base/Value.h
  /home/catkin_ws/src/gtsam/gtsam/base/Vector.h
- /home/catkin_ws/src/gtsam/gtsam/base/VectorSerialization.h
  /home/catkin_ws/src/gtsam/gtsam/base/VectorSpace.h
  /home/catkin_ws/src/gtsam/gtsam/base/VerticalBlockMatrix.h
  /home/catkin_ws/src/gtsam/gtsam/base/concepts.h
@@ -7017,7 +6928,6 @@ gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/LocalOrientedPlane3Factor.cpp.
  /usr/include/eigen3/Eigen/src/plugins/MatrixCwiseUnaryOps.h
  gtsam/config.h
  gtsam/dllexport.h
- gtsam_unstable/dllexport.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/Mechanization_bRn2.cpp.o
  /home/catkin_ws/src/gtsam/gtsam/base/Group.h
  /home/catkin_ws/src/gtsam/gtsam/base/Lie.h
@@ -7026,7 +6936,6 @@ gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/Mechanization_bRn2.cpp.o
  /home/catkin_ws/src/gtsam/gtsam/base/OptionalJacobian.h
  /home/catkin_ws/src/gtsam/gtsam/base/Testable.h
  /home/catkin_ws/src/gtsam/gtsam/base/Vector.h
- /home/catkin_ws/src/gtsam/gtsam/base/VectorSerialization.h
  /home/catkin_ws/src/gtsam/gtsam/base/VectorSpace.h
  /home/catkin_ws/src/gtsam/gtsam/base/concepts.h
  /home/catkin_ws/src/gtsam/gtsam/base/make_shared.h
@@ -7263,13 +7172,11 @@ gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/ProjectionFactorRollingShutter
  /home/catkin_ws/src/gtsam/gtsam/base/Lie.h
  /home/catkin_ws/src/gtsam/gtsam/base/Manifold.h
  /home/catkin_ws/src/gtsam/gtsam/base/Matrix.h
- /home/catkin_ws/src/gtsam/gtsam/base/MatrixSerialization.h
  /home/catkin_ws/src/gtsam/gtsam/base/OptionalJacobian.h
  /home/catkin_ws/src/gtsam/gtsam/base/Testable.h
  /home/catkin_ws/src/gtsam/gtsam/base/ThreadsafeException.h
  /home/catkin_ws/src/gtsam/gtsam/base/Value.h
  /home/catkin_ws/src/gtsam/gtsam/base/Vector.h
- /home/catkin_ws/src/gtsam/gtsam/base/VectorSerialization.h
  /home/catkin_ws/src/gtsam/gtsam/base/VectorSpace.h
  /home/catkin_ws/src/gtsam/gtsam/base/VerticalBlockMatrix.h
  /home/catkin_ws/src/gtsam/gtsam/base/concepts.h
@@ -7515,7 +7422,6 @@ gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/ProjectionFactorRollingShutter
  /usr/include/eigen3/Eigen/src/plugins/MatrixCwiseUnaryOps.h
  gtsam/config.h
  gtsam/dllexport.h
- gtsam_unstable/dllexport.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/RelativeElevationFactor.cpp.o
  /home/catkin_ws/src/gtsam/gtsam/base/FastDefaultAllocator.h
  /home/catkin_ws/src/gtsam/gtsam/base/FastList.h
@@ -7527,13 +7433,11 @@ gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/RelativeElevationFactor.cpp.o
  /home/catkin_ws/src/gtsam/gtsam/base/Lie.h
  /home/catkin_ws/src/gtsam/gtsam/base/Manifold.h
  /home/catkin_ws/src/gtsam/gtsam/base/Matrix.h
- /home/catkin_ws/src/gtsam/gtsam/base/MatrixSerialization.h
  /home/catkin_ws/src/gtsam/gtsam/base/OptionalJacobian.h
  /home/catkin_ws/src/gtsam/gtsam/base/Testable.h
  /home/catkin_ws/src/gtsam/gtsam/base/ThreadsafeException.h
  /home/catkin_ws/src/gtsam/gtsam/base/Value.h
  /home/catkin_ws/src/gtsam/gtsam/base/Vector.h
- /home/catkin_ws/src/gtsam/gtsam/base/VectorSerialization.h
  /home/catkin_ws/src/gtsam/gtsam/base/VectorSpace.h
  /home/catkin_ws/src/gtsam/gtsam/base/VerticalBlockMatrix.h
  /home/catkin_ws/src/gtsam/gtsam/base/concepts.h
@@ -7787,14 +7691,12 @@ gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/SmartStereoProjectionFactorPP.
  /home/catkin_ws/src/gtsam/gtsam/base/Lie.h
  /home/catkin_ws/src/gtsam/gtsam/base/Manifold.h
  /home/catkin_ws/src/gtsam/gtsam/base/Matrix.h
- /home/catkin_ws/src/gtsam/gtsam/base/MatrixSerialization.h
  /home/catkin_ws/src/gtsam/gtsam/base/OptionalJacobian.h
  /home/catkin_ws/src/gtsam/gtsam/base/SymmetricBlockMatrix.h
  /home/catkin_ws/src/gtsam/gtsam/base/Testable.h
  /home/catkin_ws/src/gtsam/gtsam/base/ThreadsafeException.h
  /home/catkin_ws/src/gtsam/gtsam/base/Value.h
  /home/catkin_ws/src/gtsam/gtsam/base/Vector.h
- /home/catkin_ws/src/gtsam/gtsam/base/VectorSerialization.h
  /home/catkin_ws/src/gtsam/gtsam/base/VectorSpace.h
  /home/catkin_ws/src/gtsam/gtsam/base/VerticalBlockMatrix.h
  /home/catkin_ws/src/gtsam/gtsam/base/concepts.h
@@ -7805,7 +7707,6 @@ gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/SmartStereoProjectionFactorPP.
  /home/catkin_ws/src/gtsam/gtsam/geometry/BearingRange.h
  /home/catkin_ws/src/gtsam/gtsam/geometry/Cal3.h
  /home/catkin_ws/src/gtsam/gtsam/geometry/Cal3Bundler.h
- /home/catkin_ws/src/gtsam/gtsam/geometry/Cal3DS2.h
  /home/catkin_ws/src/gtsam/gtsam/geometry/Cal3DS2_Base.h
  /home/catkin_ws/src/gtsam/gtsam/geometry/Cal3Fisheye.h
  /home/catkin_ws/src/gtsam/gtsam/geometry/Cal3Unified.h
@@ -7825,13 +7726,11 @@ gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/SmartStereoProjectionFactorPP.
  /home/catkin_ws/src/gtsam/gtsam/geometry/SO3.h
  /home/catkin_ws/src/gtsam/gtsam/geometry/SOn-inl.h
  /home/catkin_ws/src/gtsam/gtsam/geometry/SOn.h
- /home/catkin_ws/src/gtsam/gtsam/geometry/SphericalCamera.h
  /home/catkin_ws/src/gtsam/gtsam/geometry/StereoCamera.h
  /home/catkin_ws/src/gtsam/gtsam/geometry/StereoPoint2.h
  /home/catkin_ws/src/gtsam/gtsam/geometry/Unit3.h
  /home/catkin_ws/src/gtsam/gtsam/geometry/triangulation.h
  /home/catkin_ws/src/gtsam/gtsam/global_includes.h
- /home/catkin_ws/src/gtsam/gtsam/inference/DotWriter.h
  /home/catkin_ws/src/gtsam/gtsam/inference/Factor.h
  /home/catkin_ws/src/gtsam/gtsam/inference/FactorGraph-inst.h
  /home/catkin_ws/src/gtsam/gtsam/inference/FactorGraph.h
@@ -7855,15 +7754,12 @@ gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/SmartStereoProjectionFactorPP.
  /home/catkin_ws/src/gtsam/gtsam/linear/Scatter.h
  /home/catkin_ws/src/gtsam/gtsam/linear/VectorValues.h
  /home/catkin_ws/src/gtsam/gtsam/linear/linearExceptions.h
- /home/catkin_ws/src/gtsam/gtsam/nonlinear/GraphvizFormatting.h
  /home/catkin_ws/src/gtsam/gtsam/nonlinear/NonlinearFactor.h
  /home/catkin_ws/src/gtsam/gtsam/nonlinear/NonlinearFactorGraph.h
  /home/catkin_ws/src/gtsam/gtsam/nonlinear/PriorFactor.h
  /home/catkin_ws/src/gtsam/gtsam/nonlinear/Values-inl.h
  /home/catkin_ws/src/gtsam/gtsam/nonlinear/Values.h
  /home/catkin_ws/src/gtsam/gtsam/sfm/BinaryMeasurement.h
- /home/catkin_ws/src/gtsam/gtsam/sfm/SfmData.h
- /home/catkin_ws/src/gtsam/gtsam/sfm/SfmTrack.h
  /home/catkin_ws/src/gtsam/gtsam/slam/BetweenFactor.h
  /home/catkin_ws/src/gtsam/gtsam/slam/JacobianFactorQ.h
  /home/catkin_ws/src/gtsam/gtsam/slam/JacobianFactorSVD.h
@@ -8085,7 +7981,6 @@ gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/SmartStereoProjectionFactorPP.
  /usr/include/eigen3/Eigen/src/plugins/MatrixCwiseUnaryOps.h
  gtsam/config.h
  gtsam/dllexport.h
- gtsam_unstable/dllexport.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/SmartStereoProjectionPoseFactor.cpp.o
  /home/catkin_ws/src/gtsam/gtsam/base/ConcurrentMap.h
  /home/catkin_ws/src/gtsam/gtsam/base/FastDefaultAllocator.h
@@ -8098,14 +7993,12 @@ gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/SmartStereoProjectionPoseFacto
  /home/catkin_ws/src/gtsam/gtsam/base/Lie.h
  /home/catkin_ws/src/gtsam/gtsam/base/Manifold.h
  /home/catkin_ws/src/gtsam/gtsam/base/Matrix.h
- /home/catkin_ws/src/gtsam/gtsam/base/MatrixSerialization.h
  /home/catkin_ws/src/gtsam/gtsam/base/OptionalJacobian.h
  /home/catkin_ws/src/gtsam/gtsam/base/SymmetricBlockMatrix.h
  /home/catkin_ws/src/gtsam/gtsam/base/Testable.h
  /home/catkin_ws/src/gtsam/gtsam/base/ThreadsafeException.h
  /home/catkin_ws/src/gtsam/gtsam/base/Value.h
  /home/catkin_ws/src/gtsam/gtsam/base/Vector.h
- /home/catkin_ws/src/gtsam/gtsam/base/VectorSerialization.h
  /home/catkin_ws/src/gtsam/gtsam/base/VectorSpace.h
  /home/catkin_ws/src/gtsam/gtsam/base/VerticalBlockMatrix.h
  /home/catkin_ws/src/gtsam/gtsam/base/concepts.h
@@ -8116,7 +8009,6 @@ gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/SmartStereoProjectionPoseFacto
  /home/catkin_ws/src/gtsam/gtsam/geometry/BearingRange.h
  /home/catkin_ws/src/gtsam/gtsam/geometry/Cal3.h
  /home/catkin_ws/src/gtsam/gtsam/geometry/Cal3Bundler.h
- /home/catkin_ws/src/gtsam/gtsam/geometry/Cal3DS2.h
  /home/catkin_ws/src/gtsam/gtsam/geometry/Cal3DS2_Base.h
  /home/catkin_ws/src/gtsam/gtsam/geometry/Cal3Fisheye.h
  /home/catkin_ws/src/gtsam/gtsam/geometry/Cal3Unified.h
@@ -8136,13 +8028,11 @@ gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/SmartStereoProjectionPoseFacto
  /home/catkin_ws/src/gtsam/gtsam/geometry/SO3.h
  /home/catkin_ws/src/gtsam/gtsam/geometry/SOn-inl.h
  /home/catkin_ws/src/gtsam/gtsam/geometry/SOn.h
- /home/catkin_ws/src/gtsam/gtsam/geometry/SphericalCamera.h
  /home/catkin_ws/src/gtsam/gtsam/geometry/StereoCamera.h
  /home/catkin_ws/src/gtsam/gtsam/geometry/StereoPoint2.h
  /home/catkin_ws/src/gtsam/gtsam/geometry/Unit3.h
  /home/catkin_ws/src/gtsam/gtsam/geometry/triangulation.h
  /home/catkin_ws/src/gtsam/gtsam/global_includes.h
- /home/catkin_ws/src/gtsam/gtsam/inference/DotWriter.h
  /home/catkin_ws/src/gtsam/gtsam/inference/Factor.h
  /home/catkin_ws/src/gtsam/gtsam/inference/FactorGraph-inst.h
  /home/catkin_ws/src/gtsam/gtsam/inference/FactorGraph.h
@@ -8166,15 +8056,12 @@ gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/SmartStereoProjectionPoseFacto
  /home/catkin_ws/src/gtsam/gtsam/linear/Scatter.h
  /home/catkin_ws/src/gtsam/gtsam/linear/VectorValues.h
  /home/catkin_ws/src/gtsam/gtsam/linear/linearExceptions.h
- /home/catkin_ws/src/gtsam/gtsam/nonlinear/GraphvizFormatting.h
  /home/catkin_ws/src/gtsam/gtsam/nonlinear/NonlinearFactor.h
  /home/catkin_ws/src/gtsam/gtsam/nonlinear/NonlinearFactorGraph.h
  /home/catkin_ws/src/gtsam/gtsam/nonlinear/PriorFactor.h
  /home/catkin_ws/src/gtsam/gtsam/nonlinear/Values-inl.h
  /home/catkin_ws/src/gtsam/gtsam/nonlinear/Values.h
  /home/catkin_ws/src/gtsam/gtsam/sfm/BinaryMeasurement.h
- /home/catkin_ws/src/gtsam/gtsam/sfm/SfmData.h
- /home/catkin_ws/src/gtsam/gtsam/sfm/SfmTrack.h
  /home/catkin_ws/src/gtsam/gtsam/slam/BetweenFactor.h
  /home/catkin_ws/src/gtsam/gtsam/slam/JacobianFactorQ.h
  /home/catkin_ws/src/gtsam/gtsam/slam/JacobianFactorSVD.h
@@ -8396,4 +8283,3 @@ gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/SmartStereoProjectionPoseFacto
  /usr/include/eigen3/Eigen/src/plugins/MatrixCwiseUnaryOps.h
  gtsam/config.h
  gtsam/dllexport.h
- gtsam_unstable/dllexport.h

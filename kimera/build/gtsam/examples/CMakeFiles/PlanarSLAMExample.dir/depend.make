@@ -13,7 +13,6 @@ examples/CMakeFiles/PlanarSLAMExample.dir/PlanarSLAMExample.cpp.o: /home/catkin_
 examples/CMakeFiles/PlanarSLAMExample.dir/PlanarSLAMExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Lie.h
 examples/CMakeFiles/PlanarSLAMExample.dir/PlanarSLAMExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Manifold.h
 examples/CMakeFiles/PlanarSLAMExample.dir/PlanarSLAMExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Matrix.h
-examples/CMakeFiles/PlanarSLAMExample.dir/PlanarSLAMExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/MatrixSerialization.h
 examples/CMakeFiles/PlanarSLAMExample.dir/PlanarSLAMExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/OptionalJacobian.h
 examples/CMakeFiles/PlanarSLAMExample.dir/PlanarSLAMExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/SymmetricBlockMatrix.h
 examples/CMakeFiles/PlanarSLAMExample.dir/PlanarSLAMExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Testable.h
@@ -29,13 +28,9 @@ examples/CMakeFiles/PlanarSLAMExample.dir/PlanarSLAMExample.cpp.o: /home/catkin_
 examples/CMakeFiles/PlanarSLAMExample.dir/PlanarSLAMExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/geometry/Pose2.h
 examples/CMakeFiles/PlanarSLAMExample.dir/PlanarSLAMExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/geometry/Rot2.h
 examples/CMakeFiles/PlanarSLAMExample.dir/PlanarSLAMExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/global_includes.h
-examples/CMakeFiles/PlanarSLAMExample.dir/PlanarSLAMExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/BayesNet-inst.h
-examples/CMakeFiles/PlanarSLAMExample.dir/PlanarSLAMExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/BayesNet.h
 examples/CMakeFiles/PlanarSLAMExample.dir/PlanarSLAMExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/BayesTree.h
 examples/CMakeFiles/PlanarSLAMExample.dir/PlanarSLAMExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/BayesTreeCliqueBase.h
-examples/CMakeFiles/PlanarSLAMExample.dir/PlanarSLAMExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/Conditional-inst.h
 examples/CMakeFiles/PlanarSLAMExample.dir/PlanarSLAMExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/Conditional.h
-examples/CMakeFiles/PlanarSLAMExample.dir/PlanarSLAMExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/DotWriter.h
 examples/CMakeFiles/PlanarSLAMExample.dir/PlanarSLAMExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/EliminateableFactorGraph.h
 examples/CMakeFiles/PlanarSLAMExample.dir/PlanarSLAMExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/Factor.h
 examples/CMakeFiles/PlanarSLAMExample.dir/PlanarSLAMExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/FactorGraph-inst.h
@@ -71,7 +66,6 @@ examples/CMakeFiles/PlanarSLAMExample.dir/PlanarSLAMExample.cpp.o: /home/catkin_
 examples/CMakeFiles/PlanarSLAMExample.dir/PlanarSLAMExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/Expression-inl.h
 examples/CMakeFiles/PlanarSLAMExample.dir/PlanarSLAMExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/Expression.h
 examples/CMakeFiles/PlanarSLAMExample.dir/PlanarSLAMExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/ExpressionFactor.h
-examples/CMakeFiles/PlanarSLAMExample.dir/PlanarSLAMExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/GraphvizFormatting.h
 examples/CMakeFiles/PlanarSLAMExample.dir/PlanarSLAMExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/LevenbergMarquardtOptimizer.h
 examples/CMakeFiles/PlanarSLAMExample.dir/PlanarSLAMExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/LevenbergMarquardtParams.h
 examples/CMakeFiles/PlanarSLAMExample.dir/PlanarSLAMExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/Marginals.h

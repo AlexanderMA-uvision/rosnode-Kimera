@@ -80,7 +80,7 @@ testRot3_EXTERNAL_OBJECTS =
 gtsam/geometry/tests/testRot3: gtsam/geometry/tests/CMakeFiles/testRot3.dir/testRot3.cpp.o
 gtsam/geometry/tests/testRot3: gtsam/geometry/tests/CMakeFiles/testRot3.dir/build.make
 gtsam/geometry/tests/testRot3: CppUnitLite/libCppUnitLite.a
-gtsam/geometry/tests/testRot3: gtsam/libgtsam.so.4.2.0
+gtsam/geometry/tests/testRot3: gtsam/libgtsam.so.4.1.0
 gtsam/geometry/tests/testRot3: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 gtsam/geometry/tests/testRot3: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 gtsam/geometry/tests/testRot3: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

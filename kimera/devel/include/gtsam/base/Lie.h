@@ -177,7 +177,7 @@ struct LieGroupTraits: GetDimensionImpl<Class, Class::dimension> {
   /// @name Group
   /// @{
   typedef multiplicative_group_tag group_flavor;
-  static Class Identity() { return Class::Identity();}
+  static Class Identity() { return Class::identity();}
   /// @}
 
   /// @name Manifold
@@ -370,4 +370,4 @@ public:
  * the gtsam namespace to be more easily enforced as testable
  */
 #define GTSAM_CONCEPT_LIE_INST(T) template class gtsam::IsLieGroup<T>;
-#define GTSAM_CONCEPT_LIE_TYPE(T) using _gtsam_IsLieGroup_##T = gtsam::IsLieGroup<T>;
+#define GTSAM_CONCEPT_LIE_TYPE(T) typedef gtsam::IsLieGroup<T> _gtsam_IsLieGroup_##T;

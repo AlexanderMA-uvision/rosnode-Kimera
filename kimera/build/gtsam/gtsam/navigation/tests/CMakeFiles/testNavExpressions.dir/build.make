@@ -80,7 +80,7 @@ testNavExpressions_EXTERNAL_OBJECTS =
 gtsam/navigation/tests/testNavExpressions: gtsam/navigation/tests/CMakeFiles/testNavExpressions.dir/testNavExpressions.cpp.o
 gtsam/navigation/tests/testNavExpressions: gtsam/navigation/tests/CMakeFiles/testNavExpressions.dir/build.make
 gtsam/navigation/tests/testNavExpressions: CppUnitLite/libCppUnitLite.a
-gtsam/navigation/tests/testNavExpressions: gtsam/libgtsam.so.4.2.0
+gtsam/navigation/tests/testNavExpressions: gtsam/libgtsam.so.4.1.0
 gtsam/navigation/tests/testNavExpressions: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 gtsam/navigation/tests/testNavExpressions: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 gtsam/navigation/tests/testNavExpressions: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

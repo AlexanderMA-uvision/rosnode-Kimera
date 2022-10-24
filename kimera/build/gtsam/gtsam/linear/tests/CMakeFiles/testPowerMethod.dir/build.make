@@ -80,7 +80,7 @@ testPowerMethod_EXTERNAL_OBJECTS =
 gtsam/linear/tests/testPowerMethod: gtsam/linear/tests/CMakeFiles/testPowerMethod.dir/testPowerMethod.cpp.o
 gtsam/linear/tests/testPowerMethod: gtsam/linear/tests/CMakeFiles/testPowerMethod.dir/build.make
 gtsam/linear/tests/testPowerMethod: CppUnitLite/libCppUnitLite.a
-gtsam/linear/tests/testPowerMethod: gtsam/libgtsam.so.4.2.0
+gtsam/linear/tests/testPowerMethod: gtsam/libgtsam.so.4.1.0
 gtsam/linear/tests/testPowerMethod: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 gtsam/linear/tests/testPowerMethod: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 gtsam/linear/tests/testPowerMethod: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

@@ -56,6 +56,18 @@ CMAKE_BINARY_DIR = /home/catkin_ws/build/gtsam
 #=============================================================================
 # Targets provided globally by CMake.
 
+# Special rule for the target install/strip
+install/strip: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip
+
+# Special rule for the target install/strip
+install/strip/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip/fast
+
 # Special rule for the target install/local
 install/local: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
@@ -112,30 +124,6 @@ package_source/fast: package_source
 
 .PHONY : package_source/fast
 
-# Special rule for the target install/strip
-install/strip: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip
-
-# Special rule for the target install/strip
-install/strip/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip/fast
-
-# Special rule for the target install
-install: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/usr/bin/cmake -P cmake_install.cmake
-.PHONY : install
-
-# Special rule for the target install
-install/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/usr/bin/cmake -P cmake_install.cmake
-.PHONY : install/fast
-
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
@@ -156,6 +144,18 @@ list_install_components:
 list_install_components/fast: list_install_components
 
 .PHONY : list_install_components/fast
+
+# Special rule for the target install
+install: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	/usr/bin/cmake -P cmake_install.cmake
+.PHONY : install
+
+# Special rule for the target install
+install/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	/usr/bin/cmake -P cmake_install.cmake
+.PHONY : install/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -190,21 +190,6 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-gtsam/basis/tests/CMakeFiles/testParameterMatrix.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/basis/tests/CMakeFiles/testParameterMatrix.dir/rule
-.PHONY : gtsam/basis/tests/CMakeFiles/testParameterMatrix.dir/rule
-
-# Convenience name for target.
-testParameterMatrix: gtsam/basis/tests/CMakeFiles/testParameterMatrix.dir/rule
-
-.PHONY : testParameterMatrix
-
-# fast build rule for target.
-testParameterMatrix/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/basis/tests/CMakeFiles/testParameterMatrix.dir/build.make gtsam/basis/tests/CMakeFiles/testParameterMatrix.dir/build
-.PHONY : testParameterMatrix/fast
-
-# Convenience name for target.
 gtsam/basis/tests/CMakeFiles/check.basis.dir/rule:
 	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/basis/tests/CMakeFiles/check.basis.dir/rule
 .PHONY : gtsam/basis/tests/CMakeFiles/check.basis.dir/rule
@@ -220,94 +205,19 @@ check.basis/fast:
 .PHONY : check.basis/fast
 
 # Convenience name for target.
-gtsam/basis/tests/CMakeFiles/testBasisFactors.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/basis/tests/CMakeFiles/testBasisFactors.dir/rule
-.PHONY : gtsam/basis/tests/CMakeFiles/testBasisFactors.dir/rule
+gtsam/basis/tests/CMakeFiles/testParameterMatrix.dir/rule:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/basis/tests/CMakeFiles/testParameterMatrix.dir/rule
+.PHONY : gtsam/basis/tests/CMakeFiles/testParameterMatrix.dir/rule
 
 # Convenience name for target.
-testBasisFactors: gtsam/basis/tests/CMakeFiles/testBasisFactors.dir/rule
+testParameterMatrix: gtsam/basis/tests/CMakeFiles/testParameterMatrix.dir/rule
 
-.PHONY : testBasisFactors
+.PHONY : testParameterMatrix
 
 # fast build rule for target.
-testBasisFactors/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/basis/tests/CMakeFiles/testBasisFactors.dir/build.make gtsam/basis/tests/CMakeFiles/testBasisFactors.dir/build
-.PHONY : testBasisFactors/fast
-
-# Convenience name for target.
-gtsam/basis/tests/CMakeFiles/testChebyshev2.valgrind.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/basis/tests/CMakeFiles/testChebyshev2.valgrind.dir/rule
-.PHONY : gtsam/basis/tests/CMakeFiles/testChebyshev2.valgrind.dir/rule
-
-# Convenience name for target.
-testChebyshev2.valgrind: gtsam/basis/tests/CMakeFiles/testChebyshev2.valgrind.dir/rule
-
-.PHONY : testChebyshev2.valgrind
-
-# fast build rule for target.
-testChebyshev2.valgrind/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/basis/tests/CMakeFiles/testChebyshev2.valgrind.dir/build.make gtsam/basis/tests/CMakeFiles/testChebyshev2.valgrind.dir/build
-.PHONY : testChebyshev2.valgrind/fast
-
-# Convenience name for target.
-gtsam/basis/tests/CMakeFiles/testBasisFactors.run.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/basis/tests/CMakeFiles/testBasisFactors.run.dir/rule
-.PHONY : gtsam/basis/tests/CMakeFiles/testBasisFactors.run.dir/rule
-
-# Convenience name for target.
-testBasisFactors.run: gtsam/basis/tests/CMakeFiles/testBasisFactors.run.dir/rule
-
-.PHONY : testBasisFactors.run
-
-# fast build rule for target.
-testBasisFactors.run/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/basis/tests/CMakeFiles/testBasisFactors.run.dir/build.make gtsam/basis/tests/CMakeFiles/testBasisFactors.run.dir/build
-.PHONY : testBasisFactors.run/fast
-
-# Convenience name for target.
-gtsam/basis/tests/CMakeFiles/testFourier.valgrind.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/basis/tests/CMakeFiles/testFourier.valgrind.dir/rule
-.PHONY : gtsam/basis/tests/CMakeFiles/testFourier.valgrind.dir/rule
-
-# Convenience name for target.
-testFourier.valgrind: gtsam/basis/tests/CMakeFiles/testFourier.valgrind.dir/rule
-
-.PHONY : testFourier.valgrind
-
-# fast build rule for target.
-testFourier.valgrind/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/basis/tests/CMakeFiles/testFourier.valgrind.dir/build.make gtsam/basis/tests/CMakeFiles/testFourier.valgrind.dir/build
-.PHONY : testFourier.valgrind/fast
-
-# Convenience name for target.
-gtsam/basis/tests/CMakeFiles/testBasisFactors.valgrind.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/basis/tests/CMakeFiles/testBasisFactors.valgrind.dir/rule
-.PHONY : gtsam/basis/tests/CMakeFiles/testBasisFactors.valgrind.dir/rule
-
-# Convenience name for target.
-testBasisFactors.valgrind: gtsam/basis/tests/CMakeFiles/testBasisFactors.valgrind.dir/rule
-
-.PHONY : testBasisFactors.valgrind
-
-# fast build rule for target.
-testBasisFactors.valgrind/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/basis/tests/CMakeFiles/testBasisFactors.valgrind.dir/build.make gtsam/basis/tests/CMakeFiles/testBasisFactors.valgrind.dir/build
-.PHONY : testBasisFactors.valgrind/fast
-
-# Convenience name for target.
-gtsam/basis/tests/CMakeFiles/testChebyshev2.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/basis/tests/CMakeFiles/testChebyshev2.dir/rule
-.PHONY : gtsam/basis/tests/CMakeFiles/testChebyshev2.dir/rule
-
-# Convenience name for target.
-testChebyshev2: gtsam/basis/tests/CMakeFiles/testChebyshev2.dir/rule
-
-.PHONY : testChebyshev2
-
-# fast build rule for target.
-testChebyshev2/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/basis/tests/CMakeFiles/testChebyshev2.dir/build.make gtsam/basis/tests/CMakeFiles/testChebyshev2.dir/build
-.PHONY : testChebyshev2/fast
+testParameterMatrix/fast:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/basis/tests/CMakeFiles/testParameterMatrix.dir/build.make gtsam/basis/tests/CMakeFiles/testParameterMatrix.dir/build
+.PHONY : testParameterMatrix/fast
 
 # Convenience name for target.
 gtsam/basis/tests/CMakeFiles/testChebyshev.dir/rule:
@@ -355,19 +265,34 @@ testChebyshev.valgrind/fast:
 .PHONY : testChebyshev.valgrind/fast
 
 # Convenience name for target.
-gtsam/basis/tests/CMakeFiles/testParameterMatrix.run.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/basis/tests/CMakeFiles/testParameterMatrix.run.dir/rule
-.PHONY : gtsam/basis/tests/CMakeFiles/testParameterMatrix.run.dir/rule
+gtsam/basis/tests/CMakeFiles/testChebyshev2.dir/rule:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/basis/tests/CMakeFiles/testChebyshev2.dir/rule
+.PHONY : gtsam/basis/tests/CMakeFiles/testChebyshev2.dir/rule
 
 # Convenience name for target.
-testParameterMatrix.run: gtsam/basis/tests/CMakeFiles/testParameterMatrix.run.dir/rule
+testChebyshev2: gtsam/basis/tests/CMakeFiles/testChebyshev2.dir/rule
 
-.PHONY : testParameterMatrix.run
+.PHONY : testChebyshev2
 
 # fast build rule for target.
-testParameterMatrix.run/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/basis/tests/CMakeFiles/testParameterMatrix.run.dir/build.make gtsam/basis/tests/CMakeFiles/testParameterMatrix.run.dir/build
-.PHONY : testParameterMatrix.run/fast
+testChebyshev2/fast:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/basis/tests/CMakeFiles/testChebyshev2.dir/build.make gtsam/basis/tests/CMakeFiles/testChebyshev2.dir/build
+.PHONY : testChebyshev2/fast
+
+# Convenience name for target.
+gtsam/basis/tests/CMakeFiles/testChebyshev2.valgrind.dir/rule:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/basis/tests/CMakeFiles/testChebyshev2.valgrind.dir/rule
+.PHONY : gtsam/basis/tests/CMakeFiles/testChebyshev2.valgrind.dir/rule
+
+# Convenience name for target.
+testChebyshev2.valgrind: gtsam/basis/tests/CMakeFiles/testChebyshev2.valgrind.dir/rule
+
+.PHONY : testChebyshev2.valgrind
+
+# fast build rule for target.
+testChebyshev2.valgrind/fast:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/basis/tests/CMakeFiles/testChebyshev2.valgrind.dir/build.make gtsam/basis/tests/CMakeFiles/testChebyshev2.valgrind.dir/build
+.PHONY : testChebyshev2.valgrind/fast
 
 # Convenience name for target.
 gtsam/basis/tests/CMakeFiles/testChebyshev2.run.dir/rule:
@@ -383,6 +308,21 @@ testChebyshev2.run: gtsam/basis/tests/CMakeFiles/testChebyshev2.run.dir/rule
 testChebyshev2.run/fast:
 	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/basis/tests/CMakeFiles/testChebyshev2.run.dir/build.make gtsam/basis/tests/CMakeFiles/testChebyshev2.run.dir/build
 .PHONY : testChebyshev2.run/fast
+
+# Convenience name for target.
+gtsam/basis/tests/CMakeFiles/testParameterMatrix.run.dir/rule:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/basis/tests/CMakeFiles/testParameterMatrix.run.dir/rule
+.PHONY : gtsam/basis/tests/CMakeFiles/testParameterMatrix.run.dir/rule
+
+# Convenience name for target.
+testParameterMatrix.run: gtsam/basis/tests/CMakeFiles/testParameterMatrix.run.dir/rule
+
+.PHONY : testParameterMatrix.run
+
+# fast build rule for target.
+testParameterMatrix.run/fast:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/basis/tests/CMakeFiles/testParameterMatrix.run.dir/build.make gtsam/basis/tests/CMakeFiles/testParameterMatrix.run.dir/build
+.PHONY : testParameterMatrix.run/fast
 
 # Convenience name for target.
 gtsam/basis/tests/CMakeFiles/testFourier.dir/rule:
@@ -429,32 +369,20 @@ testFourier.run/fast:
 	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/basis/tests/CMakeFiles/testFourier.run.dir/build.make gtsam/basis/tests/CMakeFiles/testFourier.run.dir/build
 .PHONY : testFourier.run/fast
 
-testBasisFactors.o: testBasisFactors.cpp.o
+# Convenience name for target.
+gtsam/basis/tests/CMakeFiles/testFourier.valgrind.dir/rule:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/basis/tests/CMakeFiles/testFourier.valgrind.dir/rule
+.PHONY : gtsam/basis/tests/CMakeFiles/testFourier.valgrind.dir/rule
 
-.PHONY : testBasisFactors.o
+# Convenience name for target.
+testFourier.valgrind: gtsam/basis/tests/CMakeFiles/testFourier.valgrind.dir/rule
 
-# target to build an object file
-testBasisFactors.cpp.o:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/basis/tests/CMakeFiles/testBasisFactors.dir/build.make gtsam/basis/tests/CMakeFiles/testBasisFactors.dir/testBasisFactors.cpp.o
-.PHONY : testBasisFactors.cpp.o
+.PHONY : testFourier.valgrind
 
-testBasisFactors.i: testBasisFactors.cpp.i
-
-.PHONY : testBasisFactors.i
-
-# target to preprocess a source file
-testBasisFactors.cpp.i:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/basis/tests/CMakeFiles/testBasisFactors.dir/build.make gtsam/basis/tests/CMakeFiles/testBasisFactors.dir/testBasisFactors.cpp.i
-.PHONY : testBasisFactors.cpp.i
-
-testBasisFactors.s: testBasisFactors.cpp.s
-
-.PHONY : testBasisFactors.s
-
-# target to generate assembly for a file
-testBasisFactors.cpp.s:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/basis/tests/CMakeFiles/testBasisFactors.dir/build.make gtsam/basis/tests/CMakeFiles/testBasisFactors.dir/testBasisFactors.cpp.s
-.PHONY : testBasisFactors.cpp.s
+# fast build rule for target.
+testFourier.valgrind/fast:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/basis/tests/CMakeFiles/testFourier.valgrind.dir/build.make gtsam/basis/tests/CMakeFiles/testFourier.valgrind.dir/build
+.PHONY : testFourier.valgrind/fast
 
 testChebyshev.o: testChebyshev.cpp.o
 
@@ -570,34 +498,28 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
+	@echo "... install/strip"
 	@echo "... install/local"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... test"
+	@echo "... check.basis"
 	@echo "... package_source"
 	@echo "... testParameterMatrix"
-	@echo "... check.basis"
-	@echo "... testBasisFactors"
-	@echo "... testChebyshev2.valgrind"
-	@echo "... install/strip"
-	@echo "... testBasisFactors.run"
-	@echo "... install"
-	@echo "... testFourier.valgrind"
-	@echo "... testBasisFactors.valgrind"
-	@echo "... testChebyshev2"
 	@echo "... testChebyshev"
 	@echo "... testChebyshev.run"
 	@echo "... package"
 	@echo "... testChebyshev.valgrind"
-	@echo "... testParameterMatrix.run"
+	@echo "... testChebyshev2"
+	@echo "... testChebyshev2.valgrind"
 	@echo "... testChebyshev2.run"
+	@echo "... testParameterMatrix.run"
 	@echo "... testFourier"
 	@echo "... list_install_components"
 	@echo "... testParameterMatrix.valgrind"
 	@echo "... testFourier.run"
-	@echo "... testBasisFactors.o"
-	@echo "... testBasisFactors.i"
-	@echo "... testBasisFactors.s"
+	@echo "... install"
+	@echo "... testFourier.valgrind"
 	@echo "... testChebyshev.o"
 	@echo "... testChebyshev.i"
 	@echo "... testChebyshev.s"

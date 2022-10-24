@@ -79,7 +79,7 @@ timeRot2_EXTERNAL_OBJECTS =
 
 timing/timeRot2: timing/CMakeFiles/timeRot2.dir/timeRot2.cpp.o
 timing/timeRot2: timing/CMakeFiles/timeRot2.dir/build.make
-timing/timeRot2: gtsam/libgtsam.so.4.2.0
+timing/timeRot2: gtsam/libgtsam.so.4.1.0
 timing/timeRot2: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 timing/timeRot2: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 timing/timeRot2: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

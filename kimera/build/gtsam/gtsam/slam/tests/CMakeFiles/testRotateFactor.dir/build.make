@@ -80,7 +80,7 @@ testRotateFactor_EXTERNAL_OBJECTS =
 gtsam/slam/tests/testRotateFactor: gtsam/slam/tests/CMakeFiles/testRotateFactor.dir/testRotateFactor.cpp.o
 gtsam/slam/tests/testRotateFactor: gtsam/slam/tests/CMakeFiles/testRotateFactor.dir/build.make
 gtsam/slam/tests/testRotateFactor: CppUnitLite/libCppUnitLite.a
-gtsam/slam/tests/testRotateFactor: gtsam/libgtsam.so.4.2.0
+gtsam/slam/tests/testRotateFactor: gtsam/libgtsam.so.4.1.0
 gtsam/slam/tests/testRotateFactor: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 gtsam/slam/tests/testRotateFactor: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 gtsam/slam/tests/testRotateFactor: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

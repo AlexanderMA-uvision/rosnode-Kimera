@@ -79,7 +79,7 @@ Pose2SLAMStressTest_EXTERNAL_OBJECTS =
 
 examples/Pose2SLAMStressTest: examples/CMakeFiles/Pose2SLAMStressTest.dir/Pose2SLAMStressTest.cpp.o
 examples/Pose2SLAMStressTest: examples/CMakeFiles/Pose2SLAMStressTest.dir/build.make
-examples/Pose2SLAMStressTest: gtsam/libgtsam.so.4.2.0
+examples/Pose2SLAMStressTest: gtsam/libgtsam.so.4.1.0
 examples/Pose2SLAMStressTest: /usr/lib/aarch64-linux-gnu/libboost_program_options.so.1.71.0
 examples/Pose2SLAMStressTest: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 examples/Pose2SLAMStressTest: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0

@@ -80,7 +80,7 @@ testProjectionFactor_EXTERNAL_OBJECTS =
 gtsam/slam/tests/testProjectionFactor: gtsam/slam/tests/CMakeFiles/testProjectionFactor.dir/testProjectionFactor.cpp.o
 gtsam/slam/tests/testProjectionFactor: gtsam/slam/tests/CMakeFiles/testProjectionFactor.dir/build.make
 gtsam/slam/tests/testProjectionFactor: CppUnitLite/libCppUnitLite.a
-gtsam/slam/tests/testProjectionFactor: gtsam/libgtsam.so.4.2.0
+gtsam/slam/tests/testProjectionFactor: gtsam/libgtsam.so.4.1.0
 gtsam/slam/tests/testProjectionFactor: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 gtsam/slam/tests/testProjectionFactor: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 gtsam/slam/tests/testProjectionFactor: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

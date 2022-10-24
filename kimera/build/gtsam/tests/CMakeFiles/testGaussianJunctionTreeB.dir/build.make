@@ -80,7 +80,7 @@ testGaussianJunctionTreeB_EXTERNAL_OBJECTS =
 tests/testGaussianJunctionTreeB: tests/CMakeFiles/testGaussianJunctionTreeB.dir/testGaussianJunctionTreeB.cpp.o
 tests/testGaussianJunctionTreeB: tests/CMakeFiles/testGaussianJunctionTreeB.dir/build.make
 tests/testGaussianJunctionTreeB: CppUnitLite/libCppUnitLite.a
-tests/testGaussianJunctionTreeB: gtsam/libgtsam.so.4.2.0
+tests/testGaussianJunctionTreeB: gtsam/libgtsam.so.4.1.0
 tests/testGaussianJunctionTreeB: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 tests/testGaussianJunctionTreeB: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 tests/testGaussianJunctionTreeB: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

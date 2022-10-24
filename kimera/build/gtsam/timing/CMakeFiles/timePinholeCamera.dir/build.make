@@ -79,7 +79,7 @@ timePinholeCamera_EXTERNAL_OBJECTS =
 
 timing/timePinholeCamera: timing/CMakeFiles/timePinholeCamera.dir/timePinholeCamera.cpp.o
 timing/timePinholeCamera: timing/CMakeFiles/timePinholeCamera.dir/build.make
-timing/timePinholeCamera: gtsam/libgtsam.so.4.2.0
+timing/timePinholeCamera: gtsam/libgtsam.so.4.1.0
 timing/timePinholeCamera: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 timing/timePinholeCamera: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 timing/timePinholeCamera: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

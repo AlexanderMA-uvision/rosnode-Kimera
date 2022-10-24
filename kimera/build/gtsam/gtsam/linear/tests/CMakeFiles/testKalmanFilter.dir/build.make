@@ -80,7 +80,7 @@ testKalmanFilter_EXTERNAL_OBJECTS =
 gtsam/linear/tests/testKalmanFilter: gtsam/linear/tests/CMakeFiles/testKalmanFilter.dir/testKalmanFilter.cpp.o
 gtsam/linear/tests/testKalmanFilter: gtsam/linear/tests/CMakeFiles/testKalmanFilter.dir/build.make
 gtsam/linear/tests/testKalmanFilter: CppUnitLite/libCppUnitLite.a
-gtsam/linear/tests/testKalmanFilter: gtsam/libgtsam.so.4.2.0
+gtsam/linear/tests/testKalmanFilter: gtsam/libgtsam.so.4.1.0
 gtsam/linear/tests/testKalmanFilter: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 gtsam/linear/tests/testKalmanFilter: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 gtsam/linear/tests/testKalmanFilter: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

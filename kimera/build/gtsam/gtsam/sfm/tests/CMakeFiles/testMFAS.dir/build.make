@@ -80,7 +80,7 @@ testMFAS_EXTERNAL_OBJECTS =
 gtsam/sfm/tests/testMFAS: gtsam/sfm/tests/CMakeFiles/testMFAS.dir/testMFAS.cpp.o
 gtsam/sfm/tests/testMFAS: gtsam/sfm/tests/CMakeFiles/testMFAS.dir/build.make
 gtsam/sfm/tests/testMFAS: CppUnitLite/libCppUnitLite.a
-gtsam/sfm/tests/testMFAS: gtsam/libgtsam.so.4.2.0
+gtsam/sfm/tests/testMFAS: gtsam/libgtsam.so.4.1.0
 gtsam/sfm/tests/testMFAS: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 gtsam/sfm/tests/testMFAS: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 gtsam/sfm/tests/testMFAS: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

@@ -80,7 +80,7 @@ testDSFVector_EXTERNAL_OBJECTS =
 gtsam/base/tests/testDSFVector: gtsam/base/tests/CMakeFiles/testDSFVector.dir/testDSFVector.cpp.o
 gtsam/base/tests/testDSFVector: gtsam/base/tests/CMakeFiles/testDSFVector.dir/build.make
 gtsam/base/tests/testDSFVector: CppUnitLite/libCppUnitLite.a
-gtsam/base/tests/testDSFVector: gtsam/libgtsam.so.4.2.0
+gtsam/base/tests/testDSFVector: gtsam/libgtsam.so.4.1.0
 gtsam/base/tests/testDSFVector: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 gtsam/base/tests/testDSFVector: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 gtsam/base/tests/testDSFVector: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

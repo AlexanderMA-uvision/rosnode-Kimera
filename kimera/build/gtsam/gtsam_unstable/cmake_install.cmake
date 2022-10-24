@@ -43,7 +43,7 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   foreach(file
-      "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libgtsam_unstable.so.4.2.0"
+      "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libgtsam_unstable.so.4.1.0"
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libgtsam_unstable.so.4"
       )
     if(EXISTS "${file}" AND
@@ -54,11 +54,11 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     endif()
   endforeach()
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES
-    "/home/catkin_ws/build/gtsam/gtsam_unstable/libgtsam_unstable.so.4.2.0"
+    "/home/catkin_ws/build/gtsam/gtsam_unstable/libgtsam_unstable.so.4.1.0"
     "/home/catkin_ws/build/gtsam/gtsam_unstable/libgtsam_unstable.so.4"
     )
   foreach(file
-      "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libgtsam_unstable.so.4.2.0"
+      "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libgtsam_unstable.so.4.1.0"
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libgtsam_unstable.so.4"
       )
     if(EXISTS "${file}" AND

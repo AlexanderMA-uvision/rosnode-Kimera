@@ -80,7 +80,7 @@ testNonlinearOptimizer_EXTERNAL_OBJECTS =
 tests/testNonlinearOptimizer: tests/CMakeFiles/testNonlinearOptimizer.dir/testNonlinearOptimizer.cpp.o
 tests/testNonlinearOptimizer: tests/CMakeFiles/testNonlinearOptimizer.dir/build.make
 tests/testNonlinearOptimizer: CppUnitLite/libCppUnitLite.a
-tests/testNonlinearOptimizer: gtsam/libgtsam.so.4.2.0
+tests/testNonlinearOptimizer: gtsam/libgtsam.so.4.1.0
 tests/testNonlinearOptimizer: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 tests/testNonlinearOptimizer: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 tests/testNonlinearOptimizer: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

@@ -80,7 +80,7 @@ testVerticalBlockMatrix_EXTERNAL_OBJECTS =
 gtsam/base/tests/testVerticalBlockMatrix: gtsam/base/tests/CMakeFiles/testVerticalBlockMatrix.dir/testVerticalBlockMatrix.cpp.o
 gtsam/base/tests/testVerticalBlockMatrix: gtsam/base/tests/CMakeFiles/testVerticalBlockMatrix.dir/build.make
 gtsam/base/tests/testVerticalBlockMatrix: CppUnitLite/libCppUnitLite.a
-gtsam/base/tests/testVerticalBlockMatrix: gtsam/libgtsam.so.4.2.0
+gtsam/base/tests/testVerticalBlockMatrix: gtsam/libgtsam.so.4.1.0
 gtsam/base/tests/testVerticalBlockMatrix: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 gtsam/base/tests/testVerticalBlockMatrix: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 gtsam/base/tests/testVerticalBlockMatrix: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

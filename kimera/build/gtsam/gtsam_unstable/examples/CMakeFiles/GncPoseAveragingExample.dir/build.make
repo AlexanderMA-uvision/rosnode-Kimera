@@ -79,8 +79,8 @@ GncPoseAveragingExample_EXTERNAL_OBJECTS =
 
 gtsam_unstable/examples/GncPoseAveragingExample: gtsam_unstable/examples/CMakeFiles/GncPoseAveragingExample.dir/GncPoseAveragingExample.cpp.o
 gtsam_unstable/examples/GncPoseAveragingExample: gtsam_unstable/examples/CMakeFiles/GncPoseAveragingExample.dir/build.make
-gtsam_unstable/examples/GncPoseAveragingExample: gtsam_unstable/libgtsam_unstable.so.4.2.0
-gtsam_unstable/examples/GncPoseAveragingExample: gtsam/libgtsam.so.4.2.0
+gtsam_unstable/examples/GncPoseAveragingExample: gtsam_unstable/libgtsam_unstable.so.4.1.0
+gtsam_unstable/examples/GncPoseAveragingExample: gtsam/libgtsam.so.4.1.0
 gtsam_unstable/examples/GncPoseAveragingExample: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 gtsam_unstable/examples/GncPoseAveragingExample: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 gtsam_unstable/examples/GncPoseAveragingExample: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

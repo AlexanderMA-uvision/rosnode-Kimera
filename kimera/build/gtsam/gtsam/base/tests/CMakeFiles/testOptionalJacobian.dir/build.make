@@ -80,7 +80,7 @@ testOptionalJacobian_EXTERNAL_OBJECTS =
 gtsam/base/tests/testOptionalJacobian: gtsam/base/tests/CMakeFiles/testOptionalJacobian.dir/testOptionalJacobian.cpp.o
 gtsam/base/tests/testOptionalJacobian: gtsam/base/tests/CMakeFiles/testOptionalJacobian.dir/build.make
 gtsam/base/tests/testOptionalJacobian: CppUnitLite/libCppUnitLite.a
-gtsam/base/tests/testOptionalJacobian: gtsam/libgtsam.so.4.2.0
+gtsam/base/tests/testOptionalJacobian: gtsam/libgtsam.so.4.1.0
 gtsam/base/tests/testOptionalJacobian: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 gtsam/base/tests/testOptionalJacobian: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 gtsam/base/tests/testOptionalJacobian: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

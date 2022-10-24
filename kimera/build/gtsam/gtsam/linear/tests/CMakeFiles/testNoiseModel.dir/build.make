@@ -80,7 +80,7 @@ testNoiseModel_EXTERNAL_OBJECTS =
 gtsam/linear/tests/testNoiseModel: gtsam/linear/tests/CMakeFiles/testNoiseModel.dir/testNoiseModel.cpp.o
 gtsam/linear/tests/testNoiseModel: gtsam/linear/tests/CMakeFiles/testNoiseModel.dir/build.make
 gtsam/linear/tests/testNoiseModel: CppUnitLite/libCppUnitLite.a
-gtsam/linear/tests/testNoiseModel: gtsam/libgtsam.so.4.2.0
+gtsam/linear/tests/testNoiseModel: gtsam/libgtsam.so.4.1.0
 gtsam/linear/tests/testNoiseModel: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 gtsam/linear/tests/testNoiseModel: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 gtsam/linear/tests/testNoiseModel: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

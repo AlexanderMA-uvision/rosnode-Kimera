@@ -79,7 +79,7 @@ timeFactorOverhead_EXTERNAL_OBJECTS =
 
 timing/timeFactorOverhead: timing/CMakeFiles/timeFactorOverhead.dir/timeFactorOverhead.cpp.o
 timing/timeFactorOverhead: timing/CMakeFiles/timeFactorOverhead.dir/build.make
-timing/timeFactorOverhead: gtsam/libgtsam.so.4.2.0
+timing/timeFactorOverhead: gtsam/libgtsam.so.4.1.0
 timing/timeFactorOverhead: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 timing/timeFactorOverhead: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 timing/timeFactorOverhead: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

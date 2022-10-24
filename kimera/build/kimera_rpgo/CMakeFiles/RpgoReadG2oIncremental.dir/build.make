@@ -80,8 +80,8 @@ RpgoReadG2oIncremental_EXTERNAL_OBJECTS =
 RpgoReadG2oIncremental: CMakeFiles/RpgoReadG2oIncremental.dir/examples/RpgoReadG2oIncremental.cpp.o
 RpgoReadG2oIncremental: CMakeFiles/RpgoReadG2oIncremental.dir/build.make
 RpgoReadG2oIncremental: libKimeraRPGO.so
-RpgoReadG2oIncremental: /home/catkin_ws/devel/lib/libgtsam_unstable.so.4.2.0
-RpgoReadG2oIncremental: /home/catkin_ws/devel/lib/libgtsam.so.4.2.0
+RpgoReadG2oIncremental: /home/catkin_ws/devel/lib/libgtsam_unstable.so.4.1.0
+RpgoReadG2oIncremental: /home/catkin_ws/devel/lib/libgtsam.so.4.1.0
 RpgoReadG2oIncremental: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 RpgoReadG2oIncremental: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 RpgoReadG2oIncremental: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

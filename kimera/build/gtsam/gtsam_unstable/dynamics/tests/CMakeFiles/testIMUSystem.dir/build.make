@@ -80,8 +80,8 @@ testIMUSystem_EXTERNAL_OBJECTS =
 gtsam_unstable/dynamics/tests/testIMUSystem: gtsam_unstable/dynamics/tests/CMakeFiles/testIMUSystem.dir/testIMUSystem.cpp.o
 gtsam_unstable/dynamics/tests/testIMUSystem: gtsam_unstable/dynamics/tests/CMakeFiles/testIMUSystem.dir/build.make
 gtsam_unstable/dynamics/tests/testIMUSystem: CppUnitLite/libCppUnitLite.a
-gtsam_unstable/dynamics/tests/testIMUSystem: gtsam_unstable/libgtsam_unstable.so.4.2.0
-gtsam_unstable/dynamics/tests/testIMUSystem: gtsam/libgtsam.so.4.2.0
+gtsam_unstable/dynamics/tests/testIMUSystem: gtsam_unstable/libgtsam_unstable.so.4.1.0
+gtsam_unstable/dynamics/tests/testIMUSystem: gtsam/libgtsam.so.4.1.0
 gtsam_unstable/dynamics/tests/testIMUSystem: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 gtsam_unstable/dynamics/tests/testIMUSystem: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 gtsam_unstable/dynamics/tests/testIMUSystem: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

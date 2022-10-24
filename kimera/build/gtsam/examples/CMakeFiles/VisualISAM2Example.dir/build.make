@@ -79,7 +79,7 @@ VisualISAM2Example_EXTERNAL_OBJECTS =
 
 examples/VisualISAM2Example: examples/CMakeFiles/VisualISAM2Example.dir/VisualISAM2Example.cpp.o
 examples/VisualISAM2Example: examples/CMakeFiles/VisualISAM2Example.dir/build.make
-examples/VisualISAM2Example: gtsam/libgtsam.so.4.2.0
+examples/VisualISAM2Example: gtsam/libgtsam.so.4.1.0
 examples/VisualISAM2Example: /usr/lib/aarch64-linux-gnu/libboost_program_options.so.1.71.0
 examples/VisualISAM2Example: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 examples/VisualISAM2Example: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0

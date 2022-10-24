@@ -24,8 +24,6 @@
 #include <gtsam/dllexport.h>
 #include <Eigen/Core>
 
-#include <boost/serialization/nvp.hpp>
-
 #include <iostream> // TODO(frank): how to avoid?
 #include <string>
 #include <type_traits>
@@ -178,13 +176,13 @@ class SO : public LieGroup<SO<N>, internal::DimensionSO(N)> {
 
   /// SO<N> identity for N >= 2
   template <int N_ = N, typename = IsFixed<N_>>
-  static SO Identity() {
+  static SO identity() {
     return SO();
   }
 
   /// SO<N> identity for N == Eigen::Dynamic
   template <int N_ = N, typename = IsDynamic<N_>>
-  static SO Identity(size_t n = 0) {
+  static SO identity(size_t n = 0) {
     return SO(n);
   }
 
@@ -358,21 +356,17 @@ Vector SOn::Vee(const Matrix& X);
 using DynamicJacobian = OptionalJacobian<Eigen::Dynamic, Eigen::Dynamic>;
 
 template <>
-GTSAM_EXPORT
 SOn LieGroup<SOn, Eigen::Dynamic>::compose(const SOn& g, DynamicJacobian H1,
                                            DynamicJacobian H2) const;
 
 template <>
-GTSAM_EXPORT
 SOn LieGroup<SOn, Eigen::Dynamic>::between(const SOn& g, DynamicJacobian H1,
                                            DynamicJacobian H2) const;
 
 /*
  * Specialize dynamic vec.
  */
-template <> 
-GTSAM_EXPORT
-typename SOn::VectorN2 SOn::vec(DynamicJacobian H) const;
+template <> typename SOn::VectorN2 SOn::vec(DynamicJacobian H) const;
 
 /** Serialization function */
 template<class Archive>

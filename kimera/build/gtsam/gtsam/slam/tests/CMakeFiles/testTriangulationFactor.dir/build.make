@@ -80,7 +80,7 @@ testTriangulationFactor_EXTERNAL_OBJECTS =
 gtsam/slam/tests/testTriangulationFactor: gtsam/slam/tests/CMakeFiles/testTriangulationFactor.dir/testTriangulationFactor.cpp.o
 gtsam/slam/tests/testTriangulationFactor: gtsam/slam/tests/CMakeFiles/testTriangulationFactor.dir/build.make
 gtsam/slam/tests/testTriangulationFactor: CppUnitLite/libCppUnitLite.a
-gtsam/slam/tests/testTriangulationFactor: gtsam/libgtsam.so.4.2.0
+gtsam/slam/tests/testTriangulationFactor: gtsam/libgtsam.so.4.1.0
 gtsam/slam/tests/testTriangulationFactor: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 gtsam/slam/tests/testTriangulationFactor: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 gtsam/slam/tests/testTriangulationFactor: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

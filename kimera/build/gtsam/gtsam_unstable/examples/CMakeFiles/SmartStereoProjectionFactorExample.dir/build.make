@@ -79,8 +79,8 @@ SmartStereoProjectionFactorExample_EXTERNAL_OBJECTS =
 
 gtsam_unstable/examples/SmartStereoProjectionFactorExample: gtsam_unstable/examples/CMakeFiles/SmartStereoProjectionFactorExample.dir/SmartStereoProjectionFactorExample.cpp.o
 gtsam_unstable/examples/SmartStereoProjectionFactorExample: gtsam_unstable/examples/CMakeFiles/SmartStereoProjectionFactorExample.dir/build.make
-gtsam_unstable/examples/SmartStereoProjectionFactorExample: gtsam_unstable/libgtsam_unstable.so.4.2.0
-gtsam_unstable/examples/SmartStereoProjectionFactorExample: gtsam/libgtsam.so.4.2.0
+gtsam_unstable/examples/SmartStereoProjectionFactorExample: gtsam_unstable/libgtsam_unstable.so.4.1.0
+gtsam_unstable/examples/SmartStereoProjectionFactorExample: gtsam/libgtsam.so.4.1.0
 gtsam_unstable/examples/SmartStereoProjectionFactorExample: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 gtsam_unstable/examples/SmartStereoProjectionFactorExample: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 gtsam_unstable/examples/SmartStereoProjectionFactorExample: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

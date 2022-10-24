@@ -80,7 +80,7 @@ testWhiteNoiseFactor_EXTERNAL_OBJECTS =
 gtsam/nonlinear/tests/testWhiteNoiseFactor: gtsam/nonlinear/tests/CMakeFiles/testWhiteNoiseFactor.dir/testWhiteNoiseFactor.cpp.o
 gtsam/nonlinear/tests/testWhiteNoiseFactor: gtsam/nonlinear/tests/CMakeFiles/testWhiteNoiseFactor.dir/build.make
 gtsam/nonlinear/tests/testWhiteNoiseFactor: CppUnitLite/libCppUnitLite.a
-gtsam/nonlinear/tests/testWhiteNoiseFactor: gtsam/libgtsam.so.4.2.0
+gtsam/nonlinear/tests/testWhiteNoiseFactor: gtsam/libgtsam.so.4.1.0
 gtsam/nonlinear/tests/testWhiteNoiseFactor: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 gtsam/nonlinear/tests/testWhiteNoiseFactor: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 gtsam/nonlinear/tests/testWhiteNoiseFactor: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

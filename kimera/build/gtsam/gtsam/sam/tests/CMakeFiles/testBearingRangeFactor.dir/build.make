@@ -80,7 +80,7 @@ testBearingRangeFactor_EXTERNAL_OBJECTS =
 gtsam/sam/tests/testBearingRangeFactor: gtsam/sam/tests/CMakeFiles/testBearingRangeFactor.dir/testBearingRangeFactor.cpp.o
 gtsam/sam/tests/testBearingRangeFactor: gtsam/sam/tests/CMakeFiles/testBearingRangeFactor.dir/build.make
 gtsam/sam/tests/testBearingRangeFactor: CppUnitLite/libCppUnitLite.a
-gtsam/sam/tests/testBearingRangeFactor: gtsam/libgtsam.so.4.2.0
+gtsam/sam/tests/testBearingRangeFactor: gtsam/libgtsam.so.4.1.0
 gtsam/sam/tests/testBearingRangeFactor: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 gtsam/sam/tests/testBearingRangeFactor: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 gtsam/sam/tests/testBearingRangeFactor: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

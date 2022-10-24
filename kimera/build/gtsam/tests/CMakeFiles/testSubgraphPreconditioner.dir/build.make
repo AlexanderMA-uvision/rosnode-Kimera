@@ -80,7 +80,7 @@ testSubgraphPreconditioner_EXTERNAL_OBJECTS =
 tests/testSubgraphPreconditioner: tests/CMakeFiles/testSubgraphPreconditioner.dir/testSubgraphPreconditioner.cpp.o
 tests/testSubgraphPreconditioner: tests/CMakeFiles/testSubgraphPreconditioner.dir/build.make
 tests/testSubgraphPreconditioner: CppUnitLite/libCppUnitLite.a
-tests/testSubgraphPreconditioner: gtsam/libgtsam.so.4.2.0
+tests/testSubgraphPreconditioner: gtsam/libgtsam.so.4.1.0
 tests/testSubgraphPreconditioner: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 tests/testSubgraphPreconditioner: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 tests/testSubgraphPreconditioner: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

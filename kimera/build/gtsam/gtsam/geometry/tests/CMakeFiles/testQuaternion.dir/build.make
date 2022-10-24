@@ -80,7 +80,7 @@ testQuaternion_EXTERNAL_OBJECTS =
 gtsam/geometry/tests/testQuaternion: gtsam/geometry/tests/CMakeFiles/testQuaternion.dir/testQuaternion.cpp.o
 gtsam/geometry/tests/testQuaternion: gtsam/geometry/tests/CMakeFiles/testQuaternion.dir/build.make
 gtsam/geometry/tests/testQuaternion: CppUnitLite/libCppUnitLite.a
-gtsam/geometry/tests/testQuaternion: gtsam/libgtsam.so.4.2.0
+gtsam/geometry/tests/testQuaternion: gtsam/libgtsam.so.4.1.0
 gtsam/geometry/tests/testQuaternion: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 gtsam/geometry/tests/testQuaternion: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 gtsam/geometry/tests/testQuaternion: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

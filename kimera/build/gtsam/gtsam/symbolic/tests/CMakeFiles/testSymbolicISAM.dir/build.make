@@ -80,7 +80,7 @@ testSymbolicISAM_EXTERNAL_OBJECTS =
 gtsam/symbolic/tests/testSymbolicISAM: gtsam/symbolic/tests/CMakeFiles/testSymbolicISAM.dir/testSymbolicISAM.cpp.o
 gtsam/symbolic/tests/testSymbolicISAM: gtsam/symbolic/tests/CMakeFiles/testSymbolicISAM.dir/build.make
 gtsam/symbolic/tests/testSymbolicISAM: CppUnitLite/libCppUnitLite.a
-gtsam/symbolic/tests/testSymbolicISAM: gtsam/libgtsam.so.4.2.0
+gtsam/symbolic/tests/testSymbolicISAM: gtsam/libgtsam.so.4.1.0
 gtsam/symbolic/tests/testSymbolicISAM: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 gtsam/symbolic/tests/testSymbolicISAM: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 gtsam/symbolic/tests/testSymbolicISAM: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

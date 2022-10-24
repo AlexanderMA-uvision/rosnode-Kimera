@@ -49,7 +49,6 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     "/home/catkin_ws/src/gtsam/gtsam/inference/ClusterTree.h"
     "/home/catkin_ws/src/gtsam/gtsam/inference/Conditional-inst.h"
     "/home/catkin_ws/src/gtsam/gtsam/inference/Conditional.h"
-    "/home/catkin_ws/src/gtsam/gtsam/inference/DotWriter.h"
     "/home/catkin_ws/src/gtsam/gtsam/inference/EliminateableFactorGraph-inst.h"
     "/home/catkin_ws/src/gtsam/gtsam/inference/EliminateableFactorGraph.h"
     "/home/catkin_ws/src/gtsam/gtsam/inference/EliminationTree-inst.h"

@@ -80,7 +80,7 @@ testExpression_EXTERNAL_OBJECTS =
 gtsam/nonlinear/tests/testExpression: gtsam/nonlinear/tests/CMakeFiles/testExpression.dir/testExpression.cpp.o
 gtsam/nonlinear/tests/testExpression: gtsam/nonlinear/tests/CMakeFiles/testExpression.dir/build.make
 gtsam/nonlinear/tests/testExpression: CppUnitLite/libCppUnitLite.a
-gtsam/nonlinear/tests/testExpression: gtsam/libgtsam.so.4.2.0
+gtsam/nonlinear/tests/testExpression: gtsam/libgtsam.so.4.1.0
 gtsam/nonlinear/tests/testExpression: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 gtsam/nonlinear/tests/testExpression: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 gtsam/nonlinear/tests/testExpression: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

@@ -13,14 +13,12 @@ examples/CMakeFiles/SolverComparer.dir/SolverComparer.cpp.o: /home/catkin_ws/src
 examples/CMakeFiles/SolverComparer.dir/SolverComparer.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Lie.h
 examples/CMakeFiles/SolverComparer.dir/SolverComparer.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Manifold.h
 examples/CMakeFiles/SolverComparer.dir/SolverComparer.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Matrix.h
-examples/CMakeFiles/SolverComparer.dir/SolverComparer.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/MatrixSerialization.h
 examples/CMakeFiles/SolverComparer.dir/SolverComparer.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/OptionalJacobian.h
 examples/CMakeFiles/SolverComparer.dir/SolverComparer.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/SymmetricBlockMatrix.h
 examples/CMakeFiles/SolverComparer.dir/SolverComparer.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Testable.h
 examples/CMakeFiles/SolverComparer.dir/SolverComparer.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/ThreadsafeException.h
 examples/CMakeFiles/SolverComparer.dir/SolverComparer.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Value.h
 examples/CMakeFiles/SolverComparer.dir/SolverComparer.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Vector.h
-examples/CMakeFiles/SolverComparer.dir/SolverComparer.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/VectorSerialization.h
 examples/CMakeFiles/SolverComparer.dir/SolverComparer.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/VectorSpace.h
 examples/CMakeFiles/SolverComparer.dir/SolverComparer.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/VerticalBlockMatrix.h
 examples/CMakeFiles/SolverComparer.dir/SolverComparer.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/concepts.h
@@ -49,15 +47,11 @@ examples/CMakeFiles/SolverComparer.dir/SolverComparer.cpp.o: /home/catkin_ws/src
 examples/CMakeFiles/SolverComparer.dir/SolverComparer.cpp.o: /home/catkin_ws/src/gtsam/gtsam/geometry/SOn.h
 examples/CMakeFiles/SolverComparer.dir/SolverComparer.cpp.o: /home/catkin_ws/src/gtsam/gtsam/geometry/Unit3.h
 examples/CMakeFiles/SolverComparer.dir/SolverComparer.cpp.o: /home/catkin_ws/src/gtsam/gtsam/global_includes.h
-examples/CMakeFiles/SolverComparer.dir/SolverComparer.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/BayesNet-inst.h
-examples/CMakeFiles/SolverComparer.dir/SolverComparer.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/BayesNet.h
 examples/CMakeFiles/SolverComparer.dir/SolverComparer.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/BayesTree.h
 examples/CMakeFiles/SolverComparer.dir/SolverComparer.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/BayesTreeCliqueBase.h
 examples/CMakeFiles/SolverComparer.dir/SolverComparer.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/ClusterTree-inst.h
 examples/CMakeFiles/SolverComparer.dir/SolverComparer.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/ClusterTree.h
-examples/CMakeFiles/SolverComparer.dir/SolverComparer.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/Conditional-inst.h
 examples/CMakeFiles/SolverComparer.dir/SolverComparer.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/Conditional.h
-examples/CMakeFiles/SolverComparer.dir/SolverComparer.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/DotWriter.h
 examples/CMakeFiles/SolverComparer.dir/SolverComparer.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/EliminateableFactorGraph.h
 examples/CMakeFiles/SolverComparer.dir/SolverComparer.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/EliminationTree.h
 examples/CMakeFiles/SolverComparer.dir/SolverComparer.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/Factor.h
@@ -99,7 +93,6 @@ examples/CMakeFiles/SolverComparer.dir/SolverComparer.cpp.o: /home/catkin_ws/src
 examples/CMakeFiles/SolverComparer.dir/SolverComparer.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/Expression.h
 examples/CMakeFiles/SolverComparer.dir/SolverComparer.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/ExpressionFactor.h
 examples/CMakeFiles/SolverComparer.dir/SolverComparer.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/GaussNewtonOptimizer.h
-examples/CMakeFiles/SolverComparer.dir/SolverComparer.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/GraphvizFormatting.h
 examples/CMakeFiles/SolverComparer.dir/SolverComparer.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/ISAM2.h
 examples/CMakeFiles/SolverComparer.dir/SolverComparer.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/ISAM2Clique.h
 examples/CMakeFiles/SolverComparer.dir/SolverComparer.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/ISAM2Params.h
@@ -119,8 +112,6 @@ examples/CMakeFiles/SolverComparer.dir/SolverComparer.cpp.o: /home/catkin_ws/src
 examples/CMakeFiles/SolverComparer.dir/SolverComparer.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/internal/JacobianMap.h
 examples/CMakeFiles/SolverComparer.dir/SolverComparer.cpp.o: /home/catkin_ws/src/gtsam/gtsam/sam/BearingRangeFactor.h
 examples/CMakeFiles/SolverComparer.dir/SolverComparer.cpp.o: /home/catkin_ws/src/gtsam/gtsam/sfm/BinaryMeasurement.h
-examples/CMakeFiles/SolverComparer.dir/SolverComparer.cpp.o: /home/catkin_ws/src/gtsam/gtsam/sfm/SfmData.h
-examples/CMakeFiles/SolverComparer.dir/SolverComparer.cpp.o: /home/catkin_ws/src/gtsam/gtsam/sfm/SfmTrack.h
 examples/CMakeFiles/SolverComparer.dir/SolverComparer.cpp.o: /home/catkin_ws/src/gtsam/gtsam/slam/BetweenFactor.h
 examples/CMakeFiles/SolverComparer.dir/SolverComparer.cpp.o: /home/catkin_ws/src/gtsam/gtsam/slam/dataset.h
 examples/CMakeFiles/SolverComparer.dir/SolverComparer.cpp.o: /usr/include/eigen3/Eigen/Cholesky

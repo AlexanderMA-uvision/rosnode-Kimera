@@ -56,29 +56,6 @@ CMAKE_BINARY_DIR = /home/catkin_ws/build/gtsam
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target package_source
-package_source:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/catkin_ws/build/gtsam && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/catkin_ws/build/gtsam/CPackSourceConfig.cmake
-.PHONY : package_source
-
-# Special rule for the target package_source
-package_source/fast: package_source
-
-.PHONY : package_source/fast
-
-# Special rule for the target install/strip
-install/strip: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip
-
-# Special rule for the target install/strip
-install/strip/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip/fast
-
 # Special rule for the target install/local
 install/local: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
@@ -91,16 +68,48 @@ install/local/fast: preinstall/fast
 	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local/fast
 
-# Special rule for the target test
-test:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
-	/usr/bin/ctest --force-new-ctest-process $(ARGS)
-.PHONY : test
+# Special rule for the target list_install_components
+list_install_components:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
+.PHONY : list_install_components
 
-# Special rule for the target test
-test/fast: test
+# Special rule for the target list_install_components
+list_install_components/fast: list_install_components
 
-.PHONY : test/fast
+.PHONY : list_install_components/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/usr/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
+
+# Special rule for the target package
+package: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
+	cd /home/catkin_ws/build/gtsam && /usr/bin/cpack --config ./CPackConfig.cmake
+.PHONY : package
+
+# Special rule for the target package
+package/fast: package
+
+.PHONY : package/fast
 
 # Special rule for the target install
 install: preinstall
@@ -114,48 +123,39 @@ install/fast: preinstall/fast
 	/usr/bin/cmake -P cmake_install.cmake
 .PHONY : install/fast
 
-# Special rule for the target package
-package: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/catkin_ws/build/gtsam && /usr/bin/cpack --config ./CPackConfig.cmake
-.PHONY : package
+# Special rule for the target install/strip
+install/strip: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip
 
-# Special rule for the target package
-package/fast: package
+# Special rule for the target install/strip
+install/strip/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip/fast
 
-.PHONY : package/fast
+# Special rule for the target test
+test:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
+	/usr/bin/ctest --force-new-ctest-process $(ARGS)
+.PHONY : test
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
+# Special rule for the target test
+test/fast: test
 
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
+.PHONY : test/fast
 
-.PHONY : edit_cache/fast
+# Special rule for the target package_source
+package_source:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
+	cd /home/catkin_ws/build/gtsam && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/catkin_ws/build/gtsam/CPackSourceConfig.cmake
+.PHONY : package_source
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
+# Special rule for the target package_source
+package_source/fast: package_source
 
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
-# Special rule for the target list_install_components
-list_install_components:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
-.PHONY : list_install_components
-
-# Special rule for the target list_install_components
-list_install_components/fast: list_install_components
-
-.PHONY : list_install_components/fast
+.PHONY : package_source/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -190,259 +190,19 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-gtsam/sfm/tests/CMakeFiles/testSfmData.run.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/sfm/tests/CMakeFiles/testSfmData.run.dir/rule
-.PHONY : gtsam/sfm/tests/CMakeFiles/testSfmData.run.dir/rule
+gtsam/sfm/tests/CMakeFiles/testShonanGaugeFactor.run.dir/rule:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/sfm/tests/CMakeFiles/testShonanGaugeFactor.run.dir/rule
+.PHONY : gtsam/sfm/tests/CMakeFiles/testShonanGaugeFactor.run.dir/rule
 
 # Convenience name for target.
-testSfmData.run: gtsam/sfm/tests/CMakeFiles/testSfmData.run.dir/rule
+testShonanGaugeFactor.run: gtsam/sfm/tests/CMakeFiles/testShonanGaugeFactor.run.dir/rule
 
-.PHONY : testSfmData.run
+.PHONY : testShonanGaugeFactor.run
 
 # fast build rule for target.
-testSfmData.run/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/sfm/tests/CMakeFiles/testSfmData.run.dir/build.make gtsam/sfm/tests/CMakeFiles/testSfmData.run.dir/build
-.PHONY : testSfmData.run/fast
-
-# Convenience name for target.
-gtsam/sfm/tests/CMakeFiles/testShonanFactor.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/sfm/tests/CMakeFiles/testShonanFactor.dir/rule
-.PHONY : gtsam/sfm/tests/CMakeFiles/testShonanFactor.dir/rule
-
-# Convenience name for target.
-testShonanFactor: gtsam/sfm/tests/CMakeFiles/testShonanFactor.dir/rule
-
-.PHONY : testShonanFactor
-
-# fast build rule for target.
-testShonanFactor/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/sfm/tests/CMakeFiles/testShonanFactor.dir/build.make gtsam/sfm/tests/CMakeFiles/testShonanFactor.dir/build
-.PHONY : testShonanFactor/fast
-
-# Convenience name for target.
-gtsam/sfm/tests/CMakeFiles/testShonanAveraging.valgrind.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/sfm/tests/CMakeFiles/testShonanAveraging.valgrind.dir/rule
-.PHONY : gtsam/sfm/tests/CMakeFiles/testShonanAveraging.valgrind.dir/rule
-
-# Convenience name for target.
-testShonanAveraging.valgrind: gtsam/sfm/tests/CMakeFiles/testShonanAveraging.valgrind.dir/rule
-
-.PHONY : testShonanAveraging.valgrind
-
-# fast build rule for target.
-testShonanAveraging.valgrind/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/sfm/tests/CMakeFiles/testShonanAveraging.valgrind.dir/build.make gtsam/sfm/tests/CMakeFiles/testShonanAveraging.valgrind.dir/build
-.PHONY : testShonanAveraging.valgrind/fast
-
-# Convenience name for target.
-gtsam/sfm/tests/CMakeFiles/testTranslationFactor.valgrind.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/sfm/tests/CMakeFiles/testTranslationFactor.valgrind.dir/rule
-.PHONY : gtsam/sfm/tests/CMakeFiles/testTranslationFactor.valgrind.dir/rule
-
-# Convenience name for target.
-testTranslationFactor.valgrind: gtsam/sfm/tests/CMakeFiles/testTranslationFactor.valgrind.dir/rule
-
-.PHONY : testTranslationFactor.valgrind
-
-# fast build rule for target.
-testTranslationFactor.valgrind/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/sfm/tests/CMakeFiles/testTranslationFactor.valgrind.dir/build.make gtsam/sfm/tests/CMakeFiles/testTranslationFactor.valgrind.dir/build
-.PHONY : testTranslationFactor.valgrind/fast
-
-# Convenience name for target.
-gtsam/sfm/tests/CMakeFiles/testMFAS.valgrind.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/sfm/tests/CMakeFiles/testMFAS.valgrind.dir/rule
-.PHONY : gtsam/sfm/tests/CMakeFiles/testMFAS.valgrind.dir/rule
-
-# Convenience name for target.
-testMFAS.valgrind: gtsam/sfm/tests/CMakeFiles/testMFAS.valgrind.dir/rule
-
-.PHONY : testMFAS.valgrind
-
-# fast build rule for target.
-testMFAS.valgrind/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/sfm/tests/CMakeFiles/testMFAS.valgrind.dir/build.make gtsam/sfm/tests/CMakeFiles/testMFAS.valgrind.dir/build
-.PHONY : testMFAS.valgrind/fast
-
-# Convenience name for target.
-gtsam/sfm/tests/CMakeFiles/testMFAS.run.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/sfm/tests/CMakeFiles/testMFAS.run.dir/rule
-.PHONY : gtsam/sfm/tests/CMakeFiles/testMFAS.run.dir/rule
-
-# Convenience name for target.
-testMFAS.run: gtsam/sfm/tests/CMakeFiles/testMFAS.run.dir/rule
-
-.PHONY : testMFAS.run
-
-# fast build rule for target.
-testMFAS.run/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/sfm/tests/CMakeFiles/testMFAS.run.dir/build.make gtsam/sfm/tests/CMakeFiles/testMFAS.run.dir/build
-.PHONY : testMFAS.run/fast
-
-# Convenience name for target.
-gtsam/sfm/tests/CMakeFiles/testTranslationFactor.run.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/sfm/tests/CMakeFiles/testTranslationFactor.run.dir/rule
-.PHONY : gtsam/sfm/tests/CMakeFiles/testTranslationFactor.run.dir/rule
-
-# Convenience name for target.
-testTranslationFactor.run: gtsam/sfm/tests/CMakeFiles/testTranslationFactor.run.dir/rule
-
-.PHONY : testTranslationFactor.run
-
-# fast build rule for target.
-testTranslationFactor.run/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/sfm/tests/CMakeFiles/testTranslationFactor.run.dir/build.make gtsam/sfm/tests/CMakeFiles/testTranslationFactor.run.dir/build
-.PHONY : testTranslationFactor.run/fast
-
-# Convenience name for target.
-gtsam/sfm/tests/CMakeFiles/testTranslationFactor.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/sfm/tests/CMakeFiles/testTranslationFactor.dir/rule
-.PHONY : gtsam/sfm/tests/CMakeFiles/testTranslationFactor.dir/rule
-
-# Convenience name for target.
-testTranslationFactor: gtsam/sfm/tests/CMakeFiles/testTranslationFactor.dir/rule
-
-.PHONY : testTranslationFactor
-
-# fast build rule for target.
-testTranslationFactor/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/sfm/tests/CMakeFiles/testTranslationFactor.dir/build.make gtsam/sfm/tests/CMakeFiles/testTranslationFactor.dir/build
-.PHONY : testTranslationFactor/fast
-
-# Convenience name for target.
-gtsam/sfm/tests/CMakeFiles/testSfmData.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/sfm/tests/CMakeFiles/testSfmData.dir/rule
-.PHONY : gtsam/sfm/tests/CMakeFiles/testSfmData.dir/rule
-
-# Convenience name for target.
-testSfmData: gtsam/sfm/tests/CMakeFiles/testSfmData.dir/rule
-
-.PHONY : testSfmData
-
-# fast build rule for target.
-testSfmData/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/sfm/tests/CMakeFiles/testSfmData.dir/build.make gtsam/sfm/tests/CMakeFiles/testSfmData.dir/build
-.PHONY : testSfmData/fast
-
-# Convenience name for target.
-gtsam/sfm/tests/CMakeFiles/testBinaryMeasurement.run.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/sfm/tests/CMakeFiles/testBinaryMeasurement.run.dir/rule
-.PHONY : gtsam/sfm/tests/CMakeFiles/testBinaryMeasurement.run.dir/rule
-
-# Convenience name for target.
-testBinaryMeasurement.run: gtsam/sfm/tests/CMakeFiles/testBinaryMeasurement.run.dir/rule
-
-.PHONY : testBinaryMeasurement.run
-
-# fast build rule for target.
-testBinaryMeasurement.run/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/sfm/tests/CMakeFiles/testBinaryMeasurement.run.dir/build.make gtsam/sfm/tests/CMakeFiles/testBinaryMeasurement.run.dir/build
-.PHONY : testBinaryMeasurement.run/fast
-
-# Convenience name for target.
-gtsam/sfm/tests/CMakeFiles/testShonanAveraging.run.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/sfm/tests/CMakeFiles/testShonanAveraging.run.dir/rule
-.PHONY : gtsam/sfm/tests/CMakeFiles/testShonanAveraging.run.dir/rule
-
-# Convenience name for target.
-testShonanAveraging.run: gtsam/sfm/tests/CMakeFiles/testShonanAveraging.run.dir/rule
-
-.PHONY : testShonanAveraging.run
-
-# fast build rule for target.
-testShonanAveraging.run/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/sfm/tests/CMakeFiles/testShonanAveraging.run.dir/build.make gtsam/sfm/tests/CMakeFiles/testShonanAveraging.run.dir/build
-.PHONY : testShonanAveraging.run/fast
-
-# Convenience name for target.
-gtsam/sfm/tests/CMakeFiles/testSfmData.valgrind.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/sfm/tests/CMakeFiles/testSfmData.valgrind.dir/rule
-.PHONY : gtsam/sfm/tests/CMakeFiles/testSfmData.valgrind.dir/rule
-
-# Convenience name for target.
-testSfmData.valgrind: gtsam/sfm/tests/CMakeFiles/testSfmData.valgrind.dir/rule
-
-.PHONY : testSfmData.valgrind
-
-# fast build rule for target.
-testSfmData.valgrind/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/sfm/tests/CMakeFiles/testSfmData.valgrind.dir/build.make gtsam/sfm/tests/CMakeFiles/testSfmData.valgrind.dir/build
-.PHONY : testSfmData.valgrind/fast
-
-# Convenience name for target.
-gtsam/sfm/tests/CMakeFiles/testMFAS.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/sfm/tests/CMakeFiles/testMFAS.dir/rule
-.PHONY : gtsam/sfm/tests/CMakeFiles/testMFAS.dir/rule
-
-# Convenience name for target.
-testMFAS: gtsam/sfm/tests/CMakeFiles/testMFAS.dir/rule
-
-.PHONY : testMFAS
-
-# fast build rule for target.
-testMFAS/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/sfm/tests/CMakeFiles/testMFAS.dir/build.make gtsam/sfm/tests/CMakeFiles/testMFAS.dir/build
-.PHONY : testMFAS/fast
-
-# Convenience name for target.
-gtsam/sfm/tests/CMakeFiles/testBinaryMeasurement.valgrind.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/sfm/tests/CMakeFiles/testBinaryMeasurement.valgrind.dir/rule
-.PHONY : gtsam/sfm/tests/CMakeFiles/testBinaryMeasurement.valgrind.dir/rule
-
-# Convenience name for target.
-testBinaryMeasurement.valgrind: gtsam/sfm/tests/CMakeFiles/testBinaryMeasurement.valgrind.dir/rule
-
-.PHONY : testBinaryMeasurement.valgrind
-
-# fast build rule for target.
-testBinaryMeasurement.valgrind/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/sfm/tests/CMakeFiles/testBinaryMeasurement.valgrind.dir/build.make gtsam/sfm/tests/CMakeFiles/testBinaryMeasurement.valgrind.dir/build
-.PHONY : testBinaryMeasurement.valgrind/fast
-
-# Convenience name for target.
-gtsam/sfm/tests/CMakeFiles/testShonanAveraging.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/sfm/tests/CMakeFiles/testShonanAveraging.dir/rule
-.PHONY : gtsam/sfm/tests/CMakeFiles/testShonanAveraging.dir/rule
-
-# Convenience name for target.
-testShonanAveraging: gtsam/sfm/tests/CMakeFiles/testShonanAveraging.dir/rule
-
-.PHONY : testShonanAveraging
-
-# fast build rule for target.
-testShonanAveraging/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/sfm/tests/CMakeFiles/testShonanAveraging.dir/build.make gtsam/sfm/tests/CMakeFiles/testShonanAveraging.dir/build
-.PHONY : testShonanAveraging/fast
-
-# Convenience name for target.
-gtsam/sfm/tests/CMakeFiles/testShonanFactor.run.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/sfm/tests/CMakeFiles/testShonanFactor.run.dir/rule
-.PHONY : gtsam/sfm/tests/CMakeFiles/testShonanFactor.run.dir/rule
-
-# Convenience name for target.
-testShonanFactor.run: gtsam/sfm/tests/CMakeFiles/testShonanFactor.run.dir/rule
-
-.PHONY : testShonanFactor.run
-
-# fast build rule for target.
-testShonanFactor.run/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/sfm/tests/CMakeFiles/testShonanFactor.run.dir/build.make gtsam/sfm/tests/CMakeFiles/testShonanFactor.run.dir/build
-.PHONY : testShonanFactor.run/fast
-
-# Convenience name for target.
-gtsam/sfm/tests/CMakeFiles/testShonanGaugeFactor.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/sfm/tests/CMakeFiles/testShonanGaugeFactor.dir/rule
-.PHONY : gtsam/sfm/tests/CMakeFiles/testShonanGaugeFactor.dir/rule
-
-# Convenience name for target.
-testShonanGaugeFactor: gtsam/sfm/tests/CMakeFiles/testShonanGaugeFactor.dir/rule
-
-.PHONY : testShonanGaugeFactor
-
-# fast build rule for target.
-testShonanGaugeFactor/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/sfm/tests/CMakeFiles/testShonanGaugeFactor.dir/build.make gtsam/sfm/tests/CMakeFiles/testShonanGaugeFactor.dir/build
-.PHONY : testShonanGaugeFactor/fast
+testShonanGaugeFactor.run/fast:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/sfm/tests/CMakeFiles/testShonanGaugeFactor.run.dir/build.make gtsam/sfm/tests/CMakeFiles/testShonanGaugeFactor.run.dir/build
+.PHONY : testShonanGaugeFactor.run/fast
 
 # Convenience name for target.
 gtsam/sfm/tests/CMakeFiles/testShonanGaugeFactor.valgrind.dir/rule:
@@ -460,6 +220,21 @@ testShonanGaugeFactor.valgrind/fast:
 .PHONY : testShonanGaugeFactor.valgrind/fast
 
 # Convenience name for target.
+gtsam/sfm/tests/CMakeFiles/testShonanGaugeFactor.dir/rule:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/sfm/tests/CMakeFiles/testShonanGaugeFactor.dir/rule
+.PHONY : gtsam/sfm/tests/CMakeFiles/testShonanGaugeFactor.dir/rule
+
+# Convenience name for target.
+testShonanGaugeFactor: gtsam/sfm/tests/CMakeFiles/testShonanGaugeFactor.dir/rule
+
+.PHONY : testShonanGaugeFactor
+
+# fast build rule for target.
+testShonanGaugeFactor/fast:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/sfm/tests/CMakeFiles/testShonanGaugeFactor.dir/build.make gtsam/sfm/tests/CMakeFiles/testShonanGaugeFactor.dir/build
+.PHONY : testShonanGaugeFactor/fast
+
+# Convenience name for target.
 gtsam/sfm/tests/CMakeFiles/check.sfm.dir/rule:
 	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/sfm/tests/CMakeFiles/check.sfm.dir/rule
 .PHONY : gtsam/sfm/tests/CMakeFiles/check.sfm.dir/rule
@@ -475,34 +250,49 @@ check.sfm/fast:
 .PHONY : check.sfm/fast
 
 # Convenience name for target.
-gtsam/sfm/tests/CMakeFiles/testShonanFactor.valgrind.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/sfm/tests/CMakeFiles/testShonanFactor.valgrind.dir/rule
-.PHONY : gtsam/sfm/tests/CMakeFiles/testShonanFactor.valgrind.dir/rule
+gtsam/sfm/tests/CMakeFiles/testBinaryMeasurement.valgrind.dir/rule:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/sfm/tests/CMakeFiles/testBinaryMeasurement.valgrind.dir/rule
+.PHONY : gtsam/sfm/tests/CMakeFiles/testBinaryMeasurement.valgrind.dir/rule
 
 # Convenience name for target.
-testShonanFactor.valgrind: gtsam/sfm/tests/CMakeFiles/testShonanFactor.valgrind.dir/rule
+testBinaryMeasurement.valgrind: gtsam/sfm/tests/CMakeFiles/testBinaryMeasurement.valgrind.dir/rule
 
-.PHONY : testShonanFactor.valgrind
+.PHONY : testBinaryMeasurement.valgrind
 
 # fast build rule for target.
-testShonanFactor.valgrind/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/sfm/tests/CMakeFiles/testShonanFactor.valgrind.dir/build.make gtsam/sfm/tests/CMakeFiles/testShonanFactor.valgrind.dir/build
-.PHONY : testShonanFactor.valgrind/fast
+testBinaryMeasurement.valgrind/fast:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/sfm/tests/CMakeFiles/testBinaryMeasurement.valgrind.dir/build.make gtsam/sfm/tests/CMakeFiles/testBinaryMeasurement.valgrind.dir/build
+.PHONY : testBinaryMeasurement.valgrind/fast
 
 # Convenience name for target.
-gtsam/sfm/tests/CMakeFiles/testShonanGaugeFactor.run.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/sfm/tests/CMakeFiles/testShonanGaugeFactor.run.dir/rule
-.PHONY : gtsam/sfm/tests/CMakeFiles/testShonanGaugeFactor.run.dir/rule
+gtsam/sfm/tests/CMakeFiles/testMFAS.dir/rule:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/sfm/tests/CMakeFiles/testMFAS.dir/rule
+.PHONY : gtsam/sfm/tests/CMakeFiles/testMFAS.dir/rule
 
 # Convenience name for target.
-testShonanGaugeFactor.run: gtsam/sfm/tests/CMakeFiles/testShonanGaugeFactor.run.dir/rule
+testMFAS: gtsam/sfm/tests/CMakeFiles/testMFAS.dir/rule
 
-.PHONY : testShonanGaugeFactor.run
+.PHONY : testMFAS
 
 # fast build rule for target.
-testShonanGaugeFactor.run/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/sfm/tests/CMakeFiles/testShonanGaugeFactor.run.dir/build.make gtsam/sfm/tests/CMakeFiles/testShonanGaugeFactor.run.dir/build
-.PHONY : testShonanGaugeFactor.run/fast
+testMFAS/fast:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/sfm/tests/CMakeFiles/testMFAS.dir/build.make gtsam/sfm/tests/CMakeFiles/testMFAS.dir/build
+.PHONY : testMFAS/fast
+
+# Convenience name for target.
+gtsam/sfm/tests/CMakeFiles/testShonanAveraging.run.dir/rule:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/sfm/tests/CMakeFiles/testShonanAveraging.run.dir/rule
+.PHONY : gtsam/sfm/tests/CMakeFiles/testShonanAveraging.run.dir/rule
+
+# Convenience name for target.
+testShonanAveraging.run: gtsam/sfm/tests/CMakeFiles/testShonanAveraging.run.dir/rule
+
+.PHONY : testShonanAveraging.run
+
+# fast build rule for target.
+testShonanAveraging.run/fast:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/sfm/tests/CMakeFiles/testShonanAveraging.run.dir/build.make gtsam/sfm/tests/CMakeFiles/testShonanAveraging.run.dir/build
+.PHONY : testShonanAveraging.run/fast
 
 # Convenience name for target.
 gtsam/sfm/tests/CMakeFiles/testBinaryMeasurement.dir/rule:
@@ -518,6 +308,171 @@ testBinaryMeasurement: gtsam/sfm/tests/CMakeFiles/testBinaryMeasurement.dir/rule
 testBinaryMeasurement/fast:
 	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/sfm/tests/CMakeFiles/testBinaryMeasurement.dir/build.make gtsam/sfm/tests/CMakeFiles/testBinaryMeasurement.dir/build
 .PHONY : testBinaryMeasurement/fast
+
+# Convenience name for target.
+gtsam/sfm/tests/CMakeFiles/testShonanFactor.run.dir/rule:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/sfm/tests/CMakeFiles/testShonanFactor.run.dir/rule
+.PHONY : gtsam/sfm/tests/CMakeFiles/testShonanFactor.run.dir/rule
+
+# Convenience name for target.
+testShonanFactor.run: gtsam/sfm/tests/CMakeFiles/testShonanFactor.run.dir/rule
+
+.PHONY : testShonanFactor.run
+
+# fast build rule for target.
+testShonanFactor.run/fast:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/sfm/tests/CMakeFiles/testShonanFactor.run.dir/build.make gtsam/sfm/tests/CMakeFiles/testShonanFactor.run.dir/build
+.PHONY : testShonanFactor.run/fast
+
+# Convenience name for target.
+gtsam/sfm/tests/CMakeFiles/testBinaryMeasurement.run.dir/rule:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/sfm/tests/CMakeFiles/testBinaryMeasurement.run.dir/rule
+.PHONY : gtsam/sfm/tests/CMakeFiles/testBinaryMeasurement.run.dir/rule
+
+# Convenience name for target.
+testBinaryMeasurement.run: gtsam/sfm/tests/CMakeFiles/testBinaryMeasurement.run.dir/rule
+
+.PHONY : testBinaryMeasurement.run
+
+# fast build rule for target.
+testBinaryMeasurement.run/fast:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/sfm/tests/CMakeFiles/testBinaryMeasurement.run.dir/build.make gtsam/sfm/tests/CMakeFiles/testBinaryMeasurement.run.dir/build
+.PHONY : testBinaryMeasurement.run/fast
+
+# Convenience name for target.
+gtsam/sfm/tests/CMakeFiles/testShonanAveraging.dir/rule:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/sfm/tests/CMakeFiles/testShonanAveraging.dir/rule
+.PHONY : gtsam/sfm/tests/CMakeFiles/testShonanAveraging.dir/rule
+
+# Convenience name for target.
+testShonanAveraging: gtsam/sfm/tests/CMakeFiles/testShonanAveraging.dir/rule
+
+.PHONY : testShonanAveraging
+
+# fast build rule for target.
+testShonanAveraging/fast:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/sfm/tests/CMakeFiles/testShonanAveraging.dir/build.make gtsam/sfm/tests/CMakeFiles/testShonanAveraging.dir/build
+.PHONY : testShonanAveraging/fast
+
+# Convenience name for target.
+gtsam/sfm/tests/CMakeFiles/testTranslationFactor.valgrind.dir/rule:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/sfm/tests/CMakeFiles/testTranslationFactor.valgrind.dir/rule
+.PHONY : gtsam/sfm/tests/CMakeFiles/testTranslationFactor.valgrind.dir/rule
+
+# Convenience name for target.
+testTranslationFactor.valgrind: gtsam/sfm/tests/CMakeFiles/testTranslationFactor.valgrind.dir/rule
+
+.PHONY : testTranslationFactor.valgrind
+
+# fast build rule for target.
+testTranslationFactor.valgrind/fast:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/sfm/tests/CMakeFiles/testTranslationFactor.valgrind.dir/build.make gtsam/sfm/tests/CMakeFiles/testTranslationFactor.valgrind.dir/build
+.PHONY : testTranslationFactor.valgrind/fast
+
+# Convenience name for target.
+gtsam/sfm/tests/CMakeFiles/testTranslationFactor.dir/rule:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/sfm/tests/CMakeFiles/testTranslationFactor.dir/rule
+.PHONY : gtsam/sfm/tests/CMakeFiles/testTranslationFactor.dir/rule
+
+# Convenience name for target.
+testTranslationFactor: gtsam/sfm/tests/CMakeFiles/testTranslationFactor.dir/rule
+
+.PHONY : testTranslationFactor
+
+# fast build rule for target.
+testTranslationFactor/fast:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/sfm/tests/CMakeFiles/testTranslationFactor.dir/build.make gtsam/sfm/tests/CMakeFiles/testTranslationFactor.dir/build
+.PHONY : testTranslationFactor/fast
+
+# Convenience name for target.
+gtsam/sfm/tests/CMakeFiles/testShonanFactor.dir/rule:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/sfm/tests/CMakeFiles/testShonanFactor.dir/rule
+.PHONY : gtsam/sfm/tests/CMakeFiles/testShonanFactor.dir/rule
+
+# Convenience name for target.
+testShonanFactor: gtsam/sfm/tests/CMakeFiles/testShonanFactor.dir/rule
+
+.PHONY : testShonanFactor
+
+# fast build rule for target.
+testShonanFactor/fast:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/sfm/tests/CMakeFiles/testShonanFactor.dir/build.make gtsam/sfm/tests/CMakeFiles/testShonanFactor.dir/build
+.PHONY : testShonanFactor/fast
+
+# Convenience name for target.
+gtsam/sfm/tests/CMakeFiles/testTranslationFactor.run.dir/rule:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/sfm/tests/CMakeFiles/testTranslationFactor.run.dir/rule
+.PHONY : gtsam/sfm/tests/CMakeFiles/testTranslationFactor.run.dir/rule
+
+# Convenience name for target.
+testTranslationFactor.run: gtsam/sfm/tests/CMakeFiles/testTranslationFactor.run.dir/rule
+
+.PHONY : testTranslationFactor.run
+
+# fast build rule for target.
+testTranslationFactor.run/fast:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/sfm/tests/CMakeFiles/testTranslationFactor.run.dir/build.make gtsam/sfm/tests/CMakeFiles/testTranslationFactor.run.dir/build
+.PHONY : testTranslationFactor.run/fast
+
+# Convenience name for target.
+gtsam/sfm/tests/CMakeFiles/testMFAS.run.dir/rule:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/sfm/tests/CMakeFiles/testMFAS.run.dir/rule
+.PHONY : gtsam/sfm/tests/CMakeFiles/testMFAS.run.dir/rule
+
+# Convenience name for target.
+testMFAS.run: gtsam/sfm/tests/CMakeFiles/testMFAS.run.dir/rule
+
+.PHONY : testMFAS.run
+
+# fast build rule for target.
+testMFAS.run/fast:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/sfm/tests/CMakeFiles/testMFAS.run.dir/build.make gtsam/sfm/tests/CMakeFiles/testMFAS.run.dir/build
+.PHONY : testMFAS.run/fast
+
+# Convenience name for target.
+gtsam/sfm/tests/CMakeFiles/testMFAS.valgrind.dir/rule:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/sfm/tests/CMakeFiles/testMFAS.valgrind.dir/rule
+.PHONY : gtsam/sfm/tests/CMakeFiles/testMFAS.valgrind.dir/rule
+
+# Convenience name for target.
+testMFAS.valgrind: gtsam/sfm/tests/CMakeFiles/testMFAS.valgrind.dir/rule
+
+.PHONY : testMFAS.valgrind
+
+# fast build rule for target.
+testMFAS.valgrind/fast:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/sfm/tests/CMakeFiles/testMFAS.valgrind.dir/build.make gtsam/sfm/tests/CMakeFiles/testMFAS.valgrind.dir/build
+.PHONY : testMFAS.valgrind/fast
+
+# Convenience name for target.
+gtsam/sfm/tests/CMakeFiles/testShonanAveraging.valgrind.dir/rule:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/sfm/tests/CMakeFiles/testShonanAveraging.valgrind.dir/rule
+.PHONY : gtsam/sfm/tests/CMakeFiles/testShonanAveraging.valgrind.dir/rule
+
+# Convenience name for target.
+testShonanAveraging.valgrind: gtsam/sfm/tests/CMakeFiles/testShonanAveraging.valgrind.dir/rule
+
+.PHONY : testShonanAveraging.valgrind
+
+# fast build rule for target.
+testShonanAveraging.valgrind/fast:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/sfm/tests/CMakeFiles/testShonanAveraging.valgrind.dir/build.make gtsam/sfm/tests/CMakeFiles/testShonanAveraging.valgrind.dir/build
+.PHONY : testShonanAveraging.valgrind/fast
+
+# Convenience name for target.
+gtsam/sfm/tests/CMakeFiles/testShonanFactor.valgrind.dir/rule:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/sfm/tests/CMakeFiles/testShonanFactor.valgrind.dir/rule
+.PHONY : gtsam/sfm/tests/CMakeFiles/testShonanFactor.valgrind.dir/rule
+
+# Convenience name for target.
+testShonanFactor.valgrind: gtsam/sfm/tests/CMakeFiles/testShonanFactor.valgrind.dir/rule
+
+.PHONY : testShonanFactor.valgrind
+
+# fast build rule for target.
+testShonanFactor.valgrind/fast:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/sfm/tests/CMakeFiles/testShonanFactor.valgrind.dir/build.make gtsam/sfm/tests/CMakeFiles/testShonanFactor.valgrind.dir/build
+.PHONY : testShonanFactor.valgrind/fast
 
 testBinaryMeasurement.o: testBinaryMeasurement.cpp.o
 
@@ -572,33 +527,6 @@ testMFAS.s: testMFAS.cpp.s
 testMFAS.cpp.s:
 	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/sfm/tests/CMakeFiles/testMFAS.dir/build.make gtsam/sfm/tests/CMakeFiles/testMFAS.dir/testMFAS.cpp.s
 .PHONY : testMFAS.cpp.s
-
-testSfmData.o: testSfmData.cpp.o
-
-.PHONY : testSfmData.o
-
-# target to build an object file
-testSfmData.cpp.o:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/sfm/tests/CMakeFiles/testSfmData.dir/build.make gtsam/sfm/tests/CMakeFiles/testSfmData.dir/testSfmData.cpp.o
-.PHONY : testSfmData.cpp.o
-
-testSfmData.i: testSfmData.cpp.i
-
-.PHONY : testSfmData.i
-
-# target to preprocess a source file
-testSfmData.cpp.i:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/sfm/tests/CMakeFiles/testSfmData.dir/build.make gtsam/sfm/tests/CMakeFiles/testSfmData.dir/testSfmData.cpp.i
-.PHONY : testSfmData.cpp.i
-
-testSfmData.s: testSfmData.cpp.s
-
-.PHONY : testSfmData.s
-
-# target to generate assembly for a file
-testSfmData.cpp.s:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/sfm/tests/CMakeFiles/testSfmData.dir/build.make gtsam/sfm/tests/CMakeFiles/testSfmData.dir/testSfmData.cpp.s
-.PHONY : testSfmData.cpp.s
 
 testShonanAveraging.o: testShonanAveraging.cpp.o
 
@@ -714,46 +642,40 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... testSfmData.run"
-	@echo "... testShonanFactor"
-	@echo "... package_source"
-	@echo "... testShonanAveraging.valgrind"
-	@echo "... install/strip"
-	@echo "... testTranslationFactor.valgrind"
-	@echo "... testMFAS.valgrind"
-	@echo "... testMFAS.run"
-	@echo "... testTranslationFactor.run"
-	@echo "... testTranslationFactor"
-	@echo "... testSfmData"
 	@echo "... install/local"
-	@echo "... testBinaryMeasurement.run"
-	@echo "... test"
-	@echo "... testShonanAveraging.run"
-	@echo "... testSfmData.valgrind"
-	@echo "... install"
-	@echo "... testMFAS"
-	@echo "... testBinaryMeasurement.valgrind"
-	@echo "... testShonanAveraging"
-	@echo "... testShonanFactor.run"
-	@echo "... testShonanGaugeFactor"
-	@echo "... testShonanGaugeFactor.valgrind"
-	@echo "... check.sfm"
-	@echo "... testShonanFactor.valgrind"
-	@echo "... testShonanGaugeFactor.run"
-	@echo "... package"
-	@echo "... testBinaryMeasurement"
-	@echo "... edit_cache"
-	@echo "... rebuild_cache"
 	@echo "... list_install_components"
+	@echo "... rebuild_cache"
+	@echo "... edit_cache"
+	@echo "... package"
+	@echo "... testShonanGaugeFactor.run"
+	@echo "... testShonanGaugeFactor.valgrind"
+	@echo "... testShonanGaugeFactor"
+	@echo "... install"
+	@echo "... check.sfm"
+	@echo "... testBinaryMeasurement.valgrind"
+	@echo "... testMFAS"
+	@echo "... testShonanAveraging.run"
+	@echo "... install/strip"
+	@echo "... testBinaryMeasurement"
+	@echo "... testShonanFactor.run"
+	@echo "... test"
+	@echo "... testBinaryMeasurement.run"
+	@echo "... testShonanAveraging"
+	@echo "... package_source"
+	@echo "... testTranslationFactor.valgrind"
+	@echo "... testTranslationFactor"
+	@echo "... testShonanFactor"
+	@echo "... testTranslationFactor.run"
+	@echo "... testMFAS.run"
+	@echo "... testMFAS.valgrind"
+	@echo "... testShonanAveraging.valgrind"
+	@echo "... testShonanFactor.valgrind"
 	@echo "... testBinaryMeasurement.o"
 	@echo "... testBinaryMeasurement.i"
 	@echo "... testBinaryMeasurement.s"
 	@echo "... testMFAS.o"
 	@echo "... testMFAS.i"
 	@echo "... testMFAS.s"
-	@echo "... testSfmData.o"
-	@echo "... testSfmData.i"
-	@echo "... testSfmData.s"
 	@echo "... testShonanAveraging.o"
 	@echo "... testShonanAveraging.i"
 	@echo "... testShonanAveraging.s"

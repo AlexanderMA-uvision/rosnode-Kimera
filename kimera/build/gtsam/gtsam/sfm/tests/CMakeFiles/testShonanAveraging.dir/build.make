@@ -80,7 +80,7 @@ testShonanAveraging_EXTERNAL_OBJECTS =
 gtsam/sfm/tests/testShonanAveraging: gtsam/sfm/tests/CMakeFiles/testShonanAveraging.dir/testShonanAveraging.cpp.o
 gtsam/sfm/tests/testShonanAveraging: gtsam/sfm/tests/CMakeFiles/testShonanAveraging.dir/build.make
 gtsam/sfm/tests/testShonanAveraging: CppUnitLite/libCppUnitLite.a
-gtsam/sfm/tests/testShonanAveraging: gtsam/libgtsam.so.4.2.0
+gtsam/sfm/tests/testShonanAveraging: gtsam/libgtsam.so.4.1.0
 gtsam/sfm/tests/testShonanAveraging: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 gtsam/sfm/tests/testShonanAveraging: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 gtsam/sfm/tests/testShonanAveraging: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

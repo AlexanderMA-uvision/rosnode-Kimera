@@ -80,7 +80,7 @@ testDiscreteConditional_EXTERNAL_OBJECTS =
 gtsam/discrete/tests/testDiscreteConditional: gtsam/discrete/tests/CMakeFiles/testDiscreteConditional.dir/testDiscreteConditional.cpp.o
 gtsam/discrete/tests/testDiscreteConditional: gtsam/discrete/tests/CMakeFiles/testDiscreteConditional.dir/build.make
 gtsam/discrete/tests/testDiscreteConditional: CppUnitLite/libCppUnitLite.a
-gtsam/discrete/tests/testDiscreteConditional: gtsam/libgtsam.so.4.2.0
+gtsam/discrete/tests/testDiscreteConditional: gtsam/libgtsam.so.4.1.0
 gtsam/discrete/tests/testDiscreteConditional: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 gtsam/discrete/tests/testDiscreteConditional: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 gtsam/discrete/tests/testDiscreteConditional: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

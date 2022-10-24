@@ -80,7 +80,7 @@ testTreeTraversal_EXTERNAL_OBJECTS =
 gtsam/base/tests/testTreeTraversal: gtsam/base/tests/CMakeFiles/testTreeTraversal.dir/testTreeTraversal.cpp.o
 gtsam/base/tests/testTreeTraversal: gtsam/base/tests/CMakeFiles/testTreeTraversal.dir/build.make
 gtsam/base/tests/testTreeTraversal: CppUnitLite/libCppUnitLite.a
-gtsam/base/tests/testTreeTraversal: gtsam/libgtsam.so.4.2.0
+gtsam/base/tests/testTreeTraversal: gtsam/libgtsam.so.4.1.0
 gtsam/base/tests/testTreeTraversal: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 gtsam/base/tests/testTreeTraversal: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 gtsam/base/tests/testTreeTraversal: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

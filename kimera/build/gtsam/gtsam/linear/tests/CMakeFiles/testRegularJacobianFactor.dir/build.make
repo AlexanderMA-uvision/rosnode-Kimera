@@ -80,7 +80,7 @@ testRegularJacobianFactor_EXTERNAL_OBJECTS =
 gtsam/linear/tests/testRegularJacobianFactor: gtsam/linear/tests/CMakeFiles/testRegularJacobianFactor.dir/testRegularJacobianFactor.cpp.o
 gtsam/linear/tests/testRegularJacobianFactor: gtsam/linear/tests/CMakeFiles/testRegularJacobianFactor.dir/build.make
 gtsam/linear/tests/testRegularJacobianFactor: CppUnitLite/libCppUnitLite.a
-gtsam/linear/tests/testRegularJacobianFactor: gtsam/libgtsam.so.4.2.0
+gtsam/linear/tests/testRegularJacobianFactor: gtsam/libgtsam.so.4.1.0
 gtsam/linear/tests/testRegularJacobianFactor: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 gtsam/linear/tests/testRegularJacobianFactor: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 gtsam/linear/tests/testRegularJacobianFactor: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

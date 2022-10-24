@@ -21,13 +21,11 @@ examples/CMakeFiles/UGM_chain.dir/UGM_chain.cpp.o
  /home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteBayesNet.h
  /home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteBayesTree.h
  /home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteConditional.h
- /home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteDistribution.h
  /home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteFactor.h
  /home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteFactorGraph.h
  /home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteKey.h
- /home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteLookupDAG.h
  /home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteMarginals.h
- /home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteValues.h
+ /home/catkin_ws/src/gtsam/gtsam/discrete/Potentials.h
  /home/catkin_ws/src/gtsam/gtsam/discrete/Signature.h
  /home/catkin_ws/src/gtsam/gtsam/global_includes.h
  /home/catkin_ws/src/gtsam/gtsam/inference/BayesNet-inst.h
@@ -35,7 +33,6 @@ examples/CMakeFiles/UGM_chain.dir/UGM_chain.cpp.o
  /home/catkin_ws/src/gtsam/gtsam/inference/BayesTree.h
  /home/catkin_ws/src/gtsam/gtsam/inference/BayesTreeCliqueBase.h
  /home/catkin_ws/src/gtsam/gtsam/inference/Conditional.h
- /home/catkin_ws/src/gtsam/gtsam/inference/DotWriter.h
  /home/catkin_ws/src/gtsam/gtsam/inference/EliminateableFactorGraph.h
  /home/catkin_ws/src/gtsam/gtsam/inference/Factor.h
  /home/catkin_ws/src/gtsam/gtsam/inference/FactorGraph-inst.h

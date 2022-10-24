@@ -16,8 +16,6 @@
  * @date    April 2016
  */
 
-#pragma once
-
 #include "NonlinearOptimizerState.h"
 
 #include <gtsam/nonlinear/Values.h>

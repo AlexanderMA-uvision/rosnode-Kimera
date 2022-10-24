@@ -1267,9 +1267,9 @@ libkimera_vio.so: /home/catkin_ws/devel/lib/libopencv_xfeatures2d.so.3.4.2
 libkimera_vio.so: /home/catkin_ws/devel/lib/libopencv_ximgproc.so.3.4.2
 libkimera_vio.so: /home/catkin_ws/devel/lib/libgflags.so.2.2.1
 libkimera_vio.so: /usr/lib/aarch64-linux-gnu/libglog.so
-libkimera_vio.so: /home/catkin_ws/devel/lib/libgtsam_unstable.so.4.2.0
+libkimera_vio.so: /home/catkin_ws/devel/lib/libgtsam_unstable.so.4.1.0
 libkimera_vio.so: /home/catkin_ws/devel/lib/libDBoW2.so
-libkimera_vio.so: /home/catkin_ws/devel/lib/libgtsam.so.4.2.0
+libkimera_vio.so: /home/catkin_ws/devel/lib/libgtsam.so.4.1.0
 libkimera_vio.so: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 libkimera_vio.so: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 libkimera_vio.so: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

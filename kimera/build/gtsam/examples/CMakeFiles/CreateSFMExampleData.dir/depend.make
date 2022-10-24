@@ -12,13 +12,11 @@ examples/CMakeFiles/CreateSFMExampleData.dir/CreateSFMExampleData.cpp.o: /home/c
 examples/CMakeFiles/CreateSFMExampleData.dir/CreateSFMExampleData.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Lie.h
 examples/CMakeFiles/CreateSFMExampleData.dir/CreateSFMExampleData.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Manifold.h
 examples/CMakeFiles/CreateSFMExampleData.dir/CreateSFMExampleData.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Matrix.h
-examples/CMakeFiles/CreateSFMExampleData.dir/CreateSFMExampleData.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/MatrixSerialization.h
 examples/CMakeFiles/CreateSFMExampleData.dir/CreateSFMExampleData.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/OptionalJacobian.h
 examples/CMakeFiles/CreateSFMExampleData.dir/CreateSFMExampleData.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Testable.h
 examples/CMakeFiles/CreateSFMExampleData.dir/CreateSFMExampleData.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/ThreadsafeException.h
 examples/CMakeFiles/CreateSFMExampleData.dir/CreateSFMExampleData.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Value.h
 examples/CMakeFiles/CreateSFMExampleData.dir/CreateSFMExampleData.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Vector.h
-examples/CMakeFiles/CreateSFMExampleData.dir/CreateSFMExampleData.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/VectorSerialization.h
 examples/CMakeFiles/CreateSFMExampleData.dir/CreateSFMExampleData.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/VectorSpace.h
 examples/CMakeFiles/CreateSFMExampleData.dir/CreateSFMExampleData.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/VerticalBlockMatrix.h
 examples/CMakeFiles/CreateSFMExampleData.dir/CreateSFMExampleData.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/concepts.h
@@ -44,7 +42,6 @@ examples/CMakeFiles/CreateSFMExampleData.dir/CreateSFMExampleData.cpp.o: /home/c
 examples/CMakeFiles/CreateSFMExampleData.dir/CreateSFMExampleData.cpp.o: /home/catkin_ws/src/gtsam/gtsam/geometry/SOn.h
 examples/CMakeFiles/CreateSFMExampleData.dir/CreateSFMExampleData.cpp.o: /home/catkin_ws/src/gtsam/gtsam/geometry/Unit3.h
 examples/CMakeFiles/CreateSFMExampleData.dir/CreateSFMExampleData.cpp.o: /home/catkin_ws/src/gtsam/gtsam/global_includes.h
-examples/CMakeFiles/CreateSFMExampleData.dir/CreateSFMExampleData.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/DotWriter.h
 examples/CMakeFiles/CreateSFMExampleData.dir/CreateSFMExampleData.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/Factor.h
 examples/CMakeFiles/CreateSFMExampleData.dir/CreateSFMExampleData.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/FactorGraph-inst.h
 examples/CMakeFiles/CreateSFMExampleData.dir/CreateSFMExampleData.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/FactorGraph.h
@@ -56,15 +53,12 @@ examples/CMakeFiles/CreateSFMExampleData.dir/CreateSFMExampleData.cpp.o: /home/c
 examples/CMakeFiles/CreateSFMExampleData.dir/CreateSFMExampleData.cpp.o: /home/catkin_ws/src/gtsam/gtsam/linear/LossFunctions.h
 examples/CMakeFiles/CreateSFMExampleData.dir/CreateSFMExampleData.cpp.o: /home/catkin_ws/src/gtsam/gtsam/linear/NoiseModel.h
 examples/CMakeFiles/CreateSFMExampleData.dir/CreateSFMExampleData.cpp.o: /home/catkin_ws/src/gtsam/gtsam/linear/linearExceptions.h
-examples/CMakeFiles/CreateSFMExampleData.dir/CreateSFMExampleData.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/GraphvizFormatting.h
 examples/CMakeFiles/CreateSFMExampleData.dir/CreateSFMExampleData.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/NonlinearFactor.h
 examples/CMakeFiles/CreateSFMExampleData.dir/CreateSFMExampleData.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/NonlinearFactorGraph.h
 examples/CMakeFiles/CreateSFMExampleData.dir/CreateSFMExampleData.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/PriorFactor.h
 examples/CMakeFiles/CreateSFMExampleData.dir/CreateSFMExampleData.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/Values-inl.h
 examples/CMakeFiles/CreateSFMExampleData.dir/CreateSFMExampleData.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/Values.h
 examples/CMakeFiles/CreateSFMExampleData.dir/CreateSFMExampleData.cpp.o: /home/catkin_ws/src/gtsam/gtsam/sfm/BinaryMeasurement.h
-examples/CMakeFiles/CreateSFMExampleData.dir/CreateSFMExampleData.cpp.o: /home/catkin_ws/src/gtsam/gtsam/sfm/SfmData.h
-examples/CMakeFiles/CreateSFMExampleData.dir/CreateSFMExampleData.cpp.o: /home/catkin_ws/src/gtsam/gtsam/sfm/SfmTrack.h
 examples/CMakeFiles/CreateSFMExampleData.dir/CreateSFMExampleData.cpp.o: /home/catkin_ws/src/gtsam/gtsam/slam/BetweenFactor.h
 examples/CMakeFiles/CreateSFMExampleData.dir/CreateSFMExampleData.cpp.o: /home/catkin_ws/src/gtsam/gtsam/slam/dataset.h
 examples/CMakeFiles/CreateSFMExampleData.dir/CreateSFMExampleData.cpp.o: /usr/include/eigen3/Eigen/Cholesky

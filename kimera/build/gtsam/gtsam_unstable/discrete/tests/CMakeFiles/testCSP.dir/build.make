@@ -80,8 +80,8 @@ testCSP_EXTERNAL_OBJECTS =
 gtsam_unstable/discrete/tests/testCSP: gtsam_unstable/discrete/tests/CMakeFiles/testCSP.dir/testCSP.cpp.o
 gtsam_unstable/discrete/tests/testCSP: gtsam_unstable/discrete/tests/CMakeFiles/testCSP.dir/build.make
 gtsam_unstable/discrete/tests/testCSP: CppUnitLite/libCppUnitLite.a
-gtsam_unstable/discrete/tests/testCSP: gtsam_unstable/libgtsam_unstable.so.4.2.0
-gtsam_unstable/discrete/tests/testCSP: gtsam/libgtsam.so.4.2.0
+gtsam_unstable/discrete/tests/testCSP: gtsam_unstable/libgtsam_unstable.so.4.1.0
+gtsam_unstable/discrete/tests/testCSP: gtsam/libgtsam.so.4.1.0
 gtsam_unstable/discrete/tests/testCSP: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 gtsam_unstable/discrete/tests/testCSP: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 gtsam_unstable/discrete/tests/testCSP: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

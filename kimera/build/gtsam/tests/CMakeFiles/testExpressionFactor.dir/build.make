@@ -80,7 +80,7 @@ testExpressionFactor_EXTERNAL_OBJECTS =
 tests/testExpressionFactor: tests/CMakeFiles/testExpressionFactor.dir/testExpressionFactor.cpp.o
 tests/testExpressionFactor: tests/CMakeFiles/testExpressionFactor.dir/build.make
 tests/testExpressionFactor: CppUnitLite/libCppUnitLite.a
-tests/testExpressionFactor: gtsam/libgtsam.so.4.2.0
+tests/testExpressionFactor: gtsam/libgtsam.so.4.1.0
 tests/testExpressionFactor: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 tests/testExpressionFactor: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 tests/testExpressionFactor: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

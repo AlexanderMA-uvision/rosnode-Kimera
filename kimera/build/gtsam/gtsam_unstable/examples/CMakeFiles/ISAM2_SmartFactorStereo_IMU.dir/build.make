@@ -79,8 +79,8 @@ ISAM2_SmartFactorStereo_IMU_EXTERNAL_OBJECTS =
 
 gtsam_unstable/examples/ISAM2_SmartFactorStereo_IMU: gtsam_unstable/examples/CMakeFiles/ISAM2_SmartFactorStereo_IMU.dir/ISAM2_SmartFactorStereo_IMU.cpp.o
 gtsam_unstable/examples/ISAM2_SmartFactorStereo_IMU: gtsam_unstable/examples/CMakeFiles/ISAM2_SmartFactorStereo_IMU.dir/build.make
-gtsam_unstable/examples/ISAM2_SmartFactorStereo_IMU: gtsam_unstable/libgtsam_unstable.so.4.2.0
-gtsam_unstable/examples/ISAM2_SmartFactorStereo_IMU: gtsam/libgtsam.so.4.2.0
+gtsam_unstable/examples/ISAM2_SmartFactorStereo_IMU: gtsam_unstable/libgtsam_unstable.so.4.1.0
+gtsam_unstable/examples/ISAM2_SmartFactorStereo_IMU: gtsam/libgtsam.so.4.1.0
 gtsam_unstable/examples/ISAM2_SmartFactorStereo_IMU: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 gtsam_unstable/examples/ISAM2_SmartFactorStereo_IMU: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 gtsam_unstable/examples/ISAM2_SmartFactorStereo_IMU: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

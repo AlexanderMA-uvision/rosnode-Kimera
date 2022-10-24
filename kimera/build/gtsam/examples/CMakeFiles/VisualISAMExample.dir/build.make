@@ -79,7 +79,7 @@ VisualISAMExample_EXTERNAL_OBJECTS =
 
 examples/VisualISAMExample: examples/CMakeFiles/VisualISAMExample.dir/VisualISAMExample.cpp.o
 examples/VisualISAMExample: examples/CMakeFiles/VisualISAMExample.dir/build.make
-examples/VisualISAMExample: gtsam/libgtsam.so.4.2.0
+examples/VisualISAMExample: gtsam/libgtsam.so.4.1.0
 examples/VisualISAMExample: /usr/lib/aarch64-linux-gnu/libboost_program_options.so.1.71.0
 examples/VisualISAMExample: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 examples/VisualISAMExample: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0

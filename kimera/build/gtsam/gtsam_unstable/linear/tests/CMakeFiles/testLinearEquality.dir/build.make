@@ -80,8 +80,8 @@ testLinearEquality_EXTERNAL_OBJECTS =
 gtsam_unstable/linear/tests/testLinearEquality: gtsam_unstable/linear/tests/CMakeFiles/testLinearEquality.dir/testLinearEquality.cpp.o
 gtsam_unstable/linear/tests/testLinearEquality: gtsam_unstable/linear/tests/CMakeFiles/testLinearEquality.dir/build.make
 gtsam_unstable/linear/tests/testLinearEquality: CppUnitLite/libCppUnitLite.a
-gtsam_unstable/linear/tests/testLinearEquality: gtsam_unstable/libgtsam_unstable.so.4.2.0
-gtsam_unstable/linear/tests/testLinearEquality: gtsam/libgtsam.so.4.2.0
+gtsam_unstable/linear/tests/testLinearEquality: gtsam_unstable/libgtsam_unstable.so.4.1.0
+gtsam_unstable/linear/tests/testLinearEquality: gtsam/libgtsam.so.4.1.0
 gtsam_unstable/linear/tests/testLinearEquality: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 gtsam_unstable/linear/tests/testLinearEquality: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 gtsam_unstable/linear/tests/testLinearEquality: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

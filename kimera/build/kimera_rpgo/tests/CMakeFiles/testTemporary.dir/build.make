@@ -81,8 +81,8 @@ tests/testTemporary: tests/CMakeFiles/testTemporary.dir/testTemporary.cpp.o
 tests/testTemporary: tests/CMakeFiles/testTemporary.dir/build.make
 tests/testTemporary: /home/catkin_ws/devel/lib/libCppUnitLite.a
 tests/testTemporary: libKimeraRPGO.so
-tests/testTemporary: /home/catkin_ws/devel/lib/libgtsam_unstable.so.4.2.0
-tests/testTemporary: /home/catkin_ws/devel/lib/libgtsam.so.4.2.0
+tests/testTemporary: /home/catkin_ws/devel/lib/libgtsam_unstable.so.4.1.0
+tests/testTemporary: /home/catkin_ws/devel/lib/libgtsam.so.4.1.0
 tests/testTemporary: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 tests/testTemporary: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 tests/testTemporary: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

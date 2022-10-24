@@ -80,8 +80,8 @@ testSimpleHelicopter_EXTERNAL_OBJECTS =
 gtsam_unstable/dynamics/tests/testSimpleHelicopter: gtsam_unstable/dynamics/tests/CMakeFiles/testSimpleHelicopter.dir/testSimpleHelicopter.cpp.o
 gtsam_unstable/dynamics/tests/testSimpleHelicopter: gtsam_unstable/dynamics/tests/CMakeFiles/testSimpleHelicopter.dir/build.make
 gtsam_unstable/dynamics/tests/testSimpleHelicopter: CppUnitLite/libCppUnitLite.a
-gtsam_unstable/dynamics/tests/testSimpleHelicopter: gtsam_unstable/libgtsam_unstable.so.4.2.0
-gtsam_unstable/dynamics/tests/testSimpleHelicopter: gtsam/libgtsam.so.4.2.0
+gtsam_unstable/dynamics/tests/testSimpleHelicopter: gtsam_unstable/libgtsam_unstable.so.4.1.0
+gtsam_unstable/dynamics/tests/testSimpleHelicopter: gtsam/libgtsam.so.4.1.0
 gtsam_unstable/dynamics/tests/testSimpleHelicopter: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 gtsam_unstable/dynamics/tests/testSimpleHelicopter: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 gtsam_unstable/dynamics/tests/testSimpleHelicopter: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

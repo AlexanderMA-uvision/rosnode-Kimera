@@ -79,7 +79,7 @@ ISAM2Example_SmartFactor_EXTERNAL_OBJECTS =
 
 examples/ISAM2Example_SmartFactor: examples/CMakeFiles/ISAM2Example_SmartFactor.dir/ISAM2Example_SmartFactor.cpp.o
 examples/ISAM2Example_SmartFactor: examples/CMakeFiles/ISAM2Example_SmartFactor.dir/build.make
-examples/ISAM2Example_SmartFactor: gtsam/libgtsam.so.4.2.0
+examples/ISAM2Example_SmartFactor: gtsam/libgtsam.so.4.1.0
 examples/ISAM2Example_SmartFactor: /usr/lib/aarch64-linux-gnu/libboost_program_options.so.1.71.0
 examples/ISAM2Example_SmartFactor: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 examples/ISAM2Example_SmartFactor: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0

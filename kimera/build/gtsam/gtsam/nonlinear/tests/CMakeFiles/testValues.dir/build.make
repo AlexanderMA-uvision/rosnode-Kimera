@@ -80,7 +80,7 @@ testValues_EXTERNAL_OBJECTS =
 gtsam/nonlinear/tests/testValues: gtsam/nonlinear/tests/CMakeFiles/testValues.dir/testValues.cpp.o
 gtsam/nonlinear/tests/testValues: gtsam/nonlinear/tests/CMakeFiles/testValues.dir/build.make
 gtsam/nonlinear/tests/testValues: CppUnitLite/libCppUnitLite.a
-gtsam/nonlinear/tests/testValues: gtsam/libgtsam.so.4.2.0
+gtsam/nonlinear/tests/testValues: gtsam/libgtsam.so.4.1.0
 gtsam/nonlinear/tests/testValues: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 gtsam/nonlinear/tests/testValues: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 gtsam/nonlinear/tests/testValues: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

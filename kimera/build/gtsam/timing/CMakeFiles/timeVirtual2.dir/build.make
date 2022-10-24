@@ -79,7 +79,7 @@ timeVirtual2_EXTERNAL_OBJECTS =
 
 timing/timeVirtual2: timing/CMakeFiles/timeVirtual2.dir/timeVirtual2.cpp.o
 timing/timeVirtual2: timing/CMakeFiles/timeVirtual2.dir/build.make
-timing/timeVirtual2: gtsam/libgtsam.so.4.2.0
+timing/timeVirtual2: gtsam/libgtsam.so.4.1.0
 timing/timeVirtual2: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 timing/timeVirtual2: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 timing/timeVirtual2: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

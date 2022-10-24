@@ -80,7 +80,7 @@ testBearingRange_EXTERNAL_OBJECTS =
 gtsam/geometry/tests/testBearingRange: gtsam/geometry/tests/CMakeFiles/testBearingRange.dir/testBearingRange.cpp.o
 gtsam/geometry/tests/testBearingRange: gtsam/geometry/tests/CMakeFiles/testBearingRange.dir/build.make
 gtsam/geometry/tests/testBearingRange: CppUnitLite/libCppUnitLite.a
-gtsam/geometry/tests/testBearingRange: gtsam/libgtsam.so.4.2.0
+gtsam/geometry/tests/testBearingRange: gtsam/libgtsam.so.4.1.0
 gtsam/geometry/tests/testBearingRange: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 gtsam/geometry/tests/testBearingRange: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 gtsam/geometry/tests/testBearingRange: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

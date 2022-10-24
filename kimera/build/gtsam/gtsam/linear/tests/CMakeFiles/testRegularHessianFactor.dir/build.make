@@ -80,7 +80,7 @@ testRegularHessianFactor_EXTERNAL_OBJECTS =
 gtsam/linear/tests/testRegularHessianFactor: gtsam/linear/tests/CMakeFiles/testRegularHessianFactor.dir/testRegularHessianFactor.cpp.o
 gtsam/linear/tests/testRegularHessianFactor: gtsam/linear/tests/CMakeFiles/testRegularHessianFactor.dir/build.make
 gtsam/linear/tests/testRegularHessianFactor: CppUnitLite/libCppUnitLite.a
-gtsam/linear/tests/testRegularHessianFactor: gtsam/libgtsam.so.4.2.0
+gtsam/linear/tests/testRegularHessianFactor: gtsam/libgtsam.so.4.1.0
 gtsam/linear/tests/testRegularHessianFactor: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 gtsam/linear/tests/testRegularHessianFactor: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 gtsam/linear/tests/testRegularHessianFactor: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

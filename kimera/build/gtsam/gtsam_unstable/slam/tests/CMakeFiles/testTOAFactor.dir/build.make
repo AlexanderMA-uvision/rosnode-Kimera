@@ -80,8 +80,8 @@ testTOAFactor_EXTERNAL_OBJECTS =
 gtsam_unstable/slam/tests/testTOAFactor: gtsam_unstable/slam/tests/CMakeFiles/testTOAFactor.dir/testTOAFactor.cpp.o
 gtsam_unstable/slam/tests/testTOAFactor: gtsam_unstable/slam/tests/CMakeFiles/testTOAFactor.dir/build.make
 gtsam_unstable/slam/tests/testTOAFactor: CppUnitLite/libCppUnitLite.a
-gtsam_unstable/slam/tests/testTOAFactor: gtsam_unstable/libgtsam_unstable.so.4.2.0
-gtsam_unstable/slam/tests/testTOAFactor: gtsam/libgtsam.so.4.2.0
+gtsam_unstable/slam/tests/testTOAFactor: gtsam_unstable/libgtsam_unstable.so.4.1.0
+gtsam_unstable/slam/tests/testTOAFactor: gtsam/libgtsam.so.4.1.0
 gtsam_unstable/slam/tests/testTOAFactor: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 gtsam_unstable/slam/tests/testTOAFactor: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 gtsam_unstable/slam/tests/testTOAFactor: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

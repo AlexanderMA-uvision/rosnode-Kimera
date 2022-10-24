@@ -80,8 +80,8 @@ testConcurrentIncrementalFilter_EXTERNAL_OBJECTS =
 gtsam_unstable/nonlinear/tests/testConcurrentIncrementalFilter: gtsam_unstable/nonlinear/tests/CMakeFiles/testConcurrentIncrementalFilter.dir/testConcurrentIncrementalFilter.cpp.o
 gtsam_unstable/nonlinear/tests/testConcurrentIncrementalFilter: gtsam_unstable/nonlinear/tests/CMakeFiles/testConcurrentIncrementalFilter.dir/build.make
 gtsam_unstable/nonlinear/tests/testConcurrentIncrementalFilter: CppUnitLite/libCppUnitLite.a
-gtsam_unstable/nonlinear/tests/testConcurrentIncrementalFilter: gtsam_unstable/libgtsam_unstable.so.4.2.0
-gtsam_unstable/nonlinear/tests/testConcurrentIncrementalFilter: gtsam/libgtsam.so.4.2.0
+gtsam_unstable/nonlinear/tests/testConcurrentIncrementalFilter: gtsam_unstable/libgtsam_unstable.so.4.1.0
+gtsam_unstable/nonlinear/tests/testConcurrentIncrementalFilter: gtsam/libgtsam.so.4.1.0
 gtsam_unstable/nonlinear/tests/testConcurrentIncrementalFilter: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 gtsam_unstable/nonlinear/tests/testConcurrentIncrementalFilter: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 gtsam_unstable/nonlinear/tests/testConcurrentIncrementalFilter: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

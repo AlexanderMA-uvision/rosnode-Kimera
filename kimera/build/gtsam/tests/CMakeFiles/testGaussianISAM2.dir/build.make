@@ -80,7 +80,7 @@ testGaussianISAM2_EXTERNAL_OBJECTS =
 tests/testGaussianISAM2: tests/CMakeFiles/testGaussianISAM2.dir/testGaussianISAM2.cpp.o
 tests/testGaussianISAM2: tests/CMakeFiles/testGaussianISAM2.dir/build.make
 tests/testGaussianISAM2: CppUnitLite/libCppUnitLite.a
-tests/testGaussianISAM2: gtsam/libgtsam.so.4.2.0
+tests/testGaussianISAM2: gtsam/libgtsam.so.4.1.0
 tests/testGaussianISAM2: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 tests/testGaussianISAM2: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 tests/testGaussianISAM2: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

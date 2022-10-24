@@ -81,8 +81,8 @@ tests/testLoadGraph: tests/CMakeFiles/testLoadGraph.dir/testLoadGraph.cpp.o
 tests/testLoadGraph: tests/CMakeFiles/testLoadGraph.dir/build.make
 tests/testLoadGraph: /home/catkin_ws/devel/lib/libCppUnitLite.a
 tests/testLoadGraph: libKimeraRPGO.so
-tests/testLoadGraph: /home/catkin_ws/devel/lib/libgtsam_unstable.so.4.2.0
-tests/testLoadGraph: /home/catkin_ws/devel/lib/libgtsam.so.4.2.0
+tests/testLoadGraph: /home/catkin_ws/devel/lib/libgtsam_unstable.so.4.1.0
+tests/testLoadGraph: /home/catkin_ws/devel/lib/libgtsam.so.4.1.0
 tests/testLoadGraph: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 tests/testLoadGraph: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 tests/testLoadGraph: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

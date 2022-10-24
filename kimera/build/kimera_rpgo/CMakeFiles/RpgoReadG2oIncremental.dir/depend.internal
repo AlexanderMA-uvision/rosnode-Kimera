@@ -13,14 +13,12 @@ CMakeFiles/RpgoReadG2oIncremental.dir/examples/RpgoReadG2oIncremental.cpp.o
  /home/catkin_ws/devel/include/gtsam/base/Lie.h
  /home/catkin_ws/devel/include/gtsam/base/Manifold.h
  /home/catkin_ws/devel/include/gtsam/base/Matrix.h
- /home/catkin_ws/devel/include/gtsam/base/MatrixSerialization.h
  /home/catkin_ws/devel/include/gtsam/base/OptionalJacobian.h
  /home/catkin_ws/devel/include/gtsam/base/SymmetricBlockMatrix.h
  /home/catkin_ws/devel/include/gtsam/base/Testable.h
  /home/catkin_ws/devel/include/gtsam/base/ThreadsafeException.h
  /home/catkin_ws/devel/include/gtsam/base/Value.h
  /home/catkin_ws/devel/include/gtsam/base/Vector.h
- /home/catkin_ws/devel/include/gtsam/base/VectorSerialization.h
  /home/catkin_ws/devel/include/gtsam/base/VectorSpace.h
  /home/catkin_ws/devel/include/gtsam/base/VerticalBlockMatrix.h
  /home/catkin_ws/devel/include/gtsam/base/concepts.h
@@ -48,7 +46,6 @@ CMakeFiles/RpgoReadG2oIncremental.dir/examples/RpgoReadG2oIncremental.cpp.o
  /home/catkin_ws/devel/include/gtsam/geometry/SOn.h
  /home/catkin_ws/devel/include/gtsam/geometry/Unit3.h
  /home/catkin_ws/devel/include/gtsam/global_includes.h
- /home/catkin_ws/devel/include/gtsam/inference/DotWriter.h
  /home/catkin_ws/devel/include/gtsam/inference/EliminateableFactorGraph.h
  /home/catkin_ws/devel/include/gtsam/inference/Factor.h
  /home/catkin_ws/devel/include/gtsam/inference/FactorGraph-inst.h
@@ -80,7 +77,6 @@ CMakeFiles/RpgoReadG2oIncremental.dir/examples/RpgoReadG2oIncremental.cpp.o
  /home/catkin_ws/devel/include/gtsam/nonlinear/GaussNewtonOptimizer.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/GncOptimizer.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/GncParams.h
- /home/catkin_ws/devel/include/gtsam/nonlinear/GraphvizFormatting.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/LevenbergMarquardtOptimizer.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/LevenbergMarquardtParams.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/NonlinearFactor.h
@@ -91,8 +87,6 @@ CMakeFiles/RpgoReadG2oIncremental.dir/examples/RpgoReadG2oIncremental.cpp.o
  /home/catkin_ws/devel/include/gtsam/nonlinear/Values-inl.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/Values.h
  /home/catkin_ws/devel/include/gtsam/sfm/BinaryMeasurement.h
- /home/catkin_ws/devel/include/gtsam/sfm/SfmData.h
- /home/catkin_ws/devel/include/gtsam/sfm/SfmTrack.h
  /home/catkin_ws/devel/include/gtsam/slam/BetweenFactor.h
  /home/catkin_ws/devel/include/gtsam/slam/PriorFactor.h
  /home/catkin_ws/devel/include/gtsam/slam/dataset.h

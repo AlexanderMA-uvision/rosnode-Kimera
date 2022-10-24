@@ -80,7 +80,7 @@ testSlamExpressions_EXTERNAL_OBJECTS =
 gtsam/slam/tests/testSlamExpressions: gtsam/slam/tests/CMakeFiles/testSlamExpressions.dir/testSlamExpressions.cpp.o
 gtsam/slam/tests/testSlamExpressions: gtsam/slam/tests/CMakeFiles/testSlamExpressions.dir/build.make
 gtsam/slam/tests/testSlamExpressions: CppUnitLite/libCppUnitLite.a
-gtsam/slam/tests/testSlamExpressions: gtsam/libgtsam.so.4.2.0
+gtsam/slam/tests/testSlamExpressions: gtsam/libgtsam.so.4.1.0
 gtsam/slam/tests/testSlamExpressions: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 gtsam/slam/tests/testSlamExpressions: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 gtsam/slam/tests/testSlamExpressions: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

@@ -33,7 +33,7 @@ struct ConstructorTraversalData {
   typedef typename JunctionTree<BAYESTREE, GRAPH>::sharedNode sharedNode;
 
   ConstructorTraversalData* const parentData;
-  sharedNode junctionTreeNode;
+  sharedNode myJTNode;
   FastVector<SymbolicConditional::shared_ptr> childSymbolicConditionals;
   FastVector<SymbolicFactor::shared_ptr> childSymbolicFactors;
 
@@ -53,9 +53,8 @@ struct ConstructorTraversalData {
     // a traversal data structure with its own JT node, and create a child
     // pointer in its parent.
     ConstructorTraversalData myData = ConstructorTraversalData(&parentData);
-    myData.junctionTreeNode =
-        boost::make_shared<Node>(node->key, node->factors);
-    parentData.junctionTreeNode->addChild(myData.junctionTreeNode);
+    myData.myJTNode = boost::make_shared<Node>(node->key, node->factors);
+    parentData.myJTNode->addChild(myData.myJTNode);
     return myData;
   }
 
@@ -92,7 +91,7 @@ struct ConstructorTraversalData {
     myData.parentData->childSymbolicConditionals.push_back(myConditional);
     myData.parentData->childSymbolicFactors.push_back(mySeparatorFactor);
 
-    sharedNode node = myData.junctionTreeNode;
+    sharedNode node = myData.myJTNode;
     const FastVector<SymbolicConditional::shared_ptr>& childConditionals =
         myData.childSymbolicConditionals;
     node->problemSize_ = (int) (myConditional->size() * symbolicFactors.size());
@@ -139,14 +138,14 @@ JunctionTree<BAYESTREE, GRAPH>::JunctionTree(
   typedef typename EliminationTree<ETREE_BAYESNET, ETREE_GRAPH>::Node ETreeNode;
   typedef ConstructorTraversalData<BAYESTREE, GRAPH, ETreeNode> Data;
   Data rootData(0);
-  // Make a dummy node to gather the junction tree roots
-  rootData.junctionTreeNode = boost::make_shared<typename Base::Node>();
+  rootData.myJTNode = boost::make_shared<typename Base::Node>(); // Make a dummy node to gather
+                                                                 // the junction tree roots
   treeTraversal::DepthFirstForest(eliminationTree, rootData,
       Data::ConstructorTraversalVisitorPre,
       Data::ConstructorTraversalVisitorPostAlg2);
 
   // Assign roots from the dummy node
-  this->addChildrenAsRoots(rootData.junctionTreeNode);
+  this->addChildrenAsRoots(rootData.myJTNode);
 
   // Transfer remaining factors from elimination tree
   Base::remainingFactors_ = eliminationTree.remainingFactors();

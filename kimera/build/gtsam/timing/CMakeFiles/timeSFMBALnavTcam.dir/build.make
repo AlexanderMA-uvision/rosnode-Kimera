@@ -79,7 +79,7 @@ timeSFMBALnavTcam_EXTERNAL_OBJECTS =
 
 timing/timeSFMBALnavTcam: timing/CMakeFiles/timeSFMBALnavTcam.dir/timeSFMBALnavTcam.cpp.o
 timing/timeSFMBALnavTcam: timing/CMakeFiles/timeSFMBALnavTcam.dir/build.make
-timing/timeSFMBALnavTcam: gtsam/libgtsam.so.4.2.0
+timing/timeSFMBALnavTcam: gtsam/libgtsam.so.4.1.0
 timing/timeSFMBALnavTcam: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 timing/timeSFMBALnavTcam: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 timing/timeSFMBALnavTcam: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

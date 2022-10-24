@@ -80,7 +80,7 @@ testGaussianFactorGraphB_EXTERNAL_OBJECTS =
 tests/testGaussianFactorGraphB: tests/CMakeFiles/testGaussianFactorGraphB.dir/testGaussianFactorGraphB.cpp.o
 tests/testGaussianFactorGraphB: tests/CMakeFiles/testGaussianFactorGraphB.dir/build.make
 tests/testGaussianFactorGraphB: CppUnitLite/libCppUnitLite.a
-tests/testGaussianFactorGraphB: gtsam/libgtsam.so.4.2.0
+tests/testGaussianFactorGraphB: gtsam/libgtsam.so.4.1.0
 tests/testGaussianFactorGraphB: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 tests/testGaussianFactorGraphB: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 tests/testGaussianFactorGraphB: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

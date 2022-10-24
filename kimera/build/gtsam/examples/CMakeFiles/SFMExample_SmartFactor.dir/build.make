@@ -79,7 +79,7 @@ SFMExample_SmartFactor_EXTERNAL_OBJECTS =
 
 examples/SFMExample_SmartFactor: examples/CMakeFiles/SFMExample_SmartFactor.dir/SFMExample_SmartFactor.cpp.o
 examples/SFMExample_SmartFactor: examples/CMakeFiles/SFMExample_SmartFactor.dir/build.make
-examples/SFMExample_SmartFactor: gtsam/libgtsam.so.4.2.0
+examples/SFMExample_SmartFactor: gtsam/libgtsam.so.4.1.0
 examples/SFMExample_SmartFactor: /usr/lib/aarch64-linux-gnu/libboost_program_options.so.1.71.0
 examples/SFMExample_SmartFactor: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 examples/SFMExample_SmartFactor: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0

@@ -190,34 +190,19 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-gtsam/navigation/tests/CMakeFiles/testSerializationNavigation.valgrind.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/navigation/tests/CMakeFiles/testSerializationNavigation.valgrind.dir/rule
-.PHONY : gtsam/navigation/tests/CMakeFiles/testSerializationNavigation.valgrind.dir/rule
+gtsam/navigation/tests/CMakeFiles/testPoseVelocityBias.valgrind.dir/rule:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/navigation/tests/CMakeFiles/testPoseVelocityBias.valgrind.dir/rule
+.PHONY : gtsam/navigation/tests/CMakeFiles/testPoseVelocityBias.valgrind.dir/rule
 
 # Convenience name for target.
-testSerializationNavigation.valgrind: gtsam/navigation/tests/CMakeFiles/testSerializationNavigation.valgrind.dir/rule
+testPoseVelocityBias.valgrind: gtsam/navigation/tests/CMakeFiles/testPoseVelocityBias.valgrind.dir/rule
 
-.PHONY : testSerializationNavigation.valgrind
+.PHONY : testPoseVelocityBias.valgrind
 
 # fast build rule for target.
-testSerializationNavigation.valgrind/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/navigation/tests/CMakeFiles/testSerializationNavigation.valgrind.dir/build.make gtsam/navigation/tests/CMakeFiles/testSerializationNavigation.valgrind.dir/build
-.PHONY : testSerializationNavigation.valgrind/fast
-
-# Convenience name for target.
-gtsam/navigation/tests/CMakeFiles/testScenarioRunner.run.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/navigation/tests/CMakeFiles/testScenarioRunner.run.dir/rule
-.PHONY : gtsam/navigation/tests/CMakeFiles/testScenarioRunner.run.dir/rule
-
-# Convenience name for target.
-testScenarioRunner.run: gtsam/navigation/tests/CMakeFiles/testScenarioRunner.run.dir/rule
-
-.PHONY : testScenarioRunner.run
-
-# fast build rule for target.
-testScenarioRunner.run/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/navigation/tests/CMakeFiles/testScenarioRunner.run.dir/build.make gtsam/navigation/tests/CMakeFiles/testScenarioRunner.run.dir/build
-.PHONY : testScenarioRunner.run/fast
+testPoseVelocityBias.valgrind/fast:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/navigation/tests/CMakeFiles/testPoseVelocityBias.valgrind.dir/build.make gtsam/navigation/tests/CMakeFiles/testPoseVelocityBias.valgrind.dir/build
+.PHONY : testPoseVelocityBias.valgrind/fast
 
 # Convenience name for target.
 gtsam/navigation/tests/CMakeFiles/testPoseVelocityBias.run.dir/rule:
@@ -233,21 +218,6 @@ testPoseVelocityBias.run: gtsam/navigation/tests/CMakeFiles/testPoseVelocityBias
 testPoseVelocityBias.run/fast:
 	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/navigation/tests/CMakeFiles/testPoseVelocityBias.run.dir/build.make gtsam/navigation/tests/CMakeFiles/testPoseVelocityBias.run.dir/build
 .PHONY : testPoseVelocityBias.run/fast
-
-# Convenience name for target.
-gtsam/navigation/tests/CMakeFiles/testNavState.valgrind.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/navigation/tests/CMakeFiles/testNavState.valgrind.dir/rule
-.PHONY : gtsam/navigation/tests/CMakeFiles/testNavState.valgrind.dir/rule
-
-# Convenience name for target.
-testNavState.valgrind: gtsam/navigation/tests/CMakeFiles/testNavState.valgrind.dir/rule
-
-.PHONY : testNavState.valgrind
-
-# fast build rule for target.
-testNavState.valgrind/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/navigation/tests/CMakeFiles/testNavState.valgrind.dir/build.make gtsam/navigation/tests/CMakeFiles/testNavState.valgrind.dir/build
-.PHONY : testNavState.valgrind/fast
 
 # Convenience name for target.
 gtsam/navigation/tests/CMakeFiles/testNavState.dir/rule:
@@ -310,21 +280,6 @@ testNavExpressions.run/fast:
 .PHONY : testNavExpressions.run/fast
 
 # Convenience name for target.
-gtsam/navigation/tests/CMakeFiles/testBarometricFactor.valgrind.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/navigation/tests/CMakeFiles/testBarometricFactor.valgrind.dir/rule
-.PHONY : gtsam/navigation/tests/CMakeFiles/testBarometricFactor.valgrind.dir/rule
-
-# Convenience name for target.
-testBarometricFactor.valgrind: gtsam/navigation/tests/CMakeFiles/testBarometricFactor.valgrind.dir/rule
-
-.PHONY : testBarometricFactor.valgrind
-
-# fast build rule for target.
-testBarometricFactor.valgrind/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/navigation/tests/CMakeFiles/testBarometricFactor.valgrind.dir/build.make gtsam/navigation/tests/CMakeFiles/testBarometricFactor.valgrind.dir/build
-.PHONY : testBarometricFactor.valgrind/fast
-
-# Convenience name for target.
 gtsam/navigation/tests/CMakeFiles/testTangentPreintegration.run.dir/rule:
 	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/navigation/tests/CMakeFiles/testTangentPreintegration.run.dir/rule
 .PHONY : gtsam/navigation/tests/CMakeFiles/testTangentPreintegration.run.dir/rule
@@ -385,96 +340,6 @@ testAHRSFactor/fast:
 .PHONY : testAHRSFactor/fast
 
 # Convenience name for target.
-gtsam/navigation/tests/CMakeFiles/testPoseVelocityBias.valgrind.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/navigation/tests/CMakeFiles/testPoseVelocityBias.valgrind.dir/rule
-.PHONY : gtsam/navigation/tests/CMakeFiles/testPoseVelocityBias.valgrind.dir/rule
-
-# Convenience name for target.
-testPoseVelocityBias.valgrind: gtsam/navigation/tests/CMakeFiles/testPoseVelocityBias.valgrind.dir/rule
-
-.PHONY : testPoseVelocityBias.valgrind
-
-# fast build rule for target.
-testPoseVelocityBias.valgrind/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/navigation/tests/CMakeFiles/testPoseVelocityBias.valgrind.dir/build.make gtsam/navigation/tests/CMakeFiles/testPoseVelocityBias.valgrind.dir/build
-.PHONY : testPoseVelocityBias.valgrind/fast
-
-# Convenience name for target.
-gtsam/navigation/tests/CMakeFiles/testBarometricFactor.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/navigation/tests/CMakeFiles/testBarometricFactor.dir/rule
-.PHONY : gtsam/navigation/tests/CMakeFiles/testBarometricFactor.dir/rule
-
-# Convenience name for target.
-testBarometricFactor: gtsam/navigation/tests/CMakeFiles/testBarometricFactor.dir/rule
-
-.PHONY : testBarometricFactor
-
-# fast build rule for target.
-testBarometricFactor/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/navigation/tests/CMakeFiles/testBarometricFactor.dir/build.make gtsam/navigation/tests/CMakeFiles/testBarometricFactor.dir/build
-.PHONY : testBarometricFactor/fast
-
-# Convenience name for target.
-gtsam/navigation/tests/CMakeFiles/testScenario.valgrind.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/navigation/tests/CMakeFiles/testScenario.valgrind.dir/rule
-.PHONY : gtsam/navigation/tests/CMakeFiles/testScenario.valgrind.dir/rule
-
-# Convenience name for target.
-testScenario.valgrind: gtsam/navigation/tests/CMakeFiles/testScenario.valgrind.dir/rule
-
-.PHONY : testScenario.valgrind
-
-# fast build rule for target.
-testScenario.valgrind/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/navigation/tests/CMakeFiles/testScenario.valgrind.dir/build.make gtsam/navigation/tests/CMakeFiles/testScenario.valgrind.dir/build
-.PHONY : testScenario.valgrind/fast
-
-# Convenience name for target.
-gtsam/navigation/tests/CMakeFiles/testNavState.run.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/navigation/tests/CMakeFiles/testNavState.run.dir/rule
-.PHONY : gtsam/navigation/tests/CMakeFiles/testNavState.run.dir/rule
-
-# Convenience name for target.
-testNavState.run: gtsam/navigation/tests/CMakeFiles/testNavState.run.dir/rule
-
-.PHONY : testNavState.run
-
-# fast build rule for target.
-testNavState.run/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/navigation/tests/CMakeFiles/testNavState.run.dir/build.make gtsam/navigation/tests/CMakeFiles/testNavState.run.dir/build
-.PHONY : testNavState.run/fast
-
-# Convenience name for target.
-gtsam/navigation/tests/CMakeFiles/testMagPoseFactor.valgrind.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/navigation/tests/CMakeFiles/testMagPoseFactor.valgrind.dir/rule
-.PHONY : gtsam/navigation/tests/CMakeFiles/testMagPoseFactor.valgrind.dir/rule
-
-# Convenience name for target.
-testMagPoseFactor.valgrind: gtsam/navigation/tests/CMakeFiles/testMagPoseFactor.valgrind.dir/rule
-
-.PHONY : testMagPoseFactor.valgrind
-
-# fast build rule for target.
-testMagPoseFactor.valgrind/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/navigation/tests/CMakeFiles/testMagPoseFactor.valgrind.dir/build.make gtsam/navigation/tests/CMakeFiles/testMagPoseFactor.valgrind.dir/build
-.PHONY : testMagPoseFactor.valgrind/fast
-
-# Convenience name for target.
-gtsam/navigation/tests/CMakeFiles/testBarometricFactor.run.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/navigation/tests/CMakeFiles/testBarometricFactor.run.dir/rule
-.PHONY : gtsam/navigation/tests/CMakeFiles/testBarometricFactor.run.dir/rule
-
-# Convenience name for target.
-testBarometricFactor.run: gtsam/navigation/tests/CMakeFiles/testBarometricFactor.run.dir/rule
-
-.PHONY : testBarometricFactor.run
-
-# fast build rule for target.
-testBarometricFactor.run/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/navigation/tests/CMakeFiles/testBarometricFactor.run.dir/build.make gtsam/navigation/tests/CMakeFiles/testBarometricFactor.run.dir/build
-.PHONY : testBarometricFactor.run/fast
-
-# Convenience name for target.
 gtsam/navigation/tests/CMakeFiles/testScenario.dir/rule:
 	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/navigation/tests/CMakeFiles/testScenario.dir/rule
 .PHONY : gtsam/navigation/tests/CMakeFiles/testScenario.dir/rule
@@ -518,21 +383,6 @@ testImuFactor: gtsam/navigation/tests/CMakeFiles/testImuFactor.dir/rule
 testImuFactor/fast:
 	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/navigation/tests/CMakeFiles/testImuFactor.dir/build.make gtsam/navigation/tests/CMakeFiles/testImuFactor.dir/build
 .PHONY : testImuFactor/fast
-
-# Convenience name for target.
-gtsam/navigation/tests/CMakeFiles/testSerializationNavigation.run.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/navigation/tests/CMakeFiles/testSerializationNavigation.run.dir/rule
-.PHONY : gtsam/navigation/tests/CMakeFiles/testSerializationNavigation.run.dir/rule
-
-# Convenience name for target.
-testSerializationNavigation.run: gtsam/navigation/tests/CMakeFiles/testSerializationNavigation.run.dir/rule
-
-.PHONY : testSerializationNavigation.run
-
-# fast build rule for target.
-testSerializationNavigation.run/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/navigation/tests/CMakeFiles/testSerializationNavigation.run.dir/build.make gtsam/navigation/tests/CMakeFiles/testSerializationNavigation.run.dir/build
-.PHONY : testSerializationNavigation.run/fast
 
 # Convenience name for target.
 gtsam/navigation/tests/CMakeFiles/testPoseVelocityBias.dir/rule:
@@ -625,64 +475,34 @@ testImuBias.valgrind/fast:
 .PHONY : testImuBias.valgrind/fast
 
 # Convenience name for target.
-gtsam/navigation/tests/CMakeFiles/testAttitudeFactor.run.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/navigation/tests/CMakeFiles/testAttitudeFactor.run.dir/rule
-.PHONY : gtsam/navigation/tests/CMakeFiles/testAttitudeFactor.run.dir/rule
+gtsam/navigation/tests/CMakeFiles/testNavState.valgrind.dir/rule:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/navigation/tests/CMakeFiles/testNavState.valgrind.dir/rule
+.PHONY : gtsam/navigation/tests/CMakeFiles/testNavState.valgrind.dir/rule
 
 # Convenience name for target.
-testAttitudeFactor.run: gtsam/navigation/tests/CMakeFiles/testAttitudeFactor.run.dir/rule
+testNavState.valgrind: gtsam/navigation/tests/CMakeFiles/testNavState.valgrind.dir/rule
 
-.PHONY : testAttitudeFactor.run
+.PHONY : testNavState.valgrind
 
 # fast build rule for target.
-testAttitudeFactor.run/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/navigation/tests/CMakeFiles/testAttitudeFactor.run.dir/build.make gtsam/navigation/tests/CMakeFiles/testAttitudeFactor.run.dir/build
-.PHONY : testAttitudeFactor.run/fast
+testNavState.valgrind/fast:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/navigation/tests/CMakeFiles/testNavState.valgrind.dir/build.make gtsam/navigation/tests/CMakeFiles/testNavState.valgrind.dir/build
+.PHONY : testNavState.valgrind/fast
 
 # Convenience name for target.
-gtsam/navigation/tests/CMakeFiles/testImuFactor.run.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/navigation/tests/CMakeFiles/testImuFactor.run.dir/rule
-.PHONY : gtsam/navigation/tests/CMakeFiles/testImuFactor.run.dir/rule
+gtsam/navigation/tests/CMakeFiles/testImuFactorSerialization.dir/rule:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/navigation/tests/CMakeFiles/testImuFactorSerialization.dir/rule
+.PHONY : gtsam/navigation/tests/CMakeFiles/testImuFactorSerialization.dir/rule
 
 # Convenience name for target.
-testImuFactor.run: gtsam/navigation/tests/CMakeFiles/testImuFactor.run.dir/rule
+testImuFactorSerialization: gtsam/navigation/tests/CMakeFiles/testImuFactorSerialization.dir/rule
 
-.PHONY : testImuFactor.run
+.PHONY : testImuFactorSerialization
 
 # fast build rule for target.
-testImuFactor.run/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/navigation/tests/CMakeFiles/testImuFactor.run.dir/build.make gtsam/navigation/tests/CMakeFiles/testImuFactor.run.dir/build
-.PHONY : testImuFactor.run/fast
-
-# Convenience name for target.
-gtsam/navigation/tests/CMakeFiles/testTangentPreintegration.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/navigation/tests/CMakeFiles/testTangentPreintegration.dir/rule
-.PHONY : gtsam/navigation/tests/CMakeFiles/testTangentPreintegration.dir/rule
-
-# Convenience name for target.
-testTangentPreintegration: gtsam/navigation/tests/CMakeFiles/testTangentPreintegration.dir/rule
-
-.PHONY : testTangentPreintegration
-
-# fast build rule for target.
-testTangentPreintegration/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/navigation/tests/CMakeFiles/testTangentPreintegration.dir/build.make gtsam/navigation/tests/CMakeFiles/testTangentPreintegration.dir/build
-.PHONY : testTangentPreintegration/fast
-
-# Convenience name for target.
-gtsam/navigation/tests/CMakeFiles/check.navigation.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/navigation/tests/CMakeFiles/check.navigation.dir/rule
-.PHONY : gtsam/navigation/tests/CMakeFiles/check.navigation.dir/rule
-
-# Convenience name for target.
-check.navigation: gtsam/navigation/tests/CMakeFiles/check.navigation.dir/rule
-
-.PHONY : check.navigation
-
-# fast build rule for target.
-check.navigation/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/navigation/tests/CMakeFiles/check.navigation.dir/build.make gtsam/navigation/tests/CMakeFiles/check.navigation.dir/build
-.PHONY : check.navigation/fast
+testImuFactorSerialization/fast:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/navigation/tests/CMakeFiles/testImuFactorSerialization.dir/build.make gtsam/navigation/tests/CMakeFiles/testImuFactorSerialization.dir/build
+.PHONY : testImuFactorSerialization/fast
 
 # Convenience name for target.
 gtsam/navigation/tests/CMakeFiles/testScenarioRunner.dir/rule:
@@ -715,6 +535,51 @@ testConstantVelocityFactor.valgrind/fast:
 .PHONY : testConstantVelocityFactor.valgrind/fast
 
 # Convenience name for target.
+gtsam/navigation/tests/CMakeFiles/testTangentPreintegration.dir/rule:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/navigation/tests/CMakeFiles/testTangentPreintegration.dir/rule
+.PHONY : gtsam/navigation/tests/CMakeFiles/testTangentPreintegration.dir/rule
+
+# Convenience name for target.
+testTangentPreintegration: gtsam/navigation/tests/CMakeFiles/testTangentPreintegration.dir/rule
+
+.PHONY : testTangentPreintegration
+
+# fast build rule for target.
+testTangentPreintegration/fast:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/navigation/tests/CMakeFiles/testTangentPreintegration.dir/build.make gtsam/navigation/tests/CMakeFiles/testTangentPreintegration.dir/build
+.PHONY : testTangentPreintegration/fast
+
+# Convenience name for target.
+gtsam/navigation/tests/CMakeFiles/check.navigation.dir/rule:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/navigation/tests/CMakeFiles/check.navigation.dir/rule
+.PHONY : gtsam/navigation/tests/CMakeFiles/check.navigation.dir/rule
+
+# Convenience name for target.
+check.navigation: gtsam/navigation/tests/CMakeFiles/check.navigation.dir/rule
+
+.PHONY : check.navigation
+
+# fast build rule for target.
+check.navigation/fast:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/navigation/tests/CMakeFiles/check.navigation.dir/build.make gtsam/navigation/tests/CMakeFiles/check.navigation.dir/build
+.PHONY : check.navigation/fast
+
+# Convenience name for target.
+gtsam/navigation/tests/CMakeFiles/testImuFactorSerialization.run.dir/rule:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/navigation/tests/CMakeFiles/testImuFactorSerialization.run.dir/rule
+.PHONY : gtsam/navigation/tests/CMakeFiles/testImuFactorSerialization.run.dir/rule
+
+# Convenience name for target.
+testImuFactorSerialization.run: gtsam/navigation/tests/CMakeFiles/testImuFactorSerialization.run.dir/rule
+
+.PHONY : testImuFactorSerialization.run
+
+# fast build rule for target.
+testImuFactorSerialization.run/fast:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/navigation/tests/CMakeFiles/testImuFactorSerialization.run.dir/build.make gtsam/navigation/tests/CMakeFiles/testImuFactorSerialization.run.dir/build
+.PHONY : testImuFactorSerialization.run/fast
+
+# Convenience name for target.
 gtsam/navigation/tests/CMakeFiles/testManifoldPreintegration.dir/rule:
 	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/navigation/tests/CMakeFiles/testManifoldPreintegration.dir/rule
 .PHONY : gtsam/navigation/tests/CMakeFiles/testManifoldPreintegration.dir/rule
@@ -728,6 +593,36 @@ testManifoldPreintegration: gtsam/navigation/tests/CMakeFiles/testManifoldPreint
 testManifoldPreintegration/fast:
 	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/navigation/tests/CMakeFiles/testManifoldPreintegration.dir/build.make gtsam/navigation/tests/CMakeFiles/testManifoldPreintegration.dir/build
 .PHONY : testManifoldPreintegration/fast
+
+# Convenience name for target.
+gtsam/navigation/tests/CMakeFiles/testAttitudeFactor.run.dir/rule:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/navigation/tests/CMakeFiles/testAttitudeFactor.run.dir/rule
+.PHONY : gtsam/navigation/tests/CMakeFiles/testAttitudeFactor.run.dir/rule
+
+# Convenience name for target.
+testAttitudeFactor.run: gtsam/navigation/tests/CMakeFiles/testAttitudeFactor.run.dir/rule
+
+.PHONY : testAttitudeFactor.run
+
+# fast build rule for target.
+testAttitudeFactor.run/fast:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/navigation/tests/CMakeFiles/testAttitudeFactor.run.dir/build.make gtsam/navigation/tests/CMakeFiles/testAttitudeFactor.run.dir/build
+.PHONY : testAttitudeFactor.run/fast
+
+# Convenience name for target.
+gtsam/navigation/tests/CMakeFiles/testImuFactor.run.dir/rule:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/navigation/tests/CMakeFiles/testImuFactor.run.dir/rule
+.PHONY : gtsam/navigation/tests/CMakeFiles/testImuFactor.run.dir/rule
+
+# Convenience name for target.
+testImuFactor.run: gtsam/navigation/tests/CMakeFiles/testImuFactor.run.dir/rule
+
+.PHONY : testImuFactor.run
+
+# fast build rule for target.
+testImuFactor.run/fast:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/navigation/tests/CMakeFiles/testImuFactor.run.dir/build.make gtsam/navigation/tests/CMakeFiles/testImuFactor.run.dir/build
+.PHONY : testImuFactor.run/fast
 
 # Convenience name for target.
 gtsam/navigation/tests/CMakeFiles/testScenario.run.dir/rule:
@@ -820,6 +715,36 @@ testImuFactor.valgrind/fast:
 .PHONY : testImuFactor.valgrind/fast
 
 # Convenience name for target.
+gtsam/navigation/tests/CMakeFiles/testScenarioRunner.run.dir/rule:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/navigation/tests/CMakeFiles/testScenarioRunner.run.dir/rule
+.PHONY : gtsam/navigation/tests/CMakeFiles/testScenarioRunner.run.dir/rule
+
+# Convenience name for target.
+testScenarioRunner.run: gtsam/navigation/tests/CMakeFiles/testScenarioRunner.run.dir/rule
+
+.PHONY : testScenarioRunner.run
+
+# fast build rule for target.
+testScenarioRunner.run/fast:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/navigation/tests/CMakeFiles/testScenarioRunner.run.dir/build.make gtsam/navigation/tests/CMakeFiles/testScenarioRunner.run.dir/build
+.PHONY : testScenarioRunner.run/fast
+
+# Convenience name for target.
+gtsam/navigation/tests/CMakeFiles/testImuFactorSerialization.valgrind.dir/rule:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/navigation/tests/CMakeFiles/testImuFactorSerialization.valgrind.dir/rule
+.PHONY : gtsam/navigation/tests/CMakeFiles/testImuFactorSerialization.valgrind.dir/rule
+
+# Convenience name for target.
+testImuFactorSerialization.valgrind: gtsam/navigation/tests/CMakeFiles/testImuFactorSerialization.valgrind.dir/rule
+
+.PHONY : testImuFactorSerialization.valgrind
+
+# fast build rule for target.
+testImuFactorSerialization.valgrind/fast:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/navigation/tests/CMakeFiles/testImuFactorSerialization.valgrind.dir/build.make gtsam/navigation/tests/CMakeFiles/testImuFactorSerialization.valgrind.dir/build
+.PHONY : testImuFactorSerialization.valgrind/fast
+
+# Convenience name for target.
 gtsam/navigation/tests/CMakeFiles/testMagPoseFactor.dir/rule:
 	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/navigation/tests/CMakeFiles/testMagPoseFactor.dir/rule
 .PHONY : gtsam/navigation/tests/CMakeFiles/testMagPoseFactor.dir/rule
@@ -835,6 +760,51 @@ testMagPoseFactor/fast:
 .PHONY : testMagPoseFactor/fast
 
 # Convenience name for target.
+gtsam/navigation/tests/CMakeFiles/testScenario.valgrind.dir/rule:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/navigation/tests/CMakeFiles/testScenario.valgrind.dir/rule
+.PHONY : gtsam/navigation/tests/CMakeFiles/testScenario.valgrind.dir/rule
+
+# Convenience name for target.
+testScenario.valgrind: gtsam/navigation/tests/CMakeFiles/testScenario.valgrind.dir/rule
+
+.PHONY : testScenario.valgrind
+
+# fast build rule for target.
+testScenario.valgrind/fast:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/navigation/tests/CMakeFiles/testScenario.valgrind.dir/build.make gtsam/navigation/tests/CMakeFiles/testScenario.valgrind.dir/build
+.PHONY : testScenario.valgrind/fast
+
+# Convenience name for target.
+gtsam/navigation/tests/CMakeFiles/testNavState.run.dir/rule:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/navigation/tests/CMakeFiles/testNavState.run.dir/rule
+.PHONY : gtsam/navigation/tests/CMakeFiles/testNavState.run.dir/rule
+
+# Convenience name for target.
+testNavState.run: gtsam/navigation/tests/CMakeFiles/testNavState.run.dir/rule
+
+.PHONY : testNavState.run
+
+# fast build rule for target.
+testNavState.run/fast:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/navigation/tests/CMakeFiles/testNavState.run.dir/build.make gtsam/navigation/tests/CMakeFiles/testNavState.run.dir/build
+.PHONY : testNavState.run/fast
+
+# Convenience name for target.
+gtsam/navigation/tests/CMakeFiles/testMagPoseFactor.valgrind.dir/rule:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/navigation/tests/CMakeFiles/testMagPoseFactor.valgrind.dir/rule
+.PHONY : gtsam/navigation/tests/CMakeFiles/testMagPoseFactor.valgrind.dir/rule
+
+# Convenience name for target.
+testMagPoseFactor.valgrind: gtsam/navigation/tests/CMakeFiles/testMagPoseFactor.valgrind.dir/rule
+
+.PHONY : testMagPoseFactor.valgrind
+
+# fast build rule for target.
+testMagPoseFactor.valgrind/fast:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/navigation/tests/CMakeFiles/testMagPoseFactor.valgrind.dir/build.make gtsam/navigation/tests/CMakeFiles/testMagPoseFactor.valgrind.dir/build
+.PHONY : testMagPoseFactor.valgrind/fast
+
+# Convenience name for target.
 gtsam/navigation/tests/CMakeFiles/testManifoldPreintegration.run.dir/rule:
 	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/navigation/tests/CMakeFiles/testManifoldPreintegration.run.dir/rule
 .PHONY : gtsam/navigation/tests/CMakeFiles/testManifoldPreintegration.run.dir/rule
@@ -848,21 +818,6 @@ testManifoldPreintegration.run: gtsam/navigation/tests/CMakeFiles/testManifoldPr
 testManifoldPreintegration.run/fast:
 	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/navigation/tests/CMakeFiles/testManifoldPreintegration.run.dir/build.make gtsam/navigation/tests/CMakeFiles/testManifoldPreintegration.run.dir/build
 .PHONY : testManifoldPreintegration.run/fast
-
-# Convenience name for target.
-gtsam/navigation/tests/CMakeFiles/testSerializationNavigation.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/navigation/tests/CMakeFiles/testSerializationNavigation.dir/rule
-.PHONY : gtsam/navigation/tests/CMakeFiles/testSerializationNavigation.dir/rule
-
-# Convenience name for target.
-testSerializationNavigation: gtsam/navigation/tests/CMakeFiles/testSerializationNavigation.dir/rule
-
-.PHONY : testSerializationNavigation
-
-# fast build rule for target.
-testSerializationNavigation/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/navigation/tests/CMakeFiles/testSerializationNavigation.dir/build.make gtsam/navigation/tests/CMakeFiles/testSerializationNavigation.dir/build
-.PHONY : testSerializationNavigation/fast
 
 # Convenience name for target.
 gtsam/navigation/tests/CMakeFiles/testScenarioRunner.valgrind.dir/rule:
@@ -978,33 +933,6 @@ testAttitudeFactor.cpp.s:
 	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/navigation/tests/CMakeFiles/testAttitudeFactor.dir/build.make gtsam/navigation/tests/CMakeFiles/testAttitudeFactor.dir/testAttitudeFactor.cpp.s
 .PHONY : testAttitudeFactor.cpp.s
 
-testBarometricFactor.o: testBarometricFactor.cpp.o
-
-.PHONY : testBarometricFactor.o
-
-# target to build an object file
-testBarometricFactor.cpp.o:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/navigation/tests/CMakeFiles/testBarometricFactor.dir/build.make gtsam/navigation/tests/CMakeFiles/testBarometricFactor.dir/testBarometricFactor.cpp.o
-.PHONY : testBarometricFactor.cpp.o
-
-testBarometricFactor.i: testBarometricFactor.cpp.i
-
-.PHONY : testBarometricFactor.i
-
-# target to preprocess a source file
-testBarometricFactor.cpp.i:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/navigation/tests/CMakeFiles/testBarometricFactor.dir/build.make gtsam/navigation/tests/CMakeFiles/testBarometricFactor.dir/testBarometricFactor.cpp.i
-.PHONY : testBarometricFactor.cpp.i
-
-testBarometricFactor.s: testBarometricFactor.cpp.s
-
-.PHONY : testBarometricFactor.s
-
-# target to generate assembly for a file
-testBarometricFactor.cpp.s:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/navigation/tests/CMakeFiles/testBarometricFactor.dir/build.make gtsam/navigation/tests/CMakeFiles/testBarometricFactor.dir/testBarometricFactor.cpp.s
-.PHONY : testBarometricFactor.cpp.s
-
 testCombinedImuFactor.o: testCombinedImuFactor.cpp.o
 
 .PHONY : testCombinedImuFactor.o
@@ -1112,6 +1040,33 @@ testImuFactor.s: testImuFactor.cpp.s
 testImuFactor.cpp.s:
 	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/navigation/tests/CMakeFiles/testImuFactor.dir/build.make gtsam/navigation/tests/CMakeFiles/testImuFactor.dir/testImuFactor.cpp.s
 .PHONY : testImuFactor.cpp.s
+
+testImuFactorSerialization.o: testImuFactorSerialization.cpp.o
+
+.PHONY : testImuFactorSerialization.o
+
+# target to build an object file
+testImuFactorSerialization.cpp.o:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/navigation/tests/CMakeFiles/testImuFactorSerialization.dir/build.make gtsam/navigation/tests/CMakeFiles/testImuFactorSerialization.dir/testImuFactorSerialization.cpp.o
+.PHONY : testImuFactorSerialization.cpp.o
+
+testImuFactorSerialization.i: testImuFactorSerialization.cpp.i
+
+.PHONY : testImuFactorSerialization.i
+
+# target to preprocess a source file
+testImuFactorSerialization.cpp.i:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/navigation/tests/CMakeFiles/testImuFactorSerialization.dir/build.make gtsam/navigation/tests/CMakeFiles/testImuFactorSerialization.dir/testImuFactorSerialization.cpp.i
+.PHONY : testImuFactorSerialization.cpp.i
+
+testImuFactorSerialization.s: testImuFactorSerialization.cpp.s
+
+.PHONY : testImuFactorSerialization.s
+
+# target to generate assembly for a file
+testImuFactorSerialization.cpp.s:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/navigation/tests/CMakeFiles/testImuFactorSerialization.dir/build.make gtsam/navigation/tests/CMakeFiles/testImuFactorSerialization.dir/testImuFactorSerialization.cpp.s
+.PHONY : testImuFactorSerialization.cpp.s
 
 testMagPoseFactor.o: testMagPoseFactor.cpp.o
 
@@ -1302,33 +1257,6 @@ testScenarioRunner.cpp.s:
 	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/navigation/tests/CMakeFiles/testScenarioRunner.dir/build.make gtsam/navigation/tests/CMakeFiles/testScenarioRunner.dir/testScenarioRunner.cpp.s
 .PHONY : testScenarioRunner.cpp.s
 
-testSerializationNavigation.o: testSerializationNavigation.cpp.o
-
-.PHONY : testSerializationNavigation.o
-
-# target to build an object file
-testSerializationNavigation.cpp.o:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/navigation/tests/CMakeFiles/testSerializationNavigation.dir/build.make gtsam/navigation/tests/CMakeFiles/testSerializationNavigation.dir/testSerializationNavigation.cpp.o
-.PHONY : testSerializationNavigation.cpp.o
-
-testSerializationNavigation.i: testSerializationNavigation.cpp.i
-
-.PHONY : testSerializationNavigation.i
-
-# target to preprocess a source file
-testSerializationNavigation.cpp.i:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/navigation/tests/CMakeFiles/testSerializationNavigation.dir/build.make gtsam/navigation/tests/CMakeFiles/testSerializationNavigation.dir/testSerializationNavigation.cpp.i
-.PHONY : testSerializationNavigation.cpp.i
-
-testSerializationNavigation.s: testSerializationNavigation.cpp.s
-
-.PHONY : testSerializationNavigation.s
-
-# target to generate assembly for a file
-testSerializationNavigation.cpp.s:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/navigation/tests/CMakeFiles/testSerializationNavigation.dir/build.make gtsam/navigation/tests/CMakeFiles/testSerializationNavigation.dir/testSerializationNavigation.cpp.s
-.PHONY : testSerializationNavigation.cpp.s
-
 testTangentPreintegration.o: testTangentPreintegration.cpp.o
 
 .PHONY : testTangentPreintegration.o
@@ -1367,44 +1295,37 @@ help:
 	@echo "... edit_cache"
 	@echo "... test"
 	@echo "... package"
-	@echo "... testSerializationNavigation.valgrind"
-	@echo "... testScenarioRunner.run"
+	@echo "... testPoseVelocityBias.valgrind"
 	@echo "... testPoseVelocityBias.run"
-	@echo "... testNavState.valgrind"
 	@echo "... rebuild_cache"
 	@echo "... testNavState"
 	@echo "... testNavExpressions.valgrind"
 	@echo "... testTangentPreintegration.valgrind"
 	@echo "... testNavExpressions.run"
-	@echo "... testBarometricFactor.valgrind"
 	@echo "... testTangentPreintegration.run"
 	@echo "... testCombinedImuFactor.run"
 	@echo "... testAHRSFactor.run"
 	@echo "... install/local"
 	@echo "... testAHRSFactor"
-	@echo "... testPoseVelocityBias.valgrind"
-	@echo "... testBarometricFactor"
-	@echo "... testScenario.valgrind"
-	@echo "... testNavState.run"
-	@echo "... testMagPoseFactor.valgrind"
-	@echo "... testBarometricFactor.run"
 	@echo "... testScenario"
 	@echo "... testAttitudeFactor.valgrind"
 	@echo "... testImuFactor"
-	@echo "... testSerializationNavigation.run"
 	@echo "... testPoseVelocityBias"
 	@echo "... testAttitudeFactor"
 	@echo "... testCombinedImuFactor.valgrind"
 	@echo "... testAHRSFactor.valgrind"
 	@echo "... testCombinedImuFactor"
 	@echo "... testImuBias.valgrind"
-	@echo "... testAttitudeFactor.run"
-	@echo "... testImuFactor.run"
-	@echo "... testTangentPreintegration"
-	@echo "... check.navigation"
+	@echo "... testNavState.valgrind"
+	@echo "... testImuFactorSerialization"
 	@echo "... testScenarioRunner"
 	@echo "... testConstantVelocityFactor.valgrind"
+	@echo "... testTangentPreintegration"
+	@echo "... check.navigation"
+	@echo "... testImuFactorSerialization.run"
 	@echo "... testManifoldPreintegration"
+	@echo "... testAttitudeFactor.run"
+	@echo "... testImuFactor.run"
 	@echo "... package_source"
 	@echo "... testScenario.run"
 	@echo "... testImuBias"
@@ -1413,9 +1334,13 @@ help:
 	@echo "... testConstantVelocityFactor.run"
 	@echo "... testImuBias.run"
 	@echo "... testImuFactor.valgrind"
+	@echo "... testScenarioRunner.run"
+	@echo "... testImuFactorSerialization.valgrind"
 	@echo "... testMagPoseFactor"
+	@echo "... testScenario.valgrind"
+	@echo "... testNavState.run"
+	@echo "... testMagPoseFactor.valgrind"
 	@echo "... testManifoldPreintegration.run"
-	@echo "... testSerializationNavigation"
 	@echo "... testScenarioRunner.valgrind"
 	@echo "... testConstantVelocityFactor"
 	@echo "... testManifoldPreintegration.valgrind"
@@ -1426,9 +1351,6 @@ help:
 	@echo "... testAttitudeFactor.o"
 	@echo "... testAttitudeFactor.i"
 	@echo "... testAttitudeFactor.s"
-	@echo "... testBarometricFactor.o"
-	@echo "... testBarometricFactor.i"
-	@echo "... testBarometricFactor.s"
 	@echo "... testCombinedImuFactor.o"
 	@echo "... testCombinedImuFactor.i"
 	@echo "... testCombinedImuFactor.s"
@@ -1441,6 +1363,9 @@ help:
 	@echo "... testImuFactor.o"
 	@echo "... testImuFactor.i"
 	@echo "... testImuFactor.s"
+	@echo "... testImuFactorSerialization.o"
+	@echo "... testImuFactorSerialization.i"
+	@echo "... testImuFactorSerialization.s"
 	@echo "... testMagPoseFactor.o"
 	@echo "... testMagPoseFactor.i"
 	@echo "... testMagPoseFactor.s"
@@ -1462,9 +1387,6 @@ help:
 	@echo "... testScenarioRunner.o"
 	@echo "... testScenarioRunner.i"
 	@echo "... testScenarioRunner.s"
-	@echo "... testSerializationNavigation.o"
-	@echo "... testSerializationNavigation.i"
-	@echo "... testSerializationNavigation.s"
 	@echo "... testTangentPreintegration.o"
 	@echo "... testTangentPreintegration.i"
 	@echo "... testTangentPreintegration.s"

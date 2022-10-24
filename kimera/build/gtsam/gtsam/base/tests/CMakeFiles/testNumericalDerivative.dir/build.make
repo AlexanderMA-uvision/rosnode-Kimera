@@ -80,7 +80,7 @@ testNumericalDerivative_EXTERNAL_OBJECTS =
 gtsam/base/tests/testNumericalDerivative: gtsam/base/tests/CMakeFiles/testNumericalDerivative.dir/testNumericalDerivative.cpp.o
 gtsam/base/tests/testNumericalDerivative: gtsam/base/tests/CMakeFiles/testNumericalDerivative.dir/build.make
 gtsam/base/tests/testNumericalDerivative: CppUnitLite/libCppUnitLite.a
-gtsam/base/tests/testNumericalDerivative: gtsam/libgtsam.so.4.2.0
+gtsam/base/tests/testNumericalDerivative: gtsam/libgtsam.so.4.1.0
 gtsam/base/tests/testNumericalDerivative: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 gtsam/base/tests/testNumericalDerivative: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 gtsam/base/tests/testNumericalDerivative: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

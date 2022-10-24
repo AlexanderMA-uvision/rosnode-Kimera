@@ -73,10 +73,6 @@ map
 -
 
 /home/catkin_ws/src/gtsam/gtsam/base/FastSet.h
-boost/version.hpp
--
-boost/serialization/library_version_type.hpp
--
 boost/serialization/nvp.hpp
 -
 boost/serialization/set.hpp
@@ -153,17 +149,19 @@ gtsam/base/OptionalJacobian.h
 -
 gtsam/base/Vector.h
 -
+gtsam/config.h
+-
+boost/format.hpp
+-
+functional
+-
 boost/tuple/tuple.hpp
 -
-vector
--
-
-/home/catkin_ws/src/gtsam/gtsam/base/MatrixSerialization.h
-gtsam/base/Matrix.h
--
-boost/serialization/array.hpp
+boost/math/special_functions/fpclassify.hpp
 -
 boost/serialization/nvp.hpp
+-
+boost/serialization/array.hpp
 -
 boost/serialization/split_free.hpp
 -
@@ -172,10 +170,6 @@ boost/serialization/split_free.hpp
 gtsam/config.h
 -
 Eigen/Dense
--
-stdexcept
--
-string
 -
 boost/optional.hpp
 -
@@ -235,8 +229,6 @@ gtsam/config.h
 -
 gtsam/base/Vector.h
 -
-boost/serialization/nvp.hpp
--
 boost/serialization/assume_abstract.hpp
 -
 memory
@@ -251,13 +243,9 @@ iosfwd
 -
 list
 -
-
-/home/catkin_ws/src/gtsam/gtsam/base/VectorSerialization.h
-gtsam/base/Vector.h
+boost/serialization/nvp.hpp
 -
 boost/serialization/array.hpp
--
-boost/serialization/nvp.hpp
 -
 boost/serialization/split_free.hpp
 -
@@ -268,8 +256,6 @@ gtsam/base/Lie.h
 
 /home/catkin_ws/src/gtsam/gtsam/base/VerticalBlockMatrix.h
 gtsam/base/Matrix.h
--
-gtsam/base/MatrixSerialization.h
 -
 gtsam/base/FastVector.h
 -
@@ -291,15 +277,11 @@ type_traits
 -
 
 /home/catkin_ws/src/gtsam/gtsam/base/serialization.h
-Eigen/Core
+sstream
 -
 fstream
 -
-sstream
--
 string
--
-boost/serialization/version.hpp
 -
 boost/serialization/optional.hpp
 -
@@ -391,8 +373,6 @@ gtsam/base/OptionalJacobian.h
 -
 boost/concept/assert.hpp
 -
-boost/serialization/nvp.hpp
--
 iostream
 -
 
@@ -452,8 +432,6 @@ gtsam/base/VectorSpace.h
 gtsam/base/Vector.h
 -
 gtsam/dllexport.h
--
-gtsam/base/VectorSerialization.h
 -
 boost/serialization/nvp.hpp
 -
@@ -551,8 +529,6 @@ gtsam/dllexport.h
 -
 Eigen/Core
 -
-boost/serialization/nvp.hpp
--
 iostream
 -
 string
@@ -573,15 +549,13 @@ gtsam/geometry/Point3.h
 -
 gtsam/base/Manifold.h
 -
-gtsam/base/Vector.h
--
-gtsam/base/VectorSerialization.h
--
 gtsam/base/Matrix.h
 -
 gtsam/dllexport.h
 -
 boost/optional.hpp
+-
+boost/serialization/nvp.hpp
 -
 random
 -
@@ -596,31 +570,7 @@ gtsam/config.h
 gtsam/base/types.h
 -
 
-/home/catkin_ws/src/gtsam/gtsam/inference/BayesNet-inst.h
-gtsam/inference/BayesNet.h
--
-gtsam/inference/FactorGraph-inst.h
--
-boost/range/adaptor/reversed.hpp
--
-fstream
--
-string
--
-
-/home/catkin_ws/src/gtsam/gtsam/inference/BayesNet.h
-gtsam/inference/FactorGraph.h
--
-boost/shared_ptr.hpp
--
-string
--
-gtsam/inference/BayesNet-inst.h
--
-
 /home/catkin_ws/src/gtsam/gtsam/inference/BayesTree.h
-boost/shared_ptr.hpp
--
 gtsam/inference/Key.h
 -
 gtsam/base/FastList.h
@@ -648,30 +598,10 @@ string
 mutex
 -
 
-/home/catkin_ws/src/gtsam/gtsam/inference/Conditional-inst.h
-iostream
--
-gtsam/inference/Conditional.h
--
-
 /home/catkin_ws/src/gtsam/gtsam/inference/Conditional.h
 boost/range.hpp
 -
 gtsam/inference/Key.h
--
-
-/home/catkin_ws/src/gtsam/gtsam/inference/DotWriter.h
-gtsam/base/FastVector.h
--
-gtsam/base/Vector.h
--
-gtsam/inference/Key.h
--
-iosfwd
--
-map
--
-set
 -
 
 /home/catkin_ws/src/gtsam/gtsam/inference/EliminateableFactorGraph.h
@@ -691,8 +621,6 @@ gtsam/inference/VariableIndex.h
 /home/catkin_ws/src/gtsam/gtsam/inference/Factor.h
 boost/serialization/nvp.hpp
 -
-boost/shared_ptr.hpp
--
 gtsam/base/types.h
 -
 gtsam/base/FastVector.h
@@ -709,21 +637,17 @@ algorithm
 -
 iostream
 -
-fstream
--
 sstream
 -
 string
 -
 
 /home/catkin_ws/src/gtsam/gtsam/inference/FactorGraph.h
-gtsam/inference/DotWriter.h
--
-gtsam/inference/Key.h
--
 gtsam/base/FastVector.h
 -
 gtsam/base/Testable.h
+-
+gtsam/inference/Key.h
 -
 Eigen/Core
 -
@@ -740,8 +664,6 @@ string
 type_traits
 -
 utility
--
-iosfwd
 -
 gtsam/inference/FactorGraph-inst.h
 -
@@ -867,13 +789,9 @@ string
 /home/catkin_ws/src/gtsam/gtsam/linear/GaussianBayesNet.h
 gtsam/linear/GaussianConditional.h
 -
-gtsam/inference/BayesNet.h
--
 gtsam/inference/FactorGraph.h
 -
 gtsam/global_includes.h
--
-utility
 -
 
 /home/catkin_ws/src/gtsam/gtsam/linear/GaussianBayesTree.h
@@ -897,11 +815,7 @@ gtsam/linear/JacobianFactor.h
 -
 gtsam/inference/Conditional.h
 -
-gtsam/inference/Conditional-inst.h
--
 gtsam/linear/VectorValues.h
--
-random
 -
 gtsam/linear/GaussianConditional-inl.h
 -
@@ -915,19 +829,17 @@ gtsam/base/Testable.h
 -
 
 /home/catkin_ws/src/gtsam/gtsam/linear/GaussianFactorGraph.h
-gtsam/inference/EliminateableFactorGraph.h
--
 gtsam/inference/FactorGraph.h
 -
-gtsam/linear/Errors.h
+gtsam/inference/EliminateableFactorGraph.h
 -
 gtsam/linear/GaussianFactor.h
 -
-gtsam/linear/HessianFactor.h
--
 gtsam/linear/JacobianFactor.h
 -
-gtsam/linear/VectorValues.h
+gtsam/linear/HessianFactor.h
+-
+gtsam/linear/Errors.h
 -
 
 /home/catkin_ws/src/gtsam/gtsam/linear/HessianFactor-inl.h
@@ -1090,10 +1002,6 @@ gtsam/base/ThreadsafeException.h
 gtsam/base/types.h
 -
 
-/home/catkin_ws/src/gtsam/gtsam/nonlinear/GraphvizFormatting.h
-gtsam/inference/DotWriter.h
--
-
 /home/catkin_ws/src/gtsam/gtsam/nonlinear/LevenbergMarquardtOptimizer.h
 gtsam/nonlinear/NonlinearOptimizer.h
 -
@@ -1139,8 +1047,6 @@ gtsam/geometry/Point2.h
 -
 gtsam/nonlinear/NonlinearFactor.h
 -
-gtsam/nonlinear/GraphvizFormatting.h
--
 gtsam/inference/FactorGraph.h
 -
 gtsam/nonlinear/PriorFactor.h
@@ -1183,8 +1089,6 @@ gtsam/nonlinear/Values.h
 -
 
 /home/catkin_ws/src/gtsam/gtsam/nonlinear/Values.h
-gtsam/base/FastDefaultAllocator.h
--
 gtsam/base/GenericValue.h
 -
 gtsam/base/VectorSpace.h
@@ -1220,36 +1124,6 @@ iostream
 vector
 -
 
-/home/catkin_ws/src/gtsam/gtsam/sfm/SfmData.h
-gtsam/geometry/Cal3Bundler.h
--
-gtsam/geometry/PinholeCamera.h
--
-gtsam/nonlinear/NonlinearFactorGraph.h
--
-gtsam/nonlinear/Values.h
--
-gtsam/sfm/SfmTrack.h
--
-string
--
-vector
--
-
-/home/catkin_ws/src/gtsam/gtsam/sfm/SfmTrack.h
-gtsam/base/serialization.h
--
-gtsam/geometry/Point2.h
--
-gtsam/geometry/Point3.h
--
-string
--
-utility
--
-vector
--
-
 /home/catkin_ws/src/gtsam/gtsam/slam/BetweenFactor.h
 ostream
 -
@@ -1264,8 +1138,6 @@ gtsam/nonlinear/NonlinearFactor.h
 gtsam/sfm/BinaryMeasurement.h
 -
 gtsam/slam/BetweenFactor.h
--
-gtsam/sfm/SfmData.h
 -
 gtsam/geometry/Cal3Bundler.h
 -

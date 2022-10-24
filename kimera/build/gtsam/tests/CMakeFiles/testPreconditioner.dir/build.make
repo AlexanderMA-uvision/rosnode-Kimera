@@ -80,7 +80,7 @@ testPreconditioner_EXTERNAL_OBJECTS =
 tests/testPreconditioner: tests/CMakeFiles/testPreconditioner.dir/testPreconditioner.cpp.o
 tests/testPreconditioner: tests/CMakeFiles/testPreconditioner.dir/build.make
 tests/testPreconditioner: CppUnitLite/libCppUnitLite.a
-tests/testPreconditioner: gtsam/libgtsam.so.4.2.0
+tests/testPreconditioner: gtsam/libgtsam.so.4.1.0
 tests/testPreconditioner: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 tests/testPreconditioner: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 tests/testPreconditioner: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

@@ -79,7 +79,7 @@ timeSFMBALsmart_EXTERNAL_OBJECTS =
 
 timing/timeSFMBALsmart: timing/CMakeFiles/timeSFMBALsmart.dir/timeSFMBALsmart.cpp.o
 timing/timeSFMBALsmart: timing/CMakeFiles/timeSFMBALsmart.dir/build.make
-timing/timeSFMBALsmart: gtsam/libgtsam.so.4.2.0
+timing/timeSFMBALsmart: gtsam/libgtsam.so.4.1.0
 timing/timeSFMBALsmart: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 timing/timeSFMBALsmart: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 timing/timeSFMBALsmart: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

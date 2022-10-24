@@ -80,7 +80,7 @@ testBinaryMeasurement_EXTERNAL_OBJECTS =
 gtsam/sfm/tests/testBinaryMeasurement: gtsam/sfm/tests/CMakeFiles/testBinaryMeasurement.dir/testBinaryMeasurement.cpp.o
 gtsam/sfm/tests/testBinaryMeasurement: gtsam/sfm/tests/CMakeFiles/testBinaryMeasurement.dir/build.make
 gtsam/sfm/tests/testBinaryMeasurement: CppUnitLite/libCppUnitLite.a
-gtsam/sfm/tests/testBinaryMeasurement: gtsam/libgtsam.so.4.2.0
+gtsam/sfm/tests/testBinaryMeasurement: gtsam/libgtsam.so.4.1.0
 gtsam/sfm/tests/testBinaryMeasurement: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 gtsam/sfm/tests/testBinaryMeasurement: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 gtsam/sfm/tests/testBinaryMeasurement: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

@@ -80,7 +80,7 @@ testFastContainers_EXTERNAL_OBJECTS =
 gtsam/base/tests/testFastContainers: gtsam/base/tests/CMakeFiles/testFastContainers.dir/testFastContainers.cpp.o
 gtsam/base/tests/testFastContainers: gtsam/base/tests/CMakeFiles/testFastContainers.dir/build.make
 gtsam/base/tests/testFastContainers: CppUnitLite/libCppUnitLite.a
-gtsam/base/tests/testFastContainers: gtsam/libgtsam.so.4.2.0
+gtsam/base/tests/testFastContainers: gtsam/libgtsam.so.4.1.0
 gtsam/base/tests/testFastContainers: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 gtsam/base/tests/testFastContainers: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 gtsam/base/tests/testFastContainers: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

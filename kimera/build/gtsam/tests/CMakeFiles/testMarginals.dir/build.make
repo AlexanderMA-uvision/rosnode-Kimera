@@ -80,7 +80,7 @@ testMarginals_EXTERNAL_OBJECTS =
 tests/testMarginals: tests/CMakeFiles/testMarginals.dir/testMarginals.cpp.o
 tests/testMarginals: tests/CMakeFiles/testMarginals.dir/build.make
 tests/testMarginals: CppUnitLite/libCppUnitLite.a
-tests/testMarginals: gtsam/libgtsam.so.4.2.0
+tests/testMarginals: gtsam/libgtsam.so.4.1.0
 tests/testMarginals: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 tests/testMarginals: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 tests/testMarginals: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

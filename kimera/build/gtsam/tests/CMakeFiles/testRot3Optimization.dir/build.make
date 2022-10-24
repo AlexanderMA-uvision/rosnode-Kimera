@@ -80,7 +80,7 @@ testRot3Optimization_EXTERNAL_OBJECTS =
 tests/testRot3Optimization: tests/CMakeFiles/testRot3Optimization.dir/testRot3Optimization.cpp.o
 tests/testRot3Optimization: tests/CMakeFiles/testRot3Optimization.dir/build.make
 tests/testRot3Optimization: CppUnitLite/libCppUnitLite.a
-tests/testRot3Optimization: gtsam/libgtsam.so.4.2.0
+tests/testRot3Optimization: gtsam/libgtsam.so.4.1.0
 tests/testRot3Optimization: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 tests/testRot3Optimization: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 tests/testRot3Optimization: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

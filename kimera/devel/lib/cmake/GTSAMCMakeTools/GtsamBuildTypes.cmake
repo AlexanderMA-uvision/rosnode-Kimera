@@ -93,10 +93,6 @@ if(MSVC)
 	/wd4267 # warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
   )
 
-  add_compile_options(/wd4005)
-  add_compile_options(/wd4101)
-  add_compile_options(/wd4834)
-
 endif()
 
 # Other (non-preprocessor macros) compiler flags:
@@ -142,12 +138,12 @@ endif()
 if (NOT CMAKE_VERSION VERSION_LESS 3.8)
     set(GTSAM_COMPILE_FEATURES_PUBLIC "cxx_std_11" CACHE STRING "CMake compile features property for all gtsam targets.")
     # See: https://cmake.org/cmake/help/latest/prop_tgt/CXX_EXTENSIONS.html
-    # This is to enable -std=c++14 instead of -std=g++11
+    # This is to enable -std=c++11 instead of -std=g++11
     set(CMAKE_CXX_EXTENSIONS OFF)
 else()
   # Old cmake versions:
   if (NOT MSVC)
-    list_append_cache(GTSAM_COMPILE_OPTIONS_PUBLIC $<$<COMPILE_LANGUAGE:CXX>:-std=c++14>)
+    list_append_cache(GTSAM_COMPILE_OPTIONS_PUBLIC $<$<COMPILE_LANGUAGE:CXX>:-std=c++11>)
   endif()
 endif()
 
@@ -190,8 +186,8 @@ if(${CMAKE_CXX_COMPILER_ID} STREQUAL "Clang")
 endif()
 
 if (NOT MSVC)
-  option(GTSAM_BUILD_WITH_MARCH_NATIVE  "Enable/Disable building with all instructions supported by native architecture (binary may not be portable!)" OFF)
-  if(GTSAM_BUILD_WITH_MARCH_NATIVE AND (APPLE AND NOT CMAKE_SYSTEM_PROCESSOR STREQUAL "arm64"))
+  option(GTSAM_BUILD_WITH_MARCH_NATIVE  "Enable/Disable building with all instructions supported by native architecture (binary may not be portable!)" ON)
+  if(GTSAM_BUILD_WITH_MARCH_NATIVE)
     # Add as public flag so all dependant projects also use it, as required
     # by Eigen to avid crashes due to SIMD vectorization:
     list_append_cache(GTSAM_COMPILE_OPTIONS_PUBLIC "-march=native")

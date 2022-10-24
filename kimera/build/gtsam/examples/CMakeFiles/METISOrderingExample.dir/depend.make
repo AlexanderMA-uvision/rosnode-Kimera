@@ -13,7 +13,6 @@ examples/CMakeFiles/METISOrderingExample.dir/METISOrderingExample.cpp.o: /home/c
 examples/CMakeFiles/METISOrderingExample.dir/METISOrderingExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Lie.h
 examples/CMakeFiles/METISOrderingExample.dir/METISOrderingExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Manifold.h
 examples/CMakeFiles/METISOrderingExample.dir/METISOrderingExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Matrix.h
-examples/CMakeFiles/METISOrderingExample.dir/METISOrderingExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/MatrixSerialization.h
 examples/CMakeFiles/METISOrderingExample.dir/METISOrderingExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/OptionalJacobian.h
 examples/CMakeFiles/METISOrderingExample.dir/METISOrderingExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/SymmetricBlockMatrix.h
 examples/CMakeFiles/METISOrderingExample.dir/METISOrderingExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Testable.h
@@ -29,13 +28,9 @@ examples/CMakeFiles/METISOrderingExample.dir/METISOrderingExample.cpp.o: /home/c
 examples/CMakeFiles/METISOrderingExample.dir/METISOrderingExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/geometry/Pose2.h
 examples/CMakeFiles/METISOrderingExample.dir/METISOrderingExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/geometry/Rot2.h
 examples/CMakeFiles/METISOrderingExample.dir/METISOrderingExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/global_includes.h
-examples/CMakeFiles/METISOrderingExample.dir/METISOrderingExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/BayesNet-inst.h
-examples/CMakeFiles/METISOrderingExample.dir/METISOrderingExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/BayesNet.h
 examples/CMakeFiles/METISOrderingExample.dir/METISOrderingExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/BayesTree.h
 examples/CMakeFiles/METISOrderingExample.dir/METISOrderingExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/BayesTreeCliqueBase.h
-examples/CMakeFiles/METISOrderingExample.dir/METISOrderingExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/Conditional-inst.h
 examples/CMakeFiles/METISOrderingExample.dir/METISOrderingExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/Conditional.h
-examples/CMakeFiles/METISOrderingExample.dir/METISOrderingExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/DotWriter.h
 examples/CMakeFiles/METISOrderingExample.dir/METISOrderingExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/EliminateableFactorGraph.h
 examples/CMakeFiles/METISOrderingExample.dir/METISOrderingExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/Factor.h
 examples/CMakeFiles/METISOrderingExample.dir/METISOrderingExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/FactorGraph-inst.h
@@ -67,7 +62,6 @@ examples/CMakeFiles/METISOrderingExample.dir/METISOrderingExample.cpp.o: /home/c
 examples/CMakeFiles/METISOrderingExample.dir/METISOrderingExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/linear/SubgraphSolver.h
 examples/CMakeFiles/METISOrderingExample.dir/METISOrderingExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/linear/VectorValues.h
 examples/CMakeFiles/METISOrderingExample.dir/METISOrderingExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/linear/linearExceptions.h
-examples/CMakeFiles/METISOrderingExample.dir/METISOrderingExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/GraphvizFormatting.h
 examples/CMakeFiles/METISOrderingExample.dir/METISOrderingExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/LevenbergMarquardtOptimizer.h
 examples/CMakeFiles/METISOrderingExample.dir/METISOrderingExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/LevenbergMarquardtParams.h
 examples/CMakeFiles/METISOrderingExample.dir/METISOrderingExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/Marginals.h

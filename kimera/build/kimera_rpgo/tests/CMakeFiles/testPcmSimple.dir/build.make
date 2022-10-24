@@ -81,8 +81,8 @@ tests/testPcmSimple: tests/CMakeFiles/testPcmSimple.dir/testPcmSimple.cpp.o
 tests/testPcmSimple: tests/CMakeFiles/testPcmSimple.dir/build.make
 tests/testPcmSimple: /home/catkin_ws/devel/lib/libCppUnitLite.a
 tests/testPcmSimple: libKimeraRPGO.so
-tests/testPcmSimple: /home/catkin_ws/devel/lib/libgtsam_unstable.so.4.2.0
-tests/testPcmSimple: /home/catkin_ws/devel/lib/libgtsam.so.4.2.0
+tests/testPcmSimple: /home/catkin_ws/devel/lib/libgtsam_unstable.so.4.1.0
+tests/testPcmSimple: /home/catkin_ws/devel/lib/libgtsam.so.4.1.0
 tests/testPcmSimple: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 tests/testPcmSimple: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 tests/testPcmSimple: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

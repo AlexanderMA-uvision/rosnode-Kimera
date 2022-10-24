@@ -79,7 +79,7 @@ RangeISAMExample_plaza2_EXTERNAL_OBJECTS =
 
 examples/RangeISAMExample_plaza2: examples/CMakeFiles/RangeISAMExample_plaza2.dir/RangeISAMExample_plaza2.cpp.o
 examples/RangeISAMExample_plaza2: examples/CMakeFiles/RangeISAMExample_plaza2.dir/build.make
-examples/RangeISAMExample_plaza2: gtsam/libgtsam.so.4.2.0
+examples/RangeISAMExample_plaza2: gtsam/libgtsam.so.4.1.0
 examples/RangeISAMExample_plaza2: /usr/lib/aarch64-linux-gnu/libboost_program_options.so.1.71.0
 examples/RangeISAMExample_plaza2: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 examples/RangeISAMExample_plaza2: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0

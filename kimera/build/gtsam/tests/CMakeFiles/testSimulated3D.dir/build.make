@@ -80,7 +80,7 @@ testSimulated3D_EXTERNAL_OBJECTS =
 tests/testSimulated3D: tests/CMakeFiles/testSimulated3D.dir/testSimulated3D.cpp.o
 tests/testSimulated3D: tests/CMakeFiles/testSimulated3D.dir/build.make
 tests/testSimulated3D: CppUnitLite/libCppUnitLite.a
-tests/testSimulated3D: gtsam/libgtsam.so.4.2.0
+tests/testSimulated3D: gtsam/libgtsam.so.4.1.0
 tests/testSimulated3D: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 tests/testSimulated3D: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 tests/testSimulated3D: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

@@ -80,7 +80,7 @@ testChebyshev2_EXTERNAL_OBJECTS =
 gtsam/basis/tests/testChebyshev2: gtsam/basis/tests/CMakeFiles/testChebyshev2.dir/testChebyshev2.cpp.o
 gtsam/basis/tests/testChebyshev2: gtsam/basis/tests/CMakeFiles/testChebyshev2.dir/build.make
 gtsam/basis/tests/testChebyshev2: CppUnitLite/libCppUnitLite.a
-gtsam/basis/tests/testChebyshev2: gtsam/libgtsam.so.4.2.0
+gtsam/basis/tests/testChebyshev2: gtsam/libgtsam.so.4.1.0
 gtsam/basis/tests/testChebyshev2: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 gtsam/basis/tests/testChebyshev2: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 gtsam/basis/tests/testChebyshev2: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

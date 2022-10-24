@@ -80,7 +80,7 @@ testSerializationBase_EXTERNAL_OBJECTS =
 gtsam/base/tests/testSerializationBase: gtsam/base/tests/CMakeFiles/testSerializationBase.dir/testSerializationBase.cpp.o
 gtsam/base/tests/testSerializationBase: gtsam/base/tests/CMakeFiles/testSerializationBase.dir/build.make
 gtsam/base/tests/testSerializationBase: CppUnitLite/libCppUnitLite.a
-gtsam/base/tests/testSerializationBase: gtsam/libgtsam.so.4.2.0
+gtsam/base/tests/testSerializationBase: gtsam/libgtsam.so.4.1.0
 gtsam/base/tests/testSerializationBase: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 gtsam/base/tests/testSerializationBase: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 gtsam/base/tests/testSerializationBase: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

@@ -80,8 +80,8 @@ testSmartStereoProjectionPoseFactor_EXTERNAL_OBJECTS =
 gtsam_unstable/slam/tests/testSmartStereoProjectionPoseFactor: gtsam_unstable/slam/tests/CMakeFiles/testSmartStereoProjectionPoseFactor.dir/testSmartStereoProjectionPoseFactor.cpp.o
 gtsam_unstable/slam/tests/testSmartStereoProjectionPoseFactor: gtsam_unstable/slam/tests/CMakeFiles/testSmartStereoProjectionPoseFactor.dir/build.make
 gtsam_unstable/slam/tests/testSmartStereoProjectionPoseFactor: CppUnitLite/libCppUnitLite.a
-gtsam_unstable/slam/tests/testSmartStereoProjectionPoseFactor: gtsam_unstable/libgtsam_unstable.so.4.2.0
-gtsam_unstable/slam/tests/testSmartStereoProjectionPoseFactor: gtsam/libgtsam.so.4.2.0
+gtsam_unstable/slam/tests/testSmartStereoProjectionPoseFactor: gtsam_unstable/libgtsam_unstable.so.4.1.0
+gtsam_unstable/slam/tests/testSmartStereoProjectionPoseFactor: gtsam/libgtsam.so.4.1.0
 gtsam_unstable/slam/tests/testSmartStereoProjectionPoseFactor: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 gtsam_unstable/slam/tests/testSmartStereoProjectionPoseFactor: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 gtsam_unstable/slam/tests/testSmartStereoProjectionPoseFactor: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

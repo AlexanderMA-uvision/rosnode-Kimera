@@ -79,7 +79,7 @@ Pose3SLAMExample_changeKeys_EXTERNAL_OBJECTS =
 
 examples/Pose3SLAMExample_changeKeys: examples/CMakeFiles/Pose3SLAMExample_changeKeys.dir/Pose3SLAMExample_changeKeys.cpp.o
 examples/Pose3SLAMExample_changeKeys: examples/CMakeFiles/Pose3SLAMExample_changeKeys.dir/build.make
-examples/Pose3SLAMExample_changeKeys: gtsam/libgtsam.so.4.2.0
+examples/Pose3SLAMExample_changeKeys: gtsam/libgtsam.so.4.1.0
 examples/Pose3SLAMExample_changeKeys: /usr/lib/aarch64-linux-gnu/libboost_program_options.so.1.71.0
 examples/Pose3SLAMExample_changeKeys: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 examples/Pose3SLAMExample_changeKeys: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0

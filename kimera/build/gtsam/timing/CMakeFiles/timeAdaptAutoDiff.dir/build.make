@@ -79,7 +79,7 @@ timeAdaptAutoDiff_EXTERNAL_OBJECTS =
 
 timing/timeAdaptAutoDiff: timing/CMakeFiles/timeAdaptAutoDiff.dir/timeAdaptAutoDiff.cpp.o
 timing/timeAdaptAutoDiff: timing/CMakeFiles/timeAdaptAutoDiff.dir/build.make
-timing/timeAdaptAutoDiff: gtsam/libgtsam.so.4.2.0
+timing/timeAdaptAutoDiff: gtsam/libgtsam.so.4.1.0
 timing/timeAdaptAutoDiff: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 timing/timeAdaptAutoDiff: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 timing/timeAdaptAutoDiff: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

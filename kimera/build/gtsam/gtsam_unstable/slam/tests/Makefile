@@ -490,51 +490,6 @@ testProjectionFactorRollingShutter.run/fast:
 .PHONY : testProjectionFactorRollingShutter.run/fast
 
 # Convenience name for target.
-gtsam_unstable/slam/tests/CMakeFiles/testProjectionFactorRollingShutter.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam_unstable/slam/tests/CMakeFiles/testProjectionFactorRollingShutter.dir/rule
-.PHONY : gtsam_unstable/slam/tests/CMakeFiles/testProjectionFactorRollingShutter.dir/rule
-
-# Convenience name for target.
-testProjectionFactorRollingShutter: gtsam_unstable/slam/tests/CMakeFiles/testProjectionFactorRollingShutter.dir/rule
-
-.PHONY : testProjectionFactorRollingShutter
-
-# fast build rule for target.
-testProjectionFactorRollingShutter/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam_unstable/slam/tests/CMakeFiles/testProjectionFactorRollingShutter.dir/build.make gtsam_unstable/slam/tests/CMakeFiles/testProjectionFactorRollingShutter.dir/build
-.PHONY : testProjectionFactorRollingShutter/fast
-
-# Convenience name for target.
-gtsam_unstable/slam/tests/CMakeFiles/testProjectionFactorPPPC.valgrind.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam_unstable/slam/tests/CMakeFiles/testProjectionFactorPPPC.valgrind.dir/rule
-.PHONY : gtsam_unstable/slam/tests/CMakeFiles/testProjectionFactorPPPC.valgrind.dir/rule
-
-# Convenience name for target.
-testProjectionFactorPPPC.valgrind: gtsam_unstable/slam/tests/CMakeFiles/testProjectionFactorPPPC.valgrind.dir/rule
-
-.PHONY : testProjectionFactorPPPC.valgrind
-
-# fast build rule for target.
-testProjectionFactorPPPC.valgrind/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam_unstable/slam/tests/CMakeFiles/testProjectionFactorPPPC.valgrind.dir/build.make gtsam_unstable/slam/tests/CMakeFiles/testProjectionFactorPPPC.valgrind.dir/build
-.PHONY : testProjectionFactorPPPC.valgrind/fast
-
-# Convenience name for target.
-gtsam_unstable/slam/tests/CMakeFiles/testProjectionFactorPPPC.run.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam_unstable/slam/tests/CMakeFiles/testProjectionFactorPPPC.run.dir/rule
-.PHONY : gtsam_unstable/slam/tests/CMakeFiles/testProjectionFactorPPPC.run.dir/rule
-
-# Convenience name for target.
-testProjectionFactorPPPC.run: gtsam_unstable/slam/tests/CMakeFiles/testProjectionFactorPPPC.run.dir/rule
-
-.PHONY : testProjectionFactorPPPC.run
-
-# fast build rule for target.
-testProjectionFactorPPPC.run/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam_unstable/slam/tests/CMakeFiles/testProjectionFactorPPPC.run.dir/build.make gtsam_unstable/slam/tests/CMakeFiles/testProjectionFactorPPPC.run.dir/build
-.PHONY : testProjectionFactorPPPC.run/fast
-
-# Convenience name for target.
 gtsam_unstable/slam/tests/CMakeFiles/testInvDepthFactor3.run.dir/rule:
 	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam_unstable/slam/tests/CMakeFiles/testInvDepthFactor3.run.dir/rule
 .PHONY : gtsam_unstable/slam/tests/CMakeFiles/testInvDepthFactor3.run.dir/rule
@@ -578,6 +533,36 @@ testInvDepthFactorVariant2: gtsam_unstable/slam/tests/CMakeFiles/testInvDepthFac
 testInvDepthFactorVariant2/fast:
 	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam_unstable/slam/tests/CMakeFiles/testInvDepthFactorVariant2.dir/build.make gtsam_unstable/slam/tests/CMakeFiles/testInvDepthFactorVariant2.dir/build
 .PHONY : testInvDepthFactorVariant2/fast
+
+# Convenience name for target.
+gtsam_unstable/slam/tests/CMakeFiles/testSmartStereoProjectionPoseFactor.valgrind.dir/rule:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam_unstable/slam/tests/CMakeFiles/testSmartStereoProjectionPoseFactor.valgrind.dir/rule
+.PHONY : gtsam_unstable/slam/tests/CMakeFiles/testSmartStereoProjectionPoseFactor.valgrind.dir/rule
+
+# Convenience name for target.
+testSmartStereoProjectionPoseFactor.valgrind: gtsam_unstable/slam/tests/CMakeFiles/testSmartStereoProjectionPoseFactor.valgrind.dir/rule
+
+.PHONY : testSmartStereoProjectionPoseFactor.valgrind
+
+# fast build rule for target.
+testSmartStereoProjectionPoseFactor.valgrind/fast:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam_unstable/slam/tests/CMakeFiles/testSmartStereoProjectionPoseFactor.valgrind.dir/build.make gtsam_unstable/slam/tests/CMakeFiles/testSmartStereoProjectionPoseFactor.valgrind.dir/build
+.PHONY : testSmartStereoProjectionPoseFactor.valgrind/fast
+
+# Convenience name for target.
+gtsam_unstable/slam/tests/CMakeFiles/testAHRS.valgrind.dir/rule:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam_unstable/slam/tests/CMakeFiles/testAHRS.valgrind.dir/rule
+.PHONY : gtsam_unstable/slam/tests/CMakeFiles/testAHRS.valgrind.dir/rule
+
+# Convenience name for target.
+testAHRS.valgrind: gtsam_unstable/slam/tests/CMakeFiles/testAHRS.valgrind.dir/rule
+
+.PHONY : testAHRS.valgrind
+
+# fast build rule for target.
+testAHRS.valgrind/fast:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam_unstable/slam/tests/CMakeFiles/testAHRS.valgrind.dir/build.make gtsam_unstable/slam/tests/CMakeFiles/testAHRS.valgrind.dir/build
+.PHONY : testAHRS.valgrind/fast
 
 # Convenience name for target.
 gtsam_unstable/slam/tests/CMakeFiles/testSmartStereoFactor_iSAM2.valgrind.dir/rule:
@@ -640,6 +625,21 @@ testInertialNavFactor_GlobalVelocity.valgrind/fast:
 .PHONY : testInertialNavFactor_GlobalVelocity.valgrind/fast
 
 # Convenience name for target.
+gtsam_unstable/slam/tests/CMakeFiles/testProjectionFactorPPPC.run.dir/rule:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam_unstable/slam/tests/CMakeFiles/testProjectionFactorPPPC.run.dir/rule
+.PHONY : gtsam_unstable/slam/tests/CMakeFiles/testProjectionFactorPPPC.run.dir/rule
+
+# Convenience name for target.
+testProjectionFactorPPPC.run: gtsam_unstable/slam/tests/CMakeFiles/testProjectionFactorPPPC.run.dir/rule
+
+.PHONY : testProjectionFactorPPPC.run
+
+# fast build rule for target.
+testProjectionFactorPPPC.run/fast:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam_unstable/slam/tests/CMakeFiles/testProjectionFactorPPPC.run.dir/build.make gtsam_unstable/slam/tests/CMakeFiles/testProjectionFactorPPPC.run.dir/build
+.PHONY : testProjectionFactorPPPC.run/fast
+
+# Convenience name for target.
 gtsam_unstable/slam/tests/CMakeFiles/testInvDepthFactor3.dir/rule:
 	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam_unstable/slam/tests/CMakeFiles/testInvDepthFactor3.dir/rule
 .PHONY : gtsam_unstable/slam/tests/CMakeFiles/testInvDepthFactor3.dir/rule
@@ -668,6 +668,21 @@ testBiasedGPSFactor: gtsam_unstable/slam/tests/CMakeFiles/testBiasedGPSFactor.di
 testBiasedGPSFactor/fast:
 	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam_unstable/slam/tests/CMakeFiles/testBiasedGPSFactor.dir/build.make gtsam_unstable/slam/tests/CMakeFiles/testBiasedGPSFactor.dir/build
 .PHONY : testBiasedGPSFactor/fast
+
+# Convenience name for target.
+gtsam_unstable/slam/tests/CMakeFiles/testProjectionFactorPPPC.valgrind.dir/rule:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam_unstable/slam/tests/CMakeFiles/testProjectionFactorPPPC.valgrind.dir/rule
+.PHONY : gtsam_unstable/slam/tests/CMakeFiles/testProjectionFactorPPPC.valgrind.dir/rule
+
+# Convenience name for target.
+testProjectionFactorPPPC.valgrind: gtsam_unstable/slam/tests/CMakeFiles/testProjectionFactorPPPC.valgrind.dir/rule
+
+.PHONY : testProjectionFactorPPPC.valgrind
+
+# fast build rule for target.
+testProjectionFactorPPPC.valgrind/fast:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam_unstable/slam/tests/CMakeFiles/testProjectionFactorPPPC.valgrind.dir/build.make gtsam_unstable/slam/tests/CMakeFiles/testProjectionFactorPPPC.valgrind.dir/build
+.PHONY : testProjectionFactorPPPC.valgrind/fast
 
 # Convenience name for target.
 gtsam_unstable/slam/tests/CMakeFiles/testBiasedGPSFactor.run.dir/rule:
@@ -818,6 +833,21 @@ testAHRS.run: gtsam_unstable/slam/tests/CMakeFiles/testAHRS.run.dir/rule
 testAHRS.run/fast:
 	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam_unstable/slam/tests/CMakeFiles/testAHRS.run.dir/build.make gtsam_unstable/slam/tests/CMakeFiles/testAHRS.run.dir/build
 .PHONY : testAHRS.run/fast
+
+# Convenience name for target.
+gtsam_unstable/slam/tests/CMakeFiles/testProjectionFactorRollingShutter.dir/rule:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam_unstable/slam/tests/CMakeFiles/testProjectionFactorRollingShutter.dir/rule
+.PHONY : gtsam_unstable/slam/tests/CMakeFiles/testProjectionFactorRollingShutter.dir/rule
+
+# Convenience name for target.
+testProjectionFactorRollingShutter: gtsam_unstable/slam/tests/CMakeFiles/testProjectionFactorRollingShutter.dir/rule
+
+.PHONY : testProjectionFactorRollingShutter
+
+# fast build rule for target.
+testProjectionFactorRollingShutter/fast:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam_unstable/slam/tests/CMakeFiles/testProjectionFactorRollingShutter.dir/build.make gtsam_unstable/slam/tests/CMakeFiles/testProjectionFactorRollingShutter.dir/build
+.PHONY : testProjectionFactorRollingShutter/fast
 
 # Convenience name for target.
 gtsam_unstable/slam/tests/CMakeFiles/testDummyFactor.valgrind.dir/rule:
@@ -1105,51 +1135,6 @@ testInvDepthFactorVariant2.run/fast:
 .PHONY : testInvDepthFactorVariant2.run/fast
 
 # Convenience name for target.
-gtsam_unstable/slam/tests/CMakeFiles/testSmartStereoProjectionPoseFactor.valgrind.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam_unstable/slam/tests/CMakeFiles/testSmartStereoProjectionPoseFactor.valgrind.dir/rule
-.PHONY : gtsam_unstable/slam/tests/CMakeFiles/testSmartStereoProjectionPoseFactor.valgrind.dir/rule
-
-# Convenience name for target.
-testSmartStereoProjectionPoseFactor.valgrind: gtsam_unstable/slam/tests/CMakeFiles/testSmartStereoProjectionPoseFactor.valgrind.dir/rule
-
-.PHONY : testSmartStereoProjectionPoseFactor.valgrind
-
-# fast build rule for target.
-testSmartStereoProjectionPoseFactor.valgrind/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam_unstable/slam/tests/CMakeFiles/testSmartStereoProjectionPoseFactor.valgrind.dir/build.make gtsam_unstable/slam/tests/CMakeFiles/testSmartStereoProjectionPoseFactor.valgrind.dir/build
-.PHONY : testSmartStereoProjectionPoseFactor.valgrind/fast
-
-# Convenience name for target.
-gtsam_unstable/slam/tests/CMakeFiles/testAHRS.valgrind.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam_unstable/slam/tests/CMakeFiles/testAHRS.valgrind.dir/rule
-.PHONY : gtsam_unstable/slam/tests/CMakeFiles/testAHRS.valgrind.dir/rule
-
-# Convenience name for target.
-testAHRS.valgrind: gtsam_unstable/slam/tests/CMakeFiles/testAHRS.valgrind.dir/rule
-
-.PHONY : testAHRS.valgrind
-
-# fast build rule for target.
-testAHRS.valgrind/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam_unstable/slam/tests/CMakeFiles/testAHRS.valgrind.dir/build.make gtsam_unstable/slam/tests/CMakeFiles/testAHRS.valgrind.dir/build
-.PHONY : testAHRS.valgrind/fast
-
-# Convenience name for target.
-gtsam_unstable/slam/tests/CMakeFiles/testPoseToPointFactor.run.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam_unstable/slam/tests/CMakeFiles/testPoseToPointFactor.run.dir/rule
-.PHONY : gtsam_unstable/slam/tests/CMakeFiles/testPoseToPointFactor.run.dir/rule
-
-# Convenience name for target.
-testPoseToPointFactor.run: gtsam_unstable/slam/tests/CMakeFiles/testPoseToPointFactor.run.dir/rule
-
-.PHONY : testPoseToPointFactor.run
-
-# fast build rule for target.
-testPoseToPointFactor.run/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam_unstable/slam/tests/CMakeFiles/testPoseToPointFactor.run.dir/build.make gtsam_unstable/slam/tests/CMakeFiles/testPoseToPointFactor.run.dir/build
-.PHONY : testPoseToPointFactor.run/fast
-
-# Convenience name for target.
 gtsam_unstable/slam/tests/CMakeFiles/testInvDepthFactorVariant2.valgrind.dir/rule:
 	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam_unstable/slam/tests/CMakeFiles/testInvDepthFactorVariant2.valgrind.dir/rule
 .PHONY : gtsam_unstable/slam/tests/CMakeFiles/testInvDepthFactorVariant2.valgrind.dir/rule
@@ -1405,6 +1390,36 @@ testPartialPriorFactor.run/fast:
 .PHONY : testPartialPriorFactor.run/fast
 
 # Convenience name for target.
+gtsam_unstable/slam/tests/CMakeFiles/testInertialNavFactor_GlobalVelocity.run.dir/rule:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam_unstable/slam/tests/CMakeFiles/testInertialNavFactor_GlobalVelocity.run.dir/rule
+.PHONY : gtsam_unstable/slam/tests/CMakeFiles/testInertialNavFactor_GlobalVelocity.run.dir/rule
+
+# Convenience name for target.
+testInertialNavFactor_GlobalVelocity.run: gtsam_unstable/slam/tests/CMakeFiles/testInertialNavFactor_GlobalVelocity.run.dir/rule
+
+.PHONY : testInertialNavFactor_GlobalVelocity.run
+
+# fast build rule for target.
+testInertialNavFactor_GlobalVelocity.run/fast:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam_unstable/slam/tests/CMakeFiles/testInertialNavFactor_GlobalVelocity.run.dir/build.make gtsam_unstable/slam/tests/CMakeFiles/testInertialNavFactor_GlobalVelocity.run.dir/build
+.PHONY : testInertialNavFactor_GlobalVelocity.run/fast
+
+# Convenience name for target.
+gtsam_unstable/slam/tests/CMakeFiles/testPoseBetweenFactor.dir/rule:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam_unstable/slam/tests/CMakeFiles/testPoseBetweenFactor.dir/rule
+.PHONY : gtsam_unstable/slam/tests/CMakeFiles/testPoseBetweenFactor.dir/rule
+
+# Convenience name for target.
+testPoseBetweenFactor: gtsam_unstable/slam/tests/CMakeFiles/testPoseBetweenFactor.dir/rule
+
+.PHONY : testPoseBetweenFactor
+
+# fast build rule for target.
+testPoseBetweenFactor/fast:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam_unstable/slam/tests/CMakeFiles/testPoseBetweenFactor.dir/build.make gtsam_unstable/slam/tests/CMakeFiles/testPoseBetweenFactor.dir/build
+.PHONY : testPoseBetweenFactor/fast
+
+# Convenience name for target.
 gtsam_unstable/slam/tests/CMakeFiles/testPoseBetweenFactor.run.dir/rule:
 	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam_unstable/slam/tests/CMakeFiles/testPoseBetweenFactor.run.dir/rule
 .PHONY : gtsam_unstable/slam/tests/CMakeFiles/testPoseBetweenFactor.run.dir/rule
@@ -1538,66 +1553,6 @@ testPosePriorFactor.run: gtsam_unstable/slam/tests/CMakeFiles/testPosePriorFacto
 testPosePriorFactor.run/fast:
 	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam_unstable/slam/tests/CMakeFiles/testPosePriorFactor.run.dir/build.make gtsam_unstable/slam/tests/CMakeFiles/testPosePriorFactor.run.dir/build
 .PHONY : testPosePriorFactor.run/fast
-
-# Convenience name for target.
-gtsam_unstable/slam/tests/CMakeFiles/testInertialNavFactor_GlobalVelocity.run.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam_unstable/slam/tests/CMakeFiles/testInertialNavFactor_GlobalVelocity.run.dir/rule
-.PHONY : gtsam_unstable/slam/tests/CMakeFiles/testInertialNavFactor_GlobalVelocity.run.dir/rule
-
-# Convenience name for target.
-testInertialNavFactor_GlobalVelocity.run: gtsam_unstable/slam/tests/CMakeFiles/testInertialNavFactor_GlobalVelocity.run.dir/rule
-
-.PHONY : testInertialNavFactor_GlobalVelocity.run
-
-# fast build rule for target.
-testInertialNavFactor_GlobalVelocity.run/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam_unstable/slam/tests/CMakeFiles/testInertialNavFactor_GlobalVelocity.run.dir/build.make gtsam_unstable/slam/tests/CMakeFiles/testInertialNavFactor_GlobalVelocity.run.dir/build
-.PHONY : testInertialNavFactor_GlobalVelocity.run/fast
-
-# Convenience name for target.
-gtsam_unstable/slam/tests/CMakeFiles/testPoseBetweenFactor.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam_unstable/slam/tests/CMakeFiles/testPoseBetweenFactor.dir/rule
-.PHONY : gtsam_unstable/slam/tests/CMakeFiles/testPoseBetweenFactor.dir/rule
-
-# Convenience name for target.
-testPoseBetweenFactor: gtsam_unstable/slam/tests/CMakeFiles/testPoseBetweenFactor.dir/rule
-
-.PHONY : testPoseBetweenFactor
-
-# fast build rule for target.
-testPoseBetweenFactor/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam_unstable/slam/tests/CMakeFiles/testPoseBetweenFactor.dir/build.make gtsam_unstable/slam/tests/CMakeFiles/testPoseBetweenFactor.dir/build
-.PHONY : testPoseBetweenFactor/fast
-
-# Convenience name for target.
-gtsam_unstable/slam/tests/CMakeFiles/testPoseToPointFactor.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam_unstable/slam/tests/CMakeFiles/testPoseToPointFactor.dir/rule
-.PHONY : gtsam_unstable/slam/tests/CMakeFiles/testPoseToPointFactor.dir/rule
-
-# Convenience name for target.
-testPoseToPointFactor: gtsam_unstable/slam/tests/CMakeFiles/testPoseToPointFactor.dir/rule
-
-.PHONY : testPoseToPointFactor
-
-# fast build rule for target.
-testPoseToPointFactor/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam_unstable/slam/tests/CMakeFiles/testPoseToPointFactor.dir/build.make gtsam_unstable/slam/tests/CMakeFiles/testPoseToPointFactor.dir/build
-.PHONY : testPoseToPointFactor/fast
-
-# Convenience name for target.
-gtsam_unstable/slam/tests/CMakeFiles/testPoseToPointFactor.valgrind.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam_unstable/slam/tests/CMakeFiles/testPoseToPointFactor.valgrind.dir/rule
-.PHONY : gtsam_unstable/slam/tests/CMakeFiles/testPoseToPointFactor.valgrind.dir/rule
-
-# Convenience name for target.
-testPoseToPointFactor.valgrind: gtsam_unstable/slam/tests/CMakeFiles/testPoseToPointFactor.valgrind.dir/rule
-
-.PHONY : testPoseToPointFactor.valgrind
-
-# fast build rule for target.
-testPoseToPointFactor.valgrind/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam_unstable/slam/tests/CMakeFiles/testPoseToPointFactor.valgrind.dir/build.make gtsam_unstable/slam/tests/CMakeFiles/testPoseToPointFactor.valgrind.dir/build
-.PHONY : testPoseToPointFactor.valgrind/fast
 
 testAHRS.o: testAHRS.cpp.o
 
@@ -2058,33 +2013,6 @@ testPosePriorFactor.cpp.s:
 	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam_unstable/slam/tests/CMakeFiles/testPosePriorFactor.dir/build.make gtsam_unstable/slam/tests/CMakeFiles/testPosePriorFactor.dir/testPosePriorFactor.cpp.s
 .PHONY : testPosePriorFactor.cpp.s
 
-testPoseToPointFactor.o: testPoseToPointFactor.cpp.o
-
-.PHONY : testPoseToPointFactor.o
-
-# target to build an object file
-testPoseToPointFactor.cpp.o:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam_unstable/slam/tests/CMakeFiles/testPoseToPointFactor.dir/build.make gtsam_unstable/slam/tests/CMakeFiles/testPoseToPointFactor.dir/testPoseToPointFactor.cpp.o
-.PHONY : testPoseToPointFactor.cpp.o
-
-testPoseToPointFactor.i: testPoseToPointFactor.cpp.i
-
-.PHONY : testPoseToPointFactor.i
-
-# target to preprocess a source file
-testPoseToPointFactor.cpp.i:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam_unstable/slam/tests/CMakeFiles/testPoseToPointFactor.dir/build.make gtsam_unstable/slam/tests/CMakeFiles/testPoseToPointFactor.dir/testPoseToPointFactor.cpp.i
-.PHONY : testPoseToPointFactor.cpp.i
-
-testPoseToPointFactor.s: testPoseToPointFactor.cpp.s
-
-.PHONY : testPoseToPointFactor.s
-
-# target to generate assembly for a file
-testPoseToPointFactor.cpp.s:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam_unstable/slam/tests/CMakeFiles/testPoseToPointFactor.dir/build.make gtsam_unstable/slam/tests/CMakeFiles/testPoseToPointFactor.dir/testPoseToPointFactor.cpp.s
-.PHONY : testPoseToPointFactor.cpp.s
-
 testProjectionFactorPPP.o: testProjectionFactorPPP.cpp.o
 
 .PHONY : testProjectionFactorPPP.o
@@ -2468,19 +2396,20 @@ help:
 	@echo "... package"
 	@echo "... testProjectionFactorRollingShutter.valgrind"
 	@echo "... testProjectionFactorRollingShutter.run"
-	@echo "... testProjectionFactorRollingShutter"
-	@echo "... testProjectionFactorPPPC.valgrind"
-	@echo "... testProjectionFactorPPPC.run"
 	@echo "... testInvDepthFactor3.run"
 	@echo "... testInvDepthFactorVariant1.run"
 	@echo "... testInvDepthFactorVariant2"
+	@echo "... testSmartStereoProjectionPoseFactor.valgrind"
+	@echo "... testAHRS.valgrind"
 	@echo "... testSmartStereoFactor_iSAM2.valgrind"
 	@echo "... testInvDepthFactorVariant1"
 	@echo "... testLocalOrientedPlane3Factor.valgrind"
 	@echo "... edit_cache"
 	@echo "... testInertialNavFactor_GlobalVelocity.valgrind"
+	@echo "... testProjectionFactorPPPC.run"
 	@echo "... testInvDepthFactor3"
 	@echo "... testBiasedGPSFactor"
+	@echo "... testProjectionFactorPPPC.valgrind"
 	@echo "... testBiasedGPSFactor.run"
 	@echo "... testInertialNavFactor_GlobalVelocity"
 	@echo "... testGaussMarkov1stOrderFactor.run"
@@ -2491,6 +2420,7 @@ help:
 	@echo "... testAHRS"
 	@echo "... testInvDepthFactor3.valgrind"
 	@echo "... testAHRS.run"
+	@echo "... testProjectionFactorRollingShutter"
 	@echo "... testDummyFactor.valgrind"
 	@echo "... testInvDepthFactorVariant3.run"
 	@echo "... testMultiProjectionFactor"
@@ -2511,9 +2441,6 @@ help:
 	@echo "... testDummyFactor"
 	@echo "... testSmartStereoProjectionPoseFactor.run"
 	@echo "... testInvDepthFactorVariant2.run"
-	@echo "... testSmartStereoProjectionPoseFactor.valgrind"
-	@echo "... testAHRS.valgrind"
-	@echo "... testPoseToPointFactor.run"
 	@echo "... testInvDepthFactorVariant2.valgrind"
 	@echo "... testMultiProjectionFactor.valgrind"
 	@echo "... testInvDepthFactorVariant3"
@@ -2532,6 +2459,8 @@ help:
 	@echo "... testPartialPriorFactor"
 	@echo "... check.slam_unstable"
 	@echo "... testPartialPriorFactor.run"
+	@echo "... testInertialNavFactor_GlobalVelocity.run"
+	@echo "... testPoseBetweenFactor"
 	@echo "... testPoseBetweenFactor.run"
 	@echo "... testProjectionFactorPPP.run"
 	@echo "... testPartialPriorFactor.valgrind"
@@ -2541,10 +2470,6 @@ help:
 	@echo "... testInvDepthFactorVariant1.valgrind"
 	@echo "... testPoseBetweenFactor.valgrind"
 	@echo "... testPosePriorFactor.run"
-	@echo "... testInertialNavFactor_GlobalVelocity.run"
-	@echo "... testPoseBetweenFactor"
-	@echo "... testPoseToPointFactor"
-	@echo "... testPoseToPointFactor.valgrind"
 	@echo "... testAHRS.o"
 	@echo "... testAHRS.i"
 	@echo "... testAHRS.s"
@@ -2596,9 +2521,6 @@ help:
 	@echo "... testPosePriorFactor.o"
 	@echo "... testPosePriorFactor.i"
 	@echo "... testPosePriorFactor.s"
-	@echo "... testPoseToPointFactor.o"
-	@echo "... testPoseToPointFactor.i"
-	@echo "... testPoseToPointFactor.s"
 	@echo "... testProjectionFactorPPP.o"
 	@echo "... testProjectionFactorPPP.i"
 	@echo "... testProjectionFactorPPP.s"

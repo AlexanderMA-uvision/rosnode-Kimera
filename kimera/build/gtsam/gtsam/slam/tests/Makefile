@@ -265,36 +265,6 @@ testStereoFactor/fast:
 .PHONY : testStereoFactor/fast
 
 # Convenience name for target.
-gtsam/slam/tests/CMakeFiles/testSmartProjectionRigFactor.valgrind.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/slam/tests/CMakeFiles/testSmartProjectionRigFactor.valgrind.dir/rule
-.PHONY : gtsam/slam/tests/CMakeFiles/testSmartProjectionRigFactor.valgrind.dir/rule
-
-# Convenience name for target.
-testSmartProjectionRigFactor.valgrind: gtsam/slam/tests/CMakeFiles/testSmartProjectionRigFactor.valgrind.dir/rule
-
-.PHONY : testSmartProjectionRigFactor.valgrind
-
-# fast build rule for target.
-testSmartProjectionRigFactor.valgrind/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/slam/tests/CMakeFiles/testSmartProjectionRigFactor.valgrind.dir/build.make gtsam/slam/tests/CMakeFiles/testSmartProjectionRigFactor.valgrind.dir/build
-.PHONY : testSmartProjectionRigFactor.valgrind/fast
-
-# Convenience name for target.
-gtsam/slam/tests/CMakeFiles/testSmartProjectionRigFactor.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/slam/tests/CMakeFiles/testSmartProjectionRigFactor.dir/rule
-.PHONY : gtsam/slam/tests/CMakeFiles/testSmartProjectionRigFactor.dir/rule
-
-# Convenience name for target.
-testSmartProjectionRigFactor: gtsam/slam/tests/CMakeFiles/testSmartProjectionRigFactor.dir/rule
-
-.PHONY : testSmartProjectionRigFactor
-
-# fast build rule for target.
-testSmartProjectionRigFactor/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/slam/tests/CMakeFiles/testSmartProjectionRigFactor.dir/build.make gtsam/slam/tests/CMakeFiles/testSmartProjectionRigFactor.dir/build
-.PHONY : testSmartProjectionRigFactor/fast
-
-# Convenience name for target.
 gtsam/slam/tests/CMakeFiles/testSmartProjectionPoseFactor.run.dir/rule:
 	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/slam/tests/CMakeFiles/testSmartProjectionPoseFactor.run.dir/rule
 .PHONY : gtsam/slam/tests/CMakeFiles/testSmartProjectionPoseFactor.run.dir/rule
@@ -443,36 +413,6 @@ testSlamExpressions: gtsam/slam/tests/CMakeFiles/testSlamExpressions.dir/rule
 testSlamExpressions/fast:
 	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/slam/tests/CMakeFiles/testSlamExpressions.dir/build.make gtsam/slam/tests/CMakeFiles/testSlamExpressions.dir/build
 .PHONY : testSlamExpressions/fast
-
-# Convenience name for target.
-gtsam/slam/tests/CMakeFiles/testSerializationInSlam.run.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/slam/tests/CMakeFiles/testSerializationInSlam.run.dir/rule
-.PHONY : gtsam/slam/tests/CMakeFiles/testSerializationInSlam.run.dir/rule
-
-# Convenience name for target.
-testSerializationInSlam.run: gtsam/slam/tests/CMakeFiles/testSerializationInSlam.run.dir/rule
-
-.PHONY : testSerializationInSlam.run
-
-# fast build rule for target.
-testSerializationInSlam.run/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/slam/tests/CMakeFiles/testSerializationInSlam.run.dir/build.make gtsam/slam/tests/CMakeFiles/testSerializationInSlam.run.dir/build
-.PHONY : testSerializationInSlam.run/fast
-
-# Convenience name for target.
-gtsam/slam/tests/CMakeFiles/testSerializationInSlam.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/slam/tests/CMakeFiles/testSerializationInSlam.dir/rule
-.PHONY : gtsam/slam/tests/CMakeFiles/testSerializationInSlam.dir/rule
-
-# Convenience name for target.
-testSerializationInSlam: gtsam/slam/tests/CMakeFiles/testSerializationInSlam.dir/rule
-
-.PHONY : testSerializationInSlam
-
-# fast build rule for target.
-testSerializationInSlam/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/slam/tests/CMakeFiles/testSerializationInSlam.dir/build.make gtsam/slam/tests/CMakeFiles/testSerializationInSlam.dir/build
-.PHONY : testSerializationInSlam/fast
 
 # Convenience name for target.
 gtsam/slam/tests/CMakeFiles/testSerializationDataset.valgrind.dir/rule:
@@ -758,21 +698,6 @@ testDataset.run: gtsam/slam/tests/CMakeFiles/testDataset.run.dir/rule
 testDataset.run/fast:
 	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/slam/tests/CMakeFiles/testDataset.run.dir/build.make gtsam/slam/tests/CMakeFiles/testDataset.run.dir/build
 .PHONY : testDataset.run/fast
-
-# Convenience name for target.
-gtsam/slam/tests/CMakeFiles/testSmartProjectionRigFactor.run.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/slam/tests/CMakeFiles/testSmartProjectionRigFactor.run.dir/rule
-.PHONY : gtsam/slam/tests/CMakeFiles/testSmartProjectionRigFactor.run.dir/rule
-
-# Convenience name for target.
-testSmartProjectionRigFactor.run: gtsam/slam/tests/CMakeFiles/testSmartProjectionRigFactor.run.dir/rule
-
-.PHONY : testSmartProjectionRigFactor.run
-
-# fast build rule for target.
-testSmartProjectionRigFactor.run/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/slam/tests/CMakeFiles/testSmartProjectionRigFactor.run.dir/build.make gtsam/slam/tests/CMakeFiles/testSmartProjectionRigFactor.run.dir/build
-.PHONY : testSmartProjectionRigFactor.run/fast
 
 # Convenience name for target.
 gtsam/slam/tests/CMakeFiles/testDataset.dir/rule:
@@ -1403,21 +1328,6 @@ testRegularImplicitSchurFactor.valgrind: gtsam/slam/tests/CMakeFiles/testRegular
 testRegularImplicitSchurFactor.valgrind/fast:
 	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/slam/tests/CMakeFiles/testRegularImplicitSchurFactor.valgrind.dir/build.make gtsam/slam/tests/CMakeFiles/testRegularImplicitSchurFactor.valgrind.dir/build
 .PHONY : testRegularImplicitSchurFactor.valgrind/fast
-
-# Convenience name for target.
-gtsam/slam/tests/CMakeFiles/testSerializationInSlam.valgrind.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/slam/tests/CMakeFiles/testSerializationInSlam.valgrind.dir/rule
-.PHONY : gtsam/slam/tests/CMakeFiles/testSerializationInSlam.valgrind.dir/rule
-
-# Convenience name for target.
-testSerializationInSlam.valgrind: gtsam/slam/tests/CMakeFiles/testSerializationInSlam.valgrind.dir/rule
-
-.PHONY : testSerializationInSlam.valgrind
-
-# fast build rule for target.
-testSerializationInSlam.valgrind/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/slam/tests/CMakeFiles/testSerializationInSlam.valgrind.dir/build.make gtsam/slam/tests/CMakeFiles/testSerializationInSlam.valgrind.dir/build
-.PHONY : testSerializationInSlam.valgrind/fast
 
 # Convenience name for target.
 gtsam/slam/tests/CMakeFiles/testKarcherMeanFactor.dir/rule:
@@ -2076,33 +1986,6 @@ testSerializationDataset.cpp.s:
 	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/slam/tests/CMakeFiles/testSerializationDataset.dir/build.make gtsam/slam/tests/CMakeFiles/testSerializationDataset.dir/testSerializationDataset.cpp.s
 .PHONY : testSerializationDataset.cpp.s
 
-testSerializationInSlam.o: testSerializationInSlam.cpp.o
-
-.PHONY : testSerializationInSlam.o
-
-# target to build an object file
-testSerializationInSlam.cpp.o:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/slam/tests/CMakeFiles/testSerializationInSlam.dir/build.make gtsam/slam/tests/CMakeFiles/testSerializationInSlam.dir/testSerializationInSlam.cpp.o
-.PHONY : testSerializationInSlam.cpp.o
-
-testSerializationInSlam.i: testSerializationInSlam.cpp.i
-
-.PHONY : testSerializationInSlam.i
-
-# target to preprocess a source file
-testSerializationInSlam.cpp.i:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/slam/tests/CMakeFiles/testSerializationInSlam.dir/build.make gtsam/slam/tests/CMakeFiles/testSerializationInSlam.dir/testSerializationInSlam.cpp.i
-.PHONY : testSerializationInSlam.cpp.i
-
-testSerializationInSlam.s: testSerializationInSlam.cpp.s
-
-.PHONY : testSerializationInSlam.s
-
-# target to generate assembly for a file
-testSerializationInSlam.cpp.s:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/slam/tests/CMakeFiles/testSerializationInSlam.dir/build.make gtsam/slam/tests/CMakeFiles/testSerializationInSlam.dir/testSerializationInSlam.cpp.s
-.PHONY : testSerializationInSlam.cpp.s
-
 testSlamExpressions.o: testSlamExpressions.cpp.o
 
 .PHONY : testSlamExpressions.o
@@ -2211,33 +2094,6 @@ testSmartProjectionPoseFactor.cpp.s:
 	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/slam/tests/CMakeFiles/testSmartProjectionPoseFactor.dir/build.make gtsam/slam/tests/CMakeFiles/testSmartProjectionPoseFactor.dir/testSmartProjectionPoseFactor.cpp.s
 .PHONY : testSmartProjectionPoseFactor.cpp.s
 
-testSmartProjectionRigFactor.o: testSmartProjectionRigFactor.cpp.o
-
-.PHONY : testSmartProjectionRigFactor.o
-
-# target to build an object file
-testSmartProjectionRigFactor.cpp.o:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/slam/tests/CMakeFiles/testSmartProjectionRigFactor.dir/build.make gtsam/slam/tests/CMakeFiles/testSmartProjectionRigFactor.dir/testSmartProjectionRigFactor.cpp.o
-.PHONY : testSmartProjectionRigFactor.cpp.o
-
-testSmartProjectionRigFactor.i: testSmartProjectionRigFactor.cpp.i
-
-.PHONY : testSmartProjectionRigFactor.i
-
-# target to preprocess a source file
-testSmartProjectionRigFactor.cpp.i:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/slam/tests/CMakeFiles/testSmartProjectionRigFactor.dir/build.make gtsam/slam/tests/CMakeFiles/testSmartProjectionRigFactor.dir/testSmartProjectionRigFactor.cpp.i
-.PHONY : testSmartProjectionRigFactor.cpp.i
-
-testSmartProjectionRigFactor.s: testSmartProjectionRigFactor.cpp.s
-
-.PHONY : testSmartProjectionRigFactor.s
-
-# target to generate assembly for a file
-testSmartProjectionRigFactor.cpp.s:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/slam/tests/CMakeFiles/testSmartProjectionRigFactor.dir/build.make gtsam/slam/tests/CMakeFiles/testSmartProjectionRigFactor.dir/testSmartProjectionRigFactor.cpp.s
-.PHONY : testSmartProjectionRigFactor.cpp.s
-
 testStereoFactor.o: testStereoFactor.cpp.o
 
 .PHONY : testStereoFactor.o
@@ -2306,8 +2162,6 @@ help:
 	@echo "... testTriangulationFactor"
 	@echo "... testStereoFactor.run"
 	@echo "... testStereoFactor"
-	@echo "... testSmartProjectionRigFactor.valgrind"
-	@echo "... testSmartProjectionRigFactor"
 	@echo "... testSmartProjectionPoseFactor.run"
 	@echo "... testSmartProjectionPoseFactor"
 	@echo "... testSmartProjectionFactor.valgrind"
@@ -2319,8 +2173,6 @@ help:
 	@echo "... testSlamExpressions.valgrind"
 	@echo "... testSlamExpressions.run"
 	@echo "... testSlamExpressions"
-	@echo "... testSerializationInSlam.run"
-	@echo "... testSerializationInSlam"
 	@echo "... testSerializationDataset.valgrind"
 	@echo "... testSerializationDataset.run"
 	@echo "... testRotateFactor.valgrind"
@@ -2341,7 +2193,6 @@ help:
 	@echo "... testLago.run"
 	@echo "... testFrobeniusFactor.valgrind"
 	@echo "... testDataset.run"
-	@echo "... testSmartProjectionRigFactor.run"
 	@echo "... testDataset"
 	@echo "... testEssentialMatrixFactor.run"
 	@echo "... install/strip"
@@ -2387,7 +2238,6 @@ help:
 	@echo "... testInitializePose3.valgrind"
 	@echo "... testRegularImplicitSchurFactor.valgrind"
 	@echo "... test"
-	@echo "... testSerializationInSlam.valgrind"
 	@echo "... testKarcherMeanFactor"
 	@echo "... testProjectionFactor.valgrind"
 	@echo "... rebuild_cache"
@@ -2458,9 +2308,6 @@ help:
 	@echo "... testSerializationDataset.o"
 	@echo "... testSerializationDataset.i"
 	@echo "... testSerializationDataset.s"
-	@echo "... testSerializationInSlam.o"
-	@echo "... testSerializationInSlam.i"
-	@echo "... testSerializationInSlam.s"
 	@echo "... testSlamExpressions.o"
 	@echo "... testSlamExpressions.i"
 	@echo "... testSlamExpressions.s"
@@ -2473,9 +2320,6 @@ help:
 	@echo "... testSmartProjectionPoseFactor.o"
 	@echo "... testSmartProjectionPoseFactor.i"
 	@echo "... testSmartProjectionPoseFactor.s"
-	@echo "... testSmartProjectionRigFactor.o"
-	@echo "... testSmartProjectionRigFactor.i"
-	@echo "... testSmartProjectionRigFactor.s"
 	@echo "... testStereoFactor.o"
 	@echo "... testStereoFactor.i"
 	@echo "... testStereoFactor.s"

@@ -13,7 +13,6 @@ examples/CMakeFiles/SimpleRotation.dir/SimpleRotation.cpp.o: /home/catkin_ws/src
 examples/CMakeFiles/SimpleRotation.dir/SimpleRotation.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Lie.h
 examples/CMakeFiles/SimpleRotation.dir/SimpleRotation.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Manifold.h
 examples/CMakeFiles/SimpleRotation.dir/SimpleRotation.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Matrix.h
-examples/CMakeFiles/SimpleRotation.dir/SimpleRotation.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/MatrixSerialization.h
 examples/CMakeFiles/SimpleRotation.dir/SimpleRotation.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/OptionalJacobian.h
 examples/CMakeFiles/SimpleRotation.dir/SimpleRotation.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/SymmetricBlockMatrix.h
 examples/CMakeFiles/SimpleRotation.dir/SimpleRotation.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Testable.h
@@ -27,7 +26,6 @@ examples/CMakeFiles/SimpleRotation.dir/SimpleRotation.cpp.o: /home/catkin_ws/src
 examples/CMakeFiles/SimpleRotation.dir/SimpleRotation.cpp.o: /home/catkin_ws/src/gtsam/gtsam/geometry/Point2.h
 examples/CMakeFiles/SimpleRotation.dir/SimpleRotation.cpp.o: /home/catkin_ws/src/gtsam/gtsam/geometry/Rot2.h
 examples/CMakeFiles/SimpleRotation.dir/SimpleRotation.cpp.o: /home/catkin_ws/src/gtsam/gtsam/global_includes.h
-examples/CMakeFiles/SimpleRotation.dir/SimpleRotation.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/DotWriter.h
 examples/CMakeFiles/SimpleRotation.dir/SimpleRotation.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/EliminateableFactorGraph.h
 examples/CMakeFiles/SimpleRotation.dir/SimpleRotation.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/Factor.h
 examples/CMakeFiles/SimpleRotation.dir/SimpleRotation.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/FactorGraph-inst.h
@@ -56,7 +54,6 @@ examples/CMakeFiles/SimpleRotation.dir/SimpleRotation.cpp.o: /home/catkin_ws/src
 examples/CMakeFiles/SimpleRotation.dir/SimpleRotation.cpp.o: /home/catkin_ws/src/gtsam/gtsam/linear/SubgraphSolver.h
 examples/CMakeFiles/SimpleRotation.dir/SimpleRotation.cpp.o: /home/catkin_ws/src/gtsam/gtsam/linear/VectorValues.h
 examples/CMakeFiles/SimpleRotation.dir/SimpleRotation.cpp.o: /home/catkin_ws/src/gtsam/gtsam/linear/linearExceptions.h
-examples/CMakeFiles/SimpleRotation.dir/SimpleRotation.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/GraphvizFormatting.h
 examples/CMakeFiles/SimpleRotation.dir/SimpleRotation.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/LevenbergMarquardtOptimizer.h
 examples/CMakeFiles/SimpleRotation.dir/SimpleRotation.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/LevenbergMarquardtParams.h
 examples/CMakeFiles/SimpleRotation.dir/SimpleRotation.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/NonlinearFactor.h

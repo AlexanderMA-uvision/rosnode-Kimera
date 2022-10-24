@@ -80,8 +80,8 @@ testPose3Upright_EXTERNAL_OBJECTS =
 gtsam_unstable/geometry/tests/testPose3Upright: gtsam_unstable/geometry/tests/CMakeFiles/testPose3Upright.dir/testPose3Upright.cpp.o
 gtsam_unstable/geometry/tests/testPose3Upright: gtsam_unstable/geometry/tests/CMakeFiles/testPose3Upright.dir/build.make
 gtsam_unstable/geometry/tests/testPose3Upright: CppUnitLite/libCppUnitLite.a
-gtsam_unstable/geometry/tests/testPose3Upright: gtsam_unstable/libgtsam_unstable.so.4.2.0
-gtsam_unstable/geometry/tests/testPose3Upright: gtsam/libgtsam.so.4.2.0
+gtsam_unstable/geometry/tests/testPose3Upright: gtsam_unstable/libgtsam_unstable.so.4.1.0
+gtsam_unstable/geometry/tests/testPose3Upright: gtsam/libgtsam.so.4.1.0
 gtsam_unstable/geometry/tests/testPose3Upright: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 gtsam_unstable/geometry/tests/testPose3Upright: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 gtsam_unstable/geometry/tests/testPose3Upright: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

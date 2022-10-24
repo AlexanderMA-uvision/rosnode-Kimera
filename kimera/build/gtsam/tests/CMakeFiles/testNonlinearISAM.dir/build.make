@@ -80,7 +80,7 @@ testNonlinearISAM_EXTERNAL_OBJECTS =
 tests/testNonlinearISAM: tests/CMakeFiles/testNonlinearISAM.dir/testNonlinearISAM.cpp.o
 tests/testNonlinearISAM: tests/CMakeFiles/testNonlinearISAM.dir/build.make
 tests/testNonlinearISAM: CppUnitLite/libCppUnitLite.a
-tests/testNonlinearISAM: gtsam/libgtsam.so.4.2.0
+tests/testNonlinearISAM: gtsam/libgtsam.so.4.1.0
 tests/testNonlinearISAM: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 tests/testNonlinearISAM: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 tests/testNonlinearISAM: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

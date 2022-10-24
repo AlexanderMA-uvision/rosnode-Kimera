@@ -68,6 +68,30 @@ install/strip/fast: preinstall/fast
 	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip/fast
 
+# Special rule for the target install/local
+install/local: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local
+
+# Special rule for the target install/local
+install/local/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local/fast
+
+# Special rule for the target install
+install: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	/usr/bin/cmake -P cmake_install.cmake
+.PHONY : install
+
+# Special rule for the target install
+install/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	/usr/bin/cmake -P cmake_install.cmake
+.PHONY : install/fast
+
 # Special rule for the target list_install_components
 list_install_components:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
@@ -89,40 +113,6 @@ edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
 
-# Special rule for the target test
-test:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
-	/usr/bin/ctest --force-new-ctest-process $(ARGS)
-.PHONY : test
-
-# Special rule for the target test
-test/fast: test
-
-.PHONY : test/fast
-
-# Special rule for the target package
-package: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/catkin_ws/build/gtsam && /usr/bin/cpack --config ./CPackConfig.cmake
-.PHONY : package
-
-# Special rule for the target package
-package/fast: package
-
-.PHONY : package/fast
-
-# Special rule for the target install/local
-install/local: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
-.PHONY : install/local
-
-# Special rule for the target install/local
-install/local/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
-.PHONY : install/local/fast
-
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
@@ -133,6 +123,17 @@ package_source:
 package_source/fast: package_source
 
 .PHONY : package_source/fast
+
+# Special rule for the target test
+test:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
+	/usr/bin/ctest --force-new-ctest-process $(ARGS)
+.PHONY : test
+
+# Special rule for the target test
+test/fast: test
+
+.PHONY : test/fast
 
 # Special rule for the target rebuild_cache
 rebuild_cache:
@@ -145,17 +146,16 @@ rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
 
-# Special rule for the target install
-install: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/usr/bin/cmake -P cmake_install.cmake
-.PHONY : install
+# Special rule for the target package
+package: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
+	cd /home/catkin_ws/build/gtsam && /usr/bin/cpack --config ./CPackConfig.cmake
+.PHONY : package
 
-# Special rule for the target install
-install/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/usr/bin/cmake -P cmake_install.cmake
-.PHONY : install/fast
+# Special rule for the target package
+package/fast: package
+
+.PHONY : package/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -190,544 +190,34 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-gtsam/base/tests/CMakeFiles/testWeightedSampler.run.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/base/tests/CMakeFiles/testWeightedSampler.run.dir/rule
-.PHONY : gtsam/base/tests/CMakeFiles/testWeightedSampler.run.dir/rule
+gtsam/base/tests/CMakeFiles/testLieVector.valgrind.dir/rule:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/base/tests/CMakeFiles/testLieVector.valgrind.dir/rule
+.PHONY : gtsam/base/tests/CMakeFiles/testLieVector.valgrind.dir/rule
 
 # Convenience name for target.
-testWeightedSampler.run: gtsam/base/tests/CMakeFiles/testWeightedSampler.run.dir/rule
+testLieVector.valgrind: gtsam/base/tests/CMakeFiles/testLieVector.valgrind.dir/rule
 
-.PHONY : testWeightedSampler.run
-
-# fast build rule for target.
-testWeightedSampler.run/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/base/tests/CMakeFiles/testWeightedSampler.run.dir/build.make gtsam/base/tests/CMakeFiles/testWeightedSampler.run.dir/build
-.PHONY : testWeightedSampler.run/fast
-
-# Convenience name for target.
-gtsam/base/tests/CMakeFiles/testWeightedSampler.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/base/tests/CMakeFiles/testWeightedSampler.dir/rule
-.PHONY : gtsam/base/tests/CMakeFiles/testWeightedSampler.dir/rule
-
-# Convenience name for target.
-testWeightedSampler: gtsam/base/tests/CMakeFiles/testWeightedSampler.dir/rule
-
-.PHONY : testWeightedSampler
+.PHONY : testLieVector.valgrind
 
 # fast build rule for target.
-testWeightedSampler/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/base/tests/CMakeFiles/testWeightedSampler.dir/build.make gtsam/base/tests/CMakeFiles/testWeightedSampler.dir/build
-.PHONY : testWeightedSampler/fast
+testLieVector.valgrind/fast:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/base/tests/CMakeFiles/testLieVector.valgrind.dir/build.make gtsam/base/tests/CMakeFiles/testLieVector.valgrind.dir/build
+.PHONY : testLieVector.valgrind/fast
 
 # Convenience name for target.
-gtsam/base/tests/CMakeFiles/testWeightedSampler.valgrind.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/base/tests/CMakeFiles/testWeightedSampler.valgrind.dir/rule
-.PHONY : gtsam/base/tests/CMakeFiles/testWeightedSampler.valgrind.dir/rule
+gtsam/base/tests/CMakeFiles/testLieMatrix.valgrind.dir/rule:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/base/tests/CMakeFiles/testLieMatrix.valgrind.dir/rule
+.PHONY : gtsam/base/tests/CMakeFiles/testLieMatrix.valgrind.dir/rule
 
 # Convenience name for target.
-testWeightedSampler.valgrind: gtsam/base/tests/CMakeFiles/testWeightedSampler.valgrind.dir/rule
+testLieMatrix.valgrind: gtsam/base/tests/CMakeFiles/testLieMatrix.valgrind.dir/rule
 
-.PHONY : testWeightedSampler.valgrind
-
-# fast build rule for target.
-testWeightedSampler.valgrind/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/base/tests/CMakeFiles/testWeightedSampler.valgrind.dir/build.make gtsam/base/tests/CMakeFiles/testWeightedSampler.valgrind.dir/build
-.PHONY : testWeightedSampler.valgrind/fast
-
-# Convenience name for target.
-gtsam/base/tests/CMakeFiles/testVector.run.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/base/tests/CMakeFiles/testVector.run.dir/rule
-.PHONY : gtsam/base/tests/CMakeFiles/testVector.run.dir/rule
-
-# Convenience name for target.
-testVector.run: gtsam/base/tests/CMakeFiles/testVector.run.dir/rule
-
-.PHONY : testVector.run
+.PHONY : testLieMatrix.valgrind
 
 # fast build rule for target.
-testVector.run/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/base/tests/CMakeFiles/testVector.run.dir/build.make gtsam/base/tests/CMakeFiles/testVector.run.dir/build
-.PHONY : testVector.run/fast
-
-# Convenience name for target.
-gtsam/base/tests/CMakeFiles/testTreeTraversal.run.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/base/tests/CMakeFiles/testTreeTraversal.run.dir/rule
-.PHONY : gtsam/base/tests/CMakeFiles/testTreeTraversal.run.dir/rule
-
-# Convenience name for target.
-testTreeTraversal.run: gtsam/base/tests/CMakeFiles/testTreeTraversal.run.dir/rule
-
-.PHONY : testTreeTraversal.run
-
-# fast build rule for target.
-testTreeTraversal.run/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/base/tests/CMakeFiles/testTreeTraversal.run.dir/build.make gtsam/base/tests/CMakeFiles/testTreeTraversal.run.dir/build
-.PHONY : testTreeTraversal.run/fast
-
-# Convenience name for target.
-gtsam/base/tests/CMakeFiles/testSymmetricBlockMatrix.valgrind.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/base/tests/CMakeFiles/testSymmetricBlockMatrix.valgrind.dir/rule
-.PHONY : gtsam/base/tests/CMakeFiles/testSymmetricBlockMatrix.valgrind.dir/rule
-
-# Convenience name for target.
-testSymmetricBlockMatrix.valgrind: gtsam/base/tests/CMakeFiles/testSymmetricBlockMatrix.valgrind.dir/rule
-
-.PHONY : testSymmetricBlockMatrix.valgrind
-
-# fast build rule for target.
-testSymmetricBlockMatrix.valgrind/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/base/tests/CMakeFiles/testSymmetricBlockMatrix.valgrind.dir/build.make gtsam/base/tests/CMakeFiles/testSymmetricBlockMatrix.valgrind.dir/build
-.PHONY : testSymmetricBlockMatrix.valgrind/fast
-
-# Convenience name for target.
-gtsam/base/tests/CMakeFiles/testSymmetricBlockMatrix.run.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/base/tests/CMakeFiles/testSymmetricBlockMatrix.run.dir/rule
-.PHONY : gtsam/base/tests/CMakeFiles/testSymmetricBlockMatrix.run.dir/rule
-
-# Convenience name for target.
-testSymmetricBlockMatrix.run: gtsam/base/tests/CMakeFiles/testSymmetricBlockMatrix.run.dir/rule
-
-.PHONY : testSymmetricBlockMatrix.run
-
-# fast build rule for target.
-testSymmetricBlockMatrix.run/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/base/tests/CMakeFiles/testSymmetricBlockMatrix.run.dir/build.make gtsam/base/tests/CMakeFiles/testSymmetricBlockMatrix.run.dir/build
-.PHONY : testSymmetricBlockMatrix.run/fast
-
-# Convenience name for target.
-gtsam/base/tests/CMakeFiles/testSymmetricBlockMatrix.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/base/tests/CMakeFiles/testSymmetricBlockMatrix.dir/rule
-.PHONY : gtsam/base/tests/CMakeFiles/testSymmetricBlockMatrix.dir/rule
-
-# Convenience name for target.
-testSymmetricBlockMatrix: gtsam/base/tests/CMakeFiles/testSymmetricBlockMatrix.dir/rule
-
-.PHONY : testSymmetricBlockMatrix
-
-# fast build rule for target.
-testSymmetricBlockMatrix/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/base/tests/CMakeFiles/testSymmetricBlockMatrix.dir/build.make gtsam/base/tests/CMakeFiles/testSymmetricBlockMatrix.dir/build
-.PHONY : testSymmetricBlockMatrix/fast
-
-# Convenience name for target.
-gtsam/base/tests/CMakeFiles/testVector.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/base/tests/CMakeFiles/testVector.dir/rule
-.PHONY : gtsam/base/tests/CMakeFiles/testVector.dir/rule
-
-# Convenience name for target.
-testVector: gtsam/base/tests/CMakeFiles/testVector.dir/rule
-
-.PHONY : testVector
-
-# fast build rule for target.
-testVector/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/base/tests/CMakeFiles/testVector.dir/build.make gtsam/base/tests/CMakeFiles/testVector.dir/build
-.PHONY : testVector/fast
-
-# Convenience name for target.
-gtsam/base/tests/CMakeFiles/testSerializationBase.run.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/base/tests/CMakeFiles/testSerializationBase.run.dir/rule
-.PHONY : gtsam/base/tests/CMakeFiles/testSerializationBase.run.dir/rule
-
-# Convenience name for target.
-testSerializationBase.run: gtsam/base/tests/CMakeFiles/testSerializationBase.run.dir/rule
-
-.PHONY : testSerializationBase.run
-
-# fast build rule for target.
-testSerializationBase.run/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/base/tests/CMakeFiles/testSerializationBase.run.dir/build.make gtsam/base/tests/CMakeFiles/testSerializationBase.run.dir/build
-.PHONY : testSerializationBase.run/fast
-
-# Convenience name for target.
-gtsam/base/tests/CMakeFiles/testTreeTraversal.valgrind.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/base/tests/CMakeFiles/testTreeTraversal.valgrind.dir/rule
-.PHONY : gtsam/base/tests/CMakeFiles/testTreeTraversal.valgrind.dir/rule
-
-# Convenience name for target.
-testTreeTraversal.valgrind: gtsam/base/tests/CMakeFiles/testTreeTraversal.valgrind.dir/rule
-
-.PHONY : testTreeTraversal.valgrind
-
-# fast build rule for target.
-testTreeTraversal.valgrind/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/base/tests/CMakeFiles/testTreeTraversal.valgrind.dir/build.make gtsam/base/tests/CMakeFiles/testTreeTraversal.valgrind.dir/build
-.PHONY : testTreeTraversal.valgrind/fast
-
-# Convenience name for target.
-gtsam/base/tests/CMakeFiles/testDebug.run.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/base/tests/CMakeFiles/testDebug.run.dir/rule
-.PHONY : gtsam/base/tests/CMakeFiles/testDebug.run.dir/rule
-
-# Convenience name for target.
-testDebug.run: gtsam/base/tests/CMakeFiles/testDebug.run.dir/rule
-
-.PHONY : testDebug.run
-
-# fast build rule for target.
-testDebug.run/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/base/tests/CMakeFiles/testDebug.run.dir/build.make gtsam/base/tests/CMakeFiles/testDebug.run.dir/build
-.PHONY : testDebug.run/fast
-
-# Convenience name for target.
-gtsam/base/tests/CMakeFiles/testVerticalBlockMatrix.valgrind.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/base/tests/CMakeFiles/testVerticalBlockMatrix.valgrind.dir/rule
-.PHONY : gtsam/base/tests/CMakeFiles/testVerticalBlockMatrix.valgrind.dir/rule
-
-# Convenience name for target.
-testVerticalBlockMatrix.valgrind: gtsam/base/tests/CMakeFiles/testVerticalBlockMatrix.valgrind.dir/rule
-
-.PHONY : testVerticalBlockMatrix.valgrind
-
-# fast build rule for target.
-testVerticalBlockMatrix.valgrind/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/base/tests/CMakeFiles/testVerticalBlockMatrix.valgrind.dir/build.make gtsam/base/tests/CMakeFiles/testVerticalBlockMatrix.valgrind.dir/build
-.PHONY : testVerticalBlockMatrix.valgrind/fast
-
-# Convenience name for target.
-gtsam/base/tests/CMakeFiles/testSerializationBase.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/base/tests/CMakeFiles/testSerializationBase.dir/rule
-.PHONY : gtsam/base/tests/CMakeFiles/testSerializationBase.dir/rule
-
-# Convenience name for target.
-testSerializationBase: gtsam/base/tests/CMakeFiles/testSerializationBase.dir/rule
-
-.PHONY : testSerializationBase
-
-# fast build rule for target.
-testSerializationBase/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/base/tests/CMakeFiles/testSerializationBase.dir/build.make gtsam/base/tests/CMakeFiles/testSerializationBase.dir/build
-.PHONY : testSerializationBase/fast
-
-# Convenience name for target.
-gtsam/base/tests/CMakeFiles/testMatrix.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/base/tests/CMakeFiles/testMatrix.dir/rule
-.PHONY : gtsam/base/tests/CMakeFiles/testMatrix.dir/rule
-
-# Convenience name for target.
-testMatrix: gtsam/base/tests/CMakeFiles/testMatrix.dir/rule
-
-.PHONY : testMatrix
-
-# fast build rule for target.
-testMatrix/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/base/tests/CMakeFiles/testMatrix.dir/build.make gtsam/base/tests/CMakeFiles/testMatrix.dir/build
-.PHONY : testMatrix/fast
-
-# Convenience name for target.
-gtsam/base/tests/CMakeFiles/testDSFVector.valgrind.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/base/tests/CMakeFiles/testDSFVector.valgrind.dir/rule
-.PHONY : gtsam/base/tests/CMakeFiles/testDSFVector.valgrind.dir/rule
-
-# Convenience name for target.
-testDSFVector.valgrind: gtsam/base/tests/CMakeFiles/testDSFVector.valgrind.dir/rule
-
-.PHONY : testDSFVector.valgrind
-
-# fast build rule for target.
-testDSFVector.valgrind/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/base/tests/CMakeFiles/testDSFVector.valgrind.dir/build.make gtsam/base/tests/CMakeFiles/testDSFVector.valgrind.dir/build
-.PHONY : testDSFVector.valgrind/fast
-
-# Convenience name for target.
-gtsam/base/tests/CMakeFiles/testVerticalBlockMatrix.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/base/tests/CMakeFiles/testVerticalBlockMatrix.dir/rule
-.PHONY : gtsam/base/tests/CMakeFiles/testVerticalBlockMatrix.dir/rule
-
-# Convenience name for target.
-testVerticalBlockMatrix: gtsam/base/tests/CMakeFiles/testVerticalBlockMatrix.dir/rule
-
-.PHONY : testVerticalBlockMatrix
-
-# fast build rule for target.
-testVerticalBlockMatrix/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/base/tests/CMakeFiles/testVerticalBlockMatrix.dir/build.make gtsam/base/tests/CMakeFiles/testVerticalBlockMatrix.dir/build
-.PHONY : testVerticalBlockMatrix/fast
-
-# Convenience name for target.
-gtsam/base/tests/CMakeFiles/testNumericalDerivative.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/base/tests/CMakeFiles/testNumericalDerivative.dir/rule
-.PHONY : gtsam/base/tests/CMakeFiles/testNumericalDerivative.dir/rule
-
-# Convenience name for target.
-testNumericalDerivative: gtsam/base/tests/CMakeFiles/testNumericalDerivative.dir/rule
-
-.PHONY : testNumericalDerivative
-
-# fast build rule for target.
-testNumericalDerivative/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/base/tests/CMakeFiles/testNumericalDerivative.dir/build.make gtsam/base/tests/CMakeFiles/testNumericalDerivative.dir/build
-.PHONY : testNumericalDerivative/fast
-
-# Convenience name for target.
-gtsam/base/tests/CMakeFiles/testVerticalBlockMatrix.run.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/base/tests/CMakeFiles/testVerticalBlockMatrix.run.dir/rule
-.PHONY : gtsam/base/tests/CMakeFiles/testVerticalBlockMatrix.run.dir/rule
-
-# Convenience name for target.
-testVerticalBlockMatrix.run: gtsam/base/tests/CMakeFiles/testVerticalBlockMatrix.run.dir/rule
-
-.PHONY : testVerticalBlockMatrix.run
-
-# fast build rule for target.
-testVerticalBlockMatrix.run/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/base/tests/CMakeFiles/testVerticalBlockMatrix.run.dir/build.make gtsam/base/tests/CMakeFiles/testVerticalBlockMatrix.run.dir/build
-.PHONY : testVerticalBlockMatrix.run/fast
-
-# Convenience name for target.
-gtsam/base/tests/CMakeFiles/testDebug.valgrind.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/base/tests/CMakeFiles/testDebug.valgrind.dir/rule
-.PHONY : gtsam/base/tests/CMakeFiles/testDebug.valgrind.dir/rule
-
-# Convenience name for target.
-testDebug.valgrind: gtsam/base/tests/CMakeFiles/testDebug.valgrind.dir/rule
-
-.PHONY : testDebug.valgrind
-
-# fast build rule for target.
-testDebug.valgrind/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/base/tests/CMakeFiles/testDebug.valgrind.dir/build.make gtsam/base/tests/CMakeFiles/testDebug.valgrind.dir/build
-.PHONY : testDebug.valgrind/fast
-
-# Convenience name for target.
-gtsam/base/tests/CMakeFiles/testDebug.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/base/tests/CMakeFiles/testDebug.dir/rule
-.PHONY : gtsam/base/tests/CMakeFiles/testDebug.dir/rule
-
-# Convenience name for target.
-testDebug: gtsam/base/tests/CMakeFiles/testDebug.dir/rule
-
-.PHONY : testDebug
-
-# fast build rule for target.
-testDebug/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/base/tests/CMakeFiles/testDebug.dir/build.make gtsam/base/tests/CMakeFiles/testDebug.dir/build
-.PHONY : testDebug/fast
-
-# Convenience name for target.
-gtsam/base/tests/CMakeFiles/testDSFMap.valgrind.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/base/tests/CMakeFiles/testDSFMap.valgrind.dir/rule
-.PHONY : gtsam/base/tests/CMakeFiles/testDSFMap.valgrind.dir/rule
-
-# Convenience name for target.
-testDSFMap.valgrind: gtsam/base/tests/CMakeFiles/testDSFMap.valgrind.dir/rule
-
-.PHONY : testDSFMap.valgrind
-
-# fast build rule for target.
-testDSFMap.valgrind/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/base/tests/CMakeFiles/testDSFMap.valgrind.dir/build.make gtsam/base/tests/CMakeFiles/testDSFMap.valgrind.dir/build
-.PHONY : testDSFMap.valgrind/fast
-
-# Convenience name for target.
-gtsam/base/tests/CMakeFiles/testDSFVector.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/base/tests/CMakeFiles/testDSFVector.dir/rule
-.PHONY : gtsam/base/tests/CMakeFiles/testDSFVector.dir/rule
-
-# Convenience name for target.
-testDSFVector: gtsam/base/tests/CMakeFiles/testDSFVector.dir/rule
-
-.PHONY : testDSFVector
-
-# fast build rule for target.
-testDSFVector/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/base/tests/CMakeFiles/testDSFVector.dir/build.make gtsam/base/tests/CMakeFiles/testDSFVector.dir/build
-.PHONY : testDSFVector/fast
-
-# Convenience name for target.
-gtsam/base/tests/CMakeFiles/testGroup.valgrind.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/base/tests/CMakeFiles/testGroup.valgrind.dir/rule
-.PHONY : gtsam/base/tests/CMakeFiles/testGroup.valgrind.dir/rule
-
-# Convenience name for target.
-testGroup.valgrind: gtsam/base/tests/CMakeFiles/testGroup.valgrind.dir/rule
-
-.PHONY : testGroup.valgrind
-
-# fast build rule for target.
-testGroup.valgrind/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/base/tests/CMakeFiles/testGroup.valgrind.dir/build.make gtsam/base/tests/CMakeFiles/testGroup.valgrind.dir/build
-.PHONY : testGroup.valgrind/fast
-
-# Convenience name for target.
-gtsam/base/tests/CMakeFiles/testDSFMap.run.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/base/tests/CMakeFiles/testDSFMap.run.dir/rule
-.PHONY : gtsam/base/tests/CMakeFiles/testDSFMap.run.dir/rule
-
-# Convenience name for target.
-testDSFMap.run: gtsam/base/tests/CMakeFiles/testDSFMap.run.dir/rule
-
-.PHONY : testDSFMap.run
-
-# fast build rule for target.
-testDSFMap.run/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/base/tests/CMakeFiles/testDSFMap.run.dir/build.make gtsam/base/tests/CMakeFiles/testDSFMap.run.dir/build
-.PHONY : testDSFMap.run/fast
-
-# Convenience name for target.
-gtsam/base/tests/CMakeFiles/testCholesky.valgrind.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/base/tests/CMakeFiles/testCholesky.valgrind.dir/rule
-.PHONY : gtsam/base/tests/CMakeFiles/testCholesky.valgrind.dir/rule
-
-# Convenience name for target.
-testCholesky.valgrind: gtsam/base/tests/CMakeFiles/testCholesky.valgrind.dir/rule
-
-.PHONY : testCholesky.valgrind
-
-# fast build rule for target.
-testCholesky.valgrind/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/base/tests/CMakeFiles/testCholesky.valgrind.dir/build.make gtsam/base/tests/CMakeFiles/testCholesky.valgrind.dir/build
-.PHONY : testCholesky.valgrind/fast
-
-# Convenience name for target.
-gtsam/base/tests/CMakeFiles/testMatrix.run.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/base/tests/CMakeFiles/testMatrix.run.dir/rule
-.PHONY : gtsam/base/tests/CMakeFiles/testMatrix.run.dir/rule
-
-# Convenience name for target.
-testMatrix.run: gtsam/base/tests/CMakeFiles/testMatrix.run.dir/rule
-
-.PHONY : testMatrix.run
-
-# fast build rule for target.
-testMatrix.run/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/base/tests/CMakeFiles/testMatrix.run.dir/build.make gtsam/base/tests/CMakeFiles/testMatrix.run.dir/build
-.PHONY : testMatrix.run/fast
-
-# Convenience name for target.
-gtsam/base/tests/CMakeFiles/testDSFVector.run.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/base/tests/CMakeFiles/testDSFVector.run.dir/rule
-.PHONY : gtsam/base/tests/CMakeFiles/testDSFVector.run.dir/rule
-
-# Convenience name for target.
-testDSFVector.run: gtsam/base/tests/CMakeFiles/testDSFVector.run.dir/rule
-
-.PHONY : testDSFVector.run
-
-# fast build rule for target.
-testDSFVector.run/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/base/tests/CMakeFiles/testDSFVector.run.dir/build.make gtsam/base/tests/CMakeFiles/testDSFVector.run.dir/build
-.PHONY : testDSFVector.run/fast
-
-# Convenience name for target.
-gtsam/base/tests/CMakeFiles/testDSFMap.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/base/tests/CMakeFiles/testDSFMap.dir/rule
-.PHONY : gtsam/base/tests/CMakeFiles/testDSFMap.dir/rule
-
-# Convenience name for target.
-testDSFMap: gtsam/base/tests/CMakeFiles/testDSFMap.dir/rule
-
-.PHONY : testDSFMap
-
-# fast build rule for target.
-testDSFMap/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/base/tests/CMakeFiles/testDSFMap.dir/build.make gtsam/base/tests/CMakeFiles/testDSFMap.dir/build
-.PHONY : testDSFMap/fast
-
-# Convenience name for target.
-gtsam/base/tests/CMakeFiles/testCholesky.run.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/base/tests/CMakeFiles/testCholesky.run.dir/rule
-.PHONY : gtsam/base/tests/CMakeFiles/testCholesky.run.dir/rule
-
-# Convenience name for target.
-testCholesky.run: gtsam/base/tests/CMakeFiles/testCholesky.run.dir/rule
-
-.PHONY : testCholesky.run
-
-# fast build rule for target.
-testCholesky.run/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/base/tests/CMakeFiles/testCholesky.run.dir/build.make gtsam/base/tests/CMakeFiles/testCholesky.run.dir/build
-.PHONY : testCholesky.run/fast
-
-# Convenience name for target.
-gtsam/base/tests/CMakeFiles/testCholesky.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/base/tests/CMakeFiles/testCholesky.dir/rule
-.PHONY : gtsam/base/tests/CMakeFiles/testCholesky.dir/rule
-
-# Convenience name for target.
-testCholesky: gtsam/base/tests/CMakeFiles/testCholesky.dir/rule
-
-.PHONY : testCholesky
-
-# fast build rule for target.
-testCholesky/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/base/tests/CMakeFiles/testCholesky.dir/build.make gtsam/base/tests/CMakeFiles/testCholesky.dir/build
-.PHONY : testCholesky/fast
-
-# Convenience name for target.
-gtsam/base/tests/CMakeFiles/testVector.valgrind.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/base/tests/CMakeFiles/testVector.valgrind.dir/rule
-.PHONY : gtsam/base/tests/CMakeFiles/testVector.valgrind.dir/rule
-
-# Convenience name for target.
-testVector.valgrind: gtsam/base/tests/CMakeFiles/testVector.valgrind.dir/rule
-
-.PHONY : testVector.valgrind
-
-# fast build rule for target.
-testVector.valgrind/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/base/tests/CMakeFiles/testVector.valgrind.dir/build.make gtsam/base/tests/CMakeFiles/testVector.valgrind.dir/build
-.PHONY : testVector.valgrind/fast
-
-# Convenience name for target.
-gtsam/base/tests/CMakeFiles/testTreeTraversal.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/base/tests/CMakeFiles/testTreeTraversal.dir/rule
-.PHONY : gtsam/base/tests/CMakeFiles/testTreeTraversal.dir/rule
-
-# Convenience name for target.
-testTreeTraversal: gtsam/base/tests/CMakeFiles/testTreeTraversal.dir/rule
-
-.PHONY : testTreeTraversal
-
-# fast build rule for target.
-testTreeTraversal/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/base/tests/CMakeFiles/testTreeTraversal.dir/build.make gtsam/base/tests/CMakeFiles/testTreeTraversal.dir/build
-.PHONY : testTreeTraversal/fast
-
-# Convenience name for target.
-gtsam/base/tests/CMakeFiles/testFastContainers.run.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/base/tests/CMakeFiles/testFastContainers.run.dir/rule
-.PHONY : gtsam/base/tests/CMakeFiles/testFastContainers.run.dir/rule
-
-# Convenience name for target.
-testFastContainers.run: gtsam/base/tests/CMakeFiles/testFastContainers.run.dir/rule
-
-.PHONY : testFastContainers.run
-
-# fast build rule for target.
-testFastContainers.run/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/base/tests/CMakeFiles/testFastContainers.run.dir/build.make gtsam/base/tests/CMakeFiles/testFastContainers.run.dir/build
-.PHONY : testFastContainers.run/fast
-
-# Convenience name for target.
-gtsam/base/tests/CMakeFiles/check.base.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/base/tests/CMakeFiles/check.base.dir/rule
-.PHONY : gtsam/base/tests/CMakeFiles/check.base.dir/rule
-
-# Convenience name for target.
-check.base: gtsam/base/tests/CMakeFiles/check.base.dir/rule
-
-.PHONY : check.base
-
-# fast build rule for target.
-check.base/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/base/tests/CMakeFiles/check.base.dir/build.make gtsam/base/tests/CMakeFiles/check.base.dir/build
-.PHONY : check.base/fast
-
-# Convenience name for target.
-gtsam/base/tests/CMakeFiles/testFastContainers.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/base/tests/CMakeFiles/testFastContainers.dir/rule
-.PHONY : gtsam/base/tests/CMakeFiles/testFastContainers.dir/rule
-
-# Convenience name for target.
-testFastContainers: gtsam/base/tests/CMakeFiles/testFastContainers.dir/rule
-
-.PHONY : testFastContainers
-
-# fast build rule for target.
-testFastContainers/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/base/tests/CMakeFiles/testFastContainers.dir/build.make gtsam/base/tests/CMakeFiles/testFastContainers.dir/build
-.PHONY : testFastContainers/fast
+testLieMatrix.valgrind/fast:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/base/tests/CMakeFiles/testLieMatrix.valgrind.dir/build.make gtsam/base/tests/CMakeFiles/testLieMatrix.valgrind.dir/build
+.PHONY : testLieMatrix.valgrind/fast
 
 # Convenience name for target.
 gtsam/base/tests/CMakeFiles/testFastContainers.valgrind.dir/rule:
@@ -745,49 +235,34 @@ testFastContainers.valgrind/fast:
 .PHONY : testFastContainers.valgrind/fast
 
 # Convenience name for target.
-gtsam/base/tests/CMakeFiles/testOptionalJacobian.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/base/tests/CMakeFiles/testOptionalJacobian.dir/rule
-.PHONY : gtsam/base/tests/CMakeFiles/testOptionalJacobian.dir/rule
+gtsam/base/tests/CMakeFiles/testLieMatrix.dir/rule:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/base/tests/CMakeFiles/testLieMatrix.dir/rule
+.PHONY : gtsam/base/tests/CMakeFiles/testLieMatrix.dir/rule
 
 # Convenience name for target.
-testOptionalJacobian: gtsam/base/tests/CMakeFiles/testOptionalJacobian.dir/rule
+testLieMatrix: gtsam/base/tests/CMakeFiles/testLieMatrix.dir/rule
 
-.PHONY : testOptionalJacobian
+.PHONY : testLieMatrix
 
 # fast build rule for target.
-testOptionalJacobian/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/base/tests/CMakeFiles/testOptionalJacobian.dir/build.make gtsam/base/tests/CMakeFiles/testOptionalJacobian.dir/build
-.PHONY : testOptionalJacobian/fast
+testLieMatrix/fast:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/base/tests/CMakeFiles/testLieMatrix.dir/build.make gtsam/base/tests/CMakeFiles/testLieMatrix.dir/build
+.PHONY : testLieMatrix/fast
 
 # Convenience name for target.
-gtsam/base/tests/CMakeFiles/testGroup.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/base/tests/CMakeFiles/testGroup.dir/rule
-.PHONY : gtsam/base/tests/CMakeFiles/testGroup.dir/rule
+gtsam/base/tests/CMakeFiles/testDSFMap.valgrind.dir/rule:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/base/tests/CMakeFiles/testDSFMap.valgrind.dir/rule
+.PHONY : gtsam/base/tests/CMakeFiles/testDSFMap.valgrind.dir/rule
 
 # Convenience name for target.
-testGroup: gtsam/base/tests/CMakeFiles/testGroup.dir/rule
+testDSFMap.valgrind: gtsam/base/tests/CMakeFiles/testDSFMap.valgrind.dir/rule
 
-.PHONY : testGroup
+.PHONY : testDSFMap.valgrind
 
 # fast build rule for target.
-testGroup/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/base/tests/CMakeFiles/testGroup.dir/build.make gtsam/base/tests/CMakeFiles/testGroup.dir/build
-.PHONY : testGroup/fast
-
-# Convenience name for target.
-gtsam/base/tests/CMakeFiles/testNumericalDerivative.valgrind.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/base/tests/CMakeFiles/testNumericalDerivative.valgrind.dir/rule
-.PHONY : gtsam/base/tests/CMakeFiles/testNumericalDerivative.valgrind.dir/rule
-
-# Convenience name for target.
-testNumericalDerivative.valgrind: gtsam/base/tests/CMakeFiles/testNumericalDerivative.valgrind.dir/rule
-
-.PHONY : testNumericalDerivative.valgrind
-
-# fast build rule for target.
-testNumericalDerivative.valgrind/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/base/tests/CMakeFiles/testNumericalDerivative.valgrind.dir/build.make gtsam/base/tests/CMakeFiles/testNumericalDerivative.valgrind.dir/build
-.PHONY : testNumericalDerivative.valgrind/fast
+testDSFMap.valgrind/fast:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/base/tests/CMakeFiles/testDSFMap.valgrind.dir/build.make gtsam/base/tests/CMakeFiles/testDSFMap.valgrind.dir/build
+.PHONY : testDSFMap.valgrind/fast
 
 # Convenience name for target.
 gtsam/base/tests/CMakeFiles/testGroup.run.dir/rule:
@@ -805,19 +280,394 @@ testGroup.run/fast:
 .PHONY : testGroup.run/fast
 
 # Convenience name for target.
-gtsam/base/tests/CMakeFiles/testSerializationBase.valgrind.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/base/tests/CMakeFiles/testSerializationBase.valgrind.dir/rule
-.PHONY : gtsam/base/tests/CMakeFiles/testSerializationBase.valgrind.dir/rule
+gtsam/base/tests/CMakeFiles/testGroup.dir/rule:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/base/tests/CMakeFiles/testGroup.dir/rule
+.PHONY : gtsam/base/tests/CMakeFiles/testGroup.dir/rule
 
 # Convenience name for target.
-testSerializationBase.valgrind: gtsam/base/tests/CMakeFiles/testSerializationBase.valgrind.dir/rule
+testGroup: gtsam/base/tests/CMakeFiles/testGroup.dir/rule
 
-.PHONY : testSerializationBase.valgrind
+.PHONY : testGroup
 
 # fast build rule for target.
-testSerializationBase.valgrind/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/base/tests/CMakeFiles/testSerializationBase.valgrind.dir/build.make gtsam/base/tests/CMakeFiles/testSerializationBase.valgrind.dir/build
-.PHONY : testSerializationBase.valgrind/fast
+testGroup/fast:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/base/tests/CMakeFiles/testGroup.dir/build.make gtsam/base/tests/CMakeFiles/testGroup.dir/build
+.PHONY : testGroup/fast
+
+# Convenience name for target.
+gtsam/base/tests/CMakeFiles/testOptionalJacobian.dir/rule:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/base/tests/CMakeFiles/testOptionalJacobian.dir/rule
+.PHONY : gtsam/base/tests/CMakeFiles/testOptionalJacobian.dir/rule
+
+# Convenience name for target.
+testOptionalJacobian: gtsam/base/tests/CMakeFiles/testOptionalJacobian.dir/rule
+
+.PHONY : testOptionalJacobian
+
+# fast build rule for target.
+testOptionalJacobian/fast:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/base/tests/CMakeFiles/testOptionalJacobian.dir/build.make gtsam/base/tests/CMakeFiles/testOptionalJacobian.dir/build
+.PHONY : testOptionalJacobian/fast
+
+# Convenience name for target.
+gtsam/base/tests/CMakeFiles/check.base.dir/rule:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/base/tests/CMakeFiles/check.base.dir/rule
+.PHONY : gtsam/base/tests/CMakeFiles/check.base.dir/rule
+
+# Convenience name for target.
+check.base: gtsam/base/tests/CMakeFiles/check.base.dir/rule
+
+.PHONY : check.base
+
+# fast build rule for target.
+check.base/fast:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/base/tests/CMakeFiles/check.base.dir/build.make gtsam/base/tests/CMakeFiles/check.base.dir/build
+.PHONY : check.base/fast
+
+# Convenience name for target.
+gtsam/base/tests/CMakeFiles/testFastContainers.run.dir/rule:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/base/tests/CMakeFiles/testFastContainers.run.dir/rule
+.PHONY : gtsam/base/tests/CMakeFiles/testFastContainers.run.dir/rule
+
+# Convenience name for target.
+testFastContainers.run: gtsam/base/tests/CMakeFiles/testFastContainers.run.dir/rule
+
+.PHONY : testFastContainers.run
+
+# fast build rule for target.
+testFastContainers.run/fast:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/base/tests/CMakeFiles/testFastContainers.run.dir/build.make gtsam/base/tests/CMakeFiles/testFastContainers.run.dir/build
+.PHONY : testFastContainers.run/fast
+
+# Convenience name for target.
+gtsam/base/tests/CMakeFiles/testTestableAssertions.valgrind.dir/rule:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/base/tests/CMakeFiles/testTestableAssertions.valgrind.dir/rule
+.PHONY : gtsam/base/tests/CMakeFiles/testTestableAssertions.valgrind.dir/rule
+
+# Convenience name for target.
+testTestableAssertions.valgrind: gtsam/base/tests/CMakeFiles/testTestableAssertions.valgrind.dir/rule
+
+.PHONY : testTestableAssertions.valgrind
+
+# fast build rule for target.
+testTestableAssertions.valgrind/fast:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/base/tests/CMakeFiles/testTestableAssertions.valgrind.dir/build.make gtsam/base/tests/CMakeFiles/testTestableAssertions.valgrind.dir/build
+.PHONY : testTestableAssertions.valgrind/fast
+
+# Convenience name for target.
+gtsam/base/tests/CMakeFiles/testDebug.dir/rule:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/base/tests/CMakeFiles/testDebug.dir/rule
+.PHONY : gtsam/base/tests/CMakeFiles/testDebug.dir/rule
+
+# Convenience name for target.
+testDebug: gtsam/base/tests/CMakeFiles/testDebug.dir/rule
+
+.PHONY : testDebug
+
+# fast build rule for target.
+testDebug/fast:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/base/tests/CMakeFiles/testDebug.dir/build.make gtsam/base/tests/CMakeFiles/testDebug.dir/build
+.PHONY : testDebug/fast
+
+# Convenience name for target.
+gtsam/base/tests/CMakeFiles/testTreeTraversal.dir/rule:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/base/tests/CMakeFiles/testTreeTraversal.dir/rule
+.PHONY : gtsam/base/tests/CMakeFiles/testTreeTraversal.dir/rule
+
+# Convenience name for target.
+testTreeTraversal: gtsam/base/tests/CMakeFiles/testTreeTraversal.dir/rule
+
+.PHONY : testTreeTraversal
+
+# fast build rule for target.
+testTreeTraversal/fast:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/base/tests/CMakeFiles/testTreeTraversal.dir/build.make gtsam/base/tests/CMakeFiles/testTreeTraversal.dir/build
+.PHONY : testTreeTraversal/fast
+
+# Convenience name for target.
+gtsam/base/tests/CMakeFiles/testVector.valgrind.dir/rule:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/base/tests/CMakeFiles/testVector.valgrind.dir/rule
+.PHONY : gtsam/base/tests/CMakeFiles/testVector.valgrind.dir/rule
+
+# Convenience name for target.
+testVector.valgrind: gtsam/base/tests/CMakeFiles/testVector.valgrind.dir/rule
+
+.PHONY : testVector.valgrind
+
+# fast build rule for target.
+testVector.valgrind/fast:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/base/tests/CMakeFiles/testVector.valgrind.dir/build.make gtsam/base/tests/CMakeFiles/testVector.valgrind.dir/build
+.PHONY : testVector.valgrind/fast
+
+# Convenience name for target.
+gtsam/base/tests/CMakeFiles/testCholesky.dir/rule:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/base/tests/CMakeFiles/testCholesky.dir/rule
+.PHONY : gtsam/base/tests/CMakeFiles/testCholesky.dir/rule
+
+# Convenience name for target.
+testCholesky: gtsam/base/tests/CMakeFiles/testCholesky.dir/rule
+
+.PHONY : testCholesky
+
+# fast build rule for target.
+testCholesky/fast:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/base/tests/CMakeFiles/testCholesky.dir/build.make gtsam/base/tests/CMakeFiles/testCholesky.dir/build
+.PHONY : testCholesky/fast
+
+# Convenience name for target.
+gtsam/base/tests/CMakeFiles/testLieScalar.valgrind.dir/rule:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/base/tests/CMakeFiles/testLieScalar.valgrind.dir/rule
+.PHONY : gtsam/base/tests/CMakeFiles/testLieScalar.valgrind.dir/rule
+
+# Convenience name for target.
+testLieScalar.valgrind: gtsam/base/tests/CMakeFiles/testLieScalar.valgrind.dir/rule
+
+.PHONY : testLieScalar.valgrind
+
+# fast build rule for target.
+testLieScalar.valgrind/fast:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/base/tests/CMakeFiles/testLieScalar.valgrind.dir/build.make gtsam/base/tests/CMakeFiles/testLieScalar.valgrind.dir/build
+.PHONY : testLieScalar.valgrind/fast
+
+# Convenience name for target.
+gtsam/base/tests/CMakeFiles/testLieVector.dir/rule:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/base/tests/CMakeFiles/testLieVector.dir/rule
+.PHONY : gtsam/base/tests/CMakeFiles/testLieVector.dir/rule
+
+# Convenience name for target.
+testLieVector: gtsam/base/tests/CMakeFiles/testLieVector.dir/rule
+
+.PHONY : testLieVector
+
+# fast build rule for target.
+testLieVector/fast:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/base/tests/CMakeFiles/testLieVector.dir/build.make gtsam/base/tests/CMakeFiles/testLieVector.dir/build
+.PHONY : testLieVector/fast
+
+# Convenience name for target.
+gtsam/base/tests/CMakeFiles/testVector.dir/rule:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/base/tests/CMakeFiles/testVector.dir/rule
+.PHONY : gtsam/base/tests/CMakeFiles/testVector.dir/rule
+
+# Convenience name for target.
+testVector: gtsam/base/tests/CMakeFiles/testVector.dir/rule
+
+.PHONY : testVector
+
+# fast build rule for target.
+testVector/fast:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/base/tests/CMakeFiles/testVector.dir/build.make gtsam/base/tests/CMakeFiles/testVector.dir/build
+.PHONY : testVector/fast
+
+# Convenience name for target.
+gtsam/base/tests/CMakeFiles/testDSFMap.dir/rule:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/base/tests/CMakeFiles/testDSFMap.dir/rule
+.PHONY : gtsam/base/tests/CMakeFiles/testDSFMap.dir/rule
+
+# Convenience name for target.
+testDSFMap: gtsam/base/tests/CMakeFiles/testDSFMap.dir/rule
+
+.PHONY : testDSFMap
+
+# fast build rule for target.
+testDSFMap/fast:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/base/tests/CMakeFiles/testDSFMap.dir/build.make gtsam/base/tests/CMakeFiles/testDSFMap.dir/build
+.PHONY : testDSFMap/fast
+
+# Convenience name for target.
+gtsam/base/tests/CMakeFiles/testDSFVector.run.dir/rule:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/base/tests/CMakeFiles/testDSFVector.run.dir/rule
+.PHONY : gtsam/base/tests/CMakeFiles/testDSFVector.run.dir/rule
+
+# Convenience name for target.
+testDSFVector.run: gtsam/base/tests/CMakeFiles/testDSFVector.run.dir/rule
+
+.PHONY : testDSFVector.run
+
+# fast build rule for target.
+testDSFVector.run/fast:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/base/tests/CMakeFiles/testDSFVector.run.dir/build.make gtsam/base/tests/CMakeFiles/testDSFVector.run.dir/build
+.PHONY : testDSFVector.run/fast
+
+# Convenience name for target.
+gtsam/base/tests/CMakeFiles/testCholesky.valgrind.dir/rule:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/base/tests/CMakeFiles/testCholesky.valgrind.dir/rule
+.PHONY : gtsam/base/tests/CMakeFiles/testCholesky.valgrind.dir/rule
+
+# Convenience name for target.
+testCholesky.valgrind: gtsam/base/tests/CMakeFiles/testCholesky.valgrind.dir/rule
+
+.PHONY : testCholesky.valgrind
+
+# fast build rule for target.
+testCholesky.valgrind/fast:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/base/tests/CMakeFiles/testCholesky.valgrind.dir/build.make gtsam/base/tests/CMakeFiles/testCholesky.valgrind.dir/build
+.PHONY : testCholesky.valgrind/fast
+
+# Convenience name for target.
+gtsam/base/tests/CMakeFiles/testDSFVector.dir/rule:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/base/tests/CMakeFiles/testDSFVector.dir/rule
+.PHONY : gtsam/base/tests/CMakeFiles/testDSFVector.dir/rule
+
+# Convenience name for target.
+testDSFVector: gtsam/base/tests/CMakeFiles/testDSFVector.dir/rule
+
+.PHONY : testDSFVector
+
+# fast build rule for target.
+testDSFVector/fast:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/base/tests/CMakeFiles/testDSFVector.dir/build.make gtsam/base/tests/CMakeFiles/testDSFVector.dir/build
+.PHONY : testDSFVector/fast
+
+# Convenience name for target.
+gtsam/base/tests/CMakeFiles/testDebug.valgrind.dir/rule:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/base/tests/CMakeFiles/testDebug.valgrind.dir/rule
+.PHONY : gtsam/base/tests/CMakeFiles/testDebug.valgrind.dir/rule
+
+# Convenience name for target.
+testDebug.valgrind: gtsam/base/tests/CMakeFiles/testDebug.valgrind.dir/rule
+
+.PHONY : testDebug.valgrind
+
+# fast build rule for target.
+testDebug.valgrind/fast:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/base/tests/CMakeFiles/testDebug.valgrind.dir/build.make gtsam/base/tests/CMakeFiles/testDebug.valgrind.dir/build
+.PHONY : testDebug.valgrind/fast
+
+# Convenience name for target.
+gtsam/base/tests/CMakeFiles/testVerticalBlockMatrix.run.dir/rule:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/base/tests/CMakeFiles/testVerticalBlockMatrix.run.dir/rule
+.PHONY : gtsam/base/tests/CMakeFiles/testVerticalBlockMatrix.run.dir/rule
+
+# Convenience name for target.
+testVerticalBlockMatrix.run: gtsam/base/tests/CMakeFiles/testVerticalBlockMatrix.run.dir/rule
+
+.PHONY : testVerticalBlockMatrix.run
+
+# fast build rule for target.
+testVerticalBlockMatrix.run/fast:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/base/tests/CMakeFiles/testVerticalBlockMatrix.run.dir/build.make gtsam/base/tests/CMakeFiles/testVerticalBlockMatrix.run.dir/build
+.PHONY : testVerticalBlockMatrix.run/fast
+
+# Convenience name for target.
+gtsam/base/tests/CMakeFiles/testLieScalar.dir/rule:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/base/tests/CMakeFiles/testLieScalar.dir/rule
+.PHONY : gtsam/base/tests/CMakeFiles/testLieScalar.dir/rule
+
+# Convenience name for target.
+testLieScalar: gtsam/base/tests/CMakeFiles/testLieScalar.dir/rule
+
+.PHONY : testLieScalar
+
+# fast build rule for target.
+testLieScalar/fast:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/base/tests/CMakeFiles/testLieScalar.dir/build.make gtsam/base/tests/CMakeFiles/testLieScalar.dir/build
+.PHONY : testLieScalar/fast
+
+# Convenience name for target.
+gtsam/base/tests/CMakeFiles/testDSFVector.valgrind.dir/rule:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/base/tests/CMakeFiles/testDSFVector.valgrind.dir/rule
+.PHONY : gtsam/base/tests/CMakeFiles/testDSFVector.valgrind.dir/rule
+
+# Convenience name for target.
+testDSFVector.valgrind: gtsam/base/tests/CMakeFiles/testDSFVector.valgrind.dir/rule
+
+.PHONY : testDSFVector.valgrind
+
+# fast build rule for target.
+testDSFVector.valgrind/fast:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/base/tests/CMakeFiles/testDSFVector.valgrind.dir/build.make gtsam/base/tests/CMakeFiles/testDSFVector.valgrind.dir/build
+.PHONY : testDSFVector.valgrind/fast
+
+# Convenience name for target.
+gtsam/base/tests/CMakeFiles/testSerializationBase.dir/rule:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/base/tests/CMakeFiles/testSerializationBase.dir/rule
+.PHONY : gtsam/base/tests/CMakeFiles/testSerializationBase.dir/rule
+
+# Convenience name for target.
+testSerializationBase: gtsam/base/tests/CMakeFiles/testSerializationBase.dir/rule
+
+.PHONY : testSerializationBase
+
+# fast build rule for target.
+testSerializationBase/fast:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/base/tests/CMakeFiles/testSerializationBase.dir/build.make gtsam/base/tests/CMakeFiles/testSerializationBase.dir/build
+.PHONY : testSerializationBase/fast
+
+# Convenience name for target.
+gtsam/base/tests/CMakeFiles/testVerticalBlockMatrix.valgrind.dir/rule:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/base/tests/CMakeFiles/testVerticalBlockMatrix.valgrind.dir/rule
+.PHONY : gtsam/base/tests/CMakeFiles/testVerticalBlockMatrix.valgrind.dir/rule
+
+# Convenience name for target.
+testVerticalBlockMatrix.valgrind: gtsam/base/tests/CMakeFiles/testVerticalBlockMatrix.valgrind.dir/rule
+
+.PHONY : testVerticalBlockMatrix.valgrind
+
+# fast build rule for target.
+testVerticalBlockMatrix.valgrind/fast:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/base/tests/CMakeFiles/testVerticalBlockMatrix.valgrind.dir/build.make gtsam/base/tests/CMakeFiles/testVerticalBlockMatrix.valgrind.dir/build
+.PHONY : testVerticalBlockMatrix.valgrind/fast
+
+# Convenience name for target.
+gtsam/base/tests/CMakeFiles/testLieVector.run.dir/rule:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/base/tests/CMakeFiles/testLieVector.run.dir/rule
+.PHONY : gtsam/base/tests/CMakeFiles/testLieVector.run.dir/rule
+
+# Convenience name for target.
+testLieVector.run: gtsam/base/tests/CMakeFiles/testLieVector.run.dir/rule
+
+.PHONY : testLieVector.run
+
+# fast build rule for target.
+testLieVector.run/fast:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/base/tests/CMakeFiles/testLieVector.run.dir/build.make gtsam/base/tests/CMakeFiles/testLieVector.run.dir/build
+.PHONY : testLieVector.run/fast
+
+# Convenience name for target.
+gtsam/base/tests/CMakeFiles/testDebug.run.dir/rule:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/base/tests/CMakeFiles/testDebug.run.dir/rule
+.PHONY : gtsam/base/tests/CMakeFiles/testDebug.run.dir/rule
+
+# Convenience name for target.
+testDebug.run: gtsam/base/tests/CMakeFiles/testDebug.run.dir/rule
+
+.PHONY : testDebug.run
+
+# fast build rule for target.
+testDebug.run/fast:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/base/tests/CMakeFiles/testDebug.run.dir/build.make gtsam/base/tests/CMakeFiles/testDebug.run.dir/build
+.PHONY : testDebug.run/fast
+
+# Convenience name for target.
+gtsam/base/tests/CMakeFiles/testTreeTraversal.valgrind.dir/rule:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/base/tests/CMakeFiles/testTreeTraversal.valgrind.dir/rule
+.PHONY : gtsam/base/tests/CMakeFiles/testTreeTraversal.valgrind.dir/rule
+
+# Convenience name for target.
+testTreeTraversal.valgrind: gtsam/base/tests/CMakeFiles/testTreeTraversal.valgrind.dir/rule
+
+.PHONY : testTreeTraversal.valgrind
+
+# fast build rule for target.
+testTreeTraversal.valgrind/fast:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/base/tests/CMakeFiles/testTreeTraversal.valgrind.dir/build.make gtsam/base/tests/CMakeFiles/testTreeTraversal.valgrind.dir/build
+.PHONY : testTreeTraversal.valgrind/fast
+
+# Convenience name for target.
+gtsam/base/tests/CMakeFiles/testLieMatrix.run.dir/rule:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/base/tests/CMakeFiles/testLieMatrix.run.dir/rule
+.PHONY : gtsam/base/tests/CMakeFiles/testLieMatrix.run.dir/rule
+
+# Convenience name for target.
+testLieMatrix.run: gtsam/base/tests/CMakeFiles/testLieMatrix.run.dir/rule
+
+.PHONY : testLieMatrix.run
+
+# fast build rule for target.
+testLieMatrix.run/fast:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/base/tests/CMakeFiles/testLieMatrix.run.dir/build.make gtsam/base/tests/CMakeFiles/testLieMatrix.run.dir/build
+.PHONY : testLieMatrix.run/fast
 
 # Convenience name for target.
 gtsam/base/tests/CMakeFiles/testMatrix.valgrind.dir/rule:
@@ -835,6 +685,51 @@ testMatrix.valgrind/fast:
 .PHONY : testMatrix.valgrind/fast
 
 # Convenience name for target.
+gtsam/base/tests/CMakeFiles/testSerializationBase.valgrind.dir/rule:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/base/tests/CMakeFiles/testSerializationBase.valgrind.dir/rule
+.PHONY : gtsam/base/tests/CMakeFiles/testSerializationBase.valgrind.dir/rule
+
+# Convenience name for target.
+testSerializationBase.valgrind: gtsam/base/tests/CMakeFiles/testSerializationBase.valgrind.dir/rule
+
+.PHONY : testSerializationBase.valgrind
+
+# fast build rule for target.
+testSerializationBase.valgrind/fast:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/base/tests/CMakeFiles/testSerializationBase.valgrind.dir/build.make gtsam/base/tests/CMakeFiles/testSerializationBase.valgrind.dir/build
+.PHONY : testSerializationBase.valgrind/fast
+
+# Convenience name for target.
+gtsam/base/tests/CMakeFiles/testSerializationBase.run.dir/rule:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/base/tests/CMakeFiles/testSerializationBase.run.dir/rule
+.PHONY : gtsam/base/tests/CMakeFiles/testSerializationBase.run.dir/rule
+
+# Convenience name for target.
+testSerializationBase.run: gtsam/base/tests/CMakeFiles/testSerializationBase.run.dir/rule
+
+.PHONY : testSerializationBase.run
+
+# fast build rule for target.
+testSerializationBase.run/fast:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/base/tests/CMakeFiles/testSerializationBase.run.dir/build.make gtsam/base/tests/CMakeFiles/testSerializationBase.run.dir/build
+.PHONY : testSerializationBase.run/fast
+
+# Convenience name for target.
+gtsam/base/tests/CMakeFiles/testVerticalBlockMatrix.dir/rule:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/base/tests/CMakeFiles/testVerticalBlockMatrix.dir/rule
+.PHONY : gtsam/base/tests/CMakeFiles/testVerticalBlockMatrix.dir/rule
+
+# Convenience name for target.
+testVerticalBlockMatrix: gtsam/base/tests/CMakeFiles/testVerticalBlockMatrix.dir/rule
+
+.PHONY : testVerticalBlockMatrix
+
+# fast build rule for target.
+testVerticalBlockMatrix/fast:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/base/tests/CMakeFiles/testVerticalBlockMatrix.dir/build.make gtsam/base/tests/CMakeFiles/testVerticalBlockMatrix.dir/build
+.PHONY : testVerticalBlockMatrix/fast
+
+# Convenience name for target.
 gtsam/base/tests/CMakeFiles/testNumericalDerivative.run.dir/rule:
 	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/base/tests/CMakeFiles/testNumericalDerivative.run.dir/rule
 .PHONY : gtsam/base/tests/CMakeFiles/testNumericalDerivative.run.dir/rule
@@ -848,6 +743,21 @@ testNumericalDerivative.run: gtsam/base/tests/CMakeFiles/testNumericalDerivative
 testNumericalDerivative.run/fast:
 	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/base/tests/CMakeFiles/testNumericalDerivative.run.dir/build.make gtsam/base/tests/CMakeFiles/testNumericalDerivative.run.dir/build
 .PHONY : testNumericalDerivative.run/fast
+
+# Convenience name for target.
+gtsam/base/tests/CMakeFiles/testNumericalDerivative.valgrind.dir/rule:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/base/tests/CMakeFiles/testNumericalDerivative.valgrind.dir/rule
+.PHONY : gtsam/base/tests/CMakeFiles/testNumericalDerivative.valgrind.dir/rule
+
+# Convenience name for target.
+testNumericalDerivative.valgrind: gtsam/base/tests/CMakeFiles/testNumericalDerivative.valgrind.dir/rule
+
+.PHONY : testNumericalDerivative.valgrind
+
+# fast build rule for target.
+testNumericalDerivative.valgrind/fast:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/base/tests/CMakeFiles/testNumericalDerivative.valgrind.dir/build.make gtsam/base/tests/CMakeFiles/testNumericalDerivative.valgrind.dir/build
+.PHONY : testNumericalDerivative.valgrind/fast
 
 # Convenience name for target.
 gtsam/base/tests/CMakeFiles/testOptionalJacobian.run.dir/rule:
@@ -878,6 +788,276 @@ testOptionalJacobian.valgrind: gtsam/base/tests/CMakeFiles/testOptionalJacobian.
 testOptionalJacobian.valgrind/fast:
 	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/base/tests/CMakeFiles/testOptionalJacobian.valgrind.dir/build.make gtsam/base/tests/CMakeFiles/testOptionalJacobian.valgrind.dir/build
 .PHONY : testOptionalJacobian.valgrind/fast
+
+# Convenience name for target.
+gtsam/base/tests/CMakeFiles/testCholesky.run.dir/rule:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/base/tests/CMakeFiles/testCholesky.run.dir/rule
+.PHONY : gtsam/base/tests/CMakeFiles/testCholesky.run.dir/rule
+
+# Convenience name for target.
+testCholesky.run: gtsam/base/tests/CMakeFiles/testCholesky.run.dir/rule
+
+.PHONY : testCholesky.run
+
+# fast build rule for target.
+testCholesky.run/fast:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/base/tests/CMakeFiles/testCholesky.run.dir/build.make gtsam/base/tests/CMakeFiles/testCholesky.run.dir/build
+.PHONY : testCholesky.run/fast
+
+# Convenience name for target.
+gtsam/base/tests/CMakeFiles/testNumericalDerivative.dir/rule:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/base/tests/CMakeFiles/testNumericalDerivative.dir/rule
+.PHONY : gtsam/base/tests/CMakeFiles/testNumericalDerivative.dir/rule
+
+# Convenience name for target.
+testNumericalDerivative: gtsam/base/tests/CMakeFiles/testNumericalDerivative.dir/rule
+
+.PHONY : testNumericalDerivative
+
+# fast build rule for target.
+testNumericalDerivative/fast:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/base/tests/CMakeFiles/testNumericalDerivative.dir/build.make gtsam/base/tests/CMakeFiles/testNumericalDerivative.dir/build
+.PHONY : testNumericalDerivative/fast
+
+# Convenience name for target.
+gtsam/base/tests/CMakeFiles/testSymmetricBlockMatrix.dir/rule:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/base/tests/CMakeFiles/testSymmetricBlockMatrix.dir/rule
+.PHONY : gtsam/base/tests/CMakeFiles/testSymmetricBlockMatrix.dir/rule
+
+# Convenience name for target.
+testSymmetricBlockMatrix: gtsam/base/tests/CMakeFiles/testSymmetricBlockMatrix.dir/rule
+
+.PHONY : testSymmetricBlockMatrix
+
+# fast build rule for target.
+testSymmetricBlockMatrix/fast:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/base/tests/CMakeFiles/testSymmetricBlockMatrix.dir/build.make gtsam/base/tests/CMakeFiles/testSymmetricBlockMatrix.dir/build
+.PHONY : testSymmetricBlockMatrix/fast
+
+# Convenience name for target.
+gtsam/base/tests/CMakeFiles/testLieScalar.run.dir/rule:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/base/tests/CMakeFiles/testLieScalar.run.dir/rule
+.PHONY : gtsam/base/tests/CMakeFiles/testLieScalar.run.dir/rule
+
+# Convenience name for target.
+testLieScalar.run: gtsam/base/tests/CMakeFiles/testLieScalar.run.dir/rule
+
+.PHONY : testLieScalar.run
+
+# fast build rule for target.
+testLieScalar.run/fast:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/base/tests/CMakeFiles/testLieScalar.run.dir/build.make gtsam/base/tests/CMakeFiles/testLieScalar.run.dir/build
+.PHONY : testLieScalar.run/fast
+
+# Convenience name for target.
+gtsam/base/tests/CMakeFiles/testSymmetricBlockMatrix.run.dir/rule:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/base/tests/CMakeFiles/testSymmetricBlockMatrix.run.dir/rule
+.PHONY : gtsam/base/tests/CMakeFiles/testSymmetricBlockMatrix.run.dir/rule
+
+# Convenience name for target.
+testSymmetricBlockMatrix.run: gtsam/base/tests/CMakeFiles/testSymmetricBlockMatrix.run.dir/rule
+
+.PHONY : testSymmetricBlockMatrix.run
+
+# fast build rule for target.
+testSymmetricBlockMatrix.run/fast:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/base/tests/CMakeFiles/testSymmetricBlockMatrix.run.dir/build.make gtsam/base/tests/CMakeFiles/testSymmetricBlockMatrix.run.dir/build
+.PHONY : testSymmetricBlockMatrix.run/fast
+
+# Convenience name for target.
+gtsam/base/tests/CMakeFiles/testGroup.valgrind.dir/rule:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/base/tests/CMakeFiles/testGroup.valgrind.dir/rule
+.PHONY : gtsam/base/tests/CMakeFiles/testGroup.valgrind.dir/rule
+
+# Convenience name for target.
+testGroup.valgrind: gtsam/base/tests/CMakeFiles/testGroup.valgrind.dir/rule
+
+.PHONY : testGroup.valgrind
+
+# fast build rule for target.
+testGroup.valgrind/fast:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/base/tests/CMakeFiles/testGroup.valgrind.dir/build.make gtsam/base/tests/CMakeFiles/testGroup.valgrind.dir/build
+.PHONY : testGroup.valgrind/fast
+
+# Convenience name for target.
+gtsam/base/tests/CMakeFiles/testSymmetricBlockMatrix.valgrind.dir/rule:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/base/tests/CMakeFiles/testSymmetricBlockMatrix.valgrind.dir/rule
+.PHONY : gtsam/base/tests/CMakeFiles/testSymmetricBlockMatrix.valgrind.dir/rule
+
+# Convenience name for target.
+testSymmetricBlockMatrix.valgrind: gtsam/base/tests/CMakeFiles/testSymmetricBlockMatrix.valgrind.dir/rule
+
+.PHONY : testSymmetricBlockMatrix.valgrind
+
+# fast build rule for target.
+testSymmetricBlockMatrix.valgrind/fast:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/base/tests/CMakeFiles/testSymmetricBlockMatrix.valgrind.dir/build.make gtsam/base/tests/CMakeFiles/testSymmetricBlockMatrix.valgrind.dir/build
+.PHONY : testSymmetricBlockMatrix.valgrind/fast
+
+# Convenience name for target.
+gtsam/base/tests/CMakeFiles/testTestableAssertions.dir/rule:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/base/tests/CMakeFiles/testTestableAssertions.dir/rule
+.PHONY : gtsam/base/tests/CMakeFiles/testTestableAssertions.dir/rule
+
+# Convenience name for target.
+testTestableAssertions: gtsam/base/tests/CMakeFiles/testTestableAssertions.dir/rule
+
+.PHONY : testTestableAssertions
+
+# fast build rule for target.
+testTestableAssertions/fast:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/base/tests/CMakeFiles/testTestableAssertions.dir/build.make gtsam/base/tests/CMakeFiles/testTestableAssertions.dir/build
+.PHONY : testTestableAssertions/fast
+
+# Convenience name for target.
+gtsam/base/tests/CMakeFiles/testTreeTraversal.run.dir/rule:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/base/tests/CMakeFiles/testTreeTraversal.run.dir/rule
+.PHONY : gtsam/base/tests/CMakeFiles/testTreeTraversal.run.dir/rule
+
+# Convenience name for target.
+testTreeTraversal.run: gtsam/base/tests/CMakeFiles/testTreeTraversal.run.dir/rule
+
+.PHONY : testTreeTraversal.run
+
+# fast build rule for target.
+testTreeTraversal.run/fast:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/base/tests/CMakeFiles/testTreeTraversal.run.dir/build.make gtsam/base/tests/CMakeFiles/testTreeTraversal.run.dir/build
+.PHONY : testTreeTraversal.run/fast
+
+# Convenience name for target.
+gtsam/base/tests/CMakeFiles/testFastContainers.dir/rule:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/base/tests/CMakeFiles/testFastContainers.dir/rule
+.PHONY : gtsam/base/tests/CMakeFiles/testFastContainers.dir/rule
+
+# Convenience name for target.
+testFastContainers: gtsam/base/tests/CMakeFiles/testFastContainers.dir/rule
+
+.PHONY : testFastContainers
+
+# fast build rule for target.
+testFastContainers/fast:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/base/tests/CMakeFiles/testFastContainers.dir/build.make gtsam/base/tests/CMakeFiles/testFastContainers.dir/build
+.PHONY : testFastContainers/fast
+
+# Convenience name for target.
+gtsam/base/tests/CMakeFiles/testDSFMap.run.dir/rule:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/base/tests/CMakeFiles/testDSFMap.run.dir/rule
+.PHONY : gtsam/base/tests/CMakeFiles/testDSFMap.run.dir/rule
+
+# Convenience name for target.
+testDSFMap.run: gtsam/base/tests/CMakeFiles/testDSFMap.run.dir/rule
+
+.PHONY : testDSFMap.run
+
+# fast build rule for target.
+testDSFMap.run/fast:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/base/tests/CMakeFiles/testDSFMap.run.dir/build.make gtsam/base/tests/CMakeFiles/testDSFMap.run.dir/build
+.PHONY : testDSFMap.run/fast
+
+# Convenience name for target.
+gtsam/base/tests/CMakeFiles/testMatrix.dir/rule:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/base/tests/CMakeFiles/testMatrix.dir/rule
+.PHONY : gtsam/base/tests/CMakeFiles/testMatrix.dir/rule
+
+# Convenience name for target.
+testMatrix: gtsam/base/tests/CMakeFiles/testMatrix.dir/rule
+
+.PHONY : testMatrix
+
+# fast build rule for target.
+testMatrix/fast:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/base/tests/CMakeFiles/testMatrix.dir/build.make gtsam/base/tests/CMakeFiles/testMatrix.dir/build
+.PHONY : testMatrix/fast
+
+# Convenience name for target.
+gtsam/base/tests/CMakeFiles/testTestableAssertions.run.dir/rule:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/base/tests/CMakeFiles/testTestableAssertions.run.dir/rule
+.PHONY : gtsam/base/tests/CMakeFiles/testTestableAssertions.run.dir/rule
+
+# Convenience name for target.
+testTestableAssertions.run: gtsam/base/tests/CMakeFiles/testTestableAssertions.run.dir/rule
+
+.PHONY : testTestableAssertions.run
+
+# fast build rule for target.
+testTestableAssertions.run/fast:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/base/tests/CMakeFiles/testTestableAssertions.run.dir/build.make gtsam/base/tests/CMakeFiles/testTestableAssertions.run.dir/build
+.PHONY : testTestableAssertions.run/fast
+
+# Convenience name for target.
+gtsam/base/tests/CMakeFiles/testMatrix.run.dir/rule:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/base/tests/CMakeFiles/testMatrix.run.dir/rule
+.PHONY : gtsam/base/tests/CMakeFiles/testMatrix.run.dir/rule
+
+# Convenience name for target.
+testMatrix.run: gtsam/base/tests/CMakeFiles/testMatrix.run.dir/rule
+
+.PHONY : testMatrix.run
+
+# fast build rule for target.
+testMatrix.run/fast:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/base/tests/CMakeFiles/testMatrix.run.dir/build.make gtsam/base/tests/CMakeFiles/testMatrix.run.dir/build
+.PHONY : testMatrix.run/fast
+
+# Convenience name for target.
+gtsam/base/tests/CMakeFiles/testVector.run.dir/rule:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/base/tests/CMakeFiles/testVector.run.dir/rule
+.PHONY : gtsam/base/tests/CMakeFiles/testVector.run.dir/rule
+
+# Convenience name for target.
+testVector.run: gtsam/base/tests/CMakeFiles/testVector.run.dir/rule
+
+.PHONY : testVector.run
+
+# fast build rule for target.
+testVector.run/fast:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/base/tests/CMakeFiles/testVector.run.dir/build.make gtsam/base/tests/CMakeFiles/testVector.run.dir/build
+.PHONY : testVector.run/fast
+
+# Convenience name for target.
+gtsam/base/tests/CMakeFiles/testWeightedSampler.valgrind.dir/rule:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/base/tests/CMakeFiles/testWeightedSampler.valgrind.dir/rule
+.PHONY : gtsam/base/tests/CMakeFiles/testWeightedSampler.valgrind.dir/rule
+
+# Convenience name for target.
+testWeightedSampler.valgrind: gtsam/base/tests/CMakeFiles/testWeightedSampler.valgrind.dir/rule
+
+.PHONY : testWeightedSampler.valgrind
+
+# fast build rule for target.
+testWeightedSampler.valgrind/fast:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/base/tests/CMakeFiles/testWeightedSampler.valgrind.dir/build.make gtsam/base/tests/CMakeFiles/testWeightedSampler.valgrind.dir/build
+.PHONY : testWeightedSampler.valgrind/fast
+
+# Convenience name for target.
+gtsam/base/tests/CMakeFiles/testWeightedSampler.dir/rule:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/base/tests/CMakeFiles/testWeightedSampler.dir/rule
+.PHONY : gtsam/base/tests/CMakeFiles/testWeightedSampler.dir/rule
+
+# Convenience name for target.
+testWeightedSampler: gtsam/base/tests/CMakeFiles/testWeightedSampler.dir/rule
+
+.PHONY : testWeightedSampler
+
+# fast build rule for target.
+testWeightedSampler/fast:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/base/tests/CMakeFiles/testWeightedSampler.dir/build.make gtsam/base/tests/CMakeFiles/testWeightedSampler.dir/build
+.PHONY : testWeightedSampler/fast
+
+# Convenience name for target.
+gtsam/base/tests/CMakeFiles/testWeightedSampler.run.dir/rule:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/base/tests/CMakeFiles/testWeightedSampler.run.dir/rule
+.PHONY : gtsam/base/tests/CMakeFiles/testWeightedSampler.run.dir/rule
+
+# Convenience name for target.
+testWeightedSampler.run: gtsam/base/tests/CMakeFiles/testWeightedSampler.run.dir/rule
+
+.PHONY : testWeightedSampler.run
+
+# fast build rule for target.
+testWeightedSampler.run/fast:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/base/tests/CMakeFiles/testWeightedSampler.run.dir/build.make gtsam/base/tests/CMakeFiles/testWeightedSampler.run.dir/build
+.PHONY : testWeightedSampler.run/fast
 
 testCholesky.o: testCholesky.cpp.o
 
@@ -1041,6 +1221,87 @@ testGroup.cpp.s:
 	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/base/tests/CMakeFiles/testGroup.dir/build.make gtsam/base/tests/CMakeFiles/testGroup.dir/testGroup.cpp.s
 .PHONY : testGroup.cpp.s
 
+testLieMatrix.o: testLieMatrix.cpp.o
+
+.PHONY : testLieMatrix.o
+
+# target to build an object file
+testLieMatrix.cpp.o:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/base/tests/CMakeFiles/testLieMatrix.dir/build.make gtsam/base/tests/CMakeFiles/testLieMatrix.dir/testLieMatrix.cpp.o
+.PHONY : testLieMatrix.cpp.o
+
+testLieMatrix.i: testLieMatrix.cpp.i
+
+.PHONY : testLieMatrix.i
+
+# target to preprocess a source file
+testLieMatrix.cpp.i:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/base/tests/CMakeFiles/testLieMatrix.dir/build.make gtsam/base/tests/CMakeFiles/testLieMatrix.dir/testLieMatrix.cpp.i
+.PHONY : testLieMatrix.cpp.i
+
+testLieMatrix.s: testLieMatrix.cpp.s
+
+.PHONY : testLieMatrix.s
+
+# target to generate assembly for a file
+testLieMatrix.cpp.s:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/base/tests/CMakeFiles/testLieMatrix.dir/build.make gtsam/base/tests/CMakeFiles/testLieMatrix.dir/testLieMatrix.cpp.s
+.PHONY : testLieMatrix.cpp.s
+
+testLieScalar.o: testLieScalar.cpp.o
+
+.PHONY : testLieScalar.o
+
+# target to build an object file
+testLieScalar.cpp.o:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/base/tests/CMakeFiles/testLieScalar.dir/build.make gtsam/base/tests/CMakeFiles/testLieScalar.dir/testLieScalar.cpp.o
+.PHONY : testLieScalar.cpp.o
+
+testLieScalar.i: testLieScalar.cpp.i
+
+.PHONY : testLieScalar.i
+
+# target to preprocess a source file
+testLieScalar.cpp.i:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/base/tests/CMakeFiles/testLieScalar.dir/build.make gtsam/base/tests/CMakeFiles/testLieScalar.dir/testLieScalar.cpp.i
+.PHONY : testLieScalar.cpp.i
+
+testLieScalar.s: testLieScalar.cpp.s
+
+.PHONY : testLieScalar.s
+
+# target to generate assembly for a file
+testLieScalar.cpp.s:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/base/tests/CMakeFiles/testLieScalar.dir/build.make gtsam/base/tests/CMakeFiles/testLieScalar.dir/testLieScalar.cpp.s
+.PHONY : testLieScalar.cpp.s
+
+testLieVector.o: testLieVector.cpp.o
+
+.PHONY : testLieVector.o
+
+# target to build an object file
+testLieVector.cpp.o:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/base/tests/CMakeFiles/testLieVector.dir/build.make gtsam/base/tests/CMakeFiles/testLieVector.dir/testLieVector.cpp.o
+.PHONY : testLieVector.cpp.o
+
+testLieVector.i: testLieVector.cpp.i
+
+.PHONY : testLieVector.i
+
+# target to preprocess a source file
+testLieVector.cpp.i:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/base/tests/CMakeFiles/testLieVector.dir/build.make gtsam/base/tests/CMakeFiles/testLieVector.dir/testLieVector.cpp.i
+.PHONY : testLieVector.cpp.i
+
+testLieVector.s: testLieVector.cpp.s
+
+.PHONY : testLieVector.s
+
+# target to generate assembly for a file
+testLieVector.cpp.s:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/base/tests/CMakeFiles/testLieVector.dir/build.make gtsam/base/tests/CMakeFiles/testLieVector.dir/testLieVector.cpp.s
+.PHONY : testLieVector.cpp.s
+
 testMatrix.o: testMatrix.cpp.o
 
 .PHONY : testMatrix.o
@@ -1176,6 +1437,33 @@ testSymmetricBlockMatrix.cpp.s:
 	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/base/tests/CMakeFiles/testSymmetricBlockMatrix.dir/build.make gtsam/base/tests/CMakeFiles/testSymmetricBlockMatrix.dir/testSymmetricBlockMatrix.cpp.s
 .PHONY : testSymmetricBlockMatrix.cpp.s
 
+testTestableAssertions.o: testTestableAssertions.cpp.o
+
+.PHONY : testTestableAssertions.o
+
+# target to build an object file
+testTestableAssertions.cpp.o:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/base/tests/CMakeFiles/testTestableAssertions.dir/build.make gtsam/base/tests/CMakeFiles/testTestableAssertions.dir/testTestableAssertions.cpp.o
+.PHONY : testTestableAssertions.cpp.o
+
+testTestableAssertions.i: testTestableAssertions.cpp.i
+
+.PHONY : testTestableAssertions.i
+
+# target to preprocess a source file
+testTestableAssertions.cpp.i:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/base/tests/CMakeFiles/testTestableAssertions.dir/build.make gtsam/base/tests/CMakeFiles/testTestableAssertions.dir/testTestableAssertions.cpp.i
+.PHONY : testTestableAssertions.cpp.i
+
+testTestableAssertions.s: testTestableAssertions.cpp.s
+
+.PHONY : testTestableAssertions.s
+
+# target to generate assembly for a file
+testTestableAssertions.cpp.s:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/base/tests/CMakeFiles/testTestableAssertions.dir/build.make gtsam/base/tests/CMakeFiles/testTestableAssertions.dir/testTestableAssertions.cpp.s
+.PHONY : testTestableAssertions.cpp.s
+
 testTreeTraversal.o: testTreeTraversal.cpp.o
 
 .PHONY : testTreeTraversal.o
@@ -1291,60 +1579,72 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... install/strip"
+	@echo "... install/local"
+	@echo "... install"
 	@echo "... list_install_components"
 	@echo "... edit_cache"
-	@echo "... test"
-	@echo "... package"
-	@echo "... testWeightedSampler.run"
-	@echo "... testWeightedSampler"
-	@echo "... testWeightedSampler.valgrind"
-	@echo "... testVector.run"
-	@echo "... install/local"
-	@echo "... testTreeTraversal.run"
-	@echo "... testSymmetricBlockMatrix.valgrind"
-	@echo "... testSymmetricBlockMatrix.run"
-	@echo "... testSymmetricBlockMatrix"
-	@echo "... testVector"
-	@echo "... testSerializationBase.run"
-	@echo "... testTreeTraversal.valgrind"
-	@echo "... testDebug.run"
-	@echo "... testVerticalBlockMatrix.valgrind"
-	@echo "... testSerializationBase"
-	@echo "... testMatrix"
-	@echo "... testDSFVector.valgrind"
-	@echo "... testVerticalBlockMatrix"
-	@echo "... testNumericalDerivative"
-	@echo "... testVerticalBlockMatrix.run"
-	@echo "... testDebug.valgrind"
-	@echo "... testDebug"
-	@echo "... testDSFMap.valgrind"
-	@echo "... testDSFVector"
-	@echo "... testGroup.valgrind"
-	@echo "... testDSFMap.run"
-	@echo "... testCholesky.valgrind"
-	@echo "... testMatrix.run"
 	@echo "... package_source"
-	@echo "... testDSFVector.run"
-	@echo "... testDSFMap"
-	@echo "... testCholesky.run"
-	@echo "... testCholesky"
-	@echo "... testVector.valgrind"
-	@echo "... testTreeTraversal"
-	@echo "... testFastContainers.run"
-	@echo "... check.base"
-	@echo "... testFastContainers"
-	@echo "... rebuild_cache"
+	@echo "... testLieVector.valgrind"
+	@echo "... testLieMatrix.valgrind"
 	@echo "... testFastContainers.valgrind"
-	@echo "... testOptionalJacobian"
-	@echo "... testGroup"
-	@echo "... testNumericalDerivative.valgrind"
-	@echo "... install"
+	@echo "... testLieMatrix"
+	@echo "... testDSFMap.valgrind"
 	@echo "... testGroup.run"
-	@echo "... testSerializationBase.valgrind"
+	@echo "... testGroup"
+	@echo "... testOptionalJacobian"
+	@echo "... check.base"
+	@echo "... testFastContainers.run"
+	@echo "... testTestableAssertions.valgrind"
+	@echo "... testDebug"
+	@echo "... testTreeTraversal"
+	@echo "... testVector.valgrind"
+	@echo "... testCholesky"
+	@echo "... testLieScalar.valgrind"
+	@echo "... testLieVector"
+	@echo "... testVector"
+	@echo "... testDSFMap"
+	@echo "... testDSFVector.run"
+	@echo "... testCholesky.valgrind"
+	@echo "... test"
+	@echo "... testDSFVector"
+	@echo "... testDebug.valgrind"
+	@echo "... testVerticalBlockMatrix.run"
+	@echo "... testLieScalar"
+	@echo "... testDSFVector.valgrind"
+	@echo "... testSerializationBase"
+	@echo "... testVerticalBlockMatrix.valgrind"
+	@echo "... rebuild_cache"
+	@echo "... testLieVector.run"
+	@echo "... testDebug.run"
+	@echo "... testTreeTraversal.valgrind"
+	@echo "... testLieMatrix.run"
 	@echo "... testMatrix.valgrind"
+	@echo "... testSerializationBase.valgrind"
+	@echo "... testSerializationBase.run"
+	@echo "... testVerticalBlockMatrix"
 	@echo "... testNumericalDerivative.run"
+	@echo "... testNumericalDerivative.valgrind"
 	@echo "... testOptionalJacobian.run"
 	@echo "... testOptionalJacobian.valgrind"
+	@echo "... testCholesky.run"
+	@echo "... testNumericalDerivative"
+	@echo "... testSymmetricBlockMatrix"
+	@echo "... testLieScalar.run"
+	@echo "... testSymmetricBlockMatrix.run"
+	@echo "... testGroup.valgrind"
+	@echo "... testSymmetricBlockMatrix.valgrind"
+	@echo "... testTestableAssertions"
+	@echo "... testTreeTraversal.run"
+	@echo "... testFastContainers"
+	@echo "... testDSFMap.run"
+	@echo "... testMatrix"
+	@echo "... testTestableAssertions.run"
+	@echo "... testMatrix.run"
+	@echo "... testVector.run"
+	@echo "... testWeightedSampler.valgrind"
+	@echo "... testWeightedSampler"
+	@echo "... testWeightedSampler.run"
+	@echo "... package"
 	@echo "... testCholesky.o"
 	@echo "... testCholesky.i"
 	@echo "... testCholesky.s"
@@ -1363,6 +1663,15 @@ help:
 	@echo "... testGroup.o"
 	@echo "... testGroup.i"
 	@echo "... testGroup.s"
+	@echo "... testLieMatrix.o"
+	@echo "... testLieMatrix.i"
+	@echo "... testLieMatrix.s"
+	@echo "... testLieScalar.o"
+	@echo "... testLieScalar.i"
+	@echo "... testLieScalar.s"
+	@echo "... testLieVector.o"
+	@echo "... testLieVector.i"
+	@echo "... testLieVector.s"
 	@echo "... testMatrix.o"
 	@echo "... testMatrix.i"
 	@echo "... testMatrix.s"
@@ -1378,6 +1687,9 @@ help:
 	@echo "... testSymmetricBlockMatrix.o"
 	@echo "... testSymmetricBlockMatrix.i"
 	@echo "... testSymmetricBlockMatrix.s"
+	@echo "... testTestableAssertions.o"
+	@echo "... testTestableAssertions.i"
+	@echo "... testTestableAssertions.s"
 	@echo "... testTreeTraversal.o"
 	@echo "... testTreeTraversal.i"
 	@echo "... testTreeTraversal.s"

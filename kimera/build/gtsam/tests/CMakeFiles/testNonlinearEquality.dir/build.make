@@ -80,7 +80,7 @@ testNonlinearEquality_EXTERNAL_OBJECTS =
 tests/testNonlinearEquality: tests/CMakeFiles/testNonlinearEquality.dir/testNonlinearEquality.cpp.o
 tests/testNonlinearEquality: tests/CMakeFiles/testNonlinearEquality.dir/build.make
 tests/testNonlinearEquality: CppUnitLite/libCppUnitLite.a
-tests/testNonlinearEquality: gtsam/libgtsam.so.4.2.0
+tests/testNonlinearEquality: gtsam/libgtsam.so.4.1.0
 tests/testNonlinearEquality: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 tests/testNonlinearEquality: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 tests/testNonlinearEquality: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

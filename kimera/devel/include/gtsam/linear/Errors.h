@@ -65,7 +65,8 @@ namespace gtsam {
   /**
   * BLAS level 2 style
   */
-  GTSAM_EXPORT void axpy(double alpha, const Errors& x, Errors& y);
+  template <>
+  GTSAM_EXPORT void axpy<Errors,Errors>(double alpha, const Errors& x, Errors& y);
 
   /** print with optional string */
   GTSAM_EXPORT void print(const Errors& a, const std::string& s = "Error");

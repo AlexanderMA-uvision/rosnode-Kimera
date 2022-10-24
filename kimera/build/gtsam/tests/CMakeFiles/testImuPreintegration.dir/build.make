@@ -80,7 +80,7 @@ testImuPreintegration_EXTERNAL_OBJECTS =
 tests/testImuPreintegration: tests/CMakeFiles/testImuPreintegration.dir/testImuPreintegration.cpp.o
 tests/testImuPreintegration: tests/CMakeFiles/testImuPreintegration.dir/build.make
 tests/testImuPreintegration: CppUnitLite/libCppUnitLite.a
-tests/testImuPreintegration: gtsam/libgtsam.so.4.2.0
+tests/testImuPreintegration: gtsam/libgtsam.so.4.1.0
 tests/testImuPreintegration: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 tests/testImuPreintegration: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 tests/testImuPreintegration: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

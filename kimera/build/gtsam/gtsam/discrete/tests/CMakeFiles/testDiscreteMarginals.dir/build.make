@@ -80,7 +80,7 @@ testDiscreteMarginals_EXTERNAL_OBJECTS =
 gtsam/discrete/tests/testDiscreteMarginals: gtsam/discrete/tests/CMakeFiles/testDiscreteMarginals.dir/testDiscreteMarginals.cpp.o
 gtsam/discrete/tests/testDiscreteMarginals: gtsam/discrete/tests/CMakeFiles/testDiscreteMarginals.dir/build.make
 gtsam/discrete/tests/testDiscreteMarginals: CppUnitLite/libCppUnitLite.a
-gtsam/discrete/tests/testDiscreteMarginals: gtsam/libgtsam.so.4.2.0
+gtsam/discrete/tests/testDiscreteMarginals: gtsam/libgtsam.so.4.1.0
 gtsam/discrete/tests/testDiscreteMarginals: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 gtsam/discrete/tests/testDiscreteMarginals: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 gtsam/discrete/tests/testDiscreteMarginals: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

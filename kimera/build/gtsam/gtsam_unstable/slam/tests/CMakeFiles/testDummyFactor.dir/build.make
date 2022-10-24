@@ -80,8 +80,8 @@ testDummyFactor_EXTERNAL_OBJECTS =
 gtsam_unstable/slam/tests/testDummyFactor: gtsam_unstable/slam/tests/CMakeFiles/testDummyFactor.dir/testDummyFactor.cpp.o
 gtsam_unstable/slam/tests/testDummyFactor: gtsam_unstable/slam/tests/CMakeFiles/testDummyFactor.dir/build.make
 gtsam_unstable/slam/tests/testDummyFactor: CppUnitLite/libCppUnitLite.a
-gtsam_unstable/slam/tests/testDummyFactor: gtsam_unstable/libgtsam_unstable.so.4.2.0
-gtsam_unstable/slam/tests/testDummyFactor: gtsam/libgtsam.so.4.2.0
+gtsam_unstable/slam/tests/testDummyFactor: gtsam_unstable/libgtsam_unstable.so.4.1.0
+gtsam_unstable/slam/tests/testDummyFactor: gtsam/libgtsam.so.4.1.0
 gtsam_unstable/slam/tests/testDummyFactor: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 gtsam_unstable/slam/tests/testDummyFactor: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 gtsam_unstable/slam/tests/testDummyFactor: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

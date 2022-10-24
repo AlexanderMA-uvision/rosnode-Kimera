@@ -80,7 +80,7 @@ testManifold_EXTERNAL_OBJECTS =
 tests/testManifold: tests/CMakeFiles/testManifold.dir/testManifold.cpp.o
 tests/testManifold: tests/CMakeFiles/testManifold.dir/build.make
 tests/testManifold: CppUnitLite/libCppUnitLite.a
-tests/testManifold: gtsam/libgtsam.so.4.2.0
+tests/testManifold: gtsam/libgtsam.so.4.1.0
 tests/testManifold: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 tests/testManifold: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 tests/testManifold: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

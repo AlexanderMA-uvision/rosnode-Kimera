@@ -79,7 +79,7 @@ SFMExample_bal_EXTERNAL_OBJECTS =
 
 examples/SFMExample_bal: examples/CMakeFiles/SFMExample_bal.dir/SFMExample_bal.cpp.o
 examples/SFMExample_bal: examples/CMakeFiles/SFMExample_bal.dir/build.make
-examples/SFMExample_bal: gtsam/libgtsam.so.4.2.0
+examples/SFMExample_bal: gtsam/libgtsam.so.4.1.0
 examples/SFMExample_bal: /usr/lib/aarch64-linux-gnu/libboost_program_options.so.1.71.0
 examples/SFMExample_bal: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 examples/SFMExample_bal: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0

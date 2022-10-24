@@ -80,8 +80,8 @@ testInvDepthFactorVariant3_EXTERNAL_OBJECTS =
 gtsam_unstable/slam/tests/testInvDepthFactorVariant3: gtsam_unstable/slam/tests/CMakeFiles/testInvDepthFactorVariant3.dir/testInvDepthFactorVariant3.cpp.o
 gtsam_unstable/slam/tests/testInvDepthFactorVariant3: gtsam_unstable/slam/tests/CMakeFiles/testInvDepthFactorVariant3.dir/build.make
 gtsam_unstable/slam/tests/testInvDepthFactorVariant3: CppUnitLite/libCppUnitLite.a
-gtsam_unstable/slam/tests/testInvDepthFactorVariant3: gtsam_unstable/libgtsam_unstable.so.4.2.0
-gtsam_unstable/slam/tests/testInvDepthFactorVariant3: gtsam/libgtsam.so.4.2.0
+gtsam_unstable/slam/tests/testInvDepthFactorVariant3: gtsam_unstable/libgtsam_unstable.so.4.1.0
+gtsam_unstable/slam/tests/testInvDepthFactorVariant3: gtsam/libgtsam.so.4.1.0
 gtsam_unstable/slam/tests/testInvDepthFactorVariant3: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 gtsam_unstable/slam/tests/testInvDepthFactorVariant3: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 gtsam_unstable/slam/tests/testInvDepthFactorVariant3: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

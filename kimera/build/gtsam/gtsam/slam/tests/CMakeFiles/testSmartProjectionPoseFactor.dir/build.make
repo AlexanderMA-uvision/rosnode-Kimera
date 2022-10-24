@@ -80,7 +80,7 @@ testSmartProjectionPoseFactor_EXTERNAL_OBJECTS =
 gtsam/slam/tests/testSmartProjectionPoseFactor: gtsam/slam/tests/CMakeFiles/testSmartProjectionPoseFactor.dir/testSmartProjectionPoseFactor.cpp.o
 gtsam/slam/tests/testSmartProjectionPoseFactor: gtsam/slam/tests/CMakeFiles/testSmartProjectionPoseFactor.dir/build.make
 gtsam/slam/tests/testSmartProjectionPoseFactor: CppUnitLite/libCppUnitLite.a
-gtsam/slam/tests/testSmartProjectionPoseFactor: gtsam/libgtsam.so.4.2.0
+gtsam/slam/tests/testSmartProjectionPoseFactor: gtsam/libgtsam.so.4.1.0
 gtsam/slam/tests/testSmartProjectionPoseFactor: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 gtsam/slam/tests/testSmartProjectionPoseFactor: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 gtsam/slam/tests/testSmartProjectionPoseFactor: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

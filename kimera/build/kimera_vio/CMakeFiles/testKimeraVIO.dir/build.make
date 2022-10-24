@@ -754,8 +754,8 @@ testKimeraVIO: /home/catkin_ws/devel/lib/libopencv_imgproc.so.3.4.2
 testKimeraVIO: /home/catkin_ws/devel/lib/libopencv_core.so.3.4.2
 testKimeraVIO: /home/catkin_ws/devel/lib/libgflags.so.2.2.1
 testKimeraVIO: /usr/lib/aarch64-linux-gnu/libglog.so
-testKimeraVIO: /home/catkin_ws/devel/lib/libgtsam_unstable.so.4.2.0
-testKimeraVIO: /home/catkin_ws/devel/lib/libgtsam.so.4.2.0
+testKimeraVIO: /home/catkin_ws/devel/lib/libgtsam_unstable.so.4.1.0
+testKimeraVIO: /home/catkin_ws/devel/lib/libgtsam.so.4.1.0
 testKimeraVIO: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 testKimeraVIO: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 testKimeraVIO: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

@@ -79,7 +79,7 @@ SolverComparer_EXTERNAL_OBJECTS =
 
 examples/SolverComparer: examples/CMakeFiles/SolverComparer.dir/SolverComparer.cpp.o
 examples/SolverComparer: examples/CMakeFiles/SolverComparer.dir/build.make
-examples/SolverComparer: gtsam/libgtsam.so.4.2.0
+examples/SolverComparer: gtsam/libgtsam.so.4.1.0
 examples/SolverComparer: /usr/lib/aarch64-linux-gnu/libboost_program_options.so.1.71.0
 examples/SolverComparer: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 examples/SolverComparer: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0

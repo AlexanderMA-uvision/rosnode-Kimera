@@ -79,7 +79,7 @@ StereoVOExample_EXTERNAL_OBJECTS =
 
 examples/StereoVOExample: examples/CMakeFiles/StereoVOExample.dir/StereoVOExample.cpp.o
 examples/StereoVOExample: examples/CMakeFiles/StereoVOExample.dir/build.make
-examples/StereoVOExample: gtsam/libgtsam.so.4.2.0
+examples/StereoVOExample: gtsam/libgtsam.so.4.1.0
 examples/StereoVOExample: /usr/lib/aarch64-linux-gnu/libboost_program_options.so.1.71.0
 examples/StereoVOExample: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 examples/StereoVOExample: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0

@@ -52,7 +52,7 @@ set_target_properties(gtsam_unstable PROPERTIES
 # Import target "gtsam_unstable" for configuration "Release"
 set_property(TARGET gtsam_unstable APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(gtsam_unstable PROPERTIES
-  IMPORTED_LOCATION_RELEASE "/home/catkin_ws/build/gtsam/gtsam_unstable/libgtsam_unstable.so.4.2.0"
+  IMPORTED_LOCATION_RELEASE "/home/catkin_ws/build/gtsam/gtsam_unstable/libgtsam_unstable.so.4.1.0"
   IMPORTED_SONAME_RELEASE "libgtsam_unstable.so.4"
   )
 

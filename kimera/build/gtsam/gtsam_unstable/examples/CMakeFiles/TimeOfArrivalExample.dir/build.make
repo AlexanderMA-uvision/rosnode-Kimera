@@ -79,8 +79,8 @@ TimeOfArrivalExample_EXTERNAL_OBJECTS =
 
 gtsam_unstable/examples/TimeOfArrivalExample: gtsam_unstable/examples/CMakeFiles/TimeOfArrivalExample.dir/TimeOfArrivalExample.cpp.o
 gtsam_unstable/examples/TimeOfArrivalExample: gtsam_unstable/examples/CMakeFiles/TimeOfArrivalExample.dir/build.make
-gtsam_unstable/examples/TimeOfArrivalExample: gtsam_unstable/libgtsam_unstable.so.4.2.0
-gtsam_unstable/examples/TimeOfArrivalExample: gtsam/libgtsam.so.4.2.0
+gtsam_unstable/examples/TimeOfArrivalExample: gtsam_unstable/libgtsam_unstable.so.4.1.0
+gtsam_unstable/examples/TimeOfArrivalExample: gtsam/libgtsam.so.4.1.0
 gtsam_unstable/examples/TimeOfArrivalExample: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 gtsam_unstable/examples/TimeOfArrivalExample: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 gtsam_unstable/examples/TimeOfArrivalExample: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

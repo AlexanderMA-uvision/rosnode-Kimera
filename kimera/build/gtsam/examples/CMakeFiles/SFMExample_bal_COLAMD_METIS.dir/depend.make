@@ -13,14 +13,12 @@ examples/CMakeFiles/SFMExample_bal_COLAMD_METIS.dir/SFMExample_bal_COLAMD_METIS.
 examples/CMakeFiles/SFMExample_bal_COLAMD_METIS.dir/SFMExample_bal_COLAMD_METIS.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Lie.h
 examples/CMakeFiles/SFMExample_bal_COLAMD_METIS.dir/SFMExample_bal_COLAMD_METIS.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Manifold.h
 examples/CMakeFiles/SFMExample_bal_COLAMD_METIS.dir/SFMExample_bal_COLAMD_METIS.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Matrix.h
-examples/CMakeFiles/SFMExample_bal_COLAMD_METIS.dir/SFMExample_bal_COLAMD_METIS.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/MatrixSerialization.h
 examples/CMakeFiles/SFMExample_bal_COLAMD_METIS.dir/SFMExample_bal_COLAMD_METIS.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/OptionalJacobian.h
 examples/CMakeFiles/SFMExample_bal_COLAMD_METIS.dir/SFMExample_bal_COLAMD_METIS.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/SymmetricBlockMatrix.h
 examples/CMakeFiles/SFMExample_bal_COLAMD_METIS.dir/SFMExample_bal_COLAMD_METIS.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Testable.h
 examples/CMakeFiles/SFMExample_bal_COLAMD_METIS.dir/SFMExample_bal_COLAMD_METIS.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/ThreadsafeException.h
 examples/CMakeFiles/SFMExample_bal_COLAMD_METIS.dir/SFMExample_bal_COLAMD_METIS.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Value.h
 examples/CMakeFiles/SFMExample_bal_COLAMD_METIS.dir/SFMExample_bal_COLAMD_METIS.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Vector.h
-examples/CMakeFiles/SFMExample_bal_COLAMD_METIS.dir/SFMExample_bal_COLAMD_METIS.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/VectorSerialization.h
 examples/CMakeFiles/SFMExample_bal_COLAMD_METIS.dir/SFMExample_bal_COLAMD_METIS.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/VectorSpace.h
 examples/CMakeFiles/SFMExample_bal_COLAMD_METIS.dir/SFMExample_bal_COLAMD_METIS.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/VerticalBlockMatrix.h
 examples/CMakeFiles/SFMExample_bal_COLAMD_METIS.dir/SFMExample_bal_COLAMD_METIS.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/concepts.h
@@ -46,7 +44,6 @@ examples/CMakeFiles/SFMExample_bal_COLAMD_METIS.dir/SFMExample_bal_COLAMD_METIS.
 examples/CMakeFiles/SFMExample_bal_COLAMD_METIS.dir/SFMExample_bal_COLAMD_METIS.cpp.o: /home/catkin_ws/src/gtsam/gtsam/geometry/SOn.h
 examples/CMakeFiles/SFMExample_bal_COLAMD_METIS.dir/SFMExample_bal_COLAMD_METIS.cpp.o: /home/catkin_ws/src/gtsam/gtsam/geometry/Unit3.h
 examples/CMakeFiles/SFMExample_bal_COLAMD_METIS.dir/SFMExample_bal_COLAMD_METIS.cpp.o: /home/catkin_ws/src/gtsam/gtsam/global_includes.h
-examples/CMakeFiles/SFMExample_bal_COLAMD_METIS.dir/SFMExample_bal_COLAMD_METIS.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/DotWriter.h
 examples/CMakeFiles/SFMExample_bal_COLAMD_METIS.dir/SFMExample_bal_COLAMD_METIS.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/EliminateableFactorGraph.h
 examples/CMakeFiles/SFMExample_bal_COLAMD_METIS.dir/SFMExample_bal_COLAMD_METIS.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/Factor.h
 examples/CMakeFiles/SFMExample_bal_COLAMD_METIS.dir/SFMExample_bal_COLAMD_METIS.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/FactorGraph-inst.h
@@ -76,7 +73,6 @@ examples/CMakeFiles/SFMExample_bal_COLAMD_METIS.dir/SFMExample_bal_COLAMD_METIS.
 examples/CMakeFiles/SFMExample_bal_COLAMD_METIS.dir/SFMExample_bal_COLAMD_METIS.cpp.o: /home/catkin_ws/src/gtsam/gtsam/linear/SubgraphSolver.h
 examples/CMakeFiles/SFMExample_bal_COLAMD_METIS.dir/SFMExample_bal_COLAMD_METIS.cpp.o: /home/catkin_ws/src/gtsam/gtsam/linear/VectorValues.h
 examples/CMakeFiles/SFMExample_bal_COLAMD_METIS.dir/SFMExample_bal_COLAMD_METIS.cpp.o: /home/catkin_ws/src/gtsam/gtsam/linear/linearExceptions.h
-examples/CMakeFiles/SFMExample_bal_COLAMD_METIS.dir/SFMExample_bal_COLAMD_METIS.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/GraphvizFormatting.h
 examples/CMakeFiles/SFMExample_bal_COLAMD_METIS.dir/SFMExample_bal_COLAMD_METIS.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/LevenbergMarquardtOptimizer.h
 examples/CMakeFiles/SFMExample_bal_COLAMD_METIS.dir/SFMExample_bal_COLAMD_METIS.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/LevenbergMarquardtParams.h
 examples/CMakeFiles/SFMExample_bal_COLAMD_METIS.dir/SFMExample_bal_COLAMD_METIS.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/NonlinearFactor.h
@@ -87,8 +83,6 @@ examples/CMakeFiles/SFMExample_bal_COLAMD_METIS.dir/SFMExample_bal_COLAMD_METIS.
 examples/CMakeFiles/SFMExample_bal_COLAMD_METIS.dir/SFMExample_bal_COLAMD_METIS.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/Values-inl.h
 examples/CMakeFiles/SFMExample_bal_COLAMD_METIS.dir/SFMExample_bal_COLAMD_METIS.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/Values.h
 examples/CMakeFiles/SFMExample_bal_COLAMD_METIS.dir/SFMExample_bal_COLAMD_METIS.cpp.o: /home/catkin_ws/src/gtsam/gtsam/sfm/BinaryMeasurement.h
-examples/CMakeFiles/SFMExample_bal_COLAMD_METIS.dir/SFMExample_bal_COLAMD_METIS.cpp.o: /home/catkin_ws/src/gtsam/gtsam/sfm/SfmData.h
-examples/CMakeFiles/SFMExample_bal_COLAMD_METIS.dir/SFMExample_bal_COLAMD_METIS.cpp.o: /home/catkin_ws/src/gtsam/gtsam/sfm/SfmTrack.h
 examples/CMakeFiles/SFMExample_bal_COLAMD_METIS.dir/SFMExample_bal_COLAMD_METIS.cpp.o: /home/catkin_ws/src/gtsam/gtsam/slam/BetweenFactor.h
 examples/CMakeFiles/SFMExample_bal_COLAMD_METIS.dir/SFMExample_bal_COLAMD_METIS.cpp.o: /home/catkin_ws/src/gtsam/gtsam/slam/GeneralSFMFactor.h
 examples/CMakeFiles/SFMExample_bal_COLAMD_METIS.dir/SFMExample_bal_COLAMD_METIS.cpp.o: /home/catkin_ws/src/gtsam/gtsam/slam/dataset.h

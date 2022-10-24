@@ -79,7 +79,7 @@ timePose3_EXTERNAL_OBJECTS =
 
 timing/timePose3: timing/CMakeFiles/timePose3.dir/timePose3.cpp.o
 timing/timePose3: timing/CMakeFiles/timePose3.dir/build.make
-timing/timePose3: gtsam/libgtsam.so.4.2.0
+timing/timePose3: gtsam/libgtsam.so.4.1.0
 timing/timePose3: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 timing/timePose3: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 timing/timePose3: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

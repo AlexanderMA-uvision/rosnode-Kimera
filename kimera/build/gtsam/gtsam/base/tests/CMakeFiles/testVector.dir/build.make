@@ -80,7 +80,7 @@ testVector_EXTERNAL_OBJECTS =
 gtsam/base/tests/testVector: gtsam/base/tests/CMakeFiles/testVector.dir/testVector.cpp.o
 gtsam/base/tests/testVector: gtsam/base/tests/CMakeFiles/testVector.dir/build.make
 gtsam/base/tests/testVector: CppUnitLite/libCppUnitLite.a
-gtsam/base/tests/testVector: gtsam/libgtsam.so.4.2.0
+gtsam/base/tests/testVector: gtsam/libgtsam.so.4.1.0
 gtsam/base/tests/testVector: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 gtsam/base/tests/testVector: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 gtsam/base/tests/testVector: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

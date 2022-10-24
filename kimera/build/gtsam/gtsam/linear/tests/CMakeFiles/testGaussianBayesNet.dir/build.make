@@ -80,7 +80,7 @@ testGaussianBayesNet_EXTERNAL_OBJECTS =
 gtsam/linear/tests/testGaussianBayesNet: gtsam/linear/tests/CMakeFiles/testGaussianBayesNet.dir/testGaussianBayesNet.cpp.o
 gtsam/linear/tests/testGaussianBayesNet: gtsam/linear/tests/CMakeFiles/testGaussianBayesNet.dir/build.make
 gtsam/linear/tests/testGaussianBayesNet: CppUnitLite/libCppUnitLite.a
-gtsam/linear/tests/testGaussianBayesNet: gtsam/libgtsam.so.4.2.0
+gtsam/linear/tests/testGaussianBayesNet: gtsam/libgtsam.so.4.1.0
 gtsam/linear/tests/testGaussianBayesNet: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 gtsam/linear/tests/testGaussianBayesNet: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 gtsam/linear/tests/testGaussianBayesNet: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

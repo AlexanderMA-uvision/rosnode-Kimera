@@ -79,7 +79,7 @@ Pose3SLAMExample_initializePose3Chordal_EXTERNAL_OBJECTS =
 
 examples/Pose3SLAMExample_initializePose3Chordal: examples/CMakeFiles/Pose3SLAMExample_initializePose3Chordal.dir/Pose3SLAMExample_initializePose3Chordal.cpp.o
 examples/Pose3SLAMExample_initializePose3Chordal: examples/CMakeFiles/Pose3SLAMExample_initializePose3Chordal.dir/build.make
-examples/Pose3SLAMExample_initializePose3Chordal: gtsam/libgtsam.so.4.2.0
+examples/Pose3SLAMExample_initializePose3Chordal: gtsam/libgtsam.so.4.1.0
 examples/Pose3SLAMExample_initializePose3Chordal: /usr/lib/aarch64-linux-gnu/libboost_program_options.so.1.71.0
 examples/Pose3SLAMExample_initializePose3Chordal: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 examples/Pose3SLAMExample_initializePose3Chordal: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0

@@ -47,15 +47,13 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     "/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteBayesNet.h"
     "/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteBayesTree.h"
     "/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteConditional.h"
-    "/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteDistribution.h"
     "/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteEliminationTree.h"
     "/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteFactor.h"
     "/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteFactorGraph.h"
     "/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteJunctionTree.h"
     "/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteKey.h"
-    "/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteLookupDAG.h"
     "/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteMarginals.h"
-    "/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteValues.h"
+    "/home/catkin_ws/src/gtsam/gtsam/discrete/Potentials.h"
     "/home/catkin_ws/src/gtsam/gtsam/discrete/Signature.h"
     )
 endif()

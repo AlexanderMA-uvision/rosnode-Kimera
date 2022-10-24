@@ -13,14 +13,12 @@ examples/CMakeFiles/ISAM2Example_SmartFactor.dir/ISAM2Example_SmartFactor.cpp.o:
 examples/CMakeFiles/ISAM2Example_SmartFactor.dir/ISAM2Example_SmartFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Lie.h
 examples/CMakeFiles/ISAM2Example_SmartFactor.dir/ISAM2Example_SmartFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Manifold.h
 examples/CMakeFiles/ISAM2Example_SmartFactor.dir/ISAM2Example_SmartFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Matrix.h
-examples/CMakeFiles/ISAM2Example_SmartFactor.dir/ISAM2Example_SmartFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/MatrixSerialization.h
 examples/CMakeFiles/ISAM2Example_SmartFactor.dir/ISAM2Example_SmartFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/OptionalJacobian.h
 examples/CMakeFiles/ISAM2Example_SmartFactor.dir/ISAM2Example_SmartFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/SymmetricBlockMatrix.h
 examples/CMakeFiles/ISAM2Example_SmartFactor.dir/ISAM2Example_SmartFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Testable.h
 examples/CMakeFiles/ISAM2Example_SmartFactor.dir/ISAM2Example_SmartFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/ThreadsafeException.h
 examples/CMakeFiles/ISAM2Example_SmartFactor.dir/ISAM2Example_SmartFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Value.h
 examples/CMakeFiles/ISAM2Example_SmartFactor.dir/ISAM2Example_SmartFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Vector.h
-examples/CMakeFiles/ISAM2Example_SmartFactor.dir/ISAM2Example_SmartFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/VectorSerialization.h
 examples/CMakeFiles/ISAM2Example_SmartFactor.dir/ISAM2Example_SmartFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/VectorSpace.h
 examples/CMakeFiles/ISAM2Example_SmartFactor.dir/ISAM2Example_SmartFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/VerticalBlockMatrix.h
 examples/CMakeFiles/ISAM2Example_SmartFactor.dir/ISAM2Example_SmartFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/concepts.h
@@ -31,7 +29,6 @@ examples/CMakeFiles/ISAM2Example_SmartFactor.dir/ISAM2Example_SmartFactor.cpp.o:
 examples/CMakeFiles/ISAM2Example_SmartFactor.dir/ISAM2Example_SmartFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/geometry/BearingRange.h
 examples/CMakeFiles/ISAM2Example_SmartFactor.dir/ISAM2Example_SmartFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/geometry/Cal3.h
 examples/CMakeFiles/ISAM2Example_SmartFactor.dir/ISAM2Example_SmartFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/geometry/Cal3Bundler.h
-examples/CMakeFiles/ISAM2Example_SmartFactor.dir/ISAM2Example_SmartFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/geometry/Cal3DS2.h
 examples/CMakeFiles/ISAM2Example_SmartFactor.dir/ISAM2Example_SmartFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/geometry/Cal3DS2_Base.h
 examples/CMakeFiles/ISAM2Example_SmartFactor.dir/ISAM2Example_SmartFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/geometry/Cal3Fisheye.h
 examples/CMakeFiles/ISAM2Example_SmartFactor.dir/ISAM2Example_SmartFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/geometry/Cal3Unified.h
@@ -50,17 +47,12 @@ examples/CMakeFiles/ISAM2Example_SmartFactor.dir/ISAM2Example_SmartFactor.cpp.o:
 examples/CMakeFiles/ISAM2Example_SmartFactor.dir/ISAM2Example_SmartFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/geometry/SO3.h
 examples/CMakeFiles/ISAM2Example_SmartFactor.dir/ISAM2Example_SmartFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/geometry/SOn-inl.h
 examples/CMakeFiles/ISAM2Example_SmartFactor.dir/ISAM2Example_SmartFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/geometry/SOn.h
-examples/CMakeFiles/ISAM2Example_SmartFactor.dir/ISAM2Example_SmartFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/geometry/SphericalCamera.h
 examples/CMakeFiles/ISAM2Example_SmartFactor.dir/ISAM2Example_SmartFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/geometry/Unit3.h
 examples/CMakeFiles/ISAM2Example_SmartFactor.dir/ISAM2Example_SmartFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/geometry/triangulation.h
 examples/CMakeFiles/ISAM2Example_SmartFactor.dir/ISAM2Example_SmartFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/global_includes.h
-examples/CMakeFiles/ISAM2Example_SmartFactor.dir/ISAM2Example_SmartFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/BayesNet-inst.h
-examples/CMakeFiles/ISAM2Example_SmartFactor.dir/ISAM2Example_SmartFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/BayesNet.h
 examples/CMakeFiles/ISAM2Example_SmartFactor.dir/ISAM2Example_SmartFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/BayesTree.h
 examples/CMakeFiles/ISAM2Example_SmartFactor.dir/ISAM2Example_SmartFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/BayesTreeCliqueBase.h
-examples/CMakeFiles/ISAM2Example_SmartFactor.dir/ISAM2Example_SmartFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/Conditional-inst.h
 examples/CMakeFiles/ISAM2Example_SmartFactor.dir/ISAM2Example_SmartFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/Conditional.h
-examples/CMakeFiles/ISAM2Example_SmartFactor.dir/ISAM2Example_SmartFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/DotWriter.h
 examples/CMakeFiles/ISAM2Example_SmartFactor.dir/ISAM2Example_SmartFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/EliminateableFactorGraph.h
 examples/CMakeFiles/ISAM2Example_SmartFactor.dir/ISAM2Example_SmartFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/Factor.h
 examples/CMakeFiles/ISAM2Example_SmartFactor.dir/ISAM2Example_SmartFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/FactorGraph-inst.h
@@ -92,7 +84,6 @@ examples/CMakeFiles/ISAM2Example_SmartFactor.dir/ISAM2Example_SmartFactor.cpp.o:
 examples/CMakeFiles/ISAM2Example_SmartFactor.dir/ISAM2Example_SmartFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/linear/VectorValues.h
 examples/CMakeFiles/ISAM2Example_SmartFactor.dir/ISAM2Example_SmartFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/linear/linearExceptions.h
 examples/CMakeFiles/ISAM2Example_SmartFactor.dir/ISAM2Example_SmartFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/DoglegOptimizerImpl.h
-examples/CMakeFiles/ISAM2Example_SmartFactor.dir/ISAM2Example_SmartFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/GraphvizFormatting.h
 examples/CMakeFiles/ISAM2Example_SmartFactor.dir/ISAM2Example_SmartFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/ISAM2.h
 examples/CMakeFiles/ISAM2Example_SmartFactor.dir/ISAM2Example_SmartFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/ISAM2Clique.h
 examples/CMakeFiles/ISAM2Example_SmartFactor.dir/ISAM2Example_SmartFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/ISAM2Params.h
@@ -104,8 +95,6 @@ examples/CMakeFiles/ISAM2Example_SmartFactor.dir/ISAM2Example_SmartFactor.cpp.o:
 examples/CMakeFiles/ISAM2Example_SmartFactor.dir/ISAM2Example_SmartFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/Values-inl.h
 examples/CMakeFiles/ISAM2Example_SmartFactor.dir/ISAM2Example_SmartFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/Values.h
 examples/CMakeFiles/ISAM2Example_SmartFactor.dir/ISAM2Example_SmartFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/sfm/BinaryMeasurement.h
-examples/CMakeFiles/ISAM2Example_SmartFactor.dir/ISAM2Example_SmartFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/sfm/SfmData.h
-examples/CMakeFiles/ISAM2Example_SmartFactor.dir/ISAM2Example_SmartFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/sfm/SfmTrack.h
 examples/CMakeFiles/ISAM2Example_SmartFactor.dir/ISAM2Example_SmartFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/slam/BetweenFactor.h
 examples/CMakeFiles/ISAM2Example_SmartFactor.dir/ISAM2Example_SmartFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/slam/JacobianFactorQ.h
 examples/CMakeFiles/ISAM2Example_SmartFactor.dir/ISAM2Example_SmartFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/slam/JacobianFactorSVD.h

@@ -80,7 +80,7 @@ testSubgraphSolver_EXTERNAL_OBJECTS =
 tests/testSubgraphSolver: tests/CMakeFiles/testSubgraphSolver.dir/testSubgraphSolver.cpp.o
 tests/testSubgraphSolver: tests/CMakeFiles/testSubgraphSolver.dir/build.make
 tests/testSubgraphSolver: CppUnitLite/libCppUnitLite.a
-tests/testSubgraphSolver: gtsam/libgtsam.so.4.2.0
+tests/testSubgraphSolver: gtsam/libgtsam.so.4.1.0
 tests/testSubgraphSolver: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 tests/testSubgraphSolver: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 tests/testSubgraphSolver: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

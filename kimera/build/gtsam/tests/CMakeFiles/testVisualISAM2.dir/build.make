@@ -80,7 +80,7 @@ testVisualISAM2_EXTERNAL_OBJECTS =
 tests/testVisualISAM2: tests/CMakeFiles/testVisualISAM2.dir/testVisualISAM2.cpp.o
 tests/testVisualISAM2: tests/CMakeFiles/testVisualISAM2.dir/build.make
 tests/testVisualISAM2: CppUnitLite/libCppUnitLite.a
-tests/testVisualISAM2: gtsam/libgtsam.so.4.2.0
+tests/testVisualISAM2: gtsam/libgtsam.so.4.1.0
 tests/testVisualISAM2: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 tests/testVisualISAM2: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 tests/testVisualISAM2: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

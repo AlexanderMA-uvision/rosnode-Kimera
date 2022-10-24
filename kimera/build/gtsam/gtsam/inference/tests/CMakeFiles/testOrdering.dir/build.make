@@ -80,7 +80,7 @@ testOrdering_EXTERNAL_OBJECTS =
 gtsam/inference/tests/testOrdering: gtsam/inference/tests/CMakeFiles/testOrdering.dir/testOrdering.cpp.o
 gtsam/inference/tests/testOrdering: gtsam/inference/tests/CMakeFiles/testOrdering.dir/build.make
 gtsam/inference/tests/testOrdering: CppUnitLite/libCppUnitLite.a
-gtsam/inference/tests/testOrdering: gtsam/libgtsam.so.4.2.0
+gtsam/inference/tests/testOrdering: gtsam/libgtsam.so.4.1.0
 gtsam/inference/tests/testOrdering: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 gtsam/inference/tests/testOrdering: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 gtsam/inference/tests/testOrdering: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

@@ -68,7 +68,6 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     "/home/catkin_ws/src/gtsam/gtsam/slam/SmartFactorParams.h"
     "/home/catkin_ws/src/gtsam/gtsam/slam/SmartProjectionFactor.h"
     "/home/catkin_ws/src/gtsam/gtsam/slam/SmartProjectionPoseFactor.h"
-    "/home/catkin_ws/src/gtsam/gtsam/slam/SmartProjectionRigFactor.h"
     "/home/catkin_ws/src/gtsam/gtsam/slam/StereoFactor.h"
     "/home/catkin_ws/src/gtsam/gtsam/slam/TriangulationFactor.h"
     "/home/catkin_ws/src/gtsam/gtsam/slam/dataset.h"

@@ -79,7 +79,7 @@ CameraResectioning_EXTERNAL_OBJECTS =
 
 examples/CameraResectioning: examples/CMakeFiles/CameraResectioning.dir/CameraResectioning.cpp.o
 examples/CameraResectioning: examples/CMakeFiles/CameraResectioning.dir/build.make
-examples/CameraResectioning: gtsam/libgtsam.so.4.2.0
+examples/CameraResectioning: gtsam/libgtsam.so.4.1.0
 examples/CameraResectioning: /usr/lib/aarch64-linux-gnu/libboost_program_options.so.1.71.0
 examples/CameraResectioning: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 examples/CameraResectioning: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0

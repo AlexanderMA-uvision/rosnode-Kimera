@@ -79,7 +79,7 @@ TimeTBB_EXTERNAL_OBJECTS =
 
 examples/TimeTBB: examples/CMakeFiles/TimeTBB.dir/TimeTBB.cpp.o
 examples/TimeTBB: examples/CMakeFiles/TimeTBB.dir/build.make
-examples/TimeTBB: gtsam/libgtsam.so.4.2.0
+examples/TimeTBB: gtsam/libgtsam.so.4.1.0
 examples/TimeTBB: /usr/lib/aarch64-linux-gnu/libboost_program_options.so.1.71.0
 examples/TimeTBB: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 examples/TimeTBB: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0

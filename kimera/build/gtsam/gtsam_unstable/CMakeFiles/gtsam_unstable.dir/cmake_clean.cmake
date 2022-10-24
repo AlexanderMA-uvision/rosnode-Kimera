@@ -37,7 +37,7 @@ file(REMOVE_RECURSE
   "libgtsam_unstable.pdb"
   "libgtsam_unstable.so"
   "libgtsam_unstable.so.4"
-  "libgtsam_unstable.so.4.2.0"
+  "libgtsam_unstable.so.4.1.0"
 )
 
 # Per-language clean rules from dependency scanning.

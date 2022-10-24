@@ -80,7 +80,7 @@ testRegularImplicitSchurFactor_EXTERNAL_OBJECTS =
 gtsam/slam/tests/testRegularImplicitSchurFactor: gtsam/slam/tests/CMakeFiles/testRegularImplicitSchurFactor.dir/testRegularImplicitSchurFactor.cpp.o
 gtsam/slam/tests/testRegularImplicitSchurFactor: gtsam/slam/tests/CMakeFiles/testRegularImplicitSchurFactor.dir/build.make
 gtsam/slam/tests/testRegularImplicitSchurFactor: CppUnitLite/libCppUnitLite.a
-gtsam/slam/tests/testRegularImplicitSchurFactor: gtsam/libgtsam.so.4.2.0
+gtsam/slam/tests/testRegularImplicitSchurFactor: gtsam/libgtsam.so.4.1.0
 gtsam/slam/tests/testRegularImplicitSchurFactor: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 gtsam/slam/tests/testRegularImplicitSchurFactor: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 gtsam/slam/tests/testRegularImplicitSchurFactor: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

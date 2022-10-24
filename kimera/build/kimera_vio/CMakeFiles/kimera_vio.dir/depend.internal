@@ -18,14 +18,12 @@ CMakeFiles/kimera_vio.dir/src/backend/RegularVioBackend.cpp.o
  /home/catkin_ws/devel/include/gtsam/base/Lie.h
  /home/catkin_ws/devel/include/gtsam/base/Manifold.h
  /home/catkin_ws/devel/include/gtsam/base/Matrix.h
- /home/catkin_ws/devel/include/gtsam/base/MatrixSerialization.h
  /home/catkin_ws/devel/include/gtsam/base/OptionalJacobian.h
  /home/catkin_ws/devel/include/gtsam/base/SymmetricBlockMatrix.h
  /home/catkin_ws/devel/include/gtsam/base/Testable.h
  /home/catkin_ws/devel/include/gtsam/base/ThreadsafeException.h
  /home/catkin_ws/devel/include/gtsam/base/Value.h
  /home/catkin_ws/devel/include/gtsam/base/Vector.h
- /home/catkin_ws/devel/include/gtsam/base/VectorSerialization.h
  /home/catkin_ws/devel/include/gtsam/base/VectorSpace.h
  /home/catkin_ws/devel/include/gtsam/base/VerticalBlockMatrix.h
  /home/catkin_ws/devel/include/gtsam/base/concepts.h
@@ -60,19 +58,14 @@ CMakeFiles/kimera_vio.dir/src/backend/RegularVioBackend.cpp.o
  /home/catkin_ws/devel/include/gtsam/geometry/SO3.h
  /home/catkin_ws/devel/include/gtsam/geometry/SOn-inl.h
  /home/catkin_ws/devel/include/gtsam/geometry/SOn.h
- /home/catkin_ws/devel/include/gtsam/geometry/SphericalCamera.h
  /home/catkin_ws/devel/include/gtsam/geometry/StereoCamera.h
  /home/catkin_ws/devel/include/gtsam/geometry/StereoPoint2.h
  /home/catkin_ws/devel/include/gtsam/geometry/Unit3.h
  /home/catkin_ws/devel/include/gtsam/geometry/triangulation.h
  /home/catkin_ws/devel/include/gtsam/global_includes.h
- /home/catkin_ws/devel/include/gtsam/inference/BayesNet-inst.h
- /home/catkin_ws/devel/include/gtsam/inference/BayesNet.h
  /home/catkin_ws/devel/include/gtsam/inference/BayesTree.h
  /home/catkin_ws/devel/include/gtsam/inference/BayesTreeCliqueBase.h
- /home/catkin_ws/devel/include/gtsam/inference/Conditional-inst.h
  /home/catkin_ws/devel/include/gtsam/inference/Conditional.h
- /home/catkin_ws/devel/include/gtsam/inference/DotWriter.h
  /home/catkin_ws/devel/include/gtsam/inference/EliminateableFactorGraph.h
  /home/catkin_ws/devel/include/gtsam/inference/Factor.h
  /home/catkin_ws/devel/include/gtsam/inference/FactorGraph-inst.h
@@ -118,7 +111,6 @@ CMakeFiles/kimera_vio.dir/src/backend/RegularVioBackend.cpp.o
  /home/catkin_ws/devel/include/gtsam/navigation/PreintegrationParams.h
  /home/catkin_ws/devel/include/gtsam/navigation/TangentPreintegration.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/DoglegOptimizerImpl.h
- /home/catkin_ws/devel/include/gtsam/nonlinear/GraphvizFormatting.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/ISAM2.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/ISAM2Clique.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/ISAM2Params.h
@@ -136,8 +128,6 @@ CMakeFiles/kimera_vio.dir/src/backend/RegularVioBackend.cpp.o
  /home/catkin_ws/devel/include/gtsam/nonlinear/Values-inl.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/Values.h
  /home/catkin_ws/devel/include/gtsam/sfm/BinaryMeasurement.h
- /home/catkin_ws/devel/include/gtsam/sfm/SfmData.h
- /home/catkin_ws/devel/include/gtsam/sfm/SfmTrack.h
  /home/catkin_ws/devel/include/gtsam/slam/BetweenFactor.h
  /home/catkin_ws/devel/include/gtsam/slam/JacobianFactorQ.h
  /home/catkin_ws/devel/include/gtsam/slam/JacobianFactorSVD.h
@@ -640,14 +630,12 @@ CMakeFiles/kimera_vio.dir/src/backend/RegularVioBackendParams.cpp.o
  /home/catkin_ws/devel/include/gtsam/base/Lie.h
  /home/catkin_ws/devel/include/gtsam/base/Manifold.h
  /home/catkin_ws/devel/include/gtsam/base/Matrix.h
- /home/catkin_ws/devel/include/gtsam/base/MatrixSerialization.h
  /home/catkin_ws/devel/include/gtsam/base/OptionalJacobian.h
  /home/catkin_ws/devel/include/gtsam/base/SymmetricBlockMatrix.h
  /home/catkin_ws/devel/include/gtsam/base/Testable.h
  /home/catkin_ws/devel/include/gtsam/base/ThreadsafeException.h
  /home/catkin_ws/devel/include/gtsam/base/Value.h
  /home/catkin_ws/devel/include/gtsam/base/Vector.h
- /home/catkin_ws/devel/include/gtsam/base/VectorSerialization.h
  /home/catkin_ws/devel/include/gtsam/base/VectorSpace.h
  /home/catkin_ws/devel/include/gtsam/base/VerticalBlockMatrix.h
  /home/catkin_ws/devel/include/gtsam/base/concepts.h
@@ -681,19 +669,14 @@ CMakeFiles/kimera_vio.dir/src/backend/RegularVioBackendParams.cpp.o
  /home/catkin_ws/devel/include/gtsam/geometry/SO3.h
  /home/catkin_ws/devel/include/gtsam/geometry/SOn-inl.h
  /home/catkin_ws/devel/include/gtsam/geometry/SOn.h
- /home/catkin_ws/devel/include/gtsam/geometry/SphericalCamera.h
  /home/catkin_ws/devel/include/gtsam/geometry/StereoCamera.h
  /home/catkin_ws/devel/include/gtsam/geometry/StereoPoint2.h
  /home/catkin_ws/devel/include/gtsam/geometry/Unit3.h
  /home/catkin_ws/devel/include/gtsam/geometry/triangulation.h
  /home/catkin_ws/devel/include/gtsam/global_includes.h
- /home/catkin_ws/devel/include/gtsam/inference/BayesNet-inst.h
- /home/catkin_ws/devel/include/gtsam/inference/BayesNet.h
  /home/catkin_ws/devel/include/gtsam/inference/BayesTree.h
  /home/catkin_ws/devel/include/gtsam/inference/BayesTreeCliqueBase.h
- /home/catkin_ws/devel/include/gtsam/inference/Conditional-inst.h
  /home/catkin_ws/devel/include/gtsam/inference/Conditional.h
- /home/catkin_ws/devel/include/gtsam/inference/DotWriter.h
  /home/catkin_ws/devel/include/gtsam/inference/EliminateableFactorGraph.h
  /home/catkin_ws/devel/include/gtsam/inference/Factor.h
  /home/catkin_ws/devel/include/gtsam/inference/FactorGraph-inst.h
@@ -735,7 +718,6 @@ CMakeFiles/kimera_vio.dir/src/backend/RegularVioBackendParams.cpp.o
  /home/catkin_ws/devel/include/gtsam/navigation/PreintegrationParams.h
  /home/catkin_ws/devel/include/gtsam/navigation/TangentPreintegration.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/DoglegOptimizerImpl.h
- /home/catkin_ws/devel/include/gtsam/nonlinear/GraphvizFormatting.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/ISAM2.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/ISAM2Clique.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/ISAM2Params.h
@@ -747,8 +729,6 @@ CMakeFiles/kimera_vio.dir/src/backend/RegularVioBackendParams.cpp.o
  /home/catkin_ws/devel/include/gtsam/nonlinear/Values-inl.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/Values.h
  /home/catkin_ws/devel/include/gtsam/sfm/BinaryMeasurement.h
- /home/catkin_ws/devel/include/gtsam/sfm/SfmData.h
- /home/catkin_ws/devel/include/gtsam/sfm/SfmTrack.h
  /home/catkin_ws/devel/include/gtsam/slam/BetweenFactor.h
  /home/catkin_ws/devel/include/gtsam/slam/JacobianFactorQ.h
  /home/catkin_ws/devel/include/gtsam/slam/JacobianFactorSVD.h
@@ -1234,14 +1214,12 @@ CMakeFiles/kimera_vio.dir/src/backend/VioBackend.cpp.o
  /home/catkin_ws/devel/include/gtsam/base/Lie.h
  /home/catkin_ws/devel/include/gtsam/base/Manifold.h
  /home/catkin_ws/devel/include/gtsam/base/Matrix.h
- /home/catkin_ws/devel/include/gtsam/base/MatrixSerialization.h
  /home/catkin_ws/devel/include/gtsam/base/OptionalJacobian.h
  /home/catkin_ws/devel/include/gtsam/base/SymmetricBlockMatrix.h
  /home/catkin_ws/devel/include/gtsam/base/Testable.h
  /home/catkin_ws/devel/include/gtsam/base/ThreadsafeException.h
  /home/catkin_ws/devel/include/gtsam/base/Value.h
  /home/catkin_ws/devel/include/gtsam/base/Vector.h
- /home/catkin_ws/devel/include/gtsam/base/VectorSerialization.h
  /home/catkin_ws/devel/include/gtsam/base/VectorSpace.h
  /home/catkin_ws/devel/include/gtsam/base/VerticalBlockMatrix.h
  /home/catkin_ws/devel/include/gtsam/base/concepts.h
@@ -1276,19 +1254,14 @@ CMakeFiles/kimera_vio.dir/src/backend/VioBackend.cpp.o
  /home/catkin_ws/devel/include/gtsam/geometry/SO3.h
  /home/catkin_ws/devel/include/gtsam/geometry/SOn-inl.h
  /home/catkin_ws/devel/include/gtsam/geometry/SOn.h
- /home/catkin_ws/devel/include/gtsam/geometry/SphericalCamera.h
  /home/catkin_ws/devel/include/gtsam/geometry/StereoCamera.h
  /home/catkin_ws/devel/include/gtsam/geometry/StereoPoint2.h
  /home/catkin_ws/devel/include/gtsam/geometry/Unit3.h
  /home/catkin_ws/devel/include/gtsam/geometry/triangulation.h
  /home/catkin_ws/devel/include/gtsam/global_includes.h
- /home/catkin_ws/devel/include/gtsam/inference/BayesNet-inst.h
- /home/catkin_ws/devel/include/gtsam/inference/BayesNet.h
  /home/catkin_ws/devel/include/gtsam/inference/BayesTree.h
  /home/catkin_ws/devel/include/gtsam/inference/BayesTreeCliqueBase.h
- /home/catkin_ws/devel/include/gtsam/inference/Conditional-inst.h
  /home/catkin_ws/devel/include/gtsam/inference/Conditional.h
- /home/catkin_ws/devel/include/gtsam/inference/DotWriter.h
  /home/catkin_ws/devel/include/gtsam/inference/EliminateableFactorGraph.h
  /home/catkin_ws/devel/include/gtsam/inference/Factor.h
  /home/catkin_ws/devel/include/gtsam/inference/FactorGraph-inst.h
@@ -1334,7 +1307,6 @@ CMakeFiles/kimera_vio.dir/src/backend/VioBackend.cpp.o
  /home/catkin_ws/devel/include/gtsam/navigation/PreintegrationParams.h
  /home/catkin_ws/devel/include/gtsam/navigation/TangentPreintegration.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/DoglegOptimizerImpl.h
- /home/catkin_ws/devel/include/gtsam/nonlinear/GraphvizFormatting.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/ISAM2.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/ISAM2Clique.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/ISAM2Params.h
@@ -1352,8 +1324,6 @@ CMakeFiles/kimera_vio.dir/src/backend/VioBackend.cpp.o
  /home/catkin_ws/devel/include/gtsam/nonlinear/Values-inl.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/Values.h
  /home/catkin_ws/devel/include/gtsam/sfm/BinaryMeasurement.h
- /home/catkin_ws/devel/include/gtsam/sfm/SfmData.h
- /home/catkin_ws/devel/include/gtsam/sfm/SfmTrack.h
  /home/catkin_ws/devel/include/gtsam/slam/BetweenFactor.h
  /home/catkin_ws/devel/include/gtsam/slam/JacobianFactorQ.h
  /home/catkin_ws/devel/include/gtsam/slam/JacobianFactorSVD.h
@@ -1853,14 +1823,12 @@ CMakeFiles/kimera_vio.dir/src/backend/VioBackendModule.cpp.o
  /home/catkin_ws/devel/include/gtsam/base/Lie.h
  /home/catkin_ws/devel/include/gtsam/base/Manifold.h
  /home/catkin_ws/devel/include/gtsam/base/Matrix.h
- /home/catkin_ws/devel/include/gtsam/base/MatrixSerialization.h
  /home/catkin_ws/devel/include/gtsam/base/OptionalJacobian.h
  /home/catkin_ws/devel/include/gtsam/base/SymmetricBlockMatrix.h
  /home/catkin_ws/devel/include/gtsam/base/Testable.h
  /home/catkin_ws/devel/include/gtsam/base/ThreadsafeException.h
  /home/catkin_ws/devel/include/gtsam/base/Value.h
  /home/catkin_ws/devel/include/gtsam/base/Vector.h
- /home/catkin_ws/devel/include/gtsam/base/VectorSerialization.h
  /home/catkin_ws/devel/include/gtsam/base/VectorSpace.h
  /home/catkin_ws/devel/include/gtsam/base/VerticalBlockMatrix.h
  /home/catkin_ws/devel/include/gtsam/base/concepts.h
@@ -1895,19 +1863,14 @@ CMakeFiles/kimera_vio.dir/src/backend/VioBackendModule.cpp.o
  /home/catkin_ws/devel/include/gtsam/geometry/SO3.h
  /home/catkin_ws/devel/include/gtsam/geometry/SOn-inl.h
  /home/catkin_ws/devel/include/gtsam/geometry/SOn.h
- /home/catkin_ws/devel/include/gtsam/geometry/SphericalCamera.h
  /home/catkin_ws/devel/include/gtsam/geometry/StereoCamera.h
  /home/catkin_ws/devel/include/gtsam/geometry/StereoPoint2.h
  /home/catkin_ws/devel/include/gtsam/geometry/Unit3.h
  /home/catkin_ws/devel/include/gtsam/geometry/triangulation.h
  /home/catkin_ws/devel/include/gtsam/global_includes.h
- /home/catkin_ws/devel/include/gtsam/inference/BayesNet-inst.h
- /home/catkin_ws/devel/include/gtsam/inference/BayesNet.h
  /home/catkin_ws/devel/include/gtsam/inference/BayesTree.h
  /home/catkin_ws/devel/include/gtsam/inference/BayesTreeCliqueBase.h
- /home/catkin_ws/devel/include/gtsam/inference/Conditional-inst.h
  /home/catkin_ws/devel/include/gtsam/inference/Conditional.h
- /home/catkin_ws/devel/include/gtsam/inference/DotWriter.h
  /home/catkin_ws/devel/include/gtsam/inference/EliminateableFactorGraph.h
  /home/catkin_ws/devel/include/gtsam/inference/Factor.h
  /home/catkin_ws/devel/include/gtsam/inference/FactorGraph-inst.h
@@ -1953,7 +1916,6 @@ CMakeFiles/kimera_vio.dir/src/backend/VioBackendModule.cpp.o
  /home/catkin_ws/devel/include/gtsam/navigation/PreintegrationParams.h
  /home/catkin_ws/devel/include/gtsam/navigation/TangentPreintegration.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/DoglegOptimizerImpl.h
- /home/catkin_ws/devel/include/gtsam/nonlinear/GraphvizFormatting.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/ISAM2.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/ISAM2Clique.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/ISAM2Params.h
@@ -1971,8 +1933,6 @@ CMakeFiles/kimera_vio.dir/src/backend/VioBackendModule.cpp.o
  /home/catkin_ws/devel/include/gtsam/nonlinear/Values-inl.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/Values.h
  /home/catkin_ws/devel/include/gtsam/sfm/BinaryMeasurement.h
- /home/catkin_ws/devel/include/gtsam/sfm/SfmData.h
- /home/catkin_ws/devel/include/gtsam/sfm/SfmTrack.h
  /home/catkin_ws/devel/include/gtsam/slam/BetweenFactor.h
  /home/catkin_ws/devel/include/gtsam/slam/JacobianFactorQ.h
  /home/catkin_ws/devel/include/gtsam/slam/JacobianFactorSVD.h
@@ -2477,14 +2437,12 @@ CMakeFiles/kimera_vio.dir/src/backend/VioBackendParams.cpp.o
  /home/catkin_ws/devel/include/gtsam/base/Lie.h
  /home/catkin_ws/devel/include/gtsam/base/Manifold.h
  /home/catkin_ws/devel/include/gtsam/base/Matrix.h
- /home/catkin_ws/devel/include/gtsam/base/MatrixSerialization.h
  /home/catkin_ws/devel/include/gtsam/base/OptionalJacobian.h
  /home/catkin_ws/devel/include/gtsam/base/SymmetricBlockMatrix.h
  /home/catkin_ws/devel/include/gtsam/base/Testable.h
  /home/catkin_ws/devel/include/gtsam/base/ThreadsafeException.h
  /home/catkin_ws/devel/include/gtsam/base/Value.h
  /home/catkin_ws/devel/include/gtsam/base/Vector.h
- /home/catkin_ws/devel/include/gtsam/base/VectorSerialization.h
  /home/catkin_ws/devel/include/gtsam/base/VectorSpace.h
  /home/catkin_ws/devel/include/gtsam/base/VerticalBlockMatrix.h
  /home/catkin_ws/devel/include/gtsam/base/concepts.h
@@ -2496,7 +2454,6 @@ CMakeFiles/kimera_vio.dir/src/backend/VioBackendParams.cpp.o
  /home/catkin_ws/devel/include/gtsam/geometry/BearingRange.h
  /home/catkin_ws/devel/include/gtsam/geometry/Cal3.h
  /home/catkin_ws/devel/include/gtsam/geometry/Cal3Bundler.h
- /home/catkin_ws/devel/include/gtsam/geometry/Cal3DS2.h
  /home/catkin_ws/devel/include/gtsam/geometry/Cal3DS2_Base.h
  /home/catkin_ws/devel/include/gtsam/geometry/Cal3Fisheye.h
  /home/catkin_ws/devel/include/gtsam/geometry/Cal3Unified.h
@@ -2515,11 +2472,9 @@ CMakeFiles/kimera_vio.dir/src/backend/VioBackendParams.cpp.o
  /home/catkin_ws/devel/include/gtsam/geometry/SO3.h
  /home/catkin_ws/devel/include/gtsam/geometry/SOn-inl.h
  /home/catkin_ws/devel/include/gtsam/geometry/SOn.h
- /home/catkin_ws/devel/include/gtsam/geometry/SphericalCamera.h
  /home/catkin_ws/devel/include/gtsam/geometry/Unit3.h
  /home/catkin_ws/devel/include/gtsam/geometry/triangulation.h
  /home/catkin_ws/devel/include/gtsam/global_includes.h
- /home/catkin_ws/devel/include/gtsam/inference/DotWriter.h
  /home/catkin_ws/devel/include/gtsam/inference/EliminateableFactorGraph.h
  /home/catkin_ws/devel/include/gtsam/inference/Factor.h
  /home/catkin_ws/devel/include/gtsam/inference/FactorGraph-inst.h
@@ -2547,7 +2502,6 @@ CMakeFiles/kimera_vio.dir/src/backend/VioBackendParams.cpp.o
  /home/catkin_ws/devel/include/gtsam/navigation/ImuBias.h
  /home/catkin_ws/devel/include/gtsam/navigation/NavState.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/DoglegOptimizerImpl.h
- /home/catkin_ws/devel/include/gtsam/nonlinear/GraphvizFormatting.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/ISAM2Params.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/NonlinearFactor.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/NonlinearFactorGraph.h
@@ -2909,7 +2863,6 @@ CMakeFiles/kimera_vio.dir/src/common/VioNavState.cpp.o
  /home/catkin_ws/devel/include/gtsam/base/OptionalJacobian.h
  /home/catkin_ws/devel/include/gtsam/base/Testable.h
  /home/catkin_ws/devel/include/gtsam/base/Vector.h
- /home/catkin_ws/devel/include/gtsam/base/VectorSerialization.h
  /home/catkin_ws/devel/include/gtsam/base/VectorSpace.h
  /home/catkin_ws/devel/include/gtsam/base/concepts.h
  /home/catkin_ws/devel/include/gtsam/base/make_shared.h
@@ -3280,7 +3233,6 @@ CMakeFiles/kimera_vio.dir/src/dataprovider/DataProviderInterface-definitions.cpp
  /home/catkin_ws/devel/include/gtsam/base/OptionalJacobian.h
  /home/catkin_ws/devel/include/gtsam/base/Testable.h
  /home/catkin_ws/devel/include/gtsam/base/Vector.h
- /home/catkin_ws/devel/include/gtsam/base/VectorSerialization.h
  /home/catkin_ws/devel/include/gtsam/base/VectorSpace.h
  /home/catkin_ws/devel/include/gtsam/base/concepts.h
  /home/catkin_ws/devel/include/gtsam/base/make_shared.h
@@ -3656,14 +3608,12 @@ CMakeFiles/kimera_vio.dir/src/dataprovider/DataProviderInterface.cpp.o
  /home/catkin_ws/devel/include/gtsam/base/Lie.h
  /home/catkin_ws/devel/include/gtsam/base/Manifold.h
  /home/catkin_ws/devel/include/gtsam/base/Matrix.h
- /home/catkin_ws/devel/include/gtsam/base/MatrixSerialization.h
  /home/catkin_ws/devel/include/gtsam/base/OptionalJacobian.h
  /home/catkin_ws/devel/include/gtsam/base/SymmetricBlockMatrix.h
  /home/catkin_ws/devel/include/gtsam/base/Testable.h
  /home/catkin_ws/devel/include/gtsam/base/ThreadsafeException.h
  /home/catkin_ws/devel/include/gtsam/base/Value.h
  /home/catkin_ws/devel/include/gtsam/base/Vector.h
- /home/catkin_ws/devel/include/gtsam/base/VectorSerialization.h
  /home/catkin_ws/devel/include/gtsam/base/VectorSpace.h
  /home/catkin_ws/devel/include/gtsam/base/VerticalBlockMatrix.h
  /home/catkin_ws/devel/include/gtsam/base/concepts.h
@@ -3697,19 +3647,14 @@ CMakeFiles/kimera_vio.dir/src/dataprovider/DataProviderInterface.cpp.o
  /home/catkin_ws/devel/include/gtsam/geometry/SO3.h
  /home/catkin_ws/devel/include/gtsam/geometry/SOn-inl.h
  /home/catkin_ws/devel/include/gtsam/geometry/SOn.h
- /home/catkin_ws/devel/include/gtsam/geometry/SphericalCamera.h
  /home/catkin_ws/devel/include/gtsam/geometry/StereoCamera.h
  /home/catkin_ws/devel/include/gtsam/geometry/StereoPoint2.h
  /home/catkin_ws/devel/include/gtsam/geometry/Unit3.h
  /home/catkin_ws/devel/include/gtsam/geometry/triangulation.h
  /home/catkin_ws/devel/include/gtsam/global_includes.h
- /home/catkin_ws/devel/include/gtsam/inference/BayesNet-inst.h
- /home/catkin_ws/devel/include/gtsam/inference/BayesNet.h
  /home/catkin_ws/devel/include/gtsam/inference/BayesTree.h
  /home/catkin_ws/devel/include/gtsam/inference/BayesTreeCliqueBase.h
- /home/catkin_ws/devel/include/gtsam/inference/Conditional-inst.h
  /home/catkin_ws/devel/include/gtsam/inference/Conditional.h
- /home/catkin_ws/devel/include/gtsam/inference/DotWriter.h
  /home/catkin_ws/devel/include/gtsam/inference/EliminateableFactorGraph.h
  /home/catkin_ws/devel/include/gtsam/inference/Factor.h
  /home/catkin_ws/devel/include/gtsam/inference/FactorGraph-inst.h
@@ -3751,7 +3696,6 @@ CMakeFiles/kimera_vio.dir/src/dataprovider/DataProviderInterface.cpp.o
  /home/catkin_ws/devel/include/gtsam/navigation/PreintegrationParams.h
  /home/catkin_ws/devel/include/gtsam/navigation/TangentPreintegration.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/DoglegOptimizerImpl.h
- /home/catkin_ws/devel/include/gtsam/nonlinear/GraphvizFormatting.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/ISAM2.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/ISAM2Clique.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/ISAM2Params.h
@@ -3763,8 +3707,6 @@ CMakeFiles/kimera_vio.dir/src/dataprovider/DataProviderInterface.cpp.o
  /home/catkin_ws/devel/include/gtsam/nonlinear/Values-inl.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/Values.h
  /home/catkin_ws/devel/include/gtsam/sfm/BinaryMeasurement.h
- /home/catkin_ws/devel/include/gtsam/sfm/SfmData.h
- /home/catkin_ws/devel/include/gtsam/sfm/SfmTrack.h
  /home/catkin_ws/devel/include/gtsam/slam/BetweenFactor.h
  /home/catkin_ws/devel/include/gtsam/slam/JacobianFactorQ.h
  /home/catkin_ws/devel/include/gtsam/slam/JacobianFactorSVD.h
@@ -4267,14 +4209,12 @@ CMakeFiles/kimera_vio.dir/src/dataprovider/DataProviderModule.cpp.o
  /home/catkin_ws/devel/include/gtsam/base/Lie.h
  /home/catkin_ws/devel/include/gtsam/base/Manifold.h
  /home/catkin_ws/devel/include/gtsam/base/Matrix.h
- /home/catkin_ws/devel/include/gtsam/base/MatrixSerialization.h
  /home/catkin_ws/devel/include/gtsam/base/OptionalJacobian.h
  /home/catkin_ws/devel/include/gtsam/base/SymmetricBlockMatrix.h
  /home/catkin_ws/devel/include/gtsam/base/Testable.h
  /home/catkin_ws/devel/include/gtsam/base/ThreadsafeException.h
  /home/catkin_ws/devel/include/gtsam/base/Value.h
  /home/catkin_ws/devel/include/gtsam/base/Vector.h
- /home/catkin_ws/devel/include/gtsam/base/VectorSerialization.h
  /home/catkin_ws/devel/include/gtsam/base/VectorSpace.h
  /home/catkin_ws/devel/include/gtsam/base/VerticalBlockMatrix.h
  /home/catkin_ws/devel/include/gtsam/base/concepts.h
@@ -4308,19 +4248,14 @@ CMakeFiles/kimera_vio.dir/src/dataprovider/DataProviderModule.cpp.o
  /home/catkin_ws/devel/include/gtsam/geometry/SO3.h
  /home/catkin_ws/devel/include/gtsam/geometry/SOn-inl.h
  /home/catkin_ws/devel/include/gtsam/geometry/SOn.h
- /home/catkin_ws/devel/include/gtsam/geometry/SphericalCamera.h
  /home/catkin_ws/devel/include/gtsam/geometry/StereoCamera.h
  /home/catkin_ws/devel/include/gtsam/geometry/StereoPoint2.h
  /home/catkin_ws/devel/include/gtsam/geometry/Unit3.h
  /home/catkin_ws/devel/include/gtsam/geometry/triangulation.h
  /home/catkin_ws/devel/include/gtsam/global_includes.h
- /home/catkin_ws/devel/include/gtsam/inference/BayesNet-inst.h
- /home/catkin_ws/devel/include/gtsam/inference/BayesNet.h
  /home/catkin_ws/devel/include/gtsam/inference/BayesTree.h
  /home/catkin_ws/devel/include/gtsam/inference/BayesTreeCliqueBase.h
- /home/catkin_ws/devel/include/gtsam/inference/Conditional-inst.h
  /home/catkin_ws/devel/include/gtsam/inference/Conditional.h
- /home/catkin_ws/devel/include/gtsam/inference/DotWriter.h
  /home/catkin_ws/devel/include/gtsam/inference/EliminateableFactorGraph.h
  /home/catkin_ws/devel/include/gtsam/inference/Factor.h
  /home/catkin_ws/devel/include/gtsam/inference/FactorGraph-inst.h
@@ -4362,7 +4297,6 @@ CMakeFiles/kimera_vio.dir/src/dataprovider/DataProviderModule.cpp.o
  /home/catkin_ws/devel/include/gtsam/navigation/PreintegrationParams.h
  /home/catkin_ws/devel/include/gtsam/navigation/TangentPreintegration.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/DoglegOptimizerImpl.h
- /home/catkin_ws/devel/include/gtsam/nonlinear/GraphvizFormatting.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/ISAM2.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/ISAM2Clique.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/ISAM2Params.h
@@ -4374,8 +4308,6 @@ CMakeFiles/kimera_vio.dir/src/dataprovider/DataProviderModule.cpp.o
  /home/catkin_ws/devel/include/gtsam/nonlinear/Values-inl.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/Values.h
  /home/catkin_ws/devel/include/gtsam/sfm/BinaryMeasurement.h
- /home/catkin_ws/devel/include/gtsam/sfm/SfmData.h
- /home/catkin_ws/devel/include/gtsam/sfm/SfmTrack.h
  /home/catkin_ws/devel/include/gtsam/slam/BetweenFactor.h
  /home/catkin_ws/devel/include/gtsam/slam/JacobianFactorQ.h
  /home/catkin_ws/devel/include/gtsam/slam/JacobianFactorSVD.h
@@ -4886,14 +4818,12 @@ CMakeFiles/kimera_vio.dir/src/dataprovider/EurocDataProvider.cpp.o
  /home/catkin_ws/devel/include/gtsam/base/Lie.h
  /home/catkin_ws/devel/include/gtsam/base/Manifold.h
  /home/catkin_ws/devel/include/gtsam/base/Matrix.h
- /home/catkin_ws/devel/include/gtsam/base/MatrixSerialization.h
  /home/catkin_ws/devel/include/gtsam/base/OptionalJacobian.h
  /home/catkin_ws/devel/include/gtsam/base/SymmetricBlockMatrix.h
  /home/catkin_ws/devel/include/gtsam/base/Testable.h
  /home/catkin_ws/devel/include/gtsam/base/ThreadsafeException.h
  /home/catkin_ws/devel/include/gtsam/base/Value.h
  /home/catkin_ws/devel/include/gtsam/base/Vector.h
- /home/catkin_ws/devel/include/gtsam/base/VectorSerialization.h
  /home/catkin_ws/devel/include/gtsam/base/VectorSpace.h
  /home/catkin_ws/devel/include/gtsam/base/VerticalBlockMatrix.h
  /home/catkin_ws/devel/include/gtsam/base/concepts.h
@@ -4927,19 +4857,14 @@ CMakeFiles/kimera_vio.dir/src/dataprovider/EurocDataProvider.cpp.o
  /home/catkin_ws/devel/include/gtsam/geometry/SO3.h
  /home/catkin_ws/devel/include/gtsam/geometry/SOn-inl.h
  /home/catkin_ws/devel/include/gtsam/geometry/SOn.h
- /home/catkin_ws/devel/include/gtsam/geometry/SphericalCamera.h
  /home/catkin_ws/devel/include/gtsam/geometry/StereoCamera.h
  /home/catkin_ws/devel/include/gtsam/geometry/StereoPoint2.h
  /home/catkin_ws/devel/include/gtsam/geometry/Unit3.h
  /home/catkin_ws/devel/include/gtsam/geometry/triangulation.h
  /home/catkin_ws/devel/include/gtsam/global_includes.h
- /home/catkin_ws/devel/include/gtsam/inference/BayesNet-inst.h
- /home/catkin_ws/devel/include/gtsam/inference/BayesNet.h
  /home/catkin_ws/devel/include/gtsam/inference/BayesTree.h
  /home/catkin_ws/devel/include/gtsam/inference/BayesTreeCliqueBase.h
- /home/catkin_ws/devel/include/gtsam/inference/Conditional-inst.h
  /home/catkin_ws/devel/include/gtsam/inference/Conditional.h
- /home/catkin_ws/devel/include/gtsam/inference/DotWriter.h
  /home/catkin_ws/devel/include/gtsam/inference/EliminateableFactorGraph.h
  /home/catkin_ws/devel/include/gtsam/inference/Factor.h
  /home/catkin_ws/devel/include/gtsam/inference/FactorGraph-inst.h
@@ -4981,7 +4906,6 @@ CMakeFiles/kimera_vio.dir/src/dataprovider/EurocDataProvider.cpp.o
  /home/catkin_ws/devel/include/gtsam/navigation/PreintegrationParams.h
  /home/catkin_ws/devel/include/gtsam/navigation/TangentPreintegration.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/DoglegOptimizerImpl.h
- /home/catkin_ws/devel/include/gtsam/nonlinear/GraphvizFormatting.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/ISAM2.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/ISAM2Clique.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/ISAM2Params.h
@@ -4993,8 +4917,6 @@ CMakeFiles/kimera_vio.dir/src/dataprovider/EurocDataProvider.cpp.o
  /home/catkin_ws/devel/include/gtsam/nonlinear/Values-inl.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/Values.h
  /home/catkin_ws/devel/include/gtsam/sfm/BinaryMeasurement.h
- /home/catkin_ws/devel/include/gtsam/sfm/SfmData.h
- /home/catkin_ws/devel/include/gtsam/sfm/SfmTrack.h
  /home/catkin_ws/devel/include/gtsam/slam/BetweenFactor.h
  /home/catkin_ws/devel/include/gtsam/slam/JacobianFactorQ.h
  /home/catkin_ws/devel/include/gtsam/slam/JacobianFactorSVD.h
@@ -5504,14 +5426,12 @@ CMakeFiles/kimera_vio.dir/src/dataprovider/KittiDataProvider.cpp.o
  /home/catkin_ws/devel/include/gtsam/base/Lie.h
  /home/catkin_ws/devel/include/gtsam/base/Manifold.h
  /home/catkin_ws/devel/include/gtsam/base/Matrix.h
- /home/catkin_ws/devel/include/gtsam/base/MatrixSerialization.h
  /home/catkin_ws/devel/include/gtsam/base/OptionalJacobian.h
  /home/catkin_ws/devel/include/gtsam/base/SymmetricBlockMatrix.h
  /home/catkin_ws/devel/include/gtsam/base/Testable.h
  /home/catkin_ws/devel/include/gtsam/base/ThreadsafeException.h
  /home/catkin_ws/devel/include/gtsam/base/Value.h
  /home/catkin_ws/devel/include/gtsam/base/Vector.h
- /home/catkin_ws/devel/include/gtsam/base/VectorSerialization.h
  /home/catkin_ws/devel/include/gtsam/base/VectorSpace.h
  /home/catkin_ws/devel/include/gtsam/base/VerticalBlockMatrix.h
  /home/catkin_ws/devel/include/gtsam/base/concepts.h
@@ -5545,19 +5465,14 @@ CMakeFiles/kimera_vio.dir/src/dataprovider/KittiDataProvider.cpp.o
  /home/catkin_ws/devel/include/gtsam/geometry/SO3.h
  /home/catkin_ws/devel/include/gtsam/geometry/SOn-inl.h
  /home/catkin_ws/devel/include/gtsam/geometry/SOn.h
- /home/catkin_ws/devel/include/gtsam/geometry/SphericalCamera.h
  /home/catkin_ws/devel/include/gtsam/geometry/StereoCamera.h
  /home/catkin_ws/devel/include/gtsam/geometry/StereoPoint2.h
  /home/catkin_ws/devel/include/gtsam/geometry/Unit3.h
  /home/catkin_ws/devel/include/gtsam/geometry/triangulation.h
  /home/catkin_ws/devel/include/gtsam/global_includes.h
- /home/catkin_ws/devel/include/gtsam/inference/BayesNet-inst.h
- /home/catkin_ws/devel/include/gtsam/inference/BayesNet.h
  /home/catkin_ws/devel/include/gtsam/inference/BayesTree.h
  /home/catkin_ws/devel/include/gtsam/inference/BayesTreeCliqueBase.h
- /home/catkin_ws/devel/include/gtsam/inference/Conditional-inst.h
  /home/catkin_ws/devel/include/gtsam/inference/Conditional.h
- /home/catkin_ws/devel/include/gtsam/inference/DotWriter.h
  /home/catkin_ws/devel/include/gtsam/inference/EliminateableFactorGraph.h
  /home/catkin_ws/devel/include/gtsam/inference/Factor.h
  /home/catkin_ws/devel/include/gtsam/inference/FactorGraph-inst.h
@@ -5599,7 +5514,6 @@ CMakeFiles/kimera_vio.dir/src/dataprovider/KittiDataProvider.cpp.o
  /home/catkin_ws/devel/include/gtsam/navigation/PreintegrationParams.h
  /home/catkin_ws/devel/include/gtsam/navigation/TangentPreintegration.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/DoglegOptimizerImpl.h
- /home/catkin_ws/devel/include/gtsam/nonlinear/GraphvizFormatting.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/ISAM2.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/ISAM2Clique.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/ISAM2Params.h
@@ -5611,8 +5525,6 @@ CMakeFiles/kimera_vio.dir/src/dataprovider/KittiDataProvider.cpp.o
  /home/catkin_ws/devel/include/gtsam/nonlinear/Values-inl.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/Values.h
  /home/catkin_ws/devel/include/gtsam/sfm/BinaryMeasurement.h
- /home/catkin_ws/devel/include/gtsam/sfm/SfmData.h
- /home/catkin_ws/devel/include/gtsam/sfm/SfmTrack.h
  /home/catkin_ws/devel/include/gtsam/slam/BetweenFactor.h
  /home/catkin_ws/devel/include/gtsam/slam/JacobianFactorQ.h
  /home/catkin_ws/devel/include/gtsam/slam/JacobianFactorSVD.h
@@ -6118,14 +6030,12 @@ CMakeFiles/kimera_vio.dir/src/dataprovider/MonoDataProviderModule.cpp.o
  /home/catkin_ws/devel/include/gtsam/base/Lie.h
  /home/catkin_ws/devel/include/gtsam/base/Manifold.h
  /home/catkin_ws/devel/include/gtsam/base/Matrix.h
- /home/catkin_ws/devel/include/gtsam/base/MatrixSerialization.h
  /home/catkin_ws/devel/include/gtsam/base/OptionalJacobian.h
  /home/catkin_ws/devel/include/gtsam/base/SymmetricBlockMatrix.h
  /home/catkin_ws/devel/include/gtsam/base/Testable.h
  /home/catkin_ws/devel/include/gtsam/base/ThreadsafeException.h
  /home/catkin_ws/devel/include/gtsam/base/Value.h
  /home/catkin_ws/devel/include/gtsam/base/Vector.h
- /home/catkin_ws/devel/include/gtsam/base/VectorSerialization.h
  /home/catkin_ws/devel/include/gtsam/base/VectorSpace.h
  /home/catkin_ws/devel/include/gtsam/base/VerticalBlockMatrix.h
  /home/catkin_ws/devel/include/gtsam/base/concepts.h
@@ -6159,19 +6069,14 @@ CMakeFiles/kimera_vio.dir/src/dataprovider/MonoDataProviderModule.cpp.o
  /home/catkin_ws/devel/include/gtsam/geometry/SO3.h
  /home/catkin_ws/devel/include/gtsam/geometry/SOn-inl.h
  /home/catkin_ws/devel/include/gtsam/geometry/SOn.h
- /home/catkin_ws/devel/include/gtsam/geometry/SphericalCamera.h
  /home/catkin_ws/devel/include/gtsam/geometry/StereoCamera.h
  /home/catkin_ws/devel/include/gtsam/geometry/StereoPoint2.h
  /home/catkin_ws/devel/include/gtsam/geometry/Unit3.h
  /home/catkin_ws/devel/include/gtsam/geometry/triangulation.h
  /home/catkin_ws/devel/include/gtsam/global_includes.h
- /home/catkin_ws/devel/include/gtsam/inference/BayesNet-inst.h
- /home/catkin_ws/devel/include/gtsam/inference/BayesNet.h
  /home/catkin_ws/devel/include/gtsam/inference/BayesTree.h
  /home/catkin_ws/devel/include/gtsam/inference/BayesTreeCliqueBase.h
- /home/catkin_ws/devel/include/gtsam/inference/Conditional-inst.h
  /home/catkin_ws/devel/include/gtsam/inference/Conditional.h
- /home/catkin_ws/devel/include/gtsam/inference/DotWriter.h
  /home/catkin_ws/devel/include/gtsam/inference/EliminateableFactorGraph.h
  /home/catkin_ws/devel/include/gtsam/inference/Factor.h
  /home/catkin_ws/devel/include/gtsam/inference/FactorGraph-inst.h
@@ -6213,7 +6118,6 @@ CMakeFiles/kimera_vio.dir/src/dataprovider/MonoDataProviderModule.cpp.o
  /home/catkin_ws/devel/include/gtsam/navigation/PreintegrationParams.h
  /home/catkin_ws/devel/include/gtsam/navigation/TangentPreintegration.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/DoglegOptimizerImpl.h
- /home/catkin_ws/devel/include/gtsam/nonlinear/GraphvizFormatting.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/ISAM2.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/ISAM2Clique.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/ISAM2Params.h
@@ -6225,8 +6129,6 @@ CMakeFiles/kimera_vio.dir/src/dataprovider/MonoDataProviderModule.cpp.o
  /home/catkin_ws/devel/include/gtsam/nonlinear/Values-inl.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/Values.h
  /home/catkin_ws/devel/include/gtsam/sfm/BinaryMeasurement.h
- /home/catkin_ws/devel/include/gtsam/sfm/SfmData.h
- /home/catkin_ws/devel/include/gtsam/sfm/SfmTrack.h
  /home/catkin_ws/devel/include/gtsam/slam/BetweenFactor.h
  /home/catkin_ws/devel/include/gtsam/slam/JacobianFactorQ.h
  /home/catkin_ws/devel/include/gtsam/slam/JacobianFactorSVD.h
@@ -6736,14 +6638,12 @@ CMakeFiles/kimera_vio.dir/src/dataprovider/RgbdDataProviderModule.cpp.o
  /home/catkin_ws/devel/include/gtsam/base/Lie.h
  /home/catkin_ws/devel/include/gtsam/base/Manifold.h
  /home/catkin_ws/devel/include/gtsam/base/Matrix.h
- /home/catkin_ws/devel/include/gtsam/base/MatrixSerialization.h
  /home/catkin_ws/devel/include/gtsam/base/OptionalJacobian.h
  /home/catkin_ws/devel/include/gtsam/base/SymmetricBlockMatrix.h
  /home/catkin_ws/devel/include/gtsam/base/Testable.h
  /home/catkin_ws/devel/include/gtsam/base/ThreadsafeException.h
  /home/catkin_ws/devel/include/gtsam/base/Value.h
  /home/catkin_ws/devel/include/gtsam/base/Vector.h
- /home/catkin_ws/devel/include/gtsam/base/VectorSerialization.h
  /home/catkin_ws/devel/include/gtsam/base/VectorSpace.h
  /home/catkin_ws/devel/include/gtsam/base/VerticalBlockMatrix.h
  /home/catkin_ws/devel/include/gtsam/base/concepts.h
@@ -6777,19 +6677,14 @@ CMakeFiles/kimera_vio.dir/src/dataprovider/RgbdDataProviderModule.cpp.o
  /home/catkin_ws/devel/include/gtsam/geometry/SO3.h
  /home/catkin_ws/devel/include/gtsam/geometry/SOn-inl.h
  /home/catkin_ws/devel/include/gtsam/geometry/SOn.h
- /home/catkin_ws/devel/include/gtsam/geometry/SphericalCamera.h
  /home/catkin_ws/devel/include/gtsam/geometry/StereoCamera.h
  /home/catkin_ws/devel/include/gtsam/geometry/StereoPoint2.h
  /home/catkin_ws/devel/include/gtsam/geometry/Unit3.h
  /home/catkin_ws/devel/include/gtsam/geometry/triangulation.h
  /home/catkin_ws/devel/include/gtsam/global_includes.h
- /home/catkin_ws/devel/include/gtsam/inference/BayesNet-inst.h
- /home/catkin_ws/devel/include/gtsam/inference/BayesNet.h
  /home/catkin_ws/devel/include/gtsam/inference/BayesTree.h
  /home/catkin_ws/devel/include/gtsam/inference/BayesTreeCliqueBase.h
- /home/catkin_ws/devel/include/gtsam/inference/Conditional-inst.h
  /home/catkin_ws/devel/include/gtsam/inference/Conditional.h
- /home/catkin_ws/devel/include/gtsam/inference/DotWriter.h
  /home/catkin_ws/devel/include/gtsam/inference/EliminateableFactorGraph.h
  /home/catkin_ws/devel/include/gtsam/inference/Factor.h
  /home/catkin_ws/devel/include/gtsam/inference/FactorGraph-inst.h
@@ -6831,7 +6726,6 @@ CMakeFiles/kimera_vio.dir/src/dataprovider/RgbdDataProviderModule.cpp.o
  /home/catkin_ws/devel/include/gtsam/navigation/PreintegrationParams.h
  /home/catkin_ws/devel/include/gtsam/navigation/TangentPreintegration.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/DoglegOptimizerImpl.h
- /home/catkin_ws/devel/include/gtsam/nonlinear/GraphvizFormatting.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/ISAM2.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/ISAM2Clique.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/ISAM2Params.h
@@ -6843,8 +6737,6 @@ CMakeFiles/kimera_vio.dir/src/dataprovider/RgbdDataProviderModule.cpp.o
  /home/catkin_ws/devel/include/gtsam/nonlinear/Values-inl.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/Values.h
  /home/catkin_ws/devel/include/gtsam/sfm/BinaryMeasurement.h
- /home/catkin_ws/devel/include/gtsam/sfm/SfmData.h
- /home/catkin_ws/devel/include/gtsam/sfm/SfmTrack.h
  /home/catkin_ws/devel/include/gtsam/slam/BetweenFactor.h
  /home/catkin_ws/devel/include/gtsam/slam/JacobianFactorQ.h
  /home/catkin_ws/devel/include/gtsam/slam/JacobianFactorSVD.h
@@ -7358,14 +7250,12 @@ CMakeFiles/kimera_vio.dir/src/dataprovider/StereoDataProviderModule.cpp.o
  /home/catkin_ws/devel/include/gtsam/base/Lie.h
  /home/catkin_ws/devel/include/gtsam/base/Manifold.h
  /home/catkin_ws/devel/include/gtsam/base/Matrix.h
- /home/catkin_ws/devel/include/gtsam/base/MatrixSerialization.h
  /home/catkin_ws/devel/include/gtsam/base/OptionalJacobian.h
  /home/catkin_ws/devel/include/gtsam/base/SymmetricBlockMatrix.h
  /home/catkin_ws/devel/include/gtsam/base/Testable.h
  /home/catkin_ws/devel/include/gtsam/base/ThreadsafeException.h
  /home/catkin_ws/devel/include/gtsam/base/Value.h
  /home/catkin_ws/devel/include/gtsam/base/Vector.h
- /home/catkin_ws/devel/include/gtsam/base/VectorSerialization.h
  /home/catkin_ws/devel/include/gtsam/base/VectorSpace.h
  /home/catkin_ws/devel/include/gtsam/base/VerticalBlockMatrix.h
  /home/catkin_ws/devel/include/gtsam/base/concepts.h
@@ -7399,19 +7289,14 @@ CMakeFiles/kimera_vio.dir/src/dataprovider/StereoDataProviderModule.cpp.o
  /home/catkin_ws/devel/include/gtsam/geometry/SO3.h
  /home/catkin_ws/devel/include/gtsam/geometry/SOn-inl.h
  /home/catkin_ws/devel/include/gtsam/geometry/SOn.h
- /home/catkin_ws/devel/include/gtsam/geometry/SphericalCamera.h
  /home/catkin_ws/devel/include/gtsam/geometry/StereoCamera.h
  /home/catkin_ws/devel/include/gtsam/geometry/StereoPoint2.h
  /home/catkin_ws/devel/include/gtsam/geometry/Unit3.h
  /home/catkin_ws/devel/include/gtsam/geometry/triangulation.h
  /home/catkin_ws/devel/include/gtsam/global_includes.h
- /home/catkin_ws/devel/include/gtsam/inference/BayesNet-inst.h
- /home/catkin_ws/devel/include/gtsam/inference/BayesNet.h
  /home/catkin_ws/devel/include/gtsam/inference/BayesTree.h
  /home/catkin_ws/devel/include/gtsam/inference/BayesTreeCliqueBase.h
- /home/catkin_ws/devel/include/gtsam/inference/Conditional-inst.h
  /home/catkin_ws/devel/include/gtsam/inference/Conditional.h
- /home/catkin_ws/devel/include/gtsam/inference/DotWriter.h
  /home/catkin_ws/devel/include/gtsam/inference/EliminateableFactorGraph.h
  /home/catkin_ws/devel/include/gtsam/inference/Factor.h
  /home/catkin_ws/devel/include/gtsam/inference/FactorGraph-inst.h
@@ -7453,7 +7338,6 @@ CMakeFiles/kimera_vio.dir/src/dataprovider/StereoDataProviderModule.cpp.o
  /home/catkin_ws/devel/include/gtsam/navigation/PreintegrationParams.h
  /home/catkin_ws/devel/include/gtsam/navigation/TangentPreintegration.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/DoglegOptimizerImpl.h
- /home/catkin_ws/devel/include/gtsam/nonlinear/GraphvizFormatting.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/ISAM2.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/ISAM2Clique.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/ISAM2Params.h
@@ -7465,8 +7349,6 @@ CMakeFiles/kimera_vio.dir/src/dataprovider/StereoDataProviderModule.cpp.o
  /home/catkin_ws/devel/include/gtsam/nonlinear/Values-inl.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/Values.h
  /home/catkin_ws/devel/include/gtsam/sfm/BinaryMeasurement.h
- /home/catkin_ws/devel/include/gtsam/sfm/SfmData.h
- /home/catkin_ws/devel/include/gtsam/sfm/SfmTrack.h
  /home/catkin_ws/devel/include/gtsam/slam/BetweenFactor.h
  /home/catkin_ws/devel/include/gtsam/slam/JacobianFactorQ.h
  /home/catkin_ws/devel/include/gtsam/slam/JacobianFactorSVD.h
@@ -7977,13 +7859,11 @@ CMakeFiles/kimera_vio.dir/src/factors/ParallelPlaneRegularFactor.cpp.o
  /home/catkin_ws/devel/include/gtsam/base/Lie.h
  /home/catkin_ws/devel/include/gtsam/base/Manifold.h
  /home/catkin_ws/devel/include/gtsam/base/Matrix.h
- /home/catkin_ws/devel/include/gtsam/base/MatrixSerialization.h
  /home/catkin_ws/devel/include/gtsam/base/OptionalJacobian.h
  /home/catkin_ws/devel/include/gtsam/base/Testable.h
  /home/catkin_ws/devel/include/gtsam/base/ThreadsafeException.h
  /home/catkin_ws/devel/include/gtsam/base/Value.h
  /home/catkin_ws/devel/include/gtsam/base/Vector.h
- /home/catkin_ws/devel/include/gtsam/base/VectorSerialization.h
  /home/catkin_ws/devel/include/gtsam/base/VectorSpace.h
  /home/catkin_ws/devel/include/gtsam/base/VerticalBlockMatrix.h
  /home/catkin_ws/devel/include/gtsam/base/concepts.h
@@ -8236,13 +8116,11 @@ CMakeFiles/kimera_vio.dir/src/factors/PointPlaneFactor.cpp.o
  /home/catkin_ws/devel/include/gtsam/base/Lie.h
  /home/catkin_ws/devel/include/gtsam/base/Manifold.h
  /home/catkin_ws/devel/include/gtsam/base/Matrix.h
- /home/catkin_ws/devel/include/gtsam/base/MatrixSerialization.h
  /home/catkin_ws/devel/include/gtsam/base/OptionalJacobian.h
  /home/catkin_ws/devel/include/gtsam/base/Testable.h
  /home/catkin_ws/devel/include/gtsam/base/ThreadsafeException.h
  /home/catkin_ws/devel/include/gtsam/base/Value.h
  /home/catkin_ws/devel/include/gtsam/base/Vector.h
- /home/catkin_ws/devel/include/gtsam/base/VectorSerialization.h
  /home/catkin_ws/devel/include/gtsam/base/VectorSpace.h
  /home/catkin_ws/devel/include/gtsam/base/VerticalBlockMatrix.h
  /home/catkin_ws/devel/include/gtsam/base/concepts.h
@@ -8498,7 +8376,6 @@ CMakeFiles/kimera_vio.dir/src/frontend/Camera.cpp.o
  /home/catkin_ws/devel/include/gtsam/base/Testable.h
  /home/catkin_ws/devel/include/gtsam/base/ThreadsafeException.h
  /home/catkin_ws/devel/include/gtsam/base/Vector.h
- /home/catkin_ws/devel/include/gtsam/base/VectorSerialization.h
  /home/catkin_ws/devel/include/gtsam/base/VectorSpace.h
  /home/catkin_ws/devel/include/gtsam/base/concepts.h
  /home/catkin_ws/devel/include/gtsam/base/make_shared.h
@@ -8885,7 +8762,6 @@ CMakeFiles/kimera_vio.dir/src/frontend/CameraParams.cpp.o
  /home/catkin_ws/devel/include/gtsam/base/OptionalJacobian.h
  /home/catkin_ws/devel/include/gtsam/base/Testable.h
  /home/catkin_ws/devel/include/gtsam/base/Vector.h
- /home/catkin_ws/devel/include/gtsam/base/VectorSerialization.h
  /home/catkin_ws/devel/include/gtsam/base/VectorSpace.h
  /home/catkin_ws/devel/include/gtsam/base/concepts.h
  /home/catkin_ws/devel/include/gtsam/base/make_shared.h
@@ -9266,14 +9142,12 @@ CMakeFiles/kimera_vio.dir/src/frontend/MonoImuSyncPacket.cpp.o
  /home/catkin_ws/devel/include/gtsam/base/Lie.h
  /home/catkin_ws/devel/include/gtsam/base/Manifold.h
  /home/catkin_ws/devel/include/gtsam/base/Matrix.h
- /home/catkin_ws/devel/include/gtsam/base/MatrixSerialization.h
  /home/catkin_ws/devel/include/gtsam/base/OptionalJacobian.h
  /home/catkin_ws/devel/include/gtsam/base/SymmetricBlockMatrix.h
  /home/catkin_ws/devel/include/gtsam/base/Testable.h
  /home/catkin_ws/devel/include/gtsam/base/ThreadsafeException.h
  /home/catkin_ws/devel/include/gtsam/base/Value.h
  /home/catkin_ws/devel/include/gtsam/base/Vector.h
- /home/catkin_ws/devel/include/gtsam/base/VectorSerialization.h
  /home/catkin_ws/devel/include/gtsam/base/VectorSpace.h
  /home/catkin_ws/devel/include/gtsam/base/VerticalBlockMatrix.h
  /home/catkin_ws/devel/include/gtsam/base/concepts.h
@@ -9307,19 +9181,14 @@ CMakeFiles/kimera_vio.dir/src/frontend/MonoImuSyncPacket.cpp.o
  /home/catkin_ws/devel/include/gtsam/geometry/SO3.h
  /home/catkin_ws/devel/include/gtsam/geometry/SOn-inl.h
  /home/catkin_ws/devel/include/gtsam/geometry/SOn.h
- /home/catkin_ws/devel/include/gtsam/geometry/SphericalCamera.h
  /home/catkin_ws/devel/include/gtsam/geometry/StereoCamera.h
  /home/catkin_ws/devel/include/gtsam/geometry/StereoPoint2.h
  /home/catkin_ws/devel/include/gtsam/geometry/Unit3.h
  /home/catkin_ws/devel/include/gtsam/geometry/triangulation.h
  /home/catkin_ws/devel/include/gtsam/global_includes.h
- /home/catkin_ws/devel/include/gtsam/inference/BayesNet-inst.h
- /home/catkin_ws/devel/include/gtsam/inference/BayesNet.h
  /home/catkin_ws/devel/include/gtsam/inference/BayesTree.h
  /home/catkin_ws/devel/include/gtsam/inference/BayesTreeCliqueBase.h
- /home/catkin_ws/devel/include/gtsam/inference/Conditional-inst.h
  /home/catkin_ws/devel/include/gtsam/inference/Conditional.h
- /home/catkin_ws/devel/include/gtsam/inference/DotWriter.h
  /home/catkin_ws/devel/include/gtsam/inference/EliminateableFactorGraph.h
  /home/catkin_ws/devel/include/gtsam/inference/Factor.h
  /home/catkin_ws/devel/include/gtsam/inference/FactorGraph-inst.h
@@ -9361,7 +9230,6 @@ CMakeFiles/kimera_vio.dir/src/frontend/MonoImuSyncPacket.cpp.o
  /home/catkin_ws/devel/include/gtsam/navigation/PreintegrationParams.h
  /home/catkin_ws/devel/include/gtsam/navigation/TangentPreintegration.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/DoglegOptimizerImpl.h
- /home/catkin_ws/devel/include/gtsam/nonlinear/GraphvizFormatting.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/ISAM2.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/ISAM2Clique.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/ISAM2Params.h
@@ -9373,8 +9241,6 @@ CMakeFiles/kimera_vio.dir/src/frontend/MonoImuSyncPacket.cpp.o
  /home/catkin_ws/devel/include/gtsam/nonlinear/Values-inl.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/Values.h
  /home/catkin_ws/devel/include/gtsam/sfm/BinaryMeasurement.h
- /home/catkin_ws/devel/include/gtsam/sfm/SfmData.h
- /home/catkin_ws/devel/include/gtsam/sfm/SfmTrack.h
  /home/catkin_ws/devel/include/gtsam/slam/BetweenFactor.h
  /home/catkin_ws/devel/include/gtsam/slam/JacobianFactorQ.h
  /home/catkin_ws/devel/include/gtsam/slam/JacobianFactorSVD.h
@@ -9860,14 +9726,12 @@ CMakeFiles/kimera_vio.dir/src/frontend/MonoVisionImuFrontend.cpp.o
  /home/catkin_ws/devel/include/gtsam/base/Lie.h
  /home/catkin_ws/devel/include/gtsam/base/Manifold.h
  /home/catkin_ws/devel/include/gtsam/base/Matrix.h
- /home/catkin_ws/devel/include/gtsam/base/MatrixSerialization.h
  /home/catkin_ws/devel/include/gtsam/base/OptionalJacobian.h
  /home/catkin_ws/devel/include/gtsam/base/SymmetricBlockMatrix.h
  /home/catkin_ws/devel/include/gtsam/base/Testable.h
  /home/catkin_ws/devel/include/gtsam/base/ThreadsafeException.h
  /home/catkin_ws/devel/include/gtsam/base/Value.h
  /home/catkin_ws/devel/include/gtsam/base/Vector.h
- /home/catkin_ws/devel/include/gtsam/base/VectorSerialization.h
  /home/catkin_ws/devel/include/gtsam/base/VectorSpace.h
  /home/catkin_ws/devel/include/gtsam/base/VerticalBlockMatrix.h
  /home/catkin_ws/devel/include/gtsam/base/concepts.h
@@ -9901,19 +9765,14 @@ CMakeFiles/kimera_vio.dir/src/frontend/MonoVisionImuFrontend.cpp.o
  /home/catkin_ws/devel/include/gtsam/geometry/SO3.h
  /home/catkin_ws/devel/include/gtsam/geometry/SOn-inl.h
  /home/catkin_ws/devel/include/gtsam/geometry/SOn.h
- /home/catkin_ws/devel/include/gtsam/geometry/SphericalCamera.h
  /home/catkin_ws/devel/include/gtsam/geometry/StereoCamera.h
  /home/catkin_ws/devel/include/gtsam/geometry/StereoPoint2.h
  /home/catkin_ws/devel/include/gtsam/geometry/Unit3.h
  /home/catkin_ws/devel/include/gtsam/geometry/triangulation.h
  /home/catkin_ws/devel/include/gtsam/global_includes.h
- /home/catkin_ws/devel/include/gtsam/inference/BayesNet-inst.h
- /home/catkin_ws/devel/include/gtsam/inference/BayesNet.h
  /home/catkin_ws/devel/include/gtsam/inference/BayesTree.h
  /home/catkin_ws/devel/include/gtsam/inference/BayesTreeCliqueBase.h
- /home/catkin_ws/devel/include/gtsam/inference/Conditional-inst.h
  /home/catkin_ws/devel/include/gtsam/inference/Conditional.h
- /home/catkin_ws/devel/include/gtsam/inference/DotWriter.h
  /home/catkin_ws/devel/include/gtsam/inference/EliminateableFactorGraph.h
  /home/catkin_ws/devel/include/gtsam/inference/Factor.h
  /home/catkin_ws/devel/include/gtsam/inference/FactorGraph-inst.h
@@ -9955,7 +9814,6 @@ CMakeFiles/kimera_vio.dir/src/frontend/MonoVisionImuFrontend.cpp.o
  /home/catkin_ws/devel/include/gtsam/navigation/PreintegrationParams.h
  /home/catkin_ws/devel/include/gtsam/navigation/TangentPreintegration.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/DoglegOptimizerImpl.h
- /home/catkin_ws/devel/include/gtsam/nonlinear/GraphvizFormatting.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/ISAM2.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/ISAM2Clique.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/ISAM2Params.h
@@ -9967,8 +9825,6 @@ CMakeFiles/kimera_vio.dir/src/frontend/MonoVisionImuFrontend.cpp.o
  /home/catkin_ws/devel/include/gtsam/nonlinear/Values-inl.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/Values.h
  /home/catkin_ws/devel/include/gtsam/sfm/BinaryMeasurement.h
- /home/catkin_ws/devel/include/gtsam/sfm/SfmData.h
- /home/catkin_ws/devel/include/gtsam/sfm/SfmTrack.h
  /home/catkin_ws/devel/include/gtsam/slam/BetweenFactor.h
  /home/catkin_ws/devel/include/gtsam/slam/JacobianFactorQ.h
  /home/catkin_ws/devel/include/gtsam/slam/JacobianFactorSVD.h
@@ -10491,7 +10347,6 @@ CMakeFiles/kimera_vio.dir/src/frontend/StereoCamera.cpp.o
  /home/catkin_ws/devel/include/gtsam/base/Testable.h
  /home/catkin_ws/devel/include/gtsam/base/ThreadsafeException.h
  /home/catkin_ws/devel/include/gtsam/base/Vector.h
- /home/catkin_ws/devel/include/gtsam/base/VectorSerialization.h
  /home/catkin_ws/devel/include/gtsam/base/VectorSpace.h
  /home/catkin_ws/devel/include/gtsam/base/concepts.h
  /home/catkin_ws/devel/include/gtsam/base/make_shared.h
@@ -10983,7 +10838,6 @@ CMakeFiles/kimera_vio.dir/src/frontend/StereoFrame.cpp.o
  /home/catkin_ws/devel/include/gtsam/base/Testable.h
  /home/catkin_ws/devel/include/gtsam/base/ThreadsafeException.h
  /home/catkin_ws/devel/include/gtsam/base/Vector.h
- /home/catkin_ws/devel/include/gtsam/base/VectorSerialization.h
  /home/catkin_ws/devel/include/gtsam/base/VectorSpace.h
  /home/catkin_ws/devel/include/gtsam/base/concepts.h
  /home/catkin_ws/devel/include/gtsam/base/make_shared.h
@@ -11466,14 +11320,12 @@ CMakeFiles/kimera_vio.dir/src/frontend/StereoImuSyncPacket.cpp.o
  /home/catkin_ws/devel/include/gtsam/base/Lie.h
  /home/catkin_ws/devel/include/gtsam/base/Manifold.h
  /home/catkin_ws/devel/include/gtsam/base/Matrix.h
- /home/catkin_ws/devel/include/gtsam/base/MatrixSerialization.h
  /home/catkin_ws/devel/include/gtsam/base/OptionalJacobian.h
  /home/catkin_ws/devel/include/gtsam/base/SymmetricBlockMatrix.h
  /home/catkin_ws/devel/include/gtsam/base/Testable.h
  /home/catkin_ws/devel/include/gtsam/base/ThreadsafeException.h
  /home/catkin_ws/devel/include/gtsam/base/Value.h
  /home/catkin_ws/devel/include/gtsam/base/Vector.h
- /home/catkin_ws/devel/include/gtsam/base/VectorSerialization.h
  /home/catkin_ws/devel/include/gtsam/base/VectorSpace.h
  /home/catkin_ws/devel/include/gtsam/base/VerticalBlockMatrix.h
  /home/catkin_ws/devel/include/gtsam/base/concepts.h
@@ -11507,19 +11359,14 @@ CMakeFiles/kimera_vio.dir/src/frontend/StereoImuSyncPacket.cpp.o
  /home/catkin_ws/devel/include/gtsam/geometry/SO3.h
  /home/catkin_ws/devel/include/gtsam/geometry/SOn-inl.h
  /home/catkin_ws/devel/include/gtsam/geometry/SOn.h
- /home/catkin_ws/devel/include/gtsam/geometry/SphericalCamera.h
  /home/catkin_ws/devel/include/gtsam/geometry/StereoCamera.h
  /home/catkin_ws/devel/include/gtsam/geometry/StereoPoint2.h
  /home/catkin_ws/devel/include/gtsam/geometry/Unit3.h
  /home/catkin_ws/devel/include/gtsam/geometry/triangulation.h
  /home/catkin_ws/devel/include/gtsam/global_includes.h
- /home/catkin_ws/devel/include/gtsam/inference/BayesNet-inst.h
- /home/catkin_ws/devel/include/gtsam/inference/BayesNet.h
  /home/catkin_ws/devel/include/gtsam/inference/BayesTree.h
  /home/catkin_ws/devel/include/gtsam/inference/BayesTreeCliqueBase.h
- /home/catkin_ws/devel/include/gtsam/inference/Conditional-inst.h
  /home/catkin_ws/devel/include/gtsam/inference/Conditional.h
- /home/catkin_ws/devel/include/gtsam/inference/DotWriter.h
  /home/catkin_ws/devel/include/gtsam/inference/EliminateableFactorGraph.h
  /home/catkin_ws/devel/include/gtsam/inference/Factor.h
  /home/catkin_ws/devel/include/gtsam/inference/FactorGraph-inst.h
@@ -11561,7 +11408,6 @@ CMakeFiles/kimera_vio.dir/src/frontend/StereoImuSyncPacket.cpp.o
  /home/catkin_ws/devel/include/gtsam/navigation/PreintegrationParams.h
  /home/catkin_ws/devel/include/gtsam/navigation/TangentPreintegration.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/DoglegOptimizerImpl.h
- /home/catkin_ws/devel/include/gtsam/nonlinear/GraphvizFormatting.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/ISAM2.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/ISAM2Clique.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/ISAM2Params.h
@@ -11573,8 +11419,6 @@ CMakeFiles/kimera_vio.dir/src/frontend/StereoImuSyncPacket.cpp.o
  /home/catkin_ws/devel/include/gtsam/nonlinear/Values-inl.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/Values.h
  /home/catkin_ws/devel/include/gtsam/sfm/BinaryMeasurement.h
- /home/catkin_ws/devel/include/gtsam/sfm/SfmData.h
- /home/catkin_ws/devel/include/gtsam/sfm/SfmTrack.h
  /home/catkin_ws/devel/include/gtsam/slam/BetweenFactor.h
  /home/catkin_ws/devel/include/gtsam/slam/JacobianFactorQ.h
  /home/catkin_ws/devel/include/gtsam/slam/JacobianFactorSVD.h
@@ -12060,7 +11904,6 @@ CMakeFiles/kimera_vio.dir/src/frontend/StereoMatcher.cpp.o
  /home/catkin_ws/devel/include/gtsam/base/Testable.h
  /home/catkin_ws/devel/include/gtsam/base/ThreadsafeException.h
  /home/catkin_ws/devel/include/gtsam/base/Vector.h
- /home/catkin_ws/devel/include/gtsam/base/VectorSerialization.h
  /home/catkin_ws/devel/include/gtsam/base/VectorSpace.h
  /home/catkin_ws/devel/include/gtsam/base/concepts.h
  /home/catkin_ws/devel/include/gtsam/base/make_shared.h
@@ -12545,7 +12388,6 @@ CMakeFiles/kimera_vio.dir/src/frontend/StereoMatchingParams.cpp.o
  /home/catkin_ws/devel/include/gtsam/base/OptionalJacobian.h
  /home/catkin_ws/devel/include/gtsam/base/Testable.h
  /home/catkin_ws/devel/include/gtsam/base/Vector.h
- /home/catkin_ws/devel/include/gtsam/base/VectorSerialization.h
  /home/catkin_ws/devel/include/gtsam/base/VectorSpace.h
  /home/catkin_ws/devel/include/gtsam/base/concepts.h
  /home/catkin_ws/devel/include/gtsam/base/make_shared.h
@@ -13011,14 +12853,12 @@ CMakeFiles/kimera_vio.dir/src/frontend/StereoVisionImuFrontend.cpp.o
  /home/catkin_ws/devel/include/gtsam/base/Lie.h
  /home/catkin_ws/devel/include/gtsam/base/Manifold.h
  /home/catkin_ws/devel/include/gtsam/base/Matrix.h
- /home/catkin_ws/devel/include/gtsam/base/MatrixSerialization.h
  /home/catkin_ws/devel/include/gtsam/base/OptionalJacobian.h
  /home/catkin_ws/devel/include/gtsam/base/SymmetricBlockMatrix.h
  /home/catkin_ws/devel/include/gtsam/base/Testable.h
  /home/catkin_ws/devel/include/gtsam/base/ThreadsafeException.h
  /home/catkin_ws/devel/include/gtsam/base/Value.h
  /home/catkin_ws/devel/include/gtsam/base/Vector.h
- /home/catkin_ws/devel/include/gtsam/base/VectorSerialization.h
  /home/catkin_ws/devel/include/gtsam/base/VectorSpace.h
  /home/catkin_ws/devel/include/gtsam/base/VerticalBlockMatrix.h
  /home/catkin_ws/devel/include/gtsam/base/concepts.h
@@ -13052,19 +12892,14 @@ CMakeFiles/kimera_vio.dir/src/frontend/StereoVisionImuFrontend.cpp.o
  /home/catkin_ws/devel/include/gtsam/geometry/SO3.h
  /home/catkin_ws/devel/include/gtsam/geometry/SOn-inl.h
  /home/catkin_ws/devel/include/gtsam/geometry/SOn.h
- /home/catkin_ws/devel/include/gtsam/geometry/SphericalCamera.h
  /home/catkin_ws/devel/include/gtsam/geometry/StereoCamera.h
  /home/catkin_ws/devel/include/gtsam/geometry/StereoPoint2.h
  /home/catkin_ws/devel/include/gtsam/geometry/Unit3.h
  /home/catkin_ws/devel/include/gtsam/geometry/triangulation.h
  /home/catkin_ws/devel/include/gtsam/global_includes.h
- /home/catkin_ws/devel/include/gtsam/inference/BayesNet-inst.h
- /home/catkin_ws/devel/include/gtsam/inference/BayesNet.h
  /home/catkin_ws/devel/include/gtsam/inference/BayesTree.h
  /home/catkin_ws/devel/include/gtsam/inference/BayesTreeCliqueBase.h
- /home/catkin_ws/devel/include/gtsam/inference/Conditional-inst.h
  /home/catkin_ws/devel/include/gtsam/inference/Conditional.h
- /home/catkin_ws/devel/include/gtsam/inference/DotWriter.h
  /home/catkin_ws/devel/include/gtsam/inference/EliminateableFactorGraph.h
  /home/catkin_ws/devel/include/gtsam/inference/Factor.h
  /home/catkin_ws/devel/include/gtsam/inference/FactorGraph-inst.h
@@ -13106,7 +12941,6 @@ CMakeFiles/kimera_vio.dir/src/frontend/StereoVisionImuFrontend.cpp.o
  /home/catkin_ws/devel/include/gtsam/navigation/PreintegrationParams.h
  /home/catkin_ws/devel/include/gtsam/navigation/TangentPreintegration.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/DoglegOptimizerImpl.h
- /home/catkin_ws/devel/include/gtsam/nonlinear/GraphvizFormatting.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/ISAM2.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/ISAM2Clique.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/ISAM2Params.h
@@ -13118,8 +12952,6 @@ CMakeFiles/kimera_vio.dir/src/frontend/StereoVisionImuFrontend.cpp.o
  /home/catkin_ws/devel/include/gtsam/nonlinear/Values-inl.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/Values.h
  /home/catkin_ws/devel/include/gtsam/sfm/BinaryMeasurement.h
- /home/catkin_ws/devel/include/gtsam/sfm/SfmData.h
- /home/catkin_ws/devel/include/gtsam/sfm/SfmTrack.h
  /home/catkin_ws/devel/include/gtsam/slam/BetweenFactor.h
  /home/catkin_ws/devel/include/gtsam/slam/JacobianFactorQ.h
  /home/catkin_ws/devel/include/gtsam/slam/JacobianFactorSVD.h
@@ -13640,14 +13472,12 @@ CMakeFiles/kimera_vio.dir/src/frontend/Tracker.cpp.o
  /home/catkin_ws/devel/include/gtsam/base/Lie.h
  /home/catkin_ws/devel/include/gtsam/base/Manifold.h
  /home/catkin_ws/devel/include/gtsam/base/Matrix.h
- /home/catkin_ws/devel/include/gtsam/base/MatrixSerialization.h
  /home/catkin_ws/devel/include/gtsam/base/OptionalJacobian.h
  /home/catkin_ws/devel/include/gtsam/base/SymmetricBlockMatrix.h
  /home/catkin_ws/devel/include/gtsam/base/Testable.h
  /home/catkin_ws/devel/include/gtsam/base/ThreadsafeException.h
  /home/catkin_ws/devel/include/gtsam/base/Value.h
  /home/catkin_ws/devel/include/gtsam/base/Vector.h
- /home/catkin_ws/devel/include/gtsam/base/VectorSerialization.h
  /home/catkin_ws/devel/include/gtsam/base/VectorSpace.h
  /home/catkin_ws/devel/include/gtsam/base/VerticalBlockMatrix.h
  /home/catkin_ws/devel/include/gtsam/base/concepts.h
@@ -13681,19 +13511,14 @@ CMakeFiles/kimera_vio.dir/src/frontend/Tracker.cpp.o
  /home/catkin_ws/devel/include/gtsam/geometry/SO3.h
  /home/catkin_ws/devel/include/gtsam/geometry/SOn-inl.h
  /home/catkin_ws/devel/include/gtsam/geometry/SOn.h
- /home/catkin_ws/devel/include/gtsam/geometry/SphericalCamera.h
  /home/catkin_ws/devel/include/gtsam/geometry/StereoCamera.h
  /home/catkin_ws/devel/include/gtsam/geometry/StereoPoint2.h
  /home/catkin_ws/devel/include/gtsam/geometry/Unit3.h
  /home/catkin_ws/devel/include/gtsam/geometry/triangulation.h
  /home/catkin_ws/devel/include/gtsam/global_includes.h
- /home/catkin_ws/devel/include/gtsam/inference/BayesNet-inst.h
- /home/catkin_ws/devel/include/gtsam/inference/BayesNet.h
  /home/catkin_ws/devel/include/gtsam/inference/BayesTree.h
  /home/catkin_ws/devel/include/gtsam/inference/BayesTreeCliqueBase.h
- /home/catkin_ws/devel/include/gtsam/inference/Conditional-inst.h
  /home/catkin_ws/devel/include/gtsam/inference/Conditional.h
- /home/catkin_ws/devel/include/gtsam/inference/DotWriter.h
  /home/catkin_ws/devel/include/gtsam/inference/EliminateableFactorGraph.h
  /home/catkin_ws/devel/include/gtsam/inference/Factor.h
  /home/catkin_ws/devel/include/gtsam/inference/FactorGraph-inst.h
@@ -13735,7 +13560,6 @@ CMakeFiles/kimera_vio.dir/src/frontend/Tracker.cpp.o
  /home/catkin_ws/devel/include/gtsam/navigation/PreintegrationParams.h
  /home/catkin_ws/devel/include/gtsam/navigation/TangentPreintegration.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/DoglegOptimizerImpl.h
- /home/catkin_ws/devel/include/gtsam/nonlinear/GraphvizFormatting.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/ISAM2.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/ISAM2Clique.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/ISAM2Params.h
@@ -13747,8 +13571,6 @@ CMakeFiles/kimera_vio.dir/src/frontend/Tracker.cpp.o
  /home/catkin_ws/devel/include/gtsam/nonlinear/Values-inl.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/Values.h
  /home/catkin_ws/devel/include/gtsam/sfm/BinaryMeasurement.h
- /home/catkin_ws/devel/include/gtsam/sfm/SfmData.h
- /home/catkin_ws/devel/include/gtsam/sfm/SfmTrack.h
  /home/catkin_ws/devel/include/gtsam/slam/BetweenFactor.h
  /home/catkin_ws/devel/include/gtsam/slam/JacobianFactorQ.h
  /home/catkin_ws/devel/include/gtsam/slam/JacobianFactorSVD.h
@@ -14262,7 +14084,6 @@ CMakeFiles/kimera_vio.dir/src/frontend/UndistorterRectifier.cpp.o
  /home/catkin_ws/devel/include/gtsam/base/OptionalJacobian.h
  /home/catkin_ws/devel/include/gtsam/base/Testable.h
  /home/catkin_ws/devel/include/gtsam/base/Vector.h
- /home/catkin_ws/devel/include/gtsam/base/VectorSerialization.h
  /home/catkin_ws/devel/include/gtsam/base/VectorSpace.h
  /home/catkin_ws/devel/include/gtsam/base/concepts.h
  /home/catkin_ws/devel/include/gtsam/base/make_shared.h
@@ -14645,14 +14466,12 @@ CMakeFiles/kimera_vio.dir/src/frontend/VisionImuFrontend.cpp.o
  /home/catkin_ws/devel/include/gtsam/base/Lie.h
  /home/catkin_ws/devel/include/gtsam/base/Manifold.h
  /home/catkin_ws/devel/include/gtsam/base/Matrix.h
- /home/catkin_ws/devel/include/gtsam/base/MatrixSerialization.h
  /home/catkin_ws/devel/include/gtsam/base/OptionalJacobian.h
  /home/catkin_ws/devel/include/gtsam/base/SymmetricBlockMatrix.h
  /home/catkin_ws/devel/include/gtsam/base/Testable.h
  /home/catkin_ws/devel/include/gtsam/base/ThreadsafeException.h
  /home/catkin_ws/devel/include/gtsam/base/Value.h
  /home/catkin_ws/devel/include/gtsam/base/Vector.h
- /home/catkin_ws/devel/include/gtsam/base/VectorSerialization.h
  /home/catkin_ws/devel/include/gtsam/base/VectorSpace.h
  /home/catkin_ws/devel/include/gtsam/base/VerticalBlockMatrix.h
  /home/catkin_ws/devel/include/gtsam/base/concepts.h
@@ -14686,19 +14505,14 @@ CMakeFiles/kimera_vio.dir/src/frontend/VisionImuFrontend.cpp.o
  /home/catkin_ws/devel/include/gtsam/geometry/SO3.h
  /home/catkin_ws/devel/include/gtsam/geometry/SOn-inl.h
  /home/catkin_ws/devel/include/gtsam/geometry/SOn.h
- /home/catkin_ws/devel/include/gtsam/geometry/SphericalCamera.h
  /home/catkin_ws/devel/include/gtsam/geometry/StereoCamera.h
  /home/catkin_ws/devel/include/gtsam/geometry/StereoPoint2.h
  /home/catkin_ws/devel/include/gtsam/geometry/Unit3.h
  /home/catkin_ws/devel/include/gtsam/geometry/triangulation.h
  /home/catkin_ws/devel/include/gtsam/global_includes.h
- /home/catkin_ws/devel/include/gtsam/inference/BayesNet-inst.h
- /home/catkin_ws/devel/include/gtsam/inference/BayesNet.h
  /home/catkin_ws/devel/include/gtsam/inference/BayesTree.h
  /home/catkin_ws/devel/include/gtsam/inference/BayesTreeCliqueBase.h
- /home/catkin_ws/devel/include/gtsam/inference/Conditional-inst.h
  /home/catkin_ws/devel/include/gtsam/inference/Conditional.h
- /home/catkin_ws/devel/include/gtsam/inference/DotWriter.h
  /home/catkin_ws/devel/include/gtsam/inference/EliminateableFactorGraph.h
  /home/catkin_ws/devel/include/gtsam/inference/Factor.h
  /home/catkin_ws/devel/include/gtsam/inference/FactorGraph-inst.h
@@ -14740,7 +14554,6 @@ CMakeFiles/kimera_vio.dir/src/frontend/VisionImuFrontend.cpp.o
  /home/catkin_ws/devel/include/gtsam/navigation/PreintegrationParams.h
  /home/catkin_ws/devel/include/gtsam/navigation/TangentPreintegration.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/DoglegOptimizerImpl.h
- /home/catkin_ws/devel/include/gtsam/nonlinear/GraphvizFormatting.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/ISAM2.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/ISAM2Clique.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/ISAM2Params.h
@@ -14752,8 +14565,6 @@ CMakeFiles/kimera_vio.dir/src/frontend/VisionImuFrontend.cpp.o
  /home/catkin_ws/devel/include/gtsam/nonlinear/Values-inl.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/Values.h
  /home/catkin_ws/devel/include/gtsam/sfm/BinaryMeasurement.h
- /home/catkin_ws/devel/include/gtsam/sfm/SfmData.h
- /home/catkin_ws/devel/include/gtsam/sfm/SfmTrack.h
  /home/catkin_ws/devel/include/gtsam/slam/BetweenFactor.h
  /home/catkin_ws/devel/include/gtsam/slam/JacobianFactorQ.h
  /home/catkin_ws/devel/include/gtsam/slam/JacobianFactorSVD.h
@@ -15273,14 +15084,12 @@ CMakeFiles/kimera_vio.dir/src/frontend/VisionImuFrontendModule.cpp.o
  /home/catkin_ws/devel/include/gtsam/base/Lie.h
  /home/catkin_ws/devel/include/gtsam/base/Manifold.h
  /home/catkin_ws/devel/include/gtsam/base/Matrix.h
- /home/catkin_ws/devel/include/gtsam/base/MatrixSerialization.h
  /home/catkin_ws/devel/include/gtsam/base/OptionalJacobian.h
  /home/catkin_ws/devel/include/gtsam/base/SymmetricBlockMatrix.h
  /home/catkin_ws/devel/include/gtsam/base/Testable.h
  /home/catkin_ws/devel/include/gtsam/base/ThreadsafeException.h
  /home/catkin_ws/devel/include/gtsam/base/Value.h
  /home/catkin_ws/devel/include/gtsam/base/Vector.h
- /home/catkin_ws/devel/include/gtsam/base/VectorSerialization.h
  /home/catkin_ws/devel/include/gtsam/base/VectorSpace.h
  /home/catkin_ws/devel/include/gtsam/base/VerticalBlockMatrix.h
  /home/catkin_ws/devel/include/gtsam/base/concepts.h
@@ -15314,19 +15123,14 @@ CMakeFiles/kimera_vio.dir/src/frontend/VisionImuFrontendModule.cpp.o
  /home/catkin_ws/devel/include/gtsam/geometry/SO3.h
  /home/catkin_ws/devel/include/gtsam/geometry/SOn-inl.h
  /home/catkin_ws/devel/include/gtsam/geometry/SOn.h
- /home/catkin_ws/devel/include/gtsam/geometry/SphericalCamera.h
  /home/catkin_ws/devel/include/gtsam/geometry/StereoCamera.h
  /home/catkin_ws/devel/include/gtsam/geometry/StereoPoint2.h
  /home/catkin_ws/devel/include/gtsam/geometry/Unit3.h
  /home/catkin_ws/devel/include/gtsam/geometry/triangulation.h
  /home/catkin_ws/devel/include/gtsam/global_includes.h
- /home/catkin_ws/devel/include/gtsam/inference/BayesNet-inst.h
- /home/catkin_ws/devel/include/gtsam/inference/BayesNet.h
  /home/catkin_ws/devel/include/gtsam/inference/BayesTree.h
  /home/catkin_ws/devel/include/gtsam/inference/BayesTreeCliqueBase.h
- /home/catkin_ws/devel/include/gtsam/inference/Conditional-inst.h
  /home/catkin_ws/devel/include/gtsam/inference/Conditional.h
- /home/catkin_ws/devel/include/gtsam/inference/DotWriter.h
  /home/catkin_ws/devel/include/gtsam/inference/EliminateableFactorGraph.h
  /home/catkin_ws/devel/include/gtsam/inference/Factor.h
  /home/catkin_ws/devel/include/gtsam/inference/FactorGraph-inst.h
@@ -15368,7 +15172,6 @@ CMakeFiles/kimera_vio.dir/src/frontend/VisionImuFrontendModule.cpp.o
  /home/catkin_ws/devel/include/gtsam/navigation/PreintegrationParams.h
  /home/catkin_ws/devel/include/gtsam/navigation/TangentPreintegration.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/DoglegOptimizerImpl.h
- /home/catkin_ws/devel/include/gtsam/nonlinear/GraphvizFormatting.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/ISAM2.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/ISAM2Clique.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/ISAM2Params.h
@@ -15380,8 +15183,6 @@ CMakeFiles/kimera_vio.dir/src/frontend/VisionImuFrontendModule.cpp.o
  /home/catkin_ws/devel/include/gtsam/nonlinear/Values-inl.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/Values.h
  /home/catkin_ws/devel/include/gtsam/sfm/BinaryMeasurement.h
- /home/catkin_ws/devel/include/gtsam/sfm/SfmData.h
- /home/catkin_ws/devel/include/gtsam/sfm/SfmTrack.h
  /home/catkin_ws/devel/include/gtsam/slam/BetweenFactor.h
  /home/catkin_ws/devel/include/gtsam/slam/JacobianFactorQ.h
  /home/catkin_ws/devel/include/gtsam/slam/JacobianFactorSVD.h
@@ -15902,7 +15703,6 @@ CMakeFiles/kimera_vio.dir/src/frontend/VisionImuFrontendParams.cpp.o
  /home/catkin_ws/devel/include/gtsam/base/Testable.h
  /home/catkin_ws/devel/include/gtsam/base/ThreadsafeException.h
  /home/catkin_ws/devel/include/gtsam/base/Vector.h
- /home/catkin_ws/devel/include/gtsam/base/VectorSerialization.h
  /home/catkin_ws/devel/include/gtsam/base/VectorSpace.h
  /home/catkin_ws/devel/include/gtsam/base/concepts.h
  /home/catkin_ws/devel/include/gtsam/base/make_shared.h
@@ -16396,7 +16196,6 @@ CMakeFiles/kimera_vio.dir/src/frontend/feature-detector/FeatureDetector.cpp.o
  /home/catkin_ws/devel/include/gtsam/base/Testable.h
  /home/catkin_ws/devel/include/gtsam/base/ThreadsafeException.h
  /home/catkin_ws/devel/include/gtsam/base/Vector.h
- /home/catkin_ws/devel/include/gtsam/base/VectorSerialization.h
  /home/catkin_ws/devel/include/gtsam/base/VectorSpace.h
  /home/catkin_ws/devel/include/gtsam/base/concepts.h
  /home/catkin_ws/devel/include/gtsam/base/make_shared.h
@@ -16865,7 +16664,6 @@ CMakeFiles/kimera_vio.dir/src/frontend/feature-detector/FeatureDetectorParams.cp
  /home/catkin_ws/devel/include/gtsam/base/Testable.h
  /home/catkin_ws/devel/include/gtsam/base/ThreadsafeException.h
  /home/catkin_ws/devel/include/gtsam/base/Vector.h
- /home/catkin_ws/devel/include/gtsam/base/VectorSerialization.h
  /home/catkin_ws/devel/include/gtsam/base/VectorSpace.h
  /home/catkin_ws/devel/include/gtsam/base/concepts.h
  /home/catkin_ws/devel/include/gtsam/base/make_shared.h
@@ -17353,7 +17151,6 @@ CMakeFiles/kimera_vio.dir/src/frontend/feature-detector/NonMaximumSuppression.cp
  /home/catkin_ws/devel/include/gtsam/base/OptionalJacobian.h
  /home/catkin_ws/devel/include/gtsam/base/Testable.h
  /home/catkin_ws/devel/include/gtsam/base/Vector.h
- /home/catkin_ws/devel/include/gtsam/base/VectorSerialization.h
  /home/catkin_ws/devel/include/gtsam/base/VectorSpace.h
  /home/catkin_ws/devel/include/gtsam/base/types.h
  /home/catkin_ws/devel/include/gtsam/config.h
@@ -17855,7 +17652,6 @@ CMakeFiles/kimera_vio.dir/src/frontend/optical-flow/OpticalFlowPredictor.cpp.o
  /home/catkin_ws/devel/include/gtsam/base/OptionalJacobian.h
  /home/catkin_ws/devel/include/gtsam/base/Testable.h
  /home/catkin_ws/devel/include/gtsam/base/Vector.h
- /home/catkin_ws/devel/include/gtsam/base/VectorSerialization.h
  /home/catkin_ws/devel/include/gtsam/base/VectorSpace.h
  /home/catkin_ws/devel/include/gtsam/base/concepts.h
  /home/catkin_ws/devel/include/gtsam/base/make_shared.h
@@ -18231,7 +18027,6 @@ CMakeFiles/kimera_vio.dir/src/frontend/rgbd/RgbdFrame.cpp.o
  /home/catkin_ws/devel/include/gtsam/base/Testable.h
  /home/catkin_ws/devel/include/gtsam/base/ThreadsafeException.h
  /home/catkin_ws/devel/include/gtsam/base/Vector.h
- /home/catkin_ws/devel/include/gtsam/base/VectorSerialization.h
  /home/catkin_ws/devel/include/gtsam/base/VectorSpace.h
  /home/catkin_ws/devel/include/gtsam/base/concepts.h
  /home/catkin_ws/devel/include/gtsam/base/make_shared.h
@@ -18621,14 +18416,12 @@ CMakeFiles/kimera_vio.dir/src/frontend/rgbd/RgbdImuSyncPacket.cpp.o
  /home/catkin_ws/devel/include/gtsam/base/Lie.h
  /home/catkin_ws/devel/include/gtsam/base/Manifold.h
  /home/catkin_ws/devel/include/gtsam/base/Matrix.h
- /home/catkin_ws/devel/include/gtsam/base/MatrixSerialization.h
  /home/catkin_ws/devel/include/gtsam/base/OptionalJacobian.h
  /home/catkin_ws/devel/include/gtsam/base/SymmetricBlockMatrix.h
  /home/catkin_ws/devel/include/gtsam/base/Testable.h
  /home/catkin_ws/devel/include/gtsam/base/ThreadsafeException.h
  /home/catkin_ws/devel/include/gtsam/base/Value.h
  /home/catkin_ws/devel/include/gtsam/base/Vector.h
- /home/catkin_ws/devel/include/gtsam/base/VectorSerialization.h
  /home/catkin_ws/devel/include/gtsam/base/VectorSpace.h
  /home/catkin_ws/devel/include/gtsam/base/VerticalBlockMatrix.h
  /home/catkin_ws/devel/include/gtsam/base/concepts.h
@@ -18662,19 +18455,14 @@ CMakeFiles/kimera_vio.dir/src/frontend/rgbd/RgbdImuSyncPacket.cpp.o
  /home/catkin_ws/devel/include/gtsam/geometry/SO3.h
  /home/catkin_ws/devel/include/gtsam/geometry/SOn-inl.h
  /home/catkin_ws/devel/include/gtsam/geometry/SOn.h
- /home/catkin_ws/devel/include/gtsam/geometry/SphericalCamera.h
  /home/catkin_ws/devel/include/gtsam/geometry/StereoCamera.h
  /home/catkin_ws/devel/include/gtsam/geometry/StereoPoint2.h
  /home/catkin_ws/devel/include/gtsam/geometry/Unit3.h
  /home/catkin_ws/devel/include/gtsam/geometry/triangulation.h
  /home/catkin_ws/devel/include/gtsam/global_includes.h
- /home/catkin_ws/devel/include/gtsam/inference/BayesNet-inst.h
- /home/catkin_ws/devel/include/gtsam/inference/BayesNet.h
  /home/catkin_ws/devel/include/gtsam/inference/BayesTree.h
  /home/catkin_ws/devel/include/gtsam/inference/BayesTreeCliqueBase.h
- /home/catkin_ws/devel/include/gtsam/inference/Conditional-inst.h
  /home/catkin_ws/devel/include/gtsam/inference/Conditional.h
- /home/catkin_ws/devel/include/gtsam/inference/DotWriter.h
  /home/catkin_ws/devel/include/gtsam/inference/EliminateableFactorGraph.h
  /home/catkin_ws/devel/include/gtsam/inference/Factor.h
  /home/catkin_ws/devel/include/gtsam/inference/FactorGraph-inst.h
@@ -18716,7 +18504,6 @@ CMakeFiles/kimera_vio.dir/src/frontend/rgbd/RgbdImuSyncPacket.cpp.o
  /home/catkin_ws/devel/include/gtsam/navigation/PreintegrationParams.h
  /home/catkin_ws/devel/include/gtsam/navigation/TangentPreintegration.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/DoglegOptimizerImpl.h
- /home/catkin_ws/devel/include/gtsam/nonlinear/GraphvizFormatting.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/ISAM2.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/ISAM2Clique.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/ISAM2Params.h
@@ -18728,8 +18515,6 @@ CMakeFiles/kimera_vio.dir/src/frontend/rgbd/RgbdImuSyncPacket.cpp.o
  /home/catkin_ws/devel/include/gtsam/nonlinear/Values-inl.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/Values.h
  /home/catkin_ws/devel/include/gtsam/sfm/BinaryMeasurement.h
- /home/catkin_ws/devel/include/gtsam/sfm/SfmData.h
- /home/catkin_ws/devel/include/gtsam/sfm/SfmTrack.h
  /home/catkin_ws/devel/include/gtsam/slam/BetweenFactor.h
  /home/catkin_ws/devel/include/gtsam/slam/JacobianFactorQ.h
  /home/catkin_ws/devel/include/gtsam/slam/JacobianFactorSVD.h
@@ -19214,13 +18999,11 @@ CMakeFiles/kimera_vio.dir/src/imu-frontend/ImuFrontend.cpp.o
  /home/catkin_ws/devel/include/gtsam/base/Lie.h
  /home/catkin_ws/devel/include/gtsam/base/Manifold.h
  /home/catkin_ws/devel/include/gtsam/base/Matrix.h
- /home/catkin_ws/devel/include/gtsam/base/MatrixSerialization.h
  /home/catkin_ws/devel/include/gtsam/base/OptionalJacobian.h
  /home/catkin_ws/devel/include/gtsam/base/Testable.h
  /home/catkin_ws/devel/include/gtsam/base/ThreadsafeException.h
  /home/catkin_ws/devel/include/gtsam/base/Value.h
  /home/catkin_ws/devel/include/gtsam/base/Vector.h
- /home/catkin_ws/devel/include/gtsam/base/VectorSerialization.h
  /home/catkin_ws/devel/include/gtsam/base/VectorSpace.h
  /home/catkin_ws/devel/include/gtsam/base/VerticalBlockMatrix.h
  /home/catkin_ws/devel/include/gtsam/base/concepts.h
@@ -19624,13 +19407,11 @@ CMakeFiles/kimera_vio.dir/src/imu-frontend/ImuFrontendParams.cpp.o
  /home/catkin_ws/devel/include/gtsam/base/Lie.h
  /home/catkin_ws/devel/include/gtsam/base/Manifold.h
  /home/catkin_ws/devel/include/gtsam/base/Matrix.h
- /home/catkin_ws/devel/include/gtsam/base/MatrixSerialization.h
  /home/catkin_ws/devel/include/gtsam/base/OptionalJacobian.h
  /home/catkin_ws/devel/include/gtsam/base/Testable.h
  /home/catkin_ws/devel/include/gtsam/base/ThreadsafeException.h
  /home/catkin_ws/devel/include/gtsam/base/Value.h
  /home/catkin_ws/devel/include/gtsam/base/Vector.h
- /home/catkin_ws/devel/include/gtsam/base/VectorSerialization.h
  /home/catkin_ws/devel/include/gtsam/base/VectorSpace.h
  /home/catkin_ws/devel/include/gtsam/base/VerticalBlockMatrix.h
  /home/catkin_ws/devel/include/gtsam/base/concepts.h
@@ -20034,14 +19815,12 @@ CMakeFiles/kimera_vio.dir/src/initial/InitializationBackend.cpp.o
  /home/catkin_ws/devel/include/gtsam/base/Lie.h
  /home/catkin_ws/devel/include/gtsam/base/Manifold.h
  /home/catkin_ws/devel/include/gtsam/base/Matrix.h
- /home/catkin_ws/devel/include/gtsam/base/MatrixSerialization.h
  /home/catkin_ws/devel/include/gtsam/base/OptionalJacobian.h
  /home/catkin_ws/devel/include/gtsam/base/SymmetricBlockMatrix.h
  /home/catkin_ws/devel/include/gtsam/base/Testable.h
  /home/catkin_ws/devel/include/gtsam/base/ThreadsafeException.h
  /home/catkin_ws/devel/include/gtsam/base/Value.h
  /home/catkin_ws/devel/include/gtsam/base/Vector.h
- /home/catkin_ws/devel/include/gtsam/base/VectorSerialization.h
  /home/catkin_ws/devel/include/gtsam/base/VectorSpace.h
  /home/catkin_ws/devel/include/gtsam/base/VerticalBlockMatrix.h
  /home/catkin_ws/devel/include/gtsam/base/concepts.h
@@ -20076,19 +19855,14 @@ CMakeFiles/kimera_vio.dir/src/initial/InitializationBackend.cpp.o
  /home/catkin_ws/devel/include/gtsam/geometry/SO3.h
  /home/catkin_ws/devel/include/gtsam/geometry/SOn-inl.h
  /home/catkin_ws/devel/include/gtsam/geometry/SOn.h
- /home/catkin_ws/devel/include/gtsam/geometry/SphericalCamera.h
  /home/catkin_ws/devel/include/gtsam/geometry/StereoCamera.h
  /home/catkin_ws/devel/include/gtsam/geometry/StereoPoint2.h
  /home/catkin_ws/devel/include/gtsam/geometry/Unit3.h
  /home/catkin_ws/devel/include/gtsam/geometry/triangulation.h
  /home/catkin_ws/devel/include/gtsam/global_includes.h
- /home/catkin_ws/devel/include/gtsam/inference/BayesNet-inst.h
- /home/catkin_ws/devel/include/gtsam/inference/BayesNet.h
  /home/catkin_ws/devel/include/gtsam/inference/BayesTree.h
  /home/catkin_ws/devel/include/gtsam/inference/BayesTreeCliqueBase.h
- /home/catkin_ws/devel/include/gtsam/inference/Conditional-inst.h
  /home/catkin_ws/devel/include/gtsam/inference/Conditional.h
- /home/catkin_ws/devel/include/gtsam/inference/DotWriter.h
  /home/catkin_ws/devel/include/gtsam/inference/EliminateableFactorGraph.h
  /home/catkin_ws/devel/include/gtsam/inference/Factor.h
  /home/catkin_ws/devel/include/gtsam/inference/FactorGraph-inst.h
@@ -20134,7 +19908,6 @@ CMakeFiles/kimera_vio.dir/src/initial/InitializationBackend.cpp.o
  /home/catkin_ws/devel/include/gtsam/navigation/PreintegrationParams.h
  /home/catkin_ws/devel/include/gtsam/navigation/TangentPreintegration.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/DoglegOptimizerImpl.h
- /home/catkin_ws/devel/include/gtsam/nonlinear/GraphvizFormatting.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/ISAM2.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/ISAM2Clique.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/ISAM2Params.h
@@ -20152,8 +19925,6 @@ CMakeFiles/kimera_vio.dir/src/initial/InitializationBackend.cpp.o
  /home/catkin_ws/devel/include/gtsam/nonlinear/Values-inl.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/Values.h
  /home/catkin_ws/devel/include/gtsam/sfm/BinaryMeasurement.h
- /home/catkin_ws/devel/include/gtsam/sfm/SfmData.h
- /home/catkin_ws/devel/include/gtsam/sfm/SfmTrack.h
  /home/catkin_ws/devel/include/gtsam/slam/BetweenFactor.h
  /home/catkin_ws/devel/include/gtsam/slam/JacobianFactorQ.h
  /home/catkin_ws/devel/include/gtsam/slam/JacobianFactorSVD.h
@@ -20657,14 +20428,12 @@ CMakeFiles/kimera_vio.dir/src/initial/InitializationFromImu.cpp.o
  /home/catkin_ws/devel/include/gtsam/base/Lie.h
  /home/catkin_ws/devel/include/gtsam/base/Manifold.h
  /home/catkin_ws/devel/include/gtsam/base/Matrix.h
- /home/catkin_ws/devel/include/gtsam/base/MatrixSerialization.h
  /home/catkin_ws/devel/include/gtsam/base/OptionalJacobian.h
  /home/catkin_ws/devel/include/gtsam/base/SymmetricBlockMatrix.h
  /home/catkin_ws/devel/include/gtsam/base/Testable.h
  /home/catkin_ws/devel/include/gtsam/base/ThreadsafeException.h
  /home/catkin_ws/devel/include/gtsam/base/Value.h
  /home/catkin_ws/devel/include/gtsam/base/Vector.h
- /home/catkin_ws/devel/include/gtsam/base/VectorSerialization.h
  /home/catkin_ws/devel/include/gtsam/base/VectorSpace.h
  /home/catkin_ws/devel/include/gtsam/base/VerticalBlockMatrix.h
  /home/catkin_ws/devel/include/gtsam/base/concepts.h
@@ -20698,19 +20467,14 @@ CMakeFiles/kimera_vio.dir/src/initial/InitializationFromImu.cpp.o
  /home/catkin_ws/devel/include/gtsam/geometry/SO3.h
  /home/catkin_ws/devel/include/gtsam/geometry/SOn-inl.h
  /home/catkin_ws/devel/include/gtsam/geometry/SOn.h
- /home/catkin_ws/devel/include/gtsam/geometry/SphericalCamera.h
  /home/catkin_ws/devel/include/gtsam/geometry/StereoCamera.h
  /home/catkin_ws/devel/include/gtsam/geometry/StereoPoint2.h
  /home/catkin_ws/devel/include/gtsam/geometry/Unit3.h
  /home/catkin_ws/devel/include/gtsam/geometry/triangulation.h
  /home/catkin_ws/devel/include/gtsam/global_includes.h
- /home/catkin_ws/devel/include/gtsam/inference/BayesNet-inst.h
- /home/catkin_ws/devel/include/gtsam/inference/BayesNet.h
  /home/catkin_ws/devel/include/gtsam/inference/BayesTree.h
  /home/catkin_ws/devel/include/gtsam/inference/BayesTreeCliqueBase.h
- /home/catkin_ws/devel/include/gtsam/inference/Conditional-inst.h
  /home/catkin_ws/devel/include/gtsam/inference/Conditional.h
- /home/catkin_ws/devel/include/gtsam/inference/DotWriter.h
  /home/catkin_ws/devel/include/gtsam/inference/EliminateableFactorGraph.h
  /home/catkin_ws/devel/include/gtsam/inference/Factor.h
  /home/catkin_ws/devel/include/gtsam/inference/FactorGraph-inst.h
@@ -20752,7 +20516,6 @@ CMakeFiles/kimera_vio.dir/src/initial/InitializationFromImu.cpp.o
  /home/catkin_ws/devel/include/gtsam/navigation/PreintegrationParams.h
  /home/catkin_ws/devel/include/gtsam/navigation/TangentPreintegration.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/DoglegOptimizerImpl.h
- /home/catkin_ws/devel/include/gtsam/nonlinear/GraphvizFormatting.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/ISAM2.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/ISAM2Clique.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/ISAM2Params.h
@@ -20764,8 +20527,6 @@ CMakeFiles/kimera_vio.dir/src/initial/InitializationFromImu.cpp.o
  /home/catkin_ws/devel/include/gtsam/nonlinear/Values-inl.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/Values.h
  /home/catkin_ws/devel/include/gtsam/sfm/BinaryMeasurement.h
- /home/catkin_ws/devel/include/gtsam/sfm/SfmData.h
- /home/catkin_ws/devel/include/gtsam/sfm/SfmTrack.h
  /home/catkin_ws/devel/include/gtsam/slam/BetweenFactor.h
  /home/catkin_ws/devel/include/gtsam/slam/JacobianFactorQ.h
  /home/catkin_ws/devel/include/gtsam/slam/JacobianFactorSVD.h
@@ -21252,14 +21013,12 @@ CMakeFiles/kimera_vio.dir/src/initial/OnlineGravityAlignment.cpp.o
  /home/catkin_ws/devel/include/gtsam/base/Lie.h
  /home/catkin_ws/devel/include/gtsam/base/Manifold.h
  /home/catkin_ws/devel/include/gtsam/base/Matrix.h
- /home/catkin_ws/devel/include/gtsam/base/MatrixSerialization.h
  /home/catkin_ws/devel/include/gtsam/base/OptionalJacobian.h
  /home/catkin_ws/devel/include/gtsam/base/SymmetricBlockMatrix.h
  /home/catkin_ws/devel/include/gtsam/base/Testable.h
  /home/catkin_ws/devel/include/gtsam/base/ThreadsafeException.h
  /home/catkin_ws/devel/include/gtsam/base/Value.h
  /home/catkin_ws/devel/include/gtsam/base/Vector.h
- /home/catkin_ws/devel/include/gtsam/base/VectorSerialization.h
  /home/catkin_ws/devel/include/gtsam/base/VectorSpace.h
  /home/catkin_ws/devel/include/gtsam/base/VerticalBlockMatrix.h
  /home/catkin_ws/devel/include/gtsam/base/concepts.h
@@ -21281,7 +21040,6 @@ CMakeFiles/kimera_vio.dir/src/initial/OnlineGravityAlignment.cpp.o
  /home/catkin_ws/devel/include/gtsam/geometry/SOn.h
  /home/catkin_ws/devel/include/gtsam/geometry/Unit3.h
  /home/catkin_ws/devel/include/gtsam/global_includes.h
- /home/catkin_ws/devel/include/gtsam/inference/DotWriter.h
  /home/catkin_ws/devel/include/gtsam/inference/EliminateableFactorGraph.h
  /home/catkin_ws/devel/include/gtsam/inference/Factor.h
  /home/catkin_ws/devel/include/gtsam/inference/FactorGraph-inst.h
@@ -21320,7 +21078,6 @@ CMakeFiles/kimera_vio.dir/src/initial/OnlineGravityAlignment.cpp.o
  /home/catkin_ws/devel/include/gtsam/navigation/PreintegrationBase.h
  /home/catkin_ws/devel/include/gtsam/navigation/PreintegrationParams.h
  /home/catkin_ws/devel/include/gtsam/navigation/TangentPreintegration.h
- /home/catkin_ws/devel/include/gtsam/nonlinear/GraphvizFormatting.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/LevenbergMarquardtOptimizer.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/LevenbergMarquardtParams.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/NonlinearFactor.h
@@ -21697,14 +21454,12 @@ CMakeFiles/kimera_vio.dir/src/logging/Logger.cpp.o
  /home/catkin_ws/devel/include/gtsam/base/Lie.h
  /home/catkin_ws/devel/include/gtsam/base/Manifold.h
  /home/catkin_ws/devel/include/gtsam/base/Matrix.h
- /home/catkin_ws/devel/include/gtsam/base/MatrixSerialization.h
  /home/catkin_ws/devel/include/gtsam/base/OptionalJacobian.h
  /home/catkin_ws/devel/include/gtsam/base/SymmetricBlockMatrix.h
  /home/catkin_ws/devel/include/gtsam/base/Testable.h
  /home/catkin_ws/devel/include/gtsam/base/ThreadsafeException.h
  /home/catkin_ws/devel/include/gtsam/base/Value.h
  /home/catkin_ws/devel/include/gtsam/base/Vector.h
- /home/catkin_ws/devel/include/gtsam/base/VectorSerialization.h
  /home/catkin_ws/devel/include/gtsam/base/VectorSpace.h
  /home/catkin_ws/devel/include/gtsam/base/VerticalBlockMatrix.h
  /home/catkin_ws/devel/include/gtsam/base/concepts.h
@@ -21738,19 +21493,14 @@ CMakeFiles/kimera_vio.dir/src/logging/Logger.cpp.o
  /home/catkin_ws/devel/include/gtsam/geometry/SO3.h
  /home/catkin_ws/devel/include/gtsam/geometry/SOn-inl.h
  /home/catkin_ws/devel/include/gtsam/geometry/SOn.h
- /home/catkin_ws/devel/include/gtsam/geometry/SphericalCamera.h
  /home/catkin_ws/devel/include/gtsam/geometry/StereoCamera.h
  /home/catkin_ws/devel/include/gtsam/geometry/StereoPoint2.h
  /home/catkin_ws/devel/include/gtsam/geometry/Unit3.h
  /home/catkin_ws/devel/include/gtsam/geometry/triangulation.h
  /home/catkin_ws/devel/include/gtsam/global_includes.h
- /home/catkin_ws/devel/include/gtsam/inference/BayesNet-inst.h
- /home/catkin_ws/devel/include/gtsam/inference/BayesNet.h
  /home/catkin_ws/devel/include/gtsam/inference/BayesTree.h
  /home/catkin_ws/devel/include/gtsam/inference/BayesTreeCliqueBase.h
- /home/catkin_ws/devel/include/gtsam/inference/Conditional-inst.h
  /home/catkin_ws/devel/include/gtsam/inference/Conditional.h
- /home/catkin_ws/devel/include/gtsam/inference/DotWriter.h
  /home/catkin_ws/devel/include/gtsam/inference/EliminateableFactorGraph.h
  /home/catkin_ws/devel/include/gtsam/inference/Factor.h
  /home/catkin_ws/devel/include/gtsam/inference/FactorGraph-inst.h
@@ -21792,7 +21542,6 @@ CMakeFiles/kimera_vio.dir/src/logging/Logger.cpp.o
  /home/catkin_ws/devel/include/gtsam/navigation/PreintegrationParams.h
  /home/catkin_ws/devel/include/gtsam/navigation/TangentPreintegration.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/DoglegOptimizerImpl.h
- /home/catkin_ws/devel/include/gtsam/nonlinear/GraphvizFormatting.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/ISAM2.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/ISAM2Clique.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/ISAM2Params.h
@@ -21804,8 +21553,6 @@ CMakeFiles/kimera_vio.dir/src/logging/Logger.cpp.o
  /home/catkin_ws/devel/include/gtsam/nonlinear/Values-inl.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/Values.h
  /home/catkin_ws/devel/include/gtsam/sfm/BinaryMeasurement.h
- /home/catkin_ws/devel/include/gtsam/sfm/SfmData.h
- /home/catkin_ws/devel/include/gtsam/sfm/SfmTrack.h
  /home/catkin_ws/devel/include/gtsam/slam/BetweenFactor.h
  /home/catkin_ws/devel/include/gtsam/slam/JacobianFactorQ.h
  /home/catkin_ws/devel/include/gtsam/slam/JacobianFactorSVD.h
@@ -22296,13 +22043,11 @@ CMakeFiles/kimera_vio.dir/src/loopclosure/LcdThirdPartyWrapper.cpp.o
  /home/catkin_ws/devel/include/gtsam/base/Lie.h
  /home/catkin_ws/devel/include/gtsam/base/Manifold.h
  /home/catkin_ws/devel/include/gtsam/base/Matrix.h
- /home/catkin_ws/devel/include/gtsam/base/MatrixSerialization.h
  /home/catkin_ws/devel/include/gtsam/base/OptionalJacobian.h
  /home/catkin_ws/devel/include/gtsam/base/Testable.h
  /home/catkin_ws/devel/include/gtsam/base/ThreadsafeException.h
  /home/catkin_ws/devel/include/gtsam/base/Value.h
  /home/catkin_ws/devel/include/gtsam/base/Vector.h
- /home/catkin_ws/devel/include/gtsam/base/VectorSerialization.h
  /home/catkin_ws/devel/include/gtsam/base/VectorSpace.h
  /home/catkin_ws/devel/include/gtsam/base/VerticalBlockMatrix.h
  /home/catkin_ws/devel/include/gtsam/base/concepts.h
@@ -22324,7 +22069,6 @@ CMakeFiles/kimera_vio.dir/src/loopclosure/LcdThirdPartyWrapper.cpp.o
  /home/catkin_ws/devel/include/gtsam/geometry/SOn.h
  /home/catkin_ws/devel/include/gtsam/geometry/Unit3.h
  /home/catkin_ws/devel/include/gtsam/global_includes.h
- /home/catkin_ws/devel/include/gtsam/inference/DotWriter.h
  /home/catkin_ws/devel/include/gtsam/inference/Factor.h
  /home/catkin_ws/devel/include/gtsam/inference/FactorGraph-inst.h
  /home/catkin_ws/devel/include/gtsam/inference/FactorGraph.h
@@ -22346,7 +22090,6 @@ CMakeFiles/kimera_vio.dir/src/loopclosure/LcdThirdPartyWrapper.cpp.o
  /home/catkin_ws/devel/include/gtsam/navigation/PreintegrationBase.h
  /home/catkin_ws/devel/include/gtsam/navigation/PreintegrationParams.h
  /home/catkin_ws/devel/include/gtsam/navigation/TangentPreintegration.h
- /home/catkin_ws/devel/include/gtsam/nonlinear/GraphvizFormatting.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/NonlinearFactor.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/NonlinearFactorGraph.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/PriorFactor.h
@@ -22826,14 +22569,12 @@ CMakeFiles/kimera_vio.dir/src/loopclosure/LoopClosureDetector.cpp.o
  /home/catkin_ws/devel/include/gtsam/base/Lie.h
  /home/catkin_ws/devel/include/gtsam/base/Manifold.h
  /home/catkin_ws/devel/include/gtsam/base/Matrix.h
- /home/catkin_ws/devel/include/gtsam/base/MatrixSerialization.h
  /home/catkin_ws/devel/include/gtsam/base/OptionalJacobian.h
  /home/catkin_ws/devel/include/gtsam/base/SymmetricBlockMatrix.h
  /home/catkin_ws/devel/include/gtsam/base/Testable.h
  /home/catkin_ws/devel/include/gtsam/base/ThreadsafeException.h
  /home/catkin_ws/devel/include/gtsam/base/Value.h
  /home/catkin_ws/devel/include/gtsam/base/Vector.h
- /home/catkin_ws/devel/include/gtsam/base/VectorSerialization.h
  /home/catkin_ws/devel/include/gtsam/base/VectorSpace.h
  /home/catkin_ws/devel/include/gtsam/base/VerticalBlockMatrix.h
  /home/catkin_ws/devel/include/gtsam/base/concepts.h
@@ -22867,19 +22608,14 @@ CMakeFiles/kimera_vio.dir/src/loopclosure/LoopClosureDetector.cpp.o
  /home/catkin_ws/devel/include/gtsam/geometry/SO3.h
  /home/catkin_ws/devel/include/gtsam/geometry/SOn-inl.h
  /home/catkin_ws/devel/include/gtsam/geometry/SOn.h
- /home/catkin_ws/devel/include/gtsam/geometry/SphericalCamera.h
  /home/catkin_ws/devel/include/gtsam/geometry/StereoCamera.h
  /home/catkin_ws/devel/include/gtsam/geometry/StereoPoint2.h
  /home/catkin_ws/devel/include/gtsam/geometry/Unit3.h
  /home/catkin_ws/devel/include/gtsam/geometry/triangulation.h
  /home/catkin_ws/devel/include/gtsam/global_includes.h
- /home/catkin_ws/devel/include/gtsam/inference/BayesNet-inst.h
- /home/catkin_ws/devel/include/gtsam/inference/BayesNet.h
  /home/catkin_ws/devel/include/gtsam/inference/BayesTree.h
  /home/catkin_ws/devel/include/gtsam/inference/BayesTreeCliqueBase.h
- /home/catkin_ws/devel/include/gtsam/inference/Conditional-inst.h
  /home/catkin_ws/devel/include/gtsam/inference/Conditional.h
- /home/catkin_ws/devel/include/gtsam/inference/DotWriter.h
  /home/catkin_ws/devel/include/gtsam/inference/EliminateableFactorGraph.h
  /home/catkin_ws/devel/include/gtsam/inference/Factor.h
  /home/catkin_ws/devel/include/gtsam/inference/FactorGraph-inst.h
@@ -22928,7 +22664,6 @@ CMakeFiles/kimera_vio.dir/src/loopclosure/LoopClosureDetector.cpp.o
  /home/catkin_ws/devel/include/gtsam/nonlinear/GaussNewtonOptimizer.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/GncOptimizer.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/GncParams.h
- /home/catkin_ws/devel/include/gtsam/nonlinear/GraphvizFormatting.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/ISAM2.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/ISAM2Clique.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/ISAM2Params.h
@@ -22944,8 +22679,6 @@ CMakeFiles/kimera_vio.dir/src/loopclosure/LoopClosureDetector.cpp.o
  /home/catkin_ws/devel/include/gtsam/nonlinear/Values-inl.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/Values.h
  /home/catkin_ws/devel/include/gtsam/sfm/BinaryMeasurement.h
- /home/catkin_ws/devel/include/gtsam/sfm/SfmData.h
- /home/catkin_ws/devel/include/gtsam/sfm/SfmTrack.h
  /home/catkin_ws/devel/include/gtsam/slam/BetweenFactor.h
  /home/catkin_ws/devel/include/gtsam/slam/JacobianFactorQ.h
  /home/catkin_ws/devel/include/gtsam/slam/JacobianFactorSVD.h
@@ -23444,13 +23177,11 @@ CMakeFiles/kimera_vio.dir/src/loopclosure/LoopClosureDetectorParams.cpp.o
  /home/catkin_ws/devel/include/gtsam/base/Lie.h
  /home/catkin_ws/devel/include/gtsam/base/Manifold.h
  /home/catkin_ws/devel/include/gtsam/base/Matrix.h
- /home/catkin_ws/devel/include/gtsam/base/MatrixSerialization.h
  /home/catkin_ws/devel/include/gtsam/base/OptionalJacobian.h
  /home/catkin_ws/devel/include/gtsam/base/Testable.h
  /home/catkin_ws/devel/include/gtsam/base/ThreadsafeException.h
  /home/catkin_ws/devel/include/gtsam/base/Value.h
  /home/catkin_ws/devel/include/gtsam/base/Vector.h
- /home/catkin_ws/devel/include/gtsam/base/VectorSerialization.h
  /home/catkin_ws/devel/include/gtsam/base/VectorSpace.h
  /home/catkin_ws/devel/include/gtsam/base/VerticalBlockMatrix.h
  /home/catkin_ws/devel/include/gtsam/base/concepts.h
@@ -23472,7 +23203,6 @@ CMakeFiles/kimera_vio.dir/src/loopclosure/LoopClosureDetectorParams.cpp.o
  /home/catkin_ws/devel/include/gtsam/geometry/SOn.h
  /home/catkin_ws/devel/include/gtsam/geometry/Unit3.h
  /home/catkin_ws/devel/include/gtsam/global_includes.h
- /home/catkin_ws/devel/include/gtsam/inference/DotWriter.h
  /home/catkin_ws/devel/include/gtsam/inference/Factor.h
  /home/catkin_ws/devel/include/gtsam/inference/FactorGraph-inst.h
  /home/catkin_ws/devel/include/gtsam/inference/FactorGraph.h
@@ -23494,7 +23224,6 @@ CMakeFiles/kimera_vio.dir/src/loopclosure/LoopClosureDetectorParams.cpp.o
  /home/catkin_ws/devel/include/gtsam/navigation/PreintegrationBase.h
  /home/catkin_ws/devel/include/gtsam/navigation/PreintegrationParams.h
  /home/catkin_ws/devel/include/gtsam/navigation/TangentPreintegration.h
- /home/catkin_ws/devel/include/gtsam/nonlinear/GraphvizFormatting.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/NonlinearFactor.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/NonlinearFactorGraph.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/PriorFactor.h
@@ -23956,7 +23685,6 @@ CMakeFiles/kimera_vio.dir/src/mesh/Mesh.cpp.o
  /home/catkin_ws/devel/include/gtsam/base/OptionalJacobian.h
  /home/catkin_ws/devel/include/gtsam/base/Testable.h
  /home/catkin_ws/devel/include/gtsam/base/Vector.h
- /home/catkin_ws/devel/include/gtsam/base/VectorSerialization.h
  /home/catkin_ws/devel/include/gtsam/base/VectorSpace.h
  /home/catkin_ws/devel/include/gtsam/base/types.h
  /home/catkin_ws/devel/include/gtsam/config.h
@@ -24324,14 +24052,12 @@ CMakeFiles/kimera_vio.dir/src/mesh/MeshOptimization.cpp.o
  /home/catkin_ws/devel/include/gtsam/base/Lie.h
  /home/catkin_ws/devel/include/gtsam/base/Manifold.h
  /home/catkin_ws/devel/include/gtsam/base/Matrix.h
- /home/catkin_ws/devel/include/gtsam/base/MatrixSerialization.h
  /home/catkin_ws/devel/include/gtsam/base/OptionalJacobian.h
  /home/catkin_ws/devel/include/gtsam/base/SymmetricBlockMatrix.h
  /home/catkin_ws/devel/include/gtsam/base/Testable.h
  /home/catkin_ws/devel/include/gtsam/base/ThreadsafeException.h
  /home/catkin_ws/devel/include/gtsam/base/Value.h
  /home/catkin_ws/devel/include/gtsam/base/Vector.h
- /home/catkin_ws/devel/include/gtsam/base/VectorSerialization.h
  /home/catkin_ws/devel/include/gtsam/base/VectorSpace.h
  /home/catkin_ws/devel/include/gtsam/base/VerticalBlockMatrix.h
  /home/catkin_ws/devel/include/gtsam/base/concepts.h
@@ -24365,19 +24091,14 @@ CMakeFiles/kimera_vio.dir/src/mesh/MeshOptimization.cpp.o
  /home/catkin_ws/devel/include/gtsam/geometry/SO3.h
  /home/catkin_ws/devel/include/gtsam/geometry/SOn-inl.h
  /home/catkin_ws/devel/include/gtsam/geometry/SOn.h
- /home/catkin_ws/devel/include/gtsam/geometry/SphericalCamera.h
  /home/catkin_ws/devel/include/gtsam/geometry/StereoCamera.h
  /home/catkin_ws/devel/include/gtsam/geometry/StereoPoint2.h
  /home/catkin_ws/devel/include/gtsam/geometry/Unit3.h
  /home/catkin_ws/devel/include/gtsam/geometry/triangulation.h
  /home/catkin_ws/devel/include/gtsam/global_includes.h
- /home/catkin_ws/devel/include/gtsam/inference/BayesNet-inst.h
- /home/catkin_ws/devel/include/gtsam/inference/BayesNet.h
  /home/catkin_ws/devel/include/gtsam/inference/BayesTree.h
  /home/catkin_ws/devel/include/gtsam/inference/BayesTreeCliqueBase.h
- /home/catkin_ws/devel/include/gtsam/inference/Conditional-inst.h
  /home/catkin_ws/devel/include/gtsam/inference/Conditional.h
- /home/catkin_ws/devel/include/gtsam/inference/DotWriter.h
  /home/catkin_ws/devel/include/gtsam/inference/EliminateableFactorGraph.h
  /home/catkin_ws/devel/include/gtsam/inference/Factor.h
  /home/catkin_ws/devel/include/gtsam/inference/FactorGraph-inst.h
@@ -24419,7 +24140,6 @@ CMakeFiles/kimera_vio.dir/src/mesh/MeshOptimization.cpp.o
  /home/catkin_ws/devel/include/gtsam/navigation/PreintegrationParams.h
  /home/catkin_ws/devel/include/gtsam/navigation/TangentPreintegration.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/DoglegOptimizerImpl.h
- /home/catkin_ws/devel/include/gtsam/nonlinear/GraphvizFormatting.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/ISAM2.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/ISAM2Clique.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/ISAM2Params.h
@@ -24433,8 +24153,6 @@ CMakeFiles/kimera_vio.dir/src/mesh/MeshOptimization.cpp.o
  /home/catkin_ws/devel/include/gtsam/nonlinear/Values-inl.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/Values.h
  /home/catkin_ws/devel/include/gtsam/sfm/BinaryMeasurement.h
- /home/catkin_ws/devel/include/gtsam/sfm/SfmData.h
- /home/catkin_ws/devel/include/gtsam/sfm/SfmTrack.h
  /home/catkin_ws/devel/include/gtsam/slam/BetweenFactor.h
  /home/catkin_ws/devel/include/gtsam/slam/JacobianFactorQ.h
  /home/catkin_ws/devel/include/gtsam/slam/JacobianFactorSVD.h
@@ -24949,14 +24667,12 @@ CMakeFiles/kimera_vio.dir/src/mesh/Mesher.cpp.o
  /home/catkin_ws/devel/include/gtsam/base/Lie.h
  /home/catkin_ws/devel/include/gtsam/base/Manifold.h
  /home/catkin_ws/devel/include/gtsam/base/Matrix.h
- /home/catkin_ws/devel/include/gtsam/base/MatrixSerialization.h
  /home/catkin_ws/devel/include/gtsam/base/OptionalJacobian.h
  /home/catkin_ws/devel/include/gtsam/base/SymmetricBlockMatrix.h
  /home/catkin_ws/devel/include/gtsam/base/Testable.h
  /home/catkin_ws/devel/include/gtsam/base/ThreadsafeException.h
  /home/catkin_ws/devel/include/gtsam/base/Value.h
  /home/catkin_ws/devel/include/gtsam/base/Vector.h
- /home/catkin_ws/devel/include/gtsam/base/VectorSerialization.h
  /home/catkin_ws/devel/include/gtsam/base/VectorSpace.h
  /home/catkin_ws/devel/include/gtsam/base/VerticalBlockMatrix.h
  /home/catkin_ws/devel/include/gtsam/base/concepts.h
@@ -24990,19 +24706,14 @@ CMakeFiles/kimera_vio.dir/src/mesh/Mesher.cpp.o
  /home/catkin_ws/devel/include/gtsam/geometry/SO3.h
  /home/catkin_ws/devel/include/gtsam/geometry/SOn-inl.h
  /home/catkin_ws/devel/include/gtsam/geometry/SOn.h
- /home/catkin_ws/devel/include/gtsam/geometry/SphericalCamera.h
  /home/catkin_ws/devel/include/gtsam/geometry/StereoCamera.h
  /home/catkin_ws/devel/include/gtsam/geometry/StereoPoint2.h
  /home/catkin_ws/devel/include/gtsam/geometry/Unit3.h
  /home/catkin_ws/devel/include/gtsam/geometry/triangulation.h
  /home/catkin_ws/devel/include/gtsam/global_includes.h
- /home/catkin_ws/devel/include/gtsam/inference/BayesNet-inst.h
- /home/catkin_ws/devel/include/gtsam/inference/BayesNet.h
  /home/catkin_ws/devel/include/gtsam/inference/BayesTree.h
  /home/catkin_ws/devel/include/gtsam/inference/BayesTreeCliqueBase.h
- /home/catkin_ws/devel/include/gtsam/inference/Conditional-inst.h
  /home/catkin_ws/devel/include/gtsam/inference/Conditional.h
- /home/catkin_ws/devel/include/gtsam/inference/DotWriter.h
  /home/catkin_ws/devel/include/gtsam/inference/EliminateableFactorGraph.h
  /home/catkin_ws/devel/include/gtsam/inference/Factor.h
  /home/catkin_ws/devel/include/gtsam/inference/FactorGraph-inst.h
@@ -25044,7 +24755,6 @@ CMakeFiles/kimera_vio.dir/src/mesh/Mesher.cpp.o
  /home/catkin_ws/devel/include/gtsam/navigation/PreintegrationParams.h
  /home/catkin_ws/devel/include/gtsam/navigation/TangentPreintegration.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/DoglegOptimizerImpl.h
- /home/catkin_ws/devel/include/gtsam/nonlinear/GraphvizFormatting.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/ISAM2.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/ISAM2Clique.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/ISAM2Params.h
@@ -25056,8 +24766,6 @@ CMakeFiles/kimera_vio.dir/src/mesh/Mesher.cpp.o
  /home/catkin_ws/devel/include/gtsam/nonlinear/Values-inl.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/Values.h
  /home/catkin_ws/devel/include/gtsam/sfm/BinaryMeasurement.h
- /home/catkin_ws/devel/include/gtsam/sfm/SfmData.h
- /home/catkin_ws/devel/include/gtsam/sfm/SfmTrack.h
  /home/catkin_ws/devel/include/gtsam/slam/BetweenFactor.h
  /home/catkin_ws/devel/include/gtsam/slam/JacobianFactorQ.h
  /home/catkin_ws/devel/include/gtsam/slam/JacobianFactorSVD.h
@@ -25567,14 +25275,12 @@ CMakeFiles/kimera_vio.dir/src/mesh/MesherFactory.cpp.o
  /home/catkin_ws/devel/include/gtsam/base/Lie.h
  /home/catkin_ws/devel/include/gtsam/base/Manifold.h
  /home/catkin_ws/devel/include/gtsam/base/Matrix.h
- /home/catkin_ws/devel/include/gtsam/base/MatrixSerialization.h
  /home/catkin_ws/devel/include/gtsam/base/OptionalJacobian.h
  /home/catkin_ws/devel/include/gtsam/base/SymmetricBlockMatrix.h
  /home/catkin_ws/devel/include/gtsam/base/Testable.h
  /home/catkin_ws/devel/include/gtsam/base/ThreadsafeException.h
  /home/catkin_ws/devel/include/gtsam/base/Value.h
  /home/catkin_ws/devel/include/gtsam/base/Vector.h
- /home/catkin_ws/devel/include/gtsam/base/VectorSerialization.h
  /home/catkin_ws/devel/include/gtsam/base/VectorSpace.h
  /home/catkin_ws/devel/include/gtsam/base/VerticalBlockMatrix.h
  /home/catkin_ws/devel/include/gtsam/base/concepts.h
@@ -25608,19 +25314,14 @@ CMakeFiles/kimera_vio.dir/src/mesh/MesherFactory.cpp.o
  /home/catkin_ws/devel/include/gtsam/geometry/SO3.h
  /home/catkin_ws/devel/include/gtsam/geometry/SOn-inl.h
  /home/catkin_ws/devel/include/gtsam/geometry/SOn.h
- /home/catkin_ws/devel/include/gtsam/geometry/SphericalCamera.h
  /home/catkin_ws/devel/include/gtsam/geometry/StereoCamera.h
  /home/catkin_ws/devel/include/gtsam/geometry/StereoPoint2.h
  /home/catkin_ws/devel/include/gtsam/geometry/Unit3.h
  /home/catkin_ws/devel/include/gtsam/geometry/triangulation.h
  /home/catkin_ws/devel/include/gtsam/global_includes.h
- /home/catkin_ws/devel/include/gtsam/inference/BayesNet-inst.h
- /home/catkin_ws/devel/include/gtsam/inference/BayesNet.h
  /home/catkin_ws/devel/include/gtsam/inference/BayesTree.h
  /home/catkin_ws/devel/include/gtsam/inference/BayesTreeCliqueBase.h
- /home/catkin_ws/devel/include/gtsam/inference/Conditional-inst.h
  /home/catkin_ws/devel/include/gtsam/inference/Conditional.h
- /home/catkin_ws/devel/include/gtsam/inference/DotWriter.h
  /home/catkin_ws/devel/include/gtsam/inference/EliminateableFactorGraph.h
  /home/catkin_ws/devel/include/gtsam/inference/Factor.h
  /home/catkin_ws/devel/include/gtsam/inference/FactorGraph-inst.h
@@ -25662,7 +25363,6 @@ CMakeFiles/kimera_vio.dir/src/mesh/MesherFactory.cpp.o
  /home/catkin_ws/devel/include/gtsam/navigation/PreintegrationParams.h
  /home/catkin_ws/devel/include/gtsam/navigation/TangentPreintegration.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/DoglegOptimizerImpl.h
- /home/catkin_ws/devel/include/gtsam/nonlinear/GraphvizFormatting.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/ISAM2.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/ISAM2Clique.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/ISAM2Params.h
@@ -25674,8 +25374,6 @@ CMakeFiles/kimera_vio.dir/src/mesh/MesherFactory.cpp.o
  /home/catkin_ws/devel/include/gtsam/nonlinear/Values-inl.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/Values.h
  /home/catkin_ws/devel/include/gtsam/sfm/BinaryMeasurement.h
- /home/catkin_ws/devel/include/gtsam/sfm/SfmData.h
- /home/catkin_ws/devel/include/gtsam/sfm/SfmTrack.h
  /home/catkin_ws/devel/include/gtsam/slam/BetweenFactor.h
  /home/catkin_ws/devel/include/gtsam/slam/JacobianFactorQ.h
  /home/catkin_ws/devel/include/gtsam/slam/JacobianFactorSVD.h
@@ -26183,14 +25881,12 @@ CMakeFiles/kimera_vio.dir/src/mesh/MesherModule.cpp.o
  /home/catkin_ws/devel/include/gtsam/base/Lie.h
  /home/catkin_ws/devel/include/gtsam/base/Manifold.h
  /home/catkin_ws/devel/include/gtsam/base/Matrix.h
- /home/catkin_ws/devel/include/gtsam/base/MatrixSerialization.h
  /home/catkin_ws/devel/include/gtsam/base/OptionalJacobian.h
  /home/catkin_ws/devel/include/gtsam/base/SymmetricBlockMatrix.h
  /home/catkin_ws/devel/include/gtsam/base/Testable.h
  /home/catkin_ws/devel/include/gtsam/base/ThreadsafeException.h
  /home/catkin_ws/devel/include/gtsam/base/Value.h
  /home/catkin_ws/devel/include/gtsam/base/Vector.h
- /home/catkin_ws/devel/include/gtsam/base/VectorSerialization.h
  /home/catkin_ws/devel/include/gtsam/base/VectorSpace.h
  /home/catkin_ws/devel/include/gtsam/base/VerticalBlockMatrix.h
  /home/catkin_ws/devel/include/gtsam/base/concepts.h
@@ -26224,19 +25920,14 @@ CMakeFiles/kimera_vio.dir/src/mesh/MesherModule.cpp.o
  /home/catkin_ws/devel/include/gtsam/geometry/SO3.h
  /home/catkin_ws/devel/include/gtsam/geometry/SOn-inl.h
  /home/catkin_ws/devel/include/gtsam/geometry/SOn.h
- /home/catkin_ws/devel/include/gtsam/geometry/SphericalCamera.h
  /home/catkin_ws/devel/include/gtsam/geometry/StereoCamera.h
  /home/catkin_ws/devel/include/gtsam/geometry/StereoPoint2.h
  /home/catkin_ws/devel/include/gtsam/geometry/Unit3.h
  /home/catkin_ws/devel/include/gtsam/geometry/triangulation.h
  /home/catkin_ws/devel/include/gtsam/global_includes.h
- /home/catkin_ws/devel/include/gtsam/inference/BayesNet-inst.h
- /home/catkin_ws/devel/include/gtsam/inference/BayesNet.h
  /home/catkin_ws/devel/include/gtsam/inference/BayesTree.h
  /home/catkin_ws/devel/include/gtsam/inference/BayesTreeCliqueBase.h
- /home/catkin_ws/devel/include/gtsam/inference/Conditional-inst.h
  /home/catkin_ws/devel/include/gtsam/inference/Conditional.h
- /home/catkin_ws/devel/include/gtsam/inference/DotWriter.h
  /home/catkin_ws/devel/include/gtsam/inference/EliminateableFactorGraph.h
  /home/catkin_ws/devel/include/gtsam/inference/Factor.h
  /home/catkin_ws/devel/include/gtsam/inference/FactorGraph-inst.h
@@ -26278,7 +25969,6 @@ CMakeFiles/kimera_vio.dir/src/mesh/MesherModule.cpp.o
  /home/catkin_ws/devel/include/gtsam/navigation/PreintegrationParams.h
  /home/catkin_ws/devel/include/gtsam/navigation/TangentPreintegration.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/DoglegOptimizerImpl.h
- /home/catkin_ws/devel/include/gtsam/nonlinear/GraphvizFormatting.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/ISAM2.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/ISAM2Clique.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/ISAM2Params.h
@@ -26290,8 +25980,6 @@ CMakeFiles/kimera_vio.dir/src/mesh/MesherModule.cpp.o
  /home/catkin_ws/devel/include/gtsam/nonlinear/Values-inl.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/Values.h
  /home/catkin_ws/devel/include/gtsam/sfm/BinaryMeasurement.h
- /home/catkin_ws/devel/include/gtsam/sfm/SfmData.h
- /home/catkin_ws/devel/include/gtsam/sfm/SfmTrack.h
  /home/catkin_ws/devel/include/gtsam/slam/BetweenFactor.h
  /home/catkin_ws/devel/include/gtsam/slam/JacobianFactorQ.h
  /home/catkin_ws/devel/include/gtsam/slam/JacobianFactorSVD.h
@@ -26817,14 +26505,12 @@ CMakeFiles/kimera_vio.dir/src/pipeline/MonoImuPipeline.cpp.o
  /home/catkin_ws/devel/include/gtsam/base/Lie.h
  /home/catkin_ws/devel/include/gtsam/base/Manifold.h
  /home/catkin_ws/devel/include/gtsam/base/Matrix.h
- /home/catkin_ws/devel/include/gtsam/base/MatrixSerialization.h
  /home/catkin_ws/devel/include/gtsam/base/OptionalJacobian.h
  /home/catkin_ws/devel/include/gtsam/base/SymmetricBlockMatrix.h
  /home/catkin_ws/devel/include/gtsam/base/Testable.h
  /home/catkin_ws/devel/include/gtsam/base/ThreadsafeException.h
  /home/catkin_ws/devel/include/gtsam/base/Value.h
  /home/catkin_ws/devel/include/gtsam/base/Vector.h
- /home/catkin_ws/devel/include/gtsam/base/VectorSerialization.h
  /home/catkin_ws/devel/include/gtsam/base/VectorSpace.h
  /home/catkin_ws/devel/include/gtsam/base/VerticalBlockMatrix.h
  /home/catkin_ws/devel/include/gtsam/base/concepts.h
@@ -26859,19 +26545,14 @@ CMakeFiles/kimera_vio.dir/src/pipeline/MonoImuPipeline.cpp.o
  /home/catkin_ws/devel/include/gtsam/geometry/SO3.h
  /home/catkin_ws/devel/include/gtsam/geometry/SOn-inl.h
  /home/catkin_ws/devel/include/gtsam/geometry/SOn.h
- /home/catkin_ws/devel/include/gtsam/geometry/SphericalCamera.h
  /home/catkin_ws/devel/include/gtsam/geometry/StereoCamera.h
  /home/catkin_ws/devel/include/gtsam/geometry/StereoPoint2.h
  /home/catkin_ws/devel/include/gtsam/geometry/Unit3.h
  /home/catkin_ws/devel/include/gtsam/geometry/triangulation.h
  /home/catkin_ws/devel/include/gtsam/global_includes.h
- /home/catkin_ws/devel/include/gtsam/inference/BayesNet-inst.h
- /home/catkin_ws/devel/include/gtsam/inference/BayesNet.h
  /home/catkin_ws/devel/include/gtsam/inference/BayesTree.h
  /home/catkin_ws/devel/include/gtsam/inference/BayesTreeCliqueBase.h
- /home/catkin_ws/devel/include/gtsam/inference/Conditional-inst.h
  /home/catkin_ws/devel/include/gtsam/inference/Conditional.h
- /home/catkin_ws/devel/include/gtsam/inference/DotWriter.h
  /home/catkin_ws/devel/include/gtsam/inference/EliminateableFactorGraph.h
  /home/catkin_ws/devel/include/gtsam/inference/Factor.h
  /home/catkin_ws/devel/include/gtsam/inference/FactorGraph-inst.h
@@ -26917,7 +26598,6 @@ CMakeFiles/kimera_vio.dir/src/pipeline/MonoImuPipeline.cpp.o
  /home/catkin_ws/devel/include/gtsam/navigation/PreintegrationParams.h
  /home/catkin_ws/devel/include/gtsam/navigation/TangentPreintegration.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/DoglegOptimizerImpl.h
- /home/catkin_ws/devel/include/gtsam/nonlinear/GraphvizFormatting.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/ISAM2.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/ISAM2Clique.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/ISAM2Params.h
@@ -26935,8 +26615,6 @@ CMakeFiles/kimera_vio.dir/src/pipeline/MonoImuPipeline.cpp.o
  /home/catkin_ws/devel/include/gtsam/nonlinear/Values-inl.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/Values.h
  /home/catkin_ws/devel/include/gtsam/sfm/BinaryMeasurement.h
- /home/catkin_ws/devel/include/gtsam/sfm/SfmData.h
- /home/catkin_ws/devel/include/gtsam/sfm/SfmTrack.h
  /home/catkin_ws/devel/include/gtsam/slam/BetweenFactor.h
  /home/catkin_ws/devel/include/gtsam/slam/JacobianFactorQ.h
  /home/catkin_ws/devel/include/gtsam/slam/JacobianFactorSVD.h
@@ -27491,14 +27169,12 @@ CMakeFiles/kimera_vio.dir/src/pipeline/Pipeline-definitions.cpp.o
  /home/catkin_ws/devel/include/gtsam/base/Lie.h
  /home/catkin_ws/devel/include/gtsam/base/Manifold.h
  /home/catkin_ws/devel/include/gtsam/base/Matrix.h
- /home/catkin_ws/devel/include/gtsam/base/MatrixSerialization.h
  /home/catkin_ws/devel/include/gtsam/base/OptionalJacobian.h
  /home/catkin_ws/devel/include/gtsam/base/SymmetricBlockMatrix.h
  /home/catkin_ws/devel/include/gtsam/base/Testable.h
  /home/catkin_ws/devel/include/gtsam/base/ThreadsafeException.h
  /home/catkin_ws/devel/include/gtsam/base/Value.h
  /home/catkin_ws/devel/include/gtsam/base/Vector.h
- /home/catkin_ws/devel/include/gtsam/base/VectorSerialization.h
  /home/catkin_ws/devel/include/gtsam/base/VectorSpace.h
  /home/catkin_ws/devel/include/gtsam/base/VerticalBlockMatrix.h
  /home/catkin_ws/devel/include/gtsam/base/concepts.h
@@ -27532,19 +27208,14 @@ CMakeFiles/kimera_vio.dir/src/pipeline/Pipeline-definitions.cpp.o
  /home/catkin_ws/devel/include/gtsam/geometry/SO3.h
  /home/catkin_ws/devel/include/gtsam/geometry/SOn-inl.h
  /home/catkin_ws/devel/include/gtsam/geometry/SOn.h
- /home/catkin_ws/devel/include/gtsam/geometry/SphericalCamera.h
  /home/catkin_ws/devel/include/gtsam/geometry/StereoCamera.h
  /home/catkin_ws/devel/include/gtsam/geometry/StereoPoint2.h
  /home/catkin_ws/devel/include/gtsam/geometry/Unit3.h
  /home/catkin_ws/devel/include/gtsam/geometry/triangulation.h
  /home/catkin_ws/devel/include/gtsam/global_includes.h
- /home/catkin_ws/devel/include/gtsam/inference/BayesNet-inst.h
- /home/catkin_ws/devel/include/gtsam/inference/BayesNet.h
  /home/catkin_ws/devel/include/gtsam/inference/BayesTree.h
  /home/catkin_ws/devel/include/gtsam/inference/BayesTreeCliqueBase.h
- /home/catkin_ws/devel/include/gtsam/inference/Conditional-inst.h
  /home/catkin_ws/devel/include/gtsam/inference/Conditional.h
- /home/catkin_ws/devel/include/gtsam/inference/DotWriter.h
  /home/catkin_ws/devel/include/gtsam/inference/EliminateableFactorGraph.h
  /home/catkin_ws/devel/include/gtsam/inference/Factor.h
  /home/catkin_ws/devel/include/gtsam/inference/FactorGraph-inst.h
@@ -27586,7 +27257,6 @@ CMakeFiles/kimera_vio.dir/src/pipeline/Pipeline-definitions.cpp.o
  /home/catkin_ws/devel/include/gtsam/navigation/PreintegrationParams.h
  /home/catkin_ws/devel/include/gtsam/navigation/TangentPreintegration.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/DoglegOptimizerImpl.h
- /home/catkin_ws/devel/include/gtsam/nonlinear/GraphvizFormatting.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/ISAM2.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/ISAM2Clique.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/ISAM2Params.h
@@ -27598,8 +27268,6 @@ CMakeFiles/kimera_vio.dir/src/pipeline/Pipeline-definitions.cpp.o
  /home/catkin_ws/devel/include/gtsam/nonlinear/Values-inl.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/Values.h
  /home/catkin_ws/devel/include/gtsam/sfm/BinaryMeasurement.h
- /home/catkin_ws/devel/include/gtsam/sfm/SfmData.h
- /home/catkin_ws/devel/include/gtsam/sfm/SfmTrack.h
  /home/catkin_ws/devel/include/gtsam/slam/BetweenFactor.h
  /home/catkin_ws/devel/include/gtsam/slam/JacobianFactorQ.h
  /home/catkin_ws/devel/include/gtsam/slam/JacobianFactorSVD.h
@@ -28122,14 +27790,12 @@ CMakeFiles/kimera_vio.dir/src/pipeline/Pipeline.cpp.o
  /home/catkin_ws/devel/include/gtsam/base/Lie.h
  /home/catkin_ws/devel/include/gtsam/base/Manifold.h
  /home/catkin_ws/devel/include/gtsam/base/Matrix.h
- /home/catkin_ws/devel/include/gtsam/base/MatrixSerialization.h
  /home/catkin_ws/devel/include/gtsam/base/OptionalJacobian.h
  /home/catkin_ws/devel/include/gtsam/base/SymmetricBlockMatrix.h
  /home/catkin_ws/devel/include/gtsam/base/Testable.h
  /home/catkin_ws/devel/include/gtsam/base/ThreadsafeException.h
  /home/catkin_ws/devel/include/gtsam/base/Value.h
  /home/catkin_ws/devel/include/gtsam/base/Vector.h
- /home/catkin_ws/devel/include/gtsam/base/VectorSerialization.h
  /home/catkin_ws/devel/include/gtsam/base/VectorSpace.h
  /home/catkin_ws/devel/include/gtsam/base/VerticalBlockMatrix.h
  /home/catkin_ws/devel/include/gtsam/base/concepts.h
@@ -28164,19 +27830,14 @@ CMakeFiles/kimera_vio.dir/src/pipeline/Pipeline.cpp.o
  /home/catkin_ws/devel/include/gtsam/geometry/SO3.h
  /home/catkin_ws/devel/include/gtsam/geometry/SOn-inl.h
  /home/catkin_ws/devel/include/gtsam/geometry/SOn.h
- /home/catkin_ws/devel/include/gtsam/geometry/SphericalCamera.h
  /home/catkin_ws/devel/include/gtsam/geometry/StereoCamera.h
  /home/catkin_ws/devel/include/gtsam/geometry/StereoPoint2.h
  /home/catkin_ws/devel/include/gtsam/geometry/Unit3.h
  /home/catkin_ws/devel/include/gtsam/geometry/triangulation.h
  /home/catkin_ws/devel/include/gtsam/global_includes.h
- /home/catkin_ws/devel/include/gtsam/inference/BayesNet-inst.h
- /home/catkin_ws/devel/include/gtsam/inference/BayesNet.h
  /home/catkin_ws/devel/include/gtsam/inference/BayesTree.h
  /home/catkin_ws/devel/include/gtsam/inference/BayesTreeCliqueBase.h
- /home/catkin_ws/devel/include/gtsam/inference/Conditional-inst.h
  /home/catkin_ws/devel/include/gtsam/inference/Conditional.h
- /home/catkin_ws/devel/include/gtsam/inference/DotWriter.h
  /home/catkin_ws/devel/include/gtsam/inference/EliminateableFactorGraph.h
  /home/catkin_ws/devel/include/gtsam/inference/Factor.h
  /home/catkin_ws/devel/include/gtsam/inference/FactorGraph-inst.h
@@ -28222,7 +27883,6 @@ CMakeFiles/kimera_vio.dir/src/pipeline/Pipeline.cpp.o
  /home/catkin_ws/devel/include/gtsam/navigation/PreintegrationParams.h
  /home/catkin_ws/devel/include/gtsam/navigation/TangentPreintegration.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/DoglegOptimizerImpl.h
- /home/catkin_ws/devel/include/gtsam/nonlinear/GraphvizFormatting.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/ISAM2.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/ISAM2Clique.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/ISAM2Params.h
@@ -28240,8 +27900,6 @@ CMakeFiles/kimera_vio.dir/src/pipeline/Pipeline.cpp.o
  /home/catkin_ws/devel/include/gtsam/nonlinear/Values-inl.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/Values.h
  /home/catkin_ws/devel/include/gtsam/sfm/BinaryMeasurement.h
- /home/catkin_ws/devel/include/gtsam/sfm/SfmData.h
- /home/catkin_ws/devel/include/gtsam/sfm/SfmTrack.h
  /home/catkin_ws/devel/include/gtsam/slam/BetweenFactor.h
  /home/catkin_ws/devel/include/gtsam/slam/JacobianFactorQ.h
  /home/catkin_ws/devel/include/gtsam/slam/JacobianFactorSVD.h
@@ -28780,7 +28438,6 @@ CMakeFiles/kimera_vio.dir/src/pipeline/PipelineModule.cpp.o
  /home/catkin_ws/devel/include/gtsam/base/OptionalJacobian.h
  /home/catkin_ws/devel/include/gtsam/base/Testable.h
  /home/catkin_ws/devel/include/gtsam/base/Vector.h
- /home/catkin_ws/devel/include/gtsam/base/VectorSerialization.h
  /home/catkin_ws/devel/include/gtsam/base/VectorSpace.h
  /home/catkin_ws/devel/include/gtsam/base/types.h
  /home/catkin_ws/devel/include/gtsam/config.h
@@ -29147,7 +28804,6 @@ CMakeFiles/kimera_vio.dir/src/pipeline/PipelinePayload.cpp.o
  /home/catkin_ws/devel/include/gtsam/base/OptionalJacobian.h
  /home/catkin_ws/devel/include/gtsam/base/Testable.h
  /home/catkin_ws/devel/include/gtsam/base/Vector.h
- /home/catkin_ws/devel/include/gtsam/base/VectorSerialization.h
  /home/catkin_ws/devel/include/gtsam/base/VectorSpace.h
  /home/catkin_ws/devel/include/gtsam/base/types.h
  /home/catkin_ws/devel/include/gtsam/config.h
@@ -29504,7 +29160,6 @@ CMakeFiles/kimera_vio.dir/src/pipeline/QueueSynchronizer.cpp.o
  /home/catkin_ws/devel/include/gtsam/base/OptionalJacobian.h
  /home/catkin_ws/devel/include/gtsam/base/Testable.h
  /home/catkin_ws/devel/include/gtsam/base/Vector.h
- /home/catkin_ws/devel/include/gtsam/base/VectorSerialization.h
  /home/catkin_ws/devel/include/gtsam/base/VectorSpace.h
  /home/catkin_ws/devel/include/gtsam/base/types.h
  /home/catkin_ws/devel/include/gtsam/config.h
@@ -29882,14 +29537,12 @@ CMakeFiles/kimera_vio.dir/src/pipeline/StereoImuPipeline.cpp.o
  /home/catkin_ws/devel/include/gtsam/base/Lie.h
  /home/catkin_ws/devel/include/gtsam/base/Manifold.h
  /home/catkin_ws/devel/include/gtsam/base/Matrix.h
- /home/catkin_ws/devel/include/gtsam/base/MatrixSerialization.h
  /home/catkin_ws/devel/include/gtsam/base/OptionalJacobian.h
  /home/catkin_ws/devel/include/gtsam/base/SymmetricBlockMatrix.h
  /home/catkin_ws/devel/include/gtsam/base/Testable.h
  /home/catkin_ws/devel/include/gtsam/base/ThreadsafeException.h
  /home/catkin_ws/devel/include/gtsam/base/Value.h
  /home/catkin_ws/devel/include/gtsam/base/Vector.h
- /home/catkin_ws/devel/include/gtsam/base/VectorSerialization.h
  /home/catkin_ws/devel/include/gtsam/base/VectorSpace.h
  /home/catkin_ws/devel/include/gtsam/base/VerticalBlockMatrix.h
  /home/catkin_ws/devel/include/gtsam/base/concepts.h
@@ -29924,19 +29577,14 @@ CMakeFiles/kimera_vio.dir/src/pipeline/StereoImuPipeline.cpp.o
  /home/catkin_ws/devel/include/gtsam/geometry/SO3.h
  /home/catkin_ws/devel/include/gtsam/geometry/SOn-inl.h
  /home/catkin_ws/devel/include/gtsam/geometry/SOn.h
- /home/catkin_ws/devel/include/gtsam/geometry/SphericalCamera.h
  /home/catkin_ws/devel/include/gtsam/geometry/StereoCamera.h
  /home/catkin_ws/devel/include/gtsam/geometry/StereoPoint2.h
  /home/catkin_ws/devel/include/gtsam/geometry/Unit3.h
  /home/catkin_ws/devel/include/gtsam/geometry/triangulation.h
  /home/catkin_ws/devel/include/gtsam/global_includes.h
- /home/catkin_ws/devel/include/gtsam/inference/BayesNet-inst.h
- /home/catkin_ws/devel/include/gtsam/inference/BayesNet.h
  /home/catkin_ws/devel/include/gtsam/inference/BayesTree.h
  /home/catkin_ws/devel/include/gtsam/inference/BayesTreeCliqueBase.h
- /home/catkin_ws/devel/include/gtsam/inference/Conditional-inst.h
  /home/catkin_ws/devel/include/gtsam/inference/Conditional.h
- /home/catkin_ws/devel/include/gtsam/inference/DotWriter.h
  /home/catkin_ws/devel/include/gtsam/inference/EliminateableFactorGraph.h
  /home/catkin_ws/devel/include/gtsam/inference/Factor.h
  /home/catkin_ws/devel/include/gtsam/inference/FactorGraph-inst.h
@@ -29982,7 +29630,6 @@ CMakeFiles/kimera_vio.dir/src/pipeline/StereoImuPipeline.cpp.o
  /home/catkin_ws/devel/include/gtsam/navigation/PreintegrationParams.h
  /home/catkin_ws/devel/include/gtsam/navigation/TangentPreintegration.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/DoglegOptimizerImpl.h
- /home/catkin_ws/devel/include/gtsam/nonlinear/GraphvizFormatting.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/ISAM2.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/ISAM2Clique.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/ISAM2Params.h
@@ -30000,8 +29647,6 @@ CMakeFiles/kimera_vio.dir/src/pipeline/StereoImuPipeline.cpp.o
  /home/catkin_ws/devel/include/gtsam/nonlinear/Values-inl.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/Values.h
  /home/catkin_ws/devel/include/gtsam/sfm/BinaryMeasurement.h
- /home/catkin_ws/devel/include/gtsam/sfm/SfmData.h
- /home/catkin_ws/devel/include/gtsam/sfm/SfmTrack.h
  /home/catkin_ws/devel/include/gtsam/slam/BetweenFactor.h
  /home/catkin_ws/devel/include/gtsam/slam/JacobianFactorQ.h
  /home/catkin_ws/devel/include/gtsam/slam/JacobianFactorSVD.h
@@ -30559,14 +30204,12 @@ CMakeFiles/kimera_vio.dir/src/playground/EurocPlayground.cpp.o
  /home/catkin_ws/devel/include/gtsam/base/Lie.h
  /home/catkin_ws/devel/include/gtsam/base/Manifold.h
  /home/catkin_ws/devel/include/gtsam/base/Matrix.h
- /home/catkin_ws/devel/include/gtsam/base/MatrixSerialization.h
  /home/catkin_ws/devel/include/gtsam/base/OptionalJacobian.h
  /home/catkin_ws/devel/include/gtsam/base/SymmetricBlockMatrix.h
  /home/catkin_ws/devel/include/gtsam/base/Testable.h
  /home/catkin_ws/devel/include/gtsam/base/ThreadsafeException.h
  /home/catkin_ws/devel/include/gtsam/base/Value.h
  /home/catkin_ws/devel/include/gtsam/base/Vector.h
- /home/catkin_ws/devel/include/gtsam/base/VectorSerialization.h
  /home/catkin_ws/devel/include/gtsam/base/VectorSpace.h
  /home/catkin_ws/devel/include/gtsam/base/VerticalBlockMatrix.h
  /home/catkin_ws/devel/include/gtsam/base/concepts.h
@@ -30600,19 +30243,14 @@ CMakeFiles/kimera_vio.dir/src/playground/EurocPlayground.cpp.o
  /home/catkin_ws/devel/include/gtsam/geometry/SO3.h
  /home/catkin_ws/devel/include/gtsam/geometry/SOn-inl.h
  /home/catkin_ws/devel/include/gtsam/geometry/SOn.h
- /home/catkin_ws/devel/include/gtsam/geometry/SphericalCamera.h
  /home/catkin_ws/devel/include/gtsam/geometry/StereoCamera.h
  /home/catkin_ws/devel/include/gtsam/geometry/StereoPoint2.h
  /home/catkin_ws/devel/include/gtsam/geometry/Unit3.h
  /home/catkin_ws/devel/include/gtsam/geometry/triangulation.h
  /home/catkin_ws/devel/include/gtsam/global_includes.h
- /home/catkin_ws/devel/include/gtsam/inference/BayesNet-inst.h
- /home/catkin_ws/devel/include/gtsam/inference/BayesNet.h
  /home/catkin_ws/devel/include/gtsam/inference/BayesTree.h
  /home/catkin_ws/devel/include/gtsam/inference/BayesTreeCliqueBase.h
- /home/catkin_ws/devel/include/gtsam/inference/Conditional-inst.h
  /home/catkin_ws/devel/include/gtsam/inference/Conditional.h
- /home/catkin_ws/devel/include/gtsam/inference/DotWriter.h
  /home/catkin_ws/devel/include/gtsam/inference/EliminateableFactorGraph.h
  /home/catkin_ws/devel/include/gtsam/inference/Factor.h
  /home/catkin_ws/devel/include/gtsam/inference/FactorGraph-inst.h
@@ -30654,7 +30292,6 @@ CMakeFiles/kimera_vio.dir/src/playground/EurocPlayground.cpp.o
  /home/catkin_ws/devel/include/gtsam/navigation/PreintegrationParams.h
  /home/catkin_ws/devel/include/gtsam/navigation/TangentPreintegration.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/DoglegOptimizerImpl.h
- /home/catkin_ws/devel/include/gtsam/nonlinear/GraphvizFormatting.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/ISAM2.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/ISAM2Clique.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/ISAM2Params.h
@@ -30667,8 +30304,6 @@ CMakeFiles/kimera_vio.dir/src/playground/EurocPlayground.cpp.o
  /home/catkin_ws/devel/include/gtsam/nonlinear/Values-inl.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/Values.h
  /home/catkin_ws/devel/include/gtsam/sfm/BinaryMeasurement.h
- /home/catkin_ws/devel/include/gtsam/sfm/SfmData.h
- /home/catkin_ws/devel/include/gtsam/sfm/SfmTrack.h
  /home/catkin_ws/devel/include/gtsam/slam/BetweenFactor.h
  /home/catkin_ws/devel/include/gtsam/slam/JacobianFactorQ.h
  /home/catkin_ws/devel/include/gtsam/slam/JacobianFactorSVD.h
@@ -31342,13 +30977,11 @@ CMakeFiles/kimera_vio.dir/src/utils/ThreadsafeImuBuffer.cpp.o
  /home/catkin_ws/devel/include/gtsam/base/Lie.h
  /home/catkin_ws/devel/include/gtsam/base/Manifold.h
  /home/catkin_ws/devel/include/gtsam/base/Matrix.h
- /home/catkin_ws/devel/include/gtsam/base/MatrixSerialization.h
  /home/catkin_ws/devel/include/gtsam/base/OptionalJacobian.h
  /home/catkin_ws/devel/include/gtsam/base/Testable.h
  /home/catkin_ws/devel/include/gtsam/base/ThreadsafeException.h
  /home/catkin_ws/devel/include/gtsam/base/Value.h
  /home/catkin_ws/devel/include/gtsam/base/Vector.h
- /home/catkin_ws/devel/include/gtsam/base/VectorSerialization.h
  /home/catkin_ws/devel/include/gtsam/base/VectorSpace.h
  /home/catkin_ws/devel/include/gtsam/base/VerticalBlockMatrix.h
  /home/catkin_ws/devel/include/gtsam/base/concepts.h
@@ -31744,7 +31377,6 @@ CMakeFiles/kimera_vio.dir/src/utils/UtilsGeometry.cpp.o
  /home/catkin_ws/devel/include/gtsam/base/OptionalJacobian.h
  /home/catkin_ws/devel/include/gtsam/base/Testable.h
  /home/catkin_ws/devel/include/gtsam/base/Vector.h
- /home/catkin_ws/devel/include/gtsam/base/VectorSerialization.h
  /home/catkin_ws/devel/include/gtsam/base/VectorSpace.h
  /home/catkin_ws/devel/include/gtsam/base/types.h
  /home/catkin_ws/devel/include/gtsam/config.h
@@ -31968,7 +31600,6 @@ CMakeFiles/kimera_vio.dir/src/utils/UtilsNumerical.cpp.o
  /home/catkin_ws/devel/include/gtsam/base/OptionalJacobian.h
  /home/catkin_ws/devel/include/gtsam/base/Testable.h
  /home/catkin_ws/devel/include/gtsam/base/Vector.h
- /home/catkin_ws/devel/include/gtsam/base/VectorSerialization.h
  /home/catkin_ws/devel/include/gtsam/base/VectorSpace.h
  /home/catkin_ws/devel/include/gtsam/base/types.h
  /home/catkin_ws/devel/include/gtsam/config.h
@@ -32329,7 +31960,6 @@ CMakeFiles/kimera_vio.dir/src/utils/UtilsOpenCV.cpp.o
  /home/catkin_ws/devel/include/gtsam/base/OptionalJacobian.h
  /home/catkin_ws/devel/include/gtsam/base/Testable.h
  /home/catkin_ws/devel/include/gtsam/base/Vector.h
- /home/catkin_ws/devel/include/gtsam/base/VectorSerialization.h
  /home/catkin_ws/devel/include/gtsam/base/VectorSpace.h
  /home/catkin_ws/devel/include/gtsam/base/concepts.h
  /home/catkin_ws/devel/include/gtsam/base/make_shared.h
@@ -32783,14 +32413,12 @@ CMakeFiles/kimera_vio.dir/src/visualizer/Display-definitions.cpp.o
  /home/catkin_ws/devel/include/gtsam/base/Lie.h
  /home/catkin_ws/devel/include/gtsam/base/Manifold.h
  /home/catkin_ws/devel/include/gtsam/base/Matrix.h
- /home/catkin_ws/devel/include/gtsam/base/MatrixSerialization.h
  /home/catkin_ws/devel/include/gtsam/base/OptionalJacobian.h
  /home/catkin_ws/devel/include/gtsam/base/SymmetricBlockMatrix.h
  /home/catkin_ws/devel/include/gtsam/base/Testable.h
  /home/catkin_ws/devel/include/gtsam/base/ThreadsafeException.h
  /home/catkin_ws/devel/include/gtsam/base/Value.h
  /home/catkin_ws/devel/include/gtsam/base/Vector.h
- /home/catkin_ws/devel/include/gtsam/base/VectorSerialization.h
  /home/catkin_ws/devel/include/gtsam/base/VectorSpace.h
  /home/catkin_ws/devel/include/gtsam/base/VerticalBlockMatrix.h
  /home/catkin_ws/devel/include/gtsam/base/concepts.h
@@ -32824,19 +32452,14 @@ CMakeFiles/kimera_vio.dir/src/visualizer/Display-definitions.cpp.o
  /home/catkin_ws/devel/include/gtsam/geometry/SO3.h
  /home/catkin_ws/devel/include/gtsam/geometry/SOn-inl.h
  /home/catkin_ws/devel/include/gtsam/geometry/SOn.h
- /home/catkin_ws/devel/include/gtsam/geometry/SphericalCamera.h
  /home/catkin_ws/devel/include/gtsam/geometry/StereoCamera.h
  /home/catkin_ws/devel/include/gtsam/geometry/StereoPoint2.h
  /home/catkin_ws/devel/include/gtsam/geometry/Unit3.h
  /home/catkin_ws/devel/include/gtsam/geometry/triangulation.h
  /home/catkin_ws/devel/include/gtsam/global_includes.h
- /home/catkin_ws/devel/include/gtsam/inference/BayesNet-inst.h
- /home/catkin_ws/devel/include/gtsam/inference/BayesNet.h
  /home/catkin_ws/devel/include/gtsam/inference/BayesTree.h
  /home/catkin_ws/devel/include/gtsam/inference/BayesTreeCliqueBase.h
- /home/catkin_ws/devel/include/gtsam/inference/Conditional-inst.h
  /home/catkin_ws/devel/include/gtsam/inference/Conditional.h
- /home/catkin_ws/devel/include/gtsam/inference/DotWriter.h
  /home/catkin_ws/devel/include/gtsam/inference/EliminateableFactorGraph.h
  /home/catkin_ws/devel/include/gtsam/inference/Factor.h
  /home/catkin_ws/devel/include/gtsam/inference/FactorGraph-inst.h
@@ -32878,7 +32501,6 @@ CMakeFiles/kimera_vio.dir/src/visualizer/Display-definitions.cpp.o
  /home/catkin_ws/devel/include/gtsam/navigation/PreintegrationParams.h
  /home/catkin_ws/devel/include/gtsam/navigation/TangentPreintegration.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/DoglegOptimizerImpl.h
- /home/catkin_ws/devel/include/gtsam/nonlinear/GraphvizFormatting.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/ISAM2.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/ISAM2Clique.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/ISAM2Params.h
@@ -32890,8 +32512,6 @@ CMakeFiles/kimera_vio.dir/src/visualizer/Display-definitions.cpp.o
  /home/catkin_ws/devel/include/gtsam/nonlinear/Values-inl.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/Values.h
  /home/catkin_ws/devel/include/gtsam/sfm/BinaryMeasurement.h
- /home/catkin_ws/devel/include/gtsam/sfm/SfmData.h
- /home/catkin_ws/devel/include/gtsam/sfm/SfmTrack.h
  /home/catkin_ws/devel/include/gtsam/slam/BetweenFactor.h
  /home/catkin_ws/devel/include/gtsam/slam/JacobianFactorQ.h
  /home/catkin_ws/devel/include/gtsam/slam/JacobianFactorSVD.h
@@ -33399,14 +33019,12 @@ CMakeFiles/kimera_vio.dir/src/visualizer/Display.cpp.o
  /home/catkin_ws/devel/include/gtsam/base/Lie.h
  /home/catkin_ws/devel/include/gtsam/base/Manifold.h
  /home/catkin_ws/devel/include/gtsam/base/Matrix.h
- /home/catkin_ws/devel/include/gtsam/base/MatrixSerialization.h
  /home/catkin_ws/devel/include/gtsam/base/OptionalJacobian.h
  /home/catkin_ws/devel/include/gtsam/base/SymmetricBlockMatrix.h
  /home/catkin_ws/devel/include/gtsam/base/Testable.h
  /home/catkin_ws/devel/include/gtsam/base/ThreadsafeException.h
  /home/catkin_ws/devel/include/gtsam/base/Value.h
  /home/catkin_ws/devel/include/gtsam/base/Vector.h
- /home/catkin_ws/devel/include/gtsam/base/VectorSerialization.h
  /home/catkin_ws/devel/include/gtsam/base/VectorSpace.h
  /home/catkin_ws/devel/include/gtsam/base/VerticalBlockMatrix.h
  /home/catkin_ws/devel/include/gtsam/base/concepts.h
@@ -33440,19 +33058,14 @@ CMakeFiles/kimera_vio.dir/src/visualizer/Display.cpp.o
  /home/catkin_ws/devel/include/gtsam/geometry/SO3.h
  /home/catkin_ws/devel/include/gtsam/geometry/SOn-inl.h
  /home/catkin_ws/devel/include/gtsam/geometry/SOn.h
- /home/catkin_ws/devel/include/gtsam/geometry/SphericalCamera.h
  /home/catkin_ws/devel/include/gtsam/geometry/StereoCamera.h
  /home/catkin_ws/devel/include/gtsam/geometry/StereoPoint2.h
  /home/catkin_ws/devel/include/gtsam/geometry/Unit3.h
  /home/catkin_ws/devel/include/gtsam/geometry/triangulation.h
  /home/catkin_ws/devel/include/gtsam/global_includes.h
- /home/catkin_ws/devel/include/gtsam/inference/BayesNet-inst.h
- /home/catkin_ws/devel/include/gtsam/inference/BayesNet.h
  /home/catkin_ws/devel/include/gtsam/inference/BayesTree.h
  /home/catkin_ws/devel/include/gtsam/inference/BayesTreeCliqueBase.h
- /home/catkin_ws/devel/include/gtsam/inference/Conditional-inst.h
  /home/catkin_ws/devel/include/gtsam/inference/Conditional.h
- /home/catkin_ws/devel/include/gtsam/inference/DotWriter.h
  /home/catkin_ws/devel/include/gtsam/inference/EliminateableFactorGraph.h
  /home/catkin_ws/devel/include/gtsam/inference/Factor.h
  /home/catkin_ws/devel/include/gtsam/inference/FactorGraph-inst.h
@@ -33494,7 +33107,6 @@ CMakeFiles/kimera_vio.dir/src/visualizer/Display.cpp.o
  /home/catkin_ws/devel/include/gtsam/navigation/PreintegrationParams.h
  /home/catkin_ws/devel/include/gtsam/navigation/TangentPreintegration.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/DoglegOptimizerImpl.h
- /home/catkin_ws/devel/include/gtsam/nonlinear/GraphvizFormatting.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/ISAM2.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/ISAM2Clique.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/ISAM2Params.h
@@ -33506,8 +33118,6 @@ CMakeFiles/kimera_vio.dir/src/visualizer/Display.cpp.o
  /home/catkin_ws/devel/include/gtsam/nonlinear/Values-inl.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/Values.h
  /home/catkin_ws/devel/include/gtsam/sfm/BinaryMeasurement.h
- /home/catkin_ws/devel/include/gtsam/sfm/SfmData.h
- /home/catkin_ws/devel/include/gtsam/sfm/SfmTrack.h
  /home/catkin_ws/devel/include/gtsam/slam/BetweenFactor.h
  /home/catkin_ws/devel/include/gtsam/slam/JacobianFactorQ.h
  /home/catkin_ws/devel/include/gtsam/slam/JacobianFactorSVD.h
@@ -34016,14 +33626,12 @@ CMakeFiles/kimera_vio.dir/src/visualizer/DisplayFactory.cpp.o
  /home/catkin_ws/devel/include/gtsam/base/Lie.h
  /home/catkin_ws/devel/include/gtsam/base/Manifold.h
  /home/catkin_ws/devel/include/gtsam/base/Matrix.h
- /home/catkin_ws/devel/include/gtsam/base/MatrixSerialization.h
  /home/catkin_ws/devel/include/gtsam/base/OptionalJacobian.h
  /home/catkin_ws/devel/include/gtsam/base/SymmetricBlockMatrix.h
  /home/catkin_ws/devel/include/gtsam/base/Testable.h
  /home/catkin_ws/devel/include/gtsam/base/ThreadsafeException.h
  /home/catkin_ws/devel/include/gtsam/base/Value.h
  /home/catkin_ws/devel/include/gtsam/base/Vector.h
- /home/catkin_ws/devel/include/gtsam/base/VectorSerialization.h
  /home/catkin_ws/devel/include/gtsam/base/VectorSpace.h
  /home/catkin_ws/devel/include/gtsam/base/VerticalBlockMatrix.h
  /home/catkin_ws/devel/include/gtsam/base/concepts.h
@@ -34057,19 +33665,14 @@ CMakeFiles/kimera_vio.dir/src/visualizer/DisplayFactory.cpp.o
  /home/catkin_ws/devel/include/gtsam/geometry/SO3.h
  /home/catkin_ws/devel/include/gtsam/geometry/SOn-inl.h
  /home/catkin_ws/devel/include/gtsam/geometry/SOn.h
- /home/catkin_ws/devel/include/gtsam/geometry/SphericalCamera.h
  /home/catkin_ws/devel/include/gtsam/geometry/StereoCamera.h
  /home/catkin_ws/devel/include/gtsam/geometry/StereoPoint2.h
  /home/catkin_ws/devel/include/gtsam/geometry/Unit3.h
  /home/catkin_ws/devel/include/gtsam/geometry/triangulation.h
  /home/catkin_ws/devel/include/gtsam/global_includes.h
- /home/catkin_ws/devel/include/gtsam/inference/BayesNet-inst.h
- /home/catkin_ws/devel/include/gtsam/inference/BayesNet.h
  /home/catkin_ws/devel/include/gtsam/inference/BayesTree.h
  /home/catkin_ws/devel/include/gtsam/inference/BayesTreeCliqueBase.h
- /home/catkin_ws/devel/include/gtsam/inference/Conditional-inst.h
  /home/catkin_ws/devel/include/gtsam/inference/Conditional.h
- /home/catkin_ws/devel/include/gtsam/inference/DotWriter.h
  /home/catkin_ws/devel/include/gtsam/inference/EliminateableFactorGraph.h
  /home/catkin_ws/devel/include/gtsam/inference/Factor.h
  /home/catkin_ws/devel/include/gtsam/inference/FactorGraph-inst.h
@@ -34111,7 +33714,6 @@ CMakeFiles/kimera_vio.dir/src/visualizer/DisplayFactory.cpp.o
  /home/catkin_ws/devel/include/gtsam/navigation/PreintegrationParams.h
  /home/catkin_ws/devel/include/gtsam/navigation/TangentPreintegration.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/DoglegOptimizerImpl.h
- /home/catkin_ws/devel/include/gtsam/nonlinear/GraphvizFormatting.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/ISAM2.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/ISAM2Clique.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/ISAM2Params.h
@@ -34123,8 +33725,6 @@ CMakeFiles/kimera_vio.dir/src/visualizer/DisplayFactory.cpp.o
  /home/catkin_ws/devel/include/gtsam/nonlinear/Values-inl.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/Values.h
  /home/catkin_ws/devel/include/gtsam/sfm/BinaryMeasurement.h
- /home/catkin_ws/devel/include/gtsam/sfm/SfmData.h
- /home/catkin_ws/devel/include/gtsam/sfm/SfmTrack.h
  /home/catkin_ws/devel/include/gtsam/slam/BetweenFactor.h
  /home/catkin_ws/devel/include/gtsam/slam/JacobianFactorQ.h
  /home/catkin_ws/devel/include/gtsam/slam/JacobianFactorSVD.h
@@ -34637,14 +34237,12 @@ CMakeFiles/kimera_vio.dir/src/visualizer/DisplayModule.cpp.o
  /home/catkin_ws/devel/include/gtsam/base/Lie.h
  /home/catkin_ws/devel/include/gtsam/base/Manifold.h
  /home/catkin_ws/devel/include/gtsam/base/Matrix.h
- /home/catkin_ws/devel/include/gtsam/base/MatrixSerialization.h
  /home/catkin_ws/devel/include/gtsam/base/OptionalJacobian.h
  /home/catkin_ws/devel/include/gtsam/base/SymmetricBlockMatrix.h
  /home/catkin_ws/devel/include/gtsam/base/Testable.h
  /home/catkin_ws/devel/include/gtsam/base/ThreadsafeException.h
  /home/catkin_ws/devel/include/gtsam/base/Value.h
  /home/catkin_ws/devel/include/gtsam/base/Vector.h
- /home/catkin_ws/devel/include/gtsam/base/VectorSerialization.h
  /home/catkin_ws/devel/include/gtsam/base/VectorSpace.h
  /home/catkin_ws/devel/include/gtsam/base/VerticalBlockMatrix.h
  /home/catkin_ws/devel/include/gtsam/base/concepts.h
@@ -34678,19 +34276,14 @@ CMakeFiles/kimera_vio.dir/src/visualizer/DisplayModule.cpp.o
  /home/catkin_ws/devel/include/gtsam/geometry/SO3.h
  /home/catkin_ws/devel/include/gtsam/geometry/SOn-inl.h
  /home/catkin_ws/devel/include/gtsam/geometry/SOn.h
- /home/catkin_ws/devel/include/gtsam/geometry/SphericalCamera.h
  /home/catkin_ws/devel/include/gtsam/geometry/StereoCamera.h
  /home/catkin_ws/devel/include/gtsam/geometry/StereoPoint2.h
  /home/catkin_ws/devel/include/gtsam/geometry/Unit3.h
  /home/catkin_ws/devel/include/gtsam/geometry/triangulation.h
  /home/catkin_ws/devel/include/gtsam/global_includes.h
- /home/catkin_ws/devel/include/gtsam/inference/BayesNet-inst.h
- /home/catkin_ws/devel/include/gtsam/inference/BayesNet.h
  /home/catkin_ws/devel/include/gtsam/inference/BayesTree.h
  /home/catkin_ws/devel/include/gtsam/inference/BayesTreeCliqueBase.h
- /home/catkin_ws/devel/include/gtsam/inference/Conditional-inst.h
  /home/catkin_ws/devel/include/gtsam/inference/Conditional.h
- /home/catkin_ws/devel/include/gtsam/inference/DotWriter.h
  /home/catkin_ws/devel/include/gtsam/inference/EliminateableFactorGraph.h
  /home/catkin_ws/devel/include/gtsam/inference/Factor.h
  /home/catkin_ws/devel/include/gtsam/inference/FactorGraph-inst.h
@@ -34732,7 +34325,6 @@ CMakeFiles/kimera_vio.dir/src/visualizer/DisplayModule.cpp.o
  /home/catkin_ws/devel/include/gtsam/navigation/PreintegrationParams.h
  /home/catkin_ws/devel/include/gtsam/navigation/TangentPreintegration.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/DoglegOptimizerImpl.h
- /home/catkin_ws/devel/include/gtsam/nonlinear/GraphvizFormatting.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/ISAM2.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/ISAM2Clique.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/ISAM2Params.h
@@ -34744,8 +34336,6 @@ CMakeFiles/kimera_vio.dir/src/visualizer/DisplayModule.cpp.o
  /home/catkin_ws/devel/include/gtsam/nonlinear/Values-inl.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/Values.h
  /home/catkin_ws/devel/include/gtsam/sfm/BinaryMeasurement.h
- /home/catkin_ws/devel/include/gtsam/sfm/SfmData.h
- /home/catkin_ws/devel/include/gtsam/sfm/SfmTrack.h
  /home/catkin_ws/devel/include/gtsam/slam/BetweenFactor.h
  /home/catkin_ws/devel/include/gtsam/slam/JacobianFactorQ.h
  /home/catkin_ws/devel/include/gtsam/slam/JacobianFactorSVD.h
@@ -35258,14 +34848,12 @@ CMakeFiles/kimera_vio.dir/src/visualizer/DisplayParams.cpp.o
  /home/catkin_ws/devel/include/gtsam/base/Lie.h
  /home/catkin_ws/devel/include/gtsam/base/Manifold.h
  /home/catkin_ws/devel/include/gtsam/base/Matrix.h
- /home/catkin_ws/devel/include/gtsam/base/MatrixSerialization.h
  /home/catkin_ws/devel/include/gtsam/base/OptionalJacobian.h
  /home/catkin_ws/devel/include/gtsam/base/SymmetricBlockMatrix.h
  /home/catkin_ws/devel/include/gtsam/base/Testable.h
  /home/catkin_ws/devel/include/gtsam/base/ThreadsafeException.h
  /home/catkin_ws/devel/include/gtsam/base/Value.h
  /home/catkin_ws/devel/include/gtsam/base/Vector.h
- /home/catkin_ws/devel/include/gtsam/base/VectorSerialization.h
  /home/catkin_ws/devel/include/gtsam/base/VectorSpace.h
  /home/catkin_ws/devel/include/gtsam/base/VerticalBlockMatrix.h
  /home/catkin_ws/devel/include/gtsam/base/concepts.h
@@ -35299,19 +34887,14 @@ CMakeFiles/kimera_vio.dir/src/visualizer/DisplayParams.cpp.o
  /home/catkin_ws/devel/include/gtsam/geometry/SO3.h
  /home/catkin_ws/devel/include/gtsam/geometry/SOn-inl.h
  /home/catkin_ws/devel/include/gtsam/geometry/SOn.h
- /home/catkin_ws/devel/include/gtsam/geometry/SphericalCamera.h
  /home/catkin_ws/devel/include/gtsam/geometry/StereoCamera.h
  /home/catkin_ws/devel/include/gtsam/geometry/StereoPoint2.h
  /home/catkin_ws/devel/include/gtsam/geometry/Unit3.h
  /home/catkin_ws/devel/include/gtsam/geometry/triangulation.h
  /home/catkin_ws/devel/include/gtsam/global_includes.h
- /home/catkin_ws/devel/include/gtsam/inference/BayesNet-inst.h
- /home/catkin_ws/devel/include/gtsam/inference/BayesNet.h
  /home/catkin_ws/devel/include/gtsam/inference/BayesTree.h
  /home/catkin_ws/devel/include/gtsam/inference/BayesTreeCliqueBase.h
- /home/catkin_ws/devel/include/gtsam/inference/Conditional-inst.h
  /home/catkin_ws/devel/include/gtsam/inference/Conditional.h
- /home/catkin_ws/devel/include/gtsam/inference/DotWriter.h
  /home/catkin_ws/devel/include/gtsam/inference/EliminateableFactorGraph.h
  /home/catkin_ws/devel/include/gtsam/inference/Factor.h
  /home/catkin_ws/devel/include/gtsam/inference/FactorGraph-inst.h
@@ -35353,7 +34936,6 @@ CMakeFiles/kimera_vio.dir/src/visualizer/DisplayParams.cpp.o
  /home/catkin_ws/devel/include/gtsam/navigation/PreintegrationParams.h
  /home/catkin_ws/devel/include/gtsam/navigation/TangentPreintegration.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/DoglegOptimizerImpl.h
- /home/catkin_ws/devel/include/gtsam/nonlinear/GraphvizFormatting.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/ISAM2.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/ISAM2Clique.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/ISAM2Params.h
@@ -35365,8 +34947,6 @@ CMakeFiles/kimera_vio.dir/src/visualizer/DisplayParams.cpp.o
  /home/catkin_ws/devel/include/gtsam/nonlinear/Values-inl.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/Values.h
  /home/catkin_ws/devel/include/gtsam/sfm/BinaryMeasurement.h
- /home/catkin_ws/devel/include/gtsam/sfm/SfmData.h
- /home/catkin_ws/devel/include/gtsam/sfm/SfmTrack.h
  /home/catkin_ws/devel/include/gtsam/slam/BetweenFactor.h
  /home/catkin_ws/devel/include/gtsam/slam/JacobianFactorQ.h
  /home/catkin_ws/devel/include/gtsam/slam/JacobianFactorSVD.h
@@ -35874,14 +35454,12 @@ CMakeFiles/kimera_vio.dir/src/visualizer/OpenCvDisplay.cpp.o
  /home/catkin_ws/devel/include/gtsam/base/Lie.h
  /home/catkin_ws/devel/include/gtsam/base/Manifold.h
  /home/catkin_ws/devel/include/gtsam/base/Matrix.h
- /home/catkin_ws/devel/include/gtsam/base/MatrixSerialization.h
  /home/catkin_ws/devel/include/gtsam/base/OptionalJacobian.h
  /home/catkin_ws/devel/include/gtsam/base/SymmetricBlockMatrix.h
  /home/catkin_ws/devel/include/gtsam/base/Testable.h
  /home/catkin_ws/devel/include/gtsam/base/ThreadsafeException.h
  /home/catkin_ws/devel/include/gtsam/base/Value.h
  /home/catkin_ws/devel/include/gtsam/base/Vector.h
- /home/catkin_ws/devel/include/gtsam/base/VectorSerialization.h
  /home/catkin_ws/devel/include/gtsam/base/VectorSpace.h
  /home/catkin_ws/devel/include/gtsam/base/VerticalBlockMatrix.h
  /home/catkin_ws/devel/include/gtsam/base/concepts.h
@@ -35915,19 +35493,14 @@ CMakeFiles/kimera_vio.dir/src/visualizer/OpenCvDisplay.cpp.o
  /home/catkin_ws/devel/include/gtsam/geometry/SO3.h
  /home/catkin_ws/devel/include/gtsam/geometry/SOn-inl.h
  /home/catkin_ws/devel/include/gtsam/geometry/SOn.h
- /home/catkin_ws/devel/include/gtsam/geometry/SphericalCamera.h
  /home/catkin_ws/devel/include/gtsam/geometry/StereoCamera.h
  /home/catkin_ws/devel/include/gtsam/geometry/StereoPoint2.h
  /home/catkin_ws/devel/include/gtsam/geometry/Unit3.h
  /home/catkin_ws/devel/include/gtsam/geometry/triangulation.h
  /home/catkin_ws/devel/include/gtsam/global_includes.h
- /home/catkin_ws/devel/include/gtsam/inference/BayesNet-inst.h
- /home/catkin_ws/devel/include/gtsam/inference/BayesNet.h
  /home/catkin_ws/devel/include/gtsam/inference/BayesTree.h
  /home/catkin_ws/devel/include/gtsam/inference/BayesTreeCliqueBase.h
- /home/catkin_ws/devel/include/gtsam/inference/Conditional-inst.h
  /home/catkin_ws/devel/include/gtsam/inference/Conditional.h
- /home/catkin_ws/devel/include/gtsam/inference/DotWriter.h
  /home/catkin_ws/devel/include/gtsam/inference/EliminateableFactorGraph.h
  /home/catkin_ws/devel/include/gtsam/inference/Factor.h
  /home/catkin_ws/devel/include/gtsam/inference/FactorGraph-inst.h
@@ -35969,7 +35542,6 @@ CMakeFiles/kimera_vio.dir/src/visualizer/OpenCvDisplay.cpp.o
  /home/catkin_ws/devel/include/gtsam/navigation/PreintegrationParams.h
  /home/catkin_ws/devel/include/gtsam/navigation/TangentPreintegration.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/DoglegOptimizerImpl.h
- /home/catkin_ws/devel/include/gtsam/nonlinear/GraphvizFormatting.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/ISAM2.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/ISAM2Clique.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/ISAM2Params.h
@@ -35981,8 +35553,6 @@ CMakeFiles/kimera_vio.dir/src/visualizer/OpenCvDisplay.cpp.o
  /home/catkin_ws/devel/include/gtsam/nonlinear/Values-inl.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/Values.h
  /home/catkin_ws/devel/include/gtsam/sfm/BinaryMeasurement.h
- /home/catkin_ws/devel/include/gtsam/sfm/SfmData.h
- /home/catkin_ws/devel/include/gtsam/sfm/SfmTrack.h
  /home/catkin_ws/devel/include/gtsam/slam/BetweenFactor.h
  /home/catkin_ws/devel/include/gtsam/slam/JacobianFactorQ.h
  /home/catkin_ws/devel/include/gtsam/slam/JacobianFactorSVD.h
@@ -36494,14 +36064,12 @@ CMakeFiles/kimera_vio.dir/src/visualizer/OpenCvDisplayParams.cpp.o
  /home/catkin_ws/devel/include/gtsam/base/Lie.h
  /home/catkin_ws/devel/include/gtsam/base/Manifold.h
  /home/catkin_ws/devel/include/gtsam/base/Matrix.h
- /home/catkin_ws/devel/include/gtsam/base/MatrixSerialization.h
  /home/catkin_ws/devel/include/gtsam/base/OptionalJacobian.h
  /home/catkin_ws/devel/include/gtsam/base/SymmetricBlockMatrix.h
  /home/catkin_ws/devel/include/gtsam/base/Testable.h
  /home/catkin_ws/devel/include/gtsam/base/ThreadsafeException.h
  /home/catkin_ws/devel/include/gtsam/base/Value.h
  /home/catkin_ws/devel/include/gtsam/base/Vector.h
- /home/catkin_ws/devel/include/gtsam/base/VectorSerialization.h
  /home/catkin_ws/devel/include/gtsam/base/VectorSpace.h
  /home/catkin_ws/devel/include/gtsam/base/VerticalBlockMatrix.h
  /home/catkin_ws/devel/include/gtsam/base/concepts.h
@@ -36535,19 +36103,14 @@ CMakeFiles/kimera_vio.dir/src/visualizer/OpenCvDisplayParams.cpp.o
  /home/catkin_ws/devel/include/gtsam/geometry/SO3.h
  /home/catkin_ws/devel/include/gtsam/geometry/SOn-inl.h
  /home/catkin_ws/devel/include/gtsam/geometry/SOn.h
- /home/catkin_ws/devel/include/gtsam/geometry/SphericalCamera.h
  /home/catkin_ws/devel/include/gtsam/geometry/StereoCamera.h
  /home/catkin_ws/devel/include/gtsam/geometry/StereoPoint2.h
  /home/catkin_ws/devel/include/gtsam/geometry/Unit3.h
  /home/catkin_ws/devel/include/gtsam/geometry/triangulation.h
  /home/catkin_ws/devel/include/gtsam/global_includes.h
- /home/catkin_ws/devel/include/gtsam/inference/BayesNet-inst.h
- /home/catkin_ws/devel/include/gtsam/inference/BayesNet.h
  /home/catkin_ws/devel/include/gtsam/inference/BayesTree.h
  /home/catkin_ws/devel/include/gtsam/inference/BayesTreeCliqueBase.h
- /home/catkin_ws/devel/include/gtsam/inference/Conditional-inst.h
  /home/catkin_ws/devel/include/gtsam/inference/Conditional.h
- /home/catkin_ws/devel/include/gtsam/inference/DotWriter.h
  /home/catkin_ws/devel/include/gtsam/inference/EliminateableFactorGraph.h
  /home/catkin_ws/devel/include/gtsam/inference/Factor.h
  /home/catkin_ws/devel/include/gtsam/inference/FactorGraph-inst.h
@@ -36589,7 +36152,6 @@ CMakeFiles/kimera_vio.dir/src/visualizer/OpenCvDisplayParams.cpp.o
  /home/catkin_ws/devel/include/gtsam/navigation/PreintegrationParams.h
  /home/catkin_ws/devel/include/gtsam/navigation/TangentPreintegration.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/DoglegOptimizerImpl.h
- /home/catkin_ws/devel/include/gtsam/nonlinear/GraphvizFormatting.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/ISAM2.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/ISAM2Clique.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/ISAM2Params.h
@@ -36601,8 +36163,6 @@ CMakeFiles/kimera_vio.dir/src/visualizer/OpenCvDisplayParams.cpp.o
  /home/catkin_ws/devel/include/gtsam/nonlinear/Values-inl.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/Values.h
  /home/catkin_ws/devel/include/gtsam/sfm/BinaryMeasurement.h
- /home/catkin_ws/devel/include/gtsam/sfm/SfmData.h
- /home/catkin_ws/devel/include/gtsam/sfm/SfmTrack.h
  /home/catkin_ws/devel/include/gtsam/slam/BetweenFactor.h
  /home/catkin_ws/devel/include/gtsam/slam/JacobianFactorQ.h
  /home/catkin_ws/devel/include/gtsam/slam/JacobianFactorSVD.h
@@ -37114,14 +36674,12 @@ CMakeFiles/kimera_vio.dir/src/visualizer/OpenCvVisualizer3D.cpp.o
  /home/catkin_ws/devel/include/gtsam/base/Lie.h
  /home/catkin_ws/devel/include/gtsam/base/Manifold.h
  /home/catkin_ws/devel/include/gtsam/base/Matrix.h
- /home/catkin_ws/devel/include/gtsam/base/MatrixSerialization.h
  /home/catkin_ws/devel/include/gtsam/base/OptionalJacobian.h
  /home/catkin_ws/devel/include/gtsam/base/SymmetricBlockMatrix.h
  /home/catkin_ws/devel/include/gtsam/base/Testable.h
  /home/catkin_ws/devel/include/gtsam/base/ThreadsafeException.h
  /home/catkin_ws/devel/include/gtsam/base/Value.h
  /home/catkin_ws/devel/include/gtsam/base/Vector.h
- /home/catkin_ws/devel/include/gtsam/base/VectorSerialization.h
  /home/catkin_ws/devel/include/gtsam/base/VectorSpace.h
  /home/catkin_ws/devel/include/gtsam/base/VerticalBlockMatrix.h
  /home/catkin_ws/devel/include/gtsam/base/concepts.h
@@ -37156,19 +36714,14 @@ CMakeFiles/kimera_vio.dir/src/visualizer/OpenCvVisualizer3D.cpp.o
  /home/catkin_ws/devel/include/gtsam/geometry/SO3.h
  /home/catkin_ws/devel/include/gtsam/geometry/SOn-inl.h
  /home/catkin_ws/devel/include/gtsam/geometry/SOn.h
- /home/catkin_ws/devel/include/gtsam/geometry/SphericalCamera.h
  /home/catkin_ws/devel/include/gtsam/geometry/StereoCamera.h
  /home/catkin_ws/devel/include/gtsam/geometry/StereoPoint2.h
  /home/catkin_ws/devel/include/gtsam/geometry/Unit3.h
  /home/catkin_ws/devel/include/gtsam/geometry/triangulation.h
  /home/catkin_ws/devel/include/gtsam/global_includes.h
- /home/catkin_ws/devel/include/gtsam/inference/BayesNet-inst.h
- /home/catkin_ws/devel/include/gtsam/inference/BayesNet.h
  /home/catkin_ws/devel/include/gtsam/inference/BayesTree.h
  /home/catkin_ws/devel/include/gtsam/inference/BayesTreeCliqueBase.h
- /home/catkin_ws/devel/include/gtsam/inference/Conditional-inst.h
  /home/catkin_ws/devel/include/gtsam/inference/Conditional.h
- /home/catkin_ws/devel/include/gtsam/inference/DotWriter.h
  /home/catkin_ws/devel/include/gtsam/inference/EliminateableFactorGraph.h
  /home/catkin_ws/devel/include/gtsam/inference/Factor.h
  /home/catkin_ws/devel/include/gtsam/inference/FactorGraph-inst.h
@@ -37210,7 +36763,6 @@ CMakeFiles/kimera_vio.dir/src/visualizer/OpenCvVisualizer3D.cpp.o
  /home/catkin_ws/devel/include/gtsam/navigation/PreintegrationParams.h
  /home/catkin_ws/devel/include/gtsam/navigation/TangentPreintegration.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/DoglegOptimizerImpl.h
- /home/catkin_ws/devel/include/gtsam/nonlinear/GraphvizFormatting.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/ISAM2.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/ISAM2Clique.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/ISAM2Params.h
@@ -37223,8 +36775,6 @@ CMakeFiles/kimera_vio.dir/src/visualizer/OpenCvVisualizer3D.cpp.o
  /home/catkin_ws/devel/include/gtsam/nonlinear/Values-inl.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/Values.h
  /home/catkin_ws/devel/include/gtsam/sfm/BinaryMeasurement.h
- /home/catkin_ws/devel/include/gtsam/sfm/SfmData.h
- /home/catkin_ws/devel/include/gtsam/sfm/SfmTrack.h
  /home/catkin_ws/devel/include/gtsam/slam/BetweenFactor.h
  /home/catkin_ws/devel/include/gtsam/slam/JacobianFactorQ.h
  /home/catkin_ws/devel/include/gtsam/slam/JacobianFactorSVD.h
@@ -37743,14 +37293,12 @@ CMakeFiles/kimera_vio.dir/src/visualizer/Visualizer3D.cpp.o
  /home/catkin_ws/devel/include/gtsam/base/Lie.h
  /home/catkin_ws/devel/include/gtsam/base/Manifold.h
  /home/catkin_ws/devel/include/gtsam/base/Matrix.h
- /home/catkin_ws/devel/include/gtsam/base/MatrixSerialization.h
  /home/catkin_ws/devel/include/gtsam/base/OptionalJacobian.h
  /home/catkin_ws/devel/include/gtsam/base/SymmetricBlockMatrix.h
  /home/catkin_ws/devel/include/gtsam/base/Testable.h
  /home/catkin_ws/devel/include/gtsam/base/ThreadsafeException.h
  /home/catkin_ws/devel/include/gtsam/base/Value.h
  /home/catkin_ws/devel/include/gtsam/base/Vector.h
- /home/catkin_ws/devel/include/gtsam/base/VectorSerialization.h
  /home/catkin_ws/devel/include/gtsam/base/VectorSpace.h
  /home/catkin_ws/devel/include/gtsam/base/VerticalBlockMatrix.h
  /home/catkin_ws/devel/include/gtsam/base/concepts.h
@@ -37784,19 +37332,14 @@ CMakeFiles/kimera_vio.dir/src/visualizer/Visualizer3D.cpp.o
  /home/catkin_ws/devel/include/gtsam/geometry/SO3.h
  /home/catkin_ws/devel/include/gtsam/geometry/SOn-inl.h
  /home/catkin_ws/devel/include/gtsam/geometry/SOn.h
- /home/catkin_ws/devel/include/gtsam/geometry/SphericalCamera.h
  /home/catkin_ws/devel/include/gtsam/geometry/StereoCamera.h
  /home/catkin_ws/devel/include/gtsam/geometry/StereoPoint2.h
  /home/catkin_ws/devel/include/gtsam/geometry/Unit3.h
  /home/catkin_ws/devel/include/gtsam/geometry/triangulation.h
  /home/catkin_ws/devel/include/gtsam/global_includes.h
- /home/catkin_ws/devel/include/gtsam/inference/BayesNet-inst.h
- /home/catkin_ws/devel/include/gtsam/inference/BayesNet.h
  /home/catkin_ws/devel/include/gtsam/inference/BayesTree.h
  /home/catkin_ws/devel/include/gtsam/inference/BayesTreeCliqueBase.h
- /home/catkin_ws/devel/include/gtsam/inference/Conditional-inst.h
  /home/catkin_ws/devel/include/gtsam/inference/Conditional.h
- /home/catkin_ws/devel/include/gtsam/inference/DotWriter.h
  /home/catkin_ws/devel/include/gtsam/inference/EliminateableFactorGraph.h
  /home/catkin_ws/devel/include/gtsam/inference/Factor.h
  /home/catkin_ws/devel/include/gtsam/inference/FactorGraph-inst.h
@@ -37838,7 +37381,6 @@ CMakeFiles/kimera_vio.dir/src/visualizer/Visualizer3D.cpp.o
  /home/catkin_ws/devel/include/gtsam/navigation/PreintegrationParams.h
  /home/catkin_ws/devel/include/gtsam/navigation/TangentPreintegration.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/DoglegOptimizerImpl.h
- /home/catkin_ws/devel/include/gtsam/nonlinear/GraphvizFormatting.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/ISAM2.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/ISAM2Clique.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/ISAM2Params.h
@@ -37850,8 +37392,6 @@ CMakeFiles/kimera_vio.dir/src/visualizer/Visualizer3D.cpp.o
  /home/catkin_ws/devel/include/gtsam/nonlinear/Values-inl.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/Values.h
  /home/catkin_ws/devel/include/gtsam/sfm/BinaryMeasurement.h
- /home/catkin_ws/devel/include/gtsam/sfm/SfmData.h
- /home/catkin_ws/devel/include/gtsam/sfm/SfmTrack.h
  /home/catkin_ws/devel/include/gtsam/slam/BetweenFactor.h
  /home/catkin_ws/devel/include/gtsam/slam/JacobianFactorQ.h
  /home/catkin_ws/devel/include/gtsam/slam/JacobianFactorSVD.h
@@ -38359,14 +37899,12 @@ CMakeFiles/kimera_vio.dir/src/visualizer/Visualizer3DFactory.cpp.o
  /home/catkin_ws/devel/include/gtsam/base/Lie.h
  /home/catkin_ws/devel/include/gtsam/base/Manifold.h
  /home/catkin_ws/devel/include/gtsam/base/Matrix.h
- /home/catkin_ws/devel/include/gtsam/base/MatrixSerialization.h
  /home/catkin_ws/devel/include/gtsam/base/OptionalJacobian.h
  /home/catkin_ws/devel/include/gtsam/base/SymmetricBlockMatrix.h
  /home/catkin_ws/devel/include/gtsam/base/Testable.h
  /home/catkin_ws/devel/include/gtsam/base/ThreadsafeException.h
  /home/catkin_ws/devel/include/gtsam/base/Value.h
  /home/catkin_ws/devel/include/gtsam/base/Vector.h
- /home/catkin_ws/devel/include/gtsam/base/VectorSerialization.h
  /home/catkin_ws/devel/include/gtsam/base/VectorSpace.h
  /home/catkin_ws/devel/include/gtsam/base/VerticalBlockMatrix.h
  /home/catkin_ws/devel/include/gtsam/base/concepts.h
@@ -38400,19 +37938,14 @@ CMakeFiles/kimera_vio.dir/src/visualizer/Visualizer3DFactory.cpp.o
  /home/catkin_ws/devel/include/gtsam/geometry/SO3.h
  /home/catkin_ws/devel/include/gtsam/geometry/SOn-inl.h
  /home/catkin_ws/devel/include/gtsam/geometry/SOn.h
- /home/catkin_ws/devel/include/gtsam/geometry/SphericalCamera.h
  /home/catkin_ws/devel/include/gtsam/geometry/StereoCamera.h
  /home/catkin_ws/devel/include/gtsam/geometry/StereoPoint2.h
  /home/catkin_ws/devel/include/gtsam/geometry/Unit3.h
  /home/catkin_ws/devel/include/gtsam/geometry/triangulation.h
  /home/catkin_ws/devel/include/gtsam/global_includes.h
- /home/catkin_ws/devel/include/gtsam/inference/BayesNet-inst.h
- /home/catkin_ws/devel/include/gtsam/inference/BayesNet.h
  /home/catkin_ws/devel/include/gtsam/inference/BayesTree.h
  /home/catkin_ws/devel/include/gtsam/inference/BayesTreeCliqueBase.h
- /home/catkin_ws/devel/include/gtsam/inference/Conditional-inst.h
  /home/catkin_ws/devel/include/gtsam/inference/Conditional.h
- /home/catkin_ws/devel/include/gtsam/inference/DotWriter.h
  /home/catkin_ws/devel/include/gtsam/inference/EliminateableFactorGraph.h
  /home/catkin_ws/devel/include/gtsam/inference/Factor.h
  /home/catkin_ws/devel/include/gtsam/inference/FactorGraph-inst.h
@@ -38454,7 +37987,6 @@ CMakeFiles/kimera_vio.dir/src/visualizer/Visualizer3DFactory.cpp.o
  /home/catkin_ws/devel/include/gtsam/navigation/PreintegrationParams.h
  /home/catkin_ws/devel/include/gtsam/navigation/TangentPreintegration.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/DoglegOptimizerImpl.h
- /home/catkin_ws/devel/include/gtsam/nonlinear/GraphvizFormatting.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/ISAM2.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/ISAM2Clique.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/ISAM2Params.h
@@ -38467,8 +37999,6 @@ CMakeFiles/kimera_vio.dir/src/visualizer/Visualizer3DFactory.cpp.o
  /home/catkin_ws/devel/include/gtsam/nonlinear/Values-inl.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/Values.h
  /home/catkin_ws/devel/include/gtsam/sfm/BinaryMeasurement.h
- /home/catkin_ws/devel/include/gtsam/sfm/SfmData.h
- /home/catkin_ws/devel/include/gtsam/sfm/SfmTrack.h
  /home/catkin_ws/devel/include/gtsam/slam/BetweenFactor.h
  /home/catkin_ws/devel/include/gtsam/slam/JacobianFactorQ.h
  /home/catkin_ws/devel/include/gtsam/slam/JacobianFactorSVD.h
@@ -38979,14 +38509,12 @@ CMakeFiles/kimera_vio.dir/src/visualizer/Visualizer3DModule.cpp.o
  /home/catkin_ws/devel/include/gtsam/base/Lie.h
  /home/catkin_ws/devel/include/gtsam/base/Manifold.h
  /home/catkin_ws/devel/include/gtsam/base/Matrix.h
- /home/catkin_ws/devel/include/gtsam/base/MatrixSerialization.h
  /home/catkin_ws/devel/include/gtsam/base/OptionalJacobian.h
  /home/catkin_ws/devel/include/gtsam/base/SymmetricBlockMatrix.h
  /home/catkin_ws/devel/include/gtsam/base/Testable.h
  /home/catkin_ws/devel/include/gtsam/base/ThreadsafeException.h
  /home/catkin_ws/devel/include/gtsam/base/Value.h
  /home/catkin_ws/devel/include/gtsam/base/Vector.h
- /home/catkin_ws/devel/include/gtsam/base/VectorSerialization.h
  /home/catkin_ws/devel/include/gtsam/base/VectorSpace.h
  /home/catkin_ws/devel/include/gtsam/base/VerticalBlockMatrix.h
  /home/catkin_ws/devel/include/gtsam/base/concepts.h
@@ -39020,19 +38548,14 @@ CMakeFiles/kimera_vio.dir/src/visualizer/Visualizer3DModule.cpp.o
  /home/catkin_ws/devel/include/gtsam/geometry/SO3.h
  /home/catkin_ws/devel/include/gtsam/geometry/SOn-inl.h
  /home/catkin_ws/devel/include/gtsam/geometry/SOn.h
- /home/catkin_ws/devel/include/gtsam/geometry/SphericalCamera.h
  /home/catkin_ws/devel/include/gtsam/geometry/StereoCamera.h
  /home/catkin_ws/devel/include/gtsam/geometry/StereoPoint2.h
  /home/catkin_ws/devel/include/gtsam/geometry/Unit3.h
  /home/catkin_ws/devel/include/gtsam/geometry/triangulation.h
  /home/catkin_ws/devel/include/gtsam/global_includes.h
- /home/catkin_ws/devel/include/gtsam/inference/BayesNet-inst.h
- /home/catkin_ws/devel/include/gtsam/inference/BayesNet.h
  /home/catkin_ws/devel/include/gtsam/inference/BayesTree.h
  /home/catkin_ws/devel/include/gtsam/inference/BayesTreeCliqueBase.h
- /home/catkin_ws/devel/include/gtsam/inference/Conditional-inst.h
  /home/catkin_ws/devel/include/gtsam/inference/Conditional.h
- /home/catkin_ws/devel/include/gtsam/inference/DotWriter.h
  /home/catkin_ws/devel/include/gtsam/inference/EliminateableFactorGraph.h
  /home/catkin_ws/devel/include/gtsam/inference/Factor.h
  /home/catkin_ws/devel/include/gtsam/inference/FactorGraph-inst.h
@@ -39074,7 +38597,6 @@ CMakeFiles/kimera_vio.dir/src/visualizer/Visualizer3DModule.cpp.o
  /home/catkin_ws/devel/include/gtsam/navigation/PreintegrationParams.h
  /home/catkin_ws/devel/include/gtsam/navigation/TangentPreintegration.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/DoglegOptimizerImpl.h
- /home/catkin_ws/devel/include/gtsam/nonlinear/GraphvizFormatting.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/ISAM2.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/ISAM2Clique.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/ISAM2Params.h
@@ -39086,8 +38608,6 @@ CMakeFiles/kimera_vio.dir/src/visualizer/Visualizer3DModule.cpp.o
  /home/catkin_ws/devel/include/gtsam/nonlinear/Values-inl.h
  /home/catkin_ws/devel/include/gtsam/nonlinear/Values.h
  /home/catkin_ws/devel/include/gtsam/sfm/BinaryMeasurement.h
- /home/catkin_ws/devel/include/gtsam/sfm/SfmData.h
- /home/catkin_ws/devel/include/gtsam/sfm/SfmTrack.h
  /home/catkin_ws/devel/include/gtsam/slam/BetweenFactor.h
  /home/catkin_ws/devel/include/gtsam/slam/JacobianFactorQ.h
  /home/catkin_ws/devel/include/gtsam/slam/JacobianFactorSVD.h

@@ -12,7 +12,6 @@ gtsam_unstable/examples/CMakeFiles/ConcurrentFilteringAndSmoothingExample.dir/Co
 gtsam_unstable/examples/CMakeFiles/ConcurrentFilteringAndSmoothingExample.dir/ConcurrentFilteringAndSmoothingExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Lie.h
 gtsam_unstable/examples/CMakeFiles/ConcurrentFilteringAndSmoothingExample.dir/ConcurrentFilteringAndSmoothingExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Manifold.h
 gtsam_unstable/examples/CMakeFiles/ConcurrentFilteringAndSmoothingExample.dir/ConcurrentFilteringAndSmoothingExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Matrix.h
-gtsam_unstable/examples/CMakeFiles/ConcurrentFilteringAndSmoothingExample.dir/ConcurrentFilteringAndSmoothingExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/MatrixSerialization.h
 gtsam_unstable/examples/CMakeFiles/ConcurrentFilteringAndSmoothingExample.dir/ConcurrentFilteringAndSmoothingExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/OptionalJacobian.h
 gtsam_unstable/examples/CMakeFiles/ConcurrentFilteringAndSmoothingExample.dir/ConcurrentFilteringAndSmoothingExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/SymmetricBlockMatrix.h
 gtsam_unstable/examples/CMakeFiles/ConcurrentFilteringAndSmoothingExample.dir/ConcurrentFilteringAndSmoothingExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Testable.h
@@ -28,7 +27,6 @@ gtsam_unstable/examples/CMakeFiles/ConcurrentFilteringAndSmoothingExample.dir/Co
 gtsam_unstable/examples/CMakeFiles/ConcurrentFilteringAndSmoothingExample.dir/ConcurrentFilteringAndSmoothingExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/geometry/Pose2.h
 gtsam_unstable/examples/CMakeFiles/ConcurrentFilteringAndSmoothingExample.dir/ConcurrentFilteringAndSmoothingExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/geometry/Rot2.h
 gtsam_unstable/examples/CMakeFiles/ConcurrentFilteringAndSmoothingExample.dir/ConcurrentFilteringAndSmoothingExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/global_includes.h
-gtsam_unstable/examples/CMakeFiles/ConcurrentFilteringAndSmoothingExample.dir/ConcurrentFilteringAndSmoothingExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/DotWriter.h
 gtsam_unstable/examples/CMakeFiles/ConcurrentFilteringAndSmoothingExample.dir/ConcurrentFilteringAndSmoothingExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/EliminateableFactorGraph.h
 gtsam_unstable/examples/CMakeFiles/ConcurrentFilteringAndSmoothingExample.dir/ConcurrentFilteringAndSmoothingExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/Factor.h
 gtsam_unstable/examples/CMakeFiles/ConcurrentFilteringAndSmoothingExample.dir/ConcurrentFilteringAndSmoothingExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/FactorGraph-inst.h
@@ -56,7 +54,6 @@ gtsam_unstable/examples/CMakeFiles/ConcurrentFilteringAndSmoothingExample.dir/Co
 gtsam_unstable/examples/CMakeFiles/ConcurrentFilteringAndSmoothingExample.dir/ConcurrentFilteringAndSmoothingExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/linear/SubgraphSolver.h
 gtsam_unstable/examples/CMakeFiles/ConcurrentFilteringAndSmoothingExample.dir/ConcurrentFilteringAndSmoothingExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/linear/VectorValues.h
 gtsam_unstable/examples/CMakeFiles/ConcurrentFilteringAndSmoothingExample.dir/ConcurrentFilteringAndSmoothingExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/linear/linearExceptions.h
-gtsam_unstable/examples/CMakeFiles/ConcurrentFilteringAndSmoothingExample.dir/ConcurrentFilteringAndSmoothingExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/GraphvizFormatting.h
 gtsam_unstable/examples/CMakeFiles/ConcurrentFilteringAndSmoothingExample.dir/ConcurrentFilteringAndSmoothingExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/LevenbergMarquardtOptimizer.h
 gtsam_unstable/examples/CMakeFiles/ConcurrentFilteringAndSmoothingExample.dir/ConcurrentFilteringAndSmoothingExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/LevenbergMarquardtParams.h
 gtsam_unstable/examples/CMakeFiles/ConcurrentFilteringAndSmoothingExample.dir/ConcurrentFilteringAndSmoothingExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/NonlinearFactor.h

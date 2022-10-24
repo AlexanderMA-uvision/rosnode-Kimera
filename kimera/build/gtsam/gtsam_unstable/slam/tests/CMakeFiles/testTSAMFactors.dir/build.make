@@ -80,8 +80,8 @@ testTSAMFactors_EXTERNAL_OBJECTS =
 gtsam_unstable/slam/tests/testTSAMFactors: gtsam_unstable/slam/tests/CMakeFiles/testTSAMFactors.dir/testTSAMFactors.cpp.o
 gtsam_unstable/slam/tests/testTSAMFactors: gtsam_unstable/slam/tests/CMakeFiles/testTSAMFactors.dir/build.make
 gtsam_unstable/slam/tests/testTSAMFactors: CppUnitLite/libCppUnitLite.a
-gtsam_unstable/slam/tests/testTSAMFactors: gtsam_unstable/libgtsam_unstable.so.4.2.0
-gtsam_unstable/slam/tests/testTSAMFactors: gtsam/libgtsam.so.4.2.0
+gtsam_unstable/slam/tests/testTSAMFactors: gtsam_unstable/libgtsam_unstable.so.4.1.0
+gtsam_unstable/slam/tests/testTSAMFactors: gtsam/libgtsam.so.4.1.0
 gtsam_unstable/slam/tests/testTSAMFactors: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 gtsam_unstable/slam/tests/testTSAMFactors: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 gtsam_unstable/slam/tests/testTSAMFactors: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

@@ -80,7 +80,7 @@ testGeneralSFMFactorB_EXTERNAL_OBJECTS =
 tests/testGeneralSFMFactorB: tests/CMakeFiles/testGeneralSFMFactorB.dir/testGeneralSFMFactorB.cpp.o
 tests/testGeneralSFMFactorB: tests/CMakeFiles/testGeneralSFMFactorB.dir/build.make
 tests/testGeneralSFMFactorB: CppUnitLite/libCppUnitLite.a
-tests/testGeneralSFMFactorB: gtsam/libgtsam.so.4.2.0
+tests/testGeneralSFMFactorB: gtsam/libgtsam.so.4.1.0
 tests/testGeneralSFMFactorB: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 tests/testGeneralSFMFactorB: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 tests/testGeneralSFMFactorB: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

@@ -20,12 +20,11 @@
 
 #include <gtsam/geometry/CameraSet.h>
 #include <gtsam/slam/SmartProjectionFactor.h>
-#include <gtsam_unstable/dllexport.h>
 
 namespace gtsam {
 /**
  *
- * @ingroup SLAM
+ * @addtogroup SLAM
  *
  * If you are using the factor, please cite:
  * L. Carlone, Z. Kira, C. Beall, V. Indelman, F. Dellaert,
@@ -39,19 +38,18 @@ namespace gtsam {
  * shutter model of the camera with given readout time. The factor requires that
  * values contain (for each pixel observation) two consecutive camera poses from
  * which the pixel observation pose can be interpolated.
- * @ingroup SLAM
+ * @addtogroup SLAM
  */
 template <class CAMERA>
-class GTSAM_UNSTABLE_EXPORT SmartProjectionPoseFactorRollingShutter
+class SmartProjectionPoseFactorRollingShutter
     : public SmartProjectionFactor<CAMERA> {
- private:
-  typedef SmartProjectionFactor<CAMERA> Base;
-  typedef SmartProjectionPoseFactorRollingShutter<CAMERA> This;
+ public:
   typedef typename CAMERA::CalibrationType CALIBRATION;
-  typedef typename CAMERA::Measurement MEASUREMENT;
-  typedef typename CAMERA::MeasurementVector MEASUREMENTS;
 
  protected:
+  /// shared pointer to calibration object (one for each observation)
+  std::vector<boost::shared_ptr<CALIBRATION>> K_all_;
+
   /// The keys of the pose of the body (with respect to an external world
   /// frame): two consecutive poses for each observation
   std::vector<std::pair<Key, Key>> world_P_body_key_pairs_;
@@ -60,16 +58,20 @@ class GTSAM_UNSTABLE_EXPORT SmartProjectionPoseFactorRollingShutter
   /// pair of consecutive poses
   std::vector<double> alphas_;
 
-  /// one or more cameras taking observations (fixed poses wrt body + fixed
-  /// intrinsics)
-  boost::shared_ptr<typename Base::Cameras> cameraRig_;
-
-  /// vector of camera Ids (one for each observation, in the same order),
-  /// identifying which camera took the measurement
-  FastVector<size_t> cameraIds_;
+  /// Pose of the camera in the body frame
+  std::vector<Pose3> body_P_sensors_;
 
  public:
   EIGEN_MAKE_ALIGNED_OPERATOR_NEW
+
+  /// shorthand for base class type
+  typedef SmartProjectionFactor<PinholePose<CALIBRATION>> Base;
+
+  /// shorthand for this class
+  typedef SmartProjectionPoseFactorRollingShutter This;
+
+  /// shorthand for a smart pointer to a factor
+  typedef boost::shared_ptr<This> shared_ptr;
 
   static const int DimBlock =
       12;  ///< size of the variable stacking 2 poses from which the observation
@@ -81,43 +83,22 @@ class GTSAM_UNSTABLE_EXPORT SmartProjectionPoseFactorRollingShutter
   typedef std::vector<MatrixZD, Eigen::aligned_allocator<MatrixZD>>
       FBlocks;  // vector of F blocks
 
-  typedef CAMERA Camera;
-  typedef CameraSet<CAMERA> Cameras;
-
-  /// shorthand for a smart pointer to a factor
-  typedef boost::shared_ptr<This> shared_ptr;
-
-  /// Default constructor, only for serialization
-  SmartProjectionPoseFactorRollingShutter() {}
-
   /**
    * Constructor
    * @param Isotropic measurement noise
-   * @param cameraRig set of cameras (fixed poses wrt body and intrinsics)
-   * taking the measurements
    * @param params internal parameters of the smart factors
    */
   SmartProjectionPoseFactorRollingShutter(
       const SharedNoiseModel& sharedNoiseModel,
-      const boost::shared_ptr<Cameras>& cameraRig,
       const SmartProjectionParams& params = SmartProjectionParams())
-      : Base(sharedNoiseModel, params), cameraRig_(cameraRig) {
-    // throw exception if configuration is not supported by this factor
-    if (Base::params_.degeneracyMode != gtsam::ZERO_ON_DEGENERACY)
-      throw std::runtime_error(
-          "SmartProjectionRigFactor: "
-          "degeneracyMode must be set to ZERO_ON_DEGENERACY");
-    if (Base::params_.linearizationMode != gtsam::HESSIAN)
-      throw std::runtime_error(
-          "SmartProjectionRigFactor: "
-          "linearizationMode must be set to HESSIAN");
-  }
+      : Base(sharedNoiseModel, params) {}
 
   /** Virtual destructor */
   ~SmartProjectionPoseFactorRollingShutter() override = default;
 
   /**
-   * add a new measurement, with 2 pose keys, interpolation factor, and cameraId
+   * add a new measurement, with 2 pose keys, interpolation factor, camera
+   * (intrinsic and extrinsic) calibration, and observed pixel.
    * @param measured 2-dimensional location of the projection of a single
    *  landmark in a single view (the measurement), interpolated from the 2 poses
    * @param world_P_body_key1 key corresponding to the first body poses (time <=
@@ -126,11 +107,13 @@ class GTSAM_UNSTABLE_EXPORT SmartProjectionPoseFactorRollingShutter
    *  >= time pixel is acquired)
    * @param alpha interpolation factor in [0,1], such that if alpha = 0 the
    *  interpolated pose is the same as world_P_body_key1
-   * @param cameraId ID of the camera taking the measurement (default 0)
+   * @param K (fixed) camera intrinsic calibration
+   * @param body_P_sensor (fixed) camera extrinsic calibration
    */
-  void add(const MEASUREMENT& measured, const Key& world_P_body_key1,
+  void add(const Point2& measured, const Key& world_P_body_key1,
            const Key& world_P_body_key2, const double& alpha,
-           const size_t& cameraId = 0) {
+           const boost::shared_ptr<CALIBRATION>& K,
+           const Pose3& body_P_sensor = Pose3::identity()) {
     // store measurements in base class
     this->measured_.push_back(measured);
 
@@ -150,8 +133,11 @@ class GTSAM_UNSTABLE_EXPORT SmartProjectionPoseFactorRollingShutter
     // store interpolation factor
     alphas_.push_back(alpha);
 
-    // store id of the camera taking the measurement
-    cameraIds_.push_back(cameraId);
+    // store fixed intrinsic calibration
+    K_all_.push_back(K);
+
+    // store fixed extrinsics of the camera
+    body_P_sensors_.push_back(body_P_sensor);
   }
 
   /**
@@ -164,34 +150,54 @@ class GTSAM_UNSTABLE_EXPORT SmartProjectionPoseFactorRollingShutter
    *  for the i0-th measurement can be interpolated
    * @param alphas vector of interpolation params (in [0,1]), one for each
    * measurement (in the same order)
-   * @param cameraIds IDs of the cameras taking each measurement (same order as
-   * the measurements)
+   * @param Ks vector of (fixed) intrinsic calibration objects
+   * @param body_P_sensors vector of (fixed) extrinsic calibration objects
    */
-  void add(const MEASUREMENTS& measurements,
+  void add(const Point2Vector& measurements,
            const std::vector<std::pair<Key, Key>>& world_P_body_key_pairs,
            const std::vector<double>& alphas,
-           const FastVector<size_t>& cameraIds = FastVector<size_t>()) {
-    if (world_P_body_key_pairs.size() != measurements.size() ||
-        world_P_body_key_pairs.size() != alphas.size() ||
-        (world_P_body_key_pairs.size() != cameraIds.size() &&
-         cameraIds.size() != 0)) {  // cameraIds.size()=0 is default
-      throw std::runtime_error(
-          "SmartProjectionPoseFactorRollingShutter: "
-          "trying to add inconsistent inputs");
-    }
-    if (cameraIds.size() == 0 && cameraRig_->size() > 1) {
-      throw std::runtime_error(
-          "SmartProjectionPoseFactorRollingShutter: "
-          "camera rig includes multiple camera "
-          "but add did not input cameraIds");
-    }
+           const std::vector<boost::shared_ptr<CALIBRATION>>& Ks,
+           const std::vector<Pose3>& body_P_sensors) {
+    assert(world_P_body_key_pairs.size() == measurements.size());
+    assert(world_P_body_key_pairs.size() == alphas.size());
+    assert(world_P_body_key_pairs.size() == Ks.size());
     for (size_t i = 0; i < measurements.size(); i++) {
       add(measurements[i], world_P_body_key_pairs[i].first,
-          world_P_body_key_pairs[i].second, alphas[i],
-          cameraIds.size() == 0 ? 0
-                                : cameraIds[i]);  // use 0 as default if
-                                                  // cameraIds was not specified
+          world_P_body_key_pairs[i].second, alphas[i], Ks[i],
+          body_P_sensors[i]);
     }
+  }
+
+  /**
+   * Variant of the previous "add" function in which we include multiple
+   * measurements with the same (intrinsic and extrinsic) calibration
+   * @param measurements vector of the 2m dimensional location of the projection
+   *  of a single landmark in the m views (the measurements)
+   * @param world_P_body_key_pairs vector where the i-th element contains a pair
+   *  of keys corresponding to the pair of poses from which the observation pose
+   *  for the i0-th measurement can be interpolated
+   * @param alphas vector of interpolation params (in [0,1]), one for each
+   *  measurement (in the same order)
+   * @param K (fixed) camera intrinsic calibration (same for all measurements)
+   * @param body_P_sensor (fixed) camera extrinsic calibration (same for all
+   *  measurements)
+   */
+  void add(const Point2Vector& measurements,
+           const std::vector<std::pair<Key, Key>>& world_P_body_key_pairs,
+           const std::vector<double>& alphas,
+           const boost::shared_ptr<CALIBRATION>& K,
+           const Pose3& body_P_sensor = Pose3::identity()) {
+    assert(world_P_body_key_pairs.size() == measurements.size());
+    assert(world_P_body_key_pairs.size() == alphas.size());
+    for (size_t i = 0; i < measurements.size(); i++) {
+      add(measurements[i], world_P_body_key_pairs[i].first,
+          world_P_body_key_pairs[i].second, alphas[i], K, body_P_sensor);
+    }
+  }
+
+  /// return the calibration object
+  const std::vector<boost::shared_ptr<CALIBRATION>>& calibration() const {
+    return K_all_;
   }
 
   /// return (for each observation) the keys of the pair of poses from which we
@@ -203,11 +209,8 @@ class GTSAM_UNSTABLE_EXPORT SmartProjectionPoseFactorRollingShutter
   /// return the interpolation factors alphas
   const std::vector<double>& alphas() const { return alphas_; }
 
-  /// return the calibration object
-  const boost::shared_ptr<Cameras>& cameraRig() const { return cameraRig_; }
-
-  /// return the calibration object
-  const FastVector<size_t>& cameraIds() const { return cameraIds_; }
+  /// return the extrinsic camera calibration body_P_sensors
+  const std::vector<Pose3>& body_P_sensors() const { return body_P_sensors_; }
 
   /**
    * print
@@ -218,15 +221,15 @@ class GTSAM_UNSTABLE_EXPORT SmartProjectionPoseFactorRollingShutter
       const std::string& s = "",
       const KeyFormatter& keyFormatter = DefaultKeyFormatter) const override {
     std::cout << s << "SmartProjectionPoseFactorRollingShutter: \n ";
-    for (size_t i = 0; i < cameraIds_.size(); i++) {
+    for (size_t i = 0; i < K_all_.size(); i++) {
       std::cout << "-- Measurement nr " << i << std::endl;
       std::cout << " pose1 key: "
                 << keyFormatter(world_P_body_key_pairs_[i].first) << std::endl;
       std::cout << " pose2 key: "
                 << keyFormatter(world_P_body_key_pairs_[i].second) << std::endl;
       std::cout << " alpha: " << alphas_[i] << std::endl;
-      std::cout << "cameraId: " << cameraIds_[i] << std::endl;
-      (*cameraRig_)[cameraIds_[i]].print("camera in rig:\n");
+      body_P_sensors_[i].print("extrinsic calibration:\n");
+      K_all_[i]->print("intrinsic calibration = ");
     }
     Base::print("", keyFormatter);
   }
@@ -254,48 +257,20 @@ class GTSAM_UNSTABLE_EXPORT SmartProjectionPoseFactorRollingShutter
       keyPairsEqual = false;
     }
 
-    return e && Base::equals(p, tol) && alphas_ == e->alphas() &&
-           keyPairsEqual && cameraRig_->equals(*(e->cameraRig())) &&
-           std::equal(cameraIds_.begin(), cameraIds_.end(),
-                      e->cameraIds().begin());
-  }
-
-  /**
-   * Collect all cameras involved in this factor
-   * @param values Values structure which must contain camera poses
-   * corresponding to keys involved in this factor
-   * @return Cameras
-   */
-  typename Base::Cameras cameras(const Values& values) const override {
-    typename Base::Cameras cameras;
-    for (size_t i = 0; i < this->measured_.size();
-         i++) {  // for each measurement
-      const Pose3& w_P_body1 =
-          values.at<Pose3>(world_P_body_key_pairs_[i].first);
-      const Pose3& w_P_body2 =
-          values.at<Pose3>(world_P_body_key_pairs_[i].second);
-      double interpolationFactor = alphas_[i];
-      const Pose3& w_P_body =
-          interpolate<Pose3>(w_P_body1, w_P_body2, interpolationFactor);
-      const typename Base::Camera& camera_i = (*cameraRig_)[cameraIds_[i]];
-      const Pose3& body_P_cam = camera_i.pose();
-      const Pose3& w_P_cam = w_P_body.compose(body_P_cam);
-      cameras.emplace_back(w_P_cam,
-                           make_shared<typename CAMERA::CalibrationType>(
-                               camera_i.calibration()));
+    double extrinsicCalibrationEqual = true;
+    if (this->body_P_sensors_.size() == e->body_P_sensors().size()) {
+      for (size_t i = 0; i < this->body_P_sensors_.size(); i++) {
+        if (!body_P_sensors_[i].equals(e->body_P_sensors()[i])) {
+          extrinsicCalibrationEqual = false;
+          break;
+        }
+      }
+    } else {
+      extrinsicCalibrationEqual = false;
     }
-    return cameras;
-  }
 
-  /**
-   * error calculates the error of the factor.
-   */
-  double error(const Values& values) const override {
-    if (this->active(values)) {
-      return this->totalReprojectionError(this->cameras(values));
-    } else {  // else of active flag
-      return 0.0;
-    }
+    return e && Base::equals(p, tol) && K_all_ == e->calibration() &&
+           alphas_ == e->alphas() && keyPairsEqual && extrinsicCalibrationEqual;
   }
 
   /**
@@ -330,16 +305,14 @@ class GTSAM_UNSTABLE_EXPORT SmartProjectionPoseFactorRollingShutter
         auto w_P_body =
             interpolate<Pose3>(w_P_body1, w_P_body2, interpolationFactor,
                                dInterpPose_dPoseBody1, dInterpPose_dPoseBody2);
-        const typename Base::Camera& camera_i = (*cameraRig_)[cameraIds_[i]];
-        auto body_P_cam = camera_i.pose();
+        auto body_P_cam = body_P_sensors_[i];
         auto w_P_cam = w_P_body.compose(body_P_cam, dPoseCam_dInterpPose);
-        typename Base::Camera camera(
-            w_P_cam, make_shared<typename CAMERA::CalibrationType>(
-                         camera_i.calibration()));
+        PinholeCamera<CALIBRATION> camera(w_P_cam, *K_all_[i]);
 
         // get jacobians and error vector for current measurement
-        Point2 reprojectionError_i = camera.reprojectionError(
-            *this->result_, this->measured_.at(i), dProject_dPoseCam, Ei);
+        Point2 reprojectionError_i =
+            Point2(camera.project(*this->result_, dProject_dPoseCam, Ei) -
+                   this->measured_.at(i));
         Eigen::Matrix<double, ZDim, DimBlock> J;  // 2 x 12
         J.block(0, 0, ZDim, 6) =
             dProject_dPoseCam * dPoseCam_dInterpPose *
@@ -359,7 +332,7 @@ class GTSAM_UNSTABLE_EXPORT SmartProjectionPoseFactorRollingShutter
 
   /// linearize and return a Hessianfactor that is an approximation of error(p)
   boost::shared_ptr<RegularHessianFactor<DimPose>> createHessianFactor(
-      const Values& values, const double& lambda = 0.0,
+      const Values& values, const double lambda = 0.0,
       bool diagonalDamping = false) const {
     // we may have multiple observation sharing the same keys (due to the
     // rolling shutter interpolation), hence the number of unique keys may be
@@ -368,21 +341,19 @@ class GTSAM_UNSTABLE_EXPORT SmartProjectionPoseFactorRollingShutter
         this->keys_
             .size();  // note: by construction, keys_ only contains unique keys
 
-    typename Base::Cameras cameras = this->cameras(values);
-
     // Create structures for Hessian Factors
     KeyVector js;
     std::vector<Matrix> Gs(nrUniqueKeys * (nrUniqueKeys + 1) / 2);
     std::vector<Vector> gs(nrUniqueKeys);
 
     if (this->measured_.size() !=
-        cameras.size())  // 1 observation per interpolated camera
+        this->cameras(values).size())  // 1 observation per interpolated camera
       throw std::runtime_error(
           "SmartProjectionPoseFactorRollingShutter: "
           "measured_.size() inconsistent with input");
 
     // triangulate 3D point at given linearization point
-    this->triangulateSafe(cameras);
+    this->triangulateSafe(this->cameras(values));
 
     if (!this->result_) {  // failed: return "empty/zero" Hessian
       if (this->params_.degeneracyMode == ZERO_ON_DEGENERACY) {
@@ -407,7 +378,7 @@ class GTSAM_UNSTABLE_EXPORT SmartProjectionPoseFactorRollingShutter
     for (size_t i = 0; i < Fs.size(); i++)
       Fs[i] = this->noiseModel_->Whiten(Fs[i]);
 
-    Matrix3 P = Cameras::PointCov(E, lambda, diagonalDamping);
+    Matrix3 P = Base::Cameras::PointCov(E, lambda, diagonalDamping);
 
     // Collect all the key pairs: these are the keys that correspond to the
     // blocks in Fs (on which we apply the Schur Complement)
@@ -429,6 +400,46 @@ class GTSAM_UNSTABLE_EXPORT SmartProjectionPoseFactorRollingShutter
   }
 
   /**
+   * error calculates the error of the factor.
+   */
+  double error(const Values& values) const override {
+    if (this->active(values)) {
+      return this->totalReprojectionError(this->cameras(values));
+    } else {  // else of active flag
+      return 0.0;
+    }
+  }
+
+  /**
+   * Collect all cameras involved in this factor
+   * @param values Values structure which must contain camera poses
+   * corresponding to keys involved in this factor
+   * @return Cameras
+   */
+  typename Base::Cameras cameras(const Values& values) const override {
+    size_t numViews = this->measured_.size();
+    assert(numViews == K_all_.size());
+    assert(numViews == alphas_.size());
+    assert(numViews == body_P_sensors_.size());
+    assert(numViews == world_P_body_key_pairs_.size());
+
+    typename Base::Cameras cameras;
+    for (size_t i = 0; i < numViews; i++) {  // for each measurement
+      const Pose3& w_P_body1 =
+          values.at<Pose3>(world_P_body_key_pairs_[i].first);
+      const Pose3& w_P_body2 =
+          values.at<Pose3>(world_P_body_key_pairs_[i].second);
+      double interpolationFactor = alphas_[i];
+      const Pose3& w_P_body =
+          interpolate<Pose3>(w_P_body1, w_P_body2, interpolationFactor);
+      const Pose3& body_P_cam = body_P_sensors_[i];
+      const Pose3& w_P_cam = w_P_body.compose(body_P_cam);
+      cameras.emplace_back(w_P_cam, K_all_[i]);
+    }
+    return cameras;
+  }
+
+  /**
    * Linearize to Gaussian Factor (possibly adding a damping factor Lambda for
    * LM)
    * @param values Values structure which must contain camera poses and
@@ -436,7 +447,7 @@ class GTSAM_UNSTABLE_EXPORT SmartProjectionPoseFactorRollingShutter
    * @return a Gaussian factor
    */
   boost::shared_ptr<GaussianFactor> linearizeDamped(
-      const Values& values, const double& lambda = 0.0) const {
+      const Values& values, const double lambda = 0.0) const {
     // depending on flag set on construction we may linearize to different
     // linear factors
     switch (this->params_.linearizationMode) {
@@ -444,8 +455,8 @@ class GTSAM_UNSTABLE_EXPORT SmartProjectionPoseFactorRollingShutter
         return this->createHessianFactor(values, lambda);
       default:
         throw std::runtime_error(
-            "SmartProjectionPoseFactorRollingShutter: "
-            "unknown linearization mode");
+            "SmartProjectionPoseFactorRollingShutter: unknown linearization "
+            "mode");
     }
   }
 
@@ -461,6 +472,7 @@ class GTSAM_UNSTABLE_EXPORT SmartProjectionPoseFactorRollingShutter
   template <class ARCHIVE>
   void serialize(ARCHIVE& ar, const unsigned int /*version*/) {
     ar& BOOST_SERIALIZATION_BASE_OBJECT_NVP(Base);
+    ar& BOOST_SERIALIZATION_NVP(K_all_);
   }
 };
 // end of class declaration

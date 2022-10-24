@@ -553,64 +553,64 @@ gtsam_unstable_OBJECTS = \
 # External object files for target gtsam_unstable
 gtsam_unstable_EXTERNAL_OBJECTS =
 
-gtsam_unstable/libgtsam_unstable.so.4.2.0: gtsam_unstable/CMakeFiles/gtsam_unstable.dir/base/Dummy.cpp.o
-gtsam_unstable/libgtsam_unstable.so.4.2.0: gtsam_unstable/CMakeFiles/gtsam_unstable.dir/geometry/BearingS2.cpp.o
-gtsam_unstable/libgtsam_unstable.so.4.2.0: gtsam_unstable/CMakeFiles/gtsam_unstable.dir/geometry/Event.cpp.o
-gtsam_unstable/libgtsam_unstable.so.4.2.0: gtsam_unstable/CMakeFiles/gtsam_unstable.dir/geometry/Pose3Upright.cpp.o
-gtsam_unstable/libgtsam_unstable.so.4.2.0: gtsam_unstable/CMakeFiles/gtsam_unstable.dir/geometry/SimPolygon2D.cpp.o
-gtsam_unstable/libgtsam_unstable.so.4.2.0: gtsam_unstable/CMakeFiles/gtsam_unstable.dir/geometry/SimWall2D.cpp.o
-gtsam_unstable/libgtsam_unstable.so.4.2.0: gtsam_unstable/CMakeFiles/gtsam_unstable.dir/linear/LPInitSolver.cpp.o
-gtsam_unstable/libgtsam_unstable.so.4.2.0: gtsam_unstable/CMakeFiles/gtsam_unstable.dir/linear/LPSolver.cpp.o
-gtsam_unstable/libgtsam_unstable.so.4.2.0: gtsam_unstable/CMakeFiles/gtsam_unstable.dir/linear/QPSParser.cpp.o
-gtsam_unstable/libgtsam_unstable.so.4.2.0: gtsam_unstable/CMakeFiles/gtsam_unstable.dir/linear/QPSolver.cpp.o
-gtsam_unstable/libgtsam_unstable.so.4.2.0: gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/AllDiff.cpp.o
-gtsam_unstable/libgtsam_unstable.so.4.2.0: gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/CSP.cpp.o
-gtsam_unstable/libgtsam_unstable.so.4.2.0: gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/Domain.cpp.o
-gtsam_unstable/libgtsam_unstable.so.4.2.0: gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/Scheduler.cpp.o
-gtsam_unstable/libgtsam_unstable.so.4.2.0: gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/SingleValue.cpp.o
-gtsam_unstable/libgtsam_unstable.so.4.2.0: gtsam_unstable/CMakeFiles/gtsam_unstable.dir/dynamics/PoseRTV.cpp.o
-gtsam_unstable/libgtsam_unstable.so.4.2.0: gtsam_unstable/CMakeFiles/gtsam_unstable.dir/dynamics/SimpleHelicopter.cpp.o
-gtsam_unstable/libgtsam_unstable.so.4.2.0: gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/BatchFixedLagSmoother.cpp.o
-gtsam_unstable/libgtsam_unstable.so.4.2.0: gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentBatchFilter.cpp.o
-gtsam_unstable/libgtsam_unstable.so.4.2.0: gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentBatchSmoother.cpp.o
-gtsam_unstable/libgtsam_unstable.so.4.2.0: gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentFilteringAndSmoothing.cpp.o
-gtsam_unstable/libgtsam_unstable.so.4.2.0: gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentIncrementalFilter.cpp.o
-gtsam_unstable/libgtsam_unstable.so.4.2.0: gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentIncrementalSmoother.cpp.o
-gtsam_unstable/libgtsam_unstable.so.4.2.0: gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/FixedLagSmoother.cpp.o
-gtsam_unstable/libgtsam_unstable.so.4.2.0: gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/IncrementalFixedLagSmoother.cpp.o
-gtsam_unstable/libgtsam_unstable.so.4.2.0: gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/LinearizedFactor.cpp.o
-gtsam_unstable/libgtsam_unstable.so.4.2.0: gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/AHRS.cpp.o
-gtsam_unstable/libgtsam_unstable.so.4.2.0: gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/DummyFactor.cpp.o
-gtsam_unstable/libgtsam_unstable.so.4.2.0: gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/LocalOrientedPlane3Factor.cpp.o
-gtsam_unstable/libgtsam_unstable.so.4.2.0: gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/Mechanization_bRn2.cpp.o
-gtsam_unstable/libgtsam_unstable.so.4.2.0: gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/ProjectionFactorRollingShutter.cpp.o
-gtsam_unstable/libgtsam_unstable.so.4.2.0: gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/RelativeElevationFactor.cpp.o
-gtsam_unstable/libgtsam_unstable.so.4.2.0: gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/SmartStereoProjectionFactorPP.cpp.o
-gtsam_unstable/libgtsam_unstable.so.4.2.0: gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/SmartStereoProjectionPoseFactor.cpp.o
-gtsam_unstable/libgtsam_unstable.so.4.2.0: gtsam_unstable/CMakeFiles/gtsam_unstable.dir/partition/GenericGraph.cpp.o
-gtsam_unstable/libgtsam_unstable.so.4.2.0: gtsam_unstable/CMakeFiles/gtsam_unstable.dir/build.make
-gtsam_unstable/libgtsam_unstable.so.4.2.0: gtsam/libgtsam.so.4.2.0
-gtsam_unstable/libgtsam_unstable.so.4.2.0: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
-gtsam_unstable/libgtsam_unstable.so.4.2.0: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
-gtsam_unstable/libgtsam_unstable.so.4.2.0: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0
-gtsam_unstable/libgtsam_unstable.so.4.2.0: /usr/lib/aarch64-linux-gnu/libboost_thread.so.1.71.0
-gtsam_unstable/libgtsam_unstable.so.4.2.0: /usr/lib/aarch64-linux-gnu/libboost_atomic.so.1.71.0
-gtsam_unstable/libgtsam_unstable.so.4.2.0: /usr/lib/aarch64-linux-gnu/libboost_date_time.so.1.71.0
-gtsam_unstable/libgtsam_unstable.so.4.2.0: /usr/lib/aarch64-linux-gnu/libboost_regex.so.1.71.0
-gtsam_unstable/libgtsam_unstable.so.4.2.0: /usr/lib/aarch64-linux-gnu/libboost_timer.so.1.71.0
-gtsam_unstable/libgtsam_unstable.so.4.2.0: /usr/lib/aarch64-linux-gnu/libboost_chrono.so.1.71.0
-gtsam_unstable/libgtsam_unstable.so.4.2.0: /usr/lib/aarch64-linux-gnu/libtbb.so
-gtsam_unstable/libgtsam_unstable.so.4.2.0: /usr/lib/aarch64-linux-gnu/libtbbmalloc.so
-gtsam_unstable/libgtsam_unstable.so.4.2.0: gtsam/3rdparty/metis/libmetis/libmetis-gtsam.so
-gtsam_unstable/libgtsam_unstable.so.4.2.0: gtsam_unstable/CMakeFiles/gtsam_unstable.dir/link.txt
+gtsam_unstable/libgtsam_unstable.so.4.1.0: gtsam_unstable/CMakeFiles/gtsam_unstable.dir/base/Dummy.cpp.o
+gtsam_unstable/libgtsam_unstable.so.4.1.0: gtsam_unstable/CMakeFiles/gtsam_unstable.dir/geometry/BearingS2.cpp.o
+gtsam_unstable/libgtsam_unstable.so.4.1.0: gtsam_unstable/CMakeFiles/gtsam_unstable.dir/geometry/Event.cpp.o
+gtsam_unstable/libgtsam_unstable.so.4.1.0: gtsam_unstable/CMakeFiles/gtsam_unstable.dir/geometry/Pose3Upright.cpp.o
+gtsam_unstable/libgtsam_unstable.so.4.1.0: gtsam_unstable/CMakeFiles/gtsam_unstable.dir/geometry/SimPolygon2D.cpp.o
+gtsam_unstable/libgtsam_unstable.so.4.1.0: gtsam_unstable/CMakeFiles/gtsam_unstable.dir/geometry/SimWall2D.cpp.o
+gtsam_unstable/libgtsam_unstable.so.4.1.0: gtsam_unstable/CMakeFiles/gtsam_unstable.dir/linear/LPInitSolver.cpp.o
+gtsam_unstable/libgtsam_unstable.so.4.1.0: gtsam_unstable/CMakeFiles/gtsam_unstable.dir/linear/LPSolver.cpp.o
+gtsam_unstable/libgtsam_unstable.so.4.1.0: gtsam_unstable/CMakeFiles/gtsam_unstable.dir/linear/QPSParser.cpp.o
+gtsam_unstable/libgtsam_unstable.so.4.1.0: gtsam_unstable/CMakeFiles/gtsam_unstable.dir/linear/QPSolver.cpp.o
+gtsam_unstable/libgtsam_unstable.so.4.1.0: gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/AllDiff.cpp.o
+gtsam_unstable/libgtsam_unstable.so.4.1.0: gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/CSP.cpp.o
+gtsam_unstable/libgtsam_unstable.so.4.1.0: gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/Domain.cpp.o
+gtsam_unstable/libgtsam_unstable.so.4.1.0: gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/Scheduler.cpp.o
+gtsam_unstable/libgtsam_unstable.so.4.1.0: gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/SingleValue.cpp.o
+gtsam_unstable/libgtsam_unstable.so.4.1.0: gtsam_unstable/CMakeFiles/gtsam_unstable.dir/dynamics/PoseRTV.cpp.o
+gtsam_unstable/libgtsam_unstable.so.4.1.0: gtsam_unstable/CMakeFiles/gtsam_unstable.dir/dynamics/SimpleHelicopter.cpp.o
+gtsam_unstable/libgtsam_unstable.so.4.1.0: gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/BatchFixedLagSmoother.cpp.o
+gtsam_unstable/libgtsam_unstable.so.4.1.0: gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentBatchFilter.cpp.o
+gtsam_unstable/libgtsam_unstable.so.4.1.0: gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentBatchSmoother.cpp.o
+gtsam_unstable/libgtsam_unstable.so.4.1.0: gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentFilteringAndSmoothing.cpp.o
+gtsam_unstable/libgtsam_unstable.so.4.1.0: gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentIncrementalFilter.cpp.o
+gtsam_unstable/libgtsam_unstable.so.4.1.0: gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentIncrementalSmoother.cpp.o
+gtsam_unstable/libgtsam_unstable.so.4.1.0: gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/FixedLagSmoother.cpp.o
+gtsam_unstable/libgtsam_unstable.so.4.1.0: gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/IncrementalFixedLagSmoother.cpp.o
+gtsam_unstable/libgtsam_unstable.so.4.1.0: gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/LinearizedFactor.cpp.o
+gtsam_unstable/libgtsam_unstable.so.4.1.0: gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/AHRS.cpp.o
+gtsam_unstable/libgtsam_unstable.so.4.1.0: gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/DummyFactor.cpp.o
+gtsam_unstable/libgtsam_unstable.so.4.1.0: gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/LocalOrientedPlane3Factor.cpp.o
+gtsam_unstable/libgtsam_unstable.so.4.1.0: gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/Mechanization_bRn2.cpp.o
+gtsam_unstable/libgtsam_unstable.so.4.1.0: gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/ProjectionFactorRollingShutter.cpp.o
+gtsam_unstable/libgtsam_unstable.so.4.1.0: gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/RelativeElevationFactor.cpp.o
+gtsam_unstable/libgtsam_unstable.so.4.1.0: gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/SmartStereoProjectionFactorPP.cpp.o
+gtsam_unstable/libgtsam_unstable.so.4.1.0: gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/SmartStereoProjectionPoseFactor.cpp.o
+gtsam_unstable/libgtsam_unstable.so.4.1.0: gtsam_unstable/CMakeFiles/gtsam_unstable.dir/partition/GenericGraph.cpp.o
+gtsam_unstable/libgtsam_unstable.so.4.1.0: gtsam_unstable/CMakeFiles/gtsam_unstable.dir/build.make
+gtsam_unstable/libgtsam_unstable.so.4.1.0: gtsam/libgtsam.so.4.1.0
+gtsam_unstable/libgtsam_unstable.so.4.1.0: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
+gtsam_unstable/libgtsam_unstable.so.4.1.0: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
+gtsam_unstable/libgtsam_unstable.so.4.1.0: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0
+gtsam_unstable/libgtsam_unstable.so.4.1.0: /usr/lib/aarch64-linux-gnu/libboost_thread.so.1.71.0
+gtsam_unstable/libgtsam_unstable.so.4.1.0: /usr/lib/aarch64-linux-gnu/libboost_atomic.so.1.71.0
+gtsam_unstable/libgtsam_unstable.so.4.1.0: /usr/lib/aarch64-linux-gnu/libboost_date_time.so.1.71.0
+gtsam_unstable/libgtsam_unstable.so.4.1.0: /usr/lib/aarch64-linux-gnu/libboost_regex.so.1.71.0
+gtsam_unstable/libgtsam_unstable.so.4.1.0: /usr/lib/aarch64-linux-gnu/libboost_timer.so.1.71.0
+gtsam_unstable/libgtsam_unstable.so.4.1.0: /usr/lib/aarch64-linux-gnu/libboost_chrono.so.1.71.0
+gtsam_unstable/libgtsam_unstable.so.4.1.0: /usr/lib/aarch64-linux-gnu/libtbb.so
+gtsam_unstable/libgtsam_unstable.so.4.1.0: /usr/lib/aarch64-linux-gnu/libtbbmalloc.so
+gtsam_unstable/libgtsam_unstable.so.4.1.0: gtsam/3rdparty/metis/libmetis/libmetis-gtsam.so
+gtsam_unstable/libgtsam_unstable.so.4.1.0: gtsam_unstable/CMakeFiles/gtsam_unstable.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Linking CXX shared library libgtsam_unstable.so"
 	cd /home/catkin_ws/build/gtsam/gtsam_unstable && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gtsam_unstable.dir/link.txt --verbose=$(VERBOSE)
-	cd /home/catkin_ws/build/gtsam/gtsam_unstable && $(CMAKE_COMMAND) -E cmake_symlink_library libgtsam_unstable.so.4.2.0 libgtsam_unstable.so.4 libgtsam_unstable.so
+	cd /home/catkin_ws/build/gtsam/gtsam_unstable && $(CMAKE_COMMAND) -E cmake_symlink_library libgtsam_unstable.so.4.1.0 libgtsam_unstable.so.4 libgtsam_unstable.so
 
-gtsam_unstable/libgtsam_unstable.so.4: gtsam_unstable/libgtsam_unstable.so.4.2.0
+gtsam_unstable/libgtsam_unstable.so.4: gtsam_unstable/libgtsam_unstable.so.4.1.0
 	@$(CMAKE_COMMAND) -E touch_nocreate gtsam_unstable/libgtsam_unstable.so.4
 
-gtsam_unstable/libgtsam_unstable.so: gtsam_unstable/libgtsam_unstable.so.4.2.0
+gtsam_unstable/libgtsam_unstable.so: gtsam_unstable/libgtsam_unstable.so.4.1.0
 	@$(CMAKE_COMMAND) -E touch_nocreate gtsam_unstable/libgtsam_unstable.so
 
 # Rule to build all files generated by this target.

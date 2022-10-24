@@ -79,7 +79,7 @@ timeBatch_EXTERNAL_OBJECTS =
 
 timing/timeBatch: timing/CMakeFiles/timeBatch.dir/timeBatch.cpp.o
 timing/timeBatch: timing/CMakeFiles/timeBatch.dir/build.make
-timing/timeBatch: gtsam/libgtsam.so.4.2.0
+timing/timeBatch: gtsam/libgtsam.so.4.1.0
 timing/timeBatch: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 timing/timeBatch: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 timing/timeBatch: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

@@ -15,7 +15,6 @@ gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/AllDiff.cpp.o: /home/catki
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/AllDiff.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/FastSet.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/AllDiff.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/FastVector.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/AllDiff.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Testable.h
-gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/AllDiff.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Vector.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/AllDiff.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/timing.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/AllDiff.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/types.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/AllDiff.cpp.o: /home/catkin_ws/src/gtsam/gtsam/discrete/AlgebraicDecisionTree.h
@@ -25,9 +24,8 @@ gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/AllDiff.cpp.o: /home/catki
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/AllDiff.cpp.o: /home/catkin_ws/src/gtsam/gtsam/discrete/DecisionTreeFactor.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/AllDiff.cpp.o: /home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteFactor.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/AllDiff.cpp.o: /home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteKey.h
-gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/AllDiff.cpp.o: /home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteValues.h
+gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/AllDiff.cpp.o: /home/catkin_ws/src/gtsam/gtsam/discrete/Potentials.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/AllDiff.cpp.o: /home/catkin_ws/src/gtsam/gtsam/global_includes.h
-gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/AllDiff.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/DotWriter.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/AllDiff.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/Factor.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/AllDiff.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/FactorGraph-inst.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/AllDiff.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/FactorGraph.h
@@ -192,7 +190,6 @@ gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/CSP.cpp.o: /home/catkin_ws
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/CSP.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/FastSet.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/CSP.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/FastVector.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/CSP.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Testable.h
-gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/CSP.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Vector.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/CSP.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/timing.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/CSP.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/types.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/CSP.cpp.o: /home/catkin_ws/src/gtsam/gtsam/discrete/AlgebraicDecisionTree.h
@@ -202,18 +199,15 @@ gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/CSP.cpp.o: /home/catkin_ws
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/CSP.cpp.o: /home/catkin_ws/src/gtsam/gtsam/discrete/DecisionTreeFactor.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/CSP.cpp.o: /home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteBayesNet.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/CSP.cpp.o: /home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteConditional.h
-gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/CSP.cpp.o: /home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteDistribution.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/CSP.cpp.o: /home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteFactor.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/CSP.cpp.o: /home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteFactorGraph.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/CSP.cpp.o: /home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteKey.h
-gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/CSP.cpp.o: /home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteLookupDAG.h
-gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/CSP.cpp.o: /home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteValues.h
+gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/CSP.cpp.o: /home/catkin_ws/src/gtsam/gtsam/discrete/Potentials.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/CSP.cpp.o: /home/catkin_ws/src/gtsam/gtsam/discrete/Signature.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/CSP.cpp.o: /home/catkin_ws/src/gtsam/gtsam/global_includes.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/CSP.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/BayesNet-inst.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/CSP.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/BayesNet.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/CSP.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/Conditional.h
-gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/CSP.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/DotWriter.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/CSP.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/EliminateableFactorGraph.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/CSP.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/Factor.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/CSP.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/FactorGraph-inst.h
@@ -381,7 +375,6 @@ gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/Domain.cpp.o: /home/catkin
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/Domain.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/FastSet.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/Domain.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/FastVector.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/Domain.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Testable.h
-gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/Domain.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Vector.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/Domain.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/timing.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/Domain.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/types.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/Domain.cpp.o: /home/catkin_ws/src/gtsam/gtsam/discrete/AlgebraicDecisionTree.h
@@ -391,9 +384,8 @@ gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/Domain.cpp.o: /home/catkin
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/Domain.cpp.o: /home/catkin_ws/src/gtsam/gtsam/discrete/DecisionTreeFactor.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/Domain.cpp.o: /home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteFactor.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/Domain.cpp.o: /home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteKey.h
-gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/Domain.cpp.o: /home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteValues.h
+gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/Domain.cpp.o: /home/catkin_ws/src/gtsam/gtsam/discrete/Potentials.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/Domain.cpp.o: /home/catkin_ws/src/gtsam/gtsam/global_includes.h
-gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/Domain.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/DotWriter.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/Domain.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/Factor.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/Domain.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/FactorGraph-inst.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/Domain.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/FactorGraph.h
@@ -556,7 +548,6 @@ gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/Scheduler.cpp.o: /home/cat
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/Scheduler.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/FastSet.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/Scheduler.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/FastVector.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/Scheduler.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Testable.h
-gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/Scheduler.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Vector.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/Scheduler.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/debug.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/Scheduler.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/timing.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/Scheduler.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/types.h
@@ -567,18 +558,15 @@ gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/Scheduler.cpp.o: /home/cat
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/Scheduler.cpp.o: /home/catkin_ws/src/gtsam/gtsam/discrete/DecisionTreeFactor.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/Scheduler.cpp.o: /home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteBayesNet.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/Scheduler.cpp.o: /home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteConditional.h
-gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/Scheduler.cpp.o: /home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteDistribution.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/Scheduler.cpp.o: /home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteFactor.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/Scheduler.cpp.o: /home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteFactorGraph.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/Scheduler.cpp.o: /home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteKey.h
-gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/Scheduler.cpp.o: /home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteLookupDAG.h
-gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/Scheduler.cpp.o: /home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteValues.h
+gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/Scheduler.cpp.o: /home/catkin_ws/src/gtsam/gtsam/discrete/Potentials.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/Scheduler.cpp.o: /home/catkin_ws/src/gtsam/gtsam/discrete/Signature.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/Scheduler.cpp.o: /home/catkin_ws/src/gtsam/gtsam/global_includes.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/Scheduler.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/BayesNet-inst.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/Scheduler.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/BayesNet.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/Scheduler.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/Conditional.h
-gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/Scheduler.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/DotWriter.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/Scheduler.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/EliminateableFactorGraph.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/Scheduler.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/Factor.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/Scheduler.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/FactorGraph-inst.h
@@ -747,7 +735,6 @@ gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/SingleValue.cpp.o: /home/c
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/SingleValue.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/FastSet.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/SingleValue.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/FastVector.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/SingleValue.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Testable.h
-gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/SingleValue.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Vector.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/SingleValue.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/timing.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/SingleValue.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/types.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/SingleValue.cpp.o: /home/catkin_ws/src/gtsam/gtsam/discrete/AlgebraicDecisionTree.h
@@ -757,9 +744,8 @@ gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/SingleValue.cpp.o: /home/c
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/SingleValue.cpp.o: /home/catkin_ws/src/gtsam/gtsam/discrete/DecisionTreeFactor.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/SingleValue.cpp.o: /home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteFactor.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/SingleValue.cpp.o: /home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteKey.h
-gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/SingleValue.cpp.o: /home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteValues.h
+gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/SingleValue.cpp.o: /home/catkin_ws/src/gtsam/gtsam/discrete/Potentials.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/SingleValue.cpp.o: /home/catkin_ws/src/gtsam/gtsam/global_includes.h
-gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/SingleValue.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/DotWriter.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/SingleValue.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/Factor.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/SingleValue.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/FactorGraph-inst.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/SingleValue.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/FactorGraph.h
@@ -925,7 +911,6 @@ gtsam_unstable/CMakeFiles/gtsam_unstable.dir/dynamics/PoseRTV.cpp.o: /home/catki
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/dynamics/PoseRTV.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/ProductLieGroup.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/dynamics/PoseRTV.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Testable.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/dynamics/PoseRTV.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Vector.h
-gtsam_unstable/CMakeFiles/gtsam_unstable.dir/dynamics/PoseRTV.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/VectorSerialization.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/dynamics/PoseRTV.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/VectorSpace.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/dynamics/PoseRTV.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/concepts.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/dynamics/PoseRTV.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/make_shared.h
@@ -1167,13 +1152,11 @@ gtsam_unstable/CMakeFiles/gtsam_unstable.dir/dynamics/SimpleHelicopter.cpp.o: /h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/dynamics/SimpleHelicopter.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Lie.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/dynamics/SimpleHelicopter.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Manifold.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/dynamics/SimpleHelicopter.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Matrix.h
-gtsam_unstable/CMakeFiles/gtsam_unstable.dir/dynamics/SimpleHelicopter.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/MatrixSerialization.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/dynamics/SimpleHelicopter.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/OptionalJacobian.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/dynamics/SimpleHelicopter.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Testable.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/dynamics/SimpleHelicopter.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/ThreadsafeException.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/dynamics/SimpleHelicopter.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Value.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/dynamics/SimpleHelicopter.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Vector.h
-gtsam_unstable/CMakeFiles/gtsam_unstable.dir/dynamics/SimpleHelicopter.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/VectorSerialization.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/dynamics/SimpleHelicopter.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/VectorSpace.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/dynamics/SimpleHelicopter.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/VerticalBlockMatrix.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/dynamics/SimpleHelicopter.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/concepts.h
@@ -1192,7 +1175,6 @@ gtsam_unstable/CMakeFiles/gtsam_unstable.dir/dynamics/SimpleHelicopter.cpp.o: /h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/dynamics/SimpleHelicopter.cpp.o: /home/catkin_ws/src/gtsam/gtsam/geometry/SOn.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/dynamics/SimpleHelicopter.cpp.o: /home/catkin_ws/src/gtsam/gtsam/geometry/Unit3.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/dynamics/SimpleHelicopter.cpp.o: /home/catkin_ws/src/gtsam/gtsam/global_includes.h
-gtsam_unstable/CMakeFiles/gtsam_unstable.dir/dynamics/SimpleHelicopter.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/DotWriter.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/dynamics/SimpleHelicopter.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/Factor.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/dynamics/SimpleHelicopter.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/FactorGraph-inst.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/dynamics/SimpleHelicopter.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/FactorGraph.h
@@ -1433,7 +1415,6 @@ gtsam_unstable/CMakeFiles/gtsam_unstable.dir/geometry/BearingS2.cpp.o: /home/cat
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/geometry/BearingS2.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/OptionalJacobian.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/geometry/BearingS2.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Testable.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/geometry/BearingS2.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Vector.h
-gtsam_unstable/CMakeFiles/gtsam_unstable.dir/geometry/BearingS2.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/VectorSerialization.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/geometry/BearingS2.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/VectorSpace.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/geometry/BearingS2.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/concepts.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/geometry/BearingS2.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/make_shared.h
@@ -1670,7 +1651,6 @@ gtsam_unstable/CMakeFiles/gtsam_unstable.dir/geometry/Event.cpp.o: /home/catkin_
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/geometry/Event.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/OptionalJacobian.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/geometry/Event.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Testable.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/geometry/Event.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Vector.h
-gtsam_unstable/CMakeFiles/gtsam_unstable.dir/geometry/Event.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/VectorSerialization.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/geometry/Event.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/VectorSpace.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/geometry/Event.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/types.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/geometry/Event.cpp.o: /home/catkin_ws/src/gtsam/gtsam/geometry/Point3.h
@@ -1895,7 +1875,6 @@ gtsam_unstable/CMakeFiles/gtsam_unstable.dir/geometry/Pose3Upright.cpp.o: /home/
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/geometry/Pose3Upright.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/OptionalJacobian.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/geometry/Pose3Upright.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Testable.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/geometry/Pose3Upright.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Vector.h
-gtsam_unstable/CMakeFiles/gtsam_unstable.dir/geometry/Pose3Upright.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/VectorSerialization.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/geometry/Pose3Upright.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/VectorSpace.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/geometry/Pose3Upright.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/concepts.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/geometry/Pose3Upright.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/make_shared.h
@@ -2594,7 +2573,6 @@ gtsam_unstable/CMakeFiles/gtsam_unstable.dir/linear/LPInitSolver.cpp.o: /home/ca
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/linear/LPInitSolver.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/FastSet.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/linear/LPInitSolver.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/FastVector.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/linear/LPInitSolver.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Matrix.h
-gtsam_unstable/CMakeFiles/gtsam_unstable.dir/linear/LPInitSolver.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/MatrixSerialization.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/linear/LPInitSolver.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/OptionalJacobian.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/linear/LPInitSolver.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/SymmetricBlockMatrix.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/linear/LPInitSolver.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Testable.h
@@ -2604,7 +2582,6 @@ gtsam_unstable/CMakeFiles/gtsam_unstable.dir/linear/LPInitSolver.cpp.o: /home/ca
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/linear/LPInitSolver.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/timing.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/linear/LPInitSolver.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/types.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/linear/LPInitSolver.cpp.o: /home/catkin_ws/src/gtsam/gtsam/global_includes.h
-gtsam_unstable/CMakeFiles/gtsam_unstable.dir/linear/LPInitSolver.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/DotWriter.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/linear/LPInitSolver.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/EliminateableFactorGraph.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/linear/LPInitSolver.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/Factor.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/linear/LPInitSolver.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/FactorGraph-inst.h
@@ -2858,7 +2835,6 @@ gtsam_unstable/CMakeFiles/gtsam_unstable.dir/linear/LPSolver.cpp.o: /home/catkin
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/linear/LPSolver.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/FastSet.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/linear/LPSolver.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/FastVector.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/linear/LPSolver.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Matrix.h
-gtsam_unstable/CMakeFiles/gtsam_unstable.dir/linear/LPSolver.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/MatrixSerialization.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/linear/LPSolver.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/OptionalJacobian.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/linear/LPSolver.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/SymmetricBlockMatrix.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/linear/LPSolver.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Testable.h
@@ -2868,7 +2844,6 @@ gtsam_unstable/CMakeFiles/gtsam_unstable.dir/linear/LPSolver.cpp.o: /home/catkin
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/linear/LPSolver.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/timing.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/linear/LPSolver.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/types.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/linear/LPSolver.cpp.o: /home/catkin_ws/src/gtsam/gtsam/global_includes.h
-gtsam_unstable/CMakeFiles/gtsam_unstable.dir/linear/LPSolver.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/DotWriter.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/linear/LPSolver.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/EliminateableFactorGraph.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/linear/LPSolver.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/Factor.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/linear/LPSolver.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/FactorGraph-inst.h
@@ -3125,14 +3100,12 @@ gtsam_unstable/CMakeFiles/gtsam_unstable.dir/linear/QPSParser.cpp.o: /home/catki
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/linear/QPSParser.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Lie.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/linear/QPSParser.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Manifold.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/linear/QPSParser.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Matrix.h
-gtsam_unstable/CMakeFiles/gtsam_unstable.dir/linear/QPSParser.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/MatrixSerialization.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/linear/QPSParser.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/OptionalJacobian.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/linear/QPSParser.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/SymmetricBlockMatrix.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/linear/QPSParser.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Testable.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/linear/QPSParser.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/ThreadsafeException.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/linear/QPSParser.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Value.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/linear/QPSParser.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Vector.h
-gtsam_unstable/CMakeFiles/gtsam_unstable.dir/linear/QPSParser.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/VectorSerialization.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/linear/QPSParser.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/VectorSpace.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/linear/QPSParser.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/VerticalBlockMatrix.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/linear/QPSParser.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/concepts.h
@@ -3158,7 +3131,6 @@ gtsam_unstable/CMakeFiles/gtsam_unstable.dir/linear/QPSParser.cpp.o: /home/catki
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/linear/QPSParser.cpp.o: /home/catkin_ws/src/gtsam/gtsam/geometry/SOn.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/linear/QPSParser.cpp.o: /home/catkin_ws/src/gtsam/gtsam/geometry/Unit3.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/linear/QPSParser.cpp.o: /home/catkin_ws/src/gtsam/gtsam/global_includes.h
-gtsam_unstable/CMakeFiles/gtsam_unstable.dir/linear/QPSParser.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/DotWriter.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/linear/QPSParser.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/EliminateableFactorGraph.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/linear/QPSParser.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/Factor.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/linear/QPSParser.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/FactorGraph-inst.h
@@ -3183,15 +3155,12 @@ gtsam_unstable/CMakeFiles/gtsam_unstable.dir/linear/QPSParser.cpp.o: /home/catki
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/linear/QPSParser.cpp.o: /home/catkin_ws/src/gtsam/gtsam/linear/Scatter.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/linear/QPSParser.cpp.o: /home/catkin_ws/src/gtsam/gtsam/linear/VectorValues.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/linear/QPSParser.cpp.o: /home/catkin_ws/src/gtsam/gtsam/linear/linearExceptions.h
-gtsam_unstable/CMakeFiles/gtsam_unstable.dir/linear/QPSParser.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/GraphvizFormatting.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/linear/QPSParser.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/NonlinearFactor.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/linear/QPSParser.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/NonlinearFactorGraph.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/linear/QPSParser.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/PriorFactor.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/linear/QPSParser.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/Values-inl.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/linear/QPSParser.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/Values.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/linear/QPSParser.cpp.o: /home/catkin_ws/src/gtsam/gtsam/sfm/BinaryMeasurement.h
-gtsam_unstable/CMakeFiles/gtsam_unstable.dir/linear/QPSParser.cpp.o: /home/catkin_ws/src/gtsam/gtsam/sfm/SfmData.h
-gtsam_unstable/CMakeFiles/gtsam_unstable.dir/linear/QPSParser.cpp.o: /home/catkin_ws/src/gtsam/gtsam/sfm/SfmTrack.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/linear/QPSParser.cpp.o: /home/catkin_ws/src/gtsam/gtsam/slam/BetweenFactor.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/linear/QPSParser.cpp.o: /home/catkin_ws/src/gtsam/gtsam/slam/dataset.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/linear/QPSParser.cpp.o: /home/catkin_ws/src/gtsam/gtsam_unstable/linear/EqualityFactorGraph.h
@@ -3423,14 +3392,12 @@ gtsam_unstable/CMakeFiles/gtsam_unstable.dir/linear/QPSolver.cpp.o: /home/catkin
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/linear/QPSolver.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Lie.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/linear/QPSolver.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Manifold.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/linear/QPSolver.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Matrix.h
-gtsam_unstable/CMakeFiles/gtsam_unstable.dir/linear/QPSolver.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/MatrixSerialization.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/linear/QPSolver.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/OptionalJacobian.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/linear/QPSolver.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/SymmetricBlockMatrix.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/linear/QPSolver.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Testable.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/linear/QPSolver.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/ThreadsafeException.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/linear/QPSolver.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Value.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/linear/QPSolver.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Vector.h
-gtsam_unstable/CMakeFiles/gtsam_unstable.dir/linear/QPSolver.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/VectorSerialization.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/linear/QPSolver.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/VectorSpace.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/linear/QPSolver.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/VerticalBlockMatrix.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/linear/QPSolver.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/concepts.h
@@ -3456,7 +3423,6 @@ gtsam_unstable/CMakeFiles/gtsam_unstable.dir/linear/QPSolver.cpp.o: /home/catkin
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/linear/QPSolver.cpp.o: /home/catkin_ws/src/gtsam/gtsam/geometry/SOn.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/linear/QPSolver.cpp.o: /home/catkin_ws/src/gtsam/gtsam/geometry/Unit3.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/linear/QPSolver.cpp.o: /home/catkin_ws/src/gtsam/gtsam/global_includes.h
-gtsam_unstable/CMakeFiles/gtsam_unstable.dir/linear/QPSolver.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/DotWriter.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/linear/QPSolver.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/EliminateableFactorGraph.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/linear/QPSolver.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/Factor.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/linear/QPSolver.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/FactorGraph-inst.h
@@ -3480,15 +3446,12 @@ gtsam_unstable/CMakeFiles/gtsam_unstable.dir/linear/QPSolver.cpp.o: /home/catkin
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/linear/QPSolver.cpp.o: /home/catkin_ws/src/gtsam/gtsam/linear/Scatter.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/linear/QPSolver.cpp.o: /home/catkin_ws/src/gtsam/gtsam/linear/VectorValues.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/linear/QPSolver.cpp.o: /home/catkin_ws/src/gtsam/gtsam/linear/linearExceptions.h
-gtsam_unstable/CMakeFiles/gtsam_unstable.dir/linear/QPSolver.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/GraphvizFormatting.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/linear/QPSolver.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/NonlinearFactor.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/linear/QPSolver.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/NonlinearFactorGraph.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/linear/QPSolver.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/PriorFactor.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/linear/QPSolver.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/Values-inl.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/linear/QPSolver.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/Values.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/linear/QPSolver.cpp.o: /home/catkin_ws/src/gtsam/gtsam/sfm/BinaryMeasurement.h
-gtsam_unstable/CMakeFiles/gtsam_unstable.dir/linear/QPSolver.cpp.o: /home/catkin_ws/src/gtsam/gtsam/sfm/SfmData.h
-gtsam_unstable/CMakeFiles/gtsam_unstable.dir/linear/QPSolver.cpp.o: /home/catkin_ws/src/gtsam/gtsam/sfm/SfmTrack.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/linear/QPSolver.cpp.o: /home/catkin_ws/src/gtsam/gtsam/slam/BetweenFactor.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/linear/QPSolver.cpp.o: /home/catkin_ws/src/gtsam/gtsam/slam/dataset.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/linear/QPSolver.cpp.o: /home/catkin_ws/src/gtsam/gtsam_unstable/linear/ActiveSetSolver-inl.h
@@ -3726,7 +3689,6 @@ gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/BatchFixedLagSmoother.cpp
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/BatchFixedLagSmoother.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Lie.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/BatchFixedLagSmoother.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Manifold.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/BatchFixedLagSmoother.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Matrix.h
-gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/BatchFixedLagSmoother.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/MatrixSerialization.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/BatchFixedLagSmoother.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/OptionalJacobian.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/BatchFixedLagSmoother.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/SymmetricBlockMatrix.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/BatchFixedLagSmoother.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Testable.h
@@ -3742,15 +3704,11 @@ gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/BatchFixedLagSmoother.cpp
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/BatchFixedLagSmoother.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/types.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/BatchFixedLagSmoother.cpp.o: /home/catkin_ws/src/gtsam/gtsam/geometry/Point2.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/BatchFixedLagSmoother.cpp.o: /home/catkin_ws/src/gtsam/gtsam/global_includes.h
-gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/BatchFixedLagSmoother.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/BayesNet-inst.h
-gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/BatchFixedLagSmoother.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/BayesNet.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/BatchFixedLagSmoother.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/BayesTree.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/BatchFixedLagSmoother.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/BayesTreeCliqueBase.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/BatchFixedLagSmoother.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/ClusterTree-inst.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/BatchFixedLagSmoother.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/ClusterTree.h
-gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/BatchFixedLagSmoother.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/Conditional-inst.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/BatchFixedLagSmoother.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/Conditional.h
-gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/BatchFixedLagSmoother.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/DotWriter.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/BatchFixedLagSmoother.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/EliminateableFactorGraph.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/BatchFixedLagSmoother.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/Factor.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/BatchFixedLagSmoother.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/FactorGraph-inst.h
@@ -3784,7 +3742,6 @@ gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/BatchFixedLagSmoother.cpp
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/BatchFixedLagSmoother.cpp.o: /home/catkin_ws/src/gtsam/gtsam/linear/SubgraphSolver.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/BatchFixedLagSmoother.cpp.o: /home/catkin_ws/src/gtsam/gtsam/linear/VectorValues.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/BatchFixedLagSmoother.cpp.o: /home/catkin_ws/src/gtsam/gtsam/linear/linearExceptions.h
-gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/BatchFixedLagSmoother.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/GraphvizFormatting.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/BatchFixedLagSmoother.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/LevenbergMarquardtOptimizer.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/BatchFixedLagSmoother.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/LevenbergMarquardtParams.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/BatchFixedLagSmoother.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/LinearContainerFactor.h
@@ -4020,7 +3977,6 @@ gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentBatchFilter.cpp
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentBatchFilter.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Lie.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentBatchFilter.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Manifold.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentBatchFilter.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Matrix.h
-gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentBatchFilter.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/MatrixSerialization.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentBatchFilter.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/OptionalJacobian.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentBatchFilter.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/SymmetricBlockMatrix.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentBatchFilter.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Testable.h
@@ -4037,15 +3993,11 @@ gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentBatchFilter.cpp
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentBatchFilter.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/types.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentBatchFilter.cpp.o: /home/catkin_ws/src/gtsam/gtsam/geometry/Point2.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentBatchFilter.cpp.o: /home/catkin_ws/src/gtsam/gtsam/global_includes.h
-gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentBatchFilter.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/BayesNet-inst.h
-gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentBatchFilter.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/BayesNet.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentBatchFilter.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/BayesTree.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentBatchFilter.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/BayesTreeCliqueBase.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentBatchFilter.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/ClusterTree-inst.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentBatchFilter.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/ClusterTree.h
-gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentBatchFilter.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/Conditional-inst.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentBatchFilter.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/Conditional.h
-gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentBatchFilter.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/DotWriter.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentBatchFilter.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/EliminateableFactorGraph.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentBatchFilter.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/Factor.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentBatchFilter.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/FactorGraph-inst.h
@@ -4079,7 +4031,6 @@ gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentBatchFilter.cpp
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentBatchFilter.cpp.o: /home/catkin_ws/src/gtsam/gtsam/linear/SubgraphSolver.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentBatchFilter.cpp.o: /home/catkin_ws/src/gtsam/gtsam/linear/VectorValues.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentBatchFilter.cpp.o: /home/catkin_ws/src/gtsam/gtsam/linear/linearExceptions.h
-gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentBatchFilter.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/GraphvizFormatting.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentBatchFilter.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/LevenbergMarquardtOptimizer.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentBatchFilter.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/LevenbergMarquardtParams.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentBatchFilter.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/LinearContainerFactor.h
@@ -4315,7 +4266,6 @@ gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentBatchSmoother.c
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentBatchSmoother.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Lie.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentBatchSmoother.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Manifold.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentBatchSmoother.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Matrix.h
-gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentBatchSmoother.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/MatrixSerialization.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentBatchSmoother.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/OptionalJacobian.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentBatchSmoother.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/SymmetricBlockMatrix.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentBatchSmoother.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Testable.h
@@ -4332,15 +4282,11 @@ gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentBatchSmoother.c
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentBatchSmoother.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/types.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentBatchSmoother.cpp.o: /home/catkin_ws/src/gtsam/gtsam/geometry/Point2.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentBatchSmoother.cpp.o: /home/catkin_ws/src/gtsam/gtsam/global_includes.h
-gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentBatchSmoother.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/BayesNet-inst.h
-gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentBatchSmoother.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/BayesNet.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentBatchSmoother.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/BayesTree.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentBatchSmoother.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/BayesTreeCliqueBase.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentBatchSmoother.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/ClusterTree-inst.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentBatchSmoother.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/ClusterTree.h
-gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentBatchSmoother.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/Conditional-inst.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentBatchSmoother.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/Conditional.h
-gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentBatchSmoother.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/DotWriter.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentBatchSmoother.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/EliminateableFactorGraph.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentBatchSmoother.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/Factor.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentBatchSmoother.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/FactorGraph-inst.h
@@ -4374,7 +4320,6 @@ gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentBatchSmoother.c
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentBatchSmoother.cpp.o: /home/catkin_ws/src/gtsam/gtsam/linear/SubgraphSolver.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentBatchSmoother.cpp.o: /home/catkin_ws/src/gtsam/gtsam/linear/VectorValues.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentBatchSmoother.cpp.o: /home/catkin_ws/src/gtsam/gtsam/linear/linearExceptions.h
-gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentBatchSmoother.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/GraphvizFormatting.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentBatchSmoother.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/LevenbergMarquardtOptimizer.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentBatchSmoother.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/LevenbergMarquardtParams.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentBatchSmoother.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/LinearContainerFactor.h
@@ -4599,7 +4544,6 @@ gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentBatchSmoother.c
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentBatchSmoother.cpp.o: gtsam/dllexport.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentBatchSmoother.cpp.o: gtsam_unstable/dllexport.h
 
-gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentFilteringAndSmoothing.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/ConcurrentMap.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentFilteringAndSmoothing.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/FastDefaultAllocator.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentFilteringAndSmoothing.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/FastList.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentFilteringAndSmoothing.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/FastMap.h
@@ -4610,7 +4554,6 @@ gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentFilteringAndSmo
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentFilteringAndSmoothing.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Lie.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentFilteringAndSmoothing.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Manifold.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentFilteringAndSmoothing.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Matrix.h
-gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentFilteringAndSmoothing.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/MatrixSerialization.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentFilteringAndSmoothing.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/OptionalJacobian.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentFilteringAndSmoothing.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/SymmetricBlockMatrix.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentFilteringAndSmoothing.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Testable.h
@@ -4623,7 +4566,6 @@ gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentFilteringAndSmo
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentFilteringAndSmoothing.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/types.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentFilteringAndSmoothing.cpp.o: /home/catkin_ws/src/gtsam/gtsam/geometry/Point2.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentFilteringAndSmoothing.cpp.o: /home/catkin_ws/src/gtsam/gtsam/global_includes.h
-gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentFilteringAndSmoothing.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/DotWriter.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentFilteringAndSmoothing.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/EliminateableFactorGraph.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentFilteringAndSmoothing.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/Factor.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentFilteringAndSmoothing.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/FactorGraph-inst.h
@@ -4645,9 +4587,7 @@ gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentFilteringAndSmo
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentFilteringAndSmoothing.cpp.o: /home/catkin_ws/src/gtsam/gtsam/linear/LossFunctions.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentFilteringAndSmoothing.cpp.o: /home/catkin_ws/src/gtsam/gtsam/linear/NoiseModel.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentFilteringAndSmoothing.cpp.o: /home/catkin_ws/src/gtsam/gtsam/linear/Scatter.h
-gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentFilteringAndSmoothing.cpp.o: /home/catkin_ws/src/gtsam/gtsam/linear/VectorValues.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentFilteringAndSmoothing.cpp.o: /home/catkin_ws/src/gtsam/gtsam/linear/linearExceptions.h
-gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentFilteringAndSmoothing.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/GraphvizFormatting.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentFilteringAndSmoothing.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/LinearContainerFactor.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentFilteringAndSmoothing.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/NonlinearFactor.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentFilteringAndSmoothing.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/NonlinearFactorGraph.h
@@ -4878,7 +4818,6 @@ gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentIncrementalFilt
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentIncrementalFilter.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Lie.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentIncrementalFilter.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Manifold.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentIncrementalFilter.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Matrix.h
-gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentIncrementalFilter.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/MatrixSerialization.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentIncrementalFilter.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/OptionalJacobian.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentIncrementalFilter.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/SymmetricBlockMatrix.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentIncrementalFilter.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Testable.h
@@ -4892,13 +4831,9 @@ gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentIncrementalFilt
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentIncrementalFilter.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/types.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentIncrementalFilter.cpp.o: /home/catkin_ws/src/gtsam/gtsam/geometry/Point2.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentIncrementalFilter.cpp.o: /home/catkin_ws/src/gtsam/gtsam/global_includes.h
-gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentIncrementalFilter.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/BayesNet-inst.h
-gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentIncrementalFilter.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/BayesNet.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentIncrementalFilter.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/BayesTree.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentIncrementalFilter.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/BayesTreeCliqueBase.h
-gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentIncrementalFilter.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/Conditional-inst.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentIncrementalFilter.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/Conditional.h
-gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentIncrementalFilter.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/DotWriter.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentIncrementalFilter.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/EliminateableFactorGraph.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentIncrementalFilter.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/Factor.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentIncrementalFilter.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/FactorGraph-inst.h
@@ -4927,7 +4862,6 @@ gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentIncrementalFilt
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentIncrementalFilter.cpp.o: /home/catkin_ws/src/gtsam/gtsam/linear/VectorValues.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentIncrementalFilter.cpp.o: /home/catkin_ws/src/gtsam/gtsam/linear/linearExceptions.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentIncrementalFilter.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/DoglegOptimizerImpl.h
-gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentIncrementalFilter.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/GraphvizFormatting.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentIncrementalFilter.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/ISAM2.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentIncrementalFilter.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/ISAM2Clique.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentIncrementalFilter.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/ISAM2Params.h
@@ -5164,7 +5098,6 @@ gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentIncrementalSmoo
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentIncrementalSmoother.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Lie.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentIncrementalSmoother.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Manifold.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentIncrementalSmoother.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Matrix.h
-gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentIncrementalSmoother.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/MatrixSerialization.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentIncrementalSmoother.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/OptionalJacobian.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentIncrementalSmoother.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/SymmetricBlockMatrix.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentIncrementalSmoother.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Testable.h
@@ -5178,13 +5111,9 @@ gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentIncrementalSmoo
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentIncrementalSmoother.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/types.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentIncrementalSmoother.cpp.o: /home/catkin_ws/src/gtsam/gtsam/geometry/Point2.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentIncrementalSmoother.cpp.o: /home/catkin_ws/src/gtsam/gtsam/global_includes.h
-gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentIncrementalSmoother.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/BayesNet-inst.h
-gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentIncrementalSmoother.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/BayesNet.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentIncrementalSmoother.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/BayesTree.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentIncrementalSmoother.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/BayesTreeCliqueBase.h
-gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentIncrementalSmoother.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/Conditional-inst.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentIncrementalSmoother.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/Conditional.h
-gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentIncrementalSmoother.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/DotWriter.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentIncrementalSmoother.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/EliminateableFactorGraph.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentIncrementalSmoother.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/Factor.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentIncrementalSmoother.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/FactorGraph-inst.h
@@ -5213,7 +5142,6 @@ gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentIncrementalSmoo
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentIncrementalSmoother.cpp.o: /home/catkin_ws/src/gtsam/gtsam/linear/VectorValues.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentIncrementalSmoother.cpp.o: /home/catkin_ws/src/gtsam/gtsam/linear/linearExceptions.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentIncrementalSmoother.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/DoglegOptimizerImpl.h
-gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentIncrementalSmoother.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/GraphvizFormatting.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentIncrementalSmoother.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/ISAM2.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentIncrementalSmoother.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/ISAM2Clique.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentIncrementalSmoother.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/ISAM2Params.h
@@ -5449,7 +5377,6 @@ gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/FixedLagSmoother.cpp.o: /
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/FixedLagSmoother.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Lie.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/FixedLagSmoother.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Manifold.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/FixedLagSmoother.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Matrix.h
-gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/FixedLagSmoother.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/MatrixSerialization.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/FixedLagSmoother.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/OptionalJacobian.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/FixedLagSmoother.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Testable.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/FixedLagSmoother.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/ThreadsafeException.h
@@ -5461,7 +5388,6 @@ gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/FixedLagSmoother.cpp.o: /
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/FixedLagSmoother.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/types.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/FixedLagSmoother.cpp.o: /home/catkin_ws/src/gtsam/gtsam/geometry/Point2.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/FixedLagSmoother.cpp.o: /home/catkin_ws/src/gtsam/gtsam/global_includes.h
-gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/FixedLagSmoother.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/DotWriter.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/FixedLagSmoother.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/Factor.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/FixedLagSmoother.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/FactorGraph-inst.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/FixedLagSmoother.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/FactorGraph.h
@@ -5473,7 +5399,6 @@ gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/FixedLagSmoother.cpp.o: /
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/FixedLagSmoother.cpp.o: /home/catkin_ws/src/gtsam/gtsam/linear/LossFunctions.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/FixedLagSmoother.cpp.o: /home/catkin_ws/src/gtsam/gtsam/linear/NoiseModel.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/FixedLagSmoother.cpp.o: /home/catkin_ws/src/gtsam/gtsam/linear/linearExceptions.h
-gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/FixedLagSmoother.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/GraphvizFormatting.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/FixedLagSmoother.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/NonlinearFactor.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/FixedLagSmoother.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/NonlinearFactorGraph.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/FixedLagSmoother.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/PriorFactor.h
@@ -5703,7 +5628,6 @@ gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/IncrementalFixedLagSmooth
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/IncrementalFixedLagSmoother.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Lie.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/IncrementalFixedLagSmoother.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Manifold.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/IncrementalFixedLagSmoother.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Matrix.h
-gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/IncrementalFixedLagSmoother.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/MatrixSerialization.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/IncrementalFixedLagSmoother.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/OptionalJacobian.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/IncrementalFixedLagSmoother.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/SymmetricBlockMatrix.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/IncrementalFixedLagSmoother.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Testable.h
@@ -5717,13 +5641,9 @@ gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/IncrementalFixedLagSmooth
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/IncrementalFixedLagSmoother.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/types.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/IncrementalFixedLagSmoother.cpp.o: /home/catkin_ws/src/gtsam/gtsam/geometry/Point2.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/IncrementalFixedLagSmoother.cpp.o: /home/catkin_ws/src/gtsam/gtsam/global_includes.h
-gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/IncrementalFixedLagSmoother.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/BayesNet-inst.h
-gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/IncrementalFixedLagSmoother.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/BayesNet.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/IncrementalFixedLagSmoother.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/BayesTree.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/IncrementalFixedLagSmoother.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/BayesTreeCliqueBase.h
-gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/IncrementalFixedLagSmoother.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/Conditional-inst.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/IncrementalFixedLagSmoother.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/Conditional.h
-gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/IncrementalFixedLagSmoother.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/DotWriter.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/IncrementalFixedLagSmoother.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/EliminateableFactorGraph.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/IncrementalFixedLagSmoother.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/Factor.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/IncrementalFixedLagSmoother.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/FactorGraph-inst.h
@@ -5752,7 +5672,6 @@ gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/IncrementalFixedLagSmooth
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/IncrementalFixedLagSmoother.cpp.o: /home/catkin_ws/src/gtsam/gtsam/linear/VectorValues.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/IncrementalFixedLagSmoother.cpp.o: /home/catkin_ws/src/gtsam/gtsam/linear/linearExceptions.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/IncrementalFixedLagSmoother.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/DoglegOptimizerImpl.h
-gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/IncrementalFixedLagSmoother.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/GraphvizFormatting.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/IncrementalFixedLagSmoother.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/ISAM2.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/IncrementalFixedLagSmoother.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/ISAM2Clique.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/IncrementalFixedLagSmoother.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/ISAM2Params.h
@@ -5987,7 +5906,6 @@ gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/LinearizedFactor.cpp.o: /
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/LinearizedFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Lie.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/LinearizedFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Manifold.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/LinearizedFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Matrix.h
-gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/LinearizedFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/MatrixSerialization.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/LinearizedFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/OptionalJacobian.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/LinearizedFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/SymmetricBlockMatrix.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/LinearizedFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Testable.h
@@ -6246,13 +6164,11 @@ gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/AHRS.cpp.o: /home/catkin_ws/sr
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/AHRS.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Lie.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/AHRS.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Manifold.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/AHRS.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Matrix.h
-gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/AHRS.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/MatrixSerialization.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/AHRS.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/OptionalJacobian.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/AHRS.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/SymmetricBlockMatrix.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/AHRS.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Testable.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/AHRS.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/ThreadsafeException.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/AHRS.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Vector.h
-gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/AHRS.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/VectorSerialization.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/AHRS.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/VectorSpace.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/AHRS.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/VerticalBlockMatrix.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/AHRS.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/concepts.h
@@ -6268,9 +6184,7 @@ gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/AHRS.cpp.o: /home/catkin_ws/sr
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/AHRS.cpp.o: /home/catkin_ws/src/gtsam/gtsam/geometry/SOn.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/AHRS.cpp.o: /home/catkin_ws/src/gtsam/gtsam/geometry/Unit3.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/AHRS.cpp.o: /home/catkin_ws/src/gtsam/gtsam/global_includes.h
-gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/AHRS.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/Conditional-inst.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/AHRS.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/Conditional.h
-gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/AHRS.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/DotWriter.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/AHRS.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/EliminateableFactorGraph.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/AHRS.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/Factor.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/AHRS.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/FactorGraph-inst.h
@@ -6522,7 +6436,6 @@ gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/DummyFactor.cpp.o: /home/catki
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/DummyFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Lie.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/DummyFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Manifold.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/DummyFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Matrix.h
-gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/DummyFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/MatrixSerialization.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/DummyFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/OptionalJacobian.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/DummyFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Testable.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/DummyFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/ThreadsafeException.h
@@ -6768,13 +6681,11 @@ gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/LocalOrientedPlane3Factor.cpp.
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/LocalOrientedPlane3Factor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Lie.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/LocalOrientedPlane3Factor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Manifold.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/LocalOrientedPlane3Factor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Matrix.h
-gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/LocalOrientedPlane3Factor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/MatrixSerialization.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/LocalOrientedPlane3Factor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/OptionalJacobian.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/LocalOrientedPlane3Factor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Testable.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/LocalOrientedPlane3Factor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/ThreadsafeException.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/LocalOrientedPlane3Factor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Value.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/LocalOrientedPlane3Factor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Vector.h
-gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/LocalOrientedPlane3Factor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/VectorSerialization.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/LocalOrientedPlane3Factor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/VectorSpace.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/LocalOrientedPlane3Factor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/VerticalBlockMatrix.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/LocalOrientedPlane3Factor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/concepts.h
@@ -7016,7 +6927,6 @@ gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/LocalOrientedPlane3Factor.cpp.
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/LocalOrientedPlane3Factor.cpp.o: /usr/include/eigen3/Eigen/src/plugins/MatrixCwiseUnaryOps.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/LocalOrientedPlane3Factor.cpp.o: gtsam/config.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/LocalOrientedPlane3Factor.cpp.o: gtsam/dllexport.h
-gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/LocalOrientedPlane3Factor.cpp.o: gtsam_unstable/dllexport.h
 
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/Mechanization_bRn2.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Group.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/Mechanization_bRn2.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Lie.h
@@ -7025,7 +6935,6 @@ gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/Mechanization_bRn2.cpp.o: /hom
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/Mechanization_bRn2.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/OptionalJacobian.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/Mechanization_bRn2.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Testable.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/Mechanization_bRn2.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Vector.h
-gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/Mechanization_bRn2.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/VectorSerialization.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/Mechanization_bRn2.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/VectorSpace.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/Mechanization_bRn2.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/concepts.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/Mechanization_bRn2.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/make_shared.h
@@ -7262,13 +7171,11 @@ gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/ProjectionFactorRollingShutter
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/ProjectionFactorRollingShutter.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Lie.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/ProjectionFactorRollingShutter.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Manifold.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/ProjectionFactorRollingShutter.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Matrix.h
-gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/ProjectionFactorRollingShutter.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/MatrixSerialization.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/ProjectionFactorRollingShutter.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/OptionalJacobian.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/ProjectionFactorRollingShutter.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Testable.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/ProjectionFactorRollingShutter.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/ThreadsafeException.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/ProjectionFactorRollingShutter.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Value.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/ProjectionFactorRollingShutter.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Vector.h
-gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/ProjectionFactorRollingShutter.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/VectorSerialization.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/ProjectionFactorRollingShutter.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/VectorSpace.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/ProjectionFactorRollingShutter.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/VerticalBlockMatrix.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/ProjectionFactorRollingShutter.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/concepts.h
@@ -7514,7 +7421,6 @@ gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/ProjectionFactorRollingShutter
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/ProjectionFactorRollingShutter.cpp.o: /usr/include/eigen3/Eigen/src/plugins/MatrixCwiseUnaryOps.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/ProjectionFactorRollingShutter.cpp.o: gtsam/config.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/ProjectionFactorRollingShutter.cpp.o: gtsam/dllexport.h
-gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/ProjectionFactorRollingShutter.cpp.o: gtsam_unstable/dllexport.h
 
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/RelativeElevationFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/FastDefaultAllocator.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/RelativeElevationFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/FastList.h
@@ -7526,13 +7432,11 @@ gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/RelativeElevationFactor.cpp.o:
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/RelativeElevationFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Lie.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/RelativeElevationFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Manifold.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/RelativeElevationFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Matrix.h
-gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/RelativeElevationFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/MatrixSerialization.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/RelativeElevationFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/OptionalJacobian.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/RelativeElevationFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Testable.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/RelativeElevationFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/ThreadsafeException.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/RelativeElevationFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Value.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/RelativeElevationFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Vector.h
-gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/RelativeElevationFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/VectorSerialization.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/RelativeElevationFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/VectorSpace.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/RelativeElevationFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/VerticalBlockMatrix.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/RelativeElevationFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/concepts.h
@@ -7786,14 +7690,12 @@ gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/SmartStereoProjectionFactorPP.
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/SmartStereoProjectionFactorPP.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Lie.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/SmartStereoProjectionFactorPP.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Manifold.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/SmartStereoProjectionFactorPP.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Matrix.h
-gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/SmartStereoProjectionFactorPP.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/MatrixSerialization.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/SmartStereoProjectionFactorPP.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/OptionalJacobian.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/SmartStereoProjectionFactorPP.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/SymmetricBlockMatrix.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/SmartStereoProjectionFactorPP.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Testable.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/SmartStereoProjectionFactorPP.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/ThreadsafeException.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/SmartStereoProjectionFactorPP.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Value.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/SmartStereoProjectionFactorPP.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Vector.h
-gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/SmartStereoProjectionFactorPP.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/VectorSerialization.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/SmartStereoProjectionFactorPP.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/VectorSpace.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/SmartStereoProjectionFactorPP.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/VerticalBlockMatrix.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/SmartStereoProjectionFactorPP.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/concepts.h
@@ -7804,7 +7706,6 @@ gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/SmartStereoProjectionFactorPP.
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/SmartStereoProjectionFactorPP.cpp.o: /home/catkin_ws/src/gtsam/gtsam/geometry/BearingRange.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/SmartStereoProjectionFactorPP.cpp.o: /home/catkin_ws/src/gtsam/gtsam/geometry/Cal3.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/SmartStereoProjectionFactorPP.cpp.o: /home/catkin_ws/src/gtsam/gtsam/geometry/Cal3Bundler.h
-gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/SmartStereoProjectionFactorPP.cpp.o: /home/catkin_ws/src/gtsam/gtsam/geometry/Cal3DS2.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/SmartStereoProjectionFactorPP.cpp.o: /home/catkin_ws/src/gtsam/gtsam/geometry/Cal3DS2_Base.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/SmartStereoProjectionFactorPP.cpp.o: /home/catkin_ws/src/gtsam/gtsam/geometry/Cal3Fisheye.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/SmartStereoProjectionFactorPP.cpp.o: /home/catkin_ws/src/gtsam/gtsam/geometry/Cal3Unified.h
@@ -7824,13 +7725,11 @@ gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/SmartStereoProjectionFactorPP.
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/SmartStereoProjectionFactorPP.cpp.o: /home/catkin_ws/src/gtsam/gtsam/geometry/SO3.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/SmartStereoProjectionFactorPP.cpp.o: /home/catkin_ws/src/gtsam/gtsam/geometry/SOn-inl.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/SmartStereoProjectionFactorPP.cpp.o: /home/catkin_ws/src/gtsam/gtsam/geometry/SOn.h
-gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/SmartStereoProjectionFactorPP.cpp.o: /home/catkin_ws/src/gtsam/gtsam/geometry/SphericalCamera.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/SmartStereoProjectionFactorPP.cpp.o: /home/catkin_ws/src/gtsam/gtsam/geometry/StereoCamera.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/SmartStereoProjectionFactorPP.cpp.o: /home/catkin_ws/src/gtsam/gtsam/geometry/StereoPoint2.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/SmartStereoProjectionFactorPP.cpp.o: /home/catkin_ws/src/gtsam/gtsam/geometry/Unit3.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/SmartStereoProjectionFactorPP.cpp.o: /home/catkin_ws/src/gtsam/gtsam/geometry/triangulation.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/SmartStereoProjectionFactorPP.cpp.o: /home/catkin_ws/src/gtsam/gtsam/global_includes.h
-gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/SmartStereoProjectionFactorPP.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/DotWriter.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/SmartStereoProjectionFactorPP.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/Factor.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/SmartStereoProjectionFactorPP.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/FactorGraph-inst.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/SmartStereoProjectionFactorPP.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/FactorGraph.h
@@ -7854,15 +7753,12 @@ gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/SmartStereoProjectionFactorPP.
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/SmartStereoProjectionFactorPP.cpp.o: /home/catkin_ws/src/gtsam/gtsam/linear/Scatter.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/SmartStereoProjectionFactorPP.cpp.o: /home/catkin_ws/src/gtsam/gtsam/linear/VectorValues.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/SmartStereoProjectionFactorPP.cpp.o: /home/catkin_ws/src/gtsam/gtsam/linear/linearExceptions.h
-gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/SmartStereoProjectionFactorPP.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/GraphvizFormatting.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/SmartStereoProjectionFactorPP.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/NonlinearFactor.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/SmartStereoProjectionFactorPP.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/NonlinearFactorGraph.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/SmartStereoProjectionFactorPP.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/PriorFactor.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/SmartStereoProjectionFactorPP.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/Values-inl.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/SmartStereoProjectionFactorPP.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/Values.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/SmartStereoProjectionFactorPP.cpp.o: /home/catkin_ws/src/gtsam/gtsam/sfm/BinaryMeasurement.h
-gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/SmartStereoProjectionFactorPP.cpp.o: /home/catkin_ws/src/gtsam/gtsam/sfm/SfmData.h
-gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/SmartStereoProjectionFactorPP.cpp.o: /home/catkin_ws/src/gtsam/gtsam/sfm/SfmTrack.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/SmartStereoProjectionFactorPP.cpp.o: /home/catkin_ws/src/gtsam/gtsam/slam/BetweenFactor.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/SmartStereoProjectionFactorPP.cpp.o: /home/catkin_ws/src/gtsam/gtsam/slam/JacobianFactorQ.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/SmartStereoProjectionFactorPP.cpp.o: /home/catkin_ws/src/gtsam/gtsam/slam/JacobianFactorSVD.h
@@ -8084,7 +7980,6 @@ gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/SmartStereoProjectionFactorPP.
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/SmartStereoProjectionFactorPP.cpp.o: /usr/include/eigen3/Eigen/src/plugins/MatrixCwiseUnaryOps.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/SmartStereoProjectionFactorPP.cpp.o: gtsam/config.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/SmartStereoProjectionFactorPP.cpp.o: gtsam/dllexport.h
-gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/SmartStereoProjectionFactorPP.cpp.o: gtsam_unstable/dllexport.h
 
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/SmartStereoProjectionPoseFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/ConcurrentMap.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/SmartStereoProjectionPoseFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/FastDefaultAllocator.h
@@ -8097,14 +7992,12 @@ gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/SmartStereoProjectionPoseFacto
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/SmartStereoProjectionPoseFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Lie.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/SmartStereoProjectionPoseFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Manifold.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/SmartStereoProjectionPoseFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Matrix.h
-gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/SmartStereoProjectionPoseFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/MatrixSerialization.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/SmartStereoProjectionPoseFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/OptionalJacobian.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/SmartStereoProjectionPoseFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/SymmetricBlockMatrix.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/SmartStereoProjectionPoseFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Testable.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/SmartStereoProjectionPoseFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/ThreadsafeException.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/SmartStereoProjectionPoseFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Value.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/SmartStereoProjectionPoseFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Vector.h
-gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/SmartStereoProjectionPoseFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/VectorSerialization.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/SmartStereoProjectionPoseFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/VectorSpace.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/SmartStereoProjectionPoseFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/VerticalBlockMatrix.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/SmartStereoProjectionPoseFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/concepts.h
@@ -8115,7 +8008,6 @@ gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/SmartStereoProjectionPoseFacto
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/SmartStereoProjectionPoseFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/geometry/BearingRange.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/SmartStereoProjectionPoseFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/geometry/Cal3.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/SmartStereoProjectionPoseFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/geometry/Cal3Bundler.h
-gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/SmartStereoProjectionPoseFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/geometry/Cal3DS2.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/SmartStereoProjectionPoseFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/geometry/Cal3DS2_Base.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/SmartStereoProjectionPoseFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/geometry/Cal3Fisheye.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/SmartStereoProjectionPoseFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/geometry/Cal3Unified.h
@@ -8135,13 +8027,11 @@ gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/SmartStereoProjectionPoseFacto
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/SmartStereoProjectionPoseFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/geometry/SO3.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/SmartStereoProjectionPoseFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/geometry/SOn-inl.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/SmartStereoProjectionPoseFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/geometry/SOn.h
-gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/SmartStereoProjectionPoseFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/geometry/SphericalCamera.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/SmartStereoProjectionPoseFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/geometry/StereoCamera.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/SmartStereoProjectionPoseFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/geometry/StereoPoint2.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/SmartStereoProjectionPoseFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/geometry/Unit3.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/SmartStereoProjectionPoseFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/geometry/triangulation.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/SmartStereoProjectionPoseFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/global_includes.h
-gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/SmartStereoProjectionPoseFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/DotWriter.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/SmartStereoProjectionPoseFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/Factor.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/SmartStereoProjectionPoseFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/FactorGraph-inst.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/SmartStereoProjectionPoseFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/FactorGraph.h
@@ -8165,15 +8055,12 @@ gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/SmartStereoProjectionPoseFacto
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/SmartStereoProjectionPoseFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/linear/Scatter.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/SmartStereoProjectionPoseFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/linear/VectorValues.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/SmartStereoProjectionPoseFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/linear/linearExceptions.h
-gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/SmartStereoProjectionPoseFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/GraphvizFormatting.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/SmartStereoProjectionPoseFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/NonlinearFactor.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/SmartStereoProjectionPoseFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/NonlinearFactorGraph.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/SmartStereoProjectionPoseFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/PriorFactor.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/SmartStereoProjectionPoseFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/Values-inl.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/SmartStereoProjectionPoseFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/Values.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/SmartStereoProjectionPoseFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/sfm/BinaryMeasurement.h
-gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/SmartStereoProjectionPoseFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/sfm/SfmData.h
-gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/SmartStereoProjectionPoseFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/sfm/SfmTrack.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/SmartStereoProjectionPoseFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/slam/BetweenFactor.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/SmartStereoProjectionPoseFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/slam/JacobianFactorQ.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/SmartStereoProjectionPoseFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/slam/JacobianFactorSVD.h
@@ -8395,5 +8282,4 @@ gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/SmartStereoProjectionPoseFacto
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/SmartStereoProjectionPoseFactor.cpp.o: /usr/include/eigen3/Eigen/src/plugins/MatrixCwiseUnaryOps.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/SmartStereoProjectionPoseFactor.cpp.o: gtsam/config.h
 gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/SmartStereoProjectionPoseFactor.cpp.o: gtsam/dllexport.h
-gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/SmartStereoProjectionPoseFactor.cpp.o: gtsam_unstable/dllexport.h
 

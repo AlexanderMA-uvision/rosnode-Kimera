@@ -307,472 +307,30 @@ gtsam/fast:
 .PHONY : gtsam/fast
 
 #=============================================================================
-# Target rules for targets named testWeightedSampler.run
+# Target rules for targets named testLieVector.valgrind
 
 # Build rule for target.
-testWeightedSampler.run: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testWeightedSampler.run
-.PHONY : testWeightedSampler.run
+testLieVector.valgrind: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testLieVector.valgrind
+.PHONY : testLieVector.valgrind
 
 # fast build rule for target.
-testWeightedSampler.run/fast:
-	$(MAKE) -f gtsam/base/tests/CMakeFiles/testWeightedSampler.run.dir/build.make gtsam/base/tests/CMakeFiles/testWeightedSampler.run.dir/build
-.PHONY : testWeightedSampler.run/fast
+testLieVector.valgrind/fast:
+	$(MAKE) -f gtsam/base/tests/CMakeFiles/testLieVector.valgrind.dir/build.make gtsam/base/tests/CMakeFiles/testLieVector.valgrind.dir/build
+.PHONY : testLieVector.valgrind/fast
 
 #=============================================================================
-# Target rules for targets named testWeightedSampler
+# Target rules for targets named testLieMatrix.valgrind
 
 # Build rule for target.
-testWeightedSampler: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testWeightedSampler
-.PHONY : testWeightedSampler
+testLieMatrix.valgrind: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testLieMatrix.valgrind
+.PHONY : testLieMatrix.valgrind
 
 # fast build rule for target.
-testWeightedSampler/fast:
-	$(MAKE) -f gtsam/base/tests/CMakeFiles/testWeightedSampler.dir/build.make gtsam/base/tests/CMakeFiles/testWeightedSampler.dir/build
-.PHONY : testWeightedSampler/fast
-
-#=============================================================================
-# Target rules for targets named testWeightedSampler.valgrind
-
-# Build rule for target.
-testWeightedSampler.valgrind: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testWeightedSampler.valgrind
-.PHONY : testWeightedSampler.valgrind
-
-# fast build rule for target.
-testWeightedSampler.valgrind/fast:
-	$(MAKE) -f gtsam/base/tests/CMakeFiles/testWeightedSampler.valgrind.dir/build.make gtsam/base/tests/CMakeFiles/testWeightedSampler.valgrind.dir/build
-.PHONY : testWeightedSampler.valgrind/fast
-
-#=============================================================================
-# Target rules for targets named testVector.run
-
-# Build rule for target.
-testVector.run: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testVector.run
-.PHONY : testVector.run
-
-# fast build rule for target.
-testVector.run/fast:
-	$(MAKE) -f gtsam/base/tests/CMakeFiles/testVector.run.dir/build.make gtsam/base/tests/CMakeFiles/testVector.run.dir/build
-.PHONY : testVector.run/fast
-
-#=============================================================================
-# Target rules for targets named testTreeTraversal.run
-
-# Build rule for target.
-testTreeTraversal.run: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testTreeTraversal.run
-.PHONY : testTreeTraversal.run
-
-# fast build rule for target.
-testTreeTraversal.run/fast:
-	$(MAKE) -f gtsam/base/tests/CMakeFiles/testTreeTraversal.run.dir/build.make gtsam/base/tests/CMakeFiles/testTreeTraversal.run.dir/build
-.PHONY : testTreeTraversal.run/fast
-
-#=============================================================================
-# Target rules for targets named testSymmetricBlockMatrix.valgrind
-
-# Build rule for target.
-testSymmetricBlockMatrix.valgrind: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testSymmetricBlockMatrix.valgrind
-.PHONY : testSymmetricBlockMatrix.valgrind
-
-# fast build rule for target.
-testSymmetricBlockMatrix.valgrind/fast:
-	$(MAKE) -f gtsam/base/tests/CMakeFiles/testSymmetricBlockMatrix.valgrind.dir/build.make gtsam/base/tests/CMakeFiles/testSymmetricBlockMatrix.valgrind.dir/build
-.PHONY : testSymmetricBlockMatrix.valgrind/fast
-
-#=============================================================================
-# Target rules for targets named testSymmetricBlockMatrix.run
-
-# Build rule for target.
-testSymmetricBlockMatrix.run: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testSymmetricBlockMatrix.run
-.PHONY : testSymmetricBlockMatrix.run
-
-# fast build rule for target.
-testSymmetricBlockMatrix.run/fast:
-	$(MAKE) -f gtsam/base/tests/CMakeFiles/testSymmetricBlockMatrix.run.dir/build.make gtsam/base/tests/CMakeFiles/testSymmetricBlockMatrix.run.dir/build
-.PHONY : testSymmetricBlockMatrix.run/fast
-
-#=============================================================================
-# Target rules for targets named testSymmetricBlockMatrix
-
-# Build rule for target.
-testSymmetricBlockMatrix: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testSymmetricBlockMatrix
-.PHONY : testSymmetricBlockMatrix
-
-# fast build rule for target.
-testSymmetricBlockMatrix/fast:
-	$(MAKE) -f gtsam/base/tests/CMakeFiles/testSymmetricBlockMatrix.dir/build.make gtsam/base/tests/CMakeFiles/testSymmetricBlockMatrix.dir/build
-.PHONY : testSymmetricBlockMatrix/fast
-
-#=============================================================================
-# Target rules for targets named testVector
-
-# Build rule for target.
-testVector: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testVector
-.PHONY : testVector
-
-# fast build rule for target.
-testVector/fast:
-	$(MAKE) -f gtsam/base/tests/CMakeFiles/testVector.dir/build.make gtsam/base/tests/CMakeFiles/testVector.dir/build
-.PHONY : testVector/fast
-
-#=============================================================================
-# Target rules for targets named testSerializationBase.run
-
-# Build rule for target.
-testSerializationBase.run: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testSerializationBase.run
-.PHONY : testSerializationBase.run
-
-# fast build rule for target.
-testSerializationBase.run/fast:
-	$(MAKE) -f gtsam/base/tests/CMakeFiles/testSerializationBase.run.dir/build.make gtsam/base/tests/CMakeFiles/testSerializationBase.run.dir/build
-.PHONY : testSerializationBase.run/fast
-
-#=============================================================================
-# Target rules for targets named testTreeTraversal.valgrind
-
-# Build rule for target.
-testTreeTraversal.valgrind: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testTreeTraversal.valgrind
-.PHONY : testTreeTraversal.valgrind
-
-# fast build rule for target.
-testTreeTraversal.valgrind/fast:
-	$(MAKE) -f gtsam/base/tests/CMakeFiles/testTreeTraversal.valgrind.dir/build.make gtsam/base/tests/CMakeFiles/testTreeTraversal.valgrind.dir/build
-.PHONY : testTreeTraversal.valgrind/fast
-
-#=============================================================================
-# Target rules for targets named testDebug.run
-
-# Build rule for target.
-testDebug.run: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testDebug.run
-.PHONY : testDebug.run
-
-# fast build rule for target.
-testDebug.run/fast:
-	$(MAKE) -f gtsam/base/tests/CMakeFiles/testDebug.run.dir/build.make gtsam/base/tests/CMakeFiles/testDebug.run.dir/build
-.PHONY : testDebug.run/fast
-
-#=============================================================================
-# Target rules for targets named testVerticalBlockMatrix.valgrind
-
-# Build rule for target.
-testVerticalBlockMatrix.valgrind: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testVerticalBlockMatrix.valgrind
-.PHONY : testVerticalBlockMatrix.valgrind
-
-# fast build rule for target.
-testVerticalBlockMatrix.valgrind/fast:
-	$(MAKE) -f gtsam/base/tests/CMakeFiles/testVerticalBlockMatrix.valgrind.dir/build.make gtsam/base/tests/CMakeFiles/testVerticalBlockMatrix.valgrind.dir/build
-.PHONY : testVerticalBlockMatrix.valgrind/fast
-
-#=============================================================================
-# Target rules for targets named testSerializationBase
-
-# Build rule for target.
-testSerializationBase: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testSerializationBase
-.PHONY : testSerializationBase
-
-# fast build rule for target.
-testSerializationBase/fast:
-	$(MAKE) -f gtsam/base/tests/CMakeFiles/testSerializationBase.dir/build.make gtsam/base/tests/CMakeFiles/testSerializationBase.dir/build
-.PHONY : testSerializationBase/fast
-
-#=============================================================================
-# Target rules for targets named testMatrix
-
-# Build rule for target.
-testMatrix: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testMatrix
-.PHONY : testMatrix
-
-# fast build rule for target.
-testMatrix/fast:
-	$(MAKE) -f gtsam/base/tests/CMakeFiles/testMatrix.dir/build.make gtsam/base/tests/CMakeFiles/testMatrix.dir/build
-.PHONY : testMatrix/fast
-
-#=============================================================================
-# Target rules for targets named testDSFVector.valgrind
-
-# Build rule for target.
-testDSFVector.valgrind: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testDSFVector.valgrind
-.PHONY : testDSFVector.valgrind
-
-# fast build rule for target.
-testDSFVector.valgrind/fast:
-	$(MAKE) -f gtsam/base/tests/CMakeFiles/testDSFVector.valgrind.dir/build.make gtsam/base/tests/CMakeFiles/testDSFVector.valgrind.dir/build
-.PHONY : testDSFVector.valgrind/fast
-
-#=============================================================================
-# Target rules for targets named testVerticalBlockMatrix
-
-# Build rule for target.
-testVerticalBlockMatrix: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testVerticalBlockMatrix
-.PHONY : testVerticalBlockMatrix
-
-# fast build rule for target.
-testVerticalBlockMatrix/fast:
-	$(MAKE) -f gtsam/base/tests/CMakeFiles/testVerticalBlockMatrix.dir/build.make gtsam/base/tests/CMakeFiles/testVerticalBlockMatrix.dir/build
-.PHONY : testVerticalBlockMatrix/fast
-
-#=============================================================================
-# Target rules for targets named testNumericalDerivative
-
-# Build rule for target.
-testNumericalDerivative: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testNumericalDerivative
-.PHONY : testNumericalDerivative
-
-# fast build rule for target.
-testNumericalDerivative/fast:
-	$(MAKE) -f gtsam/base/tests/CMakeFiles/testNumericalDerivative.dir/build.make gtsam/base/tests/CMakeFiles/testNumericalDerivative.dir/build
-.PHONY : testNumericalDerivative/fast
-
-#=============================================================================
-# Target rules for targets named testVerticalBlockMatrix.run
-
-# Build rule for target.
-testVerticalBlockMatrix.run: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testVerticalBlockMatrix.run
-.PHONY : testVerticalBlockMatrix.run
-
-# fast build rule for target.
-testVerticalBlockMatrix.run/fast:
-	$(MAKE) -f gtsam/base/tests/CMakeFiles/testVerticalBlockMatrix.run.dir/build.make gtsam/base/tests/CMakeFiles/testVerticalBlockMatrix.run.dir/build
-.PHONY : testVerticalBlockMatrix.run/fast
-
-#=============================================================================
-# Target rules for targets named testDebug.valgrind
-
-# Build rule for target.
-testDebug.valgrind: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testDebug.valgrind
-.PHONY : testDebug.valgrind
-
-# fast build rule for target.
-testDebug.valgrind/fast:
-	$(MAKE) -f gtsam/base/tests/CMakeFiles/testDebug.valgrind.dir/build.make gtsam/base/tests/CMakeFiles/testDebug.valgrind.dir/build
-.PHONY : testDebug.valgrind/fast
-
-#=============================================================================
-# Target rules for targets named testDebug
-
-# Build rule for target.
-testDebug: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testDebug
-.PHONY : testDebug
-
-# fast build rule for target.
-testDebug/fast:
-	$(MAKE) -f gtsam/base/tests/CMakeFiles/testDebug.dir/build.make gtsam/base/tests/CMakeFiles/testDebug.dir/build
-.PHONY : testDebug/fast
-
-#=============================================================================
-# Target rules for targets named testDSFMap.valgrind
-
-# Build rule for target.
-testDSFMap.valgrind: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testDSFMap.valgrind
-.PHONY : testDSFMap.valgrind
-
-# fast build rule for target.
-testDSFMap.valgrind/fast:
-	$(MAKE) -f gtsam/base/tests/CMakeFiles/testDSFMap.valgrind.dir/build.make gtsam/base/tests/CMakeFiles/testDSFMap.valgrind.dir/build
-.PHONY : testDSFMap.valgrind/fast
-
-#=============================================================================
-# Target rules for targets named testDSFVector
-
-# Build rule for target.
-testDSFVector: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testDSFVector
-.PHONY : testDSFVector
-
-# fast build rule for target.
-testDSFVector/fast:
-	$(MAKE) -f gtsam/base/tests/CMakeFiles/testDSFVector.dir/build.make gtsam/base/tests/CMakeFiles/testDSFVector.dir/build
-.PHONY : testDSFVector/fast
-
-#=============================================================================
-# Target rules for targets named testGroup.valgrind
-
-# Build rule for target.
-testGroup.valgrind: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testGroup.valgrind
-.PHONY : testGroup.valgrind
-
-# fast build rule for target.
-testGroup.valgrind/fast:
-	$(MAKE) -f gtsam/base/tests/CMakeFiles/testGroup.valgrind.dir/build.make gtsam/base/tests/CMakeFiles/testGroup.valgrind.dir/build
-.PHONY : testGroup.valgrind/fast
-
-#=============================================================================
-# Target rules for targets named testDSFMap.run
-
-# Build rule for target.
-testDSFMap.run: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testDSFMap.run
-.PHONY : testDSFMap.run
-
-# fast build rule for target.
-testDSFMap.run/fast:
-	$(MAKE) -f gtsam/base/tests/CMakeFiles/testDSFMap.run.dir/build.make gtsam/base/tests/CMakeFiles/testDSFMap.run.dir/build
-.PHONY : testDSFMap.run/fast
-
-#=============================================================================
-# Target rules for targets named testCholesky.valgrind
-
-# Build rule for target.
-testCholesky.valgrind: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testCholesky.valgrind
-.PHONY : testCholesky.valgrind
-
-# fast build rule for target.
-testCholesky.valgrind/fast:
-	$(MAKE) -f gtsam/base/tests/CMakeFiles/testCholesky.valgrind.dir/build.make gtsam/base/tests/CMakeFiles/testCholesky.valgrind.dir/build
-.PHONY : testCholesky.valgrind/fast
-
-#=============================================================================
-# Target rules for targets named testMatrix.run
-
-# Build rule for target.
-testMatrix.run: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testMatrix.run
-.PHONY : testMatrix.run
-
-# fast build rule for target.
-testMatrix.run/fast:
-	$(MAKE) -f gtsam/base/tests/CMakeFiles/testMatrix.run.dir/build.make gtsam/base/tests/CMakeFiles/testMatrix.run.dir/build
-.PHONY : testMatrix.run/fast
-
-#=============================================================================
-# Target rules for targets named testDSFVector.run
-
-# Build rule for target.
-testDSFVector.run: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testDSFVector.run
-.PHONY : testDSFVector.run
-
-# fast build rule for target.
-testDSFVector.run/fast:
-	$(MAKE) -f gtsam/base/tests/CMakeFiles/testDSFVector.run.dir/build.make gtsam/base/tests/CMakeFiles/testDSFVector.run.dir/build
-.PHONY : testDSFVector.run/fast
-
-#=============================================================================
-# Target rules for targets named testDSFMap
-
-# Build rule for target.
-testDSFMap: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testDSFMap
-.PHONY : testDSFMap
-
-# fast build rule for target.
-testDSFMap/fast:
-	$(MAKE) -f gtsam/base/tests/CMakeFiles/testDSFMap.dir/build.make gtsam/base/tests/CMakeFiles/testDSFMap.dir/build
-.PHONY : testDSFMap/fast
-
-#=============================================================================
-# Target rules for targets named testCholesky.run
-
-# Build rule for target.
-testCholesky.run: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testCholesky.run
-.PHONY : testCholesky.run
-
-# fast build rule for target.
-testCholesky.run/fast:
-	$(MAKE) -f gtsam/base/tests/CMakeFiles/testCholesky.run.dir/build.make gtsam/base/tests/CMakeFiles/testCholesky.run.dir/build
-.PHONY : testCholesky.run/fast
-
-#=============================================================================
-# Target rules for targets named testCholesky
-
-# Build rule for target.
-testCholesky: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testCholesky
-.PHONY : testCholesky
-
-# fast build rule for target.
-testCholesky/fast:
-	$(MAKE) -f gtsam/base/tests/CMakeFiles/testCholesky.dir/build.make gtsam/base/tests/CMakeFiles/testCholesky.dir/build
-.PHONY : testCholesky/fast
-
-#=============================================================================
-# Target rules for targets named testVector.valgrind
-
-# Build rule for target.
-testVector.valgrind: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testVector.valgrind
-.PHONY : testVector.valgrind
-
-# fast build rule for target.
-testVector.valgrind/fast:
-	$(MAKE) -f gtsam/base/tests/CMakeFiles/testVector.valgrind.dir/build.make gtsam/base/tests/CMakeFiles/testVector.valgrind.dir/build
-.PHONY : testVector.valgrind/fast
-
-#=============================================================================
-# Target rules for targets named testTreeTraversal
-
-# Build rule for target.
-testTreeTraversal: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testTreeTraversal
-.PHONY : testTreeTraversal
-
-# fast build rule for target.
-testTreeTraversal/fast:
-	$(MAKE) -f gtsam/base/tests/CMakeFiles/testTreeTraversal.dir/build.make gtsam/base/tests/CMakeFiles/testTreeTraversal.dir/build
-.PHONY : testTreeTraversal/fast
-
-#=============================================================================
-# Target rules for targets named testFastContainers.run
-
-# Build rule for target.
-testFastContainers.run: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testFastContainers.run
-.PHONY : testFastContainers.run
-
-# fast build rule for target.
-testFastContainers.run/fast:
-	$(MAKE) -f gtsam/base/tests/CMakeFiles/testFastContainers.run.dir/build.make gtsam/base/tests/CMakeFiles/testFastContainers.run.dir/build
-.PHONY : testFastContainers.run/fast
-
-#=============================================================================
-# Target rules for targets named check.base
-
-# Build rule for target.
-check.base: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 check.base
-.PHONY : check.base
-
-# fast build rule for target.
-check.base/fast:
-	$(MAKE) -f gtsam/base/tests/CMakeFiles/check.base.dir/build.make gtsam/base/tests/CMakeFiles/check.base.dir/build
-.PHONY : check.base/fast
-
-#=============================================================================
-# Target rules for targets named testFastContainers
-
-# Build rule for target.
-testFastContainers: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testFastContainers
-.PHONY : testFastContainers
-
-# fast build rule for target.
-testFastContainers/fast:
-	$(MAKE) -f gtsam/base/tests/CMakeFiles/testFastContainers.dir/build.make gtsam/base/tests/CMakeFiles/testFastContainers.dir/build
-.PHONY : testFastContainers/fast
+testLieMatrix.valgrind/fast:
+	$(MAKE) -f gtsam/base/tests/CMakeFiles/testLieMatrix.valgrind.dir/build.make gtsam/base/tests/CMakeFiles/testLieMatrix.valgrind.dir/build
+.PHONY : testLieMatrix.valgrind/fast
 
 #=============================================================================
 # Target rules for targets named testFastContainers.valgrind
@@ -788,43 +346,30 @@ testFastContainers.valgrind/fast:
 .PHONY : testFastContainers.valgrind/fast
 
 #=============================================================================
-# Target rules for targets named testOptionalJacobian
+# Target rules for targets named testLieMatrix
 
 # Build rule for target.
-testOptionalJacobian: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testOptionalJacobian
-.PHONY : testOptionalJacobian
+testLieMatrix: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testLieMatrix
+.PHONY : testLieMatrix
 
 # fast build rule for target.
-testOptionalJacobian/fast:
-	$(MAKE) -f gtsam/base/tests/CMakeFiles/testOptionalJacobian.dir/build.make gtsam/base/tests/CMakeFiles/testOptionalJacobian.dir/build
-.PHONY : testOptionalJacobian/fast
+testLieMatrix/fast:
+	$(MAKE) -f gtsam/base/tests/CMakeFiles/testLieMatrix.dir/build.make gtsam/base/tests/CMakeFiles/testLieMatrix.dir/build
+.PHONY : testLieMatrix/fast
 
 #=============================================================================
-# Target rules for targets named testGroup
+# Target rules for targets named testDSFMap.valgrind
 
 # Build rule for target.
-testGroup: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testGroup
-.PHONY : testGroup
+testDSFMap.valgrind: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testDSFMap.valgrind
+.PHONY : testDSFMap.valgrind
 
 # fast build rule for target.
-testGroup/fast:
-	$(MAKE) -f gtsam/base/tests/CMakeFiles/testGroup.dir/build.make gtsam/base/tests/CMakeFiles/testGroup.dir/build
-.PHONY : testGroup/fast
-
-#=============================================================================
-# Target rules for targets named testNumericalDerivative.valgrind
-
-# Build rule for target.
-testNumericalDerivative.valgrind: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testNumericalDerivative.valgrind
-.PHONY : testNumericalDerivative.valgrind
-
-# fast build rule for target.
-testNumericalDerivative.valgrind/fast:
-	$(MAKE) -f gtsam/base/tests/CMakeFiles/testNumericalDerivative.valgrind.dir/build.make gtsam/base/tests/CMakeFiles/testNumericalDerivative.valgrind.dir/build
-.PHONY : testNumericalDerivative.valgrind/fast
+testDSFMap.valgrind/fast:
+	$(MAKE) -f gtsam/base/tests/CMakeFiles/testDSFMap.valgrind.dir/build.make gtsam/base/tests/CMakeFiles/testDSFMap.valgrind.dir/build
+.PHONY : testDSFMap.valgrind/fast
 
 #=============================================================================
 # Target rules for targets named testGroup.run
@@ -840,17 +385,342 @@ testGroup.run/fast:
 .PHONY : testGroup.run/fast
 
 #=============================================================================
-# Target rules for targets named testSerializationBase.valgrind
+# Target rules for targets named testGroup
 
 # Build rule for target.
-testSerializationBase.valgrind: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testSerializationBase.valgrind
-.PHONY : testSerializationBase.valgrind
+testGroup: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testGroup
+.PHONY : testGroup
 
 # fast build rule for target.
-testSerializationBase.valgrind/fast:
-	$(MAKE) -f gtsam/base/tests/CMakeFiles/testSerializationBase.valgrind.dir/build.make gtsam/base/tests/CMakeFiles/testSerializationBase.valgrind.dir/build
-.PHONY : testSerializationBase.valgrind/fast
+testGroup/fast:
+	$(MAKE) -f gtsam/base/tests/CMakeFiles/testGroup.dir/build.make gtsam/base/tests/CMakeFiles/testGroup.dir/build
+.PHONY : testGroup/fast
+
+#=============================================================================
+# Target rules for targets named testOptionalJacobian
+
+# Build rule for target.
+testOptionalJacobian: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testOptionalJacobian
+.PHONY : testOptionalJacobian
+
+# fast build rule for target.
+testOptionalJacobian/fast:
+	$(MAKE) -f gtsam/base/tests/CMakeFiles/testOptionalJacobian.dir/build.make gtsam/base/tests/CMakeFiles/testOptionalJacobian.dir/build
+.PHONY : testOptionalJacobian/fast
+
+#=============================================================================
+# Target rules for targets named check.base
+
+# Build rule for target.
+check.base: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 check.base
+.PHONY : check.base
+
+# fast build rule for target.
+check.base/fast:
+	$(MAKE) -f gtsam/base/tests/CMakeFiles/check.base.dir/build.make gtsam/base/tests/CMakeFiles/check.base.dir/build
+.PHONY : check.base/fast
+
+#=============================================================================
+# Target rules for targets named testFastContainers.run
+
+# Build rule for target.
+testFastContainers.run: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testFastContainers.run
+.PHONY : testFastContainers.run
+
+# fast build rule for target.
+testFastContainers.run/fast:
+	$(MAKE) -f gtsam/base/tests/CMakeFiles/testFastContainers.run.dir/build.make gtsam/base/tests/CMakeFiles/testFastContainers.run.dir/build
+.PHONY : testFastContainers.run/fast
+
+#=============================================================================
+# Target rules for targets named testTestableAssertions.valgrind
+
+# Build rule for target.
+testTestableAssertions.valgrind: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testTestableAssertions.valgrind
+.PHONY : testTestableAssertions.valgrind
+
+# fast build rule for target.
+testTestableAssertions.valgrind/fast:
+	$(MAKE) -f gtsam/base/tests/CMakeFiles/testTestableAssertions.valgrind.dir/build.make gtsam/base/tests/CMakeFiles/testTestableAssertions.valgrind.dir/build
+.PHONY : testTestableAssertions.valgrind/fast
+
+#=============================================================================
+# Target rules for targets named testDebug
+
+# Build rule for target.
+testDebug: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testDebug
+.PHONY : testDebug
+
+# fast build rule for target.
+testDebug/fast:
+	$(MAKE) -f gtsam/base/tests/CMakeFiles/testDebug.dir/build.make gtsam/base/tests/CMakeFiles/testDebug.dir/build
+.PHONY : testDebug/fast
+
+#=============================================================================
+# Target rules for targets named testTreeTraversal
+
+# Build rule for target.
+testTreeTraversal: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testTreeTraversal
+.PHONY : testTreeTraversal
+
+# fast build rule for target.
+testTreeTraversal/fast:
+	$(MAKE) -f gtsam/base/tests/CMakeFiles/testTreeTraversal.dir/build.make gtsam/base/tests/CMakeFiles/testTreeTraversal.dir/build
+.PHONY : testTreeTraversal/fast
+
+#=============================================================================
+# Target rules for targets named testVector.valgrind
+
+# Build rule for target.
+testVector.valgrind: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testVector.valgrind
+.PHONY : testVector.valgrind
+
+# fast build rule for target.
+testVector.valgrind/fast:
+	$(MAKE) -f gtsam/base/tests/CMakeFiles/testVector.valgrind.dir/build.make gtsam/base/tests/CMakeFiles/testVector.valgrind.dir/build
+.PHONY : testVector.valgrind/fast
+
+#=============================================================================
+# Target rules for targets named testCholesky
+
+# Build rule for target.
+testCholesky: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testCholesky
+.PHONY : testCholesky
+
+# fast build rule for target.
+testCholesky/fast:
+	$(MAKE) -f gtsam/base/tests/CMakeFiles/testCholesky.dir/build.make gtsam/base/tests/CMakeFiles/testCholesky.dir/build
+.PHONY : testCholesky/fast
+
+#=============================================================================
+# Target rules for targets named testLieScalar.valgrind
+
+# Build rule for target.
+testLieScalar.valgrind: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testLieScalar.valgrind
+.PHONY : testLieScalar.valgrind
+
+# fast build rule for target.
+testLieScalar.valgrind/fast:
+	$(MAKE) -f gtsam/base/tests/CMakeFiles/testLieScalar.valgrind.dir/build.make gtsam/base/tests/CMakeFiles/testLieScalar.valgrind.dir/build
+.PHONY : testLieScalar.valgrind/fast
+
+#=============================================================================
+# Target rules for targets named testLieVector
+
+# Build rule for target.
+testLieVector: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testLieVector
+.PHONY : testLieVector
+
+# fast build rule for target.
+testLieVector/fast:
+	$(MAKE) -f gtsam/base/tests/CMakeFiles/testLieVector.dir/build.make gtsam/base/tests/CMakeFiles/testLieVector.dir/build
+.PHONY : testLieVector/fast
+
+#=============================================================================
+# Target rules for targets named testVector
+
+# Build rule for target.
+testVector: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testVector
+.PHONY : testVector
+
+# fast build rule for target.
+testVector/fast:
+	$(MAKE) -f gtsam/base/tests/CMakeFiles/testVector.dir/build.make gtsam/base/tests/CMakeFiles/testVector.dir/build
+.PHONY : testVector/fast
+
+#=============================================================================
+# Target rules for targets named testDSFMap
+
+# Build rule for target.
+testDSFMap: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testDSFMap
+.PHONY : testDSFMap
+
+# fast build rule for target.
+testDSFMap/fast:
+	$(MAKE) -f gtsam/base/tests/CMakeFiles/testDSFMap.dir/build.make gtsam/base/tests/CMakeFiles/testDSFMap.dir/build
+.PHONY : testDSFMap/fast
+
+#=============================================================================
+# Target rules for targets named testDSFVector.run
+
+# Build rule for target.
+testDSFVector.run: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testDSFVector.run
+.PHONY : testDSFVector.run
+
+# fast build rule for target.
+testDSFVector.run/fast:
+	$(MAKE) -f gtsam/base/tests/CMakeFiles/testDSFVector.run.dir/build.make gtsam/base/tests/CMakeFiles/testDSFVector.run.dir/build
+.PHONY : testDSFVector.run/fast
+
+#=============================================================================
+# Target rules for targets named testCholesky.valgrind
+
+# Build rule for target.
+testCholesky.valgrind: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testCholesky.valgrind
+.PHONY : testCholesky.valgrind
+
+# fast build rule for target.
+testCholesky.valgrind/fast:
+	$(MAKE) -f gtsam/base/tests/CMakeFiles/testCholesky.valgrind.dir/build.make gtsam/base/tests/CMakeFiles/testCholesky.valgrind.dir/build
+.PHONY : testCholesky.valgrind/fast
+
+#=============================================================================
+# Target rules for targets named testDSFVector
+
+# Build rule for target.
+testDSFVector: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testDSFVector
+.PHONY : testDSFVector
+
+# fast build rule for target.
+testDSFVector/fast:
+	$(MAKE) -f gtsam/base/tests/CMakeFiles/testDSFVector.dir/build.make gtsam/base/tests/CMakeFiles/testDSFVector.dir/build
+.PHONY : testDSFVector/fast
+
+#=============================================================================
+# Target rules for targets named testDebug.valgrind
+
+# Build rule for target.
+testDebug.valgrind: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testDebug.valgrind
+.PHONY : testDebug.valgrind
+
+# fast build rule for target.
+testDebug.valgrind/fast:
+	$(MAKE) -f gtsam/base/tests/CMakeFiles/testDebug.valgrind.dir/build.make gtsam/base/tests/CMakeFiles/testDebug.valgrind.dir/build
+.PHONY : testDebug.valgrind/fast
+
+#=============================================================================
+# Target rules for targets named testVerticalBlockMatrix.run
+
+# Build rule for target.
+testVerticalBlockMatrix.run: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testVerticalBlockMatrix.run
+.PHONY : testVerticalBlockMatrix.run
+
+# fast build rule for target.
+testVerticalBlockMatrix.run/fast:
+	$(MAKE) -f gtsam/base/tests/CMakeFiles/testVerticalBlockMatrix.run.dir/build.make gtsam/base/tests/CMakeFiles/testVerticalBlockMatrix.run.dir/build
+.PHONY : testVerticalBlockMatrix.run/fast
+
+#=============================================================================
+# Target rules for targets named testLieScalar
+
+# Build rule for target.
+testLieScalar: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testLieScalar
+.PHONY : testLieScalar
+
+# fast build rule for target.
+testLieScalar/fast:
+	$(MAKE) -f gtsam/base/tests/CMakeFiles/testLieScalar.dir/build.make gtsam/base/tests/CMakeFiles/testLieScalar.dir/build
+.PHONY : testLieScalar/fast
+
+#=============================================================================
+# Target rules for targets named testDSFVector.valgrind
+
+# Build rule for target.
+testDSFVector.valgrind: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testDSFVector.valgrind
+.PHONY : testDSFVector.valgrind
+
+# fast build rule for target.
+testDSFVector.valgrind/fast:
+	$(MAKE) -f gtsam/base/tests/CMakeFiles/testDSFVector.valgrind.dir/build.make gtsam/base/tests/CMakeFiles/testDSFVector.valgrind.dir/build
+.PHONY : testDSFVector.valgrind/fast
+
+#=============================================================================
+# Target rules for targets named testSerializationBase
+
+# Build rule for target.
+testSerializationBase: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testSerializationBase
+.PHONY : testSerializationBase
+
+# fast build rule for target.
+testSerializationBase/fast:
+	$(MAKE) -f gtsam/base/tests/CMakeFiles/testSerializationBase.dir/build.make gtsam/base/tests/CMakeFiles/testSerializationBase.dir/build
+.PHONY : testSerializationBase/fast
+
+#=============================================================================
+# Target rules for targets named testVerticalBlockMatrix.valgrind
+
+# Build rule for target.
+testVerticalBlockMatrix.valgrind: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testVerticalBlockMatrix.valgrind
+.PHONY : testVerticalBlockMatrix.valgrind
+
+# fast build rule for target.
+testVerticalBlockMatrix.valgrind/fast:
+	$(MAKE) -f gtsam/base/tests/CMakeFiles/testVerticalBlockMatrix.valgrind.dir/build.make gtsam/base/tests/CMakeFiles/testVerticalBlockMatrix.valgrind.dir/build
+.PHONY : testVerticalBlockMatrix.valgrind/fast
+
+#=============================================================================
+# Target rules for targets named testLieVector.run
+
+# Build rule for target.
+testLieVector.run: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testLieVector.run
+.PHONY : testLieVector.run
+
+# fast build rule for target.
+testLieVector.run/fast:
+	$(MAKE) -f gtsam/base/tests/CMakeFiles/testLieVector.run.dir/build.make gtsam/base/tests/CMakeFiles/testLieVector.run.dir/build
+.PHONY : testLieVector.run/fast
+
+#=============================================================================
+# Target rules for targets named testDebug.run
+
+# Build rule for target.
+testDebug.run: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testDebug.run
+.PHONY : testDebug.run
+
+# fast build rule for target.
+testDebug.run/fast:
+	$(MAKE) -f gtsam/base/tests/CMakeFiles/testDebug.run.dir/build.make gtsam/base/tests/CMakeFiles/testDebug.run.dir/build
+.PHONY : testDebug.run/fast
+
+#=============================================================================
+# Target rules for targets named testTreeTraversal.valgrind
+
+# Build rule for target.
+testTreeTraversal.valgrind: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testTreeTraversal.valgrind
+.PHONY : testTreeTraversal.valgrind
+
+# fast build rule for target.
+testTreeTraversal.valgrind/fast:
+	$(MAKE) -f gtsam/base/tests/CMakeFiles/testTreeTraversal.valgrind.dir/build.make gtsam/base/tests/CMakeFiles/testTreeTraversal.valgrind.dir/build
+.PHONY : testTreeTraversal.valgrind/fast
+
+#=============================================================================
+# Target rules for targets named testLieMatrix.run
+
+# Build rule for target.
+testLieMatrix.run: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testLieMatrix.run
+.PHONY : testLieMatrix.run
+
+# fast build rule for target.
+testLieMatrix.run/fast:
+	$(MAKE) -f gtsam/base/tests/CMakeFiles/testLieMatrix.run.dir/build.make gtsam/base/tests/CMakeFiles/testLieMatrix.run.dir/build
+.PHONY : testLieMatrix.run/fast
 
 #=============================================================================
 # Target rules for targets named testMatrix.valgrind
@@ -866,6 +736,45 @@ testMatrix.valgrind/fast:
 .PHONY : testMatrix.valgrind/fast
 
 #=============================================================================
+# Target rules for targets named testSerializationBase.valgrind
+
+# Build rule for target.
+testSerializationBase.valgrind: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testSerializationBase.valgrind
+.PHONY : testSerializationBase.valgrind
+
+# fast build rule for target.
+testSerializationBase.valgrind/fast:
+	$(MAKE) -f gtsam/base/tests/CMakeFiles/testSerializationBase.valgrind.dir/build.make gtsam/base/tests/CMakeFiles/testSerializationBase.valgrind.dir/build
+.PHONY : testSerializationBase.valgrind/fast
+
+#=============================================================================
+# Target rules for targets named testSerializationBase.run
+
+# Build rule for target.
+testSerializationBase.run: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testSerializationBase.run
+.PHONY : testSerializationBase.run
+
+# fast build rule for target.
+testSerializationBase.run/fast:
+	$(MAKE) -f gtsam/base/tests/CMakeFiles/testSerializationBase.run.dir/build.make gtsam/base/tests/CMakeFiles/testSerializationBase.run.dir/build
+.PHONY : testSerializationBase.run/fast
+
+#=============================================================================
+# Target rules for targets named testVerticalBlockMatrix
+
+# Build rule for target.
+testVerticalBlockMatrix: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testVerticalBlockMatrix
+.PHONY : testVerticalBlockMatrix
+
+# fast build rule for target.
+testVerticalBlockMatrix/fast:
+	$(MAKE) -f gtsam/base/tests/CMakeFiles/testVerticalBlockMatrix.dir/build.make gtsam/base/tests/CMakeFiles/testVerticalBlockMatrix.dir/build
+.PHONY : testVerticalBlockMatrix/fast
+
+#=============================================================================
 # Target rules for targets named testNumericalDerivative.run
 
 # Build rule for target.
@@ -877,6 +786,19 @@ testNumericalDerivative.run: cmake_check_build_system
 testNumericalDerivative.run/fast:
 	$(MAKE) -f gtsam/base/tests/CMakeFiles/testNumericalDerivative.run.dir/build.make gtsam/base/tests/CMakeFiles/testNumericalDerivative.run.dir/build
 .PHONY : testNumericalDerivative.run/fast
+
+#=============================================================================
+# Target rules for targets named testNumericalDerivative.valgrind
+
+# Build rule for target.
+testNumericalDerivative.valgrind: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testNumericalDerivative.valgrind
+.PHONY : testNumericalDerivative.valgrind
+
+# fast build rule for target.
+testNumericalDerivative.valgrind/fast:
+	$(MAKE) -f gtsam/base/tests/CMakeFiles/testNumericalDerivative.valgrind.dir/build.make gtsam/base/tests/CMakeFiles/testNumericalDerivative.valgrind.dir/build
+.PHONY : testNumericalDerivative.valgrind/fast
 
 #=============================================================================
 # Target rules for targets named testOptionalJacobian.run
@@ -905,17 +827,238 @@ testOptionalJacobian.valgrind/fast:
 .PHONY : testOptionalJacobian.valgrind/fast
 
 #=============================================================================
-# Target rules for targets named testParameterMatrix
+# Target rules for targets named testCholesky.run
 
 # Build rule for target.
-testParameterMatrix: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testParameterMatrix
-.PHONY : testParameterMatrix
+testCholesky.run: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testCholesky.run
+.PHONY : testCholesky.run
 
 # fast build rule for target.
-testParameterMatrix/fast:
-	$(MAKE) -f gtsam/basis/tests/CMakeFiles/testParameterMatrix.dir/build.make gtsam/basis/tests/CMakeFiles/testParameterMatrix.dir/build
-.PHONY : testParameterMatrix/fast
+testCholesky.run/fast:
+	$(MAKE) -f gtsam/base/tests/CMakeFiles/testCholesky.run.dir/build.make gtsam/base/tests/CMakeFiles/testCholesky.run.dir/build
+.PHONY : testCholesky.run/fast
+
+#=============================================================================
+# Target rules for targets named testNumericalDerivative
+
+# Build rule for target.
+testNumericalDerivative: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testNumericalDerivative
+.PHONY : testNumericalDerivative
+
+# fast build rule for target.
+testNumericalDerivative/fast:
+	$(MAKE) -f gtsam/base/tests/CMakeFiles/testNumericalDerivative.dir/build.make gtsam/base/tests/CMakeFiles/testNumericalDerivative.dir/build
+.PHONY : testNumericalDerivative/fast
+
+#=============================================================================
+# Target rules for targets named testSymmetricBlockMatrix
+
+# Build rule for target.
+testSymmetricBlockMatrix: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testSymmetricBlockMatrix
+.PHONY : testSymmetricBlockMatrix
+
+# fast build rule for target.
+testSymmetricBlockMatrix/fast:
+	$(MAKE) -f gtsam/base/tests/CMakeFiles/testSymmetricBlockMatrix.dir/build.make gtsam/base/tests/CMakeFiles/testSymmetricBlockMatrix.dir/build
+.PHONY : testSymmetricBlockMatrix/fast
+
+#=============================================================================
+# Target rules for targets named testLieScalar.run
+
+# Build rule for target.
+testLieScalar.run: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testLieScalar.run
+.PHONY : testLieScalar.run
+
+# fast build rule for target.
+testLieScalar.run/fast:
+	$(MAKE) -f gtsam/base/tests/CMakeFiles/testLieScalar.run.dir/build.make gtsam/base/tests/CMakeFiles/testLieScalar.run.dir/build
+.PHONY : testLieScalar.run/fast
+
+#=============================================================================
+# Target rules for targets named testSymmetricBlockMatrix.run
+
+# Build rule for target.
+testSymmetricBlockMatrix.run: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testSymmetricBlockMatrix.run
+.PHONY : testSymmetricBlockMatrix.run
+
+# fast build rule for target.
+testSymmetricBlockMatrix.run/fast:
+	$(MAKE) -f gtsam/base/tests/CMakeFiles/testSymmetricBlockMatrix.run.dir/build.make gtsam/base/tests/CMakeFiles/testSymmetricBlockMatrix.run.dir/build
+.PHONY : testSymmetricBlockMatrix.run/fast
+
+#=============================================================================
+# Target rules for targets named testGroup.valgrind
+
+# Build rule for target.
+testGroup.valgrind: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testGroup.valgrind
+.PHONY : testGroup.valgrind
+
+# fast build rule for target.
+testGroup.valgrind/fast:
+	$(MAKE) -f gtsam/base/tests/CMakeFiles/testGroup.valgrind.dir/build.make gtsam/base/tests/CMakeFiles/testGroup.valgrind.dir/build
+.PHONY : testGroup.valgrind/fast
+
+#=============================================================================
+# Target rules for targets named testSymmetricBlockMatrix.valgrind
+
+# Build rule for target.
+testSymmetricBlockMatrix.valgrind: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testSymmetricBlockMatrix.valgrind
+.PHONY : testSymmetricBlockMatrix.valgrind
+
+# fast build rule for target.
+testSymmetricBlockMatrix.valgrind/fast:
+	$(MAKE) -f gtsam/base/tests/CMakeFiles/testSymmetricBlockMatrix.valgrind.dir/build.make gtsam/base/tests/CMakeFiles/testSymmetricBlockMatrix.valgrind.dir/build
+.PHONY : testSymmetricBlockMatrix.valgrind/fast
+
+#=============================================================================
+# Target rules for targets named testTestableAssertions
+
+# Build rule for target.
+testTestableAssertions: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testTestableAssertions
+.PHONY : testTestableAssertions
+
+# fast build rule for target.
+testTestableAssertions/fast:
+	$(MAKE) -f gtsam/base/tests/CMakeFiles/testTestableAssertions.dir/build.make gtsam/base/tests/CMakeFiles/testTestableAssertions.dir/build
+.PHONY : testTestableAssertions/fast
+
+#=============================================================================
+# Target rules for targets named testTreeTraversal.run
+
+# Build rule for target.
+testTreeTraversal.run: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testTreeTraversal.run
+.PHONY : testTreeTraversal.run
+
+# fast build rule for target.
+testTreeTraversal.run/fast:
+	$(MAKE) -f gtsam/base/tests/CMakeFiles/testTreeTraversal.run.dir/build.make gtsam/base/tests/CMakeFiles/testTreeTraversal.run.dir/build
+.PHONY : testTreeTraversal.run/fast
+
+#=============================================================================
+# Target rules for targets named testFastContainers
+
+# Build rule for target.
+testFastContainers: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testFastContainers
+.PHONY : testFastContainers
+
+# fast build rule for target.
+testFastContainers/fast:
+	$(MAKE) -f gtsam/base/tests/CMakeFiles/testFastContainers.dir/build.make gtsam/base/tests/CMakeFiles/testFastContainers.dir/build
+.PHONY : testFastContainers/fast
+
+#=============================================================================
+# Target rules for targets named testDSFMap.run
+
+# Build rule for target.
+testDSFMap.run: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testDSFMap.run
+.PHONY : testDSFMap.run
+
+# fast build rule for target.
+testDSFMap.run/fast:
+	$(MAKE) -f gtsam/base/tests/CMakeFiles/testDSFMap.run.dir/build.make gtsam/base/tests/CMakeFiles/testDSFMap.run.dir/build
+.PHONY : testDSFMap.run/fast
+
+#=============================================================================
+# Target rules for targets named testMatrix
+
+# Build rule for target.
+testMatrix: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testMatrix
+.PHONY : testMatrix
+
+# fast build rule for target.
+testMatrix/fast:
+	$(MAKE) -f gtsam/base/tests/CMakeFiles/testMatrix.dir/build.make gtsam/base/tests/CMakeFiles/testMatrix.dir/build
+.PHONY : testMatrix/fast
+
+#=============================================================================
+# Target rules for targets named testTestableAssertions.run
+
+# Build rule for target.
+testTestableAssertions.run: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testTestableAssertions.run
+.PHONY : testTestableAssertions.run
+
+# fast build rule for target.
+testTestableAssertions.run/fast:
+	$(MAKE) -f gtsam/base/tests/CMakeFiles/testTestableAssertions.run.dir/build.make gtsam/base/tests/CMakeFiles/testTestableAssertions.run.dir/build
+.PHONY : testTestableAssertions.run/fast
+
+#=============================================================================
+# Target rules for targets named testMatrix.run
+
+# Build rule for target.
+testMatrix.run: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testMatrix.run
+.PHONY : testMatrix.run
+
+# fast build rule for target.
+testMatrix.run/fast:
+	$(MAKE) -f gtsam/base/tests/CMakeFiles/testMatrix.run.dir/build.make gtsam/base/tests/CMakeFiles/testMatrix.run.dir/build
+.PHONY : testMatrix.run/fast
+
+#=============================================================================
+# Target rules for targets named testVector.run
+
+# Build rule for target.
+testVector.run: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testVector.run
+.PHONY : testVector.run
+
+# fast build rule for target.
+testVector.run/fast:
+	$(MAKE) -f gtsam/base/tests/CMakeFiles/testVector.run.dir/build.make gtsam/base/tests/CMakeFiles/testVector.run.dir/build
+.PHONY : testVector.run/fast
+
+#=============================================================================
+# Target rules for targets named testWeightedSampler.valgrind
+
+# Build rule for target.
+testWeightedSampler.valgrind: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testWeightedSampler.valgrind
+.PHONY : testWeightedSampler.valgrind
+
+# fast build rule for target.
+testWeightedSampler.valgrind/fast:
+	$(MAKE) -f gtsam/base/tests/CMakeFiles/testWeightedSampler.valgrind.dir/build.make gtsam/base/tests/CMakeFiles/testWeightedSampler.valgrind.dir/build
+.PHONY : testWeightedSampler.valgrind/fast
+
+#=============================================================================
+# Target rules for targets named testWeightedSampler
+
+# Build rule for target.
+testWeightedSampler: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testWeightedSampler
+.PHONY : testWeightedSampler
+
+# fast build rule for target.
+testWeightedSampler/fast:
+	$(MAKE) -f gtsam/base/tests/CMakeFiles/testWeightedSampler.dir/build.make gtsam/base/tests/CMakeFiles/testWeightedSampler.dir/build
+.PHONY : testWeightedSampler/fast
+
+#=============================================================================
+# Target rules for targets named testWeightedSampler.run
+
+# Build rule for target.
+testWeightedSampler.run: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testWeightedSampler.run
+.PHONY : testWeightedSampler.run
+
+# fast build rule for target.
+testWeightedSampler.run/fast:
+	$(MAKE) -f gtsam/base/tests/CMakeFiles/testWeightedSampler.run.dir/build.make gtsam/base/tests/CMakeFiles/testWeightedSampler.run.dir/build
+.PHONY : testWeightedSampler.run/fast
 
 #=============================================================================
 # Target rules for targets named check.basis
@@ -931,82 +1074,17 @@ check.basis/fast:
 .PHONY : check.basis/fast
 
 #=============================================================================
-# Target rules for targets named testBasisFactors
+# Target rules for targets named testParameterMatrix
 
 # Build rule for target.
-testBasisFactors: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testBasisFactors
-.PHONY : testBasisFactors
+testParameterMatrix: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testParameterMatrix
+.PHONY : testParameterMatrix
 
 # fast build rule for target.
-testBasisFactors/fast:
-	$(MAKE) -f gtsam/basis/tests/CMakeFiles/testBasisFactors.dir/build.make gtsam/basis/tests/CMakeFiles/testBasisFactors.dir/build
-.PHONY : testBasisFactors/fast
-
-#=============================================================================
-# Target rules for targets named testChebyshev2.valgrind
-
-# Build rule for target.
-testChebyshev2.valgrind: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testChebyshev2.valgrind
-.PHONY : testChebyshev2.valgrind
-
-# fast build rule for target.
-testChebyshev2.valgrind/fast:
-	$(MAKE) -f gtsam/basis/tests/CMakeFiles/testChebyshev2.valgrind.dir/build.make gtsam/basis/tests/CMakeFiles/testChebyshev2.valgrind.dir/build
-.PHONY : testChebyshev2.valgrind/fast
-
-#=============================================================================
-# Target rules for targets named testBasisFactors.run
-
-# Build rule for target.
-testBasisFactors.run: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testBasisFactors.run
-.PHONY : testBasisFactors.run
-
-# fast build rule for target.
-testBasisFactors.run/fast:
-	$(MAKE) -f gtsam/basis/tests/CMakeFiles/testBasisFactors.run.dir/build.make gtsam/basis/tests/CMakeFiles/testBasisFactors.run.dir/build
-.PHONY : testBasisFactors.run/fast
-
-#=============================================================================
-# Target rules for targets named testFourier.valgrind
-
-# Build rule for target.
-testFourier.valgrind: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testFourier.valgrind
-.PHONY : testFourier.valgrind
-
-# fast build rule for target.
-testFourier.valgrind/fast:
-	$(MAKE) -f gtsam/basis/tests/CMakeFiles/testFourier.valgrind.dir/build.make gtsam/basis/tests/CMakeFiles/testFourier.valgrind.dir/build
-.PHONY : testFourier.valgrind/fast
-
-#=============================================================================
-# Target rules for targets named testBasisFactors.valgrind
-
-# Build rule for target.
-testBasisFactors.valgrind: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testBasisFactors.valgrind
-.PHONY : testBasisFactors.valgrind
-
-# fast build rule for target.
-testBasisFactors.valgrind/fast:
-	$(MAKE) -f gtsam/basis/tests/CMakeFiles/testBasisFactors.valgrind.dir/build.make gtsam/basis/tests/CMakeFiles/testBasisFactors.valgrind.dir/build
-.PHONY : testBasisFactors.valgrind/fast
-
-#=============================================================================
-# Target rules for targets named testChebyshev2
-
-# Build rule for target.
-testChebyshev2: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testChebyshev2
-.PHONY : testChebyshev2
-
-# fast build rule for target.
-testChebyshev2/fast:
-	$(MAKE) -f gtsam/basis/tests/CMakeFiles/testChebyshev2.dir/build.make gtsam/basis/tests/CMakeFiles/testChebyshev2.dir/build
-.PHONY : testChebyshev2/fast
+testParameterMatrix/fast:
+	$(MAKE) -f gtsam/basis/tests/CMakeFiles/testParameterMatrix.dir/build.make gtsam/basis/tests/CMakeFiles/testParameterMatrix.dir/build
+.PHONY : testParameterMatrix/fast
 
 #=============================================================================
 # Target rules for targets named testChebyshev
@@ -1048,17 +1126,30 @@ testChebyshev.valgrind/fast:
 .PHONY : testChebyshev.valgrind/fast
 
 #=============================================================================
-# Target rules for targets named testParameterMatrix.run
+# Target rules for targets named testChebyshev2
 
 # Build rule for target.
-testParameterMatrix.run: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testParameterMatrix.run
-.PHONY : testParameterMatrix.run
+testChebyshev2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testChebyshev2
+.PHONY : testChebyshev2
 
 # fast build rule for target.
-testParameterMatrix.run/fast:
-	$(MAKE) -f gtsam/basis/tests/CMakeFiles/testParameterMatrix.run.dir/build.make gtsam/basis/tests/CMakeFiles/testParameterMatrix.run.dir/build
-.PHONY : testParameterMatrix.run/fast
+testChebyshev2/fast:
+	$(MAKE) -f gtsam/basis/tests/CMakeFiles/testChebyshev2.dir/build.make gtsam/basis/tests/CMakeFiles/testChebyshev2.dir/build
+.PHONY : testChebyshev2/fast
+
+#=============================================================================
+# Target rules for targets named testChebyshev2.valgrind
+
+# Build rule for target.
+testChebyshev2.valgrind: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testChebyshev2.valgrind
+.PHONY : testChebyshev2.valgrind
+
+# fast build rule for target.
+testChebyshev2.valgrind/fast:
+	$(MAKE) -f gtsam/basis/tests/CMakeFiles/testChebyshev2.valgrind.dir/build.make gtsam/basis/tests/CMakeFiles/testChebyshev2.valgrind.dir/build
+.PHONY : testChebyshev2.valgrind/fast
 
 #=============================================================================
 # Target rules for targets named testChebyshev2.run
@@ -1072,6 +1163,19 @@ testChebyshev2.run: cmake_check_build_system
 testChebyshev2.run/fast:
 	$(MAKE) -f gtsam/basis/tests/CMakeFiles/testChebyshev2.run.dir/build.make gtsam/basis/tests/CMakeFiles/testChebyshev2.run.dir/build
 .PHONY : testChebyshev2.run/fast
+
+#=============================================================================
+# Target rules for targets named testParameterMatrix.run
+
+# Build rule for target.
+testParameterMatrix.run: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testParameterMatrix.run
+.PHONY : testParameterMatrix.run
+
+# fast build rule for target.
+testParameterMatrix.run/fast:
+	$(MAKE) -f gtsam/basis/tests/CMakeFiles/testParameterMatrix.run.dir/build.make gtsam/basis/tests/CMakeFiles/testParameterMatrix.run.dir/build
+.PHONY : testParameterMatrix.run/fast
 
 #=============================================================================
 # Target rules for targets named testFourier
@@ -1111,6 +1215,45 @@ testFourier.run: cmake_check_build_system
 testFourier.run/fast:
 	$(MAKE) -f gtsam/basis/tests/CMakeFiles/testFourier.run.dir/build.make gtsam/basis/tests/CMakeFiles/testFourier.run.dir/build
 .PHONY : testFourier.run/fast
+
+#=============================================================================
+# Target rules for targets named testFourier.valgrind
+
+# Build rule for target.
+testFourier.valgrind: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testFourier.valgrind
+.PHONY : testFourier.valgrind
+
+# fast build rule for target.
+testFourier.valgrind/fast:
+	$(MAKE) -f gtsam/basis/tests/CMakeFiles/testFourier.valgrind.dir/build.make gtsam/basis/tests/CMakeFiles/testFourier.valgrind.dir/build
+.PHONY : testFourier.valgrind/fast
+
+#=============================================================================
+# Target rules for targets named testUtilities.valgrind
+
+# Build rule for target.
+testUtilities.valgrind: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testUtilities.valgrind
+.PHONY : testUtilities.valgrind
+
+# fast build rule for target.
+testUtilities.valgrind/fast:
+	$(MAKE) -f gtsam/geometry/tests/CMakeFiles/testUtilities.valgrind.dir/build.make gtsam/geometry/tests/CMakeFiles/testUtilities.valgrind.dir/build
+.PHONY : testUtilities.valgrind/fast
+
+#=============================================================================
+# Target rules for targets named testUtilities
+
+# Build rule for target.
+testUtilities: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testUtilities
+.PHONY : testUtilities
+
+# fast build rule for target.
+testUtilities/fast:
+	$(MAKE) -f gtsam/geometry/tests/CMakeFiles/testUtilities.dir/build.make gtsam/geometry/tests/CMakeFiles/testUtilities.dir/build
+.PHONY : testUtilities/fast
 
 #=============================================================================
 # Target rules for targets named testUnit3.run
@@ -1165,6 +1308,19 @@ testStereoPoint2.valgrind/fast:
 .PHONY : testStereoPoint2.valgrind/fast
 
 #=============================================================================
+# Target rules for targets named testStereoCamera.valgrind
+
+# Build rule for target.
+testStereoCamera.valgrind: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testStereoCamera.valgrind
+.PHONY : testStereoCamera.valgrind
+
+# fast build rule for target.
+testStereoCamera.valgrind/fast:
+	$(MAKE) -f gtsam/geometry/tests/CMakeFiles/testStereoCamera.valgrind.dir/build.make gtsam/geometry/tests/CMakeFiles/testStereoCamera.valgrind.dir/build
+.PHONY : testStereoCamera.valgrind/fast
+
+#=============================================================================
 # Target rules for targets named testStereoCamera.run
 
 # Build rule for target.
@@ -1204,19 +1360,6 @@ testSimpleCamera/fast:
 .PHONY : testSimpleCamera/fast
 
 #=============================================================================
-# Target rules for targets named testSphericalCamera
-
-# Build rule for target.
-testSphericalCamera: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testSphericalCamera
-.PHONY : testSphericalCamera
-
-# fast build rule for target.
-testSphericalCamera/fast:
-	$(MAKE) -f gtsam/geometry/tests/CMakeFiles/testSphericalCamera.dir/build.make gtsam/geometry/tests/CMakeFiles/testSphericalCamera.dir/build
-.PHONY : testSphericalCamera/fast
-
-#=============================================================================
 # Target rules for targets named testSimilarity3.run
 
 # Build rule for target.
@@ -1228,45 +1371,6 @@ testSimilarity3.run: cmake_check_build_system
 testSimilarity3.run/fast:
 	$(MAKE) -f gtsam/geometry/tests/CMakeFiles/testSimilarity3.run.dir/build.make gtsam/geometry/tests/CMakeFiles/testSimilarity3.run.dir/build
 .PHONY : testSimilarity3.run/fast
-
-#=============================================================================
-# Target rules for targets named testSimilarity2.valgrind
-
-# Build rule for target.
-testSimilarity2.valgrind: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testSimilarity2.valgrind
-.PHONY : testSimilarity2.valgrind
-
-# fast build rule for target.
-testSimilarity2.valgrind/fast:
-	$(MAKE) -f gtsam/geometry/tests/CMakeFiles/testSimilarity2.valgrind.dir/build.make gtsam/geometry/tests/CMakeFiles/testSimilarity2.valgrind.dir/build
-.PHONY : testSimilarity2.valgrind/fast
-
-#=============================================================================
-# Target rules for targets named testStereoCamera.valgrind
-
-# Build rule for target.
-testStereoCamera.valgrind: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testStereoCamera.valgrind
-.PHONY : testStereoCamera.valgrind
-
-# fast build rule for target.
-testStereoCamera.valgrind/fast:
-	$(MAKE) -f gtsam/geometry/tests/CMakeFiles/testStereoCamera.valgrind.dir/build.make gtsam/geometry/tests/CMakeFiles/testStereoCamera.valgrind.dir/build
-.PHONY : testStereoCamera.valgrind/fast
-
-#=============================================================================
-# Target rules for targets named testSimilarity2
-
-# Build rule for target.
-testSimilarity2: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testSimilarity2
-.PHONY : testSimilarity2
-
-# fast build rule for target.
-testSimilarity2/fast:
-	$(MAKE) -f gtsam/geometry/tests/CMakeFiles/testSimilarity2.dir/build.make gtsam/geometry/tests/CMakeFiles/testSimilarity2.dir/build
-.PHONY : testSimilarity2/fast
 
 #=============================================================================
 # Target rules for targets named testUnit3.valgrind
@@ -1293,6 +1397,19 @@ testSerializationGeometry.valgrind: cmake_check_build_system
 testSerializationGeometry.valgrind/fast:
 	$(MAKE) -f gtsam/geometry/tests/CMakeFiles/testSerializationGeometry.valgrind.dir/build.make gtsam/geometry/tests/CMakeFiles/testSerializationGeometry.valgrind.dir/build
 .PHONY : testSerializationGeometry.valgrind/fast
+
+#=============================================================================
+# Target rules for targets named testUtilities.run
+
+# Build rule for target.
+testUtilities.run: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testUtilities.run
+.PHONY : testUtilities.run
+
+# fast build rule for target.
+testUtilities.run/fast:
+	$(MAKE) -f gtsam/geometry/tests/CMakeFiles/testUtilities.run.dir/build.make gtsam/geometry/tests/CMakeFiles/testUtilities.run.dir/build
+.PHONY : testUtilities.run/fast
 
 #=============================================================================
 # Target rules for targets named testSerializationGeometry.run
@@ -1451,19 +1568,6 @@ testRot3.run/fast:
 .PHONY : testRot3.run/fast
 
 #=============================================================================
-# Target rules for targets named testSphericalCamera.run
-
-# Build rule for target.
-testSphericalCamera.run: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testSphericalCamera.run
-.PHONY : testSphericalCamera.run
-
-# fast build rule for target.
-testSphericalCamera.run/fast:
-	$(MAKE) -f gtsam/geometry/tests/CMakeFiles/testSphericalCamera.run.dir/build.make gtsam/geometry/tests/CMakeFiles/testSphericalCamera.run.dir/build
-.PHONY : testSphericalCamera.run/fast
-
-#=============================================================================
 # Target rules for targets named testRot2.valgrind
 
 # Build rule for target.
@@ -1605,19 +1709,6 @@ testEssentialMatrix: cmake_check_build_system
 testEssentialMatrix/fast:
 	$(MAKE) -f gtsam/geometry/tests/CMakeFiles/testEssentialMatrix.dir/build.make gtsam/geometry/tests/CMakeFiles/testEssentialMatrix.dir/build
 .PHONY : testEssentialMatrix/fast
-
-#=============================================================================
-# Target rules for targets named testSphericalCamera.valgrind
-
-# Build rule for target.
-testSphericalCamera.valgrind: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testSphericalCamera.valgrind
-.PHONY : testSphericalCamera.valgrind
-
-# fast build rule for target.
-testSphericalCamera.valgrind/fast:
-	$(MAKE) -f gtsam/geometry/tests/CMakeFiles/testSphericalCamera.valgrind.dir/build.make gtsam/geometry/tests/CMakeFiles/testSphericalCamera.valgrind.dir/build
-.PHONY : testSphericalCamera.valgrind/fast
 
 #=============================================================================
 # Target rules for targets named testCameraSet.valgrind
@@ -2333,19 +2424,6 @@ testOrientedPlane3.valgrind: cmake_check_build_system
 testOrientedPlane3.valgrind/fast:
 	$(MAKE) -f gtsam/geometry/tests/CMakeFiles/testOrientedPlane3.valgrind.dir/build.make gtsam/geometry/tests/CMakeFiles/testOrientedPlane3.valgrind.dir/build
 .PHONY : testOrientedPlane3.valgrind/fast
-
-#=============================================================================
-# Target rules for targets named testSimilarity2.run
-
-# Build rule for target.
-testSimilarity2.run: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testSimilarity2.run
-.PHONY : testSimilarity2.run
-
-# fast build rule for target.
-testSimilarity2.run/fast:
-	$(MAKE) -f gtsam/geometry/tests/CMakeFiles/testSimilarity2.run.dir/build.make gtsam/geometry/tests/CMakeFiles/testSimilarity2.run.dir/build
-.PHONY : testSimilarity2.run/fast
 
 #=============================================================================
 # Target rules for targets named testPinholeCamera
@@ -3193,82 +3271,17 @@ testSignature.run/fast:
 .PHONY : testSignature.run/fast
 
 #=============================================================================
-# Target rules for targets named testSignature
+# Target rules for targets named testDiscreteFactorGraph.run
 
 # Build rule for target.
-testSignature: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testSignature
-.PHONY : testSignature
+testDiscreteFactorGraph.run: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testDiscreteFactorGraph.run
+.PHONY : testDiscreteFactorGraph.run
 
 # fast build rule for target.
-testSignature/fast:
-	$(MAKE) -f gtsam/discrete/tests/CMakeFiles/testSignature.dir/build.make gtsam/discrete/tests/CMakeFiles/testSignature.dir/build
-.PHONY : testSignature/fast
-
-#=============================================================================
-# Target rules for targets named testDiscreteMarginals.valgrind
-
-# Build rule for target.
-testDiscreteMarginals.valgrind: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testDiscreteMarginals.valgrind
-.PHONY : testDiscreteMarginals.valgrind
-
-# fast build rule for target.
-testDiscreteMarginals.valgrind/fast:
-	$(MAKE) -f gtsam/discrete/tests/CMakeFiles/testDiscreteMarginals.valgrind.dir/build.make gtsam/discrete/tests/CMakeFiles/testDiscreteMarginals.valgrind.dir/build
-.PHONY : testDiscreteMarginals.valgrind/fast
-
-#=============================================================================
-# Target rules for targets named testDiscreteMarginals.run
-
-# Build rule for target.
-testDiscreteMarginals.run: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testDiscreteMarginals.run
-.PHONY : testDiscreteMarginals.run
-
-# fast build rule for target.
-testDiscreteMarginals.run/fast:
-	$(MAKE) -f gtsam/discrete/tests/CMakeFiles/testDiscreteMarginals.run.dir/build.make gtsam/discrete/tests/CMakeFiles/testDiscreteMarginals.run.dir/build
-.PHONY : testDiscreteMarginals.run/fast
-
-#=============================================================================
-# Target rules for targets named testDiscreteMarginals
-
-# Build rule for target.
-testDiscreteMarginals: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testDiscreteMarginals
-.PHONY : testDiscreteMarginals
-
-# fast build rule for target.
-testDiscreteMarginals/fast:
-	$(MAKE) -f gtsam/discrete/tests/CMakeFiles/testDiscreteMarginals.dir/build.make gtsam/discrete/tests/CMakeFiles/testDiscreteMarginals.dir/build
-.PHONY : testDiscreteMarginals/fast
-
-#=============================================================================
-# Target rules for targets named testDiscreteLookupDAG.run
-
-# Build rule for target.
-testDiscreteLookupDAG.run: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testDiscreteLookupDAG.run
-.PHONY : testDiscreteLookupDAG.run
-
-# fast build rule for target.
-testDiscreteLookupDAG.run/fast:
-	$(MAKE) -f gtsam/discrete/tests/CMakeFiles/testDiscreteLookupDAG.run.dir/build.make gtsam/discrete/tests/CMakeFiles/testDiscreteLookupDAG.run.dir/build
-.PHONY : testDiscreteLookupDAG.run/fast
-
-#=============================================================================
-# Target rules for targets named testDiscreteValues.run
-
-# Build rule for target.
-testDiscreteValues.run: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testDiscreteValues.run
-.PHONY : testDiscreteValues.run
-
-# fast build rule for target.
-testDiscreteValues.run/fast:
-	$(MAKE) -f gtsam/discrete/tests/CMakeFiles/testDiscreteValues.run.dir/build.make gtsam/discrete/tests/CMakeFiles/testDiscreteValues.run.dir/build
-.PHONY : testDiscreteValues.run/fast
+testDiscreteFactorGraph.run/fast:
+	$(MAKE) -f gtsam/discrete/tests/CMakeFiles/testDiscreteFactorGraph.run.dir/build.make gtsam/discrete/tests/CMakeFiles/testDiscreteFactorGraph.run.dir/build
+.PHONY : testDiscreteFactorGraph.run/fast
 
 #=============================================================================
 # Target rules for targets named testDecisionTreeFactor
@@ -3282,19 +3295,6 @@ testDecisionTreeFactor: cmake_check_build_system
 testDecisionTreeFactor/fast:
 	$(MAKE) -f gtsam/discrete/tests/CMakeFiles/testDecisionTreeFactor.dir/build.make gtsam/discrete/tests/CMakeFiles/testDecisionTreeFactor.dir/build
 .PHONY : testDecisionTreeFactor/fast
-
-#=============================================================================
-# Target rules for targets named testDiscreteValues.valgrind
-
-# Build rule for target.
-testDiscreteValues.valgrind: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testDiscreteValues.valgrind
-.PHONY : testDiscreteValues.valgrind
-
-# fast build rule for target.
-testDiscreteValues.valgrind/fast:
-	$(MAKE) -f gtsam/discrete/tests/CMakeFiles/testDiscreteValues.valgrind.dir/build.make gtsam/discrete/tests/CMakeFiles/testDiscreteValues.valgrind.dir/build
-.PHONY : testDiscreteValues.valgrind/fast
 
 #=============================================================================
 # Target rules for targets named testAlgebraicDecisionTree.run
@@ -3360,19 +3360,6 @@ testDecisionTree.valgrind: cmake_check_build_system
 testDecisionTree.valgrind/fast:
 	$(MAKE) -f gtsam/discrete/tests/CMakeFiles/testDecisionTree.valgrind.dir/build.make gtsam/discrete/tests/CMakeFiles/testDecisionTree.valgrind.dir/build
 .PHONY : testDecisionTree.valgrind/fast
-
-#=============================================================================
-# Target rules for targets named testDiscreteDistribution.valgrind
-
-# Build rule for target.
-testDiscreteDistribution.valgrind: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testDiscreteDistribution.valgrind
-.PHONY : testDiscreteDistribution.valgrind
-
-# fast build rule for target.
-testDiscreteDistribution.valgrind/fast:
-	$(MAKE) -f gtsam/discrete/tests/CMakeFiles/testDiscreteDistribution.valgrind.dir/build.make gtsam/discrete/tests/CMakeFiles/testDiscreteDistribution.valgrind.dir/build
-.PHONY : testDiscreteDistribution.valgrind/fast
 
 #=============================================================================
 # Target rules for targets named testDecisionTree
@@ -3531,6 +3518,19 @@ testDiscreteFactor.valgrind/fast:
 .PHONY : testDiscreteFactor.valgrind/fast
 
 #=============================================================================
+# Target rules for targets named testDiscreteMarginals
+
+# Build rule for target.
+testDiscreteMarginals: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testDiscreteMarginals
+.PHONY : testDiscreteMarginals
+
+# fast build rule for target.
+testDiscreteMarginals/fast:
+	$(MAKE) -f gtsam/discrete/tests/CMakeFiles/testDiscreteMarginals.dir/build.make gtsam/discrete/tests/CMakeFiles/testDiscreteMarginals.dir/build
+.PHONY : testDiscreteMarginals/fast
+
+#=============================================================================
 # Target rules for targets named testDiscreteBayesTree.valgrind
 
 # Build rule for target.
@@ -3542,123 +3542,6 @@ testDiscreteBayesTree.valgrind: cmake_check_build_system
 testDiscreteBayesTree.valgrind/fast:
 	$(MAKE) -f gtsam/discrete/tests/CMakeFiles/testDiscreteBayesTree.valgrind.dir/build.make gtsam/discrete/tests/CMakeFiles/testDiscreteBayesTree.valgrind.dir/build
 .PHONY : testDiscreteBayesTree.valgrind/fast
-
-#=============================================================================
-# Target rules for targets named testDiscreteFactor
-
-# Build rule for target.
-testDiscreteFactor: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testDiscreteFactor
-.PHONY : testDiscreteFactor
-
-# fast build rule for target.
-testDiscreteFactor/fast:
-	$(MAKE) -f gtsam/discrete/tests/CMakeFiles/testDiscreteFactor.dir/build.make gtsam/discrete/tests/CMakeFiles/testDiscreteFactor.dir/build
-.PHONY : testDiscreteFactor/fast
-
-#=============================================================================
-# Target rules for targets named testDiscreteConditional.valgrind
-
-# Build rule for target.
-testDiscreteConditional.valgrind: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testDiscreteConditional.valgrind
-.PHONY : testDiscreteConditional.valgrind
-
-# fast build rule for target.
-testDiscreteConditional.valgrind/fast:
-	$(MAKE) -f gtsam/discrete/tests/CMakeFiles/testDiscreteConditional.valgrind.dir/build.make gtsam/discrete/tests/CMakeFiles/testDiscreteConditional.valgrind.dir/build
-.PHONY : testDiscreteConditional.valgrind/fast
-
-#=============================================================================
-# Target rules for targets named testDiscreteDistribution
-
-# Build rule for target.
-testDiscreteDistribution: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testDiscreteDistribution
-.PHONY : testDiscreteDistribution
-
-# fast build rule for target.
-testDiscreteDistribution/fast:
-	$(MAKE) -f gtsam/discrete/tests/CMakeFiles/testDiscreteDistribution.dir/build.make gtsam/discrete/tests/CMakeFiles/testDiscreteDistribution.dir/build
-.PHONY : testDiscreteDistribution/fast
-
-#=============================================================================
-# Target rules for targets named testDiscreteLookupDAG.valgrind
-
-# Build rule for target.
-testDiscreteLookupDAG.valgrind: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testDiscreteLookupDAG.valgrind
-.PHONY : testDiscreteLookupDAG.valgrind
-
-# fast build rule for target.
-testDiscreteLookupDAG.valgrind/fast:
-	$(MAKE) -f gtsam/discrete/tests/CMakeFiles/testDiscreteLookupDAG.valgrind.dir/build.make gtsam/discrete/tests/CMakeFiles/testDiscreteLookupDAG.valgrind.dir/build
-.PHONY : testDiscreteLookupDAG.valgrind/fast
-
-#=============================================================================
-# Target rules for targets named testDiscreteFactorGraph.run
-
-# Build rule for target.
-testDiscreteFactorGraph.run: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testDiscreteFactorGraph.run
-.PHONY : testDiscreteFactorGraph.run
-
-# fast build rule for target.
-testDiscreteFactorGraph.run/fast:
-	$(MAKE) -f gtsam/discrete/tests/CMakeFiles/testDiscreteFactorGraph.run.dir/build.make gtsam/discrete/tests/CMakeFiles/testDiscreteFactorGraph.run.dir/build
-.PHONY : testDiscreteFactorGraph.run/fast
-
-#=============================================================================
-# Target rules for targets named testDiscreteDistribution.run
-
-# Build rule for target.
-testDiscreteDistribution.run: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testDiscreteDistribution.run
-.PHONY : testDiscreteDistribution.run
-
-# fast build rule for target.
-testDiscreteDistribution.run/fast:
-	$(MAKE) -f gtsam/discrete/tests/CMakeFiles/testDiscreteDistribution.run.dir/build.make gtsam/discrete/tests/CMakeFiles/testDiscreteDistribution.run.dir/build
-.PHONY : testDiscreteDistribution.run/fast
-
-#=============================================================================
-# Target rules for targets named testAlgebraicDecisionTree
-
-# Build rule for target.
-testAlgebraicDecisionTree: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testAlgebraicDecisionTree
-.PHONY : testAlgebraicDecisionTree
-
-# fast build rule for target.
-testAlgebraicDecisionTree/fast:
-	$(MAKE) -f gtsam/discrete/tests/CMakeFiles/testAlgebraicDecisionTree.dir/build.make gtsam/discrete/tests/CMakeFiles/testAlgebraicDecisionTree.dir/build
-.PHONY : testAlgebraicDecisionTree/fast
-
-#=============================================================================
-# Target rules for targets named testDiscreteFactor.run
-
-# Build rule for target.
-testDiscreteFactor.run: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testDiscreteFactor.run
-.PHONY : testDiscreteFactor.run
-
-# fast build rule for target.
-testDiscreteFactor.run/fast:
-	$(MAKE) -f gtsam/discrete/tests/CMakeFiles/testDiscreteFactor.run.dir/build.make gtsam/discrete/tests/CMakeFiles/testDiscreteFactor.run.dir/build
-.PHONY : testDiscreteFactor.run/fast
-
-#=============================================================================
-# Target rules for targets named testDiscreteValues
-
-# Build rule for target.
-testDiscreteValues: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testDiscreteValues
-.PHONY : testDiscreteValues
-
-# fast build rule for target.
-testDiscreteValues/fast:
-	$(MAKE) -f gtsam/discrete/tests/CMakeFiles/testDiscreteValues.dir/build.make gtsam/discrete/tests/CMakeFiles/testDiscreteValues.dir/build
-.PHONY : testDiscreteValues/fast
 
 #=============================================================================
 # Target rules for targets named testDiscreteConditional
@@ -3687,420 +3570,95 @@ testDiscreteConditional.run/fast:
 .PHONY : testDiscreteConditional.run/fast
 
 #=============================================================================
-# Target rules for targets named testDiscreteLookupDAG
+# Target rules for targets named testDiscreteFactor
 
 # Build rule for target.
-testDiscreteLookupDAG: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testDiscreteLookupDAG
-.PHONY : testDiscreteLookupDAG
+testDiscreteFactor: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testDiscreteFactor
+.PHONY : testDiscreteFactor
 
 # fast build rule for target.
-testDiscreteLookupDAG/fast:
-	$(MAKE) -f gtsam/discrete/tests/CMakeFiles/testDiscreteLookupDAG.dir/build.make gtsam/discrete/tests/CMakeFiles/testDiscreteLookupDAG.dir/build
-.PHONY : testDiscreteLookupDAG/fast
+testDiscreteFactor/fast:
+	$(MAKE) -f gtsam/discrete/tests/CMakeFiles/testDiscreteFactor.dir/build.make gtsam/discrete/tests/CMakeFiles/testDiscreteFactor.dir/build
+.PHONY : testDiscreteFactor/fast
 
 #=============================================================================
-# Target rules for targets named testHybridValues.valgrind
+# Target rules for targets named testDiscreteConditional.valgrind
 
 # Build rule for target.
-testHybridValues.valgrind: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testHybridValues.valgrind
-.PHONY : testHybridValues.valgrind
+testDiscreteConditional.valgrind: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testDiscreteConditional.valgrind
+.PHONY : testDiscreteConditional.valgrind
 
 # fast build rule for target.
-testHybridValues.valgrind/fast:
-	$(MAKE) -f gtsam/hybrid/tests/CMakeFiles/testHybridValues.valgrind.dir/build.make gtsam/hybrid/tests/CMakeFiles/testHybridValues.valgrind.dir/build
-.PHONY : testHybridValues.valgrind/fast
+testDiscreteConditional.valgrind/fast:
+	$(MAKE) -f gtsam/discrete/tests/CMakeFiles/testDiscreteConditional.valgrind.dir/build.make gtsam/discrete/tests/CMakeFiles/testDiscreteConditional.valgrind.dir/build
+.PHONY : testDiscreteConditional.valgrind/fast
 
 #=============================================================================
-# Target rules for targets named testHybridValues.run
+# Target rules for targets named testAlgebraicDecisionTree
 
 # Build rule for target.
-testHybridValues.run: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testHybridValues.run
-.PHONY : testHybridValues.run
+testAlgebraicDecisionTree: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testAlgebraicDecisionTree
+.PHONY : testAlgebraicDecisionTree
 
 # fast build rule for target.
-testHybridValues.run/fast:
-	$(MAKE) -f gtsam/hybrid/tests/CMakeFiles/testHybridValues.run.dir/build.make gtsam/hybrid/tests/CMakeFiles/testHybridValues.run.dir/build
-.PHONY : testHybridValues.run/fast
+testAlgebraicDecisionTree/fast:
+	$(MAKE) -f gtsam/discrete/tests/CMakeFiles/testAlgebraicDecisionTree.dir/build.make gtsam/discrete/tests/CMakeFiles/testAlgebraicDecisionTree.dir/build
+.PHONY : testAlgebraicDecisionTree/fast
 
 #=============================================================================
-# Target rules for targets named testHybridBayesTree.run
+# Target rules for targets named testDiscreteFactor.run
 
 # Build rule for target.
-testHybridBayesTree.run: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testHybridBayesTree.run
-.PHONY : testHybridBayesTree.run
+testDiscreteFactor.run: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testDiscreteFactor.run
+.PHONY : testDiscreteFactor.run
 
 # fast build rule for target.
-testHybridBayesTree.run/fast:
-	$(MAKE) -f gtsam/hybrid/tests/CMakeFiles/testHybridBayesTree.run.dir/build.make gtsam/hybrid/tests/CMakeFiles/testHybridBayesTree.run.dir/build
-.PHONY : testHybridBayesTree.run/fast
+testDiscreteFactor.run/fast:
+	$(MAKE) -f gtsam/discrete/tests/CMakeFiles/testDiscreteFactor.run.dir/build.make gtsam/discrete/tests/CMakeFiles/testDiscreteFactor.run.dir/build
+.PHONY : testDiscreteFactor.run/fast
 
 #=============================================================================
-# Target rules for targets named testHybridNonlinearISAM.run
+# Target rules for targets named testDiscreteMarginals.run
 
 # Build rule for target.
-testHybridNonlinearISAM.run: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testHybridNonlinearISAM.run
-.PHONY : testHybridNonlinearISAM.run
+testDiscreteMarginals.run: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testDiscreteMarginals.run
+.PHONY : testDiscreteMarginals.run
 
 # fast build rule for target.
-testHybridNonlinearISAM.run/fast:
-	$(MAKE) -f gtsam/hybrid/tests/CMakeFiles/testHybridNonlinearISAM.run.dir/build.make gtsam/hybrid/tests/CMakeFiles/testHybridNonlinearISAM.run.dir/build
-.PHONY : testHybridNonlinearISAM.run/fast
+testDiscreteMarginals.run/fast:
+	$(MAKE) -f gtsam/discrete/tests/CMakeFiles/testDiscreteMarginals.run.dir/build.make gtsam/discrete/tests/CMakeFiles/testDiscreteMarginals.run.dir/build
+.PHONY : testDiscreteMarginals.run/fast
 
 #=============================================================================
-# Target rules for targets named testHybridBayesNet.run
+# Target rules for targets named testSignature
 
 # Build rule for target.
-testHybridBayesNet.run: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testHybridBayesNet.run
-.PHONY : testHybridBayesNet.run
+testSignature: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testSignature
+.PHONY : testSignature
 
 # fast build rule for target.
-testHybridBayesNet.run/fast:
-	$(MAKE) -f gtsam/hybrid/tests/CMakeFiles/testHybridBayesNet.run.dir/build.make gtsam/hybrid/tests/CMakeFiles/testHybridBayesNet.run.dir/build
-.PHONY : testHybridBayesNet.run/fast
+testSignature/fast:
+	$(MAKE) -f gtsam/discrete/tests/CMakeFiles/testSignature.dir/build.make gtsam/discrete/tests/CMakeFiles/testSignature.dir/build
+.PHONY : testSignature/fast
 
 #=============================================================================
-# Target rules for targets named testHybridBayesNet
+# Target rules for targets named testDiscreteMarginals.valgrind
 
 # Build rule for target.
-testHybridBayesNet: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testHybridBayesNet
-.PHONY : testHybridBayesNet
+testDiscreteMarginals.valgrind: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testDiscreteMarginals.valgrind
+.PHONY : testDiscreteMarginals.valgrind
 
 # fast build rule for target.
-testHybridBayesNet/fast:
-	$(MAKE) -f gtsam/hybrid/tests/CMakeFiles/testHybridBayesNet.dir/build.make gtsam/hybrid/tests/CMakeFiles/testHybridBayesNet.dir/build
-.PHONY : testHybridBayesNet/fast
-
-#=============================================================================
-# Target rules for targets named testHybridBayesTree.valgrind
-
-# Build rule for target.
-testHybridBayesTree.valgrind: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testHybridBayesTree.valgrind
-.PHONY : testHybridBayesTree.valgrind
-
-# fast build rule for target.
-testHybridBayesTree.valgrind/fast:
-	$(MAKE) -f gtsam/hybrid/tests/CMakeFiles/testHybridBayesTree.valgrind.dir/build.make gtsam/hybrid/tests/CMakeFiles/testHybridBayesTree.valgrind.dir/build
-.PHONY : testHybridBayesTree.valgrind/fast
-
-#=============================================================================
-# Target rules for targets named testHybridBayesTree
-
-# Build rule for target.
-testHybridBayesTree: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testHybridBayesTree
-.PHONY : testHybridBayesTree
-
-# fast build rule for target.
-testHybridBayesTree/fast:
-	$(MAKE) -f gtsam/hybrid/tests/CMakeFiles/testHybridBayesTree.dir/build.make gtsam/hybrid/tests/CMakeFiles/testHybridBayesTree.dir/build
-.PHONY : testHybridBayesTree/fast
-
-#=============================================================================
-# Target rules for targets named testGaussianMixtureFactor
-
-# Build rule for target.
-testGaussianMixtureFactor: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testGaussianMixtureFactor
-.PHONY : testGaussianMixtureFactor
-
-# fast build rule for target.
-testGaussianMixtureFactor/fast:
-	$(MAKE) -f gtsam/hybrid/tests/CMakeFiles/testGaussianMixtureFactor.dir/build.make gtsam/hybrid/tests/CMakeFiles/testGaussianMixtureFactor.dir/build
-.PHONY : testGaussianMixtureFactor/fast
-
-#=============================================================================
-# Target rules for targets named testHybridFactorGraph
-
-# Build rule for target.
-testHybridFactorGraph: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testHybridFactorGraph
-.PHONY : testHybridFactorGraph
-
-# fast build rule for target.
-testHybridFactorGraph/fast:
-	$(MAKE) -f gtsam/hybrid/tests/CMakeFiles/testHybridFactorGraph.dir/build.make gtsam/hybrid/tests/CMakeFiles/testHybridFactorGraph.dir/build
-.PHONY : testHybridFactorGraph/fast
-
-#=============================================================================
-# Target rules for targets named testGaussianMixtureFactor.valgrind
-
-# Build rule for target.
-testGaussianMixtureFactor.valgrind: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testGaussianMixtureFactor.valgrind
-.PHONY : testGaussianMixtureFactor.valgrind
-
-# fast build rule for target.
-testGaussianMixtureFactor.valgrind/fast:
-	$(MAKE) -f gtsam/hybrid/tests/CMakeFiles/testGaussianMixtureFactor.valgrind.dir/build.make gtsam/hybrid/tests/CMakeFiles/testGaussianMixtureFactor.valgrind.dir/build
-.PHONY : testGaussianMixtureFactor.valgrind/fast
-
-#=============================================================================
-# Target rules for targets named testHybridNonlinearFactorGraph.run
-
-# Build rule for target.
-testHybridNonlinearFactorGraph.run: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testHybridNonlinearFactorGraph.run
-.PHONY : testHybridNonlinearFactorGraph.run
-
-# fast build rule for target.
-testHybridNonlinearFactorGraph.run/fast:
-	$(MAKE) -f gtsam/hybrid/tests/CMakeFiles/testHybridNonlinearFactorGraph.run.dir/build.make gtsam/hybrid/tests/CMakeFiles/testHybridNonlinearFactorGraph.run.dir/build
-.PHONY : testHybridNonlinearFactorGraph.run/fast
-
-#=============================================================================
-# Target rules for targets named testGaussianMixture.run
-
-# Build rule for target.
-testGaussianMixture.run: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testGaussianMixture.run
-.PHONY : testGaussianMixture.run
-
-# fast build rule for target.
-testGaussianMixture.run/fast:
-	$(MAKE) -f gtsam/hybrid/tests/CMakeFiles/testGaussianMixture.run.dir/build.make gtsam/hybrid/tests/CMakeFiles/testGaussianMixture.run.dir/build
-.PHONY : testGaussianMixture.run/fast
-
-#=============================================================================
-# Target rules for targets named testHybridBayesNet.valgrind
-
-# Build rule for target.
-testHybridBayesNet.valgrind: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testHybridBayesNet.valgrind
-.PHONY : testHybridBayesNet.valgrind
-
-# fast build rule for target.
-testHybridBayesNet.valgrind/fast:
-	$(MAKE) -f gtsam/hybrid/tests/CMakeFiles/testHybridBayesNet.valgrind.dir/build.make gtsam/hybrid/tests/CMakeFiles/testHybridBayesNet.valgrind.dir/build
-.PHONY : testHybridBayesNet.valgrind/fast
-
-#=============================================================================
-# Target rules for targets named testHybridGaussianFactorGraph
-
-# Build rule for target.
-testHybridGaussianFactorGraph: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testHybridGaussianFactorGraph
-.PHONY : testHybridGaussianFactorGraph
-
-# fast build rule for target.
-testHybridGaussianFactorGraph/fast:
-	$(MAKE) -f gtsam/hybrid/tests/CMakeFiles/testHybridGaussianFactorGraph.dir/build.make gtsam/hybrid/tests/CMakeFiles/testHybridGaussianFactorGraph.dir/build
-.PHONY : testHybridGaussianFactorGraph/fast
-
-#=============================================================================
-# Target rules for targets named testGaussianMixture.valgrind
-
-# Build rule for target.
-testGaussianMixture.valgrind: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testGaussianMixture.valgrind
-.PHONY : testGaussianMixture.valgrind
-
-# fast build rule for target.
-testGaussianMixture.valgrind/fast:
-	$(MAKE) -f gtsam/hybrid/tests/CMakeFiles/testGaussianMixture.valgrind.dir/build.make gtsam/hybrid/tests/CMakeFiles/testGaussianMixture.valgrind.dir/build
-.PHONY : testGaussianMixture.valgrind/fast
-
-#=============================================================================
-# Target rules for targets named testHybridFactorGraph.run
-
-# Build rule for target.
-testHybridFactorGraph.run: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testHybridFactorGraph.run
-.PHONY : testHybridFactorGraph.run
-
-# fast build rule for target.
-testHybridFactorGraph.run/fast:
-	$(MAKE) -f gtsam/hybrid/tests/CMakeFiles/testHybridFactorGraph.run.dir/build.make gtsam/hybrid/tests/CMakeFiles/testHybridFactorGraph.run.dir/build
-.PHONY : testHybridFactorGraph.run/fast
-
-#=============================================================================
-# Target rules for targets named testGaussianMixture
-
-# Build rule for target.
-testGaussianMixture: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testGaussianMixture
-.PHONY : testGaussianMixture
-
-# fast build rule for target.
-testGaussianMixture/fast:
-	$(MAKE) -f gtsam/hybrid/tests/CMakeFiles/testGaussianMixture.dir/build.make gtsam/hybrid/tests/CMakeFiles/testGaussianMixture.dir/build
-.PHONY : testGaussianMixture/fast
-
-#=============================================================================
-# Target rules for targets named check.hybrid
-
-# Build rule for target.
-check.hybrid: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 check.hybrid
-.PHONY : check.hybrid
-
-# fast build rule for target.
-check.hybrid/fast:
-	$(MAKE) -f gtsam/hybrid/tests/CMakeFiles/check.hybrid.dir/build.make gtsam/hybrid/tests/CMakeFiles/check.hybrid.dir/build
-.PHONY : check.hybrid/fast
-
-#=============================================================================
-# Target rules for targets named testHybridNonlinearISAM
-
-# Build rule for target.
-testHybridNonlinearISAM: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testHybridNonlinearISAM
-.PHONY : testHybridNonlinearISAM
-
-# fast build rule for target.
-testHybridNonlinearISAM/fast:
-	$(MAKE) -f gtsam/hybrid/tests/CMakeFiles/testHybridNonlinearISAM.dir/build.make gtsam/hybrid/tests/CMakeFiles/testHybridNonlinearISAM.dir/build
-.PHONY : testHybridNonlinearISAM/fast
-
-#=============================================================================
-# Target rules for targets named testHybridNonlinearFactorGraph.valgrind
-
-# Build rule for target.
-testHybridNonlinearFactorGraph.valgrind: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testHybridNonlinearFactorGraph.valgrind
-.PHONY : testHybridNonlinearFactorGraph.valgrind
-
-# fast build rule for target.
-testHybridNonlinearFactorGraph.valgrind/fast:
-	$(MAKE) -f gtsam/hybrid/tests/CMakeFiles/testHybridNonlinearFactorGraph.valgrind.dir/build.make gtsam/hybrid/tests/CMakeFiles/testHybridNonlinearFactorGraph.valgrind.dir/build
-.PHONY : testHybridNonlinearFactorGraph.valgrind/fast
-
-#=============================================================================
-# Target rules for targets named testHybridGaussianISAM.run
-
-# Build rule for target.
-testHybridGaussianISAM.run: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testHybridGaussianISAM.run
-.PHONY : testHybridGaussianISAM.run
-
-# fast build rule for target.
-testHybridGaussianISAM.run/fast:
-	$(MAKE) -f gtsam/hybrid/tests/CMakeFiles/testHybridGaussianISAM.run.dir/build.make gtsam/hybrid/tests/CMakeFiles/testHybridGaussianISAM.run.dir/build
-.PHONY : testHybridGaussianISAM.run/fast
-
-#=============================================================================
-# Target rules for targets named testGaussianMixtureFactor.run
-
-# Build rule for target.
-testGaussianMixtureFactor.run: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testGaussianMixtureFactor.run
-.PHONY : testGaussianMixtureFactor.run
-
-# fast build rule for target.
-testGaussianMixtureFactor.run/fast:
-	$(MAKE) -f gtsam/hybrid/tests/CMakeFiles/testGaussianMixtureFactor.run.dir/build.make gtsam/hybrid/tests/CMakeFiles/testGaussianMixtureFactor.run.dir/build
-.PHONY : testGaussianMixtureFactor.run/fast
-
-#=============================================================================
-# Target rules for targets named testHybridGaussianFactorGraph.run
-
-# Build rule for target.
-testHybridGaussianFactorGraph.run: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testHybridGaussianFactorGraph.run
-.PHONY : testHybridGaussianFactorGraph.run
-
-# fast build rule for target.
-testHybridGaussianFactorGraph.run/fast:
-	$(MAKE) -f gtsam/hybrid/tests/CMakeFiles/testHybridGaussianFactorGraph.run.dir/build.make gtsam/hybrid/tests/CMakeFiles/testHybridGaussianFactorGraph.run.dir/build
-.PHONY : testHybridGaussianFactorGraph.run/fast
-
-#=============================================================================
-# Target rules for targets named testHybridGaussianISAM
-
-# Build rule for target.
-testHybridGaussianISAM: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testHybridGaussianISAM
-.PHONY : testHybridGaussianISAM
-
-# fast build rule for target.
-testHybridGaussianISAM/fast:
-	$(MAKE) -f gtsam/hybrid/tests/CMakeFiles/testHybridGaussianISAM.dir/build.make gtsam/hybrid/tests/CMakeFiles/testHybridGaussianISAM.dir/build
-.PHONY : testHybridGaussianISAM/fast
-
-#=============================================================================
-# Target rules for targets named testHybridGaussianFactorGraph.valgrind
-
-# Build rule for target.
-testHybridGaussianFactorGraph.valgrind: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testHybridGaussianFactorGraph.valgrind
-.PHONY : testHybridGaussianFactorGraph.valgrind
-
-# fast build rule for target.
-testHybridGaussianFactorGraph.valgrind/fast:
-	$(MAKE) -f gtsam/hybrid/tests/CMakeFiles/testHybridGaussianFactorGraph.valgrind.dir/build.make gtsam/hybrid/tests/CMakeFiles/testHybridGaussianFactorGraph.valgrind.dir/build
-.PHONY : testHybridGaussianFactorGraph.valgrind/fast
-
-#=============================================================================
-# Target rules for targets named testHybridGaussianISAM.valgrind
-
-# Build rule for target.
-testHybridGaussianISAM.valgrind: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testHybridGaussianISAM.valgrind
-.PHONY : testHybridGaussianISAM.valgrind
-
-# fast build rule for target.
-testHybridGaussianISAM.valgrind/fast:
-	$(MAKE) -f gtsam/hybrid/tests/CMakeFiles/testHybridGaussianISAM.valgrind.dir/build.make gtsam/hybrid/tests/CMakeFiles/testHybridGaussianISAM.valgrind.dir/build
-.PHONY : testHybridGaussianISAM.valgrind/fast
-
-#=============================================================================
-# Target rules for targets named testHybridValues
-
-# Build rule for target.
-testHybridValues: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testHybridValues
-.PHONY : testHybridValues
-
-# fast build rule for target.
-testHybridValues/fast:
-	$(MAKE) -f gtsam/hybrid/tests/CMakeFiles/testHybridValues.dir/build.make gtsam/hybrid/tests/CMakeFiles/testHybridValues.dir/build
-.PHONY : testHybridValues/fast
-
-#=============================================================================
-# Target rules for targets named testHybridNonlinearFactorGraph
-
-# Build rule for target.
-testHybridNonlinearFactorGraph: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testHybridNonlinearFactorGraph
-.PHONY : testHybridNonlinearFactorGraph
-
-# fast build rule for target.
-testHybridNonlinearFactorGraph/fast:
-	$(MAKE) -f gtsam/hybrid/tests/CMakeFiles/testHybridNonlinearFactorGraph.dir/build.make gtsam/hybrid/tests/CMakeFiles/testHybridNonlinearFactorGraph.dir/build
-.PHONY : testHybridNonlinearFactorGraph/fast
-
-#=============================================================================
-# Target rules for targets named testHybridFactorGraph.valgrind
-
-# Build rule for target.
-testHybridFactorGraph.valgrind: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testHybridFactorGraph.valgrind
-.PHONY : testHybridFactorGraph.valgrind
-
-# fast build rule for target.
-testHybridFactorGraph.valgrind/fast:
-	$(MAKE) -f gtsam/hybrid/tests/CMakeFiles/testHybridFactorGraph.valgrind.dir/build.make gtsam/hybrid/tests/CMakeFiles/testHybridFactorGraph.valgrind.dir/build
-.PHONY : testHybridFactorGraph.valgrind/fast
-
-#=============================================================================
-# Target rules for targets named testHybridNonlinearISAM.valgrind
-
-# Build rule for target.
-testHybridNonlinearISAM.valgrind: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testHybridNonlinearISAM.valgrind
-.PHONY : testHybridNonlinearISAM.valgrind
-
-# fast build rule for target.
-testHybridNonlinearISAM.valgrind/fast:
-	$(MAKE) -f gtsam/hybrid/tests/CMakeFiles/testHybridNonlinearISAM.valgrind.dir/build.make gtsam/hybrid/tests/CMakeFiles/testHybridNonlinearISAM.valgrind.dir/build
-.PHONY : testHybridNonlinearISAM.valgrind/fast
+testDiscreteMarginals.valgrind/fast:
+	$(MAKE) -f gtsam/discrete/tests/CMakeFiles/testDiscreteMarginals.valgrind.dir/build.make gtsam/discrete/tests/CMakeFiles/testDiscreteMarginals.valgrind.dir/build
+.PHONY : testDiscreteMarginals.valgrind/fast
 
 #=============================================================================
 # Target rules for targets named testJacobianFactor
@@ -4870,32 +4428,6 @@ testWhiteNoiseFactor.run/fast:
 .PHONY : testWhiteNoiseFactor.run/fast
 
 #=============================================================================
-# Target rules for targets named testValues.valgrind
-
-# Build rule for target.
-testValues.valgrind: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testValues.valgrind
-.PHONY : testValues.valgrind
-
-# fast build rule for target.
-testValues.valgrind/fast:
-	$(MAKE) -f gtsam/nonlinear/tests/CMakeFiles/testValues.valgrind.dir/build.make gtsam/nonlinear/tests/CMakeFiles/testValues.valgrind.dir/build
-.PHONY : testValues.valgrind/fast
-
-#=============================================================================
-# Target rules for targets named testValues.run
-
-# Build rule for target.
-testValues.run: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testValues.run
-.PHONY : testValues.run
-
-# fast build rule for target.
-testValues.run/fast:
-	$(MAKE) -f gtsam/nonlinear/tests/CMakeFiles/testValues.run.dir/build.make gtsam/nonlinear/tests/CMakeFiles/testValues.run.dir/build
-.PHONY : testValues.run/fast
-
-#=============================================================================
 # Target rules for targets named testExecutionTrace.run
 
 # Build rule for target.
@@ -5182,30 +4714,69 @@ testLinearContainerFactor.valgrind/fast:
 .PHONY : testLinearContainerFactor.valgrind/fast
 
 #=============================================================================
-# Target rules for targets named testUtilities.run
+# Target rules for targets named testLinearContainerFactor.run
 
 # Build rule for target.
-testUtilities.run: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testUtilities.run
-.PHONY : testUtilities.run
+testLinearContainerFactor.run: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testLinearContainerFactor.run
+.PHONY : testLinearContainerFactor.run
 
 # fast build rule for target.
-testUtilities.run/fast:
-	$(MAKE) -f gtsam/nonlinear/tests/CMakeFiles/testUtilities.run.dir/build.make gtsam/nonlinear/tests/CMakeFiles/testUtilities.run.dir/build
-.PHONY : testUtilities.run/fast
+testLinearContainerFactor.run/fast:
+	$(MAKE) -f gtsam/nonlinear/tests/CMakeFiles/testLinearContainerFactor.run.dir/build.make gtsam/nonlinear/tests/CMakeFiles/testLinearContainerFactor.run.dir/build
+.PHONY : testLinearContainerFactor.run/fast
 
 #=============================================================================
-# Target rules for targets named testWhiteNoiseFactor
+# Target rules for targets named testSerializationNonlinear.run
 
 # Build rule for target.
-testWhiteNoiseFactor: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testWhiteNoiseFactor
-.PHONY : testWhiteNoiseFactor
+testSerializationNonlinear.run: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testSerializationNonlinear.run
+.PHONY : testSerializationNonlinear.run
 
 # fast build rule for target.
-testWhiteNoiseFactor/fast:
-	$(MAKE) -f gtsam/nonlinear/tests/CMakeFiles/testWhiteNoiseFactor.dir/build.make gtsam/nonlinear/tests/CMakeFiles/testWhiteNoiseFactor.dir/build
-.PHONY : testWhiteNoiseFactor/fast
+testSerializationNonlinear.run/fast:
+	$(MAKE) -f gtsam/nonlinear/tests/CMakeFiles/testSerializationNonlinear.run.dir/build.make gtsam/nonlinear/tests/CMakeFiles/testSerializationNonlinear.run.dir/build
+.PHONY : testSerializationNonlinear.run/fast
+
+#=============================================================================
+# Target rules for targets named testValues
+
+# Build rule for target.
+testValues: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testValues
+.PHONY : testValues
+
+# fast build rule for target.
+testValues/fast:
+	$(MAKE) -f gtsam/nonlinear/tests/CMakeFiles/testValues.dir/build.make gtsam/nonlinear/tests/CMakeFiles/testValues.dir/build
+.PHONY : testValues/fast
+
+#=============================================================================
+# Target rules for targets named testValues.run
+
+# Build rule for target.
+testValues.run: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testValues.run
+.PHONY : testValues.run
+
+# fast build rule for target.
+testValues.run/fast:
+	$(MAKE) -f gtsam/nonlinear/tests/CMakeFiles/testValues.run.dir/build.make gtsam/nonlinear/tests/CMakeFiles/testValues.run.dir/build
+.PHONY : testValues.run/fast
+
+#=============================================================================
+# Target rules for targets named testValues.valgrind
+
+# Build rule for target.
+testValues.valgrind: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testValues.valgrind
+.PHONY : testValues.valgrind
+
+# fast build rule for target.
+testValues.valgrind/fast:
+	$(MAKE) -f gtsam/nonlinear/tests/CMakeFiles/testValues.valgrind.dir/build.make gtsam/nonlinear/tests/CMakeFiles/testValues.valgrind.dir/build
+.PHONY : testValues.valgrind/fast
 
 #=============================================================================
 # Target rules for targets named testExecutionTrace
@@ -5234,69 +4805,17 @@ testLinearContainerFactor/fast:
 .PHONY : testLinearContainerFactor/fast
 
 #=============================================================================
-# Target rules for targets named testUtilities.valgrind
+# Target rules for targets named testWhiteNoiseFactor
 
 # Build rule for target.
-testUtilities.valgrind: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testUtilities.valgrind
-.PHONY : testUtilities.valgrind
+testWhiteNoiseFactor: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testWhiteNoiseFactor
+.PHONY : testWhiteNoiseFactor
 
 # fast build rule for target.
-testUtilities.valgrind/fast:
-	$(MAKE) -f gtsam/nonlinear/tests/CMakeFiles/testUtilities.valgrind.dir/build.make gtsam/nonlinear/tests/CMakeFiles/testUtilities.valgrind.dir/build
-.PHONY : testUtilities.valgrind/fast
-
-#=============================================================================
-# Target rules for targets named testLinearContainerFactor.run
-
-# Build rule for target.
-testLinearContainerFactor.run: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testLinearContainerFactor.run
-.PHONY : testLinearContainerFactor.run
-
-# fast build rule for target.
-testLinearContainerFactor.run/fast:
-	$(MAKE) -f gtsam/nonlinear/tests/CMakeFiles/testLinearContainerFactor.run.dir/build.make gtsam/nonlinear/tests/CMakeFiles/testLinearContainerFactor.run.dir/build
-.PHONY : testLinearContainerFactor.run/fast
-
-#=============================================================================
-# Target rules for targets named testSerializationNonlinear.run
-
-# Build rule for target.
-testSerializationNonlinear.run: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testSerializationNonlinear.run
-.PHONY : testSerializationNonlinear.run
-
-# fast build rule for target.
-testSerializationNonlinear.run/fast:
-	$(MAKE) -f gtsam/nonlinear/tests/CMakeFiles/testSerializationNonlinear.run.dir/build.make gtsam/nonlinear/tests/CMakeFiles/testSerializationNonlinear.run.dir/build
-.PHONY : testSerializationNonlinear.run/fast
-
-#=============================================================================
-# Target rules for targets named testUtilities
-
-# Build rule for target.
-testUtilities: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testUtilities
-.PHONY : testUtilities
-
-# fast build rule for target.
-testUtilities/fast:
-	$(MAKE) -f gtsam/nonlinear/tests/CMakeFiles/testUtilities.dir/build.make gtsam/nonlinear/tests/CMakeFiles/testUtilities.dir/build
-.PHONY : testUtilities/fast
-
-#=============================================================================
-# Target rules for targets named testValues
-
-# Build rule for target.
-testValues: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testValues
-.PHONY : testValues
-
-# fast build rule for target.
-testValues/fast:
-	$(MAKE) -f gtsam/nonlinear/tests/CMakeFiles/testValues.dir/build.make gtsam/nonlinear/tests/CMakeFiles/testValues.dir/build
-.PHONY : testValues/fast
+testWhiteNoiseFactor/fast:
+	$(MAKE) -f gtsam/nonlinear/tests/CMakeFiles/testWhiteNoiseFactor.dir/build.make gtsam/nonlinear/tests/CMakeFiles/testWhiteNoiseFactor.dir/build
+.PHONY : testWhiteNoiseFactor/fast
 
 #=============================================================================
 # Target rules for targets named check.sam
@@ -5312,19 +4831,6 @@ check.sam/fast:
 .PHONY : check.sam/fast
 
 #=============================================================================
-# Target rules for targets named testBearingRangeFactor
-
-# Build rule for target.
-testBearingRangeFactor: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testBearingRangeFactor
-.PHONY : testBearingRangeFactor
-
-# fast build rule for target.
-testBearingRangeFactor/fast:
-	$(MAKE) -f gtsam/sam/tests/CMakeFiles/testBearingRangeFactor.dir/build.make gtsam/sam/tests/CMakeFiles/testBearingRangeFactor.dir/build
-.PHONY : testBearingRangeFactor/fast
-
-#=============================================================================
 # Target rules for targets named testBearingFactor
 
 # Build rule for target.
@@ -5338,17 +4844,17 @@ testBearingFactor/fast:
 .PHONY : testBearingFactor/fast
 
 #=============================================================================
-# Target rules for targets named testSerializationSam
+# Target rules for targets named testBearingRangeFactor
 
 # Build rule for target.
-testSerializationSam: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testSerializationSam
-.PHONY : testSerializationSam
+testBearingRangeFactor: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testBearingRangeFactor
+.PHONY : testBearingRangeFactor
 
 # fast build rule for target.
-testSerializationSam/fast:
-	$(MAKE) -f gtsam/sam/tests/CMakeFiles/testSerializationSam.dir/build.make gtsam/sam/tests/CMakeFiles/testSerializationSam.dir/build
-.PHONY : testSerializationSam/fast
+testBearingRangeFactor/fast:
+	$(MAKE) -f gtsam/sam/tests/CMakeFiles/testBearingRangeFactor.dir/build.make gtsam/sam/tests/CMakeFiles/testBearingRangeFactor.dir/build
+.PHONY : testBearingRangeFactor/fast
 
 #=============================================================================
 # Target rules for targets named testBearingFactor.run
@@ -5416,19 +4922,6 @@ testRangeFactor.valgrind/fast:
 .PHONY : testRangeFactor.valgrind/fast
 
 #=============================================================================
-# Target rules for targets named testSerializationSam.run
-
-# Build rule for target.
-testSerializationSam.run: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testSerializationSam.run
-.PHONY : testSerializationSam.run
-
-# fast build rule for target.
-testSerializationSam.run/fast:
-	$(MAKE) -f gtsam/sam/tests/CMakeFiles/testSerializationSam.run.dir/build.make gtsam/sam/tests/CMakeFiles/testSerializationSam.run.dir/build
-.PHONY : testSerializationSam.run/fast
-
-#=============================================================================
 # Target rules for targets named testRangeFactor
 
 # Build rule for target.
@@ -5455,238 +4948,17 @@ testRangeFactor.run/fast:
 .PHONY : testRangeFactor.run/fast
 
 #=============================================================================
-# Target rules for targets named testSerializationSam.valgrind
+# Target rules for targets named testShonanGaugeFactor.run
 
 # Build rule for target.
-testSerializationSam.valgrind: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testSerializationSam.valgrind
-.PHONY : testSerializationSam.valgrind
+testShonanGaugeFactor.run: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testShonanGaugeFactor.run
+.PHONY : testShonanGaugeFactor.run
 
 # fast build rule for target.
-testSerializationSam.valgrind/fast:
-	$(MAKE) -f gtsam/sam/tests/CMakeFiles/testSerializationSam.valgrind.dir/build.make gtsam/sam/tests/CMakeFiles/testSerializationSam.valgrind.dir/build
-.PHONY : testSerializationSam.valgrind/fast
-
-#=============================================================================
-# Target rules for targets named testSfmData.run
-
-# Build rule for target.
-testSfmData.run: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testSfmData.run
-.PHONY : testSfmData.run
-
-# fast build rule for target.
-testSfmData.run/fast:
-	$(MAKE) -f gtsam/sfm/tests/CMakeFiles/testSfmData.run.dir/build.make gtsam/sfm/tests/CMakeFiles/testSfmData.run.dir/build
-.PHONY : testSfmData.run/fast
-
-#=============================================================================
-# Target rules for targets named testShonanFactor
-
-# Build rule for target.
-testShonanFactor: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testShonanFactor
-.PHONY : testShonanFactor
-
-# fast build rule for target.
-testShonanFactor/fast:
-	$(MAKE) -f gtsam/sfm/tests/CMakeFiles/testShonanFactor.dir/build.make gtsam/sfm/tests/CMakeFiles/testShonanFactor.dir/build
-.PHONY : testShonanFactor/fast
-
-#=============================================================================
-# Target rules for targets named testShonanAveraging.valgrind
-
-# Build rule for target.
-testShonanAveraging.valgrind: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testShonanAveraging.valgrind
-.PHONY : testShonanAveraging.valgrind
-
-# fast build rule for target.
-testShonanAveraging.valgrind/fast:
-	$(MAKE) -f gtsam/sfm/tests/CMakeFiles/testShonanAveraging.valgrind.dir/build.make gtsam/sfm/tests/CMakeFiles/testShonanAveraging.valgrind.dir/build
-.PHONY : testShonanAveraging.valgrind/fast
-
-#=============================================================================
-# Target rules for targets named testTranslationFactor.valgrind
-
-# Build rule for target.
-testTranslationFactor.valgrind: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testTranslationFactor.valgrind
-.PHONY : testTranslationFactor.valgrind
-
-# fast build rule for target.
-testTranslationFactor.valgrind/fast:
-	$(MAKE) -f gtsam/sfm/tests/CMakeFiles/testTranslationFactor.valgrind.dir/build.make gtsam/sfm/tests/CMakeFiles/testTranslationFactor.valgrind.dir/build
-.PHONY : testTranslationFactor.valgrind/fast
-
-#=============================================================================
-# Target rules for targets named testMFAS.valgrind
-
-# Build rule for target.
-testMFAS.valgrind: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testMFAS.valgrind
-.PHONY : testMFAS.valgrind
-
-# fast build rule for target.
-testMFAS.valgrind/fast:
-	$(MAKE) -f gtsam/sfm/tests/CMakeFiles/testMFAS.valgrind.dir/build.make gtsam/sfm/tests/CMakeFiles/testMFAS.valgrind.dir/build
-.PHONY : testMFAS.valgrind/fast
-
-#=============================================================================
-# Target rules for targets named testMFAS.run
-
-# Build rule for target.
-testMFAS.run: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testMFAS.run
-.PHONY : testMFAS.run
-
-# fast build rule for target.
-testMFAS.run/fast:
-	$(MAKE) -f gtsam/sfm/tests/CMakeFiles/testMFAS.run.dir/build.make gtsam/sfm/tests/CMakeFiles/testMFAS.run.dir/build
-.PHONY : testMFAS.run/fast
-
-#=============================================================================
-# Target rules for targets named testTranslationFactor.run
-
-# Build rule for target.
-testTranslationFactor.run: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testTranslationFactor.run
-.PHONY : testTranslationFactor.run
-
-# fast build rule for target.
-testTranslationFactor.run/fast:
-	$(MAKE) -f gtsam/sfm/tests/CMakeFiles/testTranslationFactor.run.dir/build.make gtsam/sfm/tests/CMakeFiles/testTranslationFactor.run.dir/build
-.PHONY : testTranslationFactor.run/fast
-
-#=============================================================================
-# Target rules for targets named testTranslationFactor
-
-# Build rule for target.
-testTranslationFactor: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testTranslationFactor
-.PHONY : testTranslationFactor
-
-# fast build rule for target.
-testTranslationFactor/fast:
-	$(MAKE) -f gtsam/sfm/tests/CMakeFiles/testTranslationFactor.dir/build.make gtsam/sfm/tests/CMakeFiles/testTranslationFactor.dir/build
-.PHONY : testTranslationFactor/fast
-
-#=============================================================================
-# Target rules for targets named testSfmData
-
-# Build rule for target.
-testSfmData: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testSfmData
-.PHONY : testSfmData
-
-# fast build rule for target.
-testSfmData/fast:
-	$(MAKE) -f gtsam/sfm/tests/CMakeFiles/testSfmData.dir/build.make gtsam/sfm/tests/CMakeFiles/testSfmData.dir/build
-.PHONY : testSfmData/fast
-
-#=============================================================================
-# Target rules for targets named testBinaryMeasurement.run
-
-# Build rule for target.
-testBinaryMeasurement.run: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testBinaryMeasurement.run
-.PHONY : testBinaryMeasurement.run
-
-# fast build rule for target.
-testBinaryMeasurement.run/fast:
-	$(MAKE) -f gtsam/sfm/tests/CMakeFiles/testBinaryMeasurement.run.dir/build.make gtsam/sfm/tests/CMakeFiles/testBinaryMeasurement.run.dir/build
-.PHONY : testBinaryMeasurement.run/fast
-
-#=============================================================================
-# Target rules for targets named testShonanAveraging.run
-
-# Build rule for target.
-testShonanAveraging.run: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testShonanAveraging.run
-.PHONY : testShonanAveraging.run
-
-# fast build rule for target.
-testShonanAveraging.run/fast:
-	$(MAKE) -f gtsam/sfm/tests/CMakeFiles/testShonanAveraging.run.dir/build.make gtsam/sfm/tests/CMakeFiles/testShonanAveraging.run.dir/build
-.PHONY : testShonanAveraging.run/fast
-
-#=============================================================================
-# Target rules for targets named testSfmData.valgrind
-
-# Build rule for target.
-testSfmData.valgrind: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testSfmData.valgrind
-.PHONY : testSfmData.valgrind
-
-# fast build rule for target.
-testSfmData.valgrind/fast:
-	$(MAKE) -f gtsam/sfm/tests/CMakeFiles/testSfmData.valgrind.dir/build.make gtsam/sfm/tests/CMakeFiles/testSfmData.valgrind.dir/build
-.PHONY : testSfmData.valgrind/fast
-
-#=============================================================================
-# Target rules for targets named testMFAS
-
-# Build rule for target.
-testMFAS: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testMFAS
-.PHONY : testMFAS
-
-# fast build rule for target.
-testMFAS/fast:
-	$(MAKE) -f gtsam/sfm/tests/CMakeFiles/testMFAS.dir/build.make gtsam/sfm/tests/CMakeFiles/testMFAS.dir/build
-.PHONY : testMFAS/fast
-
-#=============================================================================
-# Target rules for targets named testBinaryMeasurement.valgrind
-
-# Build rule for target.
-testBinaryMeasurement.valgrind: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testBinaryMeasurement.valgrind
-.PHONY : testBinaryMeasurement.valgrind
-
-# fast build rule for target.
-testBinaryMeasurement.valgrind/fast:
-	$(MAKE) -f gtsam/sfm/tests/CMakeFiles/testBinaryMeasurement.valgrind.dir/build.make gtsam/sfm/tests/CMakeFiles/testBinaryMeasurement.valgrind.dir/build
-.PHONY : testBinaryMeasurement.valgrind/fast
-
-#=============================================================================
-# Target rules for targets named testShonanAveraging
-
-# Build rule for target.
-testShonanAveraging: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testShonanAveraging
-.PHONY : testShonanAveraging
-
-# fast build rule for target.
-testShonanAveraging/fast:
-	$(MAKE) -f gtsam/sfm/tests/CMakeFiles/testShonanAveraging.dir/build.make gtsam/sfm/tests/CMakeFiles/testShonanAveraging.dir/build
-.PHONY : testShonanAveraging/fast
-
-#=============================================================================
-# Target rules for targets named testShonanFactor.run
-
-# Build rule for target.
-testShonanFactor.run: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testShonanFactor.run
-.PHONY : testShonanFactor.run
-
-# fast build rule for target.
-testShonanFactor.run/fast:
-	$(MAKE) -f gtsam/sfm/tests/CMakeFiles/testShonanFactor.run.dir/build.make gtsam/sfm/tests/CMakeFiles/testShonanFactor.run.dir/build
-.PHONY : testShonanFactor.run/fast
-
-#=============================================================================
-# Target rules for targets named testShonanGaugeFactor
-
-# Build rule for target.
-testShonanGaugeFactor: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testShonanGaugeFactor
-.PHONY : testShonanGaugeFactor
-
-# fast build rule for target.
-testShonanGaugeFactor/fast:
-	$(MAKE) -f gtsam/sfm/tests/CMakeFiles/testShonanGaugeFactor.dir/build.make gtsam/sfm/tests/CMakeFiles/testShonanGaugeFactor.dir/build
-.PHONY : testShonanGaugeFactor/fast
+testShonanGaugeFactor.run/fast:
+	$(MAKE) -f gtsam/sfm/tests/CMakeFiles/testShonanGaugeFactor.run.dir/build.make gtsam/sfm/tests/CMakeFiles/testShonanGaugeFactor.run.dir/build
+.PHONY : testShonanGaugeFactor.run/fast
 
 #=============================================================================
 # Target rules for targets named testShonanGaugeFactor.valgrind
@@ -5702,6 +4974,19 @@ testShonanGaugeFactor.valgrind/fast:
 .PHONY : testShonanGaugeFactor.valgrind/fast
 
 #=============================================================================
+# Target rules for targets named testShonanGaugeFactor
+
+# Build rule for target.
+testShonanGaugeFactor: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testShonanGaugeFactor
+.PHONY : testShonanGaugeFactor
+
+# fast build rule for target.
+testShonanGaugeFactor/fast:
+	$(MAKE) -f gtsam/sfm/tests/CMakeFiles/testShonanGaugeFactor.dir/build.make gtsam/sfm/tests/CMakeFiles/testShonanGaugeFactor.dir/build
+.PHONY : testShonanGaugeFactor/fast
+
+#=============================================================================
 # Target rules for targets named check.sfm
 
 # Build rule for target.
@@ -5715,30 +5000,43 @@ check.sfm/fast:
 .PHONY : check.sfm/fast
 
 #=============================================================================
-# Target rules for targets named testShonanFactor.valgrind
+# Target rules for targets named testBinaryMeasurement.valgrind
 
 # Build rule for target.
-testShonanFactor.valgrind: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testShonanFactor.valgrind
-.PHONY : testShonanFactor.valgrind
+testBinaryMeasurement.valgrind: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testBinaryMeasurement.valgrind
+.PHONY : testBinaryMeasurement.valgrind
 
 # fast build rule for target.
-testShonanFactor.valgrind/fast:
-	$(MAKE) -f gtsam/sfm/tests/CMakeFiles/testShonanFactor.valgrind.dir/build.make gtsam/sfm/tests/CMakeFiles/testShonanFactor.valgrind.dir/build
-.PHONY : testShonanFactor.valgrind/fast
+testBinaryMeasurement.valgrind/fast:
+	$(MAKE) -f gtsam/sfm/tests/CMakeFiles/testBinaryMeasurement.valgrind.dir/build.make gtsam/sfm/tests/CMakeFiles/testBinaryMeasurement.valgrind.dir/build
+.PHONY : testBinaryMeasurement.valgrind/fast
 
 #=============================================================================
-# Target rules for targets named testShonanGaugeFactor.run
+# Target rules for targets named testMFAS
 
 # Build rule for target.
-testShonanGaugeFactor.run: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testShonanGaugeFactor.run
-.PHONY : testShonanGaugeFactor.run
+testMFAS: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testMFAS
+.PHONY : testMFAS
 
 # fast build rule for target.
-testShonanGaugeFactor.run/fast:
-	$(MAKE) -f gtsam/sfm/tests/CMakeFiles/testShonanGaugeFactor.run.dir/build.make gtsam/sfm/tests/CMakeFiles/testShonanGaugeFactor.run.dir/build
-.PHONY : testShonanGaugeFactor.run/fast
+testMFAS/fast:
+	$(MAKE) -f gtsam/sfm/tests/CMakeFiles/testMFAS.dir/build.make gtsam/sfm/tests/CMakeFiles/testMFAS.dir/build
+.PHONY : testMFAS/fast
+
+#=============================================================================
+# Target rules for targets named testShonanAveraging.run
+
+# Build rule for target.
+testShonanAveraging.run: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testShonanAveraging.run
+.PHONY : testShonanAveraging.run
+
+# fast build rule for target.
+testShonanAveraging.run/fast:
+	$(MAKE) -f gtsam/sfm/tests/CMakeFiles/testShonanAveraging.run.dir/build.make gtsam/sfm/tests/CMakeFiles/testShonanAveraging.run.dir/build
+.PHONY : testShonanAveraging.run/fast
 
 #=============================================================================
 # Target rules for targets named testBinaryMeasurement
@@ -5752,6 +5050,149 @@ testBinaryMeasurement: cmake_check_build_system
 testBinaryMeasurement/fast:
 	$(MAKE) -f gtsam/sfm/tests/CMakeFiles/testBinaryMeasurement.dir/build.make gtsam/sfm/tests/CMakeFiles/testBinaryMeasurement.dir/build
 .PHONY : testBinaryMeasurement/fast
+
+#=============================================================================
+# Target rules for targets named testShonanFactor.run
+
+# Build rule for target.
+testShonanFactor.run: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testShonanFactor.run
+.PHONY : testShonanFactor.run
+
+# fast build rule for target.
+testShonanFactor.run/fast:
+	$(MAKE) -f gtsam/sfm/tests/CMakeFiles/testShonanFactor.run.dir/build.make gtsam/sfm/tests/CMakeFiles/testShonanFactor.run.dir/build
+.PHONY : testShonanFactor.run/fast
+
+#=============================================================================
+# Target rules for targets named testBinaryMeasurement.run
+
+# Build rule for target.
+testBinaryMeasurement.run: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testBinaryMeasurement.run
+.PHONY : testBinaryMeasurement.run
+
+# fast build rule for target.
+testBinaryMeasurement.run/fast:
+	$(MAKE) -f gtsam/sfm/tests/CMakeFiles/testBinaryMeasurement.run.dir/build.make gtsam/sfm/tests/CMakeFiles/testBinaryMeasurement.run.dir/build
+.PHONY : testBinaryMeasurement.run/fast
+
+#=============================================================================
+# Target rules for targets named testShonanAveraging
+
+# Build rule for target.
+testShonanAveraging: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testShonanAveraging
+.PHONY : testShonanAveraging
+
+# fast build rule for target.
+testShonanAveraging/fast:
+	$(MAKE) -f gtsam/sfm/tests/CMakeFiles/testShonanAveraging.dir/build.make gtsam/sfm/tests/CMakeFiles/testShonanAveraging.dir/build
+.PHONY : testShonanAveraging/fast
+
+#=============================================================================
+# Target rules for targets named testTranslationFactor.valgrind
+
+# Build rule for target.
+testTranslationFactor.valgrind: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testTranslationFactor.valgrind
+.PHONY : testTranslationFactor.valgrind
+
+# fast build rule for target.
+testTranslationFactor.valgrind/fast:
+	$(MAKE) -f gtsam/sfm/tests/CMakeFiles/testTranslationFactor.valgrind.dir/build.make gtsam/sfm/tests/CMakeFiles/testTranslationFactor.valgrind.dir/build
+.PHONY : testTranslationFactor.valgrind/fast
+
+#=============================================================================
+# Target rules for targets named testTranslationFactor
+
+# Build rule for target.
+testTranslationFactor: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testTranslationFactor
+.PHONY : testTranslationFactor
+
+# fast build rule for target.
+testTranslationFactor/fast:
+	$(MAKE) -f gtsam/sfm/tests/CMakeFiles/testTranslationFactor.dir/build.make gtsam/sfm/tests/CMakeFiles/testTranslationFactor.dir/build
+.PHONY : testTranslationFactor/fast
+
+#=============================================================================
+# Target rules for targets named testShonanFactor
+
+# Build rule for target.
+testShonanFactor: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testShonanFactor
+.PHONY : testShonanFactor
+
+# fast build rule for target.
+testShonanFactor/fast:
+	$(MAKE) -f gtsam/sfm/tests/CMakeFiles/testShonanFactor.dir/build.make gtsam/sfm/tests/CMakeFiles/testShonanFactor.dir/build
+.PHONY : testShonanFactor/fast
+
+#=============================================================================
+# Target rules for targets named testTranslationFactor.run
+
+# Build rule for target.
+testTranslationFactor.run: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testTranslationFactor.run
+.PHONY : testTranslationFactor.run
+
+# fast build rule for target.
+testTranslationFactor.run/fast:
+	$(MAKE) -f gtsam/sfm/tests/CMakeFiles/testTranslationFactor.run.dir/build.make gtsam/sfm/tests/CMakeFiles/testTranslationFactor.run.dir/build
+.PHONY : testTranslationFactor.run/fast
+
+#=============================================================================
+# Target rules for targets named testMFAS.run
+
+# Build rule for target.
+testMFAS.run: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testMFAS.run
+.PHONY : testMFAS.run
+
+# fast build rule for target.
+testMFAS.run/fast:
+	$(MAKE) -f gtsam/sfm/tests/CMakeFiles/testMFAS.run.dir/build.make gtsam/sfm/tests/CMakeFiles/testMFAS.run.dir/build
+.PHONY : testMFAS.run/fast
+
+#=============================================================================
+# Target rules for targets named testMFAS.valgrind
+
+# Build rule for target.
+testMFAS.valgrind: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testMFAS.valgrind
+.PHONY : testMFAS.valgrind
+
+# fast build rule for target.
+testMFAS.valgrind/fast:
+	$(MAKE) -f gtsam/sfm/tests/CMakeFiles/testMFAS.valgrind.dir/build.make gtsam/sfm/tests/CMakeFiles/testMFAS.valgrind.dir/build
+.PHONY : testMFAS.valgrind/fast
+
+#=============================================================================
+# Target rules for targets named testShonanAveraging.valgrind
+
+# Build rule for target.
+testShonanAveraging.valgrind: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testShonanAveraging.valgrind
+.PHONY : testShonanAveraging.valgrind
+
+# fast build rule for target.
+testShonanAveraging.valgrind/fast:
+	$(MAKE) -f gtsam/sfm/tests/CMakeFiles/testShonanAveraging.valgrind.dir/build.make gtsam/sfm/tests/CMakeFiles/testShonanAveraging.valgrind.dir/build
+.PHONY : testShonanAveraging.valgrind/fast
+
+#=============================================================================
+# Target rules for targets named testShonanFactor.valgrind
+
+# Build rule for target.
+testShonanFactor.valgrind: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testShonanFactor.valgrind
+.PHONY : testShonanFactor.valgrind
+
+# fast build rule for target.
+testShonanFactor.valgrind/fast:
+	$(MAKE) -f gtsam/sfm/tests/CMakeFiles/testShonanFactor.valgrind.dir/build.make gtsam/sfm/tests/CMakeFiles/testShonanFactor.valgrind.dir/build
+.PHONY : testShonanFactor.valgrind/fast
 
 #=============================================================================
 # Target rules for targets named testTriangulationFactor.valgrind
@@ -5817,32 +5258,6 @@ testStereoFactor: cmake_check_build_system
 testStereoFactor/fast:
 	$(MAKE) -f gtsam/slam/tests/CMakeFiles/testStereoFactor.dir/build.make gtsam/slam/tests/CMakeFiles/testStereoFactor.dir/build
 .PHONY : testStereoFactor/fast
-
-#=============================================================================
-# Target rules for targets named testSmartProjectionRigFactor.valgrind
-
-# Build rule for target.
-testSmartProjectionRigFactor.valgrind: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testSmartProjectionRigFactor.valgrind
-.PHONY : testSmartProjectionRigFactor.valgrind
-
-# fast build rule for target.
-testSmartProjectionRigFactor.valgrind/fast:
-	$(MAKE) -f gtsam/slam/tests/CMakeFiles/testSmartProjectionRigFactor.valgrind.dir/build.make gtsam/slam/tests/CMakeFiles/testSmartProjectionRigFactor.valgrind.dir/build
-.PHONY : testSmartProjectionRigFactor.valgrind/fast
-
-#=============================================================================
-# Target rules for targets named testSmartProjectionRigFactor
-
-# Build rule for target.
-testSmartProjectionRigFactor: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testSmartProjectionRigFactor
-.PHONY : testSmartProjectionRigFactor
-
-# fast build rule for target.
-testSmartProjectionRigFactor/fast:
-	$(MAKE) -f gtsam/slam/tests/CMakeFiles/testSmartProjectionRigFactor.dir/build.make gtsam/slam/tests/CMakeFiles/testSmartProjectionRigFactor.dir/build
-.PHONY : testSmartProjectionRigFactor/fast
 
 #=============================================================================
 # Target rules for targets named testSmartProjectionPoseFactor.run
@@ -5973,32 +5388,6 @@ testSlamExpressions: cmake_check_build_system
 testSlamExpressions/fast:
 	$(MAKE) -f gtsam/slam/tests/CMakeFiles/testSlamExpressions.dir/build.make gtsam/slam/tests/CMakeFiles/testSlamExpressions.dir/build
 .PHONY : testSlamExpressions/fast
-
-#=============================================================================
-# Target rules for targets named testSerializationInSlam.run
-
-# Build rule for target.
-testSerializationInSlam.run: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testSerializationInSlam.run
-.PHONY : testSerializationInSlam.run
-
-# fast build rule for target.
-testSerializationInSlam.run/fast:
-	$(MAKE) -f gtsam/slam/tests/CMakeFiles/testSerializationInSlam.run.dir/build.make gtsam/slam/tests/CMakeFiles/testSerializationInSlam.run.dir/build
-.PHONY : testSerializationInSlam.run/fast
-
-#=============================================================================
-# Target rules for targets named testSerializationInSlam
-
-# Build rule for target.
-testSerializationInSlam: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testSerializationInSlam
-.PHONY : testSerializationInSlam
-
-# fast build rule for target.
-testSerializationInSlam/fast:
-	$(MAKE) -f gtsam/slam/tests/CMakeFiles/testSerializationInSlam.dir/build.make gtsam/slam/tests/CMakeFiles/testSerializationInSlam.dir/build
-.PHONY : testSerializationInSlam/fast
 
 #=============================================================================
 # Target rules for targets named testSerializationDataset.valgrind
@@ -6246,19 +5635,6 @@ testDataset.run: cmake_check_build_system
 testDataset.run/fast:
 	$(MAKE) -f gtsam/slam/tests/CMakeFiles/testDataset.run.dir/build.make gtsam/slam/tests/CMakeFiles/testDataset.run.dir/build
 .PHONY : testDataset.run/fast
-
-#=============================================================================
-# Target rules for targets named testSmartProjectionRigFactor.run
-
-# Build rule for target.
-testSmartProjectionRigFactor.run: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testSmartProjectionRigFactor.run
-.PHONY : testSmartProjectionRigFactor.run
-
-# fast build rule for target.
-testSmartProjectionRigFactor.run/fast:
-	$(MAKE) -f gtsam/slam/tests/CMakeFiles/testSmartProjectionRigFactor.run.dir/build.make gtsam/slam/tests/CMakeFiles/testSmartProjectionRigFactor.run.dir/build
-.PHONY : testSmartProjectionRigFactor.run/fast
 
 #=============================================================================
 # Target rules for targets named testDataset
@@ -6807,19 +6183,6 @@ testRegularImplicitSchurFactor.valgrind/fast:
 .PHONY : testRegularImplicitSchurFactor.valgrind/fast
 
 #=============================================================================
-# Target rules for targets named testSerializationInSlam.valgrind
-
-# Build rule for target.
-testSerializationInSlam.valgrind: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testSerializationInSlam.valgrind
-.PHONY : testSerializationInSlam.valgrind
-
-# fast build rule for target.
-testSerializationInSlam.valgrind/fast:
-	$(MAKE) -f gtsam/slam/tests/CMakeFiles/testSerializationInSlam.valgrind.dir/build.make gtsam/slam/tests/CMakeFiles/testSerializationInSlam.valgrind.dir/build
-.PHONY : testSerializationInSlam.valgrind/fast
-
-#=============================================================================
 # Target rules for targets named testKarcherMeanFactor
 
 # Build rule for target.
@@ -6898,30 +6261,17 @@ testRotateFactor/fast:
 .PHONY : testRotateFactor/fast
 
 #=============================================================================
-# Target rules for targets named testSerializationNavigation.valgrind
+# Target rules for targets named testPoseVelocityBias.valgrind
 
 # Build rule for target.
-testSerializationNavigation.valgrind: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testSerializationNavigation.valgrind
-.PHONY : testSerializationNavigation.valgrind
+testPoseVelocityBias.valgrind: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testPoseVelocityBias.valgrind
+.PHONY : testPoseVelocityBias.valgrind
 
 # fast build rule for target.
-testSerializationNavigation.valgrind/fast:
-	$(MAKE) -f gtsam/navigation/tests/CMakeFiles/testSerializationNavigation.valgrind.dir/build.make gtsam/navigation/tests/CMakeFiles/testSerializationNavigation.valgrind.dir/build
-.PHONY : testSerializationNavigation.valgrind/fast
-
-#=============================================================================
-# Target rules for targets named testScenarioRunner.run
-
-# Build rule for target.
-testScenarioRunner.run: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testScenarioRunner.run
-.PHONY : testScenarioRunner.run
-
-# fast build rule for target.
-testScenarioRunner.run/fast:
-	$(MAKE) -f gtsam/navigation/tests/CMakeFiles/testScenarioRunner.run.dir/build.make gtsam/navigation/tests/CMakeFiles/testScenarioRunner.run.dir/build
-.PHONY : testScenarioRunner.run/fast
+testPoseVelocityBias.valgrind/fast:
+	$(MAKE) -f gtsam/navigation/tests/CMakeFiles/testPoseVelocityBias.valgrind.dir/build.make gtsam/navigation/tests/CMakeFiles/testPoseVelocityBias.valgrind.dir/build
+.PHONY : testPoseVelocityBias.valgrind/fast
 
 #=============================================================================
 # Target rules for targets named testPoseVelocityBias.run
@@ -6935,19 +6285,6 @@ testPoseVelocityBias.run: cmake_check_build_system
 testPoseVelocityBias.run/fast:
 	$(MAKE) -f gtsam/navigation/tests/CMakeFiles/testPoseVelocityBias.run.dir/build.make gtsam/navigation/tests/CMakeFiles/testPoseVelocityBias.run.dir/build
 .PHONY : testPoseVelocityBias.run/fast
-
-#=============================================================================
-# Target rules for targets named testNavState.valgrind
-
-# Build rule for target.
-testNavState.valgrind: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testNavState.valgrind
-.PHONY : testNavState.valgrind
-
-# fast build rule for target.
-testNavState.valgrind/fast:
-	$(MAKE) -f gtsam/navigation/tests/CMakeFiles/testNavState.valgrind.dir/build.make gtsam/navigation/tests/CMakeFiles/testNavState.valgrind.dir/build
-.PHONY : testNavState.valgrind/fast
 
 #=============================================================================
 # Target rules for targets named testNavState
@@ -7002,19 +6339,6 @@ testNavExpressions.run/fast:
 .PHONY : testNavExpressions.run/fast
 
 #=============================================================================
-# Target rules for targets named testBarometricFactor.valgrind
-
-# Build rule for target.
-testBarometricFactor.valgrind: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testBarometricFactor.valgrind
-.PHONY : testBarometricFactor.valgrind
-
-# fast build rule for target.
-testBarometricFactor.valgrind/fast:
-	$(MAKE) -f gtsam/navigation/tests/CMakeFiles/testBarometricFactor.valgrind.dir/build.make gtsam/navigation/tests/CMakeFiles/testBarometricFactor.valgrind.dir/build
-.PHONY : testBarometricFactor.valgrind/fast
-
-#=============================================================================
 # Target rules for targets named testTangentPreintegration.run
 
 # Build rule for target.
@@ -7067,84 +6391,6 @@ testAHRSFactor/fast:
 .PHONY : testAHRSFactor/fast
 
 #=============================================================================
-# Target rules for targets named testPoseVelocityBias.valgrind
-
-# Build rule for target.
-testPoseVelocityBias.valgrind: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testPoseVelocityBias.valgrind
-.PHONY : testPoseVelocityBias.valgrind
-
-# fast build rule for target.
-testPoseVelocityBias.valgrind/fast:
-	$(MAKE) -f gtsam/navigation/tests/CMakeFiles/testPoseVelocityBias.valgrind.dir/build.make gtsam/navigation/tests/CMakeFiles/testPoseVelocityBias.valgrind.dir/build
-.PHONY : testPoseVelocityBias.valgrind/fast
-
-#=============================================================================
-# Target rules for targets named testBarometricFactor
-
-# Build rule for target.
-testBarometricFactor: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testBarometricFactor
-.PHONY : testBarometricFactor
-
-# fast build rule for target.
-testBarometricFactor/fast:
-	$(MAKE) -f gtsam/navigation/tests/CMakeFiles/testBarometricFactor.dir/build.make gtsam/navigation/tests/CMakeFiles/testBarometricFactor.dir/build
-.PHONY : testBarometricFactor/fast
-
-#=============================================================================
-# Target rules for targets named testScenario.valgrind
-
-# Build rule for target.
-testScenario.valgrind: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testScenario.valgrind
-.PHONY : testScenario.valgrind
-
-# fast build rule for target.
-testScenario.valgrind/fast:
-	$(MAKE) -f gtsam/navigation/tests/CMakeFiles/testScenario.valgrind.dir/build.make gtsam/navigation/tests/CMakeFiles/testScenario.valgrind.dir/build
-.PHONY : testScenario.valgrind/fast
-
-#=============================================================================
-# Target rules for targets named testNavState.run
-
-# Build rule for target.
-testNavState.run: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testNavState.run
-.PHONY : testNavState.run
-
-# fast build rule for target.
-testNavState.run/fast:
-	$(MAKE) -f gtsam/navigation/tests/CMakeFiles/testNavState.run.dir/build.make gtsam/navigation/tests/CMakeFiles/testNavState.run.dir/build
-.PHONY : testNavState.run/fast
-
-#=============================================================================
-# Target rules for targets named testMagPoseFactor.valgrind
-
-# Build rule for target.
-testMagPoseFactor.valgrind: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testMagPoseFactor.valgrind
-.PHONY : testMagPoseFactor.valgrind
-
-# fast build rule for target.
-testMagPoseFactor.valgrind/fast:
-	$(MAKE) -f gtsam/navigation/tests/CMakeFiles/testMagPoseFactor.valgrind.dir/build.make gtsam/navigation/tests/CMakeFiles/testMagPoseFactor.valgrind.dir/build
-.PHONY : testMagPoseFactor.valgrind/fast
-
-#=============================================================================
-# Target rules for targets named testBarometricFactor.run
-
-# Build rule for target.
-testBarometricFactor.run: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testBarometricFactor.run
-.PHONY : testBarometricFactor.run
-
-# fast build rule for target.
-testBarometricFactor.run/fast:
-	$(MAKE) -f gtsam/navigation/tests/CMakeFiles/testBarometricFactor.run.dir/build.make gtsam/navigation/tests/CMakeFiles/testBarometricFactor.run.dir/build
-.PHONY : testBarometricFactor.run/fast
-
-#=============================================================================
 # Target rules for targets named testScenario
 
 # Build rule for target.
@@ -7182,19 +6428,6 @@ testImuFactor: cmake_check_build_system
 testImuFactor/fast:
 	$(MAKE) -f gtsam/navigation/tests/CMakeFiles/testImuFactor.dir/build.make gtsam/navigation/tests/CMakeFiles/testImuFactor.dir/build
 .PHONY : testImuFactor/fast
-
-#=============================================================================
-# Target rules for targets named testSerializationNavigation.run
-
-# Build rule for target.
-testSerializationNavigation.run: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testSerializationNavigation.run
-.PHONY : testSerializationNavigation.run
-
-# fast build rule for target.
-testSerializationNavigation.run/fast:
-	$(MAKE) -f gtsam/navigation/tests/CMakeFiles/testSerializationNavigation.run.dir/build.make gtsam/navigation/tests/CMakeFiles/testSerializationNavigation.run.dir/build
-.PHONY : testSerializationNavigation.run/fast
 
 #=============================================================================
 # Target rules for targets named testPoseVelocityBias
@@ -7275,56 +6508,30 @@ testImuBias.valgrind/fast:
 .PHONY : testImuBias.valgrind/fast
 
 #=============================================================================
-# Target rules for targets named testAttitudeFactor.run
+# Target rules for targets named testNavState.valgrind
 
 # Build rule for target.
-testAttitudeFactor.run: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testAttitudeFactor.run
-.PHONY : testAttitudeFactor.run
+testNavState.valgrind: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testNavState.valgrind
+.PHONY : testNavState.valgrind
 
 # fast build rule for target.
-testAttitudeFactor.run/fast:
-	$(MAKE) -f gtsam/navigation/tests/CMakeFiles/testAttitudeFactor.run.dir/build.make gtsam/navigation/tests/CMakeFiles/testAttitudeFactor.run.dir/build
-.PHONY : testAttitudeFactor.run/fast
+testNavState.valgrind/fast:
+	$(MAKE) -f gtsam/navigation/tests/CMakeFiles/testNavState.valgrind.dir/build.make gtsam/navigation/tests/CMakeFiles/testNavState.valgrind.dir/build
+.PHONY : testNavState.valgrind/fast
 
 #=============================================================================
-# Target rules for targets named testImuFactor.run
+# Target rules for targets named testImuFactorSerialization
 
 # Build rule for target.
-testImuFactor.run: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testImuFactor.run
-.PHONY : testImuFactor.run
+testImuFactorSerialization: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testImuFactorSerialization
+.PHONY : testImuFactorSerialization
 
 # fast build rule for target.
-testImuFactor.run/fast:
-	$(MAKE) -f gtsam/navigation/tests/CMakeFiles/testImuFactor.run.dir/build.make gtsam/navigation/tests/CMakeFiles/testImuFactor.run.dir/build
-.PHONY : testImuFactor.run/fast
-
-#=============================================================================
-# Target rules for targets named testTangentPreintegration
-
-# Build rule for target.
-testTangentPreintegration: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testTangentPreintegration
-.PHONY : testTangentPreintegration
-
-# fast build rule for target.
-testTangentPreintegration/fast:
-	$(MAKE) -f gtsam/navigation/tests/CMakeFiles/testTangentPreintegration.dir/build.make gtsam/navigation/tests/CMakeFiles/testTangentPreintegration.dir/build
-.PHONY : testTangentPreintegration/fast
-
-#=============================================================================
-# Target rules for targets named check.navigation
-
-# Build rule for target.
-check.navigation: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 check.navigation
-.PHONY : check.navigation
-
-# fast build rule for target.
-check.navigation/fast:
-	$(MAKE) -f gtsam/navigation/tests/CMakeFiles/check.navigation.dir/build.make gtsam/navigation/tests/CMakeFiles/check.navigation.dir/build
-.PHONY : check.navigation/fast
+testImuFactorSerialization/fast:
+	$(MAKE) -f gtsam/navigation/tests/CMakeFiles/testImuFactorSerialization.dir/build.make gtsam/navigation/tests/CMakeFiles/testImuFactorSerialization.dir/build
+.PHONY : testImuFactorSerialization/fast
 
 #=============================================================================
 # Target rules for targets named testScenarioRunner
@@ -7353,6 +6560,45 @@ testConstantVelocityFactor.valgrind/fast:
 .PHONY : testConstantVelocityFactor.valgrind/fast
 
 #=============================================================================
+# Target rules for targets named testTangentPreintegration
+
+# Build rule for target.
+testTangentPreintegration: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testTangentPreintegration
+.PHONY : testTangentPreintegration
+
+# fast build rule for target.
+testTangentPreintegration/fast:
+	$(MAKE) -f gtsam/navigation/tests/CMakeFiles/testTangentPreintegration.dir/build.make gtsam/navigation/tests/CMakeFiles/testTangentPreintegration.dir/build
+.PHONY : testTangentPreintegration/fast
+
+#=============================================================================
+# Target rules for targets named check.navigation
+
+# Build rule for target.
+check.navigation: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 check.navigation
+.PHONY : check.navigation
+
+# fast build rule for target.
+check.navigation/fast:
+	$(MAKE) -f gtsam/navigation/tests/CMakeFiles/check.navigation.dir/build.make gtsam/navigation/tests/CMakeFiles/check.navigation.dir/build
+.PHONY : check.navigation/fast
+
+#=============================================================================
+# Target rules for targets named testImuFactorSerialization.run
+
+# Build rule for target.
+testImuFactorSerialization.run: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testImuFactorSerialization.run
+.PHONY : testImuFactorSerialization.run
+
+# fast build rule for target.
+testImuFactorSerialization.run/fast:
+	$(MAKE) -f gtsam/navigation/tests/CMakeFiles/testImuFactorSerialization.run.dir/build.make gtsam/navigation/tests/CMakeFiles/testImuFactorSerialization.run.dir/build
+.PHONY : testImuFactorSerialization.run/fast
+
+#=============================================================================
 # Target rules for targets named testManifoldPreintegration
 
 # Build rule for target.
@@ -7364,6 +6610,32 @@ testManifoldPreintegration: cmake_check_build_system
 testManifoldPreintegration/fast:
 	$(MAKE) -f gtsam/navigation/tests/CMakeFiles/testManifoldPreintegration.dir/build.make gtsam/navigation/tests/CMakeFiles/testManifoldPreintegration.dir/build
 .PHONY : testManifoldPreintegration/fast
+
+#=============================================================================
+# Target rules for targets named testAttitudeFactor.run
+
+# Build rule for target.
+testAttitudeFactor.run: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testAttitudeFactor.run
+.PHONY : testAttitudeFactor.run
+
+# fast build rule for target.
+testAttitudeFactor.run/fast:
+	$(MAKE) -f gtsam/navigation/tests/CMakeFiles/testAttitudeFactor.run.dir/build.make gtsam/navigation/tests/CMakeFiles/testAttitudeFactor.run.dir/build
+.PHONY : testAttitudeFactor.run/fast
+
+#=============================================================================
+# Target rules for targets named testImuFactor.run
+
+# Build rule for target.
+testImuFactor.run: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testImuFactor.run
+.PHONY : testImuFactor.run
+
+# fast build rule for target.
+testImuFactor.run/fast:
+	$(MAKE) -f gtsam/navigation/tests/CMakeFiles/testImuFactor.run.dir/build.make gtsam/navigation/tests/CMakeFiles/testImuFactor.run.dir/build
+.PHONY : testImuFactor.run/fast
 
 #=============================================================================
 # Target rules for targets named testScenario.run
@@ -7444,6 +6716,32 @@ testImuFactor.valgrind/fast:
 .PHONY : testImuFactor.valgrind/fast
 
 #=============================================================================
+# Target rules for targets named testScenarioRunner.run
+
+# Build rule for target.
+testScenarioRunner.run: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testScenarioRunner.run
+.PHONY : testScenarioRunner.run
+
+# fast build rule for target.
+testScenarioRunner.run/fast:
+	$(MAKE) -f gtsam/navigation/tests/CMakeFiles/testScenarioRunner.run.dir/build.make gtsam/navigation/tests/CMakeFiles/testScenarioRunner.run.dir/build
+.PHONY : testScenarioRunner.run/fast
+
+#=============================================================================
+# Target rules for targets named testImuFactorSerialization.valgrind
+
+# Build rule for target.
+testImuFactorSerialization.valgrind: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testImuFactorSerialization.valgrind
+.PHONY : testImuFactorSerialization.valgrind
+
+# fast build rule for target.
+testImuFactorSerialization.valgrind/fast:
+	$(MAKE) -f gtsam/navigation/tests/CMakeFiles/testImuFactorSerialization.valgrind.dir/build.make gtsam/navigation/tests/CMakeFiles/testImuFactorSerialization.valgrind.dir/build
+.PHONY : testImuFactorSerialization.valgrind/fast
+
+#=============================================================================
 # Target rules for targets named testMagPoseFactor
 
 # Build rule for target.
@@ -7457,6 +6755,45 @@ testMagPoseFactor/fast:
 .PHONY : testMagPoseFactor/fast
 
 #=============================================================================
+# Target rules for targets named testScenario.valgrind
+
+# Build rule for target.
+testScenario.valgrind: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testScenario.valgrind
+.PHONY : testScenario.valgrind
+
+# fast build rule for target.
+testScenario.valgrind/fast:
+	$(MAKE) -f gtsam/navigation/tests/CMakeFiles/testScenario.valgrind.dir/build.make gtsam/navigation/tests/CMakeFiles/testScenario.valgrind.dir/build
+.PHONY : testScenario.valgrind/fast
+
+#=============================================================================
+# Target rules for targets named testNavState.run
+
+# Build rule for target.
+testNavState.run: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testNavState.run
+.PHONY : testNavState.run
+
+# fast build rule for target.
+testNavState.run/fast:
+	$(MAKE) -f gtsam/navigation/tests/CMakeFiles/testNavState.run.dir/build.make gtsam/navigation/tests/CMakeFiles/testNavState.run.dir/build
+.PHONY : testNavState.run/fast
+
+#=============================================================================
+# Target rules for targets named testMagPoseFactor.valgrind
+
+# Build rule for target.
+testMagPoseFactor.valgrind: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testMagPoseFactor.valgrind
+.PHONY : testMagPoseFactor.valgrind
+
+# fast build rule for target.
+testMagPoseFactor.valgrind/fast:
+	$(MAKE) -f gtsam/navigation/tests/CMakeFiles/testMagPoseFactor.valgrind.dir/build.make gtsam/navigation/tests/CMakeFiles/testMagPoseFactor.valgrind.dir/build
+.PHONY : testMagPoseFactor.valgrind/fast
+
+#=============================================================================
 # Target rules for targets named testManifoldPreintegration.run
 
 # Build rule for target.
@@ -7468,19 +6805,6 @@ testManifoldPreintegration.run: cmake_check_build_system
 testManifoldPreintegration.run/fast:
 	$(MAKE) -f gtsam/navigation/tests/CMakeFiles/testManifoldPreintegration.run.dir/build.make gtsam/navigation/tests/CMakeFiles/testManifoldPreintegration.run.dir/build
 .PHONY : testManifoldPreintegration.run/fast
-
-#=============================================================================
-# Target rules for targets named testSerializationNavigation
-
-# Build rule for target.
-testSerializationNavigation: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testSerializationNavigation
-.PHONY : testSerializationNavigation
-
-# fast build rule for target.
-testSerializationNavigation/fast:
-	$(MAKE) -f gtsam/navigation/tests/CMakeFiles/testSerializationNavigation.dir/build.make gtsam/navigation/tests/CMakeFiles/testSerializationNavigation.dir/build
-.PHONY : testSerializationNavigation/fast
 
 #=============================================================================
 # Target rules for targets named testScenarioRunner.valgrind
@@ -7678,43 +7002,17 @@ testSimulated2D.valgrind/fast:
 .PHONY : testSimulated2D.valgrind/fast
 
 #=============================================================================
-# Target rules for targets named testSerializationSlam.valgrind
+# Target rules for targets named testSerializationSLAM
 
 # Build rule for target.
-testSerializationSlam.valgrind: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testSerializationSlam.valgrind
-.PHONY : testSerializationSlam.valgrind
+testSerializationSLAM: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testSerializationSLAM
+.PHONY : testSerializationSLAM
 
 # fast build rule for target.
-testSerializationSlam.valgrind/fast:
-	$(MAKE) -f tests/CMakeFiles/testSerializationSlam.valgrind.dir/build.make tests/CMakeFiles/testSerializationSlam.valgrind.dir/build
-.PHONY : testSerializationSlam.valgrind/fast
-
-#=============================================================================
-# Target rules for targets named testSerializationSlam.run
-
-# Build rule for target.
-testSerializationSlam.run: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testSerializationSlam.run
-.PHONY : testSerializationSlam.run
-
-# fast build rule for target.
-testSerializationSlam.run/fast:
-	$(MAKE) -f tests/CMakeFiles/testSerializationSlam.run.dir/build.make tests/CMakeFiles/testSerializationSlam.run.dir/build
-.PHONY : testSerializationSlam.run/fast
-
-#=============================================================================
-# Target rules for targets named testSerializationSlam
-
-# Build rule for target.
-testSerializationSlam: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testSerializationSlam
-.PHONY : testSerializationSlam
-
-# fast build rule for target.
-testSerializationSlam/fast:
-	$(MAKE) -f tests/CMakeFiles/testSerializationSlam.dir/build.make tests/CMakeFiles/testSerializationSlam.dir/build
-.PHONY : testSerializationSlam/fast
+testSerializationSLAM/fast:
+	$(MAKE) -f tests/CMakeFiles/testSerializationSLAM.dir/build.make tests/CMakeFiles/testSerializationSLAM.dir/build
+.PHONY : testSerializationSLAM/fast
 
 #=============================================================================
 # Target rules for targets named testSubgraphPreconditioner.valgrind
@@ -7767,32 +7065,6 @@ testRot3Optimization: cmake_check_build_system
 testRot3Optimization/fast:
 	$(MAKE) -f tests/CMakeFiles/testRot3Optimization.dir/build.make tests/CMakeFiles/testRot3Optimization.dir/build
 .PHONY : testRot3Optimization/fast
-
-#=============================================================================
-# Target rules for targets named testRobust.valgrind
-
-# Build rule for target.
-testRobust.valgrind: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testRobust.valgrind
-.PHONY : testRobust.valgrind
-
-# fast build rule for target.
-testRobust.valgrind/fast:
-	$(MAKE) -f tests/CMakeFiles/testRobust.valgrind.dir/build.make tests/CMakeFiles/testRobust.valgrind.dir/build
-.PHONY : testRobust.valgrind/fast
-
-#=============================================================================
-# Target rules for targets named testRobust
-
-# Build rule for target.
-testRobust: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testRobust
-.PHONY : testRobust
-
-# fast build rule for target.
-testRobust/fast:
-	$(MAKE) -f tests/CMakeFiles/testRobust.dir/build.make tests/CMakeFiles/testRobust.dir/build
-.PHONY : testRobust/fast
 
 #=============================================================================
 # Target rules for targets named testPreconditioner.valgrind
@@ -8001,6 +7273,19 @@ testGaussianISAM2: cmake_check_build_system
 testGaussianISAM2/fast:
 	$(MAKE) -f tests/CMakeFiles/testGaussianISAM2.dir/build.make tests/CMakeFiles/testGaussianISAM2.dir/build
 .PHONY : testGaussianISAM2/fast
+
+#=============================================================================
+# Target rules for targets named testSerializationSLAM.valgrind
+
+# Build rule for target.
+testSerializationSLAM.valgrind: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testSerializationSLAM.valgrind
+.PHONY : testSerializationSLAM.valgrind
+
+# fast build rule for target.
+testSerializationSLAM.valgrind/fast:
+	$(MAKE) -f tests/CMakeFiles/testSerializationSLAM.valgrind.dir/build.make tests/CMakeFiles/testSerializationSLAM.valgrind.dir/build
+.PHONY : testSerializationSLAM.valgrind/fast
 
 #=============================================================================
 # Target rules for targets named testNonlinearISAM
@@ -8328,6 +7613,19 @@ testDoglegOptimizer.run/fast:
 .PHONY : testDoglegOptimizer.run/fast
 
 #=============================================================================
+# Target rules for targets named testSerializationSLAM.run
+
+# Build rule for target.
+testSerializationSLAM.run: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testSerializationSLAM.run
+.PHONY : testSerializationSLAM.run
+
+# fast build rule for target.
+testSerializationSLAM.run/fast:
+	$(MAKE) -f tests/CMakeFiles/testSerializationSLAM.run.dir/build.make tests/CMakeFiles/testSerializationSLAM.run.dir/build
+.PHONY : testSerializationSLAM.run/fast
+
+#=============================================================================
 # Target rules for targets named testGaussianFactorGraphB
 
 # Build rule for target.
@@ -8417,19 +7715,6 @@ testGaussianBayesTreeB: cmake_check_build_system
 testGaussianBayesTreeB/fast:
 	$(MAKE) -f tests/CMakeFiles/testGaussianBayesTreeB.dir/build.make tests/CMakeFiles/testGaussianBayesTreeB.dir/build
 .PHONY : testGaussianBayesTreeB/fast
-
-#=============================================================================
-# Target rules for targets named testRobust.run
-
-# Build rule for target.
-testRobust.run: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testRobust.run
-.PHONY : testRobust.run
-
-# fast build rule for target.
-testRobust.run/fast:
-	$(MAKE) -f tests/CMakeFiles/testRobust.run.dir/build.make tests/CMakeFiles/testRobust.run.dir/build
-.PHONY : testRobust.run/fast
 
 #=============================================================================
 # Target rules for targets named testDoglegOptimizer
@@ -8965,19 +8250,6 @@ UGM_chain/fast:
 .PHONY : UGM_chain/fast
 
 #=============================================================================
-# Target rules for targets named TriangulationLOSTExample
-
-# Build rule for target.
-TriangulationLOSTExample: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 TriangulationLOSTExample
-.PHONY : TriangulationLOSTExample
-
-# fast build rule for target.
-TriangulationLOSTExample/fast:
-	$(MAKE) -f examples/CMakeFiles/TriangulationLOSTExample.dir/build.make examples/CMakeFiles/TriangulationLOSTExample.dir/build
-.PHONY : TriangulationLOSTExample/fast
-
-#=============================================================================
 # Target rules for targets named TimeTBB.run
 
 # Build rule for target.
@@ -9275,19 +8547,6 @@ METISOrderingExample: cmake_check_build_system
 METISOrderingExample/fast:
 	$(MAKE) -f examples/CMakeFiles/METISOrderingExample.dir/build.make examples/CMakeFiles/METISOrderingExample.dir/build
 .PHONY : METISOrderingExample/fast
-
-#=============================================================================
-# Target rules for targets named TriangulationLOSTExample.run
-
-# Build rule for target.
-TriangulationLOSTExample.run: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 TriangulationLOSTExample.run
-.PHONY : TriangulationLOSTExample.run
-
-# fast build rule for target.
-TriangulationLOSTExample.run/fast:
-	$(MAKE) -f examples/CMakeFiles/TriangulationLOSTExample.run.dir/build.make examples/CMakeFiles/TriangulationLOSTExample.run.dir/build
-.PHONY : TriangulationLOSTExample.run/fast
 
 #=============================================================================
 # Target rules for targets named ImuFactorsExample2
@@ -12735,45 +11994,6 @@ testProjectionFactorRollingShutter.run/fast:
 .PHONY : testProjectionFactorRollingShutter.run/fast
 
 #=============================================================================
-# Target rules for targets named testProjectionFactorRollingShutter
-
-# Build rule for target.
-testProjectionFactorRollingShutter: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testProjectionFactorRollingShutter
-.PHONY : testProjectionFactorRollingShutter
-
-# fast build rule for target.
-testProjectionFactorRollingShutter/fast:
-	$(MAKE) -f gtsam_unstable/slam/tests/CMakeFiles/testProjectionFactorRollingShutter.dir/build.make gtsam_unstable/slam/tests/CMakeFiles/testProjectionFactorRollingShutter.dir/build
-.PHONY : testProjectionFactorRollingShutter/fast
-
-#=============================================================================
-# Target rules for targets named testProjectionFactorPPPC.valgrind
-
-# Build rule for target.
-testProjectionFactorPPPC.valgrind: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testProjectionFactorPPPC.valgrind
-.PHONY : testProjectionFactorPPPC.valgrind
-
-# fast build rule for target.
-testProjectionFactorPPPC.valgrind/fast:
-	$(MAKE) -f gtsam_unstable/slam/tests/CMakeFiles/testProjectionFactorPPPC.valgrind.dir/build.make gtsam_unstable/slam/tests/CMakeFiles/testProjectionFactorPPPC.valgrind.dir/build
-.PHONY : testProjectionFactorPPPC.valgrind/fast
-
-#=============================================================================
-# Target rules for targets named testProjectionFactorPPPC.run
-
-# Build rule for target.
-testProjectionFactorPPPC.run: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testProjectionFactorPPPC.run
-.PHONY : testProjectionFactorPPPC.run
-
-# fast build rule for target.
-testProjectionFactorPPPC.run/fast:
-	$(MAKE) -f gtsam_unstable/slam/tests/CMakeFiles/testProjectionFactorPPPC.run.dir/build.make gtsam_unstable/slam/tests/CMakeFiles/testProjectionFactorPPPC.run.dir/build
-.PHONY : testProjectionFactorPPPC.run/fast
-
-#=============================================================================
 # Target rules for targets named testInvDepthFactor3.run
 
 # Build rule for target.
@@ -12811,6 +12031,32 @@ testInvDepthFactorVariant2: cmake_check_build_system
 testInvDepthFactorVariant2/fast:
 	$(MAKE) -f gtsam_unstable/slam/tests/CMakeFiles/testInvDepthFactorVariant2.dir/build.make gtsam_unstable/slam/tests/CMakeFiles/testInvDepthFactorVariant2.dir/build
 .PHONY : testInvDepthFactorVariant2/fast
+
+#=============================================================================
+# Target rules for targets named testSmartStereoProjectionPoseFactor.valgrind
+
+# Build rule for target.
+testSmartStereoProjectionPoseFactor.valgrind: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testSmartStereoProjectionPoseFactor.valgrind
+.PHONY : testSmartStereoProjectionPoseFactor.valgrind
+
+# fast build rule for target.
+testSmartStereoProjectionPoseFactor.valgrind/fast:
+	$(MAKE) -f gtsam_unstable/slam/tests/CMakeFiles/testSmartStereoProjectionPoseFactor.valgrind.dir/build.make gtsam_unstable/slam/tests/CMakeFiles/testSmartStereoProjectionPoseFactor.valgrind.dir/build
+.PHONY : testSmartStereoProjectionPoseFactor.valgrind/fast
+
+#=============================================================================
+# Target rules for targets named testAHRS.valgrind
+
+# Build rule for target.
+testAHRS.valgrind: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testAHRS.valgrind
+.PHONY : testAHRS.valgrind
+
+# fast build rule for target.
+testAHRS.valgrind/fast:
+	$(MAKE) -f gtsam_unstable/slam/tests/CMakeFiles/testAHRS.valgrind.dir/build.make gtsam_unstable/slam/tests/CMakeFiles/testAHRS.valgrind.dir/build
+.PHONY : testAHRS.valgrind/fast
 
 #=============================================================================
 # Target rules for targets named testSmartStereoFactor_iSAM2.valgrind
@@ -12865,6 +12111,19 @@ testInertialNavFactor_GlobalVelocity.valgrind/fast:
 .PHONY : testInertialNavFactor_GlobalVelocity.valgrind/fast
 
 #=============================================================================
+# Target rules for targets named testProjectionFactorPPPC.run
+
+# Build rule for target.
+testProjectionFactorPPPC.run: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testProjectionFactorPPPC.run
+.PHONY : testProjectionFactorPPPC.run
+
+# fast build rule for target.
+testProjectionFactorPPPC.run/fast:
+	$(MAKE) -f gtsam_unstable/slam/tests/CMakeFiles/testProjectionFactorPPPC.run.dir/build.make gtsam_unstable/slam/tests/CMakeFiles/testProjectionFactorPPPC.run.dir/build
+.PHONY : testProjectionFactorPPPC.run/fast
+
+#=============================================================================
 # Target rules for targets named testInvDepthFactor3
 
 # Build rule for target.
@@ -12889,6 +12148,19 @@ testBiasedGPSFactor: cmake_check_build_system
 testBiasedGPSFactor/fast:
 	$(MAKE) -f gtsam_unstable/slam/tests/CMakeFiles/testBiasedGPSFactor.dir/build.make gtsam_unstable/slam/tests/CMakeFiles/testBiasedGPSFactor.dir/build
 .PHONY : testBiasedGPSFactor/fast
+
+#=============================================================================
+# Target rules for targets named testProjectionFactorPPPC.valgrind
+
+# Build rule for target.
+testProjectionFactorPPPC.valgrind: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testProjectionFactorPPPC.valgrind
+.PHONY : testProjectionFactorPPPC.valgrind
+
+# fast build rule for target.
+testProjectionFactorPPPC.valgrind/fast:
+	$(MAKE) -f gtsam_unstable/slam/tests/CMakeFiles/testProjectionFactorPPPC.valgrind.dir/build.make gtsam_unstable/slam/tests/CMakeFiles/testProjectionFactorPPPC.valgrind.dir/build
+.PHONY : testProjectionFactorPPPC.valgrind/fast
 
 #=============================================================================
 # Target rules for targets named testBiasedGPSFactor.run
@@ -13019,6 +12291,19 @@ testAHRS.run: cmake_check_build_system
 testAHRS.run/fast:
 	$(MAKE) -f gtsam_unstable/slam/tests/CMakeFiles/testAHRS.run.dir/build.make gtsam_unstable/slam/tests/CMakeFiles/testAHRS.run.dir/build
 .PHONY : testAHRS.run/fast
+
+#=============================================================================
+# Target rules for targets named testProjectionFactorRollingShutter
+
+# Build rule for target.
+testProjectionFactorRollingShutter: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testProjectionFactorRollingShutter
+.PHONY : testProjectionFactorRollingShutter
+
+# fast build rule for target.
+testProjectionFactorRollingShutter/fast:
+	$(MAKE) -f gtsam_unstable/slam/tests/CMakeFiles/testProjectionFactorRollingShutter.dir/build.make gtsam_unstable/slam/tests/CMakeFiles/testProjectionFactorRollingShutter.dir/build
+.PHONY : testProjectionFactorRollingShutter/fast
 
 #=============================================================================
 # Target rules for targets named testDummyFactor.valgrind
@@ -13268,45 +12553,6 @@ testInvDepthFactorVariant2.run/fast:
 .PHONY : testInvDepthFactorVariant2.run/fast
 
 #=============================================================================
-# Target rules for targets named testSmartStereoProjectionPoseFactor.valgrind
-
-# Build rule for target.
-testSmartStereoProjectionPoseFactor.valgrind: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testSmartStereoProjectionPoseFactor.valgrind
-.PHONY : testSmartStereoProjectionPoseFactor.valgrind
-
-# fast build rule for target.
-testSmartStereoProjectionPoseFactor.valgrind/fast:
-	$(MAKE) -f gtsam_unstable/slam/tests/CMakeFiles/testSmartStereoProjectionPoseFactor.valgrind.dir/build.make gtsam_unstable/slam/tests/CMakeFiles/testSmartStereoProjectionPoseFactor.valgrind.dir/build
-.PHONY : testSmartStereoProjectionPoseFactor.valgrind/fast
-
-#=============================================================================
-# Target rules for targets named testAHRS.valgrind
-
-# Build rule for target.
-testAHRS.valgrind: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testAHRS.valgrind
-.PHONY : testAHRS.valgrind
-
-# fast build rule for target.
-testAHRS.valgrind/fast:
-	$(MAKE) -f gtsam_unstable/slam/tests/CMakeFiles/testAHRS.valgrind.dir/build.make gtsam_unstable/slam/tests/CMakeFiles/testAHRS.valgrind.dir/build
-.PHONY : testAHRS.valgrind/fast
-
-#=============================================================================
-# Target rules for targets named testPoseToPointFactor.run
-
-# Build rule for target.
-testPoseToPointFactor.run: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testPoseToPointFactor.run
-.PHONY : testPoseToPointFactor.run
-
-# fast build rule for target.
-testPoseToPointFactor.run/fast:
-	$(MAKE) -f gtsam_unstable/slam/tests/CMakeFiles/testPoseToPointFactor.run.dir/build.make gtsam_unstable/slam/tests/CMakeFiles/testPoseToPointFactor.run.dir/build
-.PHONY : testPoseToPointFactor.run/fast
-
-#=============================================================================
 # Target rules for targets named testInvDepthFactorVariant2.valgrind
 
 # Build rule for target.
@@ -13528,6 +12774,32 @@ testPartialPriorFactor.run/fast:
 .PHONY : testPartialPriorFactor.run/fast
 
 #=============================================================================
+# Target rules for targets named testInertialNavFactor_GlobalVelocity.run
+
+# Build rule for target.
+testInertialNavFactor_GlobalVelocity.run: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testInertialNavFactor_GlobalVelocity.run
+.PHONY : testInertialNavFactor_GlobalVelocity.run
+
+# fast build rule for target.
+testInertialNavFactor_GlobalVelocity.run/fast:
+	$(MAKE) -f gtsam_unstable/slam/tests/CMakeFiles/testInertialNavFactor_GlobalVelocity.run.dir/build.make gtsam_unstable/slam/tests/CMakeFiles/testInertialNavFactor_GlobalVelocity.run.dir/build
+.PHONY : testInertialNavFactor_GlobalVelocity.run/fast
+
+#=============================================================================
+# Target rules for targets named testPoseBetweenFactor
+
+# Build rule for target.
+testPoseBetweenFactor: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testPoseBetweenFactor
+.PHONY : testPoseBetweenFactor
+
+# fast build rule for target.
+testPoseBetweenFactor/fast:
+	$(MAKE) -f gtsam_unstable/slam/tests/CMakeFiles/testPoseBetweenFactor.dir/build.make gtsam_unstable/slam/tests/CMakeFiles/testPoseBetweenFactor.dir/build
+.PHONY : testPoseBetweenFactor/fast
+
+#=============================================================================
 # Target rules for targets named testPoseBetweenFactor.run
 
 # Build rule for target.
@@ -13643,58 +12915,6 @@ testPosePriorFactor.run: cmake_check_build_system
 testPosePriorFactor.run/fast:
 	$(MAKE) -f gtsam_unstable/slam/tests/CMakeFiles/testPosePriorFactor.run.dir/build.make gtsam_unstable/slam/tests/CMakeFiles/testPosePriorFactor.run.dir/build
 .PHONY : testPosePriorFactor.run/fast
-
-#=============================================================================
-# Target rules for targets named testInertialNavFactor_GlobalVelocity.run
-
-# Build rule for target.
-testInertialNavFactor_GlobalVelocity.run: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testInertialNavFactor_GlobalVelocity.run
-.PHONY : testInertialNavFactor_GlobalVelocity.run
-
-# fast build rule for target.
-testInertialNavFactor_GlobalVelocity.run/fast:
-	$(MAKE) -f gtsam_unstable/slam/tests/CMakeFiles/testInertialNavFactor_GlobalVelocity.run.dir/build.make gtsam_unstable/slam/tests/CMakeFiles/testInertialNavFactor_GlobalVelocity.run.dir/build
-.PHONY : testInertialNavFactor_GlobalVelocity.run/fast
-
-#=============================================================================
-# Target rules for targets named testPoseBetweenFactor
-
-# Build rule for target.
-testPoseBetweenFactor: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testPoseBetweenFactor
-.PHONY : testPoseBetweenFactor
-
-# fast build rule for target.
-testPoseBetweenFactor/fast:
-	$(MAKE) -f gtsam_unstable/slam/tests/CMakeFiles/testPoseBetweenFactor.dir/build.make gtsam_unstable/slam/tests/CMakeFiles/testPoseBetweenFactor.dir/build
-.PHONY : testPoseBetweenFactor/fast
-
-#=============================================================================
-# Target rules for targets named testPoseToPointFactor
-
-# Build rule for target.
-testPoseToPointFactor: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testPoseToPointFactor
-.PHONY : testPoseToPointFactor
-
-# fast build rule for target.
-testPoseToPointFactor/fast:
-	$(MAKE) -f gtsam_unstable/slam/tests/CMakeFiles/testPoseToPointFactor.dir/build.make gtsam_unstable/slam/tests/CMakeFiles/testPoseToPointFactor.dir/build
-.PHONY : testPoseToPointFactor/fast
-
-#=============================================================================
-# Target rules for targets named testPoseToPointFactor.valgrind
-
-# Build rule for target.
-testPoseToPointFactor.valgrind: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testPoseToPointFactor.valgrind
-.PHONY : testPoseToPointFactor.valgrind
-
-# fast build rule for target.
-testPoseToPointFactor.valgrind/fast:
-	$(MAKE) -f gtsam_unstable/slam/tests/CMakeFiles/testPoseToPointFactor.valgrind.dir/build.make gtsam_unstable/slam/tests/CMakeFiles/testPoseToPointFactor.valgrind.dir/build
-.PHONY : testPoseToPointFactor.valgrind/fast
 
 #=============================================================================
 # Target rules for targets named check.partition
@@ -14149,82 +13369,91 @@ help:
 	@echo "... metis-gtsam"
 	@echo "... CppUnitLite"
 	@echo "... gtsam"
-	@echo "... testWeightedSampler.run"
-	@echo "... testWeightedSampler"
-	@echo "... testWeightedSampler.valgrind"
-	@echo "... testVector.run"
-	@echo "... testTreeTraversal.run"
-	@echo "... testSymmetricBlockMatrix.valgrind"
-	@echo "... testSymmetricBlockMatrix.run"
-	@echo "... testSymmetricBlockMatrix"
-	@echo "... testVector"
-	@echo "... testSerializationBase.run"
-	@echo "... testTreeTraversal.valgrind"
-	@echo "... testDebug.run"
-	@echo "... testVerticalBlockMatrix.valgrind"
-	@echo "... testSerializationBase"
-	@echo "... testMatrix"
-	@echo "... testDSFVector.valgrind"
-	@echo "... testVerticalBlockMatrix"
-	@echo "... testNumericalDerivative"
-	@echo "... testVerticalBlockMatrix.run"
-	@echo "... testDebug.valgrind"
-	@echo "... testDebug"
-	@echo "... testDSFMap.valgrind"
-	@echo "... testDSFVector"
-	@echo "... testGroup.valgrind"
-	@echo "... testDSFMap.run"
-	@echo "... testCholesky.valgrind"
-	@echo "... testMatrix.run"
-	@echo "... testDSFVector.run"
-	@echo "... testDSFMap"
-	@echo "... testCholesky.run"
-	@echo "... testCholesky"
-	@echo "... testVector.valgrind"
-	@echo "... testTreeTraversal"
-	@echo "... testFastContainers.run"
-	@echo "... check.base"
-	@echo "... testFastContainers"
+	@echo "... testLieVector.valgrind"
+	@echo "... testLieMatrix.valgrind"
 	@echo "... testFastContainers.valgrind"
-	@echo "... testOptionalJacobian"
-	@echo "... testGroup"
-	@echo "... testNumericalDerivative.valgrind"
+	@echo "... testLieMatrix"
+	@echo "... testDSFMap.valgrind"
 	@echo "... testGroup.run"
-	@echo "... testSerializationBase.valgrind"
+	@echo "... testGroup"
+	@echo "... testOptionalJacobian"
+	@echo "... check.base"
+	@echo "... testFastContainers.run"
+	@echo "... testTestableAssertions.valgrind"
+	@echo "... testDebug"
+	@echo "... testTreeTraversal"
+	@echo "... testVector.valgrind"
+	@echo "... testCholesky"
+	@echo "... testLieScalar.valgrind"
+	@echo "... testLieVector"
+	@echo "... testVector"
+	@echo "... testDSFMap"
+	@echo "... testDSFVector.run"
+	@echo "... testCholesky.valgrind"
+	@echo "... testDSFVector"
+	@echo "... testDebug.valgrind"
+	@echo "... testVerticalBlockMatrix.run"
+	@echo "... testLieScalar"
+	@echo "... testDSFVector.valgrind"
+	@echo "... testSerializationBase"
+	@echo "... testVerticalBlockMatrix.valgrind"
+	@echo "... testLieVector.run"
+	@echo "... testDebug.run"
+	@echo "... testTreeTraversal.valgrind"
+	@echo "... testLieMatrix.run"
 	@echo "... testMatrix.valgrind"
+	@echo "... testSerializationBase.valgrind"
+	@echo "... testSerializationBase.run"
+	@echo "... testVerticalBlockMatrix"
 	@echo "... testNumericalDerivative.run"
+	@echo "... testNumericalDerivative.valgrind"
 	@echo "... testOptionalJacobian.run"
 	@echo "... testOptionalJacobian.valgrind"
-	@echo "... testParameterMatrix"
+	@echo "... testCholesky.run"
+	@echo "... testNumericalDerivative"
+	@echo "... testSymmetricBlockMatrix"
+	@echo "... testLieScalar.run"
+	@echo "... testSymmetricBlockMatrix.run"
+	@echo "... testGroup.valgrind"
+	@echo "... testSymmetricBlockMatrix.valgrind"
+	@echo "... testTestableAssertions"
+	@echo "... testTreeTraversal.run"
+	@echo "... testFastContainers"
+	@echo "... testDSFMap.run"
+	@echo "... testMatrix"
+	@echo "... testTestableAssertions.run"
+	@echo "... testMatrix.run"
+	@echo "... testVector.run"
+	@echo "... testWeightedSampler.valgrind"
+	@echo "... testWeightedSampler"
+	@echo "... testWeightedSampler.run"
 	@echo "... check.basis"
-	@echo "... testBasisFactors"
-	@echo "... testChebyshev2.valgrind"
-	@echo "... testBasisFactors.run"
-	@echo "... testFourier.valgrind"
-	@echo "... testBasisFactors.valgrind"
-	@echo "... testChebyshev2"
+	@echo "... testParameterMatrix"
 	@echo "... testChebyshev"
 	@echo "... testChebyshev.run"
 	@echo "... testChebyshev.valgrind"
-	@echo "... testParameterMatrix.run"
+	@echo "... testChebyshev2"
+	@echo "... testChebyshev2.valgrind"
 	@echo "... testChebyshev2.run"
+	@echo "... testParameterMatrix.run"
 	@echo "... testFourier"
 	@echo "... testParameterMatrix.valgrind"
 	@echo "... testFourier.run"
+	@echo "... testFourier.valgrind"
+	@echo "... testUtilities.valgrind"
+	@echo "... testUtilities"
 	@echo "... testUnit3.run"
 	@echo "... testTriangulation.valgrind"
 	@echo "... testTriangulation.run"
 	@echo "... testStereoPoint2.valgrind"
+	@echo "... testStereoCamera.valgrind"
 	@echo "... testStereoCamera.run"
 	@echo "... testSimpleCamera.valgrind"
 	@echo "... testSimpleCamera"
-	@echo "... testSphericalCamera"
 	@echo "... testSimilarity3.run"
-	@echo "... testSimilarity2.valgrind"
-	@echo "... testStereoCamera.valgrind"
-	@echo "... testSimilarity2"
 	@echo "... testUnit3.valgrind"
 	@echo "... testSerializationGeometry.valgrind"
+	@echo "... testUtilities.run"
 	@echo "... testSerializationGeometry.run"
 	@echo "... testSimilarity3"
 	@echo "... testSOn.run"
@@ -14237,7 +13466,6 @@ help:
 	@echo "... testRot3M.valgrind"
 	@echo "... testRot3.valgrind"
 	@echo "... testRot3.run"
-	@echo "... testSphericalCamera.run"
 	@echo "... testRot2.valgrind"
 	@echo "... testRot2.run"
 	@echo "... testRot2"
@@ -14249,7 +13477,6 @@ help:
 	@echo "... testRot3"
 	@echo "... testPose3.run"
 	@echo "... testEssentialMatrix"
-	@echo "... testSphericalCamera.valgrind"
 	@echo "... testCameraSet.valgrind"
 	@echo "... testCameraSet"
 	@echo "... testCal3_S2Stereo"
@@ -14305,7 +13532,6 @@ help:
 	@echo "... testLine3.valgrind"
 	@echo "... testPoint3.run"
 	@echo "... testOrientedPlane3.valgrind"
-	@echo "... testSimilarity2.run"
 	@echo "... testPinholeCamera"
 	@echo "... testLine3.run"
 	@echo "... testPinholePose.run"
@@ -14371,20 +13597,13 @@ help:
 	@echo "... testSymbolicISAM"
 	@echo "... testVariableIndex"
 	@echo "... testSignature.run"
-	@echo "... testSignature"
-	@echo "... testDiscreteMarginals.valgrind"
-	@echo "... testDiscreteMarginals.run"
-	@echo "... testDiscreteMarginals"
-	@echo "... testDiscreteLookupDAG.run"
-	@echo "... testDiscreteValues.run"
+	@echo "... testDiscreteFactorGraph.run"
 	@echo "... testDecisionTreeFactor"
-	@echo "... testDiscreteValues.valgrind"
 	@echo "... testAlgebraicDecisionTree.run"
 	@echo "... testDiscreteFactorGraph"
 	@echo "... testDiscreteBayesNet.run"
 	@echo "... testSignature.valgrind"
 	@echo "... testDecisionTree.valgrind"
-	@echo "... testDiscreteDistribution.valgrind"
 	@echo "... testDecisionTree"
 	@echo "... testDiscreteBayesTree.run"
 	@echo "... testDiscreteFactorGraph.valgrind"
@@ -14397,50 +13616,17 @@ help:
 	@echo "... testDiscreteBayesTree"
 	@echo "... check.discrete"
 	@echo "... testDiscreteFactor.valgrind"
+	@echo "... testDiscreteMarginals"
 	@echo "... testDiscreteBayesTree.valgrind"
-	@echo "... testDiscreteFactor"
-	@echo "... testDiscreteConditional.valgrind"
-	@echo "... testDiscreteDistribution"
-	@echo "... testDiscreteLookupDAG.valgrind"
-	@echo "... testDiscreteFactorGraph.run"
-	@echo "... testDiscreteDistribution.run"
-	@echo "... testAlgebraicDecisionTree"
-	@echo "... testDiscreteFactor.run"
-	@echo "... testDiscreteValues"
 	@echo "... testDiscreteConditional"
 	@echo "... testDiscreteConditional.run"
-	@echo "... testDiscreteLookupDAG"
-	@echo "... testHybridValues.valgrind"
-	@echo "... testHybridValues.run"
-	@echo "... testHybridBayesTree.run"
-	@echo "... testHybridNonlinearISAM.run"
-	@echo "... testHybridBayesNet.run"
-	@echo "... testHybridBayesNet"
-	@echo "... testHybridBayesTree.valgrind"
-	@echo "... testHybridBayesTree"
-	@echo "... testGaussianMixtureFactor"
-	@echo "... testHybridFactorGraph"
-	@echo "... testGaussianMixtureFactor.valgrind"
-	@echo "... testHybridNonlinearFactorGraph.run"
-	@echo "... testGaussianMixture.run"
-	@echo "... testHybridBayesNet.valgrind"
-	@echo "... testHybridGaussianFactorGraph"
-	@echo "... testGaussianMixture.valgrind"
-	@echo "... testHybridFactorGraph.run"
-	@echo "... testGaussianMixture"
-	@echo "... check.hybrid"
-	@echo "... testHybridNonlinearISAM"
-	@echo "... testHybridNonlinearFactorGraph.valgrind"
-	@echo "... testHybridGaussianISAM.run"
-	@echo "... testGaussianMixtureFactor.run"
-	@echo "... testHybridGaussianFactorGraph.run"
-	@echo "... testHybridGaussianISAM"
-	@echo "... testHybridGaussianFactorGraph.valgrind"
-	@echo "... testHybridGaussianISAM.valgrind"
-	@echo "... testHybridValues"
-	@echo "... testHybridNonlinearFactorGraph"
-	@echo "... testHybridFactorGraph.valgrind"
-	@echo "... testHybridNonlinearISAM.valgrind"
+	@echo "... testDiscreteFactor"
+	@echo "... testDiscreteConditional.valgrind"
+	@echo "... testAlgebraicDecisionTree"
+	@echo "... testDiscreteFactor.run"
+	@echo "... testDiscreteMarginals.run"
+	@echo "... testSignature"
+	@echo "... testDiscreteMarginals.valgrind"
 	@echo "... testJacobianFactor"
 	@echo "... testGaussianBayesTree.run"
 	@echo "... testSparseEigen.valgrind"
@@ -14500,8 +13686,6 @@ help:
 	@echo "... testSparseEigen"
 	@echo "... testSerializationLinear.run"
 	@echo "... testWhiteNoiseFactor.run"
-	@echo "... testValues.valgrind"
-	@echo "... testValues.run"
 	@echo "... testExecutionTrace.run"
 	@echo "... testWhiteNoiseFactor.valgrind"
 	@echo "... testFactorTesting.run"
@@ -14524,57 +13708,48 @@ help:
 	@echo "... testSerializationNonlinear"
 	@echo "... testFunctorizedFactor.run"
 	@echo "... testLinearContainerFactor.valgrind"
-	@echo "... testUtilities.run"
-	@echo "... testWhiteNoiseFactor"
-	@echo "... testExecutionTrace"
-	@echo "... testLinearContainerFactor"
-	@echo "... testUtilities.valgrind"
 	@echo "... testLinearContainerFactor.run"
 	@echo "... testSerializationNonlinear.run"
-	@echo "... testUtilities"
 	@echo "... testValues"
+	@echo "... testValues.run"
+	@echo "... testValues.valgrind"
+	@echo "... testExecutionTrace"
+	@echo "... testLinearContainerFactor"
+	@echo "... testWhiteNoiseFactor"
 	@echo "... check.sam"
-	@echo "... testBearingRangeFactor"
 	@echo "... testBearingFactor"
-	@echo "... testSerializationSam"
+	@echo "... testBearingRangeFactor"
 	@echo "... testBearingFactor.run"
 	@echo "... testBearingFactor.valgrind"
 	@echo "... testBearingRangeFactor.run"
 	@echo "... testBearingRangeFactor.valgrind"
 	@echo "... testRangeFactor.valgrind"
-	@echo "... testSerializationSam.run"
 	@echo "... testRangeFactor"
 	@echo "... testRangeFactor.run"
-	@echo "... testSerializationSam.valgrind"
-	@echo "... testSfmData.run"
-	@echo "... testShonanFactor"
-	@echo "... testShonanAveraging.valgrind"
-	@echo "... testTranslationFactor.valgrind"
-	@echo "... testMFAS.valgrind"
-	@echo "... testMFAS.run"
-	@echo "... testTranslationFactor.run"
-	@echo "... testTranslationFactor"
-	@echo "... testSfmData"
-	@echo "... testBinaryMeasurement.run"
-	@echo "... testShonanAveraging.run"
-	@echo "... testSfmData.valgrind"
-	@echo "... testMFAS"
-	@echo "... testBinaryMeasurement.valgrind"
-	@echo "... testShonanAveraging"
-	@echo "... testShonanFactor.run"
-	@echo "... testShonanGaugeFactor"
-	@echo "... testShonanGaugeFactor.valgrind"
-	@echo "... check.sfm"
-	@echo "... testShonanFactor.valgrind"
 	@echo "... testShonanGaugeFactor.run"
+	@echo "... testShonanGaugeFactor.valgrind"
+	@echo "... testShonanGaugeFactor"
+	@echo "... check.sfm"
+	@echo "... testBinaryMeasurement.valgrind"
+	@echo "... testMFAS"
+	@echo "... testShonanAveraging.run"
 	@echo "... testBinaryMeasurement"
+	@echo "... testShonanFactor.run"
+	@echo "... testBinaryMeasurement.run"
+	@echo "... testShonanAveraging"
+	@echo "... testTranslationFactor.valgrind"
+	@echo "... testTranslationFactor"
+	@echo "... testShonanFactor"
+	@echo "... testTranslationFactor.run"
+	@echo "... testMFAS.run"
+	@echo "... testMFAS.valgrind"
+	@echo "... testShonanAveraging.valgrind"
+	@echo "... testShonanFactor.valgrind"
 	@echo "... testTriangulationFactor.valgrind"
 	@echo "... testTriangulationFactor.run"
 	@echo "... testTriangulationFactor"
 	@echo "... testStereoFactor.run"
 	@echo "... testStereoFactor"
-	@echo "... testSmartProjectionRigFactor.valgrind"
-	@echo "... testSmartProjectionRigFactor"
 	@echo "... testSmartProjectionPoseFactor.run"
 	@echo "... testSmartProjectionPoseFactor"
 	@echo "... testSmartProjectionFactor.valgrind"
@@ -14585,8 +13760,6 @@ help:
 	@echo "... testSlamExpressions.valgrind"
 	@echo "... testSlamExpressions.run"
 	@echo "... testSlamExpressions"
-	@echo "... testSerializationInSlam.run"
-	@echo "... testSerializationInSlam"
 	@echo "... testSerializationDataset.valgrind"
 	@echo "... testSerializationDataset.run"
 	@echo "... testRotateFactor.valgrind"
@@ -14606,7 +13779,6 @@ help:
 	@echo "... testLago.run"
 	@echo "... testFrobeniusFactor.valgrind"
 	@echo "... testDataset.run"
-	@echo "... testSmartProjectionRigFactor.run"
 	@echo "... testDataset"
 	@echo "... testEssentialMatrixFactor.run"
 	@echo "... testDataset.valgrind"
@@ -14649,58 +13821,54 @@ help:
 	@echo "... testProjectionFactor.run"
 	@echo "... testInitializePose3.valgrind"
 	@echo "... testRegularImplicitSchurFactor.valgrind"
-	@echo "... testSerializationInSlam.valgrind"
 	@echo "... testKarcherMeanFactor"
 	@echo "... testProjectionFactor.valgrind"
 	@echo "... testReferenceFrameFactor.run"
 	@echo "... testReferenceFrameFactor.valgrind"
 	@echo "... testRegularImplicitSchurFactor.run"
 	@echo "... testRotateFactor"
-	@echo "... testSerializationNavigation.valgrind"
-	@echo "... testScenarioRunner.run"
+	@echo "... testPoseVelocityBias.valgrind"
 	@echo "... testPoseVelocityBias.run"
-	@echo "... testNavState.valgrind"
 	@echo "... testNavState"
 	@echo "... testNavExpressions.valgrind"
 	@echo "... testTangentPreintegration.valgrind"
 	@echo "... testNavExpressions.run"
-	@echo "... testBarometricFactor.valgrind"
 	@echo "... testTangentPreintegration.run"
 	@echo "... testCombinedImuFactor.run"
 	@echo "... testAHRSFactor.run"
 	@echo "... testAHRSFactor"
-	@echo "... testPoseVelocityBias.valgrind"
-	@echo "... testBarometricFactor"
-	@echo "... testScenario.valgrind"
-	@echo "... testNavState.run"
-	@echo "... testMagPoseFactor.valgrind"
-	@echo "... testBarometricFactor.run"
 	@echo "... testScenario"
 	@echo "... testAttitudeFactor.valgrind"
 	@echo "... testImuFactor"
-	@echo "... testSerializationNavigation.run"
 	@echo "... testPoseVelocityBias"
 	@echo "... testAttitudeFactor"
 	@echo "... testCombinedImuFactor.valgrind"
 	@echo "... testAHRSFactor.valgrind"
 	@echo "... testCombinedImuFactor"
 	@echo "... testImuBias.valgrind"
-	@echo "... testAttitudeFactor.run"
-	@echo "... testImuFactor.run"
-	@echo "... testTangentPreintegration"
-	@echo "... check.navigation"
+	@echo "... testNavState.valgrind"
+	@echo "... testImuFactorSerialization"
 	@echo "... testScenarioRunner"
 	@echo "... testConstantVelocityFactor.valgrind"
+	@echo "... testTangentPreintegration"
+	@echo "... check.navigation"
+	@echo "... testImuFactorSerialization.run"
 	@echo "... testManifoldPreintegration"
+	@echo "... testAttitudeFactor.run"
+	@echo "... testImuFactor.run"
 	@echo "... testScenario.run"
 	@echo "... testImuBias"
 	@echo "... testMagPoseFactor.run"
 	@echo "... testConstantVelocityFactor.run"
 	@echo "... testImuBias.run"
 	@echo "... testImuFactor.valgrind"
+	@echo "... testScenarioRunner.run"
+	@echo "... testImuFactorSerialization.valgrind"
 	@echo "... testMagPoseFactor"
+	@echo "... testScenario.valgrind"
+	@echo "... testNavState.run"
+	@echo "... testMagPoseFactor.valgrind"
 	@echo "... testManifoldPreintegration.run"
-	@echo "... testSerializationNavigation"
 	@echo "... testScenarioRunner.valgrind"
 	@echo "... testConstantVelocityFactor"
 	@echo "... testManifoldPreintegration.valgrind"
@@ -14716,15 +13884,11 @@ help:
 	@echo "... testSimulated3D"
 	@echo "... testSimulated2DOriented"
 	@echo "... testSimulated2D.valgrind"
-	@echo "... testSerializationSlam.valgrind"
-	@echo "... testSerializationSlam.run"
-	@echo "... testSerializationSlam"
+	@echo "... testSerializationSLAM"
 	@echo "... testSubgraphPreconditioner.valgrind"
 	@echo "... testRot3Optimization.valgrind"
 	@echo "... testRot3Optimization.run"
 	@echo "... testRot3Optimization"
-	@echo "... testRobust.valgrind"
-	@echo "... testRobust"
 	@echo "... testPreconditioner.valgrind"
 	@echo "... testPCGSolver.valgrind"
 	@echo "... testPreconditioner.run"
@@ -14741,6 +13905,7 @@ help:
 	@echo "... testSimulated2DOriented.run"
 	@echo "... testSimulated2D.run"
 	@echo "... testGaussianISAM2"
+	@echo "... testSerializationSLAM.valgrind"
 	@echo "... testNonlinearISAM"
 	@echo "... testGeneralSFMFactorB.run"
 	@echo "... testNonlinearOptimizer.valgrind"
@@ -14766,6 +13931,7 @@ help:
 	@echo "... testGeneralSFMFactorB"
 	@echo "... testIterative.run"
 	@echo "... testDoglegOptimizer.run"
+	@echo "... testSerializationSLAM.run"
 	@echo "... testGaussianFactorGraphB"
 	@echo "... testDoglegOptimizer.valgrind"
 	@echo "... testMarginals.run"
@@ -14773,7 +13939,6 @@ help:
 	@echo "... testPreconditioner"
 	@echo "... testGaussianBayesTreeB.valgrind"
 	@echo "... testGaussianBayesTreeB"
-	@echo "... testRobust.run"
 	@echo "... testDoglegOptimizer"
 	@echo "... testExpressionFactor"
 	@echo "... testNonlinearISAM.run"
@@ -14815,7 +13980,6 @@ help:
 	@echo "... VisualISAMExample"
 	@echo "... UGM_small.run"
 	@echo "... UGM_chain"
-	@echo "... TriangulationLOSTExample"
 	@echo "... TimeTBB.run"
 	@echo "... StereoVOExample_large"
 	@echo "... StereoVOExample.run"
@@ -14839,7 +14003,6 @@ help:
 	@echo "... SimpleRotation"
 	@echo "... ISAM2Example_SmartFactor"
 	@echo "... METISOrderingExample"
-	@echo "... TriangulationLOSTExample.run"
 	@echo "... ImuFactorsExample2"
 	@echo "... LocalizationExample.run"
 	@echo "... SolverComparer.run"
@@ -15105,18 +14268,19 @@ help:
 	@echo "... testRelativeElevationFactor"
 	@echo "... testProjectionFactorRollingShutter.valgrind"
 	@echo "... testProjectionFactorRollingShutter.run"
-	@echo "... testProjectionFactorRollingShutter"
-	@echo "... testProjectionFactorPPPC.valgrind"
-	@echo "... testProjectionFactorPPPC.run"
 	@echo "... testInvDepthFactor3.run"
 	@echo "... testInvDepthFactorVariant1.run"
 	@echo "... testInvDepthFactorVariant2"
+	@echo "... testSmartStereoProjectionPoseFactor.valgrind"
+	@echo "... testAHRS.valgrind"
 	@echo "... testSmartStereoFactor_iSAM2.valgrind"
 	@echo "... testInvDepthFactorVariant1"
 	@echo "... testLocalOrientedPlane3Factor.valgrind"
 	@echo "... testInertialNavFactor_GlobalVelocity.valgrind"
+	@echo "... testProjectionFactorPPPC.run"
 	@echo "... testInvDepthFactor3"
 	@echo "... testBiasedGPSFactor"
+	@echo "... testProjectionFactorPPPC.valgrind"
 	@echo "... testBiasedGPSFactor.run"
 	@echo "... testInertialNavFactor_GlobalVelocity"
 	@echo "... testGaussMarkov1stOrderFactor.run"
@@ -15127,6 +14291,7 @@ help:
 	@echo "... testAHRS"
 	@echo "... testInvDepthFactor3.valgrind"
 	@echo "... testAHRS.run"
+	@echo "... testProjectionFactorRollingShutter"
 	@echo "... testDummyFactor.valgrind"
 	@echo "... testInvDepthFactorVariant3.run"
 	@echo "... testMultiProjectionFactor"
@@ -15146,9 +14311,6 @@ help:
 	@echo "... testDummyFactor"
 	@echo "... testSmartStereoProjectionPoseFactor.run"
 	@echo "... testInvDepthFactorVariant2.run"
-	@echo "... testSmartStereoProjectionPoseFactor.valgrind"
-	@echo "... testAHRS.valgrind"
-	@echo "... testPoseToPointFactor.run"
 	@echo "... testInvDepthFactorVariant2.valgrind"
 	@echo "... testMultiProjectionFactor.valgrind"
 	@echo "... testInvDepthFactorVariant3"
@@ -15166,6 +14328,8 @@ help:
 	@echo "... testPartialPriorFactor"
 	@echo "... check.slam_unstable"
 	@echo "... testPartialPriorFactor.run"
+	@echo "... testInertialNavFactor_GlobalVelocity.run"
+	@echo "... testPoseBetweenFactor"
 	@echo "... testPoseBetweenFactor.run"
 	@echo "... testProjectionFactorPPP.run"
 	@echo "... testPartialPriorFactor.valgrind"
@@ -15175,10 +14339,6 @@ help:
 	@echo "... testInvDepthFactorVariant1.valgrind"
 	@echo "... testPoseBetweenFactor.valgrind"
 	@echo "... testPosePriorFactor.run"
-	@echo "... testInertialNavFactor_GlobalVelocity.run"
-	@echo "... testPoseBetweenFactor"
-	@echo "... testPoseToPointFactor"
-	@echo "... testPoseToPointFactor.valgrind"
 	@echo "... check.partition"
 	@echo "... testFindSeparator.run"
 	@echo "... testFindSeparator.valgrind"

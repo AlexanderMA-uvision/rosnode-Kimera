@@ -80,7 +80,7 @@ testNonlinearFactor_EXTERNAL_OBJECTS =
 tests/testNonlinearFactor: tests/CMakeFiles/testNonlinearFactor.dir/testNonlinearFactor.cpp.o
 tests/testNonlinearFactor: tests/CMakeFiles/testNonlinearFactor.dir/build.make
 tests/testNonlinearFactor: CppUnitLite/libCppUnitLite.a
-tests/testNonlinearFactor: gtsam/libgtsam.so.4.2.0
+tests/testNonlinearFactor: gtsam/libgtsam.so.4.1.0
 tests/testNonlinearFactor: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 tests/testNonlinearFactor: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 tests/testNonlinearFactor: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

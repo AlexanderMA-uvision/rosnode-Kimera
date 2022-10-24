@@ -80,7 +80,7 @@ testDecisionTree_EXTERNAL_OBJECTS =
 gtsam/discrete/tests/testDecisionTree: gtsam/discrete/tests/CMakeFiles/testDecisionTree.dir/testDecisionTree.cpp.o
 gtsam/discrete/tests/testDecisionTree: gtsam/discrete/tests/CMakeFiles/testDecisionTree.dir/build.make
 gtsam/discrete/tests/testDecisionTree: CppUnitLite/libCppUnitLite.a
-gtsam/discrete/tests/testDecisionTree: gtsam/libgtsam.so.4.2.0
+gtsam/discrete/tests/testDecisionTree: gtsam/libgtsam.so.4.1.0
 gtsam/discrete/tests/testDecisionTree: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 gtsam/discrete/tests/testDecisionTree: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 gtsam/discrete/tests/testDecisionTree: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

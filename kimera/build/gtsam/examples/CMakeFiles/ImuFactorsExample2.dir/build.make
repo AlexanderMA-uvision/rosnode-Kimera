@@ -79,7 +79,7 @@ ImuFactorsExample2_EXTERNAL_OBJECTS =
 
 examples/ImuFactorsExample2: examples/CMakeFiles/ImuFactorsExample2.dir/ImuFactorsExample2.cpp.o
 examples/ImuFactorsExample2: examples/CMakeFiles/ImuFactorsExample2.dir/build.make
-examples/ImuFactorsExample2: gtsam/libgtsam.so.4.2.0
+examples/ImuFactorsExample2: gtsam/libgtsam.so.4.1.0
 examples/ImuFactorsExample2: /usr/lib/aarch64-linux-gnu/libboost_program_options.so.1.71.0
 examples/ImuFactorsExample2: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 examples/ImuFactorsExample2: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0

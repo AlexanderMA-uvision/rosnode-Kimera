@@ -80,7 +80,7 @@ testKey_EXTERNAL_OBJECTS =
 gtsam/inference/tests/testKey: gtsam/inference/tests/CMakeFiles/testKey.dir/testKey.cpp.o
 gtsam/inference/tests/testKey: gtsam/inference/tests/CMakeFiles/testKey.dir/build.make
 gtsam/inference/tests/testKey: CppUnitLite/libCppUnitLite.a
-gtsam/inference/tests/testKey: gtsam/libgtsam.so.4.2.0
+gtsam/inference/tests/testKey: gtsam/libgtsam.so.4.1.0
 gtsam/inference/tests/testKey: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 gtsam/inference/tests/testKey: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 gtsam/inference/tests/testKey: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

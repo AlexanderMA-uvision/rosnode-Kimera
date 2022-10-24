@@ -80,7 +80,7 @@ testErrors_EXTERNAL_OBJECTS =
 gtsam/linear/tests/testErrors: gtsam/linear/tests/CMakeFiles/testErrors.dir/testErrors.cpp.o
 gtsam/linear/tests/testErrors: gtsam/linear/tests/CMakeFiles/testErrors.dir/build.make
 gtsam/linear/tests/testErrors: CppUnitLite/libCppUnitLite.a
-gtsam/linear/tests/testErrors: gtsam/libgtsam.so.4.2.0
+gtsam/linear/tests/testErrors: gtsam/libgtsam.so.4.1.0
 gtsam/linear/tests/testErrors: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 gtsam/linear/tests/testErrors: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 gtsam/linear/tests/testErrors: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

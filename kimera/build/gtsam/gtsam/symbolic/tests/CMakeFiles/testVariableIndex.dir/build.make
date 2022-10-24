@@ -80,7 +80,7 @@ testVariableIndex_EXTERNAL_OBJECTS =
 gtsam/symbolic/tests/testVariableIndex: gtsam/symbolic/tests/CMakeFiles/testVariableIndex.dir/testVariableIndex.cpp.o
 gtsam/symbolic/tests/testVariableIndex: gtsam/symbolic/tests/CMakeFiles/testVariableIndex.dir/build.make
 gtsam/symbolic/tests/testVariableIndex: CppUnitLite/libCppUnitLite.a
-gtsam/symbolic/tests/testVariableIndex: gtsam/libgtsam.so.4.2.0
+gtsam/symbolic/tests/testVariableIndex: gtsam/libgtsam.so.4.1.0
 gtsam/symbolic/tests/testVariableIndex: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 gtsam/symbolic/tests/testVariableIndex: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 gtsam/symbolic/tests/testVariableIndex: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

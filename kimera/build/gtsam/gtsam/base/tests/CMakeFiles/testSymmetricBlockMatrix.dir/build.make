@@ -80,7 +80,7 @@ testSymmetricBlockMatrix_EXTERNAL_OBJECTS =
 gtsam/base/tests/testSymmetricBlockMatrix: gtsam/base/tests/CMakeFiles/testSymmetricBlockMatrix.dir/testSymmetricBlockMatrix.cpp.o
 gtsam/base/tests/testSymmetricBlockMatrix: gtsam/base/tests/CMakeFiles/testSymmetricBlockMatrix.dir/build.make
 gtsam/base/tests/testSymmetricBlockMatrix: CppUnitLite/libCppUnitLite.a
-gtsam/base/tests/testSymmetricBlockMatrix: gtsam/libgtsam.so.4.2.0
+gtsam/base/tests/testSymmetricBlockMatrix: gtsam/libgtsam.so.4.1.0
 gtsam/base/tests/testSymmetricBlockMatrix: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 gtsam/base/tests/testSymmetricBlockMatrix: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 gtsam/base/tests/testSymmetricBlockMatrix: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

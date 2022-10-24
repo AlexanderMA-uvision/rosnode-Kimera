@@ -80,7 +80,7 @@ testConstantVelocityFactor_EXTERNAL_OBJECTS =
 gtsam/navigation/tests/testConstantVelocityFactor: gtsam/navigation/tests/CMakeFiles/testConstantVelocityFactor.dir/testConstantVelocityFactor.cpp.o
 gtsam/navigation/tests/testConstantVelocityFactor: gtsam/navigation/tests/CMakeFiles/testConstantVelocityFactor.dir/build.make
 gtsam/navigation/tests/testConstantVelocityFactor: CppUnitLite/libCppUnitLite.a
-gtsam/navigation/tests/testConstantVelocityFactor: gtsam/libgtsam.so.4.2.0
+gtsam/navigation/tests/testConstantVelocityFactor: gtsam/libgtsam.so.4.1.0
 gtsam/navigation/tests/testConstantVelocityFactor: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 gtsam/navigation/tests/testConstantVelocityFactor: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 gtsam/navigation/tests/testConstantVelocityFactor: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

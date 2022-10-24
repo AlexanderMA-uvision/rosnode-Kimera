@@ -80,7 +80,7 @@ testMagPoseFactor_EXTERNAL_OBJECTS =
 gtsam/navigation/tests/testMagPoseFactor: gtsam/navigation/tests/CMakeFiles/testMagPoseFactor.dir/testMagPoseFactor.cpp.o
 gtsam/navigation/tests/testMagPoseFactor: gtsam/navigation/tests/CMakeFiles/testMagPoseFactor.dir/build.make
 gtsam/navigation/tests/testMagPoseFactor: CppUnitLite/libCppUnitLite.a
-gtsam/navigation/tests/testMagPoseFactor: gtsam/libgtsam.so.4.2.0
+gtsam/navigation/tests/testMagPoseFactor: gtsam/libgtsam.so.4.1.0
 gtsam/navigation/tests/testMagPoseFactor: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 gtsam/navigation/tests/testMagPoseFactor: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 gtsam/navigation/tests/testMagPoseFactor: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

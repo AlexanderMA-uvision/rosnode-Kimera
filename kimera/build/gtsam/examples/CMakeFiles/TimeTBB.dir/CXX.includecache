@@ -35,19 +35,27 @@ gtsam/base/OptionalJacobian.h
 -
 gtsam/base/Vector.h
 -
+gtsam/config.h
+-
+boost/format.hpp
+-
+functional
+-
 boost/tuple/tuple.hpp
 -
-vector
+boost/math/special_functions/fpclassify.hpp
+-
+boost/serialization/nvp.hpp
+-
+boost/serialization/array.hpp
+-
+boost/serialization/split_free.hpp
 -
 
 /home/catkin_ws/src/gtsam/gtsam/base/OptionalJacobian.h
 gtsam/config.h
 -
 Eigen/Dense
--
-stdexcept
--
-string
 -
 boost/optional.hpp
 -
@@ -60,6 +68,12 @@ Eigen/Core
 iosfwd
 -
 list
+-
+boost/serialization/nvp.hpp
+-
+boost/serialization/array.hpp
+-
+boost/serialization/split_free.hpp
 -
 
 /home/catkin_ws/src/gtsam/gtsam/base/types.h

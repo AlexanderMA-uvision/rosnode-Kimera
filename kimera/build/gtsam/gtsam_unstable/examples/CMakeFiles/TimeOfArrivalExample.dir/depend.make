@@ -12,14 +12,12 @@ gtsam_unstable/examples/CMakeFiles/TimeOfArrivalExample.dir/TimeOfArrivalExample
 gtsam_unstable/examples/CMakeFiles/TimeOfArrivalExample.dir/TimeOfArrivalExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Lie.h
 gtsam_unstable/examples/CMakeFiles/TimeOfArrivalExample.dir/TimeOfArrivalExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Manifold.h
 gtsam_unstable/examples/CMakeFiles/TimeOfArrivalExample.dir/TimeOfArrivalExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Matrix.h
-gtsam_unstable/examples/CMakeFiles/TimeOfArrivalExample.dir/TimeOfArrivalExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/MatrixSerialization.h
 gtsam_unstable/examples/CMakeFiles/TimeOfArrivalExample.dir/TimeOfArrivalExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/OptionalJacobian.h
 gtsam_unstable/examples/CMakeFiles/TimeOfArrivalExample.dir/TimeOfArrivalExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/SymmetricBlockMatrix.h
 gtsam_unstable/examples/CMakeFiles/TimeOfArrivalExample.dir/TimeOfArrivalExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Testable.h
 gtsam_unstable/examples/CMakeFiles/TimeOfArrivalExample.dir/TimeOfArrivalExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/ThreadsafeException.h
 gtsam_unstable/examples/CMakeFiles/TimeOfArrivalExample.dir/TimeOfArrivalExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Value.h
 gtsam_unstable/examples/CMakeFiles/TimeOfArrivalExample.dir/TimeOfArrivalExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Vector.h
-gtsam_unstable/examples/CMakeFiles/TimeOfArrivalExample.dir/TimeOfArrivalExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/VectorSerialization.h
 gtsam_unstable/examples/CMakeFiles/TimeOfArrivalExample.dir/TimeOfArrivalExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/VectorSpace.h
 gtsam_unstable/examples/CMakeFiles/TimeOfArrivalExample.dir/TimeOfArrivalExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/VerticalBlockMatrix.h
 gtsam_unstable/examples/CMakeFiles/TimeOfArrivalExample.dir/TimeOfArrivalExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/timing.h
@@ -27,7 +25,6 @@ gtsam_unstable/examples/CMakeFiles/TimeOfArrivalExample.dir/TimeOfArrivalExample
 gtsam_unstable/examples/CMakeFiles/TimeOfArrivalExample.dir/TimeOfArrivalExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/geometry/Point2.h
 gtsam_unstable/examples/CMakeFiles/TimeOfArrivalExample.dir/TimeOfArrivalExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/geometry/Point3.h
 gtsam_unstable/examples/CMakeFiles/TimeOfArrivalExample.dir/TimeOfArrivalExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/global_includes.h
-gtsam_unstable/examples/CMakeFiles/TimeOfArrivalExample.dir/TimeOfArrivalExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/DotWriter.h
 gtsam_unstable/examples/CMakeFiles/TimeOfArrivalExample.dir/TimeOfArrivalExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/EliminateableFactorGraph.h
 gtsam_unstable/examples/CMakeFiles/TimeOfArrivalExample.dir/TimeOfArrivalExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/Factor.h
 gtsam_unstable/examples/CMakeFiles/TimeOfArrivalExample.dir/TimeOfArrivalExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/FactorGraph-inst.h
@@ -59,7 +56,6 @@ gtsam_unstable/examples/CMakeFiles/TimeOfArrivalExample.dir/TimeOfArrivalExample
 gtsam_unstable/examples/CMakeFiles/TimeOfArrivalExample.dir/TimeOfArrivalExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/Expression-inl.h
 gtsam_unstable/examples/CMakeFiles/TimeOfArrivalExample.dir/TimeOfArrivalExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/Expression.h
 gtsam_unstable/examples/CMakeFiles/TimeOfArrivalExample.dir/TimeOfArrivalExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/ExpressionFactor.h
-gtsam_unstable/examples/CMakeFiles/TimeOfArrivalExample.dir/TimeOfArrivalExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/GraphvizFormatting.h
 gtsam_unstable/examples/CMakeFiles/TimeOfArrivalExample.dir/TimeOfArrivalExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/LevenbergMarquardtOptimizer.h
 gtsam_unstable/examples/CMakeFiles/TimeOfArrivalExample.dir/TimeOfArrivalExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/LevenbergMarquardtParams.h
 gtsam_unstable/examples/CMakeFiles/TimeOfArrivalExample.dir/TimeOfArrivalExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/NonlinearFactor.h

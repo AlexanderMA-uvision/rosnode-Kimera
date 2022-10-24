@@ -80,7 +80,7 @@ testGaussianConditional_EXTERNAL_OBJECTS =
 gtsam/linear/tests/testGaussianConditional: gtsam/linear/tests/CMakeFiles/testGaussianConditional.dir/testGaussianConditional.cpp.o
 gtsam/linear/tests/testGaussianConditional: gtsam/linear/tests/CMakeFiles/testGaussianConditional.dir/build.make
 gtsam/linear/tests/testGaussianConditional: CppUnitLite/libCppUnitLite.a
-gtsam/linear/tests/testGaussianConditional: gtsam/libgtsam.so.4.2.0
+gtsam/linear/tests/testGaussianConditional: gtsam/libgtsam.so.4.1.0
 gtsam/linear/tests/testGaussianConditional: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 gtsam/linear/tests/testGaussianConditional: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 gtsam/linear/tests/testGaussianConditional: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

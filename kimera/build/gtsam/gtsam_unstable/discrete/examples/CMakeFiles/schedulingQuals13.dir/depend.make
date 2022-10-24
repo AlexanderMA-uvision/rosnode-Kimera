@@ -7,7 +7,6 @@ gtsam_unstable/discrete/examples/CMakeFiles/schedulingQuals13.dir/schedulingQual
 gtsam_unstable/discrete/examples/CMakeFiles/schedulingQuals13.dir/schedulingQuals13.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/FastSet.h
 gtsam_unstable/discrete/examples/CMakeFiles/schedulingQuals13.dir/schedulingQuals13.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/FastVector.h
 gtsam_unstable/discrete/examples/CMakeFiles/schedulingQuals13.dir/schedulingQuals13.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Testable.h
-gtsam_unstable/discrete/examples/CMakeFiles/schedulingQuals13.dir/schedulingQuals13.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Vector.h
 gtsam_unstable/discrete/examples/CMakeFiles/schedulingQuals13.dir/schedulingQuals13.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/debug.h
 gtsam_unstable/discrete/examples/CMakeFiles/schedulingQuals13.dir/schedulingQuals13.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/timing.h
 gtsam_unstable/discrete/examples/CMakeFiles/schedulingQuals13.dir/schedulingQuals13.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/types.h
@@ -18,18 +17,15 @@ gtsam_unstable/discrete/examples/CMakeFiles/schedulingQuals13.dir/schedulingQual
 gtsam_unstable/discrete/examples/CMakeFiles/schedulingQuals13.dir/schedulingQuals13.cpp.o: /home/catkin_ws/src/gtsam/gtsam/discrete/DecisionTreeFactor.h
 gtsam_unstable/discrete/examples/CMakeFiles/schedulingQuals13.dir/schedulingQuals13.cpp.o: /home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteBayesNet.h
 gtsam_unstable/discrete/examples/CMakeFiles/schedulingQuals13.dir/schedulingQuals13.cpp.o: /home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteConditional.h
-gtsam_unstable/discrete/examples/CMakeFiles/schedulingQuals13.dir/schedulingQuals13.cpp.o: /home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteDistribution.h
 gtsam_unstable/discrete/examples/CMakeFiles/schedulingQuals13.dir/schedulingQuals13.cpp.o: /home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteFactor.h
 gtsam_unstable/discrete/examples/CMakeFiles/schedulingQuals13.dir/schedulingQuals13.cpp.o: /home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteFactorGraph.h
 gtsam_unstable/discrete/examples/CMakeFiles/schedulingQuals13.dir/schedulingQuals13.cpp.o: /home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteKey.h
-gtsam_unstable/discrete/examples/CMakeFiles/schedulingQuals13.dir/schedulingQuals13.cpp.o: /home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteLookupDAG.h
-gtsam_unstable/discrete/examples/CMakeFiles/schedulingQuals13.dir/schedulingQuals13.cpp.o: /home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteValues.h
+gtsam_unstable/discrete/examples/CMakeFiles/schedulingQuals13.dir/schedulingQuals13.cpp.o: /home/catkin_ws/src/gtsam/gtsam/discrete/Potentials.h
 gtsam_unstable/discrete/examples/CMakeFiles/schedulingQuals13.dir/schedulingQuals13.cpp.o: /home/catkin_ws/src/gtsam/gtsam/discrete/Signature.h
 gtsam_unstable/discrete/examples/CMakeFiles/schedulingQuals13.dir/schedulingQuals13.cpp.o: /home/catkin_ws/src/gtsam/gtsam/global_includes.h
 gtsam_unstable/discrete/examples/CMakeFiles/schedulingQuals13.dir/schedulingQuals13.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/BayesNet-inst.h
 gtsam_unstable/discrete/examples/CMakeFiles/schedulingQuals13.dir/schedulingQuals13.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/BayesNet.h
 gtsam_unstable/discrete/examples/CMakeFiles/schedulingQuals13.dir/schedulingQuals13.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/Conditional.h
-gtsam_unstable/discrete/examples/CMakeFiles/schedulingQuals13.dir/schedulingQuals13.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/DotWriter.h
 gtsam_unstable/discrete/examples/CMakeFiles/schedulingQuals13.dir/schedulingQuals13.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/EliminateableFactorGraph.h
 gtsam_unstable/discrete/examples/CMakeFiles/schedulingQuals13.dir/schedulingQuals13.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/Factor.h
 gtsam_unstable/discrete/examples/CMakeFiles/schedulingQuals13.dir/schedulingQuals13.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/FactorGraph-inst.h

@@ -204,7 +204,7 @@ namespace gtsam {
       OptionalVariableIndex variableIndex = boost::none) const;
 
     /** Do multifrontal elimination of the given \c variables in an ordering computed by COLAMD to
-     *  produce a Bayes tree and a remaining factor graph.  This computes the factorization \f$ p(X)
+     *  produce a Bayes net and a remaining factor graph.  This computes the factorization \f$ p(X)
      *  = p(A|B) p(B) \f$, where \f$ A = \f$ \c variables, \f$ X \f$ is all the variables in the
      *  factor graph, and \f$ B = X\backslash A \f$. */
     std::pair<boost::shared_ptr<BayesTreeType>, boost::shared_ptr<FactorGraphType> >
@@ -288,9 +288,8 @@ namespace gtsam {
     FactorGraphType& asDerived() { return static_cast<FactorGraphType&>(*this); }
 
   public:
-  #ifdef GTSAM_ALLOW_DEPRECATED_SINCE_V42
-    /** @deprecated ordering and orderingType shouldn't both be specified */
-    boost::shared_ptr<BayesNetType> GTSAM_DEPRECATED eliminateSequential(
+    /** \deprecated ordering and orderingType shouldn't both be specified */
+    boost::shared_ptr<BayesNetType> eliminateSequential(
       const Ordering& ordering,
       const Eliminate& function,
       OptionalVariableIndex variableIndex,
@@ -298,16 +297,16 @@ namespace gtsam {
         return eliminateSequential(ordering, function, variableIndex);
       }
     
-    /** @deprecated orderingType specified first for consistency */
-    boost::shared_ptr<BayesNetType> GTSAM_DEPRECATED eliminateSequential(
+    /** \deprecated orderingType specified first for consistency */
+    boost::shared_ptr<BayesNetType> eliminateSequential(
       const Eliminate& function,
       OptionalVariableIndex variableIndex = boost::none,
       OptionalOrderingType orderingType = boost::none) const {
         return eliminateSequential(orderingType, function, variableIndex);
       }
 
-    /** @deprecated ordering and orderingType shouldn't both be specified */
-    boost::shared_ptr<BayesTreeType> GTSAM_DEPRECATED eliminateMultifrontal(
+    /** \deprecated ordering and orderingType shouldn't both be specified */
+    boost::shared_ptr<BayesTreeType> eliminateMultifrontal(
       const Ordering& ordering,
       const Eliminate& function,
       OptionalVariableIndex variableIndex,
@@ -315,16 +314,16 @@ namespace gtsam {
         return eliminateMultifrontal(ordering, function, variableIndex);
       }
 
-    /** @deprecated orderingType specified first for consistency */
-    boost::shared_ptr<BayesTreeType> GTSAM_DEPRECATED eliminateMultifrontal(
+    /** \deprecated orderingType specified first for consistency */
+    boost::shared_ptr<BayesTreeType> eliminateMultifrontal(
       const Eliminate& function,
       OptionalVariableIndex variableIndex = boost::none,
       OptionalOrderingType orderingType = boost::none) const {
         return eliminateMultifrontal(orderingType, function, variableIndex);
       }
 
-    /** @deprecated */
-    boost::shared_ptr<BayesNetType> GTSAM_DEPRECATED marginalMultifrontalBayesNet(
+    /** \deprecated */
+    boost::shared_ptr<BayesNetType> marginalMultifrontalBayesNet(
       boost::variant<const Ordering&, const KeyVector&> variables,
       boost::none_t,
       const Eliminate& function = EliminationTraitsType::DefaultEliminate,
@@ -332,15 +331,14 @@ namespace gtsam {
           return marginalMultifrontalBayesNet(variables, function, variableIndex);
       }
 
-    /** @deprecated */
-    boost::shared_ptr<BayesTreeType> GTSAM_DEPRECATED marginalMultifrontalBayesTree(
+    /** \deprecated */
+    boost::shared_ptr<BayesTreeType> marginalMultifrontalBayesTree(
       boost::variant<const Ordering&, const KeyVector&> variables,
       boost::none_t,
       const Eliminate& function = EliminationTraitsType::DefaultEliminate,
       OptionalVariableIndex variableIndex = boost::none) const {
           return marginalMultifrontalBayesTree(variables, function, variableIndex);
       }
-  #endif
   };
 
 }

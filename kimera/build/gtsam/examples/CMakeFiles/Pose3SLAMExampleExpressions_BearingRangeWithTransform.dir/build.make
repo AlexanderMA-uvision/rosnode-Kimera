@@ -79,7 +79,7 @@ Pose3SLAMExampleExpressions_BearingRangeWithTransform_EXTERNAL_OBJECTS =
 
 examples/Pose3SLAMExampleExpressions_BearingRangeWithTransform: examples/CMakeFiles/Pose3SLAMExampleExpressions_BearingRangeWithTransform.dir/Pose3SLAMExampleExpressions_BearingRangeWithTransform.cpp.o
 examples/Pose3SLAMExampleExpressions_BearingRangeWithTransform: examples/CMakeFiles/Pose3SLAMExampleExpressions_BearingRangeWithTransform.dir/build.make
-examples/Pose3SLAMExampleExpressions_BearingRangeWithTransform: gtsam/libgtsam.so.4.2.0
+examples/Pose3SLAMExampleExpressions_BearingRangeWithTransform: gtsam/libgtsam.so.4.1.0
 examples/Pose3SLAMExampleExpressions_BearingRangeWithTransform: /usr/lib/aarch64-linux-gnu/libboost_program_options.so.1.71.0
 examples/Pose3SLAMExampleExpressions_BearingRangeWithTransform: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 examples/Pose3SLAMExampleExpressions_BearingRangeWithTransform: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0

@@ -80,7 +80,7 @@ testGaussianBayesTreeB_EXTERNAL_OBJECTS =
 tests/testGaussianBayesTreeB: tests/CMakeFiles/testGaussianBayesTreeB.dir/testGaussianBayesTreeB.cpp.o
 tests/testGaussianBayesTreeB: tests/CMakeFiles/testGaussianBayesTreeB.dir/build.make
 tests/testGaussianBayesTreeB: CppUnitLite/libCppUnitLite.a
-tests/testGaussianBayesTreeB: gtsam/libgtsam.so.4.2.0
+tests/testGaussianBayesTreeB: gtsam/libgtsam.so.4.1.0
 tests/testGaussianBayesTreeB: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 tests/testGaussianBayesTreeB: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 tests/testGaussianBayesTreeB: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

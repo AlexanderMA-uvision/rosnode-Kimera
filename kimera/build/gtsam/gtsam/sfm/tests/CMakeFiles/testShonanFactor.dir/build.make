@@ -80,7 +80,7 @@ testShonanFactor_EXTERNAL_OBJECTS =
 gtsam/sfm/tests/testShonanFactor: gtsam/sfm/tests/CMakeFiles/testShonanFactor.dir/testShonanFactor.cpp.o
 gtsam/sfm/tests/testShonanFactor: gtsam/sfm/tests/CMakeFiles/testShonanFactor.dir/build.make
 gtsam/sfm/tests/testShonanFactor: CppUnitLite/libCppUnitLite.a
-gtsam/sfm/tests/testShonanFactor: gtsam/libgtsam.so.4.2.0
+gtsam/sfm/tests/testShonanFactor: gtsam/libgtsam.so.4.1.0
 gtsam/sfm/tests/testShonanFactor: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 gtsam/sfm/tests/testShonanFactor: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 gtsam/sfm/tests/testShonanFactor: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

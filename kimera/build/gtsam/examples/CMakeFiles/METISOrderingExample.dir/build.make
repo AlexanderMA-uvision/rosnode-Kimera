@@ -79,7 +79,7 @@ METISOrderingExample_EXTERNAL_OBJECTS =
 
 examples/METISOrderingExample: examples/CMakeFiles/METISOrderingExample.dir/METISOrderingExample.cpp.o
 examples/METISOrderingExample: examples/CMakeFiles/METISOrderingExample.dir/build.make
-examples/METISOrderingExample: gtsam/libgtsam.so.4.2.0
+examples/METISOrderingExample: gtsam/libgtsam.so.4.1.0
 examples/METISOrderingExample: /usr/lib/aarch64-linux-gnu/libboost_program_options.so.1.71.0
 examples/METISOrderingExample: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 examples/METISOrderingExample: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0

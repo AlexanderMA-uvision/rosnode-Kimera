@@ -80,7 +80,7 @@ testGradientDescentOptimizer_EXTERNAL_OBJECTS =
 tests/testGradientDescentOptimizer: tests/CMakeFiles/testGradientDescentOptimizer.dir/testGradientDescentOptimizer.cpp.o
 tests/testGradientDescentOptimizer: tests/CMakeFiles/testGradientDescentOptimizer.dir/build.make
 tests/testGradientDescentOptimizer: CppUnitLite/libCppUnitLite.a
-tests/testGradientDescentOptimizer: gtsam/libgtsam.so.4.2.0
+tests/testGradientDescentOptimizer: gtsam/libgtsam.so.4.1.0
 tests/testGradientDescentOptimizer: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 tests/testGradientDescentOptimizer: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 tests/testGradientDescentOptimizer: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

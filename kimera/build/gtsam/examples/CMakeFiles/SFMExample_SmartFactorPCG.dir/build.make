@@ -79,7 +79,7 @@ SFMExample_SmartFactorPCG_EXTERNAL_OBJECTS =
 
 examples/SFMExample_SmartFactorPCG: examples/CMakeFiles/SFMExample_SmartFactorPCG.dir/SFMExample_SmartFactorPCG.cpp.o
 examples/SFMExample_SmartFactorPCG: examples/CMakeFiles/SFMExample_SmartFactorPCG.dir/build.make
-examples/SFMExample_SmartFactorPCG: gtsam/libgtsam.so.4.2.0
+examples/SFMExample_SmartFactorPCG: gtsam/libgtsam.so.4.1.0
 examples/SFMExample_SmartFactorPCG: /usr/lib/aarch64-linux-gnu/libboost_program_options.so.1.71.0
 examples/SFMExample_SmartFactorPCG: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 examples/SFMExample_SmartFactorPCG: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0

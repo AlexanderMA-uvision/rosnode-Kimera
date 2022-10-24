@@ -80,7 +80,7 @@ testScatter_EXTERNAL_OBJECTS =
 gtsam/linear/tests/testScatter: gtsam/linear/tests/CMakeFiles/testScatter.dir/testScatter.cpp.o
 gtsam/linear/tests/testScatter: gtsam/linear/tests/CMakeFiles/testScatter.dir/build.make
 gtsam/linear/tests/testScatter: CppUnitLite/libCppUnitLite.a
-gtsam/linear/tests/testScatter: gtsam/libgtsam.so.4.2.0
+gtsam/linear/tests/testScatter: gtsam/libgtsam.so.4.1.0
 gtsam/linear/tests/testScatter: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 gtsam/linear/tests/testScatter: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 gtsam/linear/tests/testScatter: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

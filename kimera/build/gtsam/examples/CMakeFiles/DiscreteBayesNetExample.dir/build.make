@@ -79,7 +79,7 @@ DiscreteBayesNetExample_EXTERNAL_OBJECTS =
 
 examples/DiscreteBayesNetExample: examples/CMakeFiles/DiscreteBayesNetExample.dir/DiscreteBayesNetExample.cpp.o
 examples/DiscreteBayesNetExample: examples/CMakeFiles/DiscreteBayesNetExample.dir/build.make
-examples/DiscreteBayesNetExample: gtsam/libgtsam.so.4.2.0
+examples/DiscreteBayesNetExample: gtsam/libgtsam.so.4.1.0
 examples/DiscreteBayesNetExample: /usr/lib/aarch64-linux-gnu/libboost_program_options.so.1.71.0
 examples/DiscreteBayesNetExample: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 examples/DiscreteBayesNetExample: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0

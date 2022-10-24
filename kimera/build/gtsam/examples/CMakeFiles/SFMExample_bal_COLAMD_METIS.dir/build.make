@@ -79,7 +79,7 @@ SFMExample_bal_COLAMD_METIS_EXTERNAL_OBJECTS =
 
 examples/SFMExample_bal_COLAMD_METIS: examples/CMakeFiles/SFMExample_bal_COLAMD_METIS.dir/SFMExample_bal_COLAMD_METIS.cpp.o
 examples/SFMExample_bal_COLAMD_METIS: examples/CMakeFiles/SFMExample_bal_COLAMD_METIS.dir/build.make
-examples/SFMExample_bal_COLAMD_METIS: gtsam/libgtsam.so.4.2.0
+examples/SFMExample_bal_COLAMD_METIS: gtsam/libgtsam.so.4.1.0
 examples/SFMExample_bal_COLAMD_METIS: /usr/lib/aarch64-linux-gnu/libboost_program_options.so.1.71.0
 examples/SFMExample_bal_COLAMD_METIS: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 examples/SFMExample_bal_COLAMD_METIS: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0

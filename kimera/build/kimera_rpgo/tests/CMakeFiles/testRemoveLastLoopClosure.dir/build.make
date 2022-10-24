@@ -81,8 +81,8 @@ tests/testRemoveLastLoopClosure: tests/CMakeFiles/testRemoveLastLoopClosure.dir/
 tests/testRemoveLastLoopClosure: tests/CMakeFiles/testRemoveLastLoopClosure.dir/build.make
 tests/testRemoveLastLoopClosure: /home/catkin_ws/devel/lib/libCppUnitLite.a
 tests/testRemoveLastLoopClosure: libKimeraRPGO.so
-tests/testRemoveLastLoopClosure: /home/catkin_ws/devel/lib/libgtsam_unstable.so.4.2.0
-tests/testRemoveLastLoopClosure: /home/catkin_ws/devel/lib/libgtsam.so.4.2.0
+tests/testRemoveLastLoopClosure: /home/catkin_ws/devel/lib/libgtsam_unstable.so.4.1.0
+tests/testRemoveLastLoopClosure: /home/catkin_ws/devel/lib/libgtsam.so.4.1.0
 tests/testRemoveLastLoopClosure: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 tests/testRemoveLastLoopClosure: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 tests/testRemoveLastLoopClosure: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

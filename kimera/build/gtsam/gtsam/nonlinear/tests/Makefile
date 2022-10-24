@@ -205,36 +205,6 @@ testWhiteNoiseFactor.run/fast:
 .PHONY : testWhiteNoiseFactor.run/fast
 
 # Convenience name for target.
-gtsam/nonlinear/tests/CMakeFiles/testValues.valgrind.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/nonlinear/tests/CMakeFiles/testValues.valgrind.dir/rule
-.PHONY : gtsam/nonlinear/tests/CMakeFiles/testValues.valgrind.dir/rule
-
-# Convenience name for target.
-testValues.valgrind: gtsam/nonlinear/tests/CMakeFiles/testValues.valgrind.dir/rule
-
-.PHONY : testValues.valgrind
-
-# fast build rule for target.
-testValues.valgrind/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/nonlinear/tests/CMakeFiles/testValues.valgrind.dir/build.make gtsam/nonlinear/tests/CMakeFiles/testValues.valgrind.dir/build
-.PHONY : testValues.valgrind/fast
-
-# Convenience name for target.
-gtsam/nonlinear/tests/CMakeFiles/testValues.run.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/nonlinear/tests/CMakeFiles/testValues.run.dir/rule
-.PHONY : gtsam/nonlinear/tests/CMakeFiles/testValues.run.dir/rule
-
-# Convenience name for target.
-testValues.run: gtsam/nonlinear/tests/CMakeFiles/testValues.run.dir/rule
-
-.PHONY : testValues.run
-
-# fast build rule for target.
-testValues.run/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/nonlinear/tests/CMakeFiles/testValues.run.dir/build.make gtsam/nonlinear/tests/CMakeFiles/testValues.run.dir/build
-.PHONY : testValues.run/fast
-
-# Convenience name for target.
 gtsam/nonlinear/tests/CMakeFiles/testExecutionTrace.run.dir/rule:
 	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/nonlinear/tests/CMakeFiles/testExecutionTrace.run.dir/rule
 .PHONY : gtsam/nonlinear/tests/CMakeFiles/testExecutionTrace.run.dir/rule
@@ -565,34 +535,79 @@ testLinearContainerFactor.valgrind/fast:
 .PHONY : testLinearContainerFactor.valgrind/fast
 
 # Convenience name for target.
-gtsam/nonlinear/tests/CMakeFiles/testUtilities.run.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/nonlinear/tests/CMakeFiles/testUtilities.run.dir/rule
-.PHONY : gtsam/nonlinear/tests/CMakeFiles/testUtilities.run.dir/rule
+gtsam/nonlinear/tests/CMakeFiles/testLinearContainerFactor.run.dir/rule:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/nonlinear/tests/CMakeFiles/testLinearContainerFactor.run.dir/rule
+.PHONY : gtsam/nonlinear/tests/CMakeFiles/testLinearContainerFactor.run.dir/rule
 
 # Convenience name for target.
-testUtilities.run: gtsam/nonlinear/tests/CMakeFiles/testUtilities.run.dir/rule
+testLinearContainerFactor.run: gtsam/nonlinear/tests/CMakeFiles/testLinearContainerFactor.run.dir/rule
 
-.PHONY : testUtilities.run
+.PHONY : testLinearContainerFactor.run
 
 # fast build rule for target.
-testUtilities.run/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/nonlinear/tests/CMakeFiles/testUtilities.run.dir/build.make gtsam/nonlinear/tests/CMakeFiles/testUtilities.run.dir/build
-.PHONY : testUtilities.run/fast
+testLinearContainerFactor.run/fast:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/nonlinear/tests/CMakeFiles/testLinearContainerFactor.run.dir/build.make gtsam/nonlinear/tests/CMakeFiles/testLinearContainerFactor.run.dir/build
+.PHONY : testLinearContainerFactor.run/fast
 
 # Convenience name for target.
-gtsam/nonlinear/tests/CMakeFiles/testWhiteNoiseFactor.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/nonlinear/tests/CMakeFiles/testWhiteNoiseFactor.dir/rule
-.PHONY : gtsam/nonlinear/tests/CMakeFiles/testWhiteNoiseFactor.dir/rule
+gtsam/nonlinear/tests/CMakeFiles/testSerializationNonlinear.run.dir/rule:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/nonlinear/tests/CMakeFiles/testSerializationNonlinear.run.dir/rule
+.PHONY : gtsam/nonlinear/tests/CMakeFiles/testSerializationNonlinear.run.dir/rule
 
 # Convenience name for target.
-testWhiteNoiseFactor: gtsam/nonlinear/tests/CMakeFiles/testWhiteNoiseFactor.dir/rule
+testSerializationNonlinear.run: gtsam/nonlinear/tests/CMakeFiles/testSerializationNonlinear.run.dir/rule
 
-.PHONY : testWhiteNoiseFactor
+.PHONY : testSerializationNonlinear.run
 
 # fast build rule for target.
-testWhiteNoiseFactor/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/nonlinear/tests/CMakeFiles/testWhiteNoiseFactor.dir/build.make gtsam/nonlinear/tests/CMakeFiles/testWhiteNoiseFactor.dir/build
-.PHONY : testWhiteNoiseFactor/fast
+testSerializationNonlinear.run/fast:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/nonlinear/tests/CMakeFiles/testSerializationNonlinear.run.dir/build.make gtsam/nonlinear/tests/CMakeFiles/testSerializationNonlinear.run.dir/build
+.PHONY : testSerializationNonlinear.run/fast
+
+# Convenience name for target.
+gtsam/nonlinear/tests/CMakeFiles/testValues.dir/rule:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/nonlinear/tests/CMakeFiles/testValues.dir/rule
+.PHONY : gtsam/nonlinear/tests/CMakeFiles/testValues.dir/rule
+
+# Convenience name for target.
+testValues: gtsam/nonlinear/tests/CMakeFiles/testValues.dir/rule
+
+.PHONY : testValues
+
+# fast build rule for target.
+testValues/fast:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/nonlinear/tests/CMakeFiles/testValues.dir/build.make gtsam/nonlinear/tests/CMakeFiles/testValues.dir/build
+.PHONY : testValues/fast
+
+# Convenience name for target.
+gtsam/nonlinear/tests/CMakeFiles/testValues.run.dir/rule:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/nonlinear/tests/CMakeFiles/testValues.run.dir/rule
+.PHONY : gtsam/nonlinear/tests/CMakeFiles/testValues.run.dir/rule
+
+# Convenience name for target.
+testValues.run: gtsam/nonlinear/tests/CMakeFiles/testValues.run.dir/rule
+
+.PHONY : testValues.run
+
+# fast build rule for target.
+testValues.run/fast:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/nonlinear/tests/CMakeFiles/testValues.run.dir/build.make gtsam/nonlinear/tests/CMakeFiles/testValues.run.dir/build
+.PHONY : testValues.run/fast
+
+# Convenience name for target.
+gtsam/nonlinear/tests/CMakeFiles/testValues.valgrind.dir/rule:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/nonlinear/tests/CMakeFiles/testValues.valgrind.dir/rule
+.PHONY : gtsam/nonlinear/tests/CMakeFiles/testValues.valgrind.dir/rule
+
+# Convenience name for target.
+testValues.valgrind: gtsam/nonlinear/tests/CMakeFiles/testValues.valgrind.dir/rule
+
+.PHONY : testValues.valgrind
+
+# fast build rule for target.
+testValues.valgrind/fast:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/nonlinear/tests/CMakeFiles/testValues.valgrind.dir/build.make gtsam/nonlinear/tests/CMakeFiles/testValues.valgrind.dir/build
+.PHONY : testValues.valgrind/fast
 
 # Convenience name for target.
 gtsam/nonlinear/tests/CMakeFiles/testExecutionTrace.dir/rule:
@@ -625,79 +640,19 @@ testLinearContainerFactor/fast:
 .PHONY : testLinearContainerFactor/fast
 
 # Convenience name for target.
-gtsam/nonlinear/tests/CMakeFiles/testUtilities.valgrind.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/nonlinear/tests/CMakeFiles/testUtilities.valgrind.dir/rule
-.PHONY : gtsam/nonlinear/tests/CMakeFiles/testUtilities.valgrind.dir/rule
+gtsam/nonlinear/tests/CMakeFiles/testWhiteNoiseFactor.dir/rule:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/nonlinear/tests/CMakeFiles/testWhiteNoiseFactor.dir/rule
+.PHONY : gtsam/nonlinear/tests/CMakeFiles/testWhiteNoiseFactor.dir/rule
 
 # Convenience name for target.
-testUtilities.valgrind: gtsam/nonlinear/tests/CMakeFiles/testUtilities.valgrind.dir/rule
+testWhiteNoiseFactor: gtsam/nonlinear/tests/CMakeFiles/testWhiteNoiseFactor.dir/rule
 
-.PHONY : testUtilities.valgrind
+.PHONY : testWhiteNoiseFactor
 
 # fast build rule for target.
-testUtilities.valgrind/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/nonlinear/tests/CMakeFiles/testUtilities.valgrind.dir/build.make gtsam/nonlinear/tests/CMakeFiles/testUtilities.valgrind.dir/build
-.PHONY : testUtilities.valgrind/fast
-
-# Convenience name for target.
-gtsam/nonlinear/tests/CMakeFiles/testLinearContainerFactor.run.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/nonlinear/tests/CMakeFiles/testLinearContainerFactor.run.dir/rule
-.PHONY : gtsam/nonlinear/tests/CMakeFiles/testLinearContainerFactor.run.dir/rule
-
-# Convenience name for target.
-testLinearContainerFactor.run: gtsam/nonlinear/tests/CMakeFiles/testLinearContainerFactor.run.dir/rule
-
-.PHONY : testLinearContainerFactor.run
-
-# fast build rule for target.
-testLinearContainerFactor.run/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/nonlinear/tests/CMakeFiles/testLinearContainerFactor.run.dir/build.make gtsam/nonlinear/tests/CMakeFiles/testLinearContainerFactor.run.dir/build
-.PHONY : testLinearContainerFactor.run/fast
-
-# Convenience name for target.
-gtsam/nonlinear/tests/CMakeFiles/testSerializationNonlinear.run.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/nonlinear/tests/CMakeFiles/testSerializationNonlinear.run.dir/rule
-.PHONY : gtsam/nonlinear/tests/CMakeFiles/testSerializationNonlinear.run.dir/rule
-
-# Convenience name for target.
-testSerializationNonlinear.run: gtsam/nonlinear/tests/CMakeFiles/testSerializationNonlinear.run.dir/rule
-
-.PHONY : testSerializationNonlinear.run
-
-# fast build rule for target.
-testSerializationNonlinear.run/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/nonlinear/tests/CMakeFiles/testSerializationNonlinear.run.dir/build.make gtsam/nonlinear/tests/CMakeFiles/testSerializationNonlinear.run.dir/build
-.PHONY : testSerializationNonlinear.run/fast
-
-# Convenience name for target.
-gtsam/nonlinear/tests/CMakeFiles/testUtilities.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/nonlinear/tests/CMakeFiles/testUtilities.dir/rule
-.PHONY : gtsam/nonlinear/tests/CMakeFiles/testUtilities.dir/rule
-
-# Convenience name for target.
-testUtilities: gtsam/nonlinear/tests/CMakeFiles/testUtilities.dir/rule
-
-.PHONY : testUtilities
-
-# fast build rule for target.
-testUtilities/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/nonlinear/tests/CMakeFiles/testUtilities.dir/build.make gtsam/nonlinear/tests/CMakeFiles/testUtilities.dir/build
-.PHONY : testUtilities/fast
-
-# Convenience name for target.
-gtsam/nonlinear/tests/CMakeFiles/testValues.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/nonlinear/tests/CMakeFiles/testValues.dir/rule
-.PHONY : gtsam/nonlinear/tests/CMakeFiles/testValues.dir/rule
-
-# Convenience name for target.
-testValues: gtsam/nonlinear/tests/CMakeFiles/testValues.dir/rule
-
-.PHONY : testValues
-
-# fast build rule for target.
-testValues/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/nonlinear/tests/CMakeFiles/testValues.dir/build.make gtsam/nonlinear/tests/CMakeFiles/testValues.dir/build
-.PHONY : testValues/fast
+testWhiteNoiseFactor/fast:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/nonlinear/tests/CMakeFiles/testWhiteNoiseFactor.dir/build.make gtsam/nonlinear/tests/CMakeFiles/testWhiteNoiseFactor.dir/build
+.PHONY : testWhiteNoiseFactor/fast
 
 testAdaptAutoDiff.o: testAdaptAutoDiff.cpp.o
 
@@ -915,33 +870,6 @@ testSerializationNonlinear.cpp.s:
 	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/nonlinear/tests/CMakeFiles/testSerializationNonlinear.dir/build.make gtsam/nonlinear/tests/CMakeFiles/testSerializationNonlinear.dir/testSerializationNonlinear.cpp.s
 .PHONY : testSerializationNonlinear.cpp.s
 
-testUtilities.o: testUtilities.cpp.o
-
-.PHONY : testUtilities.o
-
-# target to build an object file
-testUtilities.cpp.o:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/nonlinear/tests/CMakeFiles/testUtilities.dir/build.make gtsam/nonlinear/tests/CMakeFiles/testUtilities.dir/testUtilities.cpp.o
-.PHONY : testUtilities.cpp.o
-
-testUtilities.i: testUtilities.cpp.i
-
-.PHONY : testUtilities.i
-
-# target to preprocess a source file
-testUtilities.cpp.i:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/nonlinear/tests/CMakeFiles/testUtilities.dir/build.make gtsam/nonlinear/tests/CMakeFiles/testUtilities.dir/testUtilities.cpp.i
-.PHONY : testUtilities.cpp.i
-
-testUtilities.s: testUtilities.cpp.s
-
-.PHONY : testUtilities.s
-
-# target to generate assembly for a file
-testUtilities.cpp.s:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/nonlinear/tests/CMakeFiles/testUtilities.dir/build.make gtsam/nonlinear/tests/CMakeFiles/testUtilities.dir/testUtilities.cpp.s
-.PHONY : testUtilities.cpp.s
-
 testValues.o: testValues.cpp.o
 
 .PHONY : testValues.o
@@ -1009,8 +937,6 @@ help:
 	@echo "... test"
 	@echo "... package_source"
 	@echo "... testWhiteNoiseFactor.run"
-	@echo "... testValues.valgrind"
-	@echo "... testValues.run"
 	@echo "... testExecutionTrace.run"
 	@echo "... package"
 	@echo "... testWhiteNoiseFactor.valgrind"
@@ -1036,15 +962,14 @@ help:
 	@echo "... testSerializationNonlinear"
 	@echo "... testFunctorizedFactor.run"
 	@echo "... testLinearContainerFactor.valgrind"
-	@echo "... testUtilities.run"
-	@echo "... testWhiteNoiseFactor"
-	@echo "... testExecutionTrace"
-	@echo "... testLinearContainerFactor"
-	@echo "... testUtilities.valgrind"
 	@echo "... testLinearContainerFactor.run"
 	@echo "... testSerializationNonlinear.run"
-	@echo "... testUtilities"
 	@echo "... testValues"
+	@echo "... testValues.run"
+	@echo "... testValues.valgrind"
+	@echo "... testExecutionTrace"
+	@echo "... testLinearContainerFactor"
+	@echo "... testWhiteNoiseFactor"
 	@echo "... testAdaptAutoDiff.o"
 	@echo "... testAdaptAutoDiff.i"
 	@echo "... testAdaptAutoDiff.s"
@@ -1069,9 +994,6 @@ help:
 	@echo "... testSerializationNonlinear.o"
 	@echo "... testSerializationNonlinear.i"
 	@echo "... testSerializationNonlinear.s"
-	@echo "... testUtilities.o"
-	@echo "... testUtilities.i"
-	@echo "... testUtilities.s"
 	@echo "... testValues.o"
 	@echo "... testValues.i"
 	@echo "... testValues.s"

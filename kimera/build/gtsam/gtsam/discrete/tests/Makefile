@@ -89,17 +89,6 @@ edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
 
-# Special rule for the target test
-test:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
-	/usr/bin/ctest --force-new-ctest-process $(ARGS)
-.PHONY : test
-
-# Special rule for the target test
-test/fast: test
-
-.PHONY : test/fast
-
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
@@ -157,6 +146,17 @@ install/strip/fast: preinstall/fast
 	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip/fast
 
+# Special rule for the target test
+test:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
+	/usr/bin/ctest --force-new-ctest-process $(ARGS)
+.PHONY : test
+
+# Special rule for the target test
+test/fast: test
+
+.PHONY : test/fast
+
 # The main all target
 all: cmake_check_build_system
 	cd /home/catkin_ws/build/gtsam && $(CMAKE_COMMAND) -E cmake_progress_start /home/catkin_ws/build/gtsam/CMakeFiles /home/catkin_ws/build/gtsam/gtsam/discrete/tests/CMakeFiles/progress.marks
@@ -205,94 +205,19 @@ testSignature.run/fast:
 .PHONY : testSignature.run/fast
 
 # Convenience name for target.
-gtsam/discrete/tests/CMakeFiles/testSignature.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/discrete/tests/CMakeFiles/testSignature.dir/rule
-.PHONY : gtsam/discrete/tests/CMakeFiles/testSignature.dir/rule
+gtsam/discrete/tests/CMakeFiles/testDiscreteFactorGraph.run.dir/rule:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/discrete/tests/CMakeFiles/testDiscreteFactorGraph.run.dir/rule
+.PHONY : gtsam/discrete/tests/CMakeFiles/testDiscreteFactorGraph.run.dir/rule
 
 # Convenience name for target.
-testSignature: gtsam/discrete/tests/CMakeFiles/testSignature.dir/rule
+testDiscreteFactorGraph.run: gtsam/discrete/tests/CMakeFiles/testDiscreteFactorGraph.run.dir/rule
 
-.PHONY : testSignature
+.PHONY : testDiscreteFactorGraph.run
 
 # fast build rule for target.
-testSignature/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/discrete/tests/CMakeFiles/testSignature.dir/build.make gtsam/discrete/tests/CMakeFiles/testSignature.dir/build
-.PHONY : testSignature/fast
-
-# Convenience name for target.
-gtsam/discrete/tests/CMakeFiles/testDiscreteMarginals.valgrind.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/discrete/tests/CMakeFiles/testDiscreteMarginals.valgrind.dir/rule
-.PHONY : gtsam/discrete/tests/CMakeFiles/testDiscreteMarginals.valgrind.dir/rule
-
-# Convenience name for target.
-testDiscreteMarginals.valgrind: gtsam/discrete/tests/CMakeFiles/testDiscreteMarginals.valgrind.dir/rule
-
-.PHONY : testDiscreteMarginals.valgrind
-
-# fast build rule for target.
-testDiscreteMarginals.valgrind/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/discrete/tests/CMakeFiles/testDiscreteMarginals.valgrind.dir/build.make gtsam/discrete/tests/CMakeFiles/testDiscreteMarginals.valgrind.dir/build
-.PHONY : testDiscreteMarginals.valgrind/fast
-
-# Convenience name for target.
-gtsam/discrete/tests/CMakeFiles/testDiscreteMarginals.run.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/discrete/tests/CMakeFiles/testDiscreteMarginals.run.dir/rule
-.PHONY : gtsam/discrete/tests/CMakeFiles/testDiscreteMarginals.run.dir/rule
-
-# Convenience name for target.
-testDiscreteMarginals.run: gtsam/discrete/tests/CMakeFiles/testDiscreteMarginals.run.dir/rule
-
-.PHONY : testDiscreteMarginals.run
-
-# fast build rule for target.
-testDiscreteMarginals.run/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/discrete/tests/CMakeFiles/testDiscreteMarginals.run.dir/build.make gtsam/discrete/tests/CMakeFiles/testDiscreteMarginals.run.dir/build
-.PHONY : testDiscreteMarginals.run/fast
-
-# Convenience name for target.
-gtsam/discrete/tests/CMakeFiles/testDiscreteMarginals.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/discrete/tests/CMakeFiles/testDiscreteMarginals.dir/rule
-.PHONY : gtsam/discrete/tests/CMakeFiles/testDiscreteMarginals.dir/rule
-
-# Convenience name for target.
-testDiscreteMarginals: gtsam/discrete/tests/CMakeFiles/testDiscreteMarginals.dir/rule
-
-.PHONY : testDiscreteMarginals
-
-# fast build rule for target.
-testDiscreteMarginals/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/discrete/tests/CMakeFiles/testDiscreteMarginals.dir/build.make gtsam/discrete/tests/CMakeFiles/testDiscreteMarginals.dir/build
-.PHONY : testDiscreteMarginals/fast
-
-# Convenience name for target.
-gtsam/discrete/tests/CMakeFiles/testDiscreteLookupDAG.run.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/discrete/tests/CMakeFiles/testDiscreteLookupDAG.run.dir/rule
-.PHONY : gtsam/discrete/tests/CMakeFiles/testDiscreteLookupDAG.run.dir/rule
-
-# Convenience name for target.
-testDiscreteLookupDAG.run: gtsam/discrete/tests/CMakeFiles/testDiscreteLookupDAG.run.dir/rule
-
-.PHONY : testDiscreteLookupDAG.run
-
-# fast build rule for target.
-testDiscreteLookupDAG.run/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/discrete/tests/CMakeFiles/testDiscreteLookupDAG.run.dir/build.make gtsam/discrete/tests/CMakeFiles/testDiscreteLookupDAG.run.dir/build
-.PHONY : testDiscreteLookupDAG.run/fast
-
-# Convenience name for target.
-gtsam/discrete/tests/CMakeFiles/testDiscreteValues.run.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/discrete/tests/CMakeFiles/testDiscreteValues.run.dir/rule
-.PHONY : gtsam/discrete/tests/CMakeFiles/testDiscreteValues.run.dir/rule
-
-# Convenience name for target.
-testDiscreteValues.run: gtsam/discrete/tests/CMakeFiles/testDiscreteValues.run.dir/rule
-
-.PHONY : testDiscreteValues.run
-
-# fast build rule for target.
-testDiscreteValues.run/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/discrete/tests/CMakeFiles/testDiscreteValues.run.dir/build.make gtsam/discrete/tests/CMakeFiles/testDiscreteValues.run.dir/build
-.PHONY : testDiscreteValues.run/fast
+testDiscreteFactorGraph.run/fast:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/discrete/tests/CMakeFiles/testDiscreteFactorGraph.run.dir/build.make gtsam/discrete/tests/CMakeFiles/testDiscreteFactorGraph.run.dir/build
+.PHONY : testDiscreteFactorGraph.run/fast
 
 # Convenience name for target.
 gtsam/discrete/tests/CMakeFiles/testDecisionTreeFactor.dir/rule:
@@ -308,21 +233,6 @@ testDecisionTreeFactor: gtsam/discrete/tests/CMakeFiles/testDecisionTreeFactor.d
 testDecisionTreeFactor/fast:
 	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/discrete/tests/CMakeFiles/testDecisionTreeFactor.dir/build.make gtsam/discrete/tests/CMakeFiles/testDecisionTreeFactor.dir/build
 .PHONY : testDecisionTreeFactor/fast
-
-# Convenience name for target.
-gtsam/discrete/tests/CMakeFiles/testDiscreteValues.valgrind.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/discrete/tests/CMakeFiles/testDiscreteValues.valgrind.dir/rule
-.PHONY : gtsam/discrete/tests/CMakeFiles/testDiscreteValues.valgrind.dir/rule
-
-# Convenience name for target.
-testDiscreteValues.valgrind: gtsam/discrete/tests/CMakeFiles/testDiscreteValues.valgrind.dir/rule
-
-.PHONY : testDiscreteValues.valgrind
-
-# fast build rule for target.
-testDiscreteValues.valgrind/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/discrete/tests/CMakeFiles/testDiscreteValues.valgrind.dir/build.make gtsam/discrete/tests/CMakeFiles/testDiscreteValues.valgrind.dir/build
-.PHONY : testDiscreteValues.valgrind/fast
 
 # Convenience name for target.
 gtsam/discrete/tests/CMakeFiles/testAlgebraicDecisionTree.run.dir/rule:
@@ -398,21 +308,6 @@ testDecisionTree.valgrind: gtsam/discrete/tests/CMakeFiles/testDecisionTree.valg
 testDecisionTree.valgrind/fast:
 	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/discrete/tests/CMakeFiles/testDecisionTree.valgrind.dir/build.make gtsam/discrete/tests/CMakeFiles/testDecisionTree.valgrind.dir/build
 .PHONY : testDecisionTree.valgrind/fast
-
-# Convenience name for target.
-gtsam/discrete/tests/CMakeFiles/testDiscreteDistribution.valgrind.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/discrete/tests/CMakeFiles/testDiscreteDistribution.valgrind.dir/rule
-.PHONY : gtsam/discrete/tests/CMakeFiles/testDiscreteDistribution.valgrind.dir/rule
-
-# Convenience name for target.
-testDiscreteDistribution.valgrind: gtsam/discrete/tests/CMakeFiles/testDiscreteDistribution.valgrind.dir/rule
-
-.PHONY : testDiscreteDistribution.valgrind
-
-# fast build rule for target.
-testDiscreteDistribution.valgrind/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/discrete/tests/CMakeFiles/testDiscreteDistribution.valgrind.dir/build.make gtsam/discrete/tests/CMakeFiles/testDiscreteDistribution.valgrind.dir/build
-.PHONY : testDiscreteDistribution.valgrind/fast
 
 # Convenience name for target.
 gtsam/discrete/tests/CMakeFiles/testDecisionTree.dir/rule:
@@ -595,6 +490,21 @@ testDiscreteFactor.valgrind/fast:
 .PHONY : testDiscreteFactor.valgrind/fast
 
 # Convenience name for target.
+gtsam/discrete/tests/CMakeFiles/testDiscreteMarginals.dir/rule:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/discrete/tests/CMakeFiles/testDiscreteMarginals.dir/rule
+.PHONY : gtsam/discrete/tests/CMakeFiles/testDiscreteMarginals.dir/rule
+
+# Convenience name for target.
+testDiscreteMarginals: gtsam/discrete/tests/CMakeFiles/testDiscreteMarginals.dir/rule
+
+.PHONY : testDiscreteMarginals
+
+# fast build rule for target.
+testDiscreteMarginals/fast:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/discrete/tests/CMakeFiles/testDiscreteMarginals.dir/build.make gtsam/discrete/tests/CMakeFiles/testDiscreteMarginals.dir/build
+.PHONY : testDiscreteMarginals/fast
+
+# Convenience name for target.
 gtsam/discrete/tests/CMakeFiles/testDiscreteBayesTree.valgrind.dir/rule:
 	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/discrete/tests/CMakeFiles/testDiscreteBayesTree.valgrind.dir/rule
 .PHONY : gtsam/discrete/tests/CMakeFiles/testDiscreteBayesTree.valgrind.dir/rule
@@ -608,141 +518,6 @@ testDiscreteBayesTree.valgrind: gtsam/discrete/tests/CMakeFiles/testDiscreteBaye
 testDiscreteBayesTree.valgrind/fast:
 	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/discrete/tests/CMakeFiles/testDiscreteBayesTree.valgrind.dir/build.make gtsam/discrete/tests/CMakeFiles/testDiscreteBayesTree.valgrind.dir/build
 .PHONY : testDiscreteBayesTree.valgrind/fast
-
-# Convenience name for target.
-gtsam/discrete/tests/CMakeFiles/testDiscreteFactor.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/discrete/tests/CMakeFiles/testDiscreteFactor.dir/rule
-.PHONY : gtsam/discrete/tests/CMakeFiles/testDiscreteFactor.dir/rule
-
-# Convenience name for target.
-testDiscreteFactor: gtsam/discrete/tests/CMakeFiles/testDiscreteFactor.dir/rule
-
-.PHONY : testDiscreteFactor
-
-# fast build rule for target.
-testDiscreteFactor/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/discrete/tests/CMakeFiles/testDiscreteFactor.dir/build.make gtsam/discrete/tests/CMakeFiles/testDiscreteFactor.dir/build
-.PHONY : testDiscreteFactor/fast
-
-# Convenience name for target.
-gtsam/discrete/tests/CMakeFiles/testDiscreteConditional.valgrind.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/discrete/tests/CMakeFiles/testDiscreteConditional.valgrind.dir/rule
-.PHONY : gtsam/discrete/tests/CMakeFiles/testDiscreteConditional.valgrind.dir/rule
-
-# Convenience name for target.
-testDiscreteConditional.valgrind: gtsam/discrete/tests/CMakeFiles/testDiscreteConditional.valgrind.dir/rule
-
-.PHONY : testDiscreteConditional.valgrind
-
-# fast build rule for target.
-testDiscreteConditional.valgrind/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/discrete/tests/CMakeFiles/testDiscreteConditional.valgrind.dir/build.make gtsam/discrete/tests/CMakeFiles/testDiscreteConditional.valgrind.dir/build
-.PHONY : testDiscreteConditional.valgrind/fast
-
-# Convenience name for target.
-gtsam/discrete/tests/CMakeFiles/testDiscreteDistribution.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/discrete/tests/CMakeFiles/testDiscreteDistribution.dir/rule
-.PHONY : gtsam/discrete/tests/CMakeFiles/testDiscreteDistribution.dir/rule
-
-# Convenience name for target.
-testDiscreteDistribution: gtsam/discrete/tests/CMakeFiles/testDiscreteDistribution.dir/rule
-
-.PHONY : testDiscreteDistribution
-
-# fast build rule for target.
-testDiscreteDistribution/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/discrete/tests/CMakeFiles/testDiscreteDistribution.dir/build.make gtsam/discrete/tests/CMakeFiles/testDiscreteDistribution.dir/build
-.PHONY : testDiscreteDistribution/fast
-
-# Convenience name for target.
-gtsam/discrete/tests/CMakeFiles/testDiscreteLookupDAG.valgrind.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/discrete/tests/CMakeFiles/testDiscreteLookupDAG.valgrind.dir/rule
-.PHONY : gtsam/discrete/tests/CMakeFiles/testDiscreteLookupDAG.valgrind.dir/rule
-
-# Convenience name for target.
-testDiscreteLookupDAG.valgrind: gtsam/discrete/tests/CMakeFiles/testDiscreteLookupDAG.valgrind.dir/rule
-
-.PHONY : testDiscreteLookupDAG.valgrind
-
-# fast build rule for target.
-testDiscreteLookupDAG.valgrind/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/discrete/tests/CMakeFiles/testDiscreteLookupDAG.valgrind.dir/build.make gtsam/discrete/tests/CMakeFiles/testDiscreteLookupDAG.valgrind.dir/build
-.PHONY : testDiscreteLookupDAG.valgrind/fast
-
-# Convenience name for target.
-gtsam/discrete/tests/CMakeFiles/testDiscreteFactorGraph.run.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/discrete/tests/CMakeFiles/testDiscreteFactorGraph.run.dir/rule
-.PHONY : gtsam/discrete/tests/CMakeFiles/testDiscreteFactorGraph.run.dir/rule
-
-# Convenience name for target.
-testDiscreteFactorGraph.run: gtsam/discrete/tests/CMakeFiles/testDiscreteFactorGraph.run.dir/rule
-
-.PHONY : testDiscreteFactorGraph.run
-
-# fast build rule for target.
-testDiscreteFactorGraph.run/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/discrete/tests/CMakeFiles/testDiscreteFactorGraph.run.dir/build.make gtsam/discrete/tests/CMakeFiles/testDiscreteFactorGraph.run.dir/build
-.PHONY : testDiscreteFactorGraph.run/fast
-
-# Convenience name for target.
-gtsam/discrete/tests/CMakeFiles/testDiscreteDistribution.run.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/discrete/tests/CMakeFiles/testDiscreteDistribution.run.dir/rule
-.PHONY : gtsam/discrete/tests/CMakeFiles/testDiscreteDistribution.run.dir/rule
-
-# Convenience name for target.
-testDiscreteDistribution.run: gtsam/discrete/tests/CMakeFiles/testDiscreteDistribution.run.dir/rule
-
-.PHONY : testDiscreteDistribution.run
-
-# fast build rule for target.
-testDiscreteDistribution.run/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/discrete/tests/CMakeFiles/testDiscreteDistribution.run.dir/build.make gtsam/discrete/tests/CMakeFiles/testDiscreteDistribution.run.dir/build
-.PHONY : testDiscreteDistribution.run/fast
-
-# Convenience name for target.
-gtsam/discrete/tests/CMakeFiles/testAlgebraicDecisionTree.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/discrete/tests/CMakeFiles/testAlgebraicDecisionTree.dir/rule
-.PHONY : gtsam/discrete/tests/CMakeFiles/testAlgebraicDecisionTree.dir/rule
-
-# Convenience name for target.
-testAlgebraicDecisionTree: gtsam/discrete/tests/CMakeFiles/testAlgebraicDecisionTree.dir/rule
-
-.PHONY : testAlgebraicDecisionTree
-
-# fast build rule for target.
-testAlgebraicDecisionTree/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/discrete/tests/CMakeFiles/testAlgebraicDecisionTree.dir/build.make gtsam/discrete/tests/CMakeFiles/testAlgebraicDecisionTree.dir/build
-.PHONY : testAlgebraicDecisionTree/fast
-
-# Convenience name for target.
-gtsam/discrete/tests/CMakeFiles/testDiscreteFactor.run.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/discrete/tests/CMakeFiles/testDiscreteFactor.run.dir/rule
-.PHONY : gtsam/discrete/tests/CMakeFiles/testDiscreteFactor.run.dir/rule
-
-# Convenience name for target.
-testDiscreteFactor.run: gtsam/discrete/tests/CMakeFiles/testDiscreteFactor.run.dir/rule
-
-.PHONY : testDiscreteFactor.run
-
-# fast build rule for target.
-testDiscreteFactor.run/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/discrete/tests/CMakeFiles/testDiscreteFactor.run.dir/build.make gtsam/discrete/tests/CMakeFiles/testDiscreteFactor.run.dir/build
-.PHONY : testDiscreteFactor.run/fast
-
-# Convenience name for target.
-gtsam/discrete/tests/CMakeFiles/testDiscreteValues.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/discrete/tests/CMakeFiles/testDiscreteValues.dir/rule
-.PHONY : gtsam/discrete/tests/CMakeFiles/testDiscreteValues.dir/rule
-
-# Convenience name for target.
-testDiscreteValues: gtsam/discrete/tests/CMakeFiles/testDiscreteValues.dir/rule
-
-.PHONY : testDiscreteValues
-
-# fast build rule for target.
-testDiscreteValues/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/discrete/tests/CMakeFiles/testDiscreteValues.dir/build.make gtsam/discrete/tests/CMakeFiles/testDiscreteValues.dir/build
-.PHONY : testDiscreteValues/fast
 
 # Convenience name for target.
 gtsam/discrete/tests/CMakeFiles/testDiscreteConditional.dir/rule:
@@ -775,19 +550,109 @@ testDiscreteConditional.run/fast:
 .PHONY : testDiscreteConditional.run/fast
 
 # Convenience name for target.
-gtsam/discrete/tests/CMakeFiles/testDiscreteLookupDAG.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/discrete/tests/CMakeFiles/testDiscreteLookupDAG.dir/rule
-.PHONY : gtsam/discrete/tests/CMakeFiles/testDiscreteLookupDAG.dir/rule
+gtsam/discrete/tests/CMakeFiles/testDiscreteFactor.dir/rule:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/discrete/tests/CMakeFiles/testDiscreteFactor.dir/rule
+.PHONY : gtsam/discrete/tests/CMakeFiles/testDiscreteFactor.dir/rule
 
 # Convenience name for target.
-testDiscreteLookupDAG: gtsam/discrete/tests/CMakeFiles/testDiscreteLookupDAG.dir/rule
+testDiscreteFactor: gtsam/discrete/tests/CMakeFiles/testDiscreteFactor.dir/rule
 
-.PHONY : testDiscreteLookupDAG
+.PHONY : testDiscreteFactor
 
 # fast build rule for target.
-testDiscreteLookupDAG/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/discrete/tests/CMakeFiles/testDiscreteLookupDAG.dir/build.make gtsam/discrete/tests/CMakeFiles/testDiscreteLookupDAG.dir/build
-.PHONY : testDiscreteLookupDAG/fast
+testDiscreteFactor/fast:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/discrete/tests/CMakeFiles/testDiscreteFactor.dir/build.make gtsam/discrete/tests/CMakeFiles/testDiscreteFactor.dir/build
+.PHONY : testDiscreteFactor/fast
+
+# Convenience name for target.
+gtsam/discrete/tests/CMakeFiles/testDiscreteConditional.valgrind.dir/rule:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/discrete/tests/CMakeFiles/testDiscreteConditional.valgrind.dir/rule
+.PHONY : gtsam/discrete/tests/CMakeFiles/testDiscreteConditional.valgrind.dir/rule
+
+# Convenience name for target.
+testDiscreteConditional.valgrind: gtsam/discrete/tests/CMakeFiles/testDiscreteConditional.valgrind.dir/rule
+
+.PHONY : testDiscreteConditional.valgrind
+
+# fast build rule for target.
+testDiscreteConditional.valgrind/fast:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/discrete/tests/CMakeFiles/testDiscreteConditional.valgrind.dir/build.make gtsam/discrete/tests/CMakeFiles/testDiscreteConditional.valgrind.dir/build
+.PHONY : testDiscreteConditional.valgrind/fast
+
+# Convenience name for target.
+gtsam/discrete/tests/CMakeFiles/testAlgebraicDecisionTree.dir/rule:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/discrete/tests/CMakeFiles/testAlgebraicDecisionTree.dir/rule
+.PHONY : gtsam/discrete/tests/CMakeFiles/testAlgebraicDecisionTree.dir/rule
+
+# Convenience name for target.
+testAlgebraicDecisionTree: gtsam/discrete/tests/CMakeFiles/testAlgebraicDecisionTree.dir/rule
+
+.PHONY : testAlgebraicDecisionTree
+
+# fast build rule for target.
+testAlgebraicDecisionTree/fast:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/discrete/tests/CMakeFiles/testAlgebraicDecisionTree.dir/build.make gtsam/discrete/tests/CMakeFiles/testAlgebraicDecisionTree.dir/build
+.PHONY : testAlgebraicDecisionTree/fast
+
+# Convenience name for target.
+gtsam/discrete/tests/CMakeFiles/testDiscreteFactor.run.dir/rule:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/discrete/tests/CMakeFiles/testDiscreteFactor.run.dir/rule
+.PHONY : gtsam/discrete/tests/CMakeFiles/testDiscreteFactor.run.dir/rule
+
+# Convenience name for target.
+testDiscreteFactor.run: gtsam/discrete/tests/CMakeFiles/testDiscreteFactor.run.dir/rule
+
+.PHONY : testDiscreteFactor.run
+
+# fast build rule for target.
+testDiscreteFactor.run/fast:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/discrete/tests/CMakeFiles/testDiscreteFactor.run.dir/build.make gtsam/discrete/tests/CMakeFiles/testDiscreteFactor.run.dir/build
+.PHONY : testDiscreteFactor.run/fast
+
+# Convenience name for target.
+gtsam/discrete/tests/CMakeFiles/testDiscreteMarginals.run.dir/rule:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/discrete/tests/CMakeFiles/testDiscreteMarginals.run.dir/rule
+.PHONY : gtsam/discrete/tests/CMakeFiles/testDiscreteMarginals.run.dir/rule
+
+# Convenience name for target.
+testDiscreteMarginals.run: gtsam/discrete/tests/CMakeFiles/testDiscreteMarginals.run.dir/rule
+
+.PHONY : testDiscreteMarginals.run
+
+# fast build rule for target.
+testDiscreteMarginals.run/fast:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/discrete/tests/CMakeFiles/testDiscreteMarginals.run.dir/build.make gtsam/discrete/tests/CMakeFiles/testDiscreteMarginals.run.dir/build
+.PHONY : testDiscreteMarginals.run/fast
+
+# Convenience name for target.
+gtsam/discrete/tests/CMakeFiles/testSignature.dir/rule:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/discrete/tests/CMakeFiles/testSignature.dir/rule
+.PHONY : gtsam/discrete/tests/CMakeFiles/testSignature.dir/rule
+
+# Convenience name for target.
+testSignature: gtsam/discrete/tests/CMakeFiles/testSignature.dir/rule
+
+.PHONY : testSignature
+
+# fast build rule for target.
+testSignature/fast:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/discrete/tests/CMakeFiles/testSignature.dir/build.make gtsam/discrete/tests/CMakeFiles/testSignature.dir/build
+.PHONY : testSignature/fast
+
+# Convenience name for target.
+gtsam/discrete/tests/CMakeFiles/testDiscreteMarginals.valgrind.dir/rule:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/discrete/tests/CMakeFiles/testDiscreteMarginals.valgrind.dir/rule
+.PHONY : gtsam/discrete/tests/CMakeFiles/testDiscreteMarginals.valgrind.dir/rule
+
+# Convenience name for target.
+testDiscreteMarginals.valgrind: gtsam/discrete/tests/CMakeFiles/testDiscreteMarginals.valgrind.dir/rule
+
+.PHONY : testDiscreteMarginals.valgrind
+
+# fast build rule for target.
+testDiscreteMarginals.valgrind/fast:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/discrete/tests/CMakeFiles/testDiscreteMarginals.valgrind.dir/build.make gtsam/discrete/tests/CMakeFiles/testDiscreteMarginals.valgrind.dir/build
+.PHONY : testDiscreteMarginals.valgrind/fast
 
 testAlgebraicDecisionTree.o: testAlgebraicDecisionTree.cpp.o
 
@@ -951,33 +816,6 @@ testDiscreteConditional.cpp.s:
 	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/discrete/tests/CMakeFiles/testDiscreteConditional.dir/build.make gtsam/discrete/tests/CMakeFiles/testDiscreteConditional.dir/testDiscreteConditional.cpp.s
 .PHONY : testDiscreteConditional.cpp.s
 
-testDiscreteDistribution.o: testDiscreteDistribution.cpp.o
-
-.PHONY : testDiscreteDistribution.o
-
-# target to build an object file
-testDiscreteDistribution.cpp.o:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/discrete/tests/CMakeFiles/testDiscreteDistribution.dir/build.make gtsam/discrete/tests/CMakeFiles/testDiscreteDistribution.dir/testDiscreteDistribution.cpp.o
-.PHONY : testDiscreteDistribution.cpp.o
-
-testDiscreteDistribution.i: testDiscreteDistribution.cpp.i
-
-.PHONY : testDiscreteDistribution.i
-
-# target to preprocess a source file
-testDiscreteDistribution.cpp.i:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/discrete/tests/CMakeFiles/testDiscreteDistribution.dir/build.make gtsam/discrete/tests/CMakeFiles/testDiscreteDistribution.dir/testDiscreteDistribution.cpp.i
-.PHONY : testDiscreteDistribution.cpp.i
-
-testDiscreteDistribution.s: testDiscreteDistribution.cpp.s
-
-.PHONY : testDiscreteDistribution.s
-
-# target to generate assembly for a file
-testDiscreteDistribution.cpp.s:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/discrete/tests/CMakeFiles/testDiscreteDistribution.dir/build.make gtsam/discrete/tests/CMakeFiles/testDiscreteDistribution.dir/testDiscreteDistribution.cpp.s
-.PHONY : testDiscreteDistribution.cpp.s
-
 testDiscreteFactor.o: testDiscreteFactor.cpp.o
 
 .PHONY : testDiscreteFactor.o
@@ -1032,33 +870,6 @@ testDiscreteFactorGraph.cpp.s:
 	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/discrete/tests/CMakeFiles/testDiscreteFactorGraph.dir/build.make gtsam/discrete/tests/CMakeFiles/testDiscreteFactorGraph.dir/testDiscreteFactorGraph.cpp.s
 .PHONY : testDiscreteFactorGraph.cpp.s
 
-testDiscreteLookupDAG.o: testDiscreteLookupDAG.cpp.o
-
-.PHONY : testDiscreteLookupDAG.o
-
-# target to build an object file
-testDiscreteLookupDAG.cpp.o:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/discrete/tests/CMakeFiles/testDiscreteLookupDAG.dir/build.make gtsam/discrete/tests/CMakeFiles/testDiscreteLookupDAG.dir/testDiscreteLookupDAG.cpp.o
-.PHONY : testDiscreteLookupDAG.cpp.o
-
-testDiscreteLookupDAG.i: testDiscreteLookupDAG.cpp.i
-
-.PHONY : testDiscreteLookupDAG.i
-
-# target to preprocess a source file
-testDiscreteLookupDAG.cpp.i:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/discrete/tests/CMakeFiles/testDiscreteLookupDAG.dir/build.make gtsam/discrete/tests/CMakeFiles/testDiscreteLookupDAG.dir/testDiscreteLookupDAG.cpp.i
-.PHONY : testDiscreteLookupDAG.cpp.i
-
-testDiscreteLookupDAG.s: testDiscreteLookupDAG.cpp.s
-
-.PHONY : testDiscreteLookupDAG.s
-
-# target to generate assembly for a file
-testDiscreteLookupDAG.cpp.s:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/discrete/tests/CMakeFiles/testDiscreteLookupDAG.dir/build.make gtsam/discrete/tests/CMakeFiles/testDiscreteLookupDAG.dir/testDiscreteLookupDAG.cpp.s
-.PHONY : testDiscreteLookupDAG.cpp.s
-
 testDiscreteMarginals.o: testDiscreteMarginals.cpp.o
 
 .PHONY : testDiscreteMarginals.o
@@ -1085,33 +896,6 @@ testDiscreteMarginals.s: testDiscreteMarginals.cpp.s
 testDiscreteMarginals.cpp.s:
 	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/discrete/tests/CMakeFiles/testDiscreteMarginals.dir/build.make gtsam/discrete/tests/CMakeFiles/testDiscreteMarginals.dir/testDiscreteMarginals.cpp.s
 .PHONY : testDiscreteMarginals.cpp.s
-
-testDiscreteValues.o: testDiscreteValues.cpp.o
-
-.PHONY : testDiscreteValues.o
-
-# target to build an object file
-testDiscreteValues.cpp.o:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/discrete/tests/CMakeFiles/testDiscreteValues.dir/build.make gtsam/discrete/tests/CMakeFiles/testDiscreteValues.dir/testDiscreteValues.cpp.o
-.PHONY : testDiscreteValues.cpp.o
-
-testDiscreteValues.i: testDiscreteValues.cpp.i
-
-.PHONY : testDiscreteValues.i
-
-# target to preprocess a source file
-testDiscreteValues.cpp.i:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/discrete/tests/CMakeFiles/testDiscreteValues.dir/build.make gtsam/discrete/tests/CMakeFiles/testDiscreteValues.dir/testDiscreteValues.cpp.i
-.PHONY : testDiscreteValues.cpp.i
-
-testDiscreteValues.s: testDiscreteValues.cpp.s
-
-.PHONY : testDiscreteValues.s
-
-# target to generate assembly for a file
-testDiscreteValues.cpp.s:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/discrete/tests/CMakeFiles/testDiscreteValues.dir/build.make gtsam/discrete/tests/CMakeFiles/testDiscreteValues.dir/testDiscreteValues.cpp.s
-.PHONY : testDiscreteValues.cpp.s
 
 testSignature.o: testSignature.cpp.o
 
@@ -1149,24 +933,16 @@ help:
 	@echo "... install"
 	@echo "... list_install_components"
 	@echo "... edit_cache"
-	@echo "... testSignature.run"
-	@echo "... test"
-	@echo "... testSignature"
-	@echo "... testDiscreteMarginals.valgrind"
-	@echo "... testDiscreteMarginals.run"
-	@echo "... testDiscreteMarginals"
 	@echo "... package"
-	@echo "... testDiscreteLookupDAG.run"
+	@echo "... testSignature.run"
+	@echo "... testDiscreteFactorGraph.run"
 	@echo "... package_source"
-	@echo "... testDiscreteValues.run"
 	@echo "... testDecisionTreeFactor"
-	@echo "... testDiscreteValues.valgrind"
 	@echo "... testAlgebraicDecisionTree.run"
 	@echo "... testDiscreteFactorGraph"
 	@echo "... testDiscreteBayesNet.run"
 	@echo "... testSignature.valgrind"
 	@echo "... testDecisionTree.valgrind"
-	@echo "... testDiscreteDistribution.valgrind"
 	@echo "... install/local"
 	@echo "... testDecisionTree"
 	@echo "... testDiscreteBayesTree.run"
@@ -1181,20 +957,19 @@ help:
 	@echo "... testDiscreteBayesTree"
 	@echo "... check.discrete"
 	@echo "... testDiscreteFactor.valgrind"
+	@echo "... testDiscreteMarginals"
 	@echo "... testDiscreteBayesTree.valgrind"
+	@echo "... testDiscreteConditional"
+	@echo "... testDiscreteConditional.run"
 	@echo "... install/strip"
 	@echo "... testDiscreteFactor"
 	@echo "... testDiscreteConditional.valgrind"
-	@echo "... testDiscreteDistribution"
-	@echo "... testDiscreteLookupDAG.valgrind"
-	@echo "... testDiscreteFactorGraph.run"
-	@echo "... testDiscreteDistribution.run"
 	@echo "... testAlgebraicDecisionTree"
 	@echo "... testDiscreteFactor.run"
-	@echo "... testDiscreteValues"
-	@echo "... testDiscreteConditional"
-	@echo "... testDiscreteConditional.run"
-	@echo "... testDiscreteLookupDAG"
+	@echo "... testDiscreteMarginals.run"
+	@echo "... test"
+	@echo "... testSignature"
+	@echo "... testDiscreteMarginals.valgrind"
 	@echo "... testAlgebraicDecisionTree.o"
 	@echo "... testAlgebraicDecisionTree.i"
 	@echo "... testAlgebraicDecisionTree.s"
@@ -1213,24 +988,15 @@ help:
 	@echo "... testDiscreteConditional.o"
 	@echo "... testDiscreteConditional.i"
 	@echo "... testDiscreteConditional.s"
-	@echo "... testDiscreteDistribution.o"
-	@echo "... testDiscreteDistribution.i"
-	@echo "... testDiscreteDistribution.s"
 	@echo "... testDiscreteFactor.o"
 	@echo "... testDiscreteFactor.i"
 	@echo "... testDiscreteFactor.s"
 	@echo "... testDiscreteFactorGraph.o"
 	@echo "... testDiscreteFactorGraph.i"
 	@echo "... testDiscreteFactorGraph.s"
-	@echo "... testDiscreteLookupDAG.o"
-	@echo "... testDiscreteLookupDAG.i"
-	@echo "... testDiscreteLookupDAG.s"
 	@echo "... testDiscreteMarginals.o"
 	@echo "... testDiscreteMarginals.i"
 	@echo "... testDiscreteMarginals.s"
-	@echo "... testDiscreteValues.o"
-	@echo "... testDiscreteValues.i"
-	@echo "... testDiscreteValues.s"
 	@echo "... testSignature.o"
 	@echo "... testSignature.i"
 	@echo "... testSignature.s"

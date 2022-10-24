@@ -184,8 +184,8 @@ libKimeraRPGO.so: CMakeFiles/KimeraRPGO.dir/include/KimeraRPGO/max_clique_finder
 libKimeraRPGO.so: CMakeFiles/KimeraRPGO.dir/include/KimeraRPGO/max_clique_finder/utils.cpp.o
 libKimeraRPGO.so: CMakeFiles/KimeraRPGO.dir/src/utils/GraphUtils.cpp.o
 libKimeraRPGO.so: CMakeFiles/KimeraRPGO.dir/build.make
-libKimeraRPGO.so: /home/catkin_ws/devel/lib/libgtsam_unstable.so.4.2.0
-libKimeraRPGO.so: /home/catkin_ws/devel/lib/libgtsam.so.4.2.0
+libKimeraRPGO.so: /home/catkin_ws/devel/lib/libgtsam_unstable.so.4.1.0
+libKimeraRPGO.so: /home/catkin_ws/devel/lib/libgtsam.so.4.1.0
 libKimeraRPGO.so: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 libKimeraRPGO.so: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 libKimeraRPGO.so: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

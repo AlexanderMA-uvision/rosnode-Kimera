@@ -81,8 +81,8 @@ tests/testPoseWithNode: tests/CMakeFiles/testPoseWithNode.dir/testPoseWithNode.c
 tests/testPoseWithNode: tests/CMakeFiles/testPoseWithNode.dir/build.make
 tests/testPoseWithNode: /home/catkin_ws/devel/lib/libCppUnitLite.a
 tests/testPoseWithNode: libKimeraRPGO.so
-tests/testPoseWithNode: /home/catkin_ws/devel/lib/libgtsam_unstable.so.4.2.0
-tests/testPoseWithNode: /home/catkin_ws/devel/lib/libgtsam.so.4.2.0
+tests/testPoseWithNode: /home/catkin_ws/devel/lib/libgtsam_unstable.so.4.1.0
+tests/testPoseWithNode: /home/catkin_ws/devel/lib/libgtsam.so.4.1.0
 tests/testPoseWithNode: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 tests/testPoseWithNode: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 tests/testPoseWithNode: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

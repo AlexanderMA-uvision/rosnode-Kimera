@@ -80,8 +80,8 @@ testScheduler_EXTERNAL_OBJECTS =
 gtsam_unstable/discrete/tests/testScheduler: gtsam_unstable/discrete/tests/CMakeFiles/testScheduler.dir/testScheduler.cpp.o
 gtsam_unstable/discrete/tests/testScheduler: gtsam_unstable/discrete/tests/CMakeFiles/testScheduler.dir/build.make
 gtsam_unstable/discrete/tests/testScheduler: CppUnitLite/libCppUnitLite.a
-gtsam_unstable/discrete/tests/testScheduler: gtsam_unstable/libgtsam_unstable.so.4.2.0
-gtsam_unstable/discrete/tests/testScheduler: gtsam/libgtsam.so.4.2.0
+gtsam_unstable/discrete/tests/testScheduler: gtsam_unstable/libgtsam_unstable.so.4.1.0
+gtsam_unstable/discrete/tests/testScheduler: gtsam/libgtsam.so.4.1.0
 gtsam_unstable/discrete/tests/testScheduler: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 gtsam_unstable/discrete/tests/testScheduler: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 gtsam_unstable/discrete/tests/testScheduler: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

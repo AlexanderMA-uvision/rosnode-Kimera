@@ -80,7 +80,7 @@ testPinholeSet_EXTERNAL_OBJECTS =
 gtsam/geometry/tests/testPinholeSet: gtsam/geometry/tests/CMakeFiles/testPinholeSet.dir/testPinholeSet.cpp.o
 gtsam/geometry/tests/testPinholeSet: gtsam/geometry/tests/CMakeFiles/testPinholeSet.dir/build.make
 gtsam/geometry/tests/testPinholeSet: CppUnitLite/libCppUnitLite.a
-gtsam/geometry/tests/testPinholeSet: gtsam/libgtsam.so.4.2.0
+gtsam/geometry/tests/testPinholeSet: gtsam/libgtsam.so.4.1.0
 gtsam/geometry/tests/testPinholeSet: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 gtsam/geometry/tests/testPinholeSet: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 gtsam/geometry/tests/testPinholeSet: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

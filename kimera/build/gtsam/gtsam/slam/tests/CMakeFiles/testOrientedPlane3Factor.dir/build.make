@@ -80,7 +80,7 @@ testOrientedPlane3Factor_EXTERNAL_OBJECTS =
 gtsam/slam/tests/testOrientedPlane3Factor: gtsam/slam/tests/CMakeFiles/testOrientedPlane3Factor.dir/testOrientedPlane3Factor.cpp.o
 gtsam/slam/tests/testOrientedPlane3Factor: gtsam/slam/tests/CMakeFiles/testOrientedPlane3Factor.dir/build.make
 gtsam/slam/tests/testOrientedPlane3Factor: CppUnitLite/libCppUnitLite.a
-gtsam/slam/tests/testOrientedPlane3Factor: gtsam/libgtsam.so.4.2.0
+gtsam/slam/tests/testOrientedPlane3Factor: gtsam/libgtsam.so.4.1.0
 gtsam/slam/tests/testOrientedPlane3Factor: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 gtsam/slam/tests/testOrientedPlane3Factor: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 gtsam/slam/tests/testOrientedPlane3Factor: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

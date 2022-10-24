@@ -158,8 +158,9 @@ void DepthFirstForestParallel(FOREST& forest, DATA& rootData,
   // Typedefs
   typedef typename FOREST::Node Node;
 
-  internal::CreateRootTask<Node>(forest.roots(), rootData, visitorPre,
-      visitorPost, problemSizeThreshold);
+  tbb::task::spawn_root_and_wait(
+      internal::CreateRootTask<Node>(forest.roots(), rootData, visitorPre,
+          visitorPost, problemSizeThreshold));
 #else
   DepthFirstForest(forest, rootData, visitorPre, visitorPost);
 #endif
@@ -221,6 +222,6 @@ void PrintForest(const FOREST& forest, std::string str,
   PrintForestVisitorPre visitor(keyFormatter);
   DepthFirstForest(forest, str, visitor);
 }
-}  // namespace treeTraversal
+}
 
-}  // namespace gtsam
+}

@@ -41,7 +41,6 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/gtsam/navigation" TYPE FILE FILES
     "/home/catkin_ws/src/gtsam/gtsam/navigation/AHRSFactor.h"
     "/home/catkin_ws/src/gtsam/gtsam/navigation/AttitudeFactor.h"
-    "/home/catkin_ws/src/gtsam/gtsam/navigation/BarometricFactor.h"
     "/home/catkin_ws/src/gtsam/gtsam/navigation/CombinedImuFactor.h"
     "/home/catkin_ws/src/gtsam/gtsam/navigation/ConstantVelocityFactor.h"
     "/home/catkin_ws/src/gtsam/gtsam/navigation/GPSFactor.h"

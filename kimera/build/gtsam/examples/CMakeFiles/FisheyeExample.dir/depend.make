@@ -3,7 +3,6 @@
 
 examples/CMakeFiles/FisheyeExample.dir/FisheyeExample.cpp.o: /home/catkin_ws/src/gtsam/examples/FisheyeExample.cpp
 examples/CMakeFiles/FisheyeExample.dir/FisheyeExample.cpp.o: /home/catkin_ws/src/gtsam/examples/SFMdata.h
-examples/CMakeFiles/FisheyeExample.dir/FisheyeExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/ConcurrentMap.h
 examples/CMakeFiles/FisheyeExample.dir/FisheyeExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/FastDefaultAllocator.h
 examples/CMakeFiles/FisheyeExample.dir/FisheyeExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/FastList.h
 examples/CMakeFiles/FisheyeExample.dir/FisheyeExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/FastMap.h
@@ -14,14 +13,12 @@ examples/CMakeFiles/FisheyeExample.dir/FisheyeExample.cpp.o: /home/catkin_ws/src
 examples/CMakeFiles/FisheyeExample.dir/FisheyeExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Lie.h
 examples/CMakeFiles/FisheyeExample.dir/FisheyeExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Manifold.h
 examples/CMakeFiles/FisheyeExample.dir/FisheyeExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Matrix.h
-examples/CMakeFiles/FisheyeExample.dir/FisheyeExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/MatrixSerialization.h
 examples/CMakeFiles/FisheyeExample.dir/FisheyeExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/OptionalJacobian.h
 examples/CMakeFiles/FisheyeExample.dir/FisheyeExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/SymmetricBlockMatrix.h
 examples/CMakeFiles/FisheyeExample.dir/FisheyeExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Testable.h
 examples/CMakeFiles/FisheyeExample.dir/FisheyeExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/ThreadsafeException.h
 examples/CMakeFiles/FisheyeExample.dir/FisheyeExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Value.h
 examples/CMakeFiles/FisheyeExample.dir/FisheyeExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Vector.h
-examples/CMakeFiles/FisheyeExample.dir/FisheyeExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/VectorSerialization.h
 examples/CMakeFiles/FisheyeExample.dir/FisheyeExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/VectorSpace.h
 examples/CMakeFiles/FisheyeExample.dir/FisheyeExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/VerticalBlockMatrix.h
 examples/CMakeFiles/FisheyeExample.dir/FisheyeExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/concepts.h
@@ -45,7 +42,6 @@ examples/CMakeFiles/FisheyeExample.dir/FisheyeExample.cpp.o: /home/catkin_ws/src
 examples/CMakeFiles/FisheyeExample.dir/FisheyeExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/geometry/SOn.h
 examples/CMakeFiles/FisheyeExample.dir/FisheyeExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/geometry/Unit3.h
 examples/CMakeFiles/FisheyeExample.dir/FisheyeExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/global_includes.h
-examples/CMakeFiles/FisheyeExample.dir/FisheyeExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/DotWriter.h
 examples/CMakeFiles/FisheyeExample.dir/FisheyeExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/EliminateableFactorGraph.h
 examples/CMakeFiles/FisheyeExample.dir/FisheyeExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/Factor.h
 examples/CMakeFiles/FisheyeExample.dir/FisheyeExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/FactorGraph-inst.h
@@ -72,10 +68,8 @@ examples/CMakeFiles/FisheyeExample.dir/FisheyeExample.cpp.o: /home/catkin_ws/src
 examples/CMakeFiles/FisheyeExample.dir/FisheyeExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/linear/Scatter.h
 examples/CMakeFiles/FisheyeExample.dir/FisheyeExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/linear/SubgraphBuilder.h
 examples/CMakeFiles/FisheyeExample.dir/FisheyeExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/linear/SubgraphSolver.h
-examples/CMakeFiles/FisheyeExample.dir/FisheyeExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/linear/VectorValues.h
 examples/CMakeFiles/FisheyeExample.dir/FisheyeExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/linear/linearExceptions.h
 examples/CMakeFiles/FisheyeExample.dir/FisheyeExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/GaussNewtonOptimizer.h
-examples/CMakeFiles/FisheyeExample.dir/FisheyeExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/GraphvizFormatting.h
 examples/CMakeFiles/FisheyeExample.dir/FisheyeExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/NonlinearFactor.h
 examples/CMakeFiles/FisheyeExample.dir/FisheyeExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/NonlinearFactorGraph.h
 examples/CMakeFiles/FisheyeExample.dir/FisheyeExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/NonlinearOptimizer.h

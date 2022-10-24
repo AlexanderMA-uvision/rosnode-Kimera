@@ -501,33 +501,6 @@ base/types.cpp.s:
 	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/CMakeFiles/gtsam.dir/build.make gtsam/CMakeFiles/gtsam.dir/base/types.cpp.s
 .PHONY : base/types.cpp.s
 
-base/utilities.o: base/utilities.cpp.o
-
-.PHONY : base/utilities.o
-
-# target to build an object file
-base/utilities.cpp.o:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/CMakeFiles/gtsam.dir/build.make gtsam/CMakeFiles/gtsam.dir/base/utilities.cpp.o
-.PHONY : base/utilities.cpp.o
-
-base/utilities.i: base/utilities.cpp.i
-
-.PHONY : base/utilities.i
-
-# target to preprocess a source file
-base/utilities.cpp.i:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/CMakeFiles/gtsam.dir/build.make gtsam/CMakeFiles/gtsam.dir/base/utilities.cpp.i
-.PHONY : base/utilities.cpp.i
-
-base/utilities.s: base/utilities.cpp.s
-
-.PHONY : base/utilities.s
-
-# target to generate assembly for a file
-base/utilities.cpp.s:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/CMakeFiles/gtsam.dir/build.make gtsam/CMakeFiles/gtsam.dir/base/utilities.cpp.s
-.PHONY : base/utilities.cpp.s
-
 basis/Chebyshev.o: basis/Chebyshev.cpp.o
 
 .PHONY : basis/Chebyshev.o
@@ -581,33 +554,6 @@ basis/Chebyshev2.s: basis/Chebyshev2.cpp.s
 basis/Chebyshev2.cpp.s:
 	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/CMakeFiles/gtsam.dir/build.make gtsam/CMakeFiles/gtsam.dir/basis/Chebyshev2.cpp.s
 .PHONY : basis/Chebyshev2.cpp.s
-
-discrete/AlgebraicDecisionTree.o: discrete/AlgebraicDecisionTree.cpp.o
-
-.PHONY : discrete/AlgebraicDecisionTree.o
-
-# target to build an object file
-discrete/AlgebraicDecisionTree.cpp.o:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/CMakeFiles/gtsam.dir/build.make gtsam/CMakeFiles/gtsam.dir/discrete/AlgebraicDecisionTree.cpp.o
-.PHONY : discrete/AlgebraicDecisionTree.cpp.o
-
-discrete/AlgebraicDecisionTree.i: discrete/AlgebraicDecisionTree.cpp.i
-
-.PHONY : discrete/AlgebraicDecisionTree.i
-
-# target to preprocess a source file
-discrete/AlgebraicDecisionTree.cpp.i:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/CMakeFiles/gtsam.dir/build.make gtsam/CMakeFiles/gtsam.dir/discrete/AlgebraicDecisionTree.cpp.i
-.PHONY : discrete/AlgebraicDecisionTree.cpp.i
-
-discrete/AlgebraicDecisionTree.s: discrete/AlgebraicDecisionTree.cpp.s
-
-.PHONY : discrete/AlgebraicDecisionTree.s
-
-# target to generate assembly for a file
-discrete/AlgebraicDecisionTree.cpp.s:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/CMakeFiles/gtsam.dir/build.make gtsam/CMakeFiles/gtsam.dir/discrete/AlgebraicDecisionTree.cpp.s
-.PHONY : discrete/AlgebraicDecisionTree.cpp.s
 
 discrete/DecisionTreeFactor.o: discrete/DecisionTreeFactor.cpp.o
 
@@ -716,33 +662,6 @@ discrete/DiscreteConditional.s: discrete/DiscreteConditional.cpp.s
 discrete/DiscreteConditional.cpp.s:
 	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/CMakeFiles/gtsam.dir/build.make gtsam/CMakeFiles/gtsam.dir/discrete/DiscreteConditional.cpp.s
 .PHONY : discrete/DiscreteConditional.cpp.s
-
-discrete/DiscreteDistribution.o: discrete/DiscreteDistribution.cpp.o
-
-.PHONY : discrete/DiscreteDistribution.o
-
-# target to build an object file
-discrete/DiscreteDistribution.cpp.o:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/CMakeFiles/gtsam.dir/build.make gtsam/CMakeFiles/gtsam.dir/discrete/DiscreteDistribution.cpp.o
-.PHONY : discrete/DiscreteDistribution.cpp.o
-
-discrete/DiscreteDistribution.i: discrete/DiscreteDistribution.cpp.i
-
-.PHONY : discrete/DiscreteDistribution.i
-
-# target to preprocess a source file
-discrete/DiscreteDistribution.cpp.i:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/CMakeFiles/gtsam.dir/build.make gtsam/CMakeFiles/gtsam.dir/discrete/DiscreteDistribution.cpp.i
-.PHONY : discrete/DiscreteDistribution.cpp.i
-
-discrete/DiscreteDistribution.s: discrete/DiscreteDistribution.cpp.s
-
-.PHONY : discrete/DiscreteDistribution.s
-
-# target to generate assembly for a file
-discrete/DiscreteDistribution.cpp.s:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/CMakeFiles/gtsam.dir/build.make gtsam/CMakeFiles/gtsam.dir/discrete/DiscreteDistribution.cpp.s
-.PHONY : discrete/DiscreteDistribution.cpp.s
 
 discrete/DiscreteEliminationTree.o: discrete/DiscreteEliminationTree.cpp.o
 
@@ -879,59 +798,32 @@ discrete/DiscreteKey.cpp.s:
 	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/CMakeFiles/gtsam.dir/build.make gtsam/CMakeFiles/gtsam.dir/discrete/DiscreteKey.cpp.s
 .PHONY : discrete/DiscreteKey.cpp.s
 
-discrete/DiscreteLookupDAG.o: discrete/DiscreteLookupDAG.cpp.o
+discrete/Potentials.o: discrete/Potentials.cpp.o
 
-.PHONY : discrete/DiscreteLookupDAG.o
-
-# target to build an object file
-discrete/DiscreteLookupDAG.cpp.o:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/CMakeFiles/gtsam.dir/build.make gtsam/CMakeFiles/gtsam.dir/discrete/DiscreteLookupDAG.cpp.o
-.PHONY : discrete/DiscreteLookupDAG.cpp.o
-
-discrete/DiscreteLookupDAG.i: discrete/DiscreteLookupDAG.cpp.i
-
-.PHONY : discrete/DiscreteLookupDAG.i
-
-# target to preprocess a source file
-discrete/DiscreteLookupDAG.cpp.i:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/CMakeFiles/gtsam.dir/build.make gtsam/CMakeFiles/gtsam.dir/discrete/DiscreteLookupDAG.cpp.i
-.PHONY : discrete/DiscreteLookupDAG.cpp.i
-
-discrete/DiscreteLookupDAG.s: discrete/DiscreteLookupDAG.cpp.s
-
-.PHONY : discrete/DiscreteLookupDAG.s
-
-# target to generate assembly for a file
-discrete/DiscreteLookupDAG.cpp.s:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/CMakeFiles/gtsam.dir/build.make gtsam/CMakeFiles/gtsam.dir/discrete/DiscreteLookupDAG.cpp.s
-.PHONY : discrete/DiscreteLookupDAG.cpp.s
-
-discrete/DiscreteValues.o: discrete/DiscreteValues.cpp.o
-
-.PHONY : discrete/DiscreteValues.o
+.PHONY : discrete/Potentials.o
 
 # target to build an object file
-discrete/DiscreteValues.cpp.o:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/CMakeFiles/gtsam.dir/build.make gtsam/CMakeFiles/gtsam.dir/discrete/DiscreteValues.cpp.o
-.PHONY : discrete/DiscreteValues.cpp.o
+discrete/Potentials.cpp.o:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/CMakeFiles/gtsam.dir/build.make gtsam/CMakeFiles/gtsam.dir/discrete/Potentials.cpp.o
+.PHONY : discrete/Potentials.cpp.o
 
-discrete/DiscreteValues.i: discrete/DiscreteValues.cpp.i
+discrete/Potentials.i: discrete/Potentials.cpp.i
 
-.PHONY : discrete/DiscreteValues.i
+.PHONY : discrete/Potentials.i
 
 # target to preprocess a source file
-discrete/DiscreteValues.cpp.i:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/CMakeFiles/gtsam.dir/build.make gtsam/CMakeFiles/gtsam.dir/discrete/DiscreteValues.cpp.i
-.PHONY : discrete/DiscreteValues.cpp.i
+discrete/Potentials.cpp.i:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/CMakeFiles/gtsam.dir/build.make gtsam/CMakeFiles/gtsam.dir/discrete/Potentials.cpp.i
+.PHONY : discrete/Potentials.cpp.i
 
-discrete/DiscreteValues.s: discrete/DiscreteValues.cpp.s
+discrete/Potentials.s: discrete/Potentials.cpp.s
 
-.PHONY : discrete/DiscreteValues.s
+.PHONY : discrete/Potentials.s
 
 # target to generate assembly for a file
-discrete/DiscreteValues.cpp.s:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/CMakeFiles/gtsam.dir/build.make gtsam/CMakeFiles/gtsam.dir/discrete/DiscreteValues.cpp.s
-.PHONY : discrete/DiscreteValues.cpp.s
+discrete/Potentials.cpp.s:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/CMakeFiles/gtsam.dir/build.make gtsam/CMakeFiles/gtsam.dir/discrete/Potentials.cpp.s
+.PHONY : discrete/Potentials.cpp.s
 
 discrete/Signature.o: discrete/Signature.cpp.o
 
@@ -1581,33 +1473,6 @@ geometry/SOn.cpp.s:
 	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/CMakeFiles/gtsam.dir/build.make gtsam/CMakeFiles/gtsam.dir/geometry/SOn.cpp.s
 .PHONY : geometry/SOn.cpp.s
 
-geometry/Similarity2.o: geometry/Similarity2.cpp.o
-
-.PHONY : geometry/Similarity2.o
-
-# target to build an object file
-geometry/Similarity2.cpp.o:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/CMakeFiles/gtsam.dir/build.make gtsam/CMakeFiles/gtsam.dir/geometry/Similarity2.cpp.o
-.PHONY : geometry/Similarity2.cpp.o
-
-geometry/Similarity2.i: geometry/Similarity2.cpp.i
-
-.PHONY : geometry/Similarity2.i
-
-# target to preprocess a source file
-geometry/Similarity2.cpp.i:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/CMakeFiles/gtsam.dir/build.make gtsam/CMakeFiles/gtsam.dir/geometry/Similarity2.cpp.i
-.PHONY : geometry/Similarity2.cpp.i
-
-geometry/Similarity2.s: geometry/Similarity2.cpp.s
-
-.PHONY : geometry/Similarity2.s
-
-# target to generate assembly for a file
-geometry/Similarity2.cpp.s:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/CMakeFiles/gtsam.dir/build.make gtsam/CMakeFiles/gtsam.dir/geometry/Similarity2.cpp.s
-.PHONY : geometry/Similarity2.cpp.s
-
 geometry/Similarity3.o: geometry/Similarity3.cpp.o
 
 .PHONY : geometry/Similarity3.o
@@ -1661,33 +1526,6 @@ geometry/SimpleCamera.s: geometry/SimpleCamera.cpp.s
 geometry/SimpleCamera.cpp.s:
 	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/CMakeFiles/gtsam.dir/build.make gtsam/CMakeFiles/gtsam.dir/geometry/SimpleCamera.cpp.s
 .PHONY : geometry/SimpleCamera.cpp.s
-
-geometry/SphericalCamera.o: geometry/SphericalCamera.cpp.o
-
-.PHONY : geometry/SphericalCamera.o
-
-# target to build an object file
-geometry/SphericalCamera.cpp.o:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/CMakeFiles/gtsam.dir/build.make gtsam/CMakeFiles/gtsam.dir/geometry/SphericalCamera.cpp.o
-.PHONY : geometry/SphericalCamera.cpp.o
-
-geometry/SphericalCamera.i: geometry/SphericalCamera.cpp.i
-
-.PHONY : geometry/SphericalCamera.i
-
-# target to preprocess a source file
-geometry/SphericalCamera.cpp.i:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/CMakeFiles/gtsam.dir/build.make gtsam/CMakeFiles/gtsam.dir/geometry/SphericalCamera.cpp.i
-.PHONY : geometry/SphericalCamera.cpp.i
-
-geometry/SphericalCamera.s: geometry/SphericalCamera.cpp.s
-
-.PHONY : geometry/SphericalCamera.s
-
-# target to generate assembly for a file
-geometry/SphericalCamera.cpp.s:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/CMakeFiles/gtsam.dir/build.make gtsam/CMakeFiles/gtsam.dir/geometry/SphericalCamera.cpp.s
-.PHONY : geometry/SphericalCamera.cpp.s
 
 geometry/StereoCamera.o: geometry/StereoCamera.cpp.o
 
@@ -1797,411 +1635,6 @@ geometry/triangulation.cpp.s:
 	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/CMakeFiles/gtsam.dir/build.make gtsam/CMakeFiles/gtsam.dir/geometry/triangulation.cpp.s
 .PHONY : geometry/triangulation.cpp.s
 
-hybrid/GaussianMixture.o: hybrid/GaussianMixture.cpp.o
-
-.PHONY : hybrid/GaussianMixture.o
-
-# target to build an object file
-hybrid/GaussianMixture.cpp.o:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/CMakeFiles/gtsam.dir/build.make gtsam/CMakeFiles/gtsam.dir/hybrid/GaussianMixture.cpp.o
-.PHONY : hybrid/GaussianMixture.cpp.o
-
-hybrid/GaussianMixture.i: hybrid/GaussianMixture.cpp.i
-
-.PHONY : hybrid/GaussianMixture.i
-
-# target to preprocess a source file
-hybrid/GaussianMixture.cpp.i:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/CMakeFiles/gtsam.dir/build.make gtsam/CMakeFiles/gtsam.dir/hybrid/GaussianMixture.cpp.i
-.PHONY : hybrid/GaussianMixture.cpp.i
-
-hybrid/GaussianMixture.s: hybrid/GaussianMixture.cpp.s
-
-.PHONY : hybrid/GaussianMixture.s
-
-# target to generate assembly for a file
-hybrid/GaussianMixture.cpp.s:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/CMakeFiles/gtsam.dir/build.make gtsam/CMakeFiles/gtsam.dir/hybrid/GaussianMixture.cpp.s
-.PHONY : hybrid/GaussianMixture.cpp.s
-
-hybrid/GaussianMixtureFactor.o: hybrid/GaussianMixtureFactor.cpp.o
-
-.PHONY : hybrid/GaussianMixtureFactor.o
-
-# target to build an object file
-hybrid/GaussianMixtureFactor.cpp.o:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/CMakeFiles/gtsam.dir/build.make gtsam/CMakeFiles/gtsam.dir/hybrid/GaussianMixtureFactor.cpp.o
-.PHONY : hybrid/GaussianMixtureFactor.cpp.o
-
-hybrid/GaussianMixtureFactor.i: hybrid/GaussianMixtureFactor.cpp.i
-
-.PHONY : hybrid/GaussianMixtureFactor.i
-
-# target to preprocess a source file
-hybrid/GaussianMixtureFactor.cpp.i:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/CMakeFiles/gtsam.dir/build.make gtsam/CMakeFiles/gtsam.dir/hybrid/GaussianMixtureFactor.cpp.i
-.PHONY : hybrid/GaussianMixtureFactor.cpp.i
-
-hybrid/GaussianMixtureFactor.s: hybrid/GaussianMixtureFactor.cpp.s
-
-.PHONY : hybrid/GaussianMixtureFactor.s
-
-# target to generate assembly for a file
-hybrid/GaussianMixtureFactor.cpp.s:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/CMakeFiles/gtsam.dir/build.make gtsam/CMakeFiles/gtsam.dir/hybrid/GaussianMixtureFactor.cpp.s
-.PHONY : hybrid/GaussianMixtureFactor.cpp.s
-
-hybrid/HybridBayesNet.o: hybrid/HybridBayesNet.cpp.o
-
-.PHONY : hybrid/HybridBayesNet.o
-
-# target to build an object file
-hybrid/HybridBayesNet.cpp.o:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/CMakeFiles/gtsam.dir/build.make gtsam/CMakeFiles/gtsam.dir/hybrid/HybridBayesNet.cpp.o
-.PHONY : hybrid/HybridBayesNet.cpp.o
-
-hybrid/HybridBayesNet.i: hybrid/HybridBayesNet.cpp.i
-
-.PHONY : hybrid/HybridBayesNet.i
-
-# target to preprocess a source file
-hybrid/HybridBayesNet.cpp.i:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/CMakeFiles/gtsam.dir/build.make gtsam/CMakeFiles/gtsam.dir/hybrid/HybridBayesNet.cpp.i
-.PHONY : hybrid/HybridBayesNet.cpp.i
-
-hybrid/HybridBayesNet.s: hybrid/HybridBayesNet.cpp.s
-
-.PHONY : hybrid/HybridBayesNet.s
-
-# target to generate assembly for a file
-hybrid/HybridBayesNet.cpp.s:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/CMakeFiles/gtsam.dir/build.make gtsam/CMakeFiles/gtsam.dir/hybrid/HybridBayesNet.cpp.s
-.PHONY : hybrid/HybridBayesNet.cpp.s
-
-hybrid/HybridBayesTree.o: hybrid/HybridBayesTree.cpp.o
-
-.PHONY : hybrid/HybridBayesTree.o
-
-# target to build an object file
-hybrid/HybridBayesTree.cpp.o:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/CMakeFiles/gtsam.dir/build.make gtsam/CMakeFiles/gtsam.dir/hybrid/HybridBayesTree.cpp.o
-.PHONY : hybrid/HybridBayesTree.cpp.o
-
-hybrid/HybridBayesTree.i: hybrid/HybridBayesTree.cpp.i
-
-.PHONY : hybrid/HybridBayesTree.i
-
-# target to preprocess a source file
-hybrid/HybridBayesTree.cpp.i:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/CMakeFiles/gtsam.dir/build.make gtsam/CMakeFiles/gtsam.dir/hybrid/HybridBayesTree.cpp.i
-.PHONY : hybrid/HybridBayesTree.cpp.i
-
-hybrid/HybridBayesTree.s: hybrid/HybridBayesTree.cpp.s
-
-.PHONY : hybrid/HybridBayesTree.s
-
-# target to generate assembly for a file
-hybrid/HybridBayesTree.cpp.s:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/CMakeFiles/gtsam.dir/build.make gtsam/CMakeFiles/gtsam.dir/hybrid/HybridBayesTree.cpp.s
-.PHONY : hybrid/HybridBayesTree.cpp.s
-
-hybrid/HybridConditional.o: hybrid/HybridConditional.cpp.o
-
-.PHONY : hybrid/HybridConditional.o
-
-# target to build an object file
-hybrid/HybridConditional.cpp.o:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/CMakeFiles/gtsam.dir/build.make gtsam/CMakeFiles/gtsam.dir/hybrid/HybridConditional.cpp.o
-.PHONY : hybrid/HybridConditional.cpp.o
-
-hybrid/HybridConditional.i: hybrid/HybridConditional.cpp.i
-
-.PHONY : hybrid/HybridConditional.i
-
-# target to preprocess a source file
-hybrid/HybridConditional.cpp.i:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/CMakeFiles/gtsam.dir/build.make gtsam/CMakeFiles/gtsam.dir/hybrid/HybridConditional.cpp.i
-.PHONY : hybrid/HybridConditional.cpp.i
-
-hybrid/HybridConditional.s: hybrid/HybridConditional.cpp.s
-
-.PHONY : hybrid/HybridConditional.s
-
-# target to generate assembly for a file
-hybrid/HybridConditional.cpp.s:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/CMakeFiles/gtsam.dir/build.make gtsam/CMakeFiles/gtsam.dir/hybrid/HybridConditional.cpp.s
-.PHONY : hybrid/HybridConditional.cpp.s
-
-hybrid/HybridDiscreteFactor.o: hybrid/HybridDiscreteFactor.cpp.o
-
-.PHONY : hybrid/HybridDiscreteFactor.o
-
-# target to build an object file
-hybrid/HybridDiscreteFactor.cpp.o:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/CMakeFiles/gtsam.dir/build.make gtsam/CMakeFiles/gtsam.dir/hybrid/HybridDiscreteFactor.cpp.o
-.PHONY : hybrid/HybridDiscreteFactor.cpp.o
-
-hybrid/HybridDiscreteFactor.i: hybrid/HybridDiscreteFactor.cpp.i
-
-.PHONY : hybrid/HybridDiscreteFactor.i
-
-# target to preprocess a source file
-hybrid/HybridDiscreteFactor.cpp.i:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/CMakeFiles/gtsam.dir/build.make gtsam/CMakeFiles/gtsam.dir/hybrid/HybridDiscreteFactor.cpp.i
-.PHONY : hybrid/HybridDiscreteFactor.cpp.i
-
-hybrid/HybridDiscreteFactor.s: hybrid/HybridDiscreteFactor.cpp.s
-
-.PHONY : hybrid/HybridDiscreteFactor.s
-
-# target to generate assembly for a file
-hybrid/HybridDiscreteFactor.cpp.s:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/CMakeFiles/gtsam.dir/build.make gtsam/CMakeFiles/gtsam.dir/hybrid/HybridDiscreteFactor.cpp.s
-.PHONY : hybrid/HybridDiscreteFactor.cpp.s
-
-hybrid/HybridEliminationTree.o: hybrid/HybridEliminationTree.cpp.o
-
-.PHONY : hybrid/HybridEliminationTree.o
-
-# target to build an object file
-hybrid/HybridEliminationTree.cpp.o:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/CMakeFiles/gtsam.dir/build.make gtsam/CMakeFiles/gtsam.dir/hybrid/HybridEliminationTree.cpp.o
-.PHONY : hybrid/HybridEliminationTree.cpp.o
-
-hybrid/HybridEliminationTree.i: hybrid/HybridEliminationTree.cpp.i
-
-.PHONY : hybrid/HybridEliminationTree.i
-
-# target to preprocess a source file
-hybrid/HybridEliminationTree.cpp.i:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/CMakeFiles/gtsam.dir/build.make gtsam/CMakeFiles/gtsam.dir/hybrid/HybridEliminationTree.cpp.i
-.PHONY : hybrid/HybridEliminationTree.cpp.i
-
-hybrid/HybridEliminationTree.s: hybrid/HybridEliminationTree.cpp.s
-
-.PHONY : hybrid/HybridEliminationTree.s
-
-# target to generate assembly for a file
-hybrid/HybridEliminationTree.cpp.s:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/CMakeFiles/gtsam.dir/build.make gtsam/CMakeFiles/gtsam.dir/hybrid/HybridEliminationTree.cpp.s
-.PHONY : hybrid/HybridEliminationTree.cpp.s
-
-hybrid/HybridFactor.o: hybrid/HybridFactor.cpp.o
-
-.PHONY : hybrid/HybridFactor.o
-
-# target to build an object file
-hybrid/HybridFactor.cpp.o:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/CMakeFiles/gtsam.dir/build.make gtsam/CMakeFiles/gtsam.dir/hybrid/HybridFactor.cpp.o
-.PHONY : hybrid/HybridFactor.cpp.o
-
-hybrid/HybridFactor.i: hybrid/HybridFactor.cpp.i
-
-.PHONY : hybrid/HybridFactor.i
-
-# target to preprocess a source file
-hybrid/HybridFactor.cpp.i:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/CMakeFiles/gtsam.dir/build.make gtsam/CMakeFiles/gtsam.dir/hybrid/HybridFactor.cpp.i
-.PHONY : hybrid/HybridFactor.cpp.i
-
-hybrid/HybridFactor.s: hybrid/HybridFactor.cpp.s
-
-.PHONY : hybrid/HybridFactor.s
-
-# target to generate assembly for a file
-hybrid/HybridFactor.cpp.s:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/CMakeFiles/gtsam.dir/build.make gtsam/CMakeFiles/gtsam.dir/hybrid/HybridFactor.cpp.s
-.PHONY : hybrid/HybridFactor.cpp.s
-
-hybrid/HybridGaussianFactor.o: hybrid/HybridGaussianFactor.cpp.o
-
-.PHONY : hybrid/HybridGaussianFactor.o
-
-# target to build an object file
-hybrid/HybridGaussianFactor.cpp.o:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/CMakeFiles/gtsam.dir/build.make gtsam/CMakeFiles/gtsam.dir/hybrid/HybridGaussianFactor.cpp.o
-.PHONY : hybrid/HybridGaussianFactor.cpp.o
-
-hybrid/HybridGaussianFactor.i: hybrid/HybridGaussianFactor.cpp.i
-
-.PHONY : hybrid/HybridGaussianFactor.i
-
-# target to preprocess a source file
-hybrid/HybridGaussianFactor.cpp.i:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/CMakeFiles/gtsam.dir/build.make gtsam/CMakeFiles/gtsam.dir/hybrid/HybridGaussianFactor.cpp.i
-.PHONY : hybrid/HybridGaussianFactor.cpp.i
-
-hybrid/HybridGaussianFactor.s: hybrid/HybridGaussianFactor.cpp.s
-
-.PHONY : hybrid/HybridGaussianFactor.s
-
-# target to generate assembly for a file
-hybrid/HybridGaussianFactor.cpp.s:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/CMakeFiles/gtsam.dir/build.make gtsam/CMakeFiles/gtsam.dir/hybrid/HybridGaussianFactor.cpp.s
-.PHONY : hybrid/HybridGaussianFactor.cpp.s
-
-hybrid/HybridGaussianFactorGraph.o: hybrid/HybridGaussianFactorGraph.cpp.o
-
-.PHONY : hybrid/HybridGaussianFactorGraph.o
-
-# target to build an object file
-hybrid/HybridGaussianFactorGraph.cpp.o:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/CMakeFiles/gtsam.dir/build.make gtsam/CMakeFiles/gtsam.dir/hybrid/HybridGaussianFactorGraph.cpp.o
-.PHONY : hybrid/HybridGaussianFactorGraph.cpp.o
-
-hybrid/HybridGaussianFactorGraph.i: hybrid/HybridGaussianFactorGraph.cpp.i
-
-.PHONY : hybrid/HybridGaussianFactorGraph.i
-
-# target to preprocess a source file
-hybrid/HybridGaussianFactorGraph.cpp.i:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/CMakeFiles/gtsam.dir/build.make gtsam/CMakeFiles/gtsam.dir/hybrid/HybridGaussianFactorGraph.cpp.i
-.PHONY : hybrid/HybridGaussianFactorGraph.cpp.i
-
-hybrid/HybridGaussianFactorGraph.s: hybrid/HybridGaussianFactorGraph.cpp.s
-
-.PHONY : hybrid/HybridGaussianFactorGraph.s
-
-# target to generate assembly for a file
-hybrid/HybridGaussianFactorGraph.cpp.s:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/CMakeFiles/gtsam.dir/build.make gtsam/CMakeFiles/gtsam.dir/hybrid/HybridGaussianFactorGraph.cpp.s
-.PHONY : hybrid/HybridGaussianFactorGraph.cpp.s
-
-hybrid/HybridGaussianISAM.o: hybrid/HybridGaussianISAM.cpp.o
-
-.PHONY : hybrid/HybridGaussianISAM.o
-
-# target to build an object file
-hybrid/HybridGaussianISAM.cpp.o:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/CMakeFiles/gtsam.dir/build.make gtsam/CMakeFiles/gtsam.dir/hybrid/HybridGaussianISAM.cpp.o
-.PHONY : hybrid/HybridGaussianISAM.cpp.o
-
-hybrid/HybridGaussianISAM.i: hybrid/HybridGaussianISAM.cpp.i
-
-.PHONY : hybrid/HybridGaussianISAM.i
-
-# target to preprocess a source file
-hybrid/HybridGaussianISAM.cpp.i:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/CMakeFiles/gtsam.dir/build.make gtsam/CMakeFiles/gtsam.dir/hybrid/HybridGaussianISAM.cpp.i
-.PHONY : hybrid/HybridGaussianISAM.cpp.i
-
-hybrid/HybridGaussianISAM.s: hybrid/HybridGaussianISAM.cpp.s
-
-.PHONY : hybrid/HybridGaussianISAM.s
-
-# target to generate assembly for a file
-hybrid/HybridGaussianISAM.cpp.s:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/CMakeFiles/gtsam.dir/build.make gtsam/CMakeFiles/gtsam.dir/hybrid/HybridGaussianISAM.cpp.s
-.PHONY : hybrid/HybridGaussianISAM.cpp.s
-
-hybrid/HybridJunctionTree.o: hybrid/HybridJunctionTree.cpp.o
-
-.PHONY : hybrid/HybridJunctionTree.o
-
-# target to build an object file
-hybrid/HybridJunctionTree.cpp.o:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/CMakeFiles/gtsam.dir/build.make gtsam/CMakeFiles/gtsam.dir/hybrid/HybridJunctionTree.cpp.o
-.PHONY : hybrid/HybridJunctionTree.cpp.o
-
-hybrid/HybridJunctionTree.i: hybrid/HybridJunctionTree.cpp.i
-
-.PHONY : hybrid/HybridJunctionTree.i
-
-# target to preprocess a source file
-hybrid/HybridJunctionTree.cpp.i:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/CMakeFiles/gtsam.dir/build.make gtsam/CMakeFiles/gtsam.dir/hybrid/HybridJunctionTree.cpp.i
-.PHONY : hybrid/HybridJunctionTree.cpp.i
-
-hybrid/HybridJunctionTree.s: hybrid/HybridJunctionTree.cpp.s
-
-.PHONY : hybrid/HybridJunctionTree.s
-
-# target to generate assembly for a file
-hybrid/HybridJunctionTree.cpp.s:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/CMakeFiles/gtsam.dir/build.make gtsam/CMakeFiles/gtsam.dir/hybrid/HybridJunctionTree.cpp.s
-.PHONY : hybrid/HybridJunctionTree.cpp.s
-
-hybrid/HybridNonlinearFactor.o: hybrid/HybridNonlinearFactor.cpp.o
-
-.PHONY : hybrid/HybridNonlinearFactor.o
-
-# target to build an object file
-hybrid/HybridNonlinearFactor.cpp.o:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/CMakeFiles/gtsam.dir/build.make gtsam/CMakeFiles/gtsam.dir/hybrid/HybridNonlinearFactor.cpp.o
-.PHONY : hybrid/HybridNonlinearFactor.cpp.o
-
-hybrid/HybridNonlinearFactor.i: hybrid/HybridNonlinearFactor.cpp.i
-
-.PHONY : hybrid/HybridNonlinearFactor.i
-
-# target to preprocess a source file
-hybrid/HybridNonlinearFactor.cpp.i:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/CMakeFiles/gtsam.dir/build.make gtsam/CMakeFiles/gtsam.dir/hybrid/HybridNonlinearFactor.cpp.i
-.PHONY : hybrid/HybridNonlinearFactor.cpp.i
-
-hybrid/HybridNonlinearFactor.s: hybrid/HybridNonlinearFactor.cpp.s
-
-.PHONY : hybrid/HybridNonlinearFactor.s
-
-# target to generate assembly for a file
-hybrid/HybridNonlinearFactor.cpp.s:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/CMakeFiles/gtsam.dir/build.make gtsam/CMakeFiles/gtsam.dir/hybrid/HybridNonlinearFactor.cpp.s
-.PHONY : hybrid/HybridNonlinearFactor.cpp.s
-
-hybrid/HybridNonlinearFactorGraph.o: hybrid/HybridNonlinearFactorGraph.cpp.o
-
-.PHONY : hybrid/HybridNonlinearFactorGraph.o
-
-# target to build an object file
-hybrid/HybridNonlinearFactorGraph.cpp.o:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/CMakeFiles/gtsam.dir/build.make gtsam/CMakeFiles/gtsam.dir/hybrid/HybridNonlinearFactorGraph.cpp.o
-.PHONY : hybrid/HybridNonlinearFactorGraph.cpp.o
-
-hybrid/HybridNonlinearFactorGraph.i: hybrid/HybridNonlinearFactorGraph.cpp.i
-
-.PHONY : hybrid/HybridNonlinearFactorGraph.i
-
-# target to preprocess a source file
-hybrid/HybridNonlinearFactorGraph.cpp.i:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/CMakeFiles/gtsam.dir/build.make gtsam/CMakeFiles/gtsam.dir/hybrid/HybridNonlinearFactorGraph.cpp.i
-.PHONY : hybrid/HybridNonlinearFactorGraph.cpp.i
-
-hybrid/HybridNonlinearFactorGraph.s: hybrid/HybridNonlinearFactorGraph.cpp.s
-
-.PHONY : hybrid/HybridNonlinearFactorGraph.s
-
-# target to generate assembly for a file
-hybrid/HybridNonlinearFactorGraph.cpp.s:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/CMakeFiles/gtsam.dir/build.make gtsam/CMakeFiles/gtsam.dir/hybrid/HybridNonlinearFactorGraph.cpp.s
-.PHONY : hybrid/HybridNonlinearFactorGraph.cpp.s
-
-hybrid/HybridNonlinearISAM.o: hybrid/HybridNonlinearISAM.cpp.o
-
-.PHONY : hybrid/HybridNonlinearISAM.o
-
-# target to build an object file
-hybrid/HybridNonlinearISAM.cpp.o:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/CMakeFiles/gtsam.dir/build.make gtsam/CMakeFiles/gtsam.dir/hybrid/HybridNonlinearISAM.cpp.o
-.PHONY : hybrid/HybridNonlinearISAM.cpp.o
-
-hybrid/HybridNonlinearISAM.i: hybrid/HybridNonlinearISAM.cpp.i
-
-.PHONY : hybrid/HybridNonlinearISAM.i
-
-# target to preprocess a source file
-hybrid/HybridNonlinearISAM.cpp.i:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/CMakeFiles/gtsam.dir/build.make gtsam/CMakeFiles/gtsam.dir/hybrid/HybridNonlinearISAM.cpp.i
-.PHONY : hybrid/HybridNonlinearISAM.cpp.i
-
-hybrid/HybridNonlinearISAM.s: hybrid/HybridNonlinearISAM.cpp.s
-
-.PHONY : hybrid/HybridNonlinearISAM.s
-
-# target to generate assembly for a file
-hybrid/HybridNonlinearISAM.cpp.s:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/CMakeFiles/gtsam.dir/build.make gtsam/CMakeFiles/gtsam.dir/hybrid/HybridNonlinearISAM.cpp.s
-.PHONY : hybrid/HybridNonlinearISAM.cpp.s
-
 inference/BayesTree.o: inference/BayesTree.cpp.o
 
 .PHONY : inference/BayesTree.o
@@ -2228,33 +1661,6 @@ inference/BayesTree.s: inference/BayesTree.cpp.s
 inference/BayesTree.cpp.s:
 	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/CMakeFiles/gtsam.dir/build.make gtsam/CMakeFiles/gtsam.dir/inference/BayesTree.cpp.s
 .PHONY : inference/BayesTree.cpp.s
-
-inference/DotWriter.o: inference/DotWriter.cpp.o
-
-.PHONY : inference/DotWriter.o
-
-# target to build an object file
-inference/DotWriter.cpp.o:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/CMakeFiles/gtsam.dir/build.make gtsam/CMakeFiles/gtsam.dir/inference/DotWriter.cpp.o
-.PHONY : inference/DotWriter.cpp.o
-
-inference/DotWriter.i: inference/DotWriter.cpp.i
-
-.PHONY : inference/DotWriter.i
-
-# target to preprocess a source file
-inference/DotWriter.cpp.i:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/CMakeFiles/gtsam.dir/build.make gtsam/CMakeFiles/gtsam.dir/inference/DotWriter.cpp.i
-.PHONY : inference/DotWriter.cpp.i
-
-inference/DotWriter.s: inference/DotWriter.cpp.s
-
-.PHONY : inference/DotWriter.s
-
-# target to generate assembly for a file
-inference/DotWriter.cpp.s:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/CMakeFiles/gtsam.dir/build.make gtsam/CMakeFiles/gtsam.dir/inference/DotWriter.cpp.s
-.PHONY : inference/DotWriter.cpp.s
 
 inference/Factor.o: inference/Factor.cpp.o
 
@@ -3228,33 +2634,6 @@ navigation/AttitudeFactor.cpp.s:
 	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/CMakeFiles/gtsam.dir/build.make gtsam/CMakeFiles/gtsam.dir/navigation/AttitudeFactor.cpp.s
 .PHONY : navigation/AttitudeFactor.cpp.s
 
-navigation/BarometricFactor.o: navigation/BarometricFactor.cpp.o
-
-.PHONY : navigation/BarometricFactor.o
-
-# target to build an object file
-navigation/BarometricFactor.cpp.o:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/CMakeFiles/gtsam.dir/build.make gtsam/CMakeFiles/gtsam.dir/navigation/BarometricFactor.cpp.o
-.PHONY : navigation/BarometricFactor.cpp.o
-
-navigation/BarometricFactor.i: navigation/BarometricFactor.cpp.i
-
-.PHONY : navigation/BarometricFactor.i
-
-# target to preprocess a source file
-navigation/BarometricFactor.cpp.i:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/CMakeFiles/gtsam.dir/build.make gtsam/CMakeFiles/gtsam.dir/navigation/BarometricFactor.cpp.i
-.PHONY : navigation/BarometricFactor.cpp.i
-
-navigation/BarometricFactor.s: navigation/BarometricFactor.cpp.s
-
-.PHONY : navigation/BarometricFactor.s
-
-# target to generate assembly for a file
-navigation/BarometricFactor.cpp.s:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/CMakeFiles/gtsam.dir/build.make gtsam/CMakeFiles/gtsam.dir/navigation/BarometricFactor.cpp.s
-.PHONY : navigation/BarometricFactor.cpp.s
-
 navigation/CombinedImuFactor.o: navigation/CombinedImuFactor.cpp.o
 
 .PHONY : navigation/CombinedImuFactor.o
@@ -3659,33 +3038,6 @@ nonlinear/GaussNewtonOptimizer.s: nonlinear/GaussNewtonOptimizer.cpp.s
 nonlinear/GaussNewtonOptimizer.cpp.s:
 	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/CMakeFiles/gtsam.dir/build.make gtsam/CMakeFiles/gtsam.dir/nonlinear/GaussNewtonOptimizer.cpp.s
 .PHONY : nonlinear/GaussNewtonOptimizer.cpp.s
-
-nonlinear/GraphvizFormatting.o: nonlinear/GraphvizFormatting.cpp.o
-
-.PHONY : nonlinear/GraphvizFormatting.o
-
-# target to build an object file
-nonlinear/GraphvizFormatting.cpp.o:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/CMakeFiles/gtsam.dir/build.make gtsam/CMakeFiles/gtsam.dir/nonlinear/GraphvizFormatting.cpp.o
-.PHONY : nonlinear/GraphvizFormatting.cpp.o
-
-nonlinear/GraphvizFormatting.i: nonlinear/GraphvizFormatting.cpp.i
-
-.PHONY : nonlinear/GraphvizFormatting.i
-
-# target to preprocess a source file
-nonlinear/GraphvizFormatting.cpp.i:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/CMakeFiles/gtsam.dir/build.make gtsam/CMakeFiles/gtsam.dir/nonlinear/GraphvizFormatting.cpp.i
-.PHONY : nonlinear/GraphvizFormatting.cpp.i
-
-nonlinear/GraphvizFormatting.s: nonlinear/GraphvizFormatting.cpp.s
-
-.PHONY : nonlinear/GraphvizFormatting.s
-
-# target to generate assembly for a file
-nonlinear/GraphvizFormatting.cpp.s:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/CMakeFiles/gtsam.dir/build.make gtsam/CMakeFiles/gtsam.dir/nonlinear/GraphvizFormatting.cpp.s
-.PHONY : nonlinear/GraphvizFormatting.cpp.s
 
 nonlinear/ISAM2-impl.o: nonlinear/ISAM2-impl.cpp.o
 
@@ -4118,60 +3470,6 @@ sfm/MFAS.s: sfm/MFAS.cpp.s
 sfm/MFAS.cpp.s:
 	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/CMakeFiles/gtsam.dir/build.make gtsam/CMakeFiles/gtsam.dir/sfm/MFAS.cpp.s
 .PHONY : sfm/MFAS.cpp.s
-
-sfm/SfmData.o: sfm/SfmData.cpp.o
-
-.PHONY : sfm/SfmData.o
-
-# target to build an object file
-sfm/SfmData.cpp.o:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/CMakeFiles/gtsam.dir/build.make gtsam/CMakeFiles/gtsam.dir/sfm/SfmData.cpp.o
-.PHONY : sfm/SfmData.cpp.o
-
-sfm/SfmData.i: sfm/SfmData.cpp.i
-
-.PHONY : sfm/SfmData.i
-
-# target to preprocess a source file
-sfm/SfmData.cpp.i:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/CMakeFiles/gtsam.dir/build.make gtsam/CMakeFiles/gtsam.dir/sfm/SfmData.cpp.i
-.PHONY : sfm/SfmData.cpp.i
-
-sfm/SfmData.s: sfm/SfmData.cpp.s
-
-.PHONY : sfm/SfmData.s
-
-# target to generate assembly for a file
-sfm/SfmData.cpp.s:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/CMakeFiles/gtsam.dir/build.make gtsam/CMakeFiles/gtsam.dir/sfm/SfmData.cpp.s
-.PHONY : sfm/SfmData.cpp.s
-
-sfm/SfmTrack.o: sfm/SfmTrack.cpp.o
-
-.PHONY : sfm/SfmTrack.o
-
-# target to build an object file
-sfm/SfmTrack.cpp.o:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/CMakeFiles/gtsam.dir/build.make gtsam/CMakeFiles/gtsam.dir/sfm/SfmTrack.cpp.o
-.PHONY : sfm/SfmTrack.cpp.o
-
-sfm/SfmTrack.i: sfm/SfmTrack.cpp.i
-
-.PHONY : sfm/SfmTrack.i
-
-# target to preprocess a source file
-sfm/SfmTrack.cpp.i:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/CMakeFiles/gtsam.dir/build.make gtsam/CMakeFiles/gtsam.dir/sfm/SfmTrack.cpp.i
-.PHONY : sfm/SfmTrack.cpp.i
-
-sfm/SfmTrack.s: sfm/SfmTrack.cpp.s
-
-.PHONY : sfm/SfmTrack.s
-
-# target to generate assembly for a file
-sfm/SfmTrack.cpp.s:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/CMakeFiles/gtsam.dir/build.make gtsam/CMakeFiles/gtsam.dir/sfm/SfmTrack.cpp.s
-.PHONY : sfm/SfmTrack.cpp.s
 
 sfm/ShonanAveraging.o: sfm/ShonanAveraging.cpp.o
 
@@ -4681,18 +3979,12 @@ help:
 	@echo "... base/types.o"
 	@echo "... base/types.i"
 	@echo "... base/types.s"
-	@echo "... base/utilities.o"
-	@echo "... base/utilities.i"
-	@echo "... base/utilities.s"
 	@echo "... basis/Chebyshev.o"
 	@echo "... basis/Chebyshev.i"
 	@echo "... basis/Chebyshev.s"
 	@echo "... basis/Chebyshev2.o"
 	@echo "... basis/Chebyshev2.i"
 	@echo "... basis/Chebyshev2.s"
-	@echo "... discrete/AlgebraicDecisionTree.o"
-	@echo "... discrete/AlgebraicDecisionTree.i"
-	@echo "... discrete/AlgebraicDecisionTree.s"
 	@echo "... discrete/DecisionTreeFactor.o"
 	@echo "... discrete/DecisionTreeFactor.i"
 	@echo "... discrete/DecisionTreeFactor.s"
@@ -4705,9 +3997,6 @@ help:
 	@echo "... discrete/DiscreteConditional.o"
 	@echo "... discrete/DiscreteConditional.i"
 	@echo "... discrete/DiscreteConditional.s"
-	@echo "... discrete/DiscreteDistribution.o"
-	@echo "... discrete/DiscreteDistribution.i"
-	@echo "... discrete/DiscreteDistribution.s"
 	@echo "... discrete/DiscreteEliminationTree.o"
 	@echo "... discrete/DiscreteEliminationTree.i"
 	@echo "... discrete/DiscreteEliminationTree.s"
@@ -4723,12 +4012,9 @@ help:
 	@echo "... discrete/DiscreteKey.o"
 	@echo "... discrete/DiscreteKey.i"
 	@echo "... discrete/DiscreteKey.s"
-	@echo "... discrete/DiscreteLookupDAG.o"
-	@echo "... discrete/DiscreteLookupDAG.i"
-	@echo "... discrete/DiscreteLookupDAG.s"
-	@echo "... discrete/DiscreteValues.o"
-	@echo "... discrete/DiscreteValues.i"
-	@echo "... discrete/DiscreteValues.s"
+	@echo "... discrete/Potentials.o"
+	@echo "... discrete/Potentials.i"
+	@echo "... discrete/Potentials.s"
 	@echo "... discrete/Signature.o"
 	@echo "... discrete/Signature.i"
 	@echo "... discrete/Signature.s"
@@ -4801,18 +4087,12 @@ help:
 	@echo "... geometry/SOn.o"
 	@echo "... geometry/SOn.i"
 	@echo "... geometry/SOn.s"
-	@echo "... geometry/Similarity2.o"
-	@echo "... geometry/Similarity2.i"
-	@echo "... geometry/Similarity2.s"
 	@echo "... geometry/Similarity3.o"
 	@echo "... geometry/Similarity3.i"
 	@echo "... geometry/Similarity3.s"
 	@echo "... geometry/SimpleCamera.o"
 	@echo "... geometry/SimpleCamera.i"
 	@echo "... geometry/SimpleCamera.s"
-	@echo "... geometry/SphericalCamera.o"
-	@echo "... geometry/SphericalCamera.i"
-	@echo "... geometry/SphericalCamera.s"
 	@echo "... geometry/StereoCamera.o"
 	@echo "... geometry/StereoCamera.i"
 	@echo "... geometry/StereoCamera.s"
@@ -4825,57 +4105,9 @@ help:
 	@echo "... geometry/triangulation.o"
 	@echo "... geometry/triangulation.i"
 	@echo "... geometry/triangulation.s"
-	@echo "... hybrid/GaussianMixture.o"
-	@echo "... hybrid/GaussianMixture.i"
-	@echo "... hybrid/GaussianMixture.s"
-	@echo "... hybrid/GaussianMixtureFactor.o"
-	@echo "... hybrid/GaussianMixtureFactor.i"
-	@echo "... hybrid/GaussianMixtureFactor.s"
-	@echo "... hybrid/HybridBayesNet.o"
-	@echo "... hybrid/HybridBayesNet.i"
-	@echo "... hybrid/HybridBayesNet.s"
-	@echo "... hybrid/HybridBayesTree.o"
-	@echo "... hybrid/HybridBayesTree.i"
-	@echo "... hybrid/HybridBayesTree.s"
-	@echo "... hybrid/HybridConditional.o"
-	@echo "... hybrid/HybridConditional.i"
-	@echo "... hybrid/HybridConditional.s"
-	@echo "... hybrid/HybridDiscreteFactor.o"
-	@echo "... hybrid/HybridDiscreteFactor.i"
-	@echo "... hybrid/HybridDiscreteFactor.s"
-	@echo "... hybrid/HybridEliminationTree.o"
-	@echo "... hybrid/HybridEliminationTree.i"
-	@echo "... hybrid/HybridEliminationTree.s"
-	@echo "... hybrid/HybridFactor.o"
-	@echo "... hybrid/HybridFactor.i"
-	@echo "... hybrid/HybridFactor.s"
-	@echo "... hybrid/HybridGaussianFactor.o"
-	@echo "... hybrid/HybridGaussianFactor.i"
-	@echo "... hybrid/HybridGaussianFactor.s"
-	@echo "... hybrid/HybridGaussianFactorGraph.o"
-	@echo "... hybrid/HybridGaussianFactorGraph.i"
-	@echo "... hybrid/HybridGaussianFactorGraph.s"
-	@echo "... hybrid/HybridGaussianISAM.o"
-	@echo "... hybrid/HybridGaussianISAM.i"
-	@echo "... hybrid/HybridGaussianISAM.s"
-	@echo "... hybrid/HybridJunctionTree.o"
-	@echo "... hybrid/HybridJunctionTree.i"
-	@echo "... hybrid/HybridJunctionTree.s"
-	@echo "... hybrid/HybridNonlinearFactor.o"
-	@echo "... hybrid/HybridNonlinearFactor.i"
-	@echo "... hybrid/HybridNonlinearFactor.s"
-	@echo "... hybrid/HybridNonlinearFactorGraph.o"
-	@echo "... hybrid/HybridNonlinearFactorGraph.i"
-	@echo "... hybrid/HybridNonlinearFactorGraph.s"
-	@echo "... hybrid/HybridNonlinearISAM.o"
-	@echo "... hybrid/HybridNonlinearISAM.i"
-	@echo "... hybrid/HybridNonlinearISAM.s"
 	@echo "... inference/BayesTree.o"
 	@echo "... inference/BayesTree.i"
 	@echo "... inference/BayesTree.s"
-	@echo "... inference/DotWriter.o"
-	@echo "... inference/DotWriter.i"
-	@echo "... inference/DotWriter.s"
 	@echo "... inference/Factor.o"
 	@echo "... inference/Factor.i"
 	@echo "... inference/Factor.s"
@@ -4984,9 +4216,6 @@ help:
 	@echo "... navigation/AttitudeFactor.o"
 	@echo "... navigation/AttitudeFactor.i"
 	@echo "... navigation/AttitudeFactor.s"
-	@echo "... navigation/BarometricFactor.o"
-	@echo "... navigation/BarometricFactor.i"
-	@echo "... navigation/BarometricFactor.s"
 	@echo "... navigation/CombinedImuFactor.o"
 	@echo "... navigation/CombinedImuFactor.i"
 	@echo "... navigation/CombinedImuFactor.s"
@@ -5032,9 +4261,6 @@ help:
 	@echo "... nonlinear/GaussNewtonOptimizer.o"
 	@echo "... nonlinear/GaussNewtonOptimizer.i"
 	@echo "... nonlinear/GaussNewtonOptimizer.s"
-	@echo "... nonlinear/GraphvizFormatting.o"
-	@echo "... nonlinear/GraphvizFormatting.i"
-	@echo "... nonlinear/GraphvizFormatting.s"
 	@echo "... nonlinear/ISAM2-impl.o"
 	@echo "... nonlinear/ISAM2-impl.i"
 	@echo "... nonlinear/ISAM2-impl.s"
@@ -5083,12 +4309,6 @@ help:
 	@echo "... sfm/MFAS.o"
 	@echo "... sfm/MFAS.i"
 	@echo "... sfm/MFAS.s"
-	@echo "... sfm/SfmData.o"
-	@echo "... sfm/SfmData.i"
-	@echo "... sfm/SfmData.s"
-	@echo "... sfm/SfmTrack.o"
-	@echo "... sfm/SfmTrack.i"
-	@echo "... sfm/SfmTrack.s"
 	@echo "... sfm/ShonanAveraging.o"
 	@echo "... sfm/ShonanAveraging.i"
 	@echo "... sfm/ShonanAveraging.s"

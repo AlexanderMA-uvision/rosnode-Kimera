@@ -13,14 +13,12 @@ examples/CMakeFiles/ShonanAveragingCLI.dir/ShonanAveragingCLI.cpp.o: /home/catki
 examples/CMakeFiles/ShonanAveragingCLI.dir/ShonanAveragingCLI.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Lie.h
 examples/CMakeFiles/ShonanAveragingCLI.dir/ShonanAveragingCLI.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Manifold.h
 examples/CMakeFiles/ShonanAveragingCLI.dir/ShonanAveragingCLI.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Matrix.h
-examples/CMakeFiles/ShonanAveragingCLI.dir/ShonanAveragingCLI.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/MatrixSerialization.h
 examples/CMakeFiles/ShonanAveragingCLI.dir/ShonanAveragingCLI.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/OptionalJacobian.h
 examples/CMakeFiles/ShonanAveragingCLI.dir/ShonanAveragingCLI.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/SymmetricBlockMatrix.h
 examples/CMakeFiles/ShonanAveragingCLI.dir/ShonanAveragingCLI.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Testable.h
 examples/CMakeFiles/ShonanAveragingCLI.dir/ShonanAveragingCLI.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/ThreadsafeException.h
 examples/CMakeFiles/ShonanAveragingCLI.dir/ShonanAveragingCLI.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Value.h
 examples/CMakeFiles/ShonanAveragingCLI.dir/ShonanAveragingCLI.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Vector.h
-examples/CMakeFiles/ShonanAveragingCLI.dir/ShonanAveragingCLI.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/VectorSerialization.h
 examples/CMakeFiles/ShonanAveragingCLI.dir/ShonanAveragingCLI.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/VectorSpace.h
 examples/CMakeFiles/ShonanAveragingCLI.dir/ShonanAveragingCLI.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/VerticalBlockMatrix.h
 examples/CMakeFiles/ShonanAveragingCLI.dir/ShonanAveragingCLI.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/concepts.h
@@ -46,7 +44,6 @@ examples/CMakeFiles/ShonanAveragingCLI.dir/ShonanAveragingCLI.cpp.o: /home/catki
 examples/CMakeFiles/ShonanAveragingCLI.dir/ShonanAveragingCLI.cpp.o: /home/catkin_ws/src/gtsam/gtsam/geometry/SOn.h
 examples/CMakeFiles/ShonanAveragingCLI.dir/ShonanAveragingCLI.cpp.o: /home/catkin_ws/src/gtsam/gtsam/geometry/Unit3.h
 examples/CMakeFiles/ShonanAveragingCLI.dir/ShonanAveragingCLI.cpp.o: /home/catkin_ws/src/gtsam/gtsam/global_includes.h
-examples/CMakeFiles/ShonanAveragingCLI.dir/ShonanAveragingCLI.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/DotWriter.h
 examples/CMakeFiles/ShonanAveragingCLI.dir/ShonanAveragingCLI.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/EliminateableFactorGraph.h
 examples/CMakeFiles/ShonanAveragingCLI.dir/ShonanAveragingCLI.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/Factor.h
 examples/CMakeFiles/ShonanAveragingCLI.dir/ShonanAveragingCLI.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/FactorGraph-inst.h
@@ -78,7 +75,6 @@ examples/CMakeFiles/ShonanAveragingCLI.dir/ShonanAveragingCLI.cpp.o: /home/catki
 examples/CMakeFiles/ShonanAveragingCLI.dir/ShonanAveragingCLI.cpp.o: /home/catkin_ws/src/gtsam/gtsam/linear/VectorValues.h
 examples/CMakeFiles/ShonanAveragingCLI.dir/ShonanAveragingCLI.cpp.o: /home/catkin_ws/src/gtsam/gtsam/linear/linearExceptions.h
 examples/CMakeFiles/ShonanAveragingCLI.dir/ShonanAveragingCLI.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/GaussNewtonOptimizer.h
-examples/CMakeFiles/ShonanAveragingCLI.dir/ShonanAveragingCLI.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/GraphvizFormatting.h
 examples/CMakeFiles/ShonanAveragingCLI.dir/ShonanAveragingCLI.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/LevenbergMarquardtParams.h
 examples/CMakeFiles/ShonanAveragingCLI.dir/ShonanAveragingCLI.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/NonlinearFactor.h
 examples/CMakeFiles/ShonanAveragingCLI.dir/ShonanAveragingCLI.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/NonlinearFactorGraph.h
@@ -88,8 +84,6 @@ examples/CMakeFiles/ShonanAveragingCLI.dir/ShonanAveragingCLI.cpp.o: /home/catki
 examples/CMakeFiles/ShonanAveragingCLI.dir/ShonanAveragingCLI.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/Values-inl.h
 examples/CMakeFiles/ShonanAveragingCLI.dir/ShonanAveragingCLI.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/Values.h
 examples/CMakeFiles/ShonanAveragingCLI.dir/ShonanAveragingCLI.cpp.o: /home/catkin_ws/src/gtsam/gtsam/sfm/BinaryMeasurement.h
-examples/CMakeFiles/ShonanAveragingCLI.dir/ShonanAveragingCLI.cpp.o: /home/catkin_ws/src/gtsam/gtsam/sfm/SfmData.h
-examples/CMakeFiles/ShonanAveragingCLI.dir/ShonanAveragingCLI.cpp.o: /home/catkin_ws/src/gtsam/gtsam/sfm/SfmTrack.h
 examples/CMakeFiles/ShonanAveragingCLI.dir/ShonanAveragingCLI.cpp.o: /home/catkin_ws/src/gtsam/gtsam/sfm/ShonanAveraging.h
 examples/CMakeFiles/ShonanAveragingCLI.dir/ShonanAveragingCLI.cpp.o: /home/catkin_ws/src/gtsam/gtsam/slam/BetweenFactor.h
 examples/CMakeFiles/ShonanAveragingCLI.dir/ShonanAveragingCLI.cpp.o: /home/catkin_ws/src/gtsam/gtsam/slam/InitializePose.h

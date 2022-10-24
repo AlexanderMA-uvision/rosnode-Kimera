@@ -79,7 +79,7 @@ HMMExample_EXTERNAL_OBJECTS =
 
 examples/HMMExample: examples/CMakeFiles/HMMExample.dir/HMMExample.cpp.o
 examples/HMMExample: examples/CMakeFiles/HMMExample.dir/build.make
-examples/HMMExample: gtsam/libgtsam.so.4.2.0
+examples/HMMExample: gtsam/libgtsam.so.4.1.0
 examples/HMMExample: /usr/lib/aarch64-linux-gnu/libboost_program_options.so.1.71.0
 examples/HMMExample: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 examples/HMMExample: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0

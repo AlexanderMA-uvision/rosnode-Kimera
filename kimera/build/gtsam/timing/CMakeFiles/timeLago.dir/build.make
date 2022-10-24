@@ -79,7 +79,7 @@ timeLago_EXTERNAL_OBJECTS =
 
 timing/timeLago: timing/CMakeFiles/timeLago.dir/timeLago.cpp.o
 timing/timeLago: timing/CMakeFiles/timeLago.dir/build.make
-timing/timeLago: gtsam/libgtsam.so.4.2.0
+timing/timeLago: gtsam/libgtsam.so.4.1.0
 timing/timeLago: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 timing/timeLago: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 timing/timeLago: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

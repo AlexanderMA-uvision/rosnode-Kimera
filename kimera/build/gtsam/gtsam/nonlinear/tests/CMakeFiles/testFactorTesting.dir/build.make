@@ -80,7 +80,7 @@ testFactorTesting_EXTERNAL_OBJECTS =
 gtsam/nonlinear/tests/testFactorTesting: gtsam/nonlinear/tests/CMakeFiles/testFactorTesting.dir/testFactorTesting.cpp.o
 gtsam/nonlinear/tests/testFactorTesting: gtsam/nonlinear/tests/CMakeFiles/testFactorTesting.dir/build.make
 gtsam/nonlinear/tests/testFactorTesting: CppUnitLite/libCppUnitLite.a
-gtsam/nonlinear/tests/testFactorTesting: gtsam/libgtsam.so.4.2.0
+gtsam/nonlinear/tests/testFactorTesting: gtsam/libgtsam.so.4.1.0
 gtsam/nonlinear/tests/testFactorTesting: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 gtsam/nonlinear/tests/testFactorTesting: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 gtsam/nonlinear/tests/testFactorTesting: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

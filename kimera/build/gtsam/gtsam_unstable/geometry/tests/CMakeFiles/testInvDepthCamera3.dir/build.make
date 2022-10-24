@@ -80,8 +80,8 @@ testInvDepthCamera3_EXTERNAL_OBJECTS =
 gtsam_unstable/geometry/tests/testInvDepthCamera3: gtsam_unstable/geometry/tests/CMakeFiles/testInvDepthCamera3.dir/testInvDepthCamera3.cpp.o
 gtsam_unstable/geometry/tests/testInvDepthCamera3: gtsam_unstable/geometry/tests/CMakeFiles/testInvDepthCamera3.dir/build.make
 gtsam_unstable/geometry/tests/testInvDepthCamera3: CppUnitLite/libCppUnitLite.a
-gtsam_unstable/geometry/tests/testInvDepthCamera3: gtsam_unstable/libgtsam_unstable.so.4.2.0
-gtsam_unstable/geometry/tests/testInvDepthCamera3: gtsam/libgtsam.so.4.2.0
+gtsam_unstable/geometry/tests/testInvDepthCamera3: gtsam_unstable/libgtsam_unstable.so.4.1.0
+gtsam_unstable/geometry/tests/testInvDepthCamera3: gtsam/libgtsam.so.4.1.0
 gtsam_unstable/geometry/tests/testInvDepthCamera3: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 gtsam_unstable/geometry/tests/testInvDepthCamera3: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 gtsam_unstable/geometry/tests/testInvDepthCamera3: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

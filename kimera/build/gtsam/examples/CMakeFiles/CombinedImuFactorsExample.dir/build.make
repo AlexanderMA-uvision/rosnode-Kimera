@@ -79,7 +79,7 @@ CombinedImuFactorsExample_EXTERNAL_OBJECTS =
 
 examples/CombinedImuFactorsExample: examples/CMakeFiles/CombinedImuFactorsExample.dir/CombinedImuFactorsExample.cpp.o
 examples/CombinedImuFactorsExample: examples/CMakeFiles/CombinedImuFactorsExample.dir/build.make
-examples/CombinedImuFactorsExample: gtsam/libgtsam.so.4.2.0
+examples/CombinedImuFactorsExample: gtsam/libgtsam.so.4.1.0
 examples/CombinedImuFactorsExample: /usr/lib/aarch64-linux-gnu/libboost_program_options.so.1.71.0
 examples/CombinedImuFactorsExample: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 examples/CombinedImuFactorsExample: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0

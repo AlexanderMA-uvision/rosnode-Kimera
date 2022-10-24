@@ -80,8 +80,8 @@ testLinearizedFactor_EXTERNAL_OBJECTS =
 gtsam_unstable/nonlinear/tests/testLinearizedFactor: gtsam_unstable/nonlinear/tests/CMakeFiles/testLinearizedFactor.dir/testLinearizedFactor.cpp.o
 gtsam_unstable/nonlinear/tests/testLinearizedFactor: gtsam_unstable/nonlinear/tests/CMakeFiles/testLinearizedFactor.dir/build.make
 gtsam_unstable/nonlinear/tests/testLinearizedFactor: CppUnitLite/libCppUnitLite.a
-gtsam_unstable/nonlinear/tests/testLinearizedFactor: gtsam_unstable/libgtsam_unstable.so.4.2.0
-gtsam_unstable/nonlinear/tests/testLinearizedFactor: gtsam/libgtsam.so.4.2.0
+gtsam_unstable/nonlinear/tests/testLinearizedFactor: gtsam_unstable/libgtsam_unstable.so.4.1.0
+gtsam_unstable/nonlinear/tests/testLinearizedFactor: gtsam/libgtsam.so.4.1.0
 gtsam_unstable/nonlinear/tests/testLinearizedFactor: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 gtsam_unstable/nonlinear/tests/testLinearizedFactor: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 gtsam_unstable/nonlinear/tests/testLinearizedFactor: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

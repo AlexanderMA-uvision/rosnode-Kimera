@@ -80,7 +80,7 @@ testSmartFactorBase_EXTERNAL_OBJECTS =
 gtsam/slam/tests/testSmartFactorBase: gtsam/slam/tests/CMakeFiles/testSmartFactorBase.dir/testSmartFactorBase.cpp.o
 gtsam/slam/tests/testSmartFactorBase: gtsam/slam/tests/CMakeFiles/testSmartFactorBase.dir/build.make
 gtsam/slam/tests/testSmartFactorBase: CppUnitLite/libCppUnitLite.a
-gtsam/slam/tests/testSmartFactorBase: gtsam/libgtsam.so.4.2.0
+gtsam/slam/tests/testSmartFactorBase: gtsam/libgtsam.so.4.1.0
 gtsam/slam/tests/testSmartFactorBase: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 gtsam/slam/tests/testSmartFactorBase: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 gtsam/slam/tests/testSmartFactorBase: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

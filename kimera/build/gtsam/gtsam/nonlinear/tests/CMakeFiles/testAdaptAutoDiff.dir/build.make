@@ -80,7 +80,7 @@ testAdaptAutoDiff_EXTERNAL_OBJECTS =
 gtsam/nonlinear/tests/testAdaptAutoDiff: gtsam/nonlinear/tests/CMakeFiles/testAdaptAutoDiff.dir/testAdaptAutoDiff.cpp.o
 gtsam/nonlinear/tests/testAdaptAutoDiff: gtsam/nonlinear/tests/CMakeFiles/testAdaptAutoDiff.dir/build.make
 gtsam/nonlinear/tests/testAdaptAutoDiff: CppUnitLite/libCppUnitLite.a
-gtsam/nonlinear/tests/testAdaptAutoDiff: gtsam/libgtsam.so.4.2.0
+gtsam/nonlinear/tests/testAdaptAutoDiff: gtsam/libgtsam.so.4.1.0
 gtsam/nonlinear/tests/testAdaptAutoDiff: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 gtsam/nonlinear/tests/testAdaptAutoDiff: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 gtsam/nonlinear/tests/testAdaptAutoDiff: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

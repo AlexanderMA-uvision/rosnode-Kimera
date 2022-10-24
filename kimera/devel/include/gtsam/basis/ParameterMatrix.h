@@ -153,7 +153,7 @@ class ParameterMatrix {
     return matrix_ * other;
   }
 
-  /// @name Vector Space requirements
+  /// @name Vector Space requirements, following LieMatrix
   /// @{
 
   /**
@@ -189,9 +189,9 @@ class ParameterMatrix {
    * NOTE: The size at compile time is unknown so this identity is zero
    * length and thus not valid.
    */
-  inline static ParameterMatrix Identity() {
+  inline static ParameterMatrix identity() {
     // throw std::runtime_error(
-    //     "ParameterMatrix::Identity(): Don't use this function");
+    //     "ParameterMatrix::identity(): Don't use this function");
     return ParameterMatrix(0);
   }
 

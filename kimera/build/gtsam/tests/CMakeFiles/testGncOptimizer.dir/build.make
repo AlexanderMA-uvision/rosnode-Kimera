@@ -80,7 +80,7 @@ testGncOptimizer_EXTERNAL_OBJECTS =
 tests/testGncOptimizer: tests/CMakeFiles/testGncOptimizer.dir/testGncOptimizer.cpp.o
 tests/testGncOptimizer: tests/CMakeFiles/testGncOptimizer.dir/build.make
 tests/testGncOptimizer: CppUnitLite/libCppUnitLite.a
-tests/testGncOptimizer: gtsam/libgtsam.so.4.2.0
+tests/testGncOptimizer: gtsam/libgtsam.so.4.1.0
 tests/testGncOptimizer: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 tests/testGncOptimizer: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 tests/testGncOptimizer: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

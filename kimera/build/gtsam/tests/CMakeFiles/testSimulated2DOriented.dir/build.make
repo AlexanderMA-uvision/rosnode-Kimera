@@ -80,7 +80,7 @@ testSimulated2DOriented_EXTERNAL_OBJECTS =
 tests/testSimulated2DOriented: tests/CMakeFiles/testSimulated2DOriented.dir/testSimulated2DOriented.cpp.o
 tests/testSimulated2DOriented: tests/CMakeFiles/testSimulated2DOriented.dir/build.make
 tests/testSimulated2DOriented: CppUnitLite/libCppUnitLite.a
-tests/testSimulated2DOriented: gtsam/libgtsam.so.4.2.0
+tests/testSimulated2DOriented: gtsam/libgtsam.so.4.1.0
 tests/testSimulated2DOriented: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 tests/testSimulated2DOriented: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 tests/testSimulated2DOriented: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

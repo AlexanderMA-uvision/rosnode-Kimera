@@ -80,7 +80,7 @@ testTranslationRecovery_EXTERNAL_OBJECTS =
 tests/testTranslationRecovery: tests/CMakeFiles/testTranslationRecovery.dir/testTranslationRecovery.cpp.o
 tests/testTranslationRecovery: tests/CMakeFiles/testTranslationRecovery.dir/build.make
 tests/testTranslationRecovery: CppUnitLite/libCppUnitLite.a
-tests/testTranslationRecovery: gtsam/libgtsam.so.4.2.0
+tests/testTranslationRecovery: gtsam/libgtsam.so.4.1.0
 tests/testTranslationRecovery: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 tests/testTranslationRecovery: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 tests/testTranslationRecovery: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

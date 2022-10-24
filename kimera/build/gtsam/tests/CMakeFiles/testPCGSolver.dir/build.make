@@ -80,7 +80,7 @@ testPCGSolver_EXTERNAL_OBJECTS =
 tests/testPCGSolver: tests/CMakeFiles/testPCGSolver.dir/testPCGSolver.cpp.o
 tests/testPCGSolver: tests/CMakeFiles/testPCGSolver.dir/build.make
 tests/testPCGSolver: CppUnitLite/libCppUnitLite.a
-tests/testPCGSolver: gtsam/libgtsam.so.4.2.0
+tests/testPCGSolver: gtsam/libgtsam.so.4.1.0
 tests/testPCGSolver: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 tests/testPCGSolver: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 tests/testPCGSolver: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

@@ -200,22 +200,9 @@ gtsam/CMakeFiles/gtsam.dir/base/types.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gtsam.dir/base/types.cpp.s"
 	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/catkin_ws/src/gtsam/gtsam/base/types.cpp -o CMakeFiles/gtsam.dir/base/types.cpp.s
 
-gtsam/CMakeFiles/gtsam.dir/base/utilities.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
-gtsam/CMakeFiles/gtsam.dir/base/utilities.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/utilities.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object gtsam/CMakeFiles/gtsam.dir/base/utilities.cpp.o"
-	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/base/utilities.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/base/utilities.cpp
-
-gtsam/CMakeFiles/gtsam.dir/base/utilities.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gtsam.dir/base/utilities.cpp.i"
-	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/catkin_ws/src/gtsam/gtsam/base/utilities.cpp > CMakeFiles/gtsam.dir/base/utilities.cpp.i
-
-gtsam/CMakeFiles/gtsam.dir/base/utilities.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gtsam.dir/base/utilities.cpp.s"
-	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/catkin_ws/src/gtsam/gtsam/base/utilities.cpp -o CMakeFiles/gtsam.dir/base/utilities.cpp.s
-
 gtsam/CMakeFiles/gtsam.dir/basis/Chebyshev.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
 gtsam/CMakeFiles/gtsam.dir/basis/Chebyshev.cpp.o: /home/catkin_ws/src/gtsam/gtsam/basis/Chebyshev.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object gtsam/CMakeFiles/gtsam.dir/basis/Chebyshev.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object gtsam/CMakeFiles/gtsam.dir/basis/Chebyshev.cpp.o"
 	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/basis/Chebyshev.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/basis/Chebyshev.cpp
 
 gtsam/CMakeFiles/gtsam.dir/basis/Chebyshev.cpp.i: cmake_force
@@ -228,7 +215,7 @@ gtsam/CMakeFiles/gtsam.dir/basis/Chebyshev.cpp.s: cmake_force
 
 gtsam/CMakeFiles/gtsam.dir/basis/Chebyshev2.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
 gtsam/CMakeFiles/gtsam.dir/basis/Chebyshev2.cpp.o: /home/catkin_ws/src/gtsam/gtsam/basis/Chebyshev2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object gtsam/CMakeFiles/gtsam.dir/basis/Chebyshev2.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object gtsam/CMakeFiles/gtsam.dir/basis/Chebyshev2.cpp.o"
 	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/basis/Chebyshev2.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/basis/Chebyshev2.cpp
 
 gtsam/CMakeFiles/gtsam.dir/basis/Chebyshev2.cpp.i: cmake_force
@@ -241,7 +228,7 @@ gtsam/CMakeFiles/gtsam.dir/basis/Chebyshev2.cpp.s: cmake_force
 
 gtsam/CMakeFiles/gtsam.dir/geometry/Cal3.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
 gtsam/CMakeFiles/gtsam.dir/geometry/Cal3.cpp.o: /home/catkin_ws/src/gtsam/gtsam/geometry/Cal3.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object gtsam/CMakeFiles/gtsam.dir/geometry/Cal3.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object gtsam/CMakeFiles/gtsam.dir/geometry/Cal3.cpp.o"
 	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/geometry/Cal3.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/geometry/Cal3.cpp
 
 gtsam/CMakeFiles/gtsam.dir/geometry/Cal3.cpp.i: cmake_force
@@ -254,7 +241,7 @@ gtsam/CMakeFiles/gtsam.dir/geometry/Cal3.cpp.s: cmake_force
 
 gtsam/CMakeFiles/gtsam.dir/geometry/Cal3Bundler.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
 gtsam/CMakeFiles/gtsam.dir/geometry/Cal3Bundler.cpp.o: /home/catkin_ws/src/gtsam/gtsam/geometry/Cal3Bundler.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object gtsam/CMakeFiles/gtsam.dir/geometry/Cal3Bundler.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object gtsam/CMakeFiles/gtsam.dir/geometry/Cal3Bundler.cpp.o"
 	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/geometry/Cal3Bundler.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/geometry/Cal3Bundler.cpp
 
 gtsam/CMakeFiles/gtsam.dir/geometry/Cal3Bundler.cpp.i: cmake_force
@@ -267,7 +254,7 @@ gtsam/CMakeFiles/gtsam.dir/geometry/Cal3Bundler.cpp.s: cmake_force
 
 gtsam/CMakeFiles/gtsam.dir/geometry/Cal3DS2.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
 gtsam/CMakeFiles/gtsam.dir/geometry/Cal3DS2.cpp.o: /home/catkin_ws/src/gtsam/gtsam/geometry/Cal3DS2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object gtsam/CMakeFiles/gtsam.dir/geometry/Cal3DS2.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object gtsam/CMakeFiles/gtsam.dir/geometry/Cal3DS2.cpp.o"
 	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/geometry/Cal3DS2.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/geometry/Cal3DS2.cpp
 
 gtsam/CMakeFiles/gtsam.dir/geometry/Cal3DS2.cpp.i: cmake_force
@@ -280,7 +267,7 @@ gtsam/CMakeFiles/gtsam.dir/geometry/Cal3DS2.cpp.s: cmake_force
 
 gtsam/CMakeFiles/gtsam.dir/geometry/Cal3DS2_Base.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
 gtsam/CMakeFiles/gtsam.dir/geometry/Cal3DS2_Base.cpp.o: /home/catkin_ws/src/gtsam/gtsam/geometry/Cal3DS2_Base.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object gtsam/CMakeFiles/gtsam.dir/geometry/Cal3DS2_Base.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object gtsam/CMakeFiles/gtsam.dir/geometry/Cal3DS2_Base.cpp.o"
 	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/geometry/Cal3DS2_Base.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/geometry/Cal3DS2_Base.cpp
 
 gtsam/CMakeFiles/gtsam.dir/geometry/Cal3DS2_Base.cpp.i: cmake_force
@@ -293,7 +280,7 @@ gtsam/CMakeFiles/gtsam.dir/geometry/Cal3DS2_Base.cpp.s: cmake_force
 
 gtsam/CMakeFiles/gtsam.dir/geometry/Cal3Fisheye.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
 gtsam/CMakeFiles/gtsam.dir/geometry/Cal3Fisheye.cpp.o: /home/catkin_ws/src/gtsam/gtsam/geometry/Cal3Fisheye.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object gtsam/CMakeFiles/gtsam.dir/geometry/Cal3Fisheye.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object gtsam/CMakeFiles/gtsam.dir/geometry/Cal3Fisheye.cpp.o"
 	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/geometry/Cal3Fisheye.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/geometry/Cal3Fisheye.cpp
 
 gtsam/CMakeFiles/gtsam.dir/geometry/Cal3Fisheye.cpp.i: cmake_force
@@ -306,7 +293,7 @@ gtsam/CMakeFiles/gtsam.dir/geometry/Cal3Fisheye.cpp.s: cmake_force
 
 gtsam/CMakeFiles/gtsam.dir/geometry/Cal3Unified.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
 gtsam/CMakeFiles/gtsam.dir/geometry/Cal3Unified.cpp.o: /home/catkin_ws/src/gtsam/gtsam/geometry/Cal3Unified.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object gtsam/CMakeFiles/gtsam.dir/geometry/Cal3Unified.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object gtsam/CMakeFiles/gtsam.dir/geometry/Cal3Unified.cpp.o"
 	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/geometry/Cal3Unified.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/geometry/Cal3Unified.cpp
 
 gtsam/CMakeFiles/gtsam.dir/geometry/Cal3Unified.cpp.i: cmake_force
@@ -319,7 +306,7 @@ gtsam/CMakeFiles/gtsam.dir/geometry/Cal3Unified.cpp.s: cmake_force
 
 gtsam/CMakeFiles/gtsam.dir/geometry/Cal3_S2.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
 gtsam/CMakeFiles/gtsam.dir/geometry/Cal3_S2.cpp.o: /home/catkin_ws/src/gtsam/gtsam/geometry/Cal3_S2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object gtsam/CMakeFiles/gtsam.dir/geometry/Cal3_S2.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object gtsam/CMakeFiles/gtsam.dir/geometry/Cal3_S2.cpp.o"
 	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/geometry/Cal3_S2.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/geometry/Cal3_S2.cpp
 
 gtsam/CMakeFiles/gtsam.dir/geometry/Cal3_S2.cpp.i: cmake_force
@@ -332,7 +319,7 @@ gtsam/CMakeFiles/gtsam.dir/geometry/Cal3_S2.cpp.s: cmake_force
 
 gtsam/CMakeFiles/gtsam.dir/geometry/Cal3_S2Stereo.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
 gtsam/CMakeFiles/gtsam.dir/geometry/Cal3_S2Stereo.cpp.o: /home/catkin_ws/src/gtsam/gtsam/geometry/Cal3_S2Stereo.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object gtsam/CMakeFiles/gtsam.dir/geometry/Cal3_S2Stereo.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object gtsam/CMakeFiles/gtsam.dir/geometry/Cal3_S2Stereo.cpp.o"
 	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/geometry/Cal3_S2Stereo.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/geometry/Cal3_S2Stereo.cpp
 
 gtsam/CMakeFiles/gtsam.dir/geometry/Cal3_S2Stereo.cpp.i: cmake_force
@@ -345,7 +332,7 @@ gtsam/CMakeFiles/gtsam.dir/geometry/Cal3_S2Stereo.cpp.s: cmake_force
 
 gtsam/CMakeFiles/gtsam.dir/geometry/CalibratedCamera.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
 gtsam/CMakeFiles/gtsam.dir/geometry/CalibratedCamera.cpp.o: /home/catkin_ws/src/gtsam/gtsam/geometry/CalibratedCamera.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object gtsam/CMakeFiles/gtsam.dir/geometry/CalibratedCamera.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object gtsam/CMakeFiles/gtsam.dir/geometry/CalibratedCamera.cpp.o"
 	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/geometry/CalibratedCamera.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/geometry/CalibratedCamera.cpp
 
 gtsam/CMakeFiles/gtsam.dir/geometry/CalibratedCamera.cpp.i: cmake_force
@@ -358,7 +345,7 @@ gtsam/CMakeFiles/gtsam.dir/geometry/CalibratedCamera.cpp.s: cmake_force
 
 gtsam/CMakeFiles/gtsam.dir/geometry/Cyclic.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
 gtsam/CMakeFiles/gtsam.dir/geometry/Cyclic.cpp.o: /home/catkin_ws/src/gtsam/gtsam/geometry/Cyclic.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object gtsam/CMakeFiles/gtsam.dir/geometry/Cyclic.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object gtsam/CMakeFiles/gtsam.dir/geometry/Cyclic.cpp.o"
 	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/geometry/Cyclic.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/geometry/Cyclic.cpp
 
 gtsam/CMakeFiles/gtsam.dir/geometry/Cyclic.cpp.i: cmake_force
@@ -371,7 +358,7 @@ gtsam/CMakeFiles/gtsam.dir/geometry/Cyclic.cpp.s: cmake_force
 
 gtsam/CMakeFiles/gtsam.dir/geometry/EssentialMatrix.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
 gtsam/CMakeFiles/gtsam.dir/geometry/EssentialMatrix.cpp.o: /home/catkin_ws/src/gtsam/gtsam/geometry/EssentialMatrix.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object gtsam/CMakeFiles/gtsam.dir/geometry/EssentialMatrix.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object gtsam/CMakeFiles/gtsam.dir/geometry/EssentialMatrix.cpp.o"
 	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/geometry/EssentialMatrix.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/geometry/EssentialMatrix.cpp
 
 gtsam/CMakeFiles/gtsam.dir/geometry/EssentialMatrix.cpp.i: cmake_force
@@ -384,7 +371,7 @@ gtsam/CMakeFiles/gtsam.dir/geometry/EssentialMatrix.cpp.s: cmake_force
 
 gtsam/CMakeFiles/gtsam.dir/geometry/Line3.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
 gtsam/CMakeFiles/gtsam.dir/geometry/Line3.cpp.o: /home/catkin_ws/src/gtsam/gtsam/geometry/Line3.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object gtsam/CMakeFiles/gtsam.dir/geometry/Line3.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object gtsam/CMakeFiles/gtsam.dir/geometry/Line3.cpp.o"
 	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/geometry/Line3.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/geometry/Line3.cpp
 
 gtsam/CMakeFiles/gtsam.dir/geometry/Line3.cpp.i: cmake_force
@@ -397,7 +384,7 @@ gtsam/CMakeFiles/gtsam.dir/geometry/Line3.cpp.s: cmake_force
 
 gtsam/CMakeFiles/gtsam.dir/geometry/OrientedPlane3.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
 gtsam/CMakeFiles/gtsam.dir/geometry/OrientedPlane3.cpp.o: /home/catkin_ws/src/gtsam/gtsam/geometry/OrientedPlane3.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object gtsam/CMakeFiles/gtsam.dir/geometry/OrientedPlane3.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object gtsam/CMakeFiles/gtsam.dir/geometry/OrientedPlane3.cpp.o"
 	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/geometry/OrientedPlane3.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/geometry/OrientedPlane3.cpp
 
 gtsam/CMakeFiles/gtsam.dir/geometry/OrientedPlane3.cpp.i: cmake_force
@@ -410,7 +397,7 @@ gtsam/CMakeFiles/gtsam.dir/geometry/OrientedPlane3.cpp.s: cmake_force
 
 gtsam/CMakeFiles/gtsam.dir/geometry/Point2.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
 gtsam/CMakeFiles/gtsam.dir/geometry/Point2.cpp.o: /home/catkin_ws/src/gtsam/gtsam/geometry/Point2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object gtsam/CMakeFiles/gtsam.dir/geometry/Point2.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object gtsam/CMakeFiles/gtsam.dir/geometry/Point2.cpp.o"
 	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/geometry/Point2.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/geometry/Point2.cpp
 
 gtsam/CMakeFiles/gtsam.dir/geometry/Point2.cpp.i: cmake_force
@@ -423,7 +410,7 @@ gtsam/CMakeFiles/gtsam.dir/geometry/Point2.cpp.s: cmake_force
 
 gtsam/CMakeFiles/gtsam.dir/geometry/Point3.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
 gtsam/CMakeFiles/gtsam.dir/geometry/Point3.cpp.o: /home/catkin_ws/src/gtsam/gtsam/geometry/Point3.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object gtsam/CMakeFiles/gtsam.dir/geometry/Point3.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object gtsam/CMakeFiles/gtsam.dir/geometry/Point3.cpp.o"
 	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/geometry/Point3.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/geometry/Point3.cpp
 
 gtsam/CMakeFiles/gtsam.dir/geometry/Point3.cpp.i: cmake_force
@@ -436,7 +423,7 @@ gtsam/CMakeFiles/gtsam.dir/geometry/Point3.cpp.s: cmake_force
 
 gtsam/CMakeFiles/gtsam.dir/geometry/Pose2.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
 gtsam/CMakeFiles/gtsam.dir/geometry/Pose2.cpp.o: /home/catkin_ws/src/gtsam/gtsam/geometry/Pose2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object gtsam/CMakeFiles/gtsam.dir/geometry/Pose2.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object gtsam/CMakeFiles/gtsam.dir/geometry/Pose2.cpp.o"
 	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/geometry/Pose2.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/geometry/Pose2.cpp
 
 gtsam/CMakeFiles/gtsam.dir/geometry/Pose2.cpp.i: cmake_force
@@ -449,7 +436,7 @@ gtsam/CMakeFiles/gtsam.dir/geometry/Pose2.cpp.s: cmake_force
 
 gtsam/CMakeFiles/gtsam.dir/geometry/Pose3.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
 gtsam/CMakeFiles/gtsam.dir/geometry/Pose3.cpp.o: /home/catkin_ws/src/gtsam/gtsam/geometry/Pose3.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object gtsam/CMakeFiles/gtsam.dir/geometry/Pose3.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object gtsam/CMakeFiles/gtsam.dir/geometry/Pose3.cpp.o"
 	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/geometry/Pose3.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/geometry/Pose3.cpp
 
 gtsam/CMakeFiles/gtsam.dir/geometry/Pose3.cpp.i: cmake_force
@@ -462,7 +449,7 @@ gtsam/CMakeFiles/gtsam.dir/geometry/Pose3.cpp.s: cmake_force
 
 gtsam/CMakeFiles/gtsam.dir/geometry/Rot2.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
 gtsam/CMakeFiles/gtsam.dir/geometry/Rot2.cpp.o: /home/catkin_ws/src/gtsam/gtsam/geometry/Rot2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object gtsam/CMakeFiles/gtsam.dir/geometry/Rot2.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object gtsam/CMakeFiles/gtsam.dir/geometry/Rot2.cpp.o"
 	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/geometry/Rot2.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/geometry/Rot2.cpp
 
 gtsam/CMakeFiles/gtsam.dir/geometry/Rot2.cpp.i: cmake_force
@@ -475,7 +462,7 @@ gtsam/CMakeFiles/gtsam.dir/geometry/Rot2.cpp.s: cmake_force
 
 gtsam/CMakeFiles/gtsam.dir/geometry/Rot3.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
 gtsam/CMakeFiles/gtsam.dir/geometry/Rot3.cpp.o: /home/catkin_ws/src/gtsam/gtsam/geometry/Rot3.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object gtsam/CMakeFiles/gtsam.dir/geometry/Rot3.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object gtsam/CMakeFiles/gtsam.dir/geometry/Rot3.cpp.o"
 	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/geometry/Rot3.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/geometry/Rot3.cpp
 
 gtsam/CMakeFiles/gtsam.dir/geometry/Rot3.cpp.i: cmake_force
@@ -488,7 +475,7 @@ gtsam/CMakeFiles/gtsam.dir/geometry/Rot3.cpp.s: cmake_force
 
 gtsam/CMakeFiles/gtsam.dir/geometry/Rot3M.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
 gtsam/CMakeFiles/gtsam.dir/geometry/Rot3M.cpp.o: /home/catkin_ws/src/gtsam/gtsam/geometry/Rot3M.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object gtsam/CMakeFiles/gtsam.dir/geometry/Rot3M.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object gtsam/CMakeFiles/gtsam.dir/geometry/Rot3M.cpp.o"
 	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/geometry/Rot3M.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/geometry/Rot3M.cpp
 
 gtsam/CMakeFiles/gtsam.dir/geometry/Rot3M.cpp.i: cmake_force
@@ -501,7 +488,7 @@ gtsam/CMakeFiles/gtsam.dir/geometry/Rot3M.cpp.s: cmake_force
 
 gtsam/CMakeFiles/gtsam.dir/geometry/SO3.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
 gtsam/CMakeFiles/gtsam.dir/geometry/SO3.cpp.o: /home/catkin_ws/src/gtsam/gtsam/geometry/SO3.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object gtsam/CMakeFiles/gtsam.dir/geometry/SO3.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object gtsam/CMakeFiles/gtsam.dir/geometry/SO3.cpp.o"
 	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/geometry/SO3.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/geometry/SO3.cpp
 
 gtsam/CMakeFiles/gtsam.dir/geometry/SO3.cpp.i: cmake_force
@@ -514,7 +501,7 @@ gtsam/CMakeFiles/gtsam.dir/geometry/SO3.cpp.s: cmake_force
 
 gtsam/CMakeFiles/gtsam.dir/geometry/SO4.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
 gtsam/CMakeFiles/gtsam.dir/geometry/SO4.cpp.o: /home/catkin_ws/src/gtsam/gtsam/geometry/SO4.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object gtsam/CMakeFiles/gtsam.dir/geometry/SO4.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object gtsam/CMakeFiles/gtsam.dir/geometry/SO4.cpp.o"
 	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/geometry/SO4.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/geometry/SO4.cpp
 
 gtsam/CMakeFiles/gtsam.dir/geometry/SO4.cpp.i: cmake_force
@@ -527,7 +514,7 @@ gtsam/CMakeFiles/gtsam.dir/geometry/SO4.cpp.s: cmake_force
 
 gtsam/CMakeFiles/gtsam.dir/geometry/SOn.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
 gtsam/CMakeFiles/gtsam.dir/geometry/SOn.cpp.o: /home/catkin_ws/src/gtsam/gtsam/geometry/SOn.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object gtsam/CMakeFiles/gtsam.dir/geometry/SOn.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object gtsam/CMakeFiles/gtsam.dir/geometry/SOn.cpp.o"
 	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/geometry/SOn.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/geometry/SOn.cpp
 
 gtsam/CMakeFiles/gtsam.dir/geometry/SOn.cpp.i: cmake_force
@@ -538,22 +525,9 @@ gtsam/CMakeFiles/gtsam.dir/geometry/SOn.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gtsam.dir/geometry/SOn.cpp.s"
 	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/catkin_ws/src/gtsam/gtsam/geometry/SOn.cpp -o CMakeFiles/gtsam.dir/geometry/SOn.cpp.s
 
-gtsam/CMakeFiles/gtsam.dir/geometry/Similarity2.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
-gtsam/CMakeFiles/gtsam.dir/geometry/Similarity2.cpp.o: /home/catkin_ws/src/gtsam/gtsam/geometry/Similarity2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object gtsam/CMakeFiles/gtsam.dir/geometry/Similarity2.cpp.o"
-	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/geometry/Similarity2.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/geometry/Similarity2.cpp
-
-gtsam/CMakeFiles/gtsam.dir/geometry/Similarity2.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gtsam.dir/geometry/Similarity2.cpp.i"
-	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/catkin_ws/src/gtsam/gtsam/geometry/Similarity2.cpp > CMakeFiles/gtsam.dir/geometry/Similarity2.cpp.i
-
-gtsam/CMakeFiles/gtsam.dir/geometry/Similarity2.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gtsam.dir/geometry/Similarity2.cpp.s"
-	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/catkin_ws/src/gtsam/gtsam/geometry/Similarity2.cpp -o CMakeFiles/gtsam.dir/geometry/Similarity2.cpp.s
-
 gtsam/CMakeFiles/gtsam.dir/geometry/Similarity3.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
 gtsam/CMakeFiles/gtsam.dir/geometry/Similarity3.cpp.o: /home/catkin_ws/src/gtsam/gtsam/geometry/Similarity3.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object gtsam/CMakeFiles/gtsam.dir/geometry/Similarity3.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object gtsam/CMakeFiles/gtsam.dir/geometry/Similarity3.cpp.o"
 	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/geometry/Similarity3.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/geometry/Similarity3.cpp
 
 gtsam/CMakeFiles/gtsam.dir/geometry/Similarity3.cpp.i: cmake_force
@@ -566,7 +540,7 @@ gtsam/CMakeFiles/gtsam.dir/geometry/Similarity3.cpp.s: cmake_force
 
 gtsam/CMakeFiles/gtsam.dir/geometry/SimpleCamera.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
 gtsam/CMakeFiles/gtsam.dir/geometry/SimpleCamera.cpp.o: /home/catkin_ws/src/gtsam/gtsam/geometry/SimpleCamera.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object gtsam/CMakeFiles/gtsam.dir/geometry/SimpleCamera.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object gtsam/CMakeFiles/gtsam.dir/geometry/SimpleCamera.cpp.o"
 	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/geometry/SimpleCamera.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/geometry/SimpleCamera.cpp
 
 gtsam/CMakeFiles/gtsam.dir/geometry/SimpleCamera.cpp.i: cmake_force
@@ -577,22 +551,9 @@ gtsam/CMakeFiles/gtsam.dir/geometry/SimpleCamera.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gtsam.dir/geometry/SimpleCamera.cpp.s"
 	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/catkin_ws/src/gtsam/gtsam/geometry/SimpleCamera.cpp -o CMakeFiles/gtsam.dir/geometry/SimpleCamera.cpp.s
 
-gtsam/CMakeFiles/gtsam.dir/geometry/SphericalCamera.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
-gtsam/CMakeFiles/gtsam.dir/geometry/SphericalCamera.cpp.o: /home/catkin_ws/src/gtsam/gtsam/geometry/SphericalCamera.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object gtsam/CMakeFiles/gtsam.dir/geometry/SphericalCamera.cpp.o"
-	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/geometry/SphericalCamera.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/geometry/SphericalCamera.cpp
-
-gtsam/CMakeFiles/gtsam.dir/geometry/SphericalCamera.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gtsam.dir/geometry/SphericalCamera.cpp.i"
-	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/catkin_ws/src/gtsam/gtsam/geometry/SphericalCamera.cpp > CMakeFiles/gtsam.dir/geometry/SphericalCamera.cpp.i
-
-gtsam/CMakeFiles/gtsam.dir/geometry/SphericalCamera.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gtsam.dir/geometry/SphericalCamera.cpp.s"
-	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/catkin_ws/src/gtsam/gtsam/geometry/SphericalCamera.cpp -o CMakeFiles/gtsam.dir/geometry/SphericalCamera.cpp.s
-
 gtsam/CMakeFiles/gtsam.dir/geometry/StereoCamera.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
 gtsam/CMakeFiles/gtsam.dir/geometry/StereoCamera.cpp.o: /home/catkin_ws/src/gtsam/gtsam/geometry/StereoCamera.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object gtsam/CMakeFiles/gtsam.dir/geometry/StereoCamera.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object gtsam/CMakeFiles/gtsam.dir/geometry/StereoCamera.cpp.o"
 	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/geometry/StereoCamera.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/geometry/StereoCamera.cpp
 
 gtsam/CMakeFiles/gtsam.dir/geometry/StereoCamera.cpp.i: cmake_force
@@ -605,7 +566,7 @@ gtsam/CMakeFiles/gtsam.dir/geometry/StereoCamera.cpp.s: cmake_force
 
 gtsam/CMakeFiles/gtsam.dir/geometry/StereoPoint2.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
 gtsam/CMakeFiles/gtsam.dir/geometry/StereoPoint2.cpp.o: /home/catkin_ws/src/gtsam/gtsam/geometry/StereoPoint2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object gtsam/CMakeFiles/gtsam.dir/geometry/StereoPoint2.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object gtsam/CMakeFiles/gtsam.dir/geometry/StereoPoint2.cpp.o"
 	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/geometry/StereoPoint2.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/geometry/StereoPoint2.cpp
 
 gtsam/CMakeFiles/gtsam.dir/geometry/StereoPoint2.cpp.i: cmake_force
@@ -618,7 +579,7 @@ gtsam/CMakeFiles/gtsam.dir/geometry/StereoPoint2.cpp.s: cmake_force
 
 gtsam/CMakeFiles/gtsam.dir/geometry/Unit3.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
 gtsam/CMakeFiles/gtsam.dir/geometry/Unit3.cpp.o: /home/catkin_ws/src/gtsam/gtsam/geometry/Unit3.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object gtsam/CMakeFiles/gtsam.dir/geometry/Unit3.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object gtsam/CMakeFiles/gtsam.dir/geometry/Unit3.cpp.o"
 	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/geometry/Unit3.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/geometry/Unit3.cpp
 
 gtsam/CMakeFiles/gtsam.dir/geometry/Unit3.cpp.i: cmake_force
@@ -631,7 +592,7 @@ gtsam/CMakeFiles/gtsam.dir/geometry/Unit3.cpp.s: cmake_force
 
 gtsam/CMakeFiles/gtsam.dir/geometry/triangulation.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
 gtsam/CMakeFiles/gtsam.dir/geometry/triangulation.cpp.o: /home/catkin_ws/src/gtsam/gtsam/geometry/triangulation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object gtsam/CMakeFiles/gtsam.dir/geometry/triangulation.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object gtsam/CMakeFiles/gtsam.dir/geometry/triangulation.cpp.o"
 	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/geometry/triangulation.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/geometry/triangulation.cpp
 
 gtsam/CMakeFiles/gtsam.dir/geometry/triangulation.cpp.i: cmake_force
@@ -644,7 +605,7 @@ gtsam/CMakeFiles/gtsam.dir/geometry/triangulation.cpp.s: cmake_force
 
 gtsam/CMakeFiles/gtsam.dir/inference/BayesTree.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
 gtsam/CMakeFiles/gtsam.dir/inference/BayesTree.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/BayesTree.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object gtsam/CMakeFiles/gtsam.dir/inference/BayesTree.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object gtsam/CMakeFiles/gtsam.dir/inference/BayesTree.cpp.o"
 	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/inference/BayesTree.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/inference/BayesTree.cpp
 
 gtsam/CMakeFiles/gtsam.dir/inference/BayesTree.cpp.i: cmake_force
@@ -655,22 +616,9 @@ gtsam/CMakeFiles/gtsam.dir/inference/BayesTree.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gtsam.dir/inference/BayesTree.cpp.s"
 	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/catkin_ws/src/gtsam/gtsam/inference/BayesTree.cpp -o CMakeFiles/gtsam.dir/inference/BayesTree.cpp.s
 
-gtsam/CMakeFiles/gtsam.dir/inference/DotWriter.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
-gtsam/CMakeFiles/gtsam.dir/inference/DotWriter.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/DotWriter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object gtsam/CMakeFiles/gtsam.dir/inference/DotWriter.cpp.o"
-	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/inference/DotWriter.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/inference/DotWriter.cpp
-
-gtsam/CMakeFiles/gtsam.dir/inference/DotWriter.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gtsam.dir/inference/DotWriter.cpp.i"
-	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/catkin_ws/src/gtsam/gtsam/inference/DotWriter.cpp > CMakeFiles/gtsam.dir/inference/DotWriter.cpp.i
-
-gtsam/CMakeFiles/gtsam.dir/inference/DotWriter.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gtsam.dir/inference/DotWriter.cpp.s"
-	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/catkin_ws/src/gtsam/gtsam/inference/DotWriter.cpp -o CMakeFiles/gtsam.dir/inference/DotWriter.cpp.s
-
 gtsam/CMakeFiles/gtsam.dir/inference/Factor.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
 gtsam/CMakeFiles/gtsam.dir/inference/Factor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/Factor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object gtsam/CMakeFiles/gtsam.dir/inference/Factor.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object gtsam/CMakeFiles/gtsam.dir/inference/Factor.cpp.o"
 	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/inference/Factor.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/inference/Factor.cpp
 
 gtsam/CMakeFiles/gtsam.dir/inference/Factor.cpp.i: cmake_force
@@ -683,7 +631,7 @@ gtsam/CMakeFiles/gtsam.dir/inference/Factor.cpp.s: cmake_force
 
 gtsam/CMakeFiles/gtsam.dir/inference/Key.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
 gtsam/CMakeFiles/gtsam.dir/inference/Key.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/Key.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object gtsam/CMakeFiles/gtsam.dir/inference/Key.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object gtsam/CMakeFiles/gtsam.dir/inference/Key.cpp.o"
 	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/inference/Key.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/inference/Key.cpp
 
 gtsam/CMakeFiles/gtsam.dir/inference/Key.cpp.i: cmake_force
@@ -696,7 +644,7 @@ gtsam/CMakeFiles/gtsam.dir/inference/Key.cpp.s: cmake_force
 
 gtsam/CMakeFiles/gtsam.dir/inference/LabeledSymbol.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
 gtsam/CMakeFiles/gtsam.dir/inference/LabeledSymbol.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/LabeledSymbol.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object gtsam/CMakeFiles/gtsam.dir/inference/LabeledSymbol.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object gtsam/CMakeFiles/gtsam.dir/inference/LabeledSymbol.cpp.o"
 	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/inference/LabeledSymbol.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/inference/LabeledSymbol.cpp
 
 gtsam/CMakeFiles/gtsam.dir/inference/LabeledSymbol.cpp.i: cmake_force
@@ -709,7 +657,7 @@ gtsam/CMakeFiles/gtsam.dir/inference/LabeledSymbol.cpp.s: cmake_force
 
 gtsam/CMakeFiles/gtsam.dir/inference/Ordering.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
 gtsam/CMakeFiles/gtsam.dir/inference/Ordering.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/Ordering.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object gtsam/CMakeFiles/gtsam.dir/inference/Ordering.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object gtsam/CMakeFiles/gtsam.dir/inference/Ordering.cpp.o"
 	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/inference/Ordering.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/inference/Ordering.cpp
 
 gtsam/CMakeFiles/gtsam.dir/inference/Ordering.cpp.i: cmake_force
@@ -722,7 +670,7 @@ gtsam/CMakeFiles/gtsam.dir/inference/Ordering.cpp.s: cmake_force
 
 gtsam/CMakeFiles/gtsam.dir/inference/Symbol.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
 gtsam/CMakeFiles/gtsam.dir/inference/Symbol.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/Symbol.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object gtsam/CMakeFiles/gtsam.dir/inference/Symbol.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object gtsam/CMakeFiles/gtsam.dir/inference/Symbol.cpp.o"
 	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/inference/Symbol.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/inference/Symbol.cpp
 
 gtsam/CMakeFiles/gtsam.dir/inference/Symbol.cpp.i: cmake_force
@@ -735,7 +683,7 @@ gtsam/CMakeFiles/gtsam.dir/inference/Symbol.cpp.s: cmake_force
 
 gtsam/CMakeFiles/gtsam.dir/inference/VariableIndex.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
 gtsam/CMakeFiles/gtsam.dir/inference/VariableIndex.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/VariableIndex.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object gtsam/CMakeFiles/gtsam.dir/inference/VariableIndex.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object gtsam/CMakeFiles/gtsam.dir/inference/VariableIndex.cpp.o"
 	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/inference/VariableIndex.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/inference/VariableIndex.cpp
 
 gtsam/CMakeFiles/gtsam.dir/inference/VariableIndex.cpp.i: cmake_force
@@ -748,7 +696,7 @@ gtsam/CMakeFiles/gtsam.dir/inference/VariableIndex.cpp.s: cmake_force
 
 gtsam/CMakeFiles/gtsam.dir/inference/VariableSlots.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
 gtsam/CMakeFiles/gtsam.dir/inference/VariableSlots.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/VariableSlots.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object gtsam/CMakeFiles/gtsam.dir/inference/VariableSlots.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object gtsam/CMakeFiles/gtsam.dir/inference/VariableSlots.cpp.o"
 	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/inference/VariableSlots.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/inference/VariableSlots.cpp
 
 gtsam/CMakeFiles/gtsam.dir/inference/VariableSlots.cpp.i: cmake_force
@@ -761,7 +709,7 @@ gtsam/CMakeFiles/gtsam.dir/inference/VariableSlots.cpp.s: cmake_force
 
 gtsam/CMakeFiles/gtsam.dir/symbolic/SymbolicBayesNet.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
 gtsam/CMakeFiles/gtsam.dir/symbolic/SymbolicBayesNet.cpp.o: /home/catkin_ws/src/gtsam/gtsam/symbolic/SymbolicBayesNet.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object gtsam/CMakeFiles/gtsam.dir/symbolic/SymbolicBayesNet.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object gtsam/CMakeFiles/gtsam.dir/symbolic/SymbolicBayesNet.cpp.o"
 	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/symbolic/SymbolicBayesNet.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/symbolic/SymbolicBayesNet.cpp
 
 gtsam/CMakeFiles/gtsam.dir/symbolic/SymbolicBayesNet.cpp.i: cmake_force
@@ -774,7 +722,7 @@ gtsam/CMakeFiles/gtsam.dir/symbolic/SymbolicBayesNet.cpp.s: cmake_force
 
 gtsam/CMakeFiles/gtsam.dir/symbolic/SymbolicBayesTree.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
 gtsam/CMakeFiles/gtsam.dir/symbolic/SymbolicBayesTree.cpp.o: /home/catkin_ws/src/gtsam/gtsam/symbolic/SymbolicBayesTree.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object gtsam/CMakeFiles/gtsam.dir/symbolic/SymbolicBayesTree.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object gtsam/CMakeFiles/gtsam.dir/symbolic/SymbolicBayesTree.cpp.o"
 	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/symbolic/SymbolicBayesTree.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/symbolic/SymbolicBayesTree.cpp
 
 gtsam/CMakeFiles/gtsam.dir/symbolic/SymbolicBayesTree.cpp.i: cmake_force
@@ -787,7 +735,7 @@ gtsam/CMakeFiles/gtsam.dir/symbolic/SymbolicBayesTree.cpp.s: cmake_force
 
 gtsam/CMakeFiles/gtsam.dir/symbolic/SymbolicConditional.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
 gtsam/CMakeFiles/gtsam.dir/symbolic/SymbolicConditional.cpp.o: /home/catkin_ws/src/gtsam/gtsam/symbolic/SymbolicConditional.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building CXX object gtsam/CMakeFiles/gtsam.dir/symbolic/SymbolicConditional.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object gtsam/CMakeFiles/gtsam.dir/symbolic/SymbolicConditional.cpp.o"
 	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/symbolic/SymbolicConditional.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/symbolic/SymbolicConditional.cpp
 
 gtsam/CMakeFiles/gtsam.dir/symbolic/SymbolicConditional.cpp.i: cmake_force
@@ -800,7 +748,7 @@ gtsam/CMakeFiles/gtsam.dir/symbolic/SymbolicConditional.cpp.s: cmake_force
 
 gtsam/CMakeFiles/gtsam.dir/symbolic/SymbolicEliminationTree.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
 gtsam/CMakeFiles/gtsam.dir/symbolic/SymbolicEliminationTree.cpp.o: /home/catkin_ws/src/gtsam/gtsam/symbolic/SymbolicEliminationTree.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building CXX object gtsam/CMakeFiles/gtsam.dir/symbolic/SymbolicEliminationTree.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object gtsam/CMakeFiles/gtsam.dir/symbolic/SymbolicEliminationTree.cpp.o"
 	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/symbolic/SymbolicEliminationTree.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/symbolic/SymbolicEliminationTree.cpp
 
 gtsam/CMakeFiles/gtsam.dir/symbolic/SymbolicEliminationTree.cpp.i: cmake_force
@@ -813,7 +761,7 @@ gtsam/CMakeFiles/gtsam.dir/symbolic/SymbolicEliminationTree.cpp.s: cmake_force
 
 gtsam/CMakeFiles/gtsam.dir/symbolic/SymbolicFactor.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
 gtsam/CMakeFiles/gtsam.dir/symbolic/SymbolicFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/symbolic/SymbolicFactor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building CXX object gtsam/CMakeFiles/gtsam.dir/symbolic/SymbolicFactor.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object gtsam/CMakeFiles/gtsam.dir/symbolic/SymbolicFactor.cpp.o"
 	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/symbolic/SymbolicFactor.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/symbolic/SymbolicFactor.cpp
 
 gtsam/CMakeFiles/gtsam.dir/symbolic/SymbolicFactor.cpp.i: cmake_force
@@ -826,7 +774,7 @@ gtsam/CMakeFiles/gtsam.dir/symbolic/SymbolicFactor.cpp.s: cmake_force
 
 gtsam/CMakeFiles/gtsam.dir/symbolic/SymbolicFactorGraph.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
 gtsam/CMakeFiles/gtsam.dir/symbolic/SymbolicFactorGraph.cpp.o: /home/catkin_ws/src/gtsam/gtsam/symbolic/SymbolicFactorGraph.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building CXX object gtsam/CMakeFiles/gtsam.dir/symbolic/SymbolicFactorGraph.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object gtsam/CMakeFiles/gtsam.dir/symbolic/SymbolicFactorGraph.cpp.o"
 	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/symbolic/SymbolicFactorGraph.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/symbolic/SymbolicFactorGraph.cpp
 
 gtsam/CMakeFiles/gtsam.dir/symbolic/SymbolicFactorGraph.cpp.i: cmake_force
@@ -839,7 +787,7 @@ gtsam/CMakeFiles/gtsam.dir/symbolic/SymbolicFactorGraph.cpp.s: cmake_force
 
 gtsam/CMakeFiles/gtsam.dir/symbolic/SymbolicISAM.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
 gtsam/CMakeFiles/gtsam.dir/symbolic/SymbolicISAM.cpp.o: /home/catkin_ws/src/gtsam/gtsam/symbolic/SymbolicISAM.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building CXX object gtsam/CMakeFiles/gtsam.dir/symbolic/SymbolicISAM.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building CXX object gtsam/CMakeFiles/gtsam.dir/symbolic/SymbolicISAM.cpp.o"
 	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/symbolic/SymbolicISAM.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/symbolic/SymbolicISAM.cpp
 
 gtsam/CMakeFiles/gtsam.dir/symbolic/SymbolicISAM.cpp.i: cmake_force
@@ -852,7 +800,7 @@ gtsam/CMakeFiles/gtsam.dir/symbolic/SymbolicISAM.cpp.s: cmake_force
 
 gtsam/CMakeFiles/gtsam.dir/symbolic/SymbolicJunctionTree.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
 gtsam/CMakeFiles/gtsam.dir/symbolic/SymbolicJunctionTree.cpp.o: /home/catkin_ws/src/gtsam/gtsam/symbolic/SymbolicJunctionTree.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building CXX object gtsam/CMakeFiles/gtsam.dir/symbolic/SymbolicJunctionTree.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building CXX object gtsam/CMakeFiles/gtsam.dir/symbolic/SymbolicJunctionTree.cpp.o"
 	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/symbolic/SymbolicJunctionTree.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/symbolic/SymbolicJunctionTree.cpp
 
 gtsam/CMakeFiles/gtsam.dir/symbolic/SymbolicJunctionTree.cpp.i: cmake_force
@@ -863,22 +811,9 @@ gtsam/CMakeFiles/gtsam.dir/symbolic/SymbolicJunctionTree.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gtsam.dir/symbolic/SymbolicJunctionTree.cpp.s"
 	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/catkin_ws/src/gtsam/gtsam/symbolic/SymbolicJunctionTree.cpp -o CMakeFiles/gtsam.dir/symbolic/SymbolicJunctionTree.cpp.s
 
-gtsam/CMakeFiles/gtsam.dir/discrete/AlgebraicDecisionTree.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
-gtsam/CMakeFiles/gtsam.dir/discrete/AlgebraicDecisionTree.cpp.o: /home/catkin_ws/src/gtsam/gtsam/discrete/AlgebraicDecisionTree.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building CXX object gtsam/CMakeFiles/gtsam.dir/discrete/AlgebraicDecisionTree.cpp.o"
-	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/discrete/AlgebraicDecisionTree.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/discrete/AlgebraicDecisionTree.cpp
-
-gtsam/CMakeFiles/gtsam.dir/discrete/AlgebraicDecisionTree.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gtsam.dir/discrete/AlgebraicDecisionTree.cpp.i"
-	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/catkin_ws/src/gtsam/gtsam/discrete/AlgebraicDecisionTree.cpp > CMakeFiles/gtsam.dir/discrete/AlgebraicDecisionTree.cpp.i
-
-gtsam/CMakeFiles/gtsam.dir/discrete/AlgebraicDecisionTree.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gtsam.dir/discrete/AlgebraicDecisionTree.cpp.s"
-	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/catkin_ws/src/gtsam/gtsam/discrete/AlgebraicDecisionTree.cpp -o CMakeFiles/gtsam.dir/discrete/AlgebraicDecisionTree.cpp.s
-
 gtsam/CMakeFiles/gtsam.dir/discrete/DecisionTreeFactor.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
 gtsam/CMakeFiles/gtsam.dir/discrete/DecisionTreeFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/discrete/DecisionTreeFactor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building CXX object gtsam/CMakeFiles/gtsam.dir/discrete/DecisionTreeFactor.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building CXX object gtsam/CMakeFiles/gtsam.dir/discrete/DecisionTreeFactor.cpp.o"
 	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/discrete/DecisionTreeFactor.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/discrete/DecisionTreeFactor.cpp
 
 gtsam/CMakeFiles/gtsam.dir/discrete/DecisionTreeFactor.cpp.i: cmake_force
@@ -891,7 +826,7 @@ gtsam/CMakeFiles/gtsam.dir/discrete/DecisionTreeFactor.cpp.s: cmake_force
 
 gtsam/CMakeFiles/gtsam.dir/discrete/DiscreteBayesNet.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
 gtsam/CMakeFiles/gtsam.dir/discrete/DiscreteBayesNet.cpp.o: /home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteBayesNet.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building CXX object gtsam/CMakeFiles/gtsam.dir/discrete/DiscreteBayesNet.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building CXX object gtsam/CMakeFiles/gtsam.dir/discrete/DiscreteBayesNet.cpp.o"
 	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/discrete/DiscreteBayesNet.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteBayesNet.cpp
 
 gtsam/CMakeFiles/gtsam.dir/discrete/DiscreteBayesNet.cpp.i: cmake_force
@@ -904,7 +839,7 @@ gtsam/CMakeFiles/gtsam.dir/discrete/DiscreteBayesNet.cpp.s: cmake_force
 
 gtsam/CMakeFiles/gtsam.dir/discrete/DiscreteBayesTree.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
 gtsam/CMakeFiles/gtsam.dir/discrete/DiscreteBayesTree.cpp.o: /home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteBayesTree.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building CXX object gtsam/CMakeFiles/gtsam.dir/discrete/DiscreteBayesTree.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building CXX object gtsam/CMakeFiles/gtsam.dir/discrete/DiscreteBayesTree.cpp.o"
 	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/discrete/DiscreteBayesTree.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteBayesTree.cpp
 
 gtsam/CMakeFiles/gtsam.dir/discrete/DiscreteBayesTree.cpp.i: cmake_force
@@ -917,7 +852,7 @@ gtsam/CMakeFiles/gtsam.dir/discrete/DiscreteBayesTree.cpp.s: cmake_force
 
 gtsam/CMakeFiles/gtsam.dir/discrete/DiscreteConditional.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
 gtsam/CMakeFiles/gtsam.dir/discrete/DiscreteConditional.cpp.o: /home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteConditional.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building CXX object gtsam/CMakeFiles/gtsam.dir/discrete/DiscreteConditional.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building CXX object gtsam/CMakeFiles/gtsam.dir/discrete/DiscreteConditional.cpp.o"
 	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/discrete/DiscreteConditional.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteConditional.cpp
 
 gtsam/CMakeFiles/gtsam.dir/discrete/DiscreteConditional.cpp.i: cmake_force
@@ -928,22 +863,9 @@ gtsam/CMakeFiles/gtsam.dir/discrete/DiscreteConditional.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gtsam.dir/discrete/DiscreteConditional.cpp.s"
 	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteConditional.cpp -o CMakeFiles/gtsam.dir/discrete/DiscreteConditional.cpp.s
 
-gtsam/CMakeFiles/gtsam.dir/discrete/DiscreteDistribution.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
-gtsam/CMakeFiles/gtsam.dir/discrete/DiscreteDistribution.cpp.o: /home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteDistribution.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building CXX object gtsam/CMakeFiles/gtsam.dir/discrete/DiscreteDistribution.cpp.o"
-	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/discrete/DiscreteDistribution.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteDistribution.cpp
-
-gtsam/CMakeFiles/gtsam.dir/discrete/DiscreteDistribution.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gtsam.dir/discrete/DiscreteDistribution.cpp.i"
-	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteDistribution.cpp > CMakeFiles/gtsam.dir/discrete/DiscreteDistribution.cpp.i
-
-gtsam/CMakeFiles/gtsam.dir/discrete/DiscreteDistribution.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gtsam.dir/discrete/DiscreteDistribution.cpp.s"
-	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteDistribution.cpp -o CMakeFiles/gtsam.dir/discrete/DiscreteDistribution.cpp.s
-
 gtsam/CMakeFiles/gtsam.dir/discrete/DiscreteEliminationTree.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
 gtsam/CMakeFiles/gtsam.dir/discrete/DiscreteEliminationTree.cpp.o: /home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteEliminationTree.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building CXX object gtsam/CMakeFiles/gtsam.dir/discrete/DiscreteEliminationTree.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building CXX object gtsam/CMakeFiles/gtsam.dir/discrete/DiscreteEliminationTree.cpp.o"
 	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/discrete/DiscreteEliminationTree.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteEliminationTree.cpp
 
 gtsam/CMakeFiles/gtsam.dir/discrete/DiscreteEliminationTree.cpp.i: cmake_force
@@ -956,7 +878,7 @@ gtsam/CMakeFiles/gtsam.dir/discrete/DiscreteEliminationTree.cpp.s: cmake_force
 
 gtsam/CMakeFiles/gtsam.dir/discrete/DiscreteFactor.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
 gtsam/CMakeFiles/gtsam.dir/discrete/DiscreteFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteFactor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building CXX object gtsam/CMakeFiles/gtsam.dir/discrete/DiscreteFactor.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building CXX object gtsam/CMakeFiles/gtsam.dir/discrete/DiscreteFactor.cpp.o"
 	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/discrete/DiscreteFactor.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteFactor.cpp
 
 gtsam/CMakeFiles/gtsam.dir/discrete/DiscreteFactor.cpp.i: cmake_force
@@ -969,7 +891,7 @@ gtsam/CMakeFiles/gtsam.dir/discrete/DiscreteFactor.cpp.s: cmake_force
 
 gtsam/CMakeFiles/gtsam.dir/discrete/DiscreteFactorGraph.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
 gtsam/CMakeFiles/gtsam.dir/discrete/DiscreteFactorGraph.cpp.o: /home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteFactorGraph.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building CXX object gtsam/CMakeFiles/gtsam.dir/discrete/DiscreteFactorGraph.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building CXX object gtsam/CMakeFiles/gtsam.dir/discrete/DiscreteFactorGraph.cpp.o"
 	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/discrete/DiscreteFactorGraph.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteFactorGraph.cpp
 
 gtsam/CMakeFiles/gtsam.dir/discrete/DiscreteFactorGraph.cpp.i: cmake_force
@@ -982,7 +904,7 @@ gtsam/CMakeFiles/gtsam.dir/discrete/DiscreteFactorGraph.cpp.s: cmake_force
 
 gtsam/CMakeFiles/gtsam.dir/discrete/DiscreteJunctionTree.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
 gtsam/CMakeFiles/gtsam.dir/discrete/DiscreteJunctionTree.cpp.o: /home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteJunctionTree.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building CXX object gtsam/CMakeFiles/gtsam.dir/discrete/DiscreteJunctionTree.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building CXX object gtsam/CMakeFiles/gtsam.dir/discrete/DiscreteJunctionTree.cpp.o"
 	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/discrete/DiscreteJunctionTree.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteJunctionTree.cpp
 
 gtsam/CMakeFiles/gtsam.dir/discrete/DiscreteJunctionTree.cpp.i: cmake_force
@@ -995,7 +917,7 @@ gtsam/CMakeFiles/gtsam.dir/discrete/DiscreteJunctionTree.cpp.s: cmake_force
 
 gtsam/CMakeFiles/gtsam.dir/discrete/DiscreteKey.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
 gtsam/CMakeFiles/gtsam.dir/discrete/DiscreteKey.cpp.o: /home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteKey.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building CXX object gtsam/CMakeFiles/gtsam.dir/discrete/DiscreteKey.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building CXX object gtsam/CMakeFiles/gtsam.dir/discrete/DiscreteKey.cpp.o"
 	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/discrete/DiscreteKey.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteKey.cpp
 
 gtsam/CMakeFiles/gtsam.dir/discrete/DiscreteKey.cpp.i: cmake_force
@@ -1006,35 +928,22 @@ gtsam/CMakeFiles/gtsam.dir/discrete/DiscreteKey.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gtsam.dir/discrete/DiscreteKey.cpp.s"
 	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteKey.cpp -o CMakeFiles/gtsam.dir/discrete/DiscreteKey.cpp.s
 
-gtsam/CMakeFiles/gtsam.dir/discrete/DiscreteLookupDAG.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
-gtsam/CMakeFiles/gtsam.dir/discrete/DiscreteLookupDAG.cpp.o: /home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteLookupDAG.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building CXX object gtsam/CMakeFiles/gtsam.dir/discrete/DiscreteLookupDAG.cpp.o"
-	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/discrete/DiscreteLookupDAG.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteLookupDAG.cpp
+gtsam/CMakeFiles/gtsam.dir/discrete/Potentials.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
+gtsam/CMakeFiles/gtsam.dir/discrete/Potentials.cpp.o: /home/catkin_ws/src/gtsam/gtsam/discrete/Potentials.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building CXX object gtsam/CMakeFiles/gtsam.dir/discrete/Potentials.cpp.o"
+	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/discrete/Potentials.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/discrete/Potentials.cpp
 
-gtsam/CMakeFiles/gtsam.dir/discrete/DiscreteLookupDAG.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gtsam.dir/discrete/DiscreteLookupDAG.cpp.i"
-	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteLookupDAG.cpp > CMakeFiles/gtsam.dir/discrete/DiscreteLookupDAG.cpp.i
+gtsam/CMakeFiles/gtsam.dir/discrete/Potentials.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gtsam.dir/discrete/Potentials.cpp.i"
+	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/catkin_ws/src/gtsam/gtsam/discrete/Potentials.cpp > CMakeFiles/gtsam.dir/discrete/Potentials.cpp.i
 
-gtsam/CMakeFiles/gtsam.dir/discrete/DiscreteLookupDAG.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gtsam.dir/discrete/DiscreteLookupDAG.cpp.s"
-	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteLookupDAG.cpp -o CMakeFiles/gtsam.dir/discrete/DiscreteLookupDAG.cpp.s
-
-gtsam/CMakeFiles/gtsam.dir/discrete/DiscreteValues.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
-gtsam/CMakeFiles/gtsam.dir/discrete/DiscreteValues.cpp.o: /home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteValues.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building CXX object gtsam/CMakeFiles/gtsam.dir/discrete/DiscreteValues.cpp.o"
-	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/discrete/DiscreteValues.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteValues.cpp
-
-gtsam/CMakeFiles/gtsam.dir/discrete/DiscreteValues.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gtsam.dir/discrete/DiscreteValues.cpp.i"
-	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteValues.cpp > CMakeFiles/gtsam.dir/discrete/DiscreteValues.cpp.i
-
-gtsam/CMakeFiles/gtsam.dir/discrete/DiscreteValues.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gtsam.dir/discrete/DiscreteValues.cpp.s"
-	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteValues.cpp -o CMakeFiles/gtsam.dir/discrete/DiscreteValues.cpp.s
+gtsam/CMakeFiles/gtsam.dir/discrete/Potentials.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gtsam.dir/discrete/Potentials.cpp.s"
+	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/catkin_ws/src/gtsam/gtsam/discrete/Potentials.cpp -o CMakeFiles/gtsam.dir/discrete/Potentials.cpp.s
 
 gtsam/CMakeFiles/gtsam.dir/discrete/Signature.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
 gtsam/CMakeFiles/gtsam.dir/discrete/Signature.cpp.o: /home/catkin_ws/src/gtsam/gtsam/discrete/Signature.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building CXX object gtsam/CMakeFiles/gtsam.dir/discrete/Signature.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building CXX object gtsam/CMakeFiles/gtsam.dir/discrete/Signature.cpp.o"
 	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/discrete/Signature.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/discrete/Signature.cpp
 
 gtsam/CMakeFiles/gtsam.dir/discrete/Signature.cpp.i: cmake_force
@@ -1045,204 +954,9 @@ gtsam/CMakeFiles/gtsam.dir/discrete/Signature.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gtsam.dir/discrete/Signature.cpp.s"
 	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/catkin_ws/src/gtsam/gtsam/discrete/Signature.cpp -o CMakeFiles/gtsam.dir/discrete/Signature.cpp.s
 
-gtsam/CMakeFiles/gtsam.dir/hybrid/GaussianMixture.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
-gtsam/CMakeFiles/gtsam.dir/hybrid/GaussianMixture.cpp.o: /home/catkin_ws/src/gtsam/gtsam/hybrid/GaussianMixture.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building CXX object gtsam/CMakeFiles/gtsam.dir/hybrid/GaussianMixture.cpp.o"
-	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/hybrid/GaussianMixture.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/hybrid/GaussianMixture.cpp
-
-gtsam/CMakeFiles/gtsam.dir/hybrid/GaussianMixture.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gtsam.dir/hybrid/GaussianMixture.cpp.i"
-	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/catkin_ws/src/gtsam/gtsam/hybrid/GaussianMixture.cpp > CMakeFiles/gtsam.dir/hybrid/GaussianMixture.cpp.i
-
-gtsam/CMakeFiles/gtsam.dir/hybrid/GaussianMixture.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gtsam.dir/hybrid/GaussianMixture.cpp.s"
-	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/catkin_ws/src/gtsam/gtsam/hybrid/GaussianMixture.cpp -o CMakeFiles/gtsam.dir/hybrid/GaussianMixture.cpp.s
-
-gtsam/CMakeFiles/gtsam.dir/hybrid/GaussianMixtureFactor.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
-gtsam/CMakeFiles/gtsam.dir/hybrid/GaussianMixtureFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/hybrid/GaussianMixtureFactor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building CXX object gtsam/CMakeFiles/gtsam.dir/hybrid/GaussianMixtureFactor.cpp.o"
-	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/hybrid/GaussianMixtureFactor.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/hybrid/GaussianMixtureFactor.cpp
-
-gtsam/CMakeFiles/gtsam.dir/hybrid/GaussianMixtureFactor.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gtsam.dir/hybrid/GaussianMixtureFactor.cpp.i"
-	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/catkin_ws/src/gtsam/gtsam/hybrid/GaussianMixtureFactor.cpp > CMakeFiles/gtsam.dir/hybrid/GaussianMixtureFactor.cpp.i
-
-gtsam/CMakeFiles/gtsam.dir/hybrid/GaussianMixtureFactor.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gtsam.dir/hybrid/GaussianMixtureFactor.cpp.s"
-	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/catkin_ws/src/gtsam/gtsam/hybrid/GaussianMixtureFactor.cpp -o CMakeFiles/gtsam.dir/hybrid/GaussianMixtureFactor.cpp.s
-
-gtsam/CMakeFiles/gtsam.dir/hybrid/HybridBayesNet.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
-gtsam/CMakeFiles/gtsam.dir/hybrid/HybridBayesNet.cpp.o: /home/catkin_ws/src/gtsam/gtsam/hybrid/HybridBayesNet.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building CXX object gtsam/CMakeFiles/gtsam.dir/hybrid/HybridBayesNet.cpp.o"
-	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/hybrid/HybridBayesNet.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/hybrid/HybridBayesNet.cpp
-
-gtsam/CMakeFiles/gtsam.dir/hybrid/HybridBayesNet.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gtsam.dir/hybrid/HybridBayesNet.cpp.i"
-	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/catkin_ws/src/gtsam/gtsam/hybrid/HybridBayesNet.cpp > CMakeFiles/gtsam.dir/hybrid/HybridBayesNet.cpp.i
-
-gtsam/CMakeFiles/gtsam.dir/hybrid/HybridBayesNet.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gtsam.dir/hybrid/HybridBayesNet.cpp.s"
-	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/catkin_ws/src/gtsam/gtsam/hybrid/HybridBayesNet.cpp -o CMakeFiles/gtsam.dir/hybrid/HybridBayesNet.cpp.s
-
-gtsam/CMakeFiles/gtsam.dir/hybrid/HybridBayesTree.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
-gtsam/CMakeFiles/gtsam.dir/hybrid/HybridBayesTree.cpp.o: /home/catkin_ws/src/gtsam/gtsam/hybrid/HybridBayesTree.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building CXX object gtsam/CMakeFiles/gtsam.dir/hybrid/HybridBayesTree.cpp.o"
-	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/hybrid/HybridBayesTree.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/hybrid/HybridBayesTree.cpp
-
-gtsam/CMakeFiles/gtsam.dir/hybrid/HybridBayesTree.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gtsam.dir/hybrid/HybridBayesTree.cpp.i"
-	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/catkin_ws/src/gtsam/gtsam/hybrid/HybridBayesTree.cpp > CMakeFiles/gtsam.dir/hybrid/HybridBayesTree.cpp.i
-
-gtsam/CMakeFiles/gtsam.dir/hybrid/HybridBayesTree.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gtsam.dir/hybrid/HybridBayesTree.cpp.s"
-	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/catkin_ws/src/gtsam/gtsam/hybrid/HybridBayesTree.cpp -o CMakeFiles/gtsam.dir/hybrid/HybridBayesTree.cpp.s
-
-gtsam/CMakeFiles/gtsam.dir/hybrid/HybridConditional.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
-gtsam/CMakeFiles/gtsam.dir/hybrid/HybridConditional.cpp.o: /home/catkin_ws/src/gtsam/gtsam/hybrid/HybridConditional.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building CXX object gtsam/CMakeFiles/gtsam.dir/hybrid/HybridConditional.cpp.o"
-	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/hybrid/HybridConditional.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/hybrid/HybridConditional.cpp
-
-gtsam/CMakeFiles/gtsam.dir/hybrid/HybridConditional.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gtsam.dir/hybrid/HybridConditional.cpp.i"
-	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/catkin_ws/src/gtsam/gtsam/hybrid/HybridConditional.cpp > CMakeFiles/gtsam.dir/hybrid/HybridConditional.cpp.i
-
-gtsam/CMakeFiles/gtsam.dir/hybrid/HybridConditional.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gtsam.dir/hybrid/HybridConditional.cpp.s"
-	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/catkin_ws/src/gtsam/gtsam/hybrid/HybridConditional.cpp -o CMakeFiles/gtsam.dir/hybrid/HybridConditional.cpp.s
-
-gtsam/CMakeFiles/gtsam.dir/hybrid/HybridDiscreteFactor.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
-gtsam/CMakeFiles/gtsam.dir/hybrid/HybridDiscreteFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/hybrid/HybridDiscreteFactor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building CXX object gtsam/CMakeFiles/gtsam.dir/hybrid/HybridDiscreteFactor.cpp.o"
-	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/hybrid/HybridDiscreteFactor.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/hybrid/HybridDiscreteFactor.cpp
-
-gtsam/CMakeFiles/gtsam.dir/hybrid/HybridDiscreteFactor.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gtsam.dir/hybrid/HybridDiscreteFactor.cpp.i"
-	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/catkin_ws/src/gtsam/gtsam/hybrid/HybridDiscreteFactor.cpp > CMakeFiles/gtsam.dir/hybrid/HybridDiscreteFactor.cpp.i
-
-gtsam/CMakeFiles/gtsam.dir/hybrid/HybridDiscreteFactor.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gtsam.dir/hybrid/HybridDiscreteFactor.cpp.s"
-	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/catkin_ws/src/gtsam/gtsam/hybrid/HybridDiscreteFactor.cpp -o CMakeFiles/gtsam.dir/hybrid/HybridDiscreteFactor.cpp.s
-
-gtsam/CMakeFiles/gtsam.dir/hybrid/HybridEliminationTree.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
-gtsam/CMakeFiles/gtsam.dir/hybrid/HybridEliminationTree.cpp.o: /home/catkin_ws/src/gtsam/gtsam/hybrid/HybridEliminationTree.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building CXX object gtsam/CMakeFiles/gtsam.dir/hybrid/HybridEliminationTree.cpp.o"
-	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/hybrid/HybridEliminationTree.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/hybrid/HybridEliminationTree.cpp
-
-gtsam/CMakeFiles/gtsam.dir/hybrid/HybridEliminationTree.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gtsam.dir/hybrid/HybridEliminationTree.cpp.i"
-	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/catkin_ws/src/gtsam/gtsam/hybrid/HybridEliminationTree.cpp > CMakeFiles/gtsam.dir/hybrid/HybridEliminationTree.cpp.i
-
-gtsam/CMakeFiles/gtsam.dir/hybrid/HybridEliminationTree.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gtsam.dir/hybrid/HybridEliminationTree.cpp.s"
-	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/catkin_ws/src/gtsam/gtsam/hybrid/HybridEliminationTree.cpp -o CMakeFiles/gtsam.dir/hybrid/HybridEliminationTree.cpp.s
-
-gtsam/CMakeFiles/gtsam.dir/hybrid/HybridFactor.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
-gtsam/CMakeFiles/gtsam.dir/hybrid/HybridFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/hybrid/HybridFactor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building CXX object gtsam/CMakeFiles/gtsam.dir/hybrid/HybridFactor.cpp.o"
-	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/hybrid/HybridFactor.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/hybrid/HybridFactor.cpp
-
-gtsam/CMakeFiles/gtsam.dir/hybrid/HybridFactor.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gtsam.dir/hybrid/HybridFactor.cpp.i"
-	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/catkin_ws/src/gtsam/gtsam/hybrid/HybridFactor.cpp > CMakeFiles/gtsam.dir/hybrid/HybridFactor.cpp.i
-
-gtsam/CMakeFiles/gtsam.dir/hybrid/HybridFactor.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gtsam.dir/hybrid/HybridFactor.cpp.s"
-	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/catkin_ws/src/gtsam/gtsam/hybrid/HybridFactor.cpp -o CMakeFiles/gtsam.dir/hybrid/HybridFactor.cpp.s
-
-gtsam/CMakeFiles/gtsam.dir/hybrid/HybridGaussianFactor.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
-gtsam/CMakeFiles/gtsam.dir/hybrid/HybridGaussianFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/hybrid/HybridGaussianFactor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building CXX object gtsam/CMakeFiles/gtsam.dir/hybrid/HybridGaussianFactor.cpp.o"
-	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/hybrid/HybridGaussianFactor.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/hybrid/HybridGaussianFactor.cpp
-
-gtsam/CMakeFiles/gtsam.dir/hybrid/HybridGaussianFactor.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gtsam.dir/hybrid/HybridGaussianFactor.cpp.i"
-	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/catkin_ws/src/gtsam/gtsam/hybrid/HybridGaussianFactor.cpp > CMakeFiles/gtsam.dir/hybrid/HybridGaussianFactor.cpp.i
-
-gtsam/CMakeFiles/gtsam.dir/hybrid/HybridGaussianFactor.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gtsam.dir/hybrid/HybridGaussianFactor.cpp.s"
-	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/catkin_ws/src/gtsam/gtsam/hybrid/HybridGaussianFactor.cpp -o CMakeFiles/gtsam.dir/hybrid/HybridGaussianFactor.cpp.s
-
-gtsam/CMakeFiles/gtsam.dir/hybrid/HybridGaussianFactorGraph.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
-gtsam/CMakeFiles/gtsam.dir/hybrid/HybridGaussianFactorGraph.cpp.o: /home/catkin_ws/src/gtsam/gtsam/hybrid/HybridGaussianFactorGraph.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building CXX object gtsam/CMakeFiles/gtsam.dir/hybrid/HybridGaussianFactorGraph.cpp.o"
-	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/hybrid/HybridGaussianFactorGraph.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/hybrid/HybridGaussianFactorGraph.cpp
-
-gtsam/CMakeFiles/gtsam.dir/hybrid/HybridGaussianFactorGraph.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gtsam.dir/hybrid/HybridGaussianFactorGraph.cpp.i"
-	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/catkin_ws/src/gtsam/gtsam/hybrid/HybridGaussianFactorGraph.cpp > CMakeFiles/gtsam.dir/hybrid/HybridGaussianFactorGraph.cpp.i
-
-gtsam/CMakeFiles/gtsam.dir/hybrid/HybridGaussianFactorGraph.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gtsam.dir/hybrid/HybridGaussianFactorGraph.cpp.s"
-	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/catkin_ws/src/gtsam/gtsam/hybrid/HybridGaussianFactorGraph.cpp -o CMakeFiles/gtsam.dir/hybrid/HybridGaussianFactorGraph.cpp.s
-
-gtsam/CMakeFiles/gtsam.dir/hybrid/HybridGaussianISAM.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
-gtsam/CMakeFiles/gtsam.dir/hybrid/HybridGaussianISAM.cpp.o: /home/catkin_ws/src/gtsam/gtsam/hybrid/HybridGaussianISAM.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building CXX object gtsam/CMakeFiles/gtsam.dir/hybrid/HybridGaussianISAM.cpp.o"
-	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/hybrid/HybridGaussianISAM.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/hybrid/HybridGaussianISAM.cpp
-
-gtsam/CMakeFiles/gtsam.dir/hybrid/HybridGaussianISAM.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gtsam.dir/hybrid/HybridGaussianISAM.cpp.i"
-	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/catkin_ws/src/gtsam/gtsam/hybrid/HybridGaussianISAM.cpp > CMakeFiles/gtsam.dir/hybrid/HybridGaussianISAM.cpp.i
-
-gtsam/CMakeFiles/gtsam.dir/hybrid/HybridGaussianISAM.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gtsam.dir/hybrid/HybridGaussianISAM.cpp.s"
-	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/catkin_ws/src/gtsam/gtsam/hybrid/HybridGaussianISAM.cpp -o CMakeFiles/gtsam.dir/hybrid/HybridGaussianISAM.cpp.s
-
-gtsam/CMakeFiles/gtsam.dir/hybrid/HybridJunctionTree.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
-gtsam/CMakeFiles/gtsam.dir/hybrid/HybridJunctionTree.cpp.o: /home/catkin_ws/src/gtsam/gtsam/hybrid/HybridJunctionTree.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building CXX object gtsam/CMakeFiles/gtsam.dir/hybrid/HybridJunctionTree.cpp.o"
-	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/hybrid/HybridJunctionTree.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/hybrid/HybridJunctionTree.cpp
-
-gtsam/CMakeFiles/gtsam.dir/hybrid/HybridJunctionTree.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gtsam.dir/hybrid/HybridJunctionTree.cpp.i"
-	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/catkin_ws/src/gtsam/gtsam/hybrid/HybridJunctionTree.cpp > CMakeFiles/gtsam.dir/hybrid/HybridJunctionTree.cpp.i
-
-gtsam/CMakeFiles/gtsam.dir/hybrid/HybridJunctionTree.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gtsam.dir/hybrid/HybridJunctionTree.cpp.s"
-	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/catkin_ws/src/gtsam/gtsam/hybrid/HybridJunctionTree.cpp -o CMakeFiles/gtsam.dir/hybrid/HybridJunctionTree.cpp.s
-
-gtsam/CMakeFiles/gtsam.dir/hybrid/HybridNonlinearFactor.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
-gtsam/CMakeFiles/gtsam.dir/hybrid/HybridNonlinearFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/hybrid/HybridNonlinearFactor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building CXX object gtsam/CMakeFiles/gtsam.dir/hybrid/HybridNonlinearFactor.cpp.o"
-	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/hybrid/HybridNonlinearFactor.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/hybrid/HybridNonlinearFactor.cpp
-
-gtsam/CMakeFiles/gtsam.dir/hybrid/HybridNonlinearFactor.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gtsam.dir/hybrid/HybridNonlinearFactor.cpp.i"
-	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/catkin_ws/src/gtsam/gtsam/hybrid/HybridNonlinearFactor.cpp > CMakeFiles/gtsam.dir/hybrid/HybridNonlinearFactor.cpp.i
-
-gtsam/CMakeFiles/gtsam.dir/hybrid/HybridNonlinearFactor.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gtsam.dir/hybrid/HybridNonlinearFactor.cpp.s"
-	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/catkin_ws/src/gtsam/gtsam/hybrid/HybridNonlinearFactor.cpp -o CMakeFiles/gtsam.dir/hybrid/HybridNonlinearFactor.cpp.s
-
-gtsam/CMakeFiles/gtsam.dir/hybrid/HybridNonlinearFactorGraph.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
-gtsam/CMakeFiles/gtsam.dir/hybrid/HybridNonlinearFactorGraph.cpp.o: /home/catkin_ws/src/gtsam/gtsam/hybrid/HybridNonlinearFactorGraph.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building CXX object gtsam/CMakeFiles/gtsam.dir/hybrid/HybridNonlinearFactorGraph.cpp.o"
-	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/hybrid/HybridNonlinearFactorGraph.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/hybrid/HybridNonlinearFactorGraph.cpp
-
-gtsam/CMakeFiles/gtsam.dir/hybrid/HybridNonlinearFactorGraph.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gtsam.dir/hybrid/HybridNonlinearFactorGraph.cpp.i"
-	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/catkin_ws/src/gtsam/gtsam/hybrid/HybridNonlinearFactorGraph.cpp > CMakeFiles/gtsam.dir/hybrid/HybridNonlinearFactorGraph.cpp.i
-
-gtsam/CMakeFiles/gtsam.dir/hybrid/HybridNonlinearFactorGraph.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gtsam.dir/hybrid/HybridNonlinearFactorGraph.cpp.s"
-	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/catkin_ws/src/gtsam/gtsam/hybrid/HybridNonlinearFactorGraph.cpp -o CMakeFiles/gtsam.dir/hybrid/HybridNonlinearFactorGraph.cpp.s
-
-gtsam/CMakeFiles/gtsam.dir/hybrid/HybridNonlinearISAM.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
-gtsam/CMakeFiles/gtsam.dir/hybrid/HybridNonlinearISAM.cpp.o: /home/catkin_ws/src/gtsam/gtsam/hybrid/HybridNonlinearISAM.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building CXX object gtsam/CMakeFiles/gtsam.dir/hybrid/HybridNonlinearISAM.cpp.o"
-	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/hybrid/HybridNonlinearISAM.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/hybrid/HybridNonlinearISAM.cpp
-
-gtsam/CMakeFiles/gtsam.dir/hybrid/HybridNonlinearISAM.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gtsam.dir/hybrid/HybridNonlinearISAM.cpp.i"
-	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/catkin_ws/src/gtsam/gtsam/hybrid/HybridNonlinearISAM.cpp > CMakeFiles/gtsam.dir/hybrid/HybridNonlinearISAM.cpp.i
-
-gtsam/CMakeFiles/gtsam.dir/hybrid/HybridNonlinearISAM.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gtsam.dir/hybrid/HybridNonlinearISAM.cpp.s"
-	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/catkin_ws/src/gtsam/gtsam/hybrid/HybridNonlinearISAM.cpp -o CMakeFiles/gtsam.dir/hybrid/HybridNonlinearISAM.cpp.s
-
 gtsam/CMakeFiles/gtsam.dir/linear/ConjugateGradientSolver.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
 gtsam/CMakeFiles/gtsam.dir/linear/ConjugateGradientSolver.cpp.o: /home/catkin_ws/src/gtsam/gtsam/linear/ConjugateGradientSolver.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building CXX object gtsam/CMakeFiles/gtsam.dir/linear/ConjugateGradientSolver.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building CXX object gtsam/CMakeFiles/gtsam.dir/linear/ConjugateGradientSolver.cpp.o"
 	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/linear/ConjugateGradientSolver.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/linear/ConjugateGradientSolver.cpp
 
 gtsam/CMakeFiles/gtsam.dir/linear/ConjugateGradientSolver.cpp.i: cmake_force
@@ -1255,7 +969,7 @@ gtsam/CMakeFiles/gtsam.dir/linear/ConjugateGradientSolver.cpp.s: cmake_force
 
 gtsam/CMakeFiles/gtsam.dir/linear/Errors.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
 gtsam/CMakeFiles/gtsam.dir/linear/Errors.cpp.o: /home/catkin_ws/src/gtsam/gtsam/linear/Errors.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building CXX object gtsam/CMakeFiles/gtsam.dir/linear/Errors.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building CXX object gtsam/CMakeFiles/gtsam.dir/linear/Errors.cpp.o"
 	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/linear/Errors.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/linear/Errors.cpp
 
 gtsam/CMakeFiles/gtsam.dir/linear/Errors.cpp.i: cmake_force
@@ -1268,7 +982,7 @@ gtsam/CMakeFiles/gtsam.dir/linear/Errors.cpp.s: cmake_force
 
 gtsam/CMakeFiles/gtsam.dir/linear/GaussianBayesNet.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
 gtsam/CMakeFiles/gtsam.dir/linear/GaussianBayesNet.cpp.o: /home/catkin_ws/src/gtsam/gtsam/linear/GaussianBayesNet.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building CXX object gtsam/CMakeFiles/gtsam.dir/linear/GaussianBayesNet.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building CXX object gtsam/CMakeFiles/gtsam.dir/linear/GaussianBayesNet.cpp.o"
 	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/linear/GaussianBayesNet.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/linear/GaussianBayesNet.cpp
 
 gtsam/CMakeFiles/gtsam.dir/linear/GaussianBayesNet.cpp.i: cmake_force
@@ -1281,7 +995,7 @@ gtsam/CMakeFiles/gtsam.dir/linear/GaussianBayesNet.cpp.s: cmake_force
 
 gtsam/CMakeFiles/gtsam.dir/linear/GaussianBayesTree.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
 gtsam/CMakeFiles/gtsam.dir/linear/GaussianBayesTree.cpp.o: /home/catkin_ws/src/gtsam/gtsam/linear/GaussianBayesTree.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building CXX object gtsam/CMakeFiles/gtsam.dir/linear/GaussianBayesTree.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building CXX object gtsam/CMakeFiles/gtsam.dir/linear/GaussianBayesTree.cpp.o"
 	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/linear/GaussianBayesTree.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/linear/GaussianBayesTree.cpp
 
 gtsam/CMakeFiles/gtsam.dir/linear/GaussianBayesTree.cpp.i: cmake_force
@@ -1294,7 +1008,7 @@ gtsam/CMakeFiles/gtsam.dir/linear/GaussianBayesTree.cpp.s: cmake_force
 
 gtsam/CMakeFiles/gtsam.dir/linear/GaussianConditional.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
 gtsam/CMakeFiles/gtsam.dir/linear/GaussianConditional.cpp.o: /home/catkin_ws/src/gtsam/gtsam/linear/GaussianConditional.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building CXX object gtsam/CMakeFiles/gtsam.dir/linear/GaussianConditional.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building CXX object gtsam/CMakeFiles/gtsam.dir/linear/GaussianConditional.cpp.o"
 	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/linear/GaussianConditional.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/linear/GaussianConditional.cpp
 
 gtsam/CMakeFiles/gtsam.dir/linear/GaussianConditional.cpp.i: cmake_force
@@ -1307,7 +1021,7 @@ gtsam/CMakeFiles/gtsam.dir/linear/GaussianConditional.cpp.s: cmake_force
 
 gtsam/CMakeFiles/gtsam.dir/linear/GaussianDensity.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
 gtsam/CMakeFiles/gtsam.dir/linear/GaussianDensity.cpp.o: /home/catkin_ws/src/gtsam/gtsam/linear/GaussianDensity.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building CXX object gtsam/CMakeFiles/gtsam.dir/linear/GaussianDensity.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building CXX object gtsam/CMakeFiles/gtsam.dir/linear/GaussianDensity.cpp.o"
 	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/linear/GaussianDensity.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/linear/GaussianDensity.cpp
 
 gtsam/CMakeFiles/gtsam.dir/linear/GaussianDensity.cpp.i: cmake_force
@@ -1320,7 +1034,7 @@ gtsam/CMakeFiles/gtsam.dir/linear/GaussianDensity.cpp.s: cmake_force
 
 gtsam/CMakeFiles/gtsam.dir/linear/GaussianEliminationTree.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
 gtsam/CMakeFiles/gtsam.dir/linear/GaussianEliminationTree.cpp.o: /home/catkin_ws/src/gtsam/gtsam/linear/GaussianEliminationTree.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building CXX object gtsam/CMakeFiles/gtsam.dir/linear/GaussianEliminationTree.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building CXX object gtsam/CMakeFiles/gtsam.dir/linear/GaussianEliminationTree.cpp.o"
 	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/linear/GaussianEliminationTree.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/linear/GaussianEliminationTree.cpp
 
 gtsam/CMakeFiles/gtsam.dir/linear/GaussianEliminationTree.cpp.i: cmake_force
@@ -1333,7 +1047,7 @@ gtsam/CMakeFiles/gtsam.dir/linear/GaussianEliminationTree.cpp.s: cmake_force
 
 gtsam/CMakeFiles/gtsam.dir/linear/GaussianFactor.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
 gtsam/CMakeFiles/gtsam.dir/linear/GaussianFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/linear/GaussianFactor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building CXX object gtsam/CMakeFiles/gtsam.dir/linear/GaussianFactor.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building CXX object gtsam/CMakeFiles/gtsam.dir/linear/GaussianFactor.cpp.o"
 	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/linear/GaussianFactor.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/linear/GaussianFactor.cpp
 
 gtsam/CMakeFiles/gtsam.dir/linear/GaussianFactor.cpp.i: cmake_force
@@ -1346,7 +1060,7 @@ gtsam/CMakeFiles/gtsam.dir/linear/GaussianFactor.cpp.s: cmake_force
 
 gtsam/CMakeFiles/gtsam.dir/linear/GaussianFactorGraph.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
 gtsam/CMakeFiles/gtsam.dir/linear/GaussianFactorGraph.cpp.o: /home/catkin_ws/src/gtsam/gtsam/linear/GaussianFactorGraph.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building CXX object gtsam/CMakeFiles/gtsam.dir/linear/GaussianFactorGraph.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building CXX object gtsam/CMakeFiles/gtsam.dir/linear/GaussianFactorGraph.cpp.o"
 	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/linear/GaussianFactorGraph.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/linear/GaussianFactorGraph.cpp
 
 gtsam/CMakeFiles/gtsam.dir/linear/GaussianFactorGraph.cpp.i: cmake_force
@@ -1359,7 +1073,7 @@ gtsam/CMakeFiles/gtsam.dir/linear/GaussianFactorGraph.cpp.s: cmake_force
 
 gtsam/CMakeFiles/gtsam.dir/linear/GaussianISAM.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
 gtsam/CMakeFiles/gtsam.dir/linear/GaussianISAM.cpp.o: /home/catkin_ws/src/gtsam/gtsam/linear/GaussianISAM.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building CXX object gtsam/CMakeFiles/gtsam.dir/linear/GaussianISAM.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building CXX object gtsam/CMakeFiles/gtsam.dir/linear/GaussianISAM.cpp.o"
 	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/linear/GaussianISAM.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/linear/GaussianISAM.cpp
 
 gtsam/CMakeFiles/gtsam.dir/linear/GaussianISAM.cpp.i: cmake_force
@@ -1372,7 +1086,7 @@ gtsam/CMakeFiles/gtsam.dir/linear/GaussianISAM.cpp.s: cmake_force
 
 gtsam/CMakeFiles/gtsam.dir/linear/GaussianJunctionTree.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
 gtsam/CMakeFiles/gtsam.dir/linear/GaussianJunctionTree.cpp.o: /home/catkin_ws/src/gtsam/gtsam/linear/GaussianJunctionTree.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building CXX object gtsam/CMakeFiles/gtsam.dir/linear/GaussianJunctionTree.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building CXX object gtsam/CMakeFiles/gtsam.dir/linear/GaussianJunctionTree.cpp.o"
 	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/linear/GaussianJunctionTree.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/linear/GaussianJunctionTree.cpp
 
 gtsam/CMakeFiles/gtsam.dir/linear/GaussianJunctionTree.cpp.i: cmake_force
@@ -1385,7 +1099,7 @@ gtsam/CMakeFiles/gtsam.dir/linear/GaussianJunctionTree.cpp.s: cmake_force
 
 gtsam/CMakeFiles/gtsam.dir/linear/HessianFactor.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
 gtsam/CMakeFiles/gtsam.dir/linear/HessianFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/linear/HessianFactor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building CXX object gtsam/CMakeFiles/gtsam.dir/linear/HessianFactor.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building CXX object gtsam/CMakeFiles/gtsam.dir/linear/HessianFactor.cpp.o"
 	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/linear/HessianFactor.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/linear/HessianFactor.cpp
 
 gtsam/CMakeFiles/gtsam.dir/linear/HessianFactor.cpp.i: cmake_force
@@ -1398,7 +1112,7 @@ gtsam/CMakeFiles/gtsam.dir/linear/HessianFactor.cpp.s: cmake_force
 
 gtsam/CMakeFiles/gtsam.dir/linear/IterativeSolver.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
 gtsam/CMakeFiles/gtsam.dir/linear/IterativeSolver.cpp.o: /home/catkin_ws/src/gtsam/gtsam/linear/IterativeSolver.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building CXX object gtsam/CMakeFiles/gtsam.dir/linear/IterativeSolver.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building CXX object gtsam/CMakeFiles/gtsam.dir/linear/IterativeSolver.cpp.o"
 	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/linear/IterativeSolver.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/linear/IterativeSolver.cpp
 
 gtsam/CMakeFiles/gtsam.dir/linear/IterativeSolver.cpp.i: cmake_force
@@ -1411,7 +1125,7 @@ gtsam/CMakeFiles/gtsam.dir/linear/IterativeSolver.cpp.s: cmake_force
 
 gtsam/CMakeFiles/gtsam.dir/linear/JacobianFactor.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
 gtsam/CMakeFiles/gtsam.dir/linear/JacobianFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/linear/JacobianFactor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building CXX object gtsam/CMakeFiles/gtsam.dir/linear/JacobianFactor.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building CXX object gtsam/CMakeFiles/gtsam.dir/linear/JacobianFactor.cpp.o"
 	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/linear/JacobianFactor.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/linear/JacobianFactor.cpp
 
 gtsam/CMakeFiles/gtsam.dir/linear/JacobianFactor.cpp.i: cmake_force
@@ -1424,7 +1138,7 @@ gtsam/CMakeFiles/gtsam.dir/linear/JacobianFactor.cpp.s: cmake_force
 
 gtsam/CMakeFiles/gtsam.dir/linear/KalmanFilter.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
 gtsam/CMakeFiles/gtsam.dir/linear/KalmanFilter.cpp.o: /home/catkin_ws/src/gtsam/gtsam/linear/KalmanFilter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building CXX object gtsam/CMakeFiles/gtsam.dir/linear/KalmanFilter.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building CXX object gtsam/CMakeFiles/gtsam.dir/linear/KalmanFilter.cpp.o"
 	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/linear/KalmanFilter.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/linear/KalmanFilter.cpp
 
 gtsam/CMakeFiles/gtsam.dir/linear/KalmanFilter.cpp.i: cmake_force
@@ -1437,7 +1151,7 @@ gtsam/CMakeFiles/gtsam.dir/linear/KalmanFilter.cpp.s: cmake_force
 
 gtsam/CMakeFiles/gtsam.dir/linear/LossFunctions.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
 gtsam/CMakeFiles/gtsam.dir/linear/LossFunctions.cpp.o: /home/catkin_ws/src/gtsam/gtsam/linear/LossFunctions.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building CXX object gtsam/CMakeFiles/gtsam.dir/linear/LossFunctions.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building CXX object gtsam/CMakeFiles/gtsam.dir/linear/LossFunctions.cpp.o"
 	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/linear/LossFunctions.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/linear/LossFunctions.cpp
 
 gtsam/CMakeFiles/gtsam.dir/linear/LossFunctions.cpp.i: cmake_force
@@ -1450,7 +1164,7 @@ gtsam/CMakeFiles/gtsam.dir/linear/LossFunctions.cpp.s: cmake_force
 
 gtsam/CMakeFiles/gtsam.dir/linear/NoiseModel.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
 gtsam/CMakeFiles/gtsam.dir/linear/NoiseModel.cpp.o: /home/catkin_ws/src/gtsam/gtsam/linear/NoiseModel.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building CXX object gtsam/CMakeFiles/gtsam.dir/linear/NoiseModel.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building CXX object gtsam/CMakeFiles/gtsam.dir/linear/NoiseModel.cpp.o"
 	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/linear/NoiseModel.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/linear/NoiseModel.cpp
 
 gtsam/CMakeFiles/gtsam.dir/linear/NoiseModel.cpp.i: cmake_force
@@ -1463,7 +1177,7 @@ gtsam/CMakeFiles/gtsam.dir/linear/NoiseModel.cpp.s: cmake_force
 
 gtsam/CMakeFiles/gtsam.dir/linear/PCGSolver.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
 gtsam/CMakeFiles/gtsam.dir/linear/PCGSolver.cpp.o: /home/catkin_ws/src/gtsam/gtsam/linear/PCGSolver.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building CXX object gtsam/CMakeFiles/gtsam.dir/linear/PCGSolver.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building CXX object gtsam/CMakeFiles/gtsam.dir/linear/PCGSolver.cpp.o"
 	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/linear/PCGSolver.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/linear/PCGSolver.cpp
 
 gtsam/CMakeFiles/gtsam.dir/linear/PCGSolver.cpp.i: cmake_force
@@ -1476,7 +1190,7 @@ gtsam/CMakeFiles/gtsam.dir/linear/PCGSolver.cpp.s: cmake_force
 
 gtsam/CMakeFiles/gtsam.dir/linear/Preconditioner.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
 gtsam/CMakeFiles/gtsam.dir/linear/Preconditioner.cpp.o: /home/catkin_ws/src/gtsam/gtsam/linear/Preconditioner.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building CXX object gtsam/CMakeFiles/gtsam.dir/linear/Preconditioner.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building CXX object gtsam/CMakeFiles/gtsam.dir/linear/Preconditioner.cpp.o"
 	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/linear/Preconditioner.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/linear/Preconditioner.cpp
 
 gtsam/CMakeFiles/gtsam.dir/linear/Preconditioner.cpp.i: cmake_force
@@ -1489,7 +1203,7 @@ gtsam/CMakeFiles/gtsam.dir/linear/Preconditioner.cpp.s: cmake_force
 
 gtsam/CMakeFiles/gtsam.dir/linear/Sampler.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
 gtsam/CMakeFiles/gtsam.dir/linear/Sampler.cpp.o: /home/catkin_ws/src/gtsam/gtsam/linear/Sampler.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building CXX object gtsam/CMakeFiles/gtsam.dir/linear/Sampler.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building CXX object gtsam/CMakeFiles/gtsam.dir/linear/Sampler.cpp.o"
 	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/linear/Sampler.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/linear/Sampler.cpp
 
 gtsam/CMakeFiles/gtsam.dir/linear/Sampler.cpp.i: cmake_force
@@ -1502,7 +1216,7 @@ gtsam/CMakeFiles/gtsam.dir/linear/Sampler.cpp.s: cmake_force
 
 gtsam/CMakeFiles/gtsam.dir/linear/Scatter.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
 gtsam/CMakeFiles/gtsam.dir/linear/Scatter.cpp.o: /home/catkin_ws/src/gtsam/gtsam/linear/Scatter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building CXX object gtsam/CMakeFiles/gtsam.dir/linear/Scatter.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building CXX object gtsam/CMakeFiles/gtsam.dir/linear/Scatter.cpp.o"
 	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/linear/Scatter.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/linear/Scatter.cpp
 
 gtsam/CMakeFiles/gtsam.dir/linear/Scatter.cpp.i: cmake_force
@@ -1515,7 +1229,7 @@ gtsam/CMakeFiles/gtsam.dir/linear/Scatter.cpp.s: cmake_force
 
 gtsam/CMakeFiles/gtsam.dir/linear/SubgraphBuilder.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
 gtsam/CMakeFiles/gtsam.dir/linear/SubgraphBuilder.cpp.o: /home/catkin_ws/src/gtsam/gtsam/linear/SubgraphBuilder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building CXX object gtsam/CMakeFiles/gtsam.dir/linear/SubgraphBuilder.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building CXX object gtsam/CMakeFiles/gtsam.dir/linear/SubgraphBuilder.cpp.o"
 	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/linear/SubgraphBuilder.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/linear/SubgraphBuilder.cpp
 
 gtsam/CMakeFiles/gtsam.dir/linear/SubgraphBuilder.cpp.i: cmake_force
@@ -1528,7 +1242,7 @@ gtsam/CMakeFiles/gtsam.dir/linear/SubgraphBuilder.cpp.s: cmake_force
 
 gtsam/CMakeFiles/gtsam.dir/linear/SubgraphPreconditioner.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
 gtsam/CMakeFiles/gtsam.dir/linear/SubgraphPreconditioner.cpp.o: /home/catkin_ws/src/gtsam/gtsam/linear/SubgraphPreconditioner.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building CXX object gtsam/CMakeFiles/gtsam.dir/linear/SubgraphPreconditioner.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building CXX object gtsam/CMakeFiles/gtsam.dir/linear/SubgraphPreconditioner.cpp.o"
 	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/linear/SubgraphPreconditioner.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/linear/SubgraphPreconditioner.cpp
 
 gtsam/CMakeFiles/gtsam.dir/linear/SubgraphPreconditioner.cpp.i: cmake_force
@@ -1541,7 +1255,7 @@ gtsam/CMakeFiles/gtsam.dir/linear/SubgraphPreconditioner.cpp.s: cmake_force
 
 gtsam/CMakeFiles/gtsam.dir/linear/SubgraphSolver.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
 gtsam/CMakeFiles/gtsam.dir/linear/SubgraphSolver.cpp.o: /home/catkin_ws/src/gtsam/gtsam/linear/SubgraphSolver.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building CXX object gtsam/CMakeFiles/gtsam.dir/linear/SubgraphSolver.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building CXX object gtsam/CMakeFiles/gtsam.dir/linear/SubgraphSolver.cpp.o"
 	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/linear/SubgraphSolver.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/linear/SubgraphSolver.cpp
 
 gtsam/CMakeFiles/gtsam.dir/linear/SubgraphSolver.cpp.i: cmake_force
@@ -1554,7 +1268,7 @@ gtsam/CMakeFiles/gtsam.dir/linear/SubgraphSolver.cpp.s: cmake_force
 
 gtsam/CMakeFiles/gtsam.dir/linear/VectorValues.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
 gtsam/CMakeFiles/gtsam.dir/linear/VectorValues.cpp.o: /home/catkin_ws/src/gtsam/gtsam/linear/VectorValues.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building CXX object gtsam/CMakeFiles/gtsam.dir/linear/VectorValues.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building CXX object gtsam/CMakeFiles/gtsam.dir/linear/VectorValues.cpp.o"
 	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/linear/VectorValues.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/linear/VectorValues.cpp
 
 gtsam/CMakeFiles/gtsam.dir/linear/VectorValues.cpp.i: cmake_force
@@ -1567,7 +1281,7 @@ gtsam/CMakeFiles/gtsam.dir/linear/VectorValues.cpp.s: cmake_force
 
 gtsam/CMakeFiles/gtsam.dir/linear/iterative.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
 gtsam/CMakeFiles/gtsam.dir/linear/iterative.cpp.o: /home/catkin_ws/src/gtsam/gtsam/linear/iterative.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building CXX object gtsam/CMakeFiles/gtsam.dir/linear/iterative.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building CXX object gtsam/CMakeFiles/gtsam.dir/linear/iterative.cpp.o"
 	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/linear/iterative.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/linear/iterative.cpp
 
 gtsam/CMakeFiles/gtsam.dir/linear/iterative.cpp.i: cmake_force
@@ -1580,7 +1294,7 @@ gtsam/CMakeFiles/gtsam.dir/linear/iterative.cpp.s: cmake_force
 
 gtsam/CMakeFiles/gtsam.dir/linear/linearExceptions.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
 gtsam/CMakeFiles/gtsam.dir/linear/linearExceptions.cpp.o: /home/catkin_ws/src/gtsam/gtsam/linear/linearExceptions.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building CXX object gtsam/CMakeFiles/gtsam.dir/linear/linearExceptions.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building CXX object gtsam/CMakeFiles/gtsam.dir/linear/linearExceptions.cpp.o"
 	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/linear/linearExceptions.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/linear/linearExceptions.cpp
 
 gtsam/CMakeFiles/gtsam.dir/linear/linearExceptions.cpp.i: cmake_force
@@ -1593,7 +1307,7 @@ gtsam/CMakeFiles/gtsam.dir/linear/linearExceptions.cpp.s: cmake_force
 
 gtsam/CMakeFiles/gtsam.dir/nonlinear/CustomFactor.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
 gtsam/CMakeFiles/gtsam.dir/nonlinear/CustomFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/CustomFactor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building CXX object gtsam/CMakeFiles/gtsam.dir/nonlinear/CustomFactor.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building CXX object gtsam/CMakeFiles/gtsam.dir/nonlinear/CustomFactor.cpp.o"
 	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/nonlinear/CustomFactor.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/nonlinear/CustomFactor.cpp
 
 gtsam/CMakeFiles/gtsam.dir/nonlinear/CustomFactor.cpp.i: cmake_force
@@ -1606,7 +1320,7 @@ gtsam/CMakeFiles/gtsam.dir/nonlinear/CustomFactor.cpp.s: cmake_force
 
 gtsam/CMakeFiles/gtsam.dir/nonlinear/DoglegOptimizer.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
 gtsam/CMakeFiles/gtsam.dir/nonlinear/DoglegOptimizer.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/DoglegOptimizer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building CXX object gtsam/CMakeFiles/gtsam.dir/nonlinear/DoglegOptimizer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building CXX object gtsam/CMakeFiles/gtsam.dir/nonlinear/DoglegOptimizer.cpp.o"
 	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/nonlinear/DoglegOptimizer.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/nonlinear/DoglegOptimizer.cpp
 
 gtsam/CMakeFiles/gtsam.dir/nonlinear/DoglegOptimizer.cpp.i: cmake_force
@@ -1619,7 +1333,7 @@ gtsam/CMakeFiles/gtsam.dir/nonlinear/DoglegOptimizer.cpp.s: cmake_force
 
 gtsam/CMakeFiles/gtsam.dir/nonlinear/DoglegOptimizerImpl.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
 gtsam/CMakeFiles/gtsam.dir/nonlinear/DoglegOptimizerImpl.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/DoglegOptimizerImpl.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building CXX object gtsam/CMakeFiles/gtsam.dir/nonlinear/DoglegOptimizerImpl.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building CXX object gtsam/CMakeFiles/gtsam.dir/nonlinear/DoglegOptimizerImpl.cpp.o"
 	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/nonlinear/DoglegOptimizerImpl.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/nonlinear/DoglegOptimizerImpl.cpp
 
 gtsam/CMakeFiles/gtsam.dir/nonlinear/DoglegOptimizerImpl.cpp.i: cmake_force
@@ -1632,7 +1346,7 @@ gtsam/CMakeFiles/gtsam.dir/nonlinear/DoglegOptimizerImpl.cpp.s: cmake_force
 
 gtsam/CMakeFiles/gtsam.dir/nonlinear/GaussNewtonOptimizer.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
 gtsam/CMakeFiles/gtsam.dir/nonlinear/GaussNewtonOptimizer.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/GaussNewtonOptimizer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building CXX object gtsam/CMakeFiles/gtsam.dir/nonlinear/GaussNewtonOptimizer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building CXX object gtsam/CMakeFiles/gtsam.dir/nonlinear/GaussNewtonOptimizer.cpp.o"
 	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/nonlinear/GaussNewtonOptimizer.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/nonlinear/GaussNewtonOptimizer.cpp
 
 gtsam/CMakeFiles/gtsam.dir/nonlinear/GaussNewtonOptimizer.cpp.i: cmake_force
@@ -1643,22 +1357,9 @@ gtsam/CMakeFiles/gtsam.dir/nonlinear/GaussNewtonOptimizer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gtsam.dir/nonlinear/GaussNewtonOptimizer.cpp.s"
 	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/catkin_ws/src/gtsam/gtsam/nonlinear/GaussNewtonOptimizer.cpp -o CMakeFiles/gtsam.dir/nonlinear/GaussNewtonOptimizer.cpp.s
 
-gtsam/CMakeFiles/gtsam.dir/nonlinear/GraphvizFormatting.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
-gtsam/CMakeFiles/gtsam.dir/nonlinear/GraphvizFormatting.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/GraphvizFormatting.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building CXX object gtsam/CMakeFiles/gtsam.dir/nonlinear/GraphvizFormatting.cpp.o"
-	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/nonlinear/GraphvizFormatting.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/nonlinear/GraphvizFormatting.cpp
-
-gtsam/CMakeFiles/gtsam.dir/nonlinear/GraphvizFormatting.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gtsam.dir/nonlinear/GraphvizFormatting.cpp.i"
-	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/catkin_ws/src/gtsam/gtsam/nonlinear/GraphvizFormatting.cpp > CMakeFiles/gtsam.dir/nonlinear/GraphvizFormatting.cpp.i
-
-gtsam/CMakeFiles/gtsam.dir/nonlinear/GraphvizFormatting.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gtsam.dir/nonlinear/GraphvizFormatting.cpp.s"
-	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/catkin_ws/src/gtsam/gtsam/nonlinear/GraphvizFormatting.cpp -o CMakeFiles/gtsam.dir/nonlinear/GraphvizFormatting.cpp.s
-
 gtsam/CMakeFiles/gtsam.dir/nonlinear/ISAM2-impl.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
 gtsam/CMakeFiles/gtsam.dir/nonlinear/ISAM2-impl.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/ISAM2-impl.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building CXX object gtsam/CMakeFiles/gtsam.dir/nonlinear/ISAM2-impl.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building CXX object gtsam/CMakeFiles/gtsam.dir/nonlinear/ISAM2-impl.cpp.o"
 	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/nonlinear/ISAM2-impl.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/nonlinear/ISAM2-impl.cpp
 
 gtsam/CMakeFiles/gtsam.dir/nonlinear/ISAM2-impl.cpp.i: cmake_force
@@ -1671,7 +1372,7 @@ gtsam/CMakeFiles/gtsam.dir/nonlinear/ISAM2-impl.cpp.s: cmake_force
 
 gtsam/CMakeFiles/gtsam.dir/nonlinear/ISAM2.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
 gtsam/CMakeFiles/gtsam.dir/nonlinear/ISAM2.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/ISAM2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building CXX object gtsam/CMakeFiles/gtsam.dir/nonlinear/ISAM2.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building CXX object gtsam/CMakeFiles/gtsam.dir/nonlinear/ISAM2.cpp.o"
 	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/nonlinear/ISAM2.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/nonlinear/ISAM2.cpp
 
 gtsam/CMakeFiles/gtsam.dir/nonlinear/ISAM2.cpp.i: cmake_force
@@ -1684,7 +1385,7 @@ gtsam/CMakeFiles/gtsam.dir/nonlinear/ISAM2.cpp.s: cmake_force
 
 gtsam/CMakeFiles/gtsam.dir/nonlinear/ISAM2Clique.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
 gtsam/CMakeFiles/gtsam.dir/nonlinear/ISAM2Clique.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/ISAM2Clique.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building CXX object gtsam/CMakeFiles/gtsam.dir/nonlinear/ISAM2Clique.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building CXX object gtsam/CMakeFiles/gtsam.dir/nonlinear/ISAM2Clique.cpp.o"
 	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/nonlinear/ISAM2Clique.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/nonlinear/ISAM2Clique.cpp
 
 gtsam/CMakeFiles/gtsam.dir/nonlinear/ISAM2Clique.cpp.i: cmake_force
@@ -1697,7 +1398,7 @@ gtsam/CMakeFiles/gtsam.dir/nonlinear/ISAM2Clique.cpp.s: cmake_force
 
 gtsam/CMakeFiles/gtsam.dir/nonlinear/ISAM2Params.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
 gtsam/CMakeFiles/gtsam.dir/nonlinear/ISAM2Params.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/ISAM2Params.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Building CXX object gtsam/CMakeFiles/gtsam.dir/nonlinear/ISAM2Params.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building CXX object gtsam/CMakeFiles/gtsam.dir/nonlinear/ISAM2Params.cpp.o"
 	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/nonlinear/ISAM2Params.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/nonlinear/ISAM2Params.cpp
 
 gtsam/CMakeFiles/gtsam.dir/nonlinear/ISAM2Params.cpp.i: cmake_force
@@ -1710,7 +1411,7 @@ gtsam/CMakeFiles/gtsam.dir/nonlinear/ISAM2Params.cpp.s: cmake_force
 
 gtsam/CMakeFiles/gtsam.dir/nonlinear/LevenbergMarquardtOptimizer.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
 gtsam/CMakeFiles/gtsam.dir/nonlinear/LevenbergMarquardtOptimizer.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/LevenbergMarquardtOptimizer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Building CXX object gtsam/CMakeFiles/gtsam.dir/nonlinear/LevenbergMarquardtOptimizer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building CXX object gtsam/CMakeFiles/gtsam.dir/nonlinear/LevenbergMarquardtOptimizer.cpp.o"
 	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/nonlinear/LevenbergMarquardtOptimizer.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/nonlinear/LevenbergMarquardtOptimizer.cpp
 
 gtsam/CMakeFiles/gtsam.dir/nonlinear/LevenbergMarquardtOptimizer.cpp.i: cmake_force
@@ -1723,7 +1424,7 @@ gtsam/CMakeFiles/gtsam.dir/nonlinear/LevenbergMarquardtOptimizer.cpp.s: cmake_fo
 
 gtsam/CMakeFiles/gtsam.dir/nonlinear/LevenbergMarquardtParams.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
 gtsam/CMakeFiles/gtsam.dir/nonlinear/LevenbergMarquardtParams.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/LevenbergMarquardtParams.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_129) "Building CXX object gtsam/CMakeFiles/gtsam.dir/nonlinear/LevenbergMarquardtParams.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building CXX object gtsam/CMakeFiles/gtsam.dir/nonlinear/LevenbergMarquardtParams.cpp.o"
 	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/nonlinear/LevenbergMarquardtParams.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/nonlinear/LevenbergMarquardtParams.cpp
 
 gtsam/CMakeFiles/gtsam.dir/nonlinear/LevenbergMarquardtParams.cpp.i: cmake_force
@@ -1736,7 +1437,7 @@ gtsam/CMakeFiles/gtsam.dir/nonlinear/LevenbergMarquardtParams.cpp.s: cmake_force
 
 gtsam/CMakeFiles/gtsam.dir/nonlinear/LinearContainerFactor.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
 gtsam/CMakeFiles/gtsam.dir/nonlinear/LinearContainerFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/LinearContainerFactor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_130) "Building CXX object gtsam/CMakeFiles/gtsam.dir/nonlinear/LinearContainerFactor.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building CXX object gtsam/CMakeFiles/gtsam.dir/nonlinear/LinearContainerFactor.cpp.o"
 	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/nonlinear/LinearContainerFactor.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/nonlinear/LinearContainerFactor.cpp
 
 gtsam/CMakeFiles/gtsam.dir/nonlinear/LinearContainerFactor.cpp.i: cmake_force
@@ -1749,7 +1450,7 @@ gtsam/CMakeFiles/gtsam.dir/nonlinear/LinearContainerFactor.cpp.s: cmake_force
 
 gtsam/CMakeFiles/gtsam.dir/nonlinear/Marginals.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
 gtsam/CMakeFiles/gtsam.dir/nonlinear/Marginals.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/Marginals.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_131) "Building CXX object gtsam/CMakeFiles/gtsam.dir/nonlinear/Marginals.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building CXX object gtsam/CMakeFiles/gtsam.dir/nonlinear/Marginals.cpp.o"
 	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/nonlinear/Marginals.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/nonlinear/Marginals.cpp
 
 gtsam/CMakeFiles/gtsam.dir/nonlinear/Marginals.cpp.i: cmake_force
@@ -1762,7 +1463,7 @@ gtsam/CMakeFiles/gtsam.dir/nonlinear/Marginals.cpp.s: cmake_force
 
 gtsam/CMakeFiles/gtsam.dir/nonlinear/NonlinearConjugateGradientOptimizer.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
 gtsam/CMakeFiles/gtsam.dir/nonlinear/NonlinearConjugateGradientOptimizer.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/NonlinearConjugateGradientOptimizer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_132) "Building CXX object gtsam/CMakeFiles/gtsam.dir/nonlinear/NonlinearConjugateGradientOptimizer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building CXX object gtsam/CMakeFiles/gtsam.dir/nonlinear/NonlinearConjugateGradientOptimizer.cpp.o"
 	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/nonlinear/NonlinearConjugateGradientOptimizer.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/nonlinear/NonlinearConjugateGradientOptimizer.cpp
 
 gtsam/CMakeFiles/gtsam.dir/nonlinear/NonlinearConjugateGradientOptimizer.cpp.i: cmake_force
@@ -1775,7 +1476,7 @@ gtsam/CMakeFiles/gtsam.dir/nonlinear/NonlinearConjugateGradientOptimizer.cpp.s: 
 
 gtsam/CMakeFiles/gtsam.dir/nonlinear/NonlinearFactor.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
 gtsam/CMakeFiles/gtsam.dir/nonlinear/NonlinearFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/NonlinearFactor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_133) "Building CXX object gtsam/CMakeFiles/gtsam.dir/nonlinear/NonlinearFactor.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building CXX object gtsam/CMakeFiles/gtsam.dir/nonlinear/NonlinearFactor.cpp.o"
 	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/nonlinear/NonlinearFactor.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/nonlinear/NonlinearFactor.cpp
 
 gtsam/CMakeFiles/gtsam.dir/nonlinear/NonlinearFactor.cpp.i: cmake_force
@@ -1788,7 +1489,7 @@ gtsam/CMakeFiles/gtsam.dir/nonlinear/NonlinearFactor.cpp.s: cmake_force
 
 gtsam/CMakeFiles/gtsam.dir/nonlinear/NonlinearFactorGraph.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
 gtsam/CMakeFiles/gtsam.dir/nonlinear/NonlinearFactorGraph.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/NonlinearFactorGraph.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_134) "Building CXX object gtsam/CMakeFiles/gtsam.dir/nonlinear/NonlinearFactorGraph.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building CXX object gtsam/CMakeFiles/gtsam.dir/nonlinear/NonlinearFactorGraph.cpp.o"
 	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/nonlinear/NonlinearFactorGraph.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/nonlinear/NonlinearFactorGraph.cpp
 
 gtsam/CMakeFiles/gtsam.dir/nonlinear/NonlinearFactorGraph.cpp.i: cmake_force
@@ -1801,7 +1502,7 @@ gtsam/CMakeFiles/gtsam.dir/nonlinear/NonlinearFactorGraph.cpp.s: cmake_force
 
 gtsam/CMakeFiles/gtsam.dir/nonlinear/NonlinearISAM.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
 gtsam/CMakeFiles/gtsam.dir/nonlinear/NonlinearISAM.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/NonlinearISAM.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_135) "Building CXX object gtsam/CMakeFiles/gtsam.dir/nonlinear/NonlinearISAM.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building CXX object gtsam/CMakeFiles/gtsam.dir/nonlinear/NonlinearISAM.cpp.o"
 	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/nonlinear/NonlinearISAM.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/nonlinear/NonlinearISAM.cpp
 
 gtsam/CMakeFiles/gtsam.dir/nonlinear/NonlinearISAM.cpp.i: cmake_force
@@ -1814,7 +1515,7 @@ gtsam/CMakeFiles/gtsam.dir/nonlinear/NonlinearISAM.cpp.s: cmake_force
 
 gtsam/CMakeFiles/gtsam.dir/nonlinear/NonlinearOptimizer.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
 gtsam/CMakeFiles/gtsam.dir/nonlinear/NonlinearOptimizer.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/NonlinearOptimizer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_136) "Building CXX object gtsam/CMakeFiles/gtsam.dir/nonlinear/NonlinearOptimizer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building CXX object gtsam/CMakeFiles/gtsam.dir/nonlinear/NonlinearOptimizer.cpp.o"
 	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/nonlinear/NonlinearOptimizer.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/nonlinear/NonlinearOptimizer.cpp
 
 gtsam/CMakeFiles/gtsam.dir/nonlinear/NonlinearOptimizer.cpp.i: cmake_force
@@ -1827,7 +1528,7 @@ gtsam/CMakeFiles/gtsam.dir/nonlinear/NonlinearOptimizer.cpp.s: cmake_force
 
 gtsam/CMakeFiles/gtsam.dir/nonlinear/NonlinearOptimizerParams.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
 gtsam/CMakeFiles/gtsam.dir/nonlinear/NonlinearOptimizerParams.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/NonlinearOptimizerParams.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_137) "Building CXX object gtsam/CMakeFiles/gtsam.dir/nonlinear/NonlinearOptimizerParams.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building CXX object gtsam/CMakeFiles/gtsam.dir/nonlinear/NonlinearOptimizerParams.cpp.o"
 	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/nonlinear/NonlinearOptimizerParams.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/nonlinear/NonlinearOptimizerParams.cpp
 
 gtsam/CMakeFiles/gtsam.dir/nonlinear/NonlinearOptimizerParams.cpp.i: cmake_force
@@ -1840,7 +1541,7 @@ gtsam/CMakeFiles/gtsam.dir/nonlinear/NonlinearOptimizerParams.cpp.s: cmake_force
 
 gtsam/CMakeFiles/gtsam.dir/nonlinear/Values.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
 gtsam/CMakeFiles/gtsam.dir/nonlinear/Values.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/Values.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_138) "Building CXX object gtsam/CMakeFiles/gtsam.dir/nonlinear/Values.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building CXX object gtsam/CMakeFiles/gtsam.dir/nonlinear/Values.cpp.o"
 	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/nonlinear/Values.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/nonlinear/Values.cpp
 
 gtsam/CMakeFiles/gtsam.dir/nonlinear/Values.cpp.i: cmake_force
@@ -1853,7 +1554,7 @@ gtsam/CMakeFiles/gtsam.dir/nonlinear/Values.cpp.s: cmake_force
 
 gtsam/CMakeFiles/gtsam.dir/sfm/MFAS.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
 gtsam/CMakeFiles/gtsam.dir/sfm/MFAS.cpp.o: /home/catkin_ws/src/gtsam/gtsam/sfm/MFAS.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_139) "Building CXX object gtsam/CMakeFiles/gtsam.dir/sfm/MFAS.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building CXX object gtsam/CMakeFiles/gtsam.dir/sfm/MFAS.cpp.o"
 	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/sfm/MFAS.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/sfm/MFAS.cpp
 
 gtsam/CMakeFiles/gtsam.dir/sfm/MFAS.cpp.i: cmake_force
@@ -1864,35 +1565,9 @@ gtsam/CMakeFiles/gtsam.dir/sfm/MFAS.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gtsam.dir/sfm/MFAS.cpp.s"
 	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/catkin_ws/src/gtsam/gtsam/sfm/MFAS.cpp -o CMakeFiles/gtsam.dir/sfm/MFAS.cpp.s
 
-gtsam/CMakeFiles/gtsam.dir/sfm/SfmData.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
-gtsam/CMakeFiles/gtsam.dir/sfm/SfmData.cpp.o: /home/catkin_ws/src/gtsam/gtsam/sfm/SfmData.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_140) "Building CXX object gtsam/CMakeFiles/gtsam.dir/sfm/SfmData.cpp.o"
-	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/sfm/SfmData.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/sfm/SfmData.cpp
-
-gtsam/CMakeFiles/gtsam.dir/sfm/SfmData.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gtsam.dir/sfm/SfmData.cpp.i"
-	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/catkin_ws/src/gtsam/gtsam/sfm/SfmData.cpp > CMakeFiles/gtsam.dir/sfm/SfmData.cpp.i
-
-gtsam/CMakeFiles/gtsam.dir/sfm/SfmData.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gtsam.dir/sfm/SfmData.cpp.s"
-	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/catkin_ws/src/gtsam/gtsam/sfm/SfmData.cpp -o CMakeFiles/gtsam.dir/sfm/SfmData.cpp.s
-
-gtsam/CMakeFiles/gtsam.dir/sfm/SfmTrack.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
-gtsam/CMakeFiles/gtsam.dir/sfm/SfmTrack.cpp.o: /home/catkin_ws/src/gtsam/gtsam/sfm/SfmTrack.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_141) "Building CXX object gtsam/CMakeFiles/gtsam.dir/sfm/SfmTrack.cpp.o"
-	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/sfm/SfmTrack.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/sfm/SfmTrack.cpp
-
-gtsam/CMakeFiles/gtsam.dir/sfm/SfmTrack.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gtsam.dir/sfm/SfmTrack.cpp.i"
-	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/catkin_ws/src/gtsam/gtsam/sfm/SfmTrack.cpp > CMakeFiles/gtsam.dir/sfm/SfmTrack.cpp.i
-
-gtsam/CMakeFiles/gtsam.dir/sfm/SfmTrack.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gtsam.dir/sfm/SfmTrack.cpp.s"
-	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/catkin_ws/src/gtsam/gtsam/sfm/SfmTrack.cpp -o CMakeFiles/gtsam.dir/sfm/SfmTrack.cpp.s
-
 gtsam/CMakeFiles/gtsam.dir/sfm/ShonanAveraging.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
 gtsam/CMakeFiles/gtsam.dir/sfm/ShonanAveraging.cpp.o: /home/catkin_ws/src/gtsam/gtsam/sfm/ShonanAveraging.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_142) "Building CXX object gtsam/CMakeFiles/gtsam.dir/sfm/ShonanAveraging.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building CXX object gtsam/CMakeFiles/gtsam.dir/sfm/ShonanAveraging.cpp.o"
 	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/sfm/ShonanAveraging.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/sfm/ShonanAveraging.cpp
 
 gtsam/CMakeFiles/gtsam.dir/sfm/ShonanAveraging.cpp.i: cmake_force
@@ -1905,7 +1580,7 @@ gtsam/CMakeFiles/gtsam.dir/sfm/ShonanAveraging.cpp.s: cmake_force
 
 gtsam/CMakeFiles/gtsam.dir/sfm/ShonanFactor.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
 gtsam/CMakeFiles/gtsam.dir/sfm/ShonanFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/sfm/ShonanFactor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_143) "Building CXX object gtsam/CMakeFiles/gtsam.dir/sfm/ShonanFactor.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building CXX object gtsam/CMakeFiles/gtsam.dir/sfm/ShonanFactor.cpp.o"
 	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/sfm/ShonanFactor.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/sfm/ShonanFactor.cpp
 
 gtsam/CMakeFiles/gtsam.dir/sfm/ShonanFactor.cpp.i: cmake_force
@@ -1918,7 +1593,7 @@ gtsam/CMakeFiles/gtsam.dir/sfm/ShonanFactor.cpp.s: cmake_force
 
 gtsam/CMakeFiles/gtsam.dir/sfm/TranslationRecovery.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
 gtsam/CMakeFiles/gtsam.dir/sfm/TranslationRecovery.cpp.o: /home/catkin_ws/src/gtsam/gtsam/sfm/TranslationRecovery.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_144) "Building CXX object gtsam/CMakeFiles/gtsam.dir/sfm/TranslationRecovery.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building CXX object gtsam/CMakeFiles/gtsam.dir/sfm/TranslationRecovery.cpp.o"
 	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/sfm/TranslationRecovery.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/sfm/TranslationRecovery.cpp
 
 gtsam/CMakeFiles/gtsam.dir/sfm/TranslationRecovery.cpp.i: cmake_force
@@ -1931,7 +1606,7 @@ gtsam/CMakeFiles/gtsam.dir/sfm/TranslationRecovery.cpp.s: cmake_force
 
 gtsam/CMakeFiles/gtsam.dir/slam/EssentialMatrixConstraint.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
 gtsam/CMakeFiles/gtsam.dir/slam/EssentialMatrixConstraint.cpp.o: /home/catkin_ws/src/gtsam/gtsam/slam/EssentialMatrixConstraint.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_145) "Building CXX object gtsam/CMakeFiles/gtsam.dir/slam/EssentialMatrixConstraint.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building CXX object gtsam/CMakeFiles/gtsam.dir/slam/EssentialMatrixConstraint.cpp.o"
 	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/slam/EssentialMatrixConstraint.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/slam/EssentialMatrixConstraint.cpp
 
 gtsam/CMakeFiles/gtsam.dir/slam/EssentialMatrixConstraint.cpp.i: cmake_force
@@ -1944,7 +1619,7 @@ gtsam/CMakeFiles/gtsam.dir/slam/EssentialMatrixConstraint.cpp.s: cmake_force
 
 gtsam/CMakeFiles/gtsam.dir/slam/FrobeniusFactor.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
 gtsam/CMakeFiles/gtsam.dir/slam/FrobeniusFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/slam/FrobeniusFactor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_146) "Building CXX object gtsam/CMakeFiles/gtsam.dir/slam/FrobeniusFactor.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building CXX object gtsam/CMakeFiles/gtsam.dir/slam/FrobeniusFactor.cpp.o"
 	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/slam/FrobeniusFactor.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/slam/FrobeniusFactor.cpp
 
 gtsam/CMakeFiles/gtsam.dir/slam/FrobeniusFactor.cpp.i: cmake_force
@@ -1957,7 +1632,7 @@ gtsam/CMakeFiles/gtsam.dir/slam/FrobeniusFactor.cpp.s: cmake_force
 
 gtsam/CMakeFiles/gtsam.dir/slam/InitializePose3.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
 gtsam/CMakeFiles/gtsam.dir/slam/InitializePose3.cpp.o: /home/catkin_ws/src/gtsam/gtsam/slam/InitializePose3.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_147) "Building CXX object gtsam/CMakeFiles/gtsam.dir/slam/InitializePose3.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building CXX object gtsam/CMakeFiles/gtsam.dir/slam/InitializePose3.cpp.o"
 	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/slam/InitializePose3.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/slam/InitializePose3.cpp
 
 gtsam/CMakeFiles/gtsam.dir/slam/InitializePose3.cpp.i: cmake_force
@@ -1970,7 +1645,7 @@ gtsam/CMakeFiles/gtsam.dir/slam/InitializePose3.cpp.s: cmake_force
 
 gtsam/CMakeFiles/gtsam.dir/slam/OrientedPlane3Factor.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
 gtsam/CMakeFiles/gtsam.dir/slam/OrientedPlane3Factor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/slam/OrientedPlane3Factor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_148) "Building CXX object gtsam/CMakeFiles/gtsam.dir/slam/OrientedPlane3Factor.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building CXX object gtsam/CMakeFiles/gtsam.dir/slam/OrientedPlane3Factor.cpp.o"
 	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/slam/OrientedPlane3Factor.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/slam/OrientedPlane3Factor.cpp
 
 gtsam/CMakeFiles/gtsam.dir/slam/OrientedPlane3Factor.cpp.i: cmake_force
@@ -1983,7 +1658,7 @@ gtsam/CMakeFiles/gtsam.dir/slam/OrientedPlane3Factor.cpp.s: cmake_force
 
 gtsam/CMakeFiles/gtsam.dir/slam/dataset.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
 gtsam/CMakeFiles/gtsam.dir/slam/dataset.cpp.o: /home/catkin_ws/src/gtsam/gtsam/slam/dataset.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_149) "Building CXX object gtsam/CMakeFiles/gtsam.dir/slam/dataset.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building CXX object gtsam/CMakeFiles/gtsam.dir/slam/dataset.cpp.o"
 	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/slam/dataset.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/slam/dataset.cpp
 
 gtsam/CMakeFiles/gtsam.dir/slam/dataset.cpp.i: cmake_force
@@ -1996,7 +1671,7 @@ gtsam/CMakeFiles/gtsam.dir/slam/dataset.cpp.s: cmake_force
 
 gtsam/CMakeFiles/gtsam.dir/slam/lago.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
 gtsam/CMakeFiles/gtsam.dir/slam/lago.cpp.o: /home/catkin_ws/src/gtsam/gtsam/slam/lago.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_150) "Building CXX object gtsam/CMakeFiles/gtsam.dir/slam/lago.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building CXX object gtsam/CMakeFiles/gtsam.dir/slam/lago.cpp.o"
 	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/slam/lago.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/slam/lago.cpp
 
 gtsam/CMakeFiles/gtsam.dir/slam/lago.cpp.i: cmake_force
@@ -2009,7 +1684,7 @@ gtsam/CMakeFiles/gtsam.dir/slam/lago.cpp.s: cmake_force
 
 gtsam/CMakeFiles/gtsam.dir/navigation/AHRSFactor.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
 gtsam/CMakeFiles/gtsam.dir/navigation/AHRSFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/navigation/AHRSFactor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_151) "Building CXX object gtsam/CMakeFiles/gtsam.dir/navigation/AHRSFactor.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building CXX object gtsam/CMakeFiles/gtsam.dir/navigation/AHRSFactor.cpp.o"
 	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/navigation/AHRSFactor.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/navigation/AHRSFactor.cpp
 
 gtsam/CMakeFiles/gtsam.dir/navigation/AHRSFactor.cpp.i: cmake_force
@@ -2022,7 +1697,7 @@ gtsam/CMakeFiles/gtsam.dir/navigation/AHRSFactor.cpp.s: cmake_force
 
 gtsam/CMakeFiles/gtsam.dir/navigation/AttitudeFactor.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
 gtsam/CMakeFiles/gtsam.dir/navigation/AttitudeFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/navigation/AttitudeFactor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_152) "Building CXX object gtsam/CMakeFiles/gtsam.dir/navigation/AttitudeFactor.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Building CXX object gtsam/CMakeFiles/gtsam.dir/navigation/AttitudeFactor.cpp.o"
 	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/navigation/AttitudeFactor.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/navigation/AttitudeFactor.cpp
 
 gtsam/CMakeFiles/gtsam.dir/navigation/AttitudeFactor.cpp.i: cmake_force
@@ -2033,22 +1708,9 @@ gtsam/CMakeFiles/gtsam.dir/navigation/AttitudeFactor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gtsam.dir/navigation/AttitudeFactor.cpp.s"
 	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/catkin_ws/src/gtsam/gtsam/navigation/AttitudeFactor.cpp -o CMakeFiles/gtsam.dir/navigation/AttitudeFactor.cpp.s
 
-gtsam/CMakeFiles/gtsam.dir/navigation/BarometricFactor.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
-gtsam/CMakeFiles/gtsam.dir/navigation/BarometricFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/navigation/BarometricFactor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_153) "Building CXX object gtsam/CMakeFiles/gtsam.dir/navigation/BarometricFactor.cpp.o"
-	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/navigation/BarometricFactor.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/navigation/BarometricFactor.cpp
-
-gtsam/CMakeFiles/gtsam.dir/navigation/BarometricFactor.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gtsam.dir/navigation/BarometricFactor.cpp.i"
-	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/catkin_ws/src/gtsam/gtsam/navigation/BarometricFactor.cpp > CMakeFiles/gtsam.dir/navigation/BarometricFactor.cpp.i
-
-gtsam/CMakeFiles/gtsam.dir/navigation/BarometricFactor.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gtsam.dir/navigation/BarometricFactor.cpp.s"
-	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/catkin_ws/src/gtsam/gtsam/navigation/BarometricFactor.cpp -o CMakeFiles/gtsam.dir/navigation/BarometricFactor.cpp.s
-
 gtsam/CMakeFiles/gtsam.dir/navigation/CombinedImuFactor.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
 gtsam/CMakeFiles/gtsam.dir/navigation/CombinedImuFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/navigation/CombinedImuFactor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_154) "Building CXX object gtsam/CMakeFiles/gtsam.dir/navigation/CombinedImuFactor.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Building CXX object gtsam/CMakeFiles/gtsam.dir/navigation/CombinedImuFactor.cpp.o"
 	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/navigation/CombinedImuFactor.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/navigation/CombinedImuFactor.cpp
 
 gtsam/CMakeFiles/gtsam.dir/navigation/CombinedImuFactor.cpp.i: cmake_force
@@ -2061,7 +1723,7 @@ gtsam/CMakeFiles/gtsam.dir/navigation/CombinedImuFactor.cpp.s: cmake_force
 
 gtsam/CMakeFiles/gtsam.dir/navigation/GPSFactor.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
 gtsam/CMakeFiles/gtsam.dir/navigation/GPSFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/navigation/GPSFactor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_155) "Building CXX object gtsam/CMakeFiles/gtsam.dir/navigation/GPSFactor.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_129) "Building CXX object gtsam/CMakeFiles/gtsam.dir/navigation/GPSFactor.cpp.o"
 	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/navigation/GPSFactor.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/navigation/GPSFactor.cpp
 
 gtsam/CMakeFiles/gtsam.dir/navigation/GPSFactor.cpp.i: cmake_force
@@ -2074,7 +1736,7 @@ gtsam/CMakeFiles/gtsam.dir/navigation/GPSFactor.cpp.s: cmake_force
 
 gtsam/CMakeFiles/gtsam.dir/navigation/ImuBias.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
 gtsam/CMakeFiles/gtsam.dir/navigation/ImuBias.cpp.o: /home/catkin_ws/src/gtsam/gtsam/navigation/ImuBias.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_156) "Building CXX object gtsam/CMakeFiles/gtsam.dir/navigation/ImuBias.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_130) "Building CXX object gtsam/CMakeFiles/gtsam.dir/navigation/ImuBias.cpp.o"
 	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/navigation/ImuBias.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/navigation/ImuBias.cpp
 
 gtsam/CMakeFiles/gtsam.dir/navigation/ImuBias.cpp.i: cmake_force
@@ -2087,7 +1749,7 @@ gtsam/CMakeFiles/gtsam.dir/navigation/ImuBias.cpp.s: cmake_force
 
 gtsam/CMakeFiles/gtsam.dir/navigation/ImuFactor.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
 gtsam/CMakeFiles/gtsam.dir/navigation/ImuFactor.cpp.o: /home/catkin_ws/src/gtsam/gtsam/navigation/ImuFactor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_157) "Building CXX object gtsam/CMakeFiles/gtsam.dir/navigation/ImuFactor.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_131) "Building CXX object gtsam/CMakeFiles/gtsam.dir/navigation/ImuFactor.cpp.o"
 	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/navigation/ImuFactor.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/navigation/ImuFactor.cpp
 
 gtsam/CMakeFiles/gtsam.dir/navigation/ImuFactor.cpp.i: cmake_force
@@ -2100,7 +1762,7 @@ gtsam/CMakeFiles/gtsam.dir/navigation/ImuFactor.cpp.s: cmake_force
 
 gtsam/CMakeFiles/gtsam.dir/navigation/ManifoldPreintegration.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
 gtsam/CMakeFiles/gtsam.dir/navigation/ManifoldPreintegration.cpp.o: /home/catkin_ws/src/gtsam/gtsam/navigation/ManifoldPreintegration.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_158) "Building CXX object gtsam/CMakeFiles/gtsam.dir/navigation/ManifoldPreintegration.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_132) "Building CXX object gtsam/CMakeFiles/gtsam.dir/navigation/ManifoldPreintegration.cpp.o"
 	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/navigation/ManifoldPreintegration.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/navigation/ManifoldPreintegration.cpp
 
 gtsam/CMakeFiles/gtsam.dir/navigation/ManifoldPreintegration.cpp.i: cmake_force
@@ -2113,7 +1775,7 @@ gtsam/CMakeFiles/gtsam.dir/navigation/ManifoldPreintegration.cpp.s: cmake_force
 
 gtsam/CMakeFiles/gtsam.dir/navigation/NavState.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
 gtsam/CMakeFiles/gtsam.dir/navigation/NavState.cpp.o: /home/catkin_ws/src/gtsam/gtsam/navigation/NavState.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_159) "Building CXX object gtsam/CMakeFiles/gtsam.dir/navigation/NavState.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_133) "Building CXX object gtsam/CMakeFiles/gtsam.dir/navigation/NavState.cpp.o"
 	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/navigation/NavState.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/navigation/NavState.cpp
 
 gtsam/CMakeFiles/gtsam.dir/navigation/NavState.cpp.i: cmake_force
@@ -2126,7 +1788,7 @@ gtsam/CMakeFiles/gtsam.dir/navigation/NavState.cpp.s: cmake_force
 
 gtsam/CMakeFiles/gtsam.dir/navigation/PreintegratedRotation.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
 gtsam/CMakeFiles/gtsam.dir/navigation/PreintegratedRotation.cpp.o: /home/catkin_ws/src/gtsam/gtsam/navigation/PreintegratedRotation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_160) "Building CXX object gtsam/CMakeFiles/gtsam.dir/navigation/PreintegratedRotation.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_134) "Building CXX object gtsam/CMakeFiles/gtsam.dir/navigation/PreintegratedRotation.cpp.o"
 	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/navigation/PreintegratedRotation.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/navigation/PreintegratedRotation.cpp
 
 gtsam/CMakeFiles/gtsam.dir/navigation/PreintegratedRotation.cpp.i: cmake_force
@@ -2139,7 +1801,7 @@ gtsam/CMakeFiles/gtsam.dir/navigation/PreintegratedRotation.cpp.s: cmake_force
 
 gtsam/CMakeFiles/gtsam.dir/navigation/PreintegrationBase.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
 gtsam/CMakeFiles/gtsam.dir/navigation/PreintegrationBase.cpp.o: /home/catkin_ws/src/gtsam/gtsam/navigation/PreintegrationBase.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_161) "Building CXX object gtsam/CMakeFiles/gtsam.dir/navigation/PreintegrationBase.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_135) "Building CXX object gtsam/CMakeFiles/gtsam.dir/navigation/PreintegrationBase.cpp.o"
 	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/navigation/PreintegrationBase.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/navigation/PreintegrationBase.cpp
 
 gtsam/CMakeFiles/gtsam.dir/navigation/PreintegrationBase.cpp.i: cmake_force
@@ -2152,7 +1814,7 @@ gtsam/CMakeFiles/gtsam.dir/navigation/PreintegrationBase.cpp.s: cmake_force
 
 gtsam/CMakeFiles/gtsam.dir/navigation/PreintegrationParams.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
 gtsam/CMakeFiles/gtsam.dir/navigation/PreintegrationParams.cpp.o: /home/catkin_ws/src/gtsam/gtsam/navigation/PreintegrationParams.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_162) "Building CXX object gtsam/CMakeFiles/gtsam.dir/navigation/PreintegrationParams.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_136) "Building CXX object gtsam/CMakeFiles/gtsam.dir/navigation/PreintegrationParams.cpp.o"
 	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/navigation/PreintegrationParams.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/navigation/PreintegrationParams.cpp
 
 gtsam/CMakeFiles/gtsam.dir/navigation/PreintegrationParams.cpp.i: cmake_force
@@ -2165,7 +1827,7 @@ gtsam/CMakeFiles/gtsam.dir/navigation/PreintegrationParams.cpp.s: cmake_force
 
 gtsam/CMakeFiles/gtsam.dir/navigation/ScenarioRunner.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
 gtsam/CMakeFiles/gtsam.dir/navigation/ScenarioRunner.cpp.o: /home/catkin_ws/src/gtsam/gtsam/navigation/ScenarioRunner.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_163) "Building CXX object gtsam/CMakeFiles/gtsam.dir/navigation/ScenarioRunner.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_137) "Building CXX object gtsam/CMakeFiles/gtsam.dir/navigation/ScenarioRunner.cpp.o"
 	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/navigation/ScenarioRunner.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/navigation/ScenarioRunner.cpp
 
 gtsam/CMakeFiles/gtsam.dir/navigation/ScenarioRunner.cpp.i: cmake_force
@@ -2178,7 +1840,7 @@ gtsam/CMakeFiles/gtsam.dir/navigation/ScenarioRunner.cpp.s: cmake_force
 
 gtsam/CMakeFiles/gtsam.dir/navigation/TangentPreintegration.cpp.o: gtsam/CMakeFiles/gtsam.dir/flags.make
 gtsam/CMakeFiles/gtsam.dir/navigation/TangentPreintegration.cpp.o: /home/catkin_ws/src/gtsam/gtsam/navigation/TangentPreintegration.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_164) "Building CXX object gtsam/CMakeFiles/gtsam.dir/navigation/TangentPreintegration.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_138) "Building CXX object gtsam/CMakeFiles/gtsam.dir/navigation/TangentPreintegration.cpp.o"
 	cd /home/catkin_ws/build/gtsam/gtsam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtsam.dir/navigation/TangentPreintegration.cpp.o -c /home/catkin_ws/src/gtsam/gtsam/navigation/TangentPreintegration.cpp
 
 gtsam/CMakeFiles/gtsam.dir/navigation/TangentPreintegration.cpp.i: cmake_force
@@ -2202,7 +1864,6 @@ gtsam_OBJECTS = \
 "CMakeFiles/gtsam.dir/base/debug.cpp.o" \
 "CMakeFiles/gtsam.dir/base/timing.cpp.o" \
 "CMakeFiles/gtsam.dir/base/types.cpp.o" \
-"CMakeFiles/gtsam.dir/base/utilities.cpp.o" \
 "CMakeFiles/gtsam.dir/basis/Chebyshev.cpp.o" \
 "CMakeFiles/gtsam.dir/basis/Chebyshev2.cpp.o" \
 "CMakeFiles/gtsam.dir/geometry/Cal3.cpp.o" \
@@ -2228,16 +1889,13 @@ gtsam_OBJECTS = \
 "CMakeFiles/gtsam.dir/geometry/SO3.cpp.o" \
 "CMakeFiles/gtsam.dir/geometry/SO4.cpp.o" \
 "CMakeFiles/gtsam.dir/geometry/SOn.cpp.o" \
-"CMakeFiles/gtsam.dir/geometry/Similarity2.cpp.o" \
 "CMakeFiles/gtsam.dir/geometry/Similarity3.cpp.o" \
 "CMakeFiles/gtsam.dir/geometry/SimpleCamera.cpp.o" \
-"CMakeFiles/gtsam.dir/geometry/SphericalCamera.cpp.o" \
 "CMakeFiles/gtsam.dir/geometry/StereoCamera.cpp.o" \
 "CMakeFiles/gtsam.dir/geometry/StereoPoint2.cpp.o" \
 "CMakeFiles/gtsam.dir/geometry/Unit3.cpp.o" \
 "CMakeFiles/gtsam.dir/geometry/triangulation.cpp.o" \
 "CMakeFiles/gtsam.dir/inference/BayesTree.cpp.o" \
-"CMakeFiles/gtsam.dir/inference/DotWriter.cpp.o" \
 "CMakeFiles/gtsam.dir/inference/Factor.cpp.o" \
 "CMakeFiles/gtsam.dir/inference/Key.cpp.o" \
 "CMakeFiles/gtsam.dir/inference/LabeledSymbol.cpp.o" \
@@ -2253,35 +1911,17 @@ gtsam_OBJECTS = \
 "CMakeFiles/gtsam.dir/symbolic/SymbolicFactorGraph.cpp.o" \
 "CMakeFiles/gtsam.dir/symbolic/SymbolicISAM.cpp.o" \
 "CMakeFiles/gtsam.dir/symbolic/SymbolicJunctionTree.cpp.o" \
-"CMakeFiles/gtsam.dir/discrete/AlgebraicDecisionTree.cpp.o" \
 "CMakeFiles/gtsam.dir/discrete/DecisionTreeFactor.cpp.o" \
 "CMakeFiles/gtsam.dir/discrete/DiscreteBayesNet.cpp.o" \
 "CMakeFiles/gtsam.dir/discrete/DiscreteBayesTree.cpp.o" \
 "CMakeFiles/gtsam.dir/discrete/DiscreteConditional.cpp.o" \
-"CMakeFiles/gtsam.dir/discrete/DiscreteDistribution.cpp.o" \
 "CMakeFiles/gtsam.dir/discrete/DiscreteEliminationTree.cpp.o" \
 "CMakeFiles/gtsam.dir/discrete/DiscreteFactor.cpp.o" \
 "CMakeFiles/gtsam.dir/discrete/DiscreteFactorGraph.cpp.o" \
 "CMakeFiles/gtsam.dir/discrete/DiscreteJunctionTree.cpp.o" \
 "CMakeFiles/gtsam.dir/discrete/DiscreteKey.cpp.o" \
-"CMakeFiles/gtsam.dir/discrete/DiscreteLookupDAG.cpp.o" \
-"CMakeFiles/gtsam.dir/discrete/DiscreteValues.cpp.o" \
+"CMakeFiles/gtsam.dir/discrete/Potentials.cpp.o" \
 "CMakeFiles/gtsam.dir/discrete/Signature.cpp.o" \
-"CMakeFiles/gtsam.dir/hybrid/GaussianMixture.cpp.o" \
-"CMakeFiles/gtsam.dir/hybrid/GaussianMixtureFactor.cpp.o" \
-"CMakeFiles/gtsam.dir/hybrid/HybridBayesNet.cpp.o" \
-"CMakeFiles/gtsam.dir/hybrid/HybridBayesTree.cpp.o" \
-"CMakeFiles/gtsam.dir/hybrid/HybridConditional.cpp.o" \
-"CMakeFiles/gtsam.dir/hybrid/HybridDiscreteFactor.cpp.o" \
-"CMakeFiles/gtsam.dir/hybrid/HybridEliminationTree.cpp.o" \
-"CMakeFiles/gtsam.dir/hybrid/HybridFactor.cpp.o" \
-"CMakeFiles/gtsam.dir/hybrid/HybridGaussianFactor.cpp.o" \
-"CMakeFiles/gtsam.dir/hybrid/HybridGaussianFactorGraph.cpp.o" \
-"CMakeFiles/gtsam.dir/hybrid/HybridGaussianISAM.cpp.o" \
-"CMakeFiles/gtsam.dir/hybrid/HybridJunctionTree.cpp.o" \
-"CMakeFiles/gtsam.dir/hybrid/HybridNonlinearFactor.cpp.o" \
-"CMakeFiles/gtsam.dir/hybrid/HybridNonlinearFactorGraph.cpp.o" \
-"CMakeFiles/gtsam.dir/hybrid/HybridNonlinearISAM.cpp.o" \
 "CMakeFiles/gtsam.dir/linear/ConjugateGradientSolver.cpp.o" \
 "CMakeFiles/gtsam.dir/linear/Errors.cpp.o" \
 "CMakeFiles/gtsam.dir/linear/GaussianBayesNet.cpp.o" \
@@ -2313,7 +1953,6 @@ gtsam_OBJECTS = \
 "CMakeFiles/gtsam.dir/nonlinear/DoglegOptimizer.cpp.o" \
 "CMakeFiles/gtsam.dir/nonlinear/DoglegOptimizerImpl.cpp.o" \
 "CMakeFiles/gtsam.dir/nonlinear/GaussNewtonOptimizer.cpp.o" \
-"CMakeFiles/gtsam.dir/nonlinear/GraphvizFormatting.cpp.o" \
 "CMakeFiles/gtsam.dir/nonlinear/ISAM2-impl.cpp.o" \
 "CMakeFiles/gtsam.dir/nonlinear/ISAM2.cpp.o" \
 "CMakeFiles/gtsam.dir/nonlinear/ISAM2Clique.cpp.o" \
@@ -2330,8 +1969,6 @@ gtsam_OBJECTS = \
 "CMakeFiles/gtsam.dir/nonlinear/NonlinearOptimizerParams.cpp.o" \
 "CMakeFiles/gtsam.dir/nonlinear/Values.cpp.o" \
 "CMakeFiles/gtsam.dir/sfm/MFAS.cpp.o" \
-"CMakeFiles/gtsam.dir/sfm/SfmData.cpp.o" \
-"CMakeFiles/gtsam.dir/sfm/SfmTrack.cpp.o" \
 "CMakeFiles/gtsam.dir/sfm/ShonanAveraging.cpp.o" \
 "CMakeFiles/gtsam.dir/sfm/ShonanFactor.cpp.o" \
 "CMakeFiles/gtsam.dir/sfm/TranslationRecovery.cpp.o" \
@@ -2343,7 +1980,6 @@ gtsam_OBJECTS = \
 "CMakeFiles/gtsam.dir/slam/lago.cpp.o" \
 "CMakeFiles/gtsam.dir/navigation/AHRSFactor.cpp.o" \
 "CMakeFiles/gtsam.dir/navigation/AttitudeFactor.cpp.o" \
-"CMakeFiles/gtsam.dir/navigation/BarometricFactor.cpp.o" \
 "CMakeFiles/gtsam.dir/navigation/CombinedImuFactor.cpp.o" \
 "CMakeFiles/gtsam.dir/navigation/GPSFactor.cpp.o" \
 "CMakeFiles/gtsam.dir/navigation/ImuBias.cpp.o" \
@@ -2359,192 +1995,166 @@ gtsam_OBJECTS = \
 # External object files for target gtsam
 gtsam_EXTERNAL_OBJECTS =
 
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/3rdparty/CCOLAMD/Source/ccolamd.c.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/3rdparty/SuiteSparse_config/SuiteSparse_config.c.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/base/DSFVector.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/base/Matrix.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/base/SymmetricBlockMatrix.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/base/Vector.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/base/VerticalBlockMatrix.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/base/cholesky.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/base/debug.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/base/timing.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/base/types.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/base/utilities.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/basis/Chebyshev.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/basis/Chebyshev2.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/geometry/Cal3.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/geometry/Cal3Bundler.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/geometry/Cal3DS2.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/geometry/Cal3DS2_Base.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/geometry/Cal3Fisheye.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/geometry/Cal3Unified.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/geometry/Cal3_S2.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/geometry/Cal3_S2Stereo.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/geometry/CalibratedCamera.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/geometry/Cyclic.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/geometry/EssentialMatrix.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/geometry/Line3.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/geometry/OrientedPlane3.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/geometry/Point2.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/geometry/Point3.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/geometry/Pose2.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/geometry/Pose3.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/geometry/Rot2.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/geometry/Rot3.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/geometry/Rot3M.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/geometry/SO3.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/geometry/SO4.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/geometry/SOn.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/geometry/Similarity2.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/geometry/Similarity3.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/geometry/SimpleCamera.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/geometry/SphericalCamera.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/geometry/StereoCamera.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/geometry/StereoPoint2.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/geometry/Unit3.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/geometry/triangulation.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/inference/BayesTree.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/inference/DotWriter.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/inference/Factor.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/inference/Key.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/inference/LabeledSymbol.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/inference/Ordering.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/inference/Symbol.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/inference/VariableIndex.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/inference/VariableSlots.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/symbolic/SymbolicBayesNet.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/symbolic/SymbolicBayesTree.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/symbolic/SymbolicConditional.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/symbolic/SymbolicEliminationTree.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/symbolic/SymbolicFactor.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/symbolic/SymbolicFactorGraph.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/symbolic/SymbolicISAM.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/symbolic/SymbolicJunctionTree.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/discrete/AlgebraicDecisionTree.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/discrete/DecisionTreeFactor.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/discrete/DiscreteBayesNet.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/discrete/DiscreteBayesTree.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/discrete/DiscreteConditional.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/discrete/DiscreteDistribution.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/discrete/DiscreteEliminationTree.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/discrete/DiscreteFactor.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/discrete/DiscreteFactorGraph.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/discrete/DiscreteJunctionTree.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/discrete/DiscreteKey.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/discrete/DiscreteLookupDAG.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/discrete/DiscreteValues.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/discrete/Signature.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/hybrid/GaussianMixture.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/hybrid/GaussianMixtureFactor.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/hybrid/HybridBayesNet.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/hybrid/HybridBayesTree.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/hybrid/HybridConditional.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/hybrid/HybridDiscreteFactor.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/hybrid/HybridEliminationTree.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/hybrid/HybridFactor.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/hybrid/HybridGaussianFactor.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/hybrid/HybridGaussianFactorGraph.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/hybrid/HybridGaussianISAM.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/hybrid/HybridJunctionTree.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/hybrid/HybridNonlinearFactor.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/hybrid/HybridNonlinearFactorGraph.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/hybrid/HybridNonlinearISAM.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/linear/ConjugateGradientSolver.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/linear/Errors.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/linear/GaussianBayesNet.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/linear/GaussianBayesTree.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/linear/GaussianConditional.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/linear/GaussianDensity.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/linear/GaussianEliminationTree.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/linear/GaussianFactor.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/linear/GaussianFactorGraph.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/linear/GaussianISAM.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/linear/GaussianJunctionTree.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/linear/HessianFactor.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/linear/IterativeSolver.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/linear/JacobianFactor.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/linear/KalmanFilter.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/linear/LossFunctions.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/linear/NoiseModel.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/linear/PCGSolver.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/linear/Preconditioner.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/linear/Sampler.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/linear/Scatter.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/linear/SubgraphBuilder.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/linear/SubgraphPreconditioner.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/linear/SubgraphSolver.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/linear/VectorValues.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/linear/iterative.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/linear/linearExceptions.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/nonlinear/CustomFactor.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/nonlinear/DoglegOptimizer.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/nonlinear/DoglegOptimizerImpl.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/nonlinear/GaussNewtonOptimizer.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/nonlinear/GraphvizFormatting.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/nonlinear/ISAM2-impl.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/nonlinear/ISAM2.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/nonlinear/ISAM2Clique.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/nonlinear/ISAM2Params.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/nonlinear/LevenbergMarquardtOptimizer.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/nonlinear/LevenbergMarquardtParams.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/nonlinear/LinearContainerFactor.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/nonlinear/Marginals.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/nonlinear/NonlinearConjugateGradientOptimizer.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/nonlinear/NonlinearFactor.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/nonlinear/NonlinearFactorGraph.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/nonlinear/NonlinearISAM.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/nonlinear/NonlinearOptimizer.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/nonlinear/NonlinearOptimizerParams.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/nonlinear/Values.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/sfm/MFAS.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/sfm/SfmData.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/sfm/SfmTrack.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/sfm/ShonanAveraging.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/sfm/ShonanFactor.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/sfm/TranslationRecovery.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/slam/EssentialMatrixConstraint.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/slam/FrobeniusFactor.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/slam/InitializePose3.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/slam/OrientedPlane3Factor.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/slam/dataset.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/slam/lago.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/navigation/AHRSFactor.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/navigation/AttitudeFactor.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/navigation/BarometricFactor.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/navigation/CombinedImuFactor.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/navigation/GPSFactor.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/navigation/ImuBias.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/navigation/ImuFactor.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/navigation/ManifoldPreintegration.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/navigation/NavState.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/navigation/PreintegratedRotation.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/navigation/PreintegrationBase.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/navigation/PreintegrationParams.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/navigation/ScenarioRunner.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/navigation/TangentPreintegration.cpp.o
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/build.make
-gtsam/libgtsam.so.4.2.0: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
-gtsam/libgtsam.so.4.2.0: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
-gtsam/libgtsam.so.4.2.0: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0
-gtsam/libgtsam.so.4.2.0: /usr/lib/aarch64-linux-gnu/libboost_thread.so.1.71.0
-gtsam/libgtsam.so.4.2.0: /usr/lib/aarch64-linux-gnu/libboost_date_time.so.1.71.0
-gtsam/libgtsam.so.4.2.0: /usr/lib/aarch64-linux-gnu/libboost_regex.so.1.71.0
-gtsam/libgtsam.so.4.2.0: /usr/lib/aarch64-linux-gnu/libboost_timer.so.1.71.0
-gtsam/libgtsam.so.4.2.0: /usr/lib/aarch64-linux-gnu/libboost_chrono.so.1.71.0
-gtsam/libgtsam.so.4.2.0: /usr/lib/aarch64-linux-gnu/libtbb.so
-gtsam/libgtsam.so.4.2.0: /usr/lib/aarch64-linux-gnu/libtbbmalloc.so
-gtsam/libgtsam.so.4.2.0: /usr/lib/aarch64-linux-gnu/libboost_atomic.so.1.71.0
-gtsam/libgtsam.so.4.2.0: gtsam/3rdparty/metis/libmetis/libmetis-gtsam.so
-gtsam/libgtsam.so.4.2.0: gtsam/CMakeFiles/gtsam.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_165) "Linking CXX shared library libgtsam.so"
+gtsam/libgtsam.so.4.1.0: gtsam/CMakeFiles/gtsam.dir/3rdparty/CCOLAMD/Source/ccolamd.c.o
+gtsam/libgtsam.so.4.1.0: gtsam/CMakeFiles/gtsam.dir/3rdparty/SuiteSparse_config/SuiteSparse_config.c.o
+gtsam/libgtsam.so.4.1.0: gtsam/CMakeFiles/gtsam.dir/base/DSFVector.cpp.o
+gtsam/libgtsam.so.4.1.0: gtsam/CMakeFiles/gtsam.dir/base/Matrix.cpp.o
+gtsam/libgtsam.so.4.1.0: gtsam/CMakeFiles/gtsam.dir/base/SymmetricBlockMatrix.cpp.o
+gtsam/libgtsam.so.4.1.0: gtsam/CMakeFiles/gtsam.dir/base/Vector.cpp.o
+gtsam/libgtsam.so.4.1.0: gtsam/CMakeFiles/gtsam.dir/base/VerticalBlockMatrix.cpp.o
+gtsam/libgtsam.so.4.1.0: gtsam/CMakeFiles/gtsam.dir/base/cholesky.cpp.o
+gtsam/libgtsam.so.4.1.0: gtsam/CMakeFiles/gtsam.dir/base/debug.cpp.o
+gtsam/libgtsam.so.4.1.0: gtsam/CMakeFiles/gtsam.dir/base/timing.cpp.o
+gtsam/libgtsam.so.4.1.0: gtsam/CMakeFiles/gtsam.dir/base/types.cpp.o
+gtsam/libgtsam.so.4.1.0: gtsam/CMakeFiles/gtsam.dir/basis/Chebyshev.cpp.o
+gtsam/libgtsam.so.4.1.0: gtsam/CMakeFiles/gtsam.dir/basis/Chebyshev2.cpp.o
+gtsam/libgtsam.so.4.1.0: gtsam/CMakeFiles/gtsam.dir/geometry/Cal3.cpp.o
+gtsam/libgtsam.so.4.1.0: gtsam/CMakeFiles/gtsam.dir/geometry/Cal3Bundler.cpp.o
+gtsam/libgtsam.so.4.1.0: gtsam/CMakeFiles/gtsam.dir/geometry/Cal3DS2.cpp.o
+gtsam/libgtsam.so.4.1.0: gtsam/CMakeFiles/gtsam.dir/geometry/Cal3DS2_Base.cpp.o
+gtsam/libgtsam.so.4.1.0: gtsam/CMakeFiles/gtsam.dir/geometry/Cal3Fisheye.cpp.o
+gtsam/libgtsam.so.4.1.0: gtsam/CMakeFiles/gtsam.dir/geometry/Cal3Unified.cpp.o
+gtsam/libgtsam.so.4.1.0: gtsam/CMakeFiles/gtsam.dir/geometry/Cal3_S2.cpp.o
+gtsam/libgtsam.so.4.1.0: gtsam/CMakeFiles/gtsam.dir/geometry/Cal3_S2Stereo.cpp.o
+gtsam/libgtsam.so.4.1.0: gtsam/CMakeFiles/gtsam.dir/geometry/CalibratedCamera.cpp.o
+gtsam/libgtsam.so.4.1.0: gtsam/CMakeFiles/gtsam.dir/geometry/Cyclic.cpp.o
+gtsam/libgtsam.so.4.1.0: gtsam/CMakeFiles/gtsam.dir/geometry/EssentialMatrix.cpp.o
+gtsam/libgtsam.so.4.1.0: gtsam/CMakeFiles/gtsam.dir/geometry/Line3.cpp.o
+gtsam/libgtsam.so.4.1.0: gtsam/CMakeFiles/gtsam.dir/geometry/OrientedPlane3.cpp.o
+gtsam/libgtsam.so.4.1.0: gtsam/CMakeFiles/gtsam.dir/geometry/Point2.cpp.o
+gtsam/libgtsam.so.4.1.0: gtsam/CMakeFiles/gtsam.dir/geometry/Point3.cpp.o
+gtsam/libgtsam.so.4.1.0: gtsam/CMakeFiles/gtsam.dir/geometry/Pose2.cpp.o
+gtsam/libgtsam.so.4.1.0: gtsam/CMakeFiles/gtsam.dir/geometry/Pose3.cpp.o
+gtsam/libgtsam.so.4.1.0: gtsam/CMakeFiles/gtsam.dir/geometry/Rot2.cpp.o
+gtsam/libgtsam.so.4.1.0: gtsam/CMakeFiles/gtsam.dir/geometry/Rot3.cpp.o
+gtsam/libgtsam.so.4.1.0: gtsam/CMakeFiles/gtsam.dir/geometry/Rot3M.cpp.o
+gtsam/libgtsam.so.4.1.0: gtsam/CMakeFiles/gtsam.dir/geometry/SO3.cpp.o
+gtsam/libgtsam.so.4.1.0: gtsam/CMakeFiles/gtsam.dir/geometry/SO4.cpp.o
+gtsam/libgtsam.so.4.1.0: gtsam/CMakeFiles/gtsam.dir/geometry/SOn.cpp.o
+gtsam/libgtsam.so.4.1.0: gtsam/CMakeFiles/gtsam.dir/geometry/Similarity3.cpp.o
+gtsam/libgtsam.so.4.1.0: gtsam/CMakeFiles/gtsam.dir/geometry/SimpleCamera.cpp.o
+gtsam/libgtsam.so.4.1.0: gtsam/CMakeFiles/gtsam.dir/geometry/StereoCamera.cpp.o
+gtsam/libgtsam.so.4.1.0: gtsam/CMakeFiles/gtsam.dir/geometry/StereoPoint2.cpp.o
+gtsam/libgtsam.so.4.1.0: gtsam/CMakeFiles/gtsam.dir/geometry/Unit3.cpp.o
+gtsam/libgtsam.so.4.1.0: gtsam/CMakeFiles/gtsam.dir/geometry/triangulation.cpp.o
+gtsam/libgtsam.so.4.1.0: gtsam/CMakeFiles/gtsam.dir/inference/BayesTree.cpp.o
+gtsam/libgtsam.so.4.1.0: gtsam/CMakeFiles/gtsam.dir/inference/Factor.cpp.o
+gtsam/libgtsam.so.4.1.0: gtsam/CMakeFiles/gtsam.dir/inference/Key.cpp.o
+gtsam/libgtsam.so.4.1.0: gtsam/CMakeFiles/gtsam.dir/inference/LabeledSymbol.cpp.o
+gtsam/libgtsam.so.4.1.0: gtsam/CMakeFiles/gtsam.dir/inference/Ordering.cpp.o
+gtsam/libgtsam.so.4.1.0: gtsam/CMakeFiles/gtsam.dir/inference/Symbol.cpp.o
+gtsam/libgtsam.so.4.1.0: gtsam/CMakeFiles/gtsam.dir/inference/VariableIndex.cpp.o
+gtsam/libgtsam.so.4.1.0: gtsam/CMakeFiles/gtsam.dir/inference/VariableSlots.cpp.o
+gtsam/libgtsam.so.4.1.0: gtsam/CMakeFiles/gtsam.dir/symbolic/SymbolicBayesNet.cpp.o
+gtsam/libgtsam.so.4.1.0: gtsam/CMakeFiles/gtsam.dir/symbolic/SymbolicBayesTree.cpp.o
+gtsam/libgtsam.so.4.1.0: gtsam/CMakeFiles/gtsam.dir/symbolic/SymbolicConditional.cpp.o
+gtsam/libgtsam.so.4.1.0: gtsam/CMakeFiles/gtsam.dir/symbolic/SymbolicEliminationTree.cpp.o
+gtsam/libgtsam.so.4.1.0: gtsam/CMakeFiles/gtsam.dir/symbolic/SymbolicFactor.cpp.o
+gtsam/libgtsam.so.4.1.0: gtsam/CMakeFiles/gtsam.dir/symbolic/SymbolicFactorGraph.cpp.o
+gtsam/libgtsam.so.4.1.0: gtsam/CMakeFiles/gtsam.dir/symbolic/SymbolicISAM.cpp.o
+gtsam/libgtsam.so.4.1.0: gtsam/CMakeFiles/gtsam.dir/symbolic/SymbolicJunctionTree.cpp.o
+gtsam/libgtsam.so.4.1.0: gtsam/CMakeFiles/gtsam.dir/discrete/DecisionTreeFactor.cpp.o
+gtsam/libgtsam.so.4.1.0: gtsam/CMakeFiles/gtsam.dir/discrete/DiscreteBayesNet.cpp.o
+gtsam/libgtsam.so.4.1.0: gtsam/CMakeFiles/gtsam.dir/discrete/DiscreteBayesTree.cpp.o
+gtsam/libgtsam.so.4.1.0: gtsam/CMakeFiles/gtsam.dir/discrete/DiscreteConditional.cpp.o
+gtsam/libgtsam.so.4.1.0: gtsam/CMakeFiles/gtsam.dir/discrete/DiscreteEliminationTree.cpp.o
+gtsam/libgtsam.so.4.1.0: gtsam/CMakeFiles/gtsam.dir/discrete/DiscreteFactor.cpp.o
+gtsam/libgtsam.so.4.1.0: gtsam/CMakeFiles/gtsam.dir/discrete/DiscreteFactorGraph.cpp.o
+gtsam/libgtsam.so.4.1.0: gtsam/CMakeFiles/gtsam.dir/discrete/DiscreteJunctionTree.cpp.o
+gtsam/libgtsam.so.4.1.0: gtsam/CMakeFiles/gtsam.dir/discrete/DiscreteKey.cpp.o
+gtsam/libgtsam.so.4.1.0: gtsam/CMakeFiles/gtsam.dir/discrete/Potentials.cpp.o
+gtsam/libgtsam.so.4.1.0: gtsam/CMakeFiles/gtsam.dir/discrete/Signature.cpp.o
+gtsam/libgtsam.so.4.1.0: gtsam/CMakeFiles/gtsam.dir/linear/ConjugateGradientSolver.cpp.o
+gtsam/libgtsam.so.4.1.0: gtsam/CMakeFiles/gtsam.dir/linear/Errors.cpp.o
+gtsam/libgtsam.so.4.1.0: gtsam/CMakeFiles/gtsam.dir/linear/GaussianBayesNet.cpp.o
+gtsam/libgtsam.so.4.1.0: gtsam/CMakeFiles/gtsam.dir/linear/GaussianBayesTree.cpp.o
+gtsam/libgtsam.so.4.1.0: gtsam/CMakeFiles/gtsam.dir/linear/GaussianConditional.cpp.o
+gtsam/libgtsam.so.4.1.0: gtsam/CMakeFiles/gtsam.dir/linear/GaussianDensity.cpp.o
+gtsam/libgtsam.so.4.1.0: gtsam/CMakeFiles/gtsam.dir/linear/GaussianEliminationTree.cpp.o
+gtsam/libgtsam.so.4.1.0: gtsam/CMakeFiles/gtsam.dir/linear/GaussianFactor.cpp.o
+gtsam/libgtsam.so.4.1.0: gtsam/CMakeFiles/gtsam.dir/linear/GaussianFactorGraph.cpp.o
+gtsam/libgtsam.so.4.1.0: gtsam/CMakeFiles/gtsam.dir/linear/GaussianISAM.cpp.o
+gtsam/libgtsam.so.4.1.0: gtsam/CMakeFiles/gtsam.dir/linear/GaussianJunctionTree.cpp.o
+gtsam/libgtsam.so.4.1.0: gtsam/CMakeFiles/gtsam.dir/linear/HessianFactor.cpp.o
+gtsam/libgtsam.so.4.1.0: gtsam/CMakeFiles/gtsam.dir/linear/IterativeSolver.cpp.o
+gtsam/libgtsam.so.4.1.0: gtsam/CMakeFiles/gtsam.dir/linear/JacobianFactor.cpp.o
+gtsam/libgtsam.so.4.1.0: gtsam/CMakeFiles/gtsam.dir/linear/KalmanFilter.cpp.o
+gtsam/libgtsam.so.4.1.0: gtsam/CMakeFiles/gtsam.dir/linear/LossFunctions.cpp.o
+gtsam/libgtsam.so.4.1.0: gtsam/CMakeFiles/gtsam.dir/linear/NoiseModel.cpp.o
+gtsam/libgtsam.so.4.1.0: gtsam/CMakeFiles/gtsam.dir/linear/PCGSolver.cpp.o
+gtsam/libgtsam.so.4.1.0: gtsam/CMakeFiles/gtsam.dir/linear/Preconditioner.cpp.o
+gtsam/libgtsam.so.4.1.0: gtsam/CMakeFiles/gtsam.dir/linear/Sampler.cpp.o
+gtsam/libgtsam.so.4.1.0: gtsam/CMakeFiles/gtsam.dir/linear/Scatter.cpp.o
+gtsam/libgtsam.so.4.1.0: gtsam/CMakeFiles/gtsam.dir/linear/SubgraphBuilder.cpp.o
+gtsam/libgtsam.so.4.1.0: gtsam/CMakeFiles/gtsam.dir/linear/SubgraphPreconditioner.cpp.o
+gtsam/libgtsam.so.4.1.0: gtsam/CMakeFiles/gtsam.dir/linear/SubgraphSolver.cpp.o
+gtsam/libgtsam.so.4.1.0: gtsam/CMakeFiles/gtsam.dir/linear/VectorValues.cpp.o
+gtsam/libgtsam.so.4.1.0: gtsam/CMakeFiles/gtsam.dir/linear/iterative.cpp.o
+gtsam/libgtsam.so.4.1.0: gtsam/CMakeFiles/gtsam.dir/linear/linearExceptions.cpp.o
+gtsam/libgtsam.so.4.1.0: gtsam/CMakeFiles/gtsam.dir/nonlinear/CustomFactor.cpp.o
+gtsam/libgtsam.so.4.1.0: gtsam/CMakeFiles/gtsam.dir/nonlinear/DoglegOptimizer.cpp.o
+gtsam/libgtsam.so.4.1.0: gtsam/CMakeFiles/gtsam.dir/nonlinear/DoglegOptimizerImpl.cpp.o
+gtsam/libgtsam.so.4.1.0: gtsam/CMakeFiles/gtsam.dir/nonlinear/GaussNewtonOptimizer.cpp.o
+gtsam/libgtsam.so.4.1.0: gtsam/CMakeFiles/gtsam.dir/nonlinear/ISAM2-impl.cpp.o
+gtsam/libgtsam.so.4.1.0: gtsam/CMakeFiles/gtsam.dir/nonlinear/ISAM2.cpp.o
+gtsam/libgtsam.so.4.1.0: gtsam/CMakeFiles/gtsam.dir/nonlinear/ISAM2Clique.cpp.o
+gtsam/libgtsam.so.4.1.0: gtsam/CMakeFiles/gtsam.dir/nonlinear/ISAM2Params.cpp.o
+gtsam/libgtsam.so.4.1.0: gtsam/CMakeFiles/gtsam.dir/nonlinear/LevenbergMarquardtOptimizer.cpp.o
+gtsam/libgtsam.so.4.1.0: gtsam/CMakeFiles/gtsam.dir/nonlinear/LevenbergMarquardtParams.cpp.o
+gtsam/libgtsam.so.4.1.0: gtsam/CMakeFiles/gtsam.dir/nonlinear/LinearContainerFactor.cpp.o
+gtsam/libgtsam.so.4.1.0: gtsam/CMakeFiles/gtsam.dir/nonlinear/Marginals.cpp.o
+gtsam/libgtsam.so.4.1.0: gtsam/CMakeFiles/gtsam.dir/nonlinear/NonlinearConjugateGradientOptimizer.cpp.o
+gtsam/libgtsam.so.4.1.0: gtsam/CMakeFiles/gtsam.dir/nonlinear/NonlinearFactor.cpp.o
+gtsam/libgtsam.so.4.1.0: gtsam/CMakeFiles/gtsam.dir/nonlinear/NonlinearFactorGraph.cpp.o
+gtsam/libgtsam.so.4.1.0: gtsam/CMakeFiles/gtsam.dir/nonlinear/NonlinearISAM.cpp.o
+gtsam/libgtsam.so.4.1.0: gtsam/CMakeFiles/gtsam.dir/nonlinear/NonlinearOptimizer.cpp.o
+gtsam/libgtsam.so.4.1.0: gtsam/CMakeFiles/gtsam.dir/nonlinear/NonlinearOptimizerParams.cpp.o
+gtsam/libgtsam.so.4.1.0: gtsam/CMakeFiles/gtsam.dir/nonlinear/Values.cpp.o
+gtsam/libgtsam.so.4.1.0: gtsam/CMakeFiles/gtsam.dir/sfm/MFAS.cpp.o
+gtsam/libgtsam.so.4.1.0: gtsam/CMakeFiles/gtsam.dir/sfm/ShonanAveraging.cpp.o
+gtsam/libgtsam.so.4.1.0: gtsam/CMakeFiles/gtsam.dir/sfm/ShonanFactor.cpp.o
+gtsam/libgtsam.so.4.1.0: gtsam/CMakeFiles/gtsam.dir/sfm/TranslationRecovery.cpp.o
+gtsam/libgtsam.so.4.1.0: gtsam/CMakeFiles/gtsam.dir/slam/EssentialMatrixConstraint.cpp.o
+gtsam/libgtsam.so.4.1.0: gtsam/CMakeFiles/gtsam.dir/slam/FrobeniusFactor.cpp.o
+gtsam/libgtsam.so.4.1.0: gtsam/CMakeFiles/gtsam.dir/slam/InitializePose3.cpp.o
+gtsam/libgtsam.so.4.1.0: gtsam/CMakeFiles/gtsam.dir/slam/OrientedPlane3Factor.cpp.o
+gtsam/libgtsam.so.4.1.0: gtsam/CMakeFiles/gtsam.dir/slam/dataset.cpp.o
+gtsam/libgtsam.so.4.1.0: gtsam/CMakeFiles/gtsam.dir/slam/lago.cpp.o
+gtsam/libgtsam.so.4.1.0: gtsam/CMakeFiles/gtsam.dir/navigation/AHRSFactor.cpp.o
+gtsam/libgtsam.so.4.1.0: gtsam/CMakeFiles/gtsam.dir/navigation/AttitudeFactor.cpp.o
+gtsam/libgtsam.so.4.1.0: gtsam/CMakeFiles/gtsam.dir/navigation/CombinedImuFactor.cpp.o
+gtsam/libgtsam.so.4.1.0: gtsam/CMakeFiles/gtsam.dir/navigation/GPSFactor.cpp.o
+gtsam/libgtsam.so.4.1.0: gtsam/CMakeFiles/gtsam.dir/navigation/ImuBias.cpp.o
+gtsam/libgtsam.so.4.1.0: gtsam/CMakeFiles/gtsam.dir/navigation/ImuFactor.cpp.o
+gtsam/libgtsam.so.4.1.0: gtsam/CMakeFiles/gtsam.dir/navigation/ManifoldPreintegration.cpp.o
+gtsam/libgtsam.so.4.1.0: gtsam/CMakeFiles/gtsam.dir/navigation/NavState.cpp.o
+gtsam/libgtsam.so.4.1.0: gtsam/CMakeFiles/gtsam.dir/navigation/PreintegratedRotation.cpp.o
+gtsam/libgtsam.so.4.1.0: gtsam/CMakeFiles/gtsam.dir/navigation/PreintegrationBase.cpp.o
+gtsam/libgtsam.so.4.1.0: gtsam/CMakeFiles/gtsam.dir/navigation/PreintegrationParams.cpp.o
+gtsam/libgtsam.so.4.1.0: gtsam/CMakeFiles/gtsam.dir/navigation/ScenarioRunner.cpp.o
+gtsam/libgtsam.so.4.1.0: gtsam/CMakeFiles/gtsam.dir/navigation/TangentPreintegration.cpp.o
+gtsam/libgtsam.so.4.1.0: gtsam/CMakeFiles/gtsam.dir/build.make
+gtsam/libgtsam.so.4.1.0: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
+gtsam/libgtsam.so.4.1.0: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
+gtsam/libgtsam.so.4.1.0: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0
+gtsam/libgtsam.so.4.1.0: /usr/lib/aarch64-linux-gnu/libboost_thread.so.1.71.0
+gtsam/libgtsam.so.4.1.0: /usr/lib/aarch64-linux-gnu/libboost_date_time.so.1.71.0
+gtsam/libgtsam.so.4.1.0: /usr/lib/aarch64-linux-gnu/libboost_regex.so.1.71.0
+gtsam/libgtsam.so.4.1.0: /usr/lib/aarch64-linux-gnu/libboost_timer.so.1.71.0
+gtsam/libgtsam.so.4.1.0: /usr/lib/aarch64-linux-gnu/libboost_chrono.so.1.71.0
+gtsam/libgtsam.so.4.1.0: /usr/lib/aarch64-linux-gnu/libtbb.so
+gtsam/libgtsam.so.4.1.0: /usr/lib/aarch64-linux-gnu/libtbbmalloc.so
+gtsam/libgtsam.so.4.1.0: /usr/lib/aarch64-linux-gnu/libboost_atomic.so.1.71.0
+gtsam/libgtsam.so.4.1.0: gtsam/3rdparty/metis/libmetis/libmetis-gtsam.so
+gtsam/libgtsam.so.4.1.0: gtsam/CMakeFiles/gtsam.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_139) "Linking CXX shared library libgtsam.so"
 	cd /home/catkin_ws/build/gtsam/gtsam && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gtsam.dir/link.txt --verbose=$(VERBOSE)
-	cd /home/catkin_ws/build/gtsam/gtsam && $(CMAKE_COMMAND) -E cmake_symlink_library libgtsam.so.4.2.0 libgtsam.so.4 libgtsam.so
+	cd /home/catkin_ws/build/gtsam/gtsam && $(CMAKE_COMMAND) -E cmake_symlink_library libgtsam.so.4.1.0 libgtsam.so.4 libgtsam.so
 
-gtsam/libgtsam.so.4: gtsam/libgtsam.so.4.2.0
+gtsam/libgtsam.so.4: gtsam/libgtsam.so.4.1.0
 	@$(CMAKE_COMMAND) -E touch_nocreate gtsam/libgtsam.so.4
 
-gtsam/libgtsam.so: gtsam/libgtsam.so.4.2.0
+gtsam/libgtsam.so: gtsam/libgtsam.so.4.1.0
 	@$(CMAKE_COMMAND) -E touch_nocreate gtsam/libgtsam.so
 
 # Rule to build all files generated by this target.

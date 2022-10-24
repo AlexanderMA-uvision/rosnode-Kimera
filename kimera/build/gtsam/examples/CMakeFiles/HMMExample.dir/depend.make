@@ -20,13 +20,11 @@ examples/CMakeFiles/HMMExample.dir/HMMExample.cpp.o: /home/catkin_ws/src/gtsam/g
 examples/CMakeFiles/HMMExample.dir/HMMExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteBayesNet.h
 examples/CMakeFiles/HMMExample.dir/HMMExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteBayesTree.h
 examples/CMakeFiles/HMMExample.dir/HMMExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteConditional.h
-examples/CMakeFiles/HMMExample.dir/HMMExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteDistribution.h
 examples/CMakeFiles/HMMExample.dir/HMMExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteFactor.h
 examples/CMakeFiles/HMMExample.dir/HMMExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteFactorGraph.h
 examples/CMakeFiles/HMMExample.dir/HMMExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteKey.h
-examples/CMakeFiles/HMMExample.dir/HMMExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteLookupDAG.h
 examples/CMakeFiles/HMMExample.dir/HMMExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteMarginals.h
-examples/CMakeFiles/HMMExample.dir/HMMExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteValues.h
+examples/CMakeFiles/HMMExample.dir/HMMExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/discrete/Potentials.h
 examples/CMakeFiles/HMMExample.dir/HMMExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/discrete/Signature.h
 examples/CMakeFiles/HMMExample.dir/HMMExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/global_includes.h
 examples/CMakeFiles/HMMExample.dir/HMMExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/BayesNet-inst.h
@@ -34,7 +32,6 @@ examples/CMakeFiles/HMMExample.dir/HMMExample.cpp.o: /home/catkin_ws/src/gtsam/g
 examples/CMakeFiles/HMMExample.dir/HMMExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/BayesTree.h
 examples/CMakeFiles/HMMExample.dir/HMMExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/BayesTreeCliqueBase.h
 examples/CMakeFiles/HMMExample.dir/HMMExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/Conditional.h
-examples/CMakeFiles/HMMExample.dir/HMMExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/DotWriter.h
 examples/CMakeFiles/HMMExample.dir/HMMExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/EliminateableFactorGraph.h
 examples/CMakeFiles/HMMExample.dir/HMMExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/Factor.h
 examples/CMakeFiles/HMMExample.dir/HMMExample.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/FactorGraph-inst.h

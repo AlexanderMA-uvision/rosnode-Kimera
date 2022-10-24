@@ -3,7 +3,6 @@
 
 examples/CMakeFiles/SFMExampleExpressions.dir/SFMExampleExpressions.cpp.o: /home/catkin_ws/src/gtsam/examples/SFMExampleExpressions.cpp
 examples/CMakeFiles/SFMExampleExpressions.dir/SFMExampleExpressions.cpp.o: /home/catkin_ws/src/gtsam/examples/SFMdata.h
-examples/CMakeFiles/SFMExampleExpressions.dir/SFMExampleExpressions.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/ConcurrentMap.h
 examples/CMakeFiles/SFMExampleExpressions.dir/SFMExampleExpressions.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/FastDefaultAllocator.h
 examples/CMakeFiles/SFMExampleExpressions.dir/SFMExampleExpressions.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/FastList.h
 examples/CMakeFiles/SFMExampleExpressions.dir/SFMExampleExpressions.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/FastMap.h
@@ -14,14 +13,12 @@ examples/CMakeFiles/SFMExampleExpressions.dir/SFMExampleExpressions.cpp.o: /home
 examples/CMakeFiles/SFMExampleExpressions.dir/SFMExampleExpressions.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Lie.h
 examples/CMakeFiles/SFMExampleExpressions.dir/SFMExampleExpressions.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Manifold.h
 examples/CMakeFiles/SFMExampleExpressions.dir/SFMExampleExpressions.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Matrix.h
-examples/CMakeFiles/SFMExampleExpressions.dir/SFMExampleExpressions.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/MatrixSerialization.h
 examples/CMakeFiles/SFMExampleExpressions.dir/SFMExampleExpressions.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/OptionalJacobian.h
 examples/CMakeFiles/SFMExampleExpressions.dir/SFMExampleExpressions.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/SymmetricBlockMatrix.h
 examples/CMakeFiles/SFMExampleExpressions.dir/SFMExampleExpressions.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Testable.h
 examples/CMakeFiles/SFMExampleExpressions.dir/SFMExampleExpressions.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/ThreadsafeException.h
 examples/CMakeFiles/SFMExampleExpressions.dir/SFMExampleExpressions.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Value.h
 examples/CMakeFiles/SFMExampleExpressions.dir/SFMExampleExpressions.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Vector.h
-examples/CMakeFiles/SFMExampleExpressions.dir/SFMExampleExpressions.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/VectorSerialization.h
 examples/CMakeFiles/SFMExampleExpressions.dir/SFMExampleExpressions.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/VectorSpace.h
 examples/CMakeFiles/SFMExampleExpressions.dir/SFMExampleExpressions.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/VerticalBlockMatrix.h
 examples/CMakeFiles/SFMExampleExpressions.dir/SFMExampleExpressions.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/concepts.h
@@ -48,7 +45,6 @@ examples/CMakeFiles/SFMExampleExpressions.dir/SFMExampleExpressions.cpp.o: /home
 examples/CMakeFiles/SFMExampleExpressions.dir/SFMExampleExpressions.cpp.o: /home/catkin_ws/src/gtsam/gtsam/geometry/SOn.h
 examples/CMakeFiles/SFMExampleExpressions.dir/SFMExampleExpressions.cpp.o: /home/catkin_ws/src/gtsam/gtsam/geometry/Unit3.h
 examples/CMakeFiles/SFMExampleExpressions.dir/SFMExampleExpressions.cpp.o: /home/catkin_ws/src/gtsam/gtsam/global_includes.h
-examples/CMakeFiles/SFMExampleExpressions.dir/SFMExampleExpressions.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/DotWriter.h
 examples/CMakeFiles/SFMExampleExpressions.dir/SFMExampleExpressions.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/EliminateableFactorGraph.h
 examples/CMakeFiles/SFMExampleExpressions.dir/SFMExampleExpressions.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/Factor.h
 examples/CMakeFiles/SFMExampleExpressions.dir/SFMExampleExpressions.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/FactorGraph-inst.h
@@ -75,14 +71,12 @@ examples/CMakeFiles/SFMExampleExpressions.dir/SFMExampleExpressions.cpp.o: /home
 examples/CMakeFiles/SFMExampleExpressions.dir/SFMExampleExpressions.cpp.o: /home/catkin_ws/src/gtsam/gtsam/linear/Scatter.h
 examples/CMakeFiles/SFMExampleExpressions.dir/SFMExampleExpressions.cpp.o: /home/catkin_ws/src/gtsam/gtsam/linear/SubgraphBuilder.h
 examples/CMakeFiles/SFMExampleExpressions.dir/SFMExampleExpressions.cpp.o: /home/catkin_ws/src/gtsam/gtsam/linear/SubgraphSolver.h
-examples/CMakeFiles/SFMExampleExpressions.dir/SFMExampleExpressions.cpp.o: /home/catkin_ws/src/gtsam/gtsam/linear/VectorValues.h
 examples/CMakeFiles/SFMExampleExpressions.dir/SFMExampleExpressions.cpp.o: /home/catkin_ws/src/gtsam/gtsam/linear/linearExceptions.h
 examples/CMakeFiles/SFMExampleExpressions.dir/SFMExampleExpressions.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/DoglegOptimizer.h
 examples/CMakeFiles/SFMExampleExpressions.dir/SFMExampleExpressions.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/Expression-inl.h
 examples/CMakeFiles/SFMExampleExpressions.dir/SFMExampleExpressions.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/Expression.h
 examples/CMakeFiles/SFMExampleExpressions.dir/SFMExampleExpressions.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/ExpressionFactor.h
 examples/CMakeFiles/SFMExampleExpressions.dir/SFMExampleExpressions.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/ExpressionFactorGraph.h
-examples/CMakeFiles/SFMExampleExpressions.dir/SFMExampleExpressions.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/GraphvizFormatting.h
 examples/CMakeFiles/SFMExampleExpressions.dir/SFMExampleExpressions.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/NonlinearFactor.h
 examples/CMakeFiles/SFMExampleExpressions.dir/SFMExampleExpressions.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/NonlinearFactorGraph.h
 examples/CMakeFiles/SFMExampleExpressions.dir/SFMExampleExpressions.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/NonlinearOptimizer.h

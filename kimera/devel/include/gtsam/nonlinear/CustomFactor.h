@@ -19,6 +19,8 @@
 
 #include <gtsam/nonlinear/NonlinearFactor.h>
 
+using namespace gtsam;
+
 namespace gtsam {
 
 using JacobianVector = std::vector<Matrix>;
@@ -99,4 +101,4 @@ private:
   }
 };
 
-}
+};

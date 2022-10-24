@@ -12,14 +12,12 @@ CMakeFiles/RpgoReadG2o.dir/examples/RpgoReadG2o.cpp.o: /home/catkin_ws/devel/inc
 CMakeFiles/RpgoReadG2o.dir/examples/RpgoReadG2o.cpp.o: /home/catkin_ws/devel/include/gtsam/base/Lie.h
 CMakeFiles/RpgoReadG2o.dir/examples/RpgoReadG2o.cpp.o: /home/catkin_ws/devel/include/gtsam/base/Manifold.h
 CMakeFiles/RpgoReadG2o.dir/examples/RpgoReadG2o.cpp.o: /home/catkin_ws/devel/include/gtsam/base/Matrix.h
-CMakeFiles/RpgoReadG2o.dir/examples/RpgoReadG2o.cpp.o: /home/catkin_ws/devel/include/gtsam/base/MatrixSerialization.h
 CMakeFiles/RpgoReadG2o.dir/examples/RpgoReadG2o.cpp.o: /home/catkin_ws/devel/include/gtsam/base/OptionalJacobian.h
 CMakeFiles/RpgoReadG2o.dir/examples/RpgoReadG2o.cpp.o: /home/catkin_ws/devel/include/gtsam/base/SymmetricBlockMatrix.h
 CMakeFiles/RpgoReadG2o.dir/examples/RpgoReadG2o.cpp.o: /home/catkin_ws/devel/include/gtsam/base/Testable.h
 CMakeFiles/RpgoReadG2o.dir/examples/RpgoReadG2o.cpp.o: /home/catkin_ws/devel/include/gtsam/base/ThreadsafeException.h
 CMakeFiles/RpgoReadG2o.dir/examples/RpgoReadG2o.cpp.o: /home/catkin_ws/devel/include/gtsam/base/Value.h
 CMakeFiles/RpgoReadG2o.dir/examples/RpgoReadG2o.cpp.o: /home/catkin_ws/devel/include/gtsam/base/Vector.h
-CMakeFiles/RpgoReadG2o.dir/examples/RpgoReadG2o.cpp.o: /home/catkin_ws/devel/include/gtsam/base/VectorSerialization.h
 CMakeFiles/RpgoReadG2o.dir/examples/RpgoReadG2o.cpp.o: /home/catkin_ws/devel/include/gtsam/base/VectorSpace.h
 CMakeFiles/RpgoReadG2o.dir/examples/RpgoReadG2o.cpp.o: /home/catkin_ws/devel/include/gtsam/base/VerticalBlockMatrix.h
 CMakeFiles/RpgoReadG2o.dir/examples/RpgoReadG2o.cpp.o: /home/catkin_ws/devel/include/gtsam/base/concepts.h
@@ -47,7 +45,6 @@ CMakeFiles/RpgoReadG2o.dir/examples/RpgoReadG2o.cpp.o: /home/catkin_ws/devel/inc
 CMakeFiles/RpgoReadG2o.dir/examples/RpgoReadG2o.cpp.o: /home/catkin_ws/devel/include/gtsam/geometry/SOn.h
 CMakeFiles/RpgoReadG2o.dir/examples/RpgoReadG2o.cpp.o: /home/catkin_ws/devel/include/gtsam/geometry/Unit3.h
 CMakeFiles/RpgoReadG2o.dir/examples/RpgoReadG2o.cpp.o: /home/catkin_ws/devel/include/gtsam/global_includes.h
-CMakeFiles/RpgoReadG2o.dir/examples/RpgoReadG2o.cpp.o: /home/catkin_ws/devel/include/gtsam/inference/DotWriter.h
 CMakeFiles/RpgoReadG2o.dir/examples/RpgoReadG2o.cpp.o: /home/catkin_ws/devel/include/gtsam/inference/EliminateableFactorGraph.h
 CMakeFiles/RpgoReadG2o.dir/examples/RpgoReadG2o.cpp.o: /home/catkin_ws/devel/include/gtsam/inference/Factor.h
 CMakeFiles/RpgoReadG2o.dir/examples/RpgoReadG2o.cpp.o: /home/catkin_ws/devel/include/gtsam/inference/FactorGraph-inst.h
@@ -79,7 +76,6 @@ CMakeFiles/RpgoReadG2o.dir/examples/RpgoReadG2o.cpp.o: /home/catkin_ws/devel/inc
 CMakeFiles/RpgoReadG2o.dir/examples/RpgoReadG2o.cpp.o: /home/catkin_ws/devel/include/gtsam/nonlinear/GaussNewtonOptimizer.h
 CMakeFiles/RpgoReadG2o.dir/examples/RpgoReadG2o.cpp.o: /home/catkin_ws/devel/include/gtsam/nonlinear/GncOptimizer.h
 CMakeFiles/RpgoReadG2o.dir/examples/RpgoReadG2o.cpp.o: /home/catkin_ws/devel/include/gtsam/nonlinear/GncParams.h
-CMakeFiles/RpgoReadG2o.dir/examples/RpgoReadG2o.cpp.o: /home/catkin_ws/devel/include/gtsam/nonlinear/GraphvizFormatting.h
 CMakeFiles/RpgoReadG2o.dir/examples/RpgoReadG2o.cpp.o: /home/catkin_ws/devel/include/gtsam/nonlinear/LevenbergMarquardtOptimizer.h
 CMakeFiles/RpgoReadG2o.dir/examples/RpgoReadG2o.cpp.o: /home/catkin_ws/devel/include/gtsam/nonlinear/LevenbergMarquardtParams.h
 CMakeFiles/RpgoReadG2o.dir/examples/RpgoReadG2o.cpp.o: /home/catkin_ws/devel/include/gtsam/nonlinear/NonlinearFactor.h
@@ -90,8 +86,6 @@ CMakeFiles/RpgoReadG2o.dir/examples/RpgoReadG2o.cpp.o: /home/catkin_ws/devel/inc
 CMakeFiles/RpgoReadG2o.dir/examples/RpgoReadG2o.cpp.o: /home/catkin_ws/devel/include/gtsam/nonlinear/Values-inl.h
 CMakeFiles/RpgoReadG2o.dir/examples/RpgoReadG2o.cpp.o: /home/catkin_ws/devel/include/gtsam/nonlinear/Values.h
 CMakeFiles/RpgoReadG2o.dir/examples/RpgoReadG2o.cpp.o: /home/catkin_ws/devel/include/gtsam/sfm/BinaryMeasurement.h
-CMakeFiles/RpgoReadG2o.dir/examples/RpgoReadG2o.cpp.o: /home/catkin_ws/devel/include/gtsam/sfm/SfmData.h
-CMakeFiles/RpgoReadG2o.dir/examples/RpgoReadG2o.cpp.o: /home/catkin_ws/devel/include/gtsam/sfm/SfmTrack.h
 CMakeFiles/RpgoReadG2o.dir/examples/RpgoReadG2o.cpp.o: /home/catkin_ws/devel/include/gtsam/slam/BetweenFactor.h
 CMakeFiles/RpgoReadG2o.dir/examples/RpgoReadG2o.cpp.o: /home/catkin_ws/devel/include/gtsam/slam/PriorFactor.h
 CMakeFiles/RpgoReadG2o.dir/examples/RpgoReadG2o.cpp.o: /home/catkin_ws/devel/include/gtsam/slam/dataset.h

@@ -80,7 +80,7 @@ testFunctorizedFactor_EXTERNAL_OBJECTS =
 gtsam/nonlinear/tests/testFunctorizedFactor: gtsam/nonlinear/tests/CMakeFiles/testFunctorizedFactor.dir/testFunctorizedFactor.cpp.o
 gtsam/nonlinear/tests/testFunctorizedFactor: gtsam/nonlinear/tests/CMakeFiles/testFunctorizedFactor.dir/build.make
 gtsam/nonlinear/tests/testFunctorizedFactor: CppUnitLite/libCppUnitLite.a
-gtsam/nonlinear/tests/testFunctorizedFactor: gtsam/libgtsam.so.4.2.0
+gtsam/nonlinear/tests/testFunctorizedFactor: gtsam/libgtsam.so.4.1.0
 gtsam/nonlinear/tests/testFunctorizedFactor: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 gtsam/nonlinear/tests/testFunctorizedFactor: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 gtsam/nonlinear/tests/testFunctorizedFactor: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

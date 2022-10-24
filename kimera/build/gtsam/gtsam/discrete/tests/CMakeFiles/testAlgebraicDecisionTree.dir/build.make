@@ -80,7 +80,7 @@ testAlgebraicDecisionTree_EXTERNAL_OBJECTS =
 gtsam/discrete/tests/testAlgebraicDecisionTree: gtsam/discrete/tests/CMakeFiles/testAlgebraicDecisionTree.dir/testAlgebraicDecisionTree.cpp.o
 gtsam/discrete/tests/testAlgebraicDecisionTree: gtsam/discrete/tests/CMakeFiles/testAlgebraicDecisionTree.dir/build.make
 gtsam/discrete/tests/testAlgebraicDecisionTree: CppUnitLite/libCppUnitLite.a
-gtsam/discrete/tests/testAlgebraicDecisionTree: gtsam/libgtsam.so.4.2.0
+gtsam/discrete/tests/testAlgebraicDecisionTree: gtsam/libgtsam.so.4.1.0
 gtsam/discrete/tests/testAlgebraicDecisionTree: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 gtsam/discrete/tests/testAlgebraicDecisionTree: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 gtsam/discrete/tests/testAlgebraicDecisionTree: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

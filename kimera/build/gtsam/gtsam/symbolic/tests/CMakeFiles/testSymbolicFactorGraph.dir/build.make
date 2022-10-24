@@ -80,7 +80,7 @@ testSymbolicFactorGraph_EXTERNAL_OBJECTS =
 gtsam/symbolic/tests/testSymbolicFactorGraph: gtsam/symbolic/tests/CMakeFiles/testSymbolicFactorGraph.dir/testSymbolicFactorGraph.cpp.o
 gtsam/symbolic/tests/testSymbolicFactorGraph: gtsam/symbolic/tests/CMakeFiles/testSymbolicFactorGraph.dir/build.make
 gtsam/symbolic/tests/testSymbolicFactorGraph: CppUnitLite/libCppUnitLite.a
-gtsam/symbolic/tests/testSymbolicFactorGraph: gtsam/libgtsam.so.4.2.0
+gtsam/symbolic/tests/testSymbolicFactorGraph: gtsam/libgtsam.so.4.1.0
 gtsam/symbolic/tests/testSymbolicFactorGraph: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 gtsam/symbolic/tests/testSymbolicFactorGraph: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 gtsam/symbolic/tests/testSymbolicFactorGraph: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

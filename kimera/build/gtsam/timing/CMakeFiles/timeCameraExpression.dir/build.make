@@ -79,7 +79,7 @@ timeCameraExpression_EXTERNAL_OBJECTS =
 
 timing/timeCameraExpression: timing/CMakeFiles/timeCameraExpression.dir/timeCameraExpression.cpp.o
 timing/timeCameraExpression: timing/CMakeFiles/timeCameraExpression.dir/build.make
-timing/timeCameraExpression: gtsam/libgtsam.so.4.2.0
+timing/timeCameraExpression: gtsam/libgtsam.so.4.1.0
 timing/timeCameraExpression: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 timing/timeCameraExpression: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 timing/timeCameraExpression: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

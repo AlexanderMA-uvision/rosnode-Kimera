@@ -80,7 +80,7 @@ testPoseTranslationPrior_EXTERNAL_OBJECTS =
 gtsam/slam/tests/testPoseTranslationPrior: gtsam/slam/tests/CMakeFiles/testPoseTranslationPrior.dir/testPoseTranslationPrior.cpp.o
 gtsam/slam/tests/testPoseTranslationPrior: gtsam/slam/tests/CMakeFiles/testPoseTranslationPrior.dir/build.make
 gtsam/slam/tests/testPoseTranslationPrior: CppUnitLite/libCppUnitLite.a
-gtsam/slam/tests/testPoseTranslationPrior: gtsam/libgtsam.so.4.2.0
+gtsam/slam/tests/testPoseTranslationPrior: gtsam/libgtsam.so.4.1.0
 gtsam/slam/tests/testPoseTranslationPrior: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 gtsam/slam/tests/testPoseTranslationPrior: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 gtsam/slam/tests/testPoseTranslationPrior: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

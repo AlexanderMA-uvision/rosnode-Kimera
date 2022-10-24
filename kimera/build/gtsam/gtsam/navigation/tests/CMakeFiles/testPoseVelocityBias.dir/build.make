@@ -80,7 +80,7 @@ testPoseVelocityBias_EXTERNAL_OBJECTS =
 gtsam/navigation/tests/testPoseVelocityBias: gtsam/navigation/tests/CMakeFiles/testPoseVelocityBias.dir/testPoseVelocityBias.cpp.o
 gtsam/navigation/tests/testPoseVelocityBias: gtsam/navigation/tests/CMakeFiles/testPoseVelocityBias.dir/build.make
 gtsam/navigation/tests/testPoseVelocityBias: CppUnitLite/libCppUnitLite.a
-gtsam/navigation/tests/testPoseVelocityBias: gtsam/libgtsam.so.4.2.0
+gtsam/navigation/tests/testPoseVelocityBias: gtsam/libgtsam.so.4.1.0
 gtsam/navigation/tests/testPoseVelocityBias: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 gtsam/navigation/tests/testPoseVelocityBias: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 gtsam/navigation/tests/testPoseVelocityBias: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

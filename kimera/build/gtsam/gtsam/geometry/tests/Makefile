@@ -190,6 +190,36 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+gtsam/geometry/tests/CMakeFiles/testUtilities.valgrind.dir/rule:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/geometry/tests/CMakeFiles/testUtilities.valgrind.dir/rule
+.PHONY : gtsam/geometry/tests/CMakeFiles/testUtilities.valgrind.dir/rule
+
+# Convenience name for target.
+testUtilities.valgrind: gtsam/geometry/tests/CMakeFiles/testUtilities.valgrind.dir/rule
+
+.PHONY : testUtilities.valgrind
+
+# fast build rule for target.
+testUtilities.valgrind/fast:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/geometry/tests/CMakeFiles/testUtilities.valgrind.dir/build.make gtsam/geometry/tests/CMakeFiles/testUtilities.valgrind.dir/build
+.PHONY : testUtilities.valgrind/fast
+
+# Convenience name for target.
+gtsam/geometry/tests/CMakeFiles/testUtilities.dir/rule:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/geometry/tests/CMakeFiles/testUtilities.dir/rule
+.PHONY : gtsam/geometry/tests/CMakeFiles/testUtilities.dir/rule
+
+# Convenience name for target.
+testUtilities: gtsam/geometry/tests/CMakeFiles/testUtilities.dir/rule
+
+.PHONY : testUtilities
+
+# fast build rule for target.
+testUtilities/fast:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/geometry/tests/CMakeFiles/testUtilities.dir/build.make gtsam/geometry/tests/CMakeFiles/testUtilities.dir/build
+.PHONY : testUtilities/fast
+
+# Convenience name for target.
 gtsam/geometry/tests/CMakeFiles/testUnit3.run.dir/rule:
 	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/geometry/tests/CMakeFiles/testUnit3.run.dir/rule
 .PHONY : gtsam/geometry/tests/CMakeFiles/testUnit3.run.dir/rule
@@ -250,6 +280,21 @@ testStereoPoint2.valgrind/fast:
 .PHONY : testStereoPoint2.valgrind/fast
 
 # Convenience name for target.
+gtsam/geometry/tests/CMakeFiles/testStereoCamera.valgrind.dir/rule:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/geometry/tests/CMakeFiles/testStereoCamera.valgrind.dir/rule
+.PHONY : gtsam/geometry/tests/CMakeFiles/testStereoCamera.valgrind.dir/rule
+
+# Convenience name for target.
+testStereoCamera.valgrind: gtsam/geometry/tests/CMakeFiles/testStereoCamera.valgrind.dir/rule
+
+.PHONY : testStereoCamera.valgrind
+
+# fast build rule for target.
+testStereoCamera.valgrind/fast:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/geometry/tests/CMakeFiles/testStereoCamera.valgrind.dir/build.make gtsam/geometry/tests/CMakeFiles/testStereoCamera.valgrind.dir/build
+.PHONY : testStereoCamera.valgrind/fast
+
+# Convenience name for target.
 gtsam/geometry/tests/CMakeFiles/testStereoCamera.run.dir/rule:
 	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/geometry/tests/CMakeFiles/testStereoCamera.run.dir/rule
 .PHONY : gtsam/geometry/tests/CMakeFiles/testStereoCamera.run.dir/rule
@@ -295,21 +340,6 @@ testSimpleCamera/fast:
 .PHONY : testSimpleCamera/fast
 
 # Convenience name for target.
-gtsam/geometry/tests/CMakeFiles/testSphericalCamera.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/geometry/tests/CMakeFiles/testSphericalCamera.dir/rule
-.PHONY : gtsam/geometry/tests/CMakeFiles/testSphericalCamera.dir/rule
-
-# Convenience name for target.
-testSphericalCamera: gtsam/geometry/tests/CMakeFiles/testSphericalCamera.dir/rule
-
-.PHONY : testSphericalCamera
-
-# fast build rule for target.
-testSphericalCamera/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/geometry/tests/CMakeFiles/testSphericalCamera.dir/build.make gtsam/geometry/tests/CMakeFiles/testSphericalCamera.dir/build
-.PHONY : testSphericalCamera/fast
-
-# Convenience name for target.
 gtsam/geometry/tests/CMakeFiles/testSimilarity3.run.dir/rule:
 	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/geometry/tests/CMakeFiles/testSimilarity3.run.dir/rule
 .PHONY : gtsam/geometry/tests/CMakeFiles/testSimilarity3.run.dir/rule
@@ -323,51 +353,6 @@ testSimilarity3.run: gtsam/geometry/tests/CMakeFiles/testSimilarity3.run.dir/rul
 testSimilarity3.run/fast:
 	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/geometry/tests/CMakeFiles/testSimilarity3.run.dir/build.make gtsam/geometry/tests/CMakeFiles/testSimilarity3.run.dir/build
 .PHONY : testSimilarity3.run/fast
-
-# Convenience name for target.
-gtsam/geometry/tests/CMakeFiles/testSimilarity2.valgrind.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/geometry/tests/CMakeFiles/testSimilarity2.valgrind.dir/rule
-.PHONY : gtsam/geometry/tests/CMakeFiles/testSimilarity2.valgrind.dir/rule
-
-# Convenience name for target.
-testSimilarity2.valgrind: gtsam/geometry/tests/CMakeFiles/testSimilarity2.valgrind.dir/rule
-
-.PHONY : testSimilarity2.valgrind
-
-# fast build rule for target.
-testSimilarity2.valgrind/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/geometry/tests/CMakeFiles/testSimilarity2.valgrind.dir/build.make gtsam/geometry/tests/CMakeFiles/testSimilarity2.valgrind.dir/build
-.PHONY : testSimilarity2.valgrind/fast
-
-# Convenience name for target.
-gtsam/geometry/tests/CMakeFiles/testStereoCamera.valgrind.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/geometry/tests/CMakeFiles/testStereoCamera.valgrind.dir/rule
-.PHONY : gtsam/geometry/tests/CMakeFiles/testStereoCamera.valgrind.dir/rule
-
-# Convenience name for target.
-testStereoCamera.valgrind: gtsam/geometry/tests/CMakeFiles/testStereoCamera.valgrind.dir/rule
-
-.PHONY : testStereoCamera.valgrind
-
-# fast build rule for target.
-testStereoCamera.valgrind/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/geometry/tests/CMakeFiles/testStereoCamera.valgrind.dir/build.make gtsam/geometry/tests/CMakeFiles/testStereoCamera.valgrind.dir/build
-.PHONY : testStereoCamera.valgrind/fast
-
-# Convenience name for target.
-gtsam/geometry/tests/CMakeFiles/testSimilarity2.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/geometry/tests/CMakeFiles/testSimilarity2.dir/rule
-.PHONY : gtsam/geometry/tests/CMakeFiles/testSimilarity2.dir/rule
-
-# Convenience name for target.
-testSimilarity2: gtsam/geometry/tests/CMakeFiles/testSimilarity2.dir/rule
-
-.PHONY : testSimilarity2
-
-# fast build rule for target.
-testSimilarity2/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/geometry/tests/CMakeFiles/testSimilarity2.dir/build.make gtsam/geometry/tests/CMakeFiles/testSimilarity2.dir/build
-.PHONY : testSimilarity2/fast
 
 # Convenience name for target.
 gtsam/geometry/tests/CMakeFiles/testUnit3.valgrind.dir/rule:
@@ -398,6 +383,21 @@ testSerializationGeometry.valgrind: gtsam/geometry/tests/CMakeFiles/testSerializ
 testSerializationGeometry.valgrind/fast:
 	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/geometry/tests/CMakeFiles/testSerializationGeometry.valgrind.dir/build.make gtsam/geometry/tests/CMakeFiles/testSerializationGeometry.valgrind.dir/build
 .PHONY : testSerializationGeometry.valgrind/fast
+
+# Convenience name for target.
+gtsam/geometry/tests/CMakeFiles/testUtilities.run.dir/rule:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/geometry/tests/CMakeFiles/testUtilities.run.dir/rule
+.PHONY : gtsam/geometry/tests/CMakeFiles/testUtilities.run.dir/rule
+
+# Convenience name for target.
+testUtilities.run: gtsam/geometry/tests/CMakeFiles/testUtilities.run.dir/rule
+
+.PHONY : testUtilities.run
+
+# fast build rule for target.
+testUtilities.run/fast:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/geometry/tests/CMakeFiles/testUtilities.run.dir/build.make gtsam/geometry/tests/CMakeFiles/testUtilities.run.dir/build
+.PHONY : testUtilities.run/fast
 
 # Convenience name for target.
 gtsam/geometry/tests/CMakeFiles/testSerializationGeometry.run.dir/rule:
@@ -580,21 +580,6 @@ testRot3.run/fast:
 .PHONY : testRot3.run/fast
 
 # Convenience name for target.
-gtsam/geometry/tests/CMakeFiles/testSphericalCamera.run.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/geometry/tests/CMakeFiles/testSphericalCamera.run.dir/rule
-.PHONY : gtsam/geometry/tests/CMakeFiles/testSphericalCamera.run.dir/rule
-
-# Convenience name for target.
-testSphericalCamera.run: gtsam/geometry/tests/CMakeFiles/testSphericalCamera.run.dir/rule
-
-.PHONY : testSphericalCamera.run
-
-# fast build rule for target.
-testSphericalCamera.run/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/geometry/tests/CMakeFiles/testSphericalCamera.run.dir/build.make gtsam/geometry/tests/CMakeFiles/testSphericalCamera.run.dir/build
-.PHONY : testSphericalCamera.run/fast
-
-# Convenience name for target.
 gtsam/geometry/tests/CMakeFiles/testRot2.valgrind.dir/rule:
 	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/geometry/tests/CMakeFiles/testRot2.valgrind.dir/rule
 .PHONY : gtsam/geometry/tests/CMakeFiles/testRot2.valgrind.dir/rule
@@ -758,21 +743,6 @@ testEssentialMatrix: gtsam/geometry/tests/CMakeFiles/testEssentialMatrix.dir/rul
 testEssentialMatrix/fast:
 	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/geometry/tests/CMakeFiles/testEssentialMatrix.dir/build.make gtsam/geometry/tests/CMakeFiles/testEssentialMatrix.dir/build
 .PHONY : testEssentialMatrix/fast
-
-# Convenience name for target.
-gtsam/geometry/tests/CMakeFiles/testSphericalCamera.valgrind.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/geometry/tests/CMakeFiles/testSphericalCamera.valgrind.dir/rule
-.PHONY : gtsam/geometry/tests/CMakeFiles/testSphericalCamera.valgrind.dir/rule
-
-# Convenience name for target.
-testSphericalCamera.valgrind: gtsam/geometry/tests/CMakeFiles/testSphericalCamera.valgrind.dir/rule
-
-.PHONY : testSphericalCamera.valgrind
-
-# fast build rule for target.
-testSphericalCamera.valgrind/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/geometry/tests/CMakeFiles/testSphericalCamera.valgrind.dir/build.make gtsam/geometry/tests/CMakeFiles/testSphericalCamera.valgrind.dir/build
-.PHONY : testSphericalCamera.valgrind/fast
 
 # Convenience name for target.
 gtsam/geometry/tests/CMakeFiles/testCameraSet.valgrind.dir/rule:
@@ -1598,21 +1568,6 @@ testOrientedPlane3.valgrind: gtsam/geometry/tests/CMakeFiles/testOrientedPlane3.
 testOrientedPlane3.valgrind/fast:
 	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/geometry/tests/CMakeFiles/testOrientedPlane3.valgrind.dir/build.make gtsam/geometry/tests/CMakeFiles/testOrientedPlane3.valgrind.dir/build
 .PHONY : testOrientedPlane3.valgrind/fast
-
-# Convenience name for target.
-gtsam/geometry/tests/CMakeFiles/testSimilarity2.run.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 gtsam/geometry/tests/CMakeFiles/testSimilarity2.run.dir/rule
-.PHONY : gtsam/geometry/tests/CMakeFiles/testSimilarity2.run.dir/rule
-
-# Convenience name for target.
-testSimilarity2.run: gtsam/geometry/tests/CMakeFiles/testSimilarity2.run.dir/rule
-
-.PHONY : testSimilarity2.run
-
-# fast build rule for target.
-testSimilarity2.run/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/geometry/tests/CMakeFiles/testSimilarity2.run.dir/build.make gtsam/geometry/tests/CMakeFiles/testSimilarity2.run.dir/build
-.PHONY : testSimilarity2.run/fast
 
 # Convenience name for target.
 gtsam/geometry/tests/CMakeFiles/testPinholeCamera.dir/rule:
@@ -2652,33 +2607,6 @@ testSerializationGeometry.cpp.s:
 	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/geometry/tests/CMakeFiles/testSerializationGeometry.dir/build.make gtsam/geometry/tests/CMakeFiles/testSerializationGeometry.dir/testSerializationGeometry.cpp.s
 .PHONY : testSerializationGeometry.cpp.s
 
-testSimilarity2.o: testSimilarity2.cpp.o
-
-.PHONY : testSimilarity2.o
-
-# target to build an object file
-testSimilarity2.cpp.o:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/geometry/tests/CMakeFiles/testSimilarity2.dir/build.make gtsam/geometry/tests/CMakeFiles/testSimilarity2.dir/testSimilarity2.cpp.o
-.PHONY : testSimilarity2.cpp.o
-
-testSimilarity2.i: testSimilarity2.cpp.i
-
-.PHONY : testSimilarity2.i
-
-# target to preprocess a source file
-testSimilarity2.cpp.i:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/geometry/tests/CMakeFiles/testSimilarity2.dir/build.make gtsam/geometry/tests/CMakeFiles/testSimilarity2.dir/testSimilarity2.cpp.i
-.PHONY : testSimilarity2.cpp.i
-
-testSimilarity2.s: testSimilarity2.cpp.s
-
-.PHONY : testSimilarity2.s
-
-# target to generate assembly for a file
-testSimilarity2.cpp.s:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/geometry/tests/CMakeFiles/testSimilarity2.dir/build.make gtsam/geometry/tests/CMakeFiles/testSimilarity2.dir/testSimilarity2.cpp.s
-.PHONY : testSimilarity2.cpp.s
-
 testSimilarity3.o: testSimilarity3.cpp.o
 
 .PHONY : testSimilarity3.o
@@ -2732,33 +2660,6 @@ testSimpleCamera.s: testSimpleCamera.cpp.s
 testSimpleCamera.cpp.s:
 	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/geometry/tests/CMakeFiles/testSimpleCamera.dir/build.make gtsam/geometry/tests/CMakeFiles/testSimpleCamera.dir/testSimpleCamera.cpp.s
 .PHONY : testSimpleCamera.cpp.s
-
-testSphericalCamera.o: testSphericalCamera.cpp.o
-
-.PHONY : testSphericalCamera.o
-
-# target to build an object file
-testSphericalCamera.cpp.o:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/geometry/tests/CMakeFiles/testSphericalCamera.dir/build.make gtsam/geometry/tests/CMakeFiles/testSphericalCamera.dir/testSphericalCamera.cpp.o
-.PHONY : testSphericalCamera.cpp.o
-
-testSphericalCamera.i: testSphericalCamera.cpp.i
-
-.PHONY : testSphericalCamera.i
-
-# target to preprocess a source file
-testSphericalCamera.cpp.i:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/geometry/tests/CMakeFiles/testSphericalCamera.dir/build.make gtsam/geometry/tests/CMakeFiles/testSphericalCamera.dir/testSphericalCamera.cpp.i
-.PHONY : testSphericalCamera.cpp.i
-
-testSphericalCamera.s: testSphericalCamera.cpp.s
-
-.PHONY : testSphericalCamera.s
-
-# target to generate assembly for a file
-testSphericalCamera.cpp.s:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/geometry/tests/CMakeFiles/testSphericalCamera.dir/build.make gtsam/geometry/tests/CMakeFiles/testSphericalCamera.dir/testSphericalCamera.cpp.s
-.PHONY : testSphericalCamera.cpp.s
 
 testStereoCamera.o: testStereoCamera.cpp.o
 
@@ -2868,6 +2769,33 @@ testUnit3.cpp.s:
 	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/geometry/tests/CMakeFiles/testUnit3.dir/build.make gtsam/geometry/tests/CMakeFiles/testUnit3.dir/testUnit3.cpp.s
 .PHONY : testUnit3.cpp.s
 
+testUtilities.o: testUtilities.cpp.o
+
+.PHONY : testUtilities.o
+
+# target to build an object file
+testUtilities.cpp.o:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/geometry/tests/CMakeFiles/testUtilities.dir/build.make gtsam/geometry/tests/CMakeFiles/testUtilities.dir/testUtilities.cpp.o
+.PHONY : testUtilities.cpp.o
+
+testUtilities.i: testUtilities.cpp.i
+
+.PHONY : testUtilities.i
+
+# target to preprocess a source file
+testUtilities.cpp.i:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/geometry/tests/CMakeFiles/testUtilities.dir/build.make gtsam/geometry/tests/CMakeFiles/testUtilities.dir/testUtilities.cpp.i
+.PHONY : testUtilities.cpp.i
+
+testUtilities.s: testUtilities.cpp.s
+
+.PHONY : testUtilities.s
+
+# target to generate assembly for a file
+testUtilities.cpp.s:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f gtsam/geometry/tests/CMakeFiles/testUtilities.dir/build.make gtsam/geometry/tests/CMakeFiles/testUtilities.dir/testUtilities.cpp.s
+.PHONY : testUtilities.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -2879,20 +2807,20 @@ help:
 	@echo "... edit_cache"
 	@echo "... test"
 	@echo "... package_source"
+	@echo "... testUtilities.valgrind"
+	@echo "... testUtilities"
 	@echo "... testUnit3.run"
 	@echo "... testTriangulation.valgrind"
 	@echo "... testTriangulation.run"
 	@echo "... testStereoPoint2.valgrind"
+	@echo "... testStereoCamera.valgrind"
 	@echo "... testStereoCamera.run"
 	@echo "... testSimpleCamera.valgrind"
 	@echo "... testSimpleCamera"
-	@echo "... testSphericalCamera"
 	@echo "... testSimilarity3.run"
-	@echo "... testSimilarity2.valgrind"
-	@echo "... testStereoCamera.valgrind"
-	@echo "... testSimilarity2"
 	@echo "... testUnit3.valgrind"
 	@echo "... testSerializationGeometry.valgrind"
+	@echo "... testUtilities.run"
 	@echo "... testSerializationGeometry.run"
 	@echo "... testSimilarity3"
 	@echo "... testSOn.run"
@@ -2905,7 +2833,6 @@ help:
 	@echo "... testRot3M.valgrind"
 	@echo "... testRot3.valgrind"
 	@echo "... testRot3.run"
-	@echo "... testSphericalCamera.run"
 	@echo "... testRot2.valgrind"
 	@echo "... testRot2.run"
 	@echo "... testRot2"
@@ -2918,7 +2845,6 @@ help:
 	@echo "... testPose3.run"
 	@echo "... package"
 	@echo "... testEssentialMatrix"
-	@echo "... testSphericalCamera.valgrind"
 	@echo "... testCameraSet.valgrind"
 	@echo "... testCameraSet"
 	@echo "... testCal3_S2Stereo"
@@ -2977,7 +2903,6 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... testOrientedPlane3.valgrind"
 	@echo "... list_install_components"
-	@echo "... testSimilarity2.run"
 	@echo "... testPinholeCamera"
 	@echo "... testLine3.run"
 	@echo "... testPinholePose.run"
@@ -3082,18 +3007,12 @@ help:
 	@echo "... testSerializationGeometry.o"
 	@echo "... testSerializationGeometry.i"
 	@echo "... testSerializationGeometry.s"
-	@echo "... testSimilarity2.o"
-	@echo "... testSimilarity2.i"
-	@echo "... testSimilarity2.s"
 	@echo "... testSimilarity3.o"
 	@echo "... testSimilarity3.i"
 	@echo "... testSimilarity3.s"
 	@echo "... testSimpleCamera.o"
 	@echo "... testSimpleCamera.i"
 	@echo "... testSimpleCamera.s"
-	@echo "... testSphericalCamera.o"
-	@echo "... testSphericalCamera.i"
-	@echo "... testSphericalCamera.s"
 	@echo "... testStereoCamera.o"
 	@echo "... testStereoCamera.i"
 	@echo "... testStereoCamera.s"
@@ -3106,6 +3025,9 @@ help:
 	@echo "... testUnit3.o"
 	@echo "... testUnit3.i"
 	@echo "... testUnit3.s"
+	@echo "... testUtilities.o"
+	@echo "... testUtilities.i"
+	@echo "... testUtilities.s"
 .PHONY : help
 
 

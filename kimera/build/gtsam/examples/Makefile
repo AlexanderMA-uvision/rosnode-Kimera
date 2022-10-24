@@ -250,21 +250,6 @@ UGM_chain/fast:
 .PHONY : UGM_chain/fast
 
 # Convenience name for target.
-examples/CMakeFiles/TriangulationLOSTExample.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/TriangulationLOSTExample.dir/rule
-.PHONY : examples/CMakeFiles/TriangulationLOSTExample.dir/rule
-
-# Convenience name for target.
-TriangulationLOSTExample: examples/CMakeFiles/TriangulationLOSTExample.dir/rule
-
-.PHONY : TriangulationLOSTExample
-
-# fast build rule for target.
-TriangulationLOSTExample/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f examples/CMakeFiles/TriangulationLOSTExample.dir/build.make examples/CMakeFiles/TriangulationLOSTExample.dir/build
-.PHONY : TriangulationLOSTExample/fast
-
-# Convenience name for target.
 examples/CMakeFiles/TimeTBB.run.dir/rule:
 	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/TimeTBB.run.dir/rule
 .PHONY : examples/CMakeFiles/TimeTBB.run.dir/rule
@@ -608,21 +593,6 @@ METISOrderingExample: examples/CMakeFiles/METISOrderingExample.dir/rule
 METISOrderingExample/fast:
 	cd /home/catkin_ws/build/gtsam && $(MAKE) -f examples/CMakeFiles/METISOrderingExample.dir/build.make examples/CMakeFiles/METISOrderingExample.dir/build
 .PHONY : METISOrderingExample/fast
-
-# Convenience name for target.
-examples/CMakeFiles/TriangulationLOSTExample.run.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/TriangulationLOSTExample.run.dir/rule
-.PHONY : examples/CMakeFiles/TriangulationLOSTExample.run.dir/rule
-
-# Convenience name for target.
-TriangulationLOSTExample.run: examples/CMakeFiles/TriangulationLOSTExample.run.dir/rule
-
-.PHONY : TriangulationLOSTExample.run
-
-# fast build rule for target.
-TriangulationLOSTExample.run/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f examples/CMakeFiles/TriangulationLOSTExample.run.dir/build.make examples/CMakeFiles/TriangulationLOSTExample.run.dir/build
-.PHONY : TriangulationLOSTExample.run/fast
 
 # Convenience name for target.
 examples/CMakeFiles/ImuFactorsExample2.dir/rule:
@@ -2934,33 +2904,6 @@ TimeTBB.cpp.s:
 	cd /home/catkin_ws/build/gtsam && $(MAKE) -f examples/CMakeFiles/TimeTBB.dir/build.make examples/CMakeFiles/TimeTBB.dir/TimeTBB.cpp.s
 .PHONY : TimeTBB.cpp.s
 
-TriangulationLOSTExample.o: TriangulationLOSTExample.cpp.o
-
-.PHONY : TriangulationLOSTExample.o
-
-# target to build an object file
-TriangulationLOSTExample.cpp.o:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f examples/CMakeFiles/TriangulationLOSTExample.dir/build.make examples/CMakeFiles/TriangulationLOSTExample.dir/TriangulationLOSTExample.cpp.o
-.PHONY : TriangulationLOSTExample.cpp.o
-
-TriangulationLOSTExample.i: TriangulationLOSTExample.cpp.i
-
-.PHONY : TriangulationLOSTExample.i
-
-# target to preprocess a source file
-TriangulationLOSTExample.cpp.i:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f examples/CMakeFiles/TriangulationLOSTExample.dir/build.make examples/CMakeFiles/TriangulationLOSTExample.dir/TriangulationLOSTExample.cpp.i
-.PHONY : TriangulationLOSTExample.cpp.i
-
-TriangulationLOSTExample.s: TriangulationLOSTExample.cpp.s
-
-.PHONY : TriangulationLOSTExample.s
-
-# target to generate assembly for a file
-TriangulationLOSTExample.cpp.s:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f examples/CMakeFiles/TriangulationLOSTExample.dir/build.make examples/CMakeFiles/TriangulationLOSTExample.dir/TriangulationLOSTExample.cpp.s
-.PHONY : TriangulationLOSTExample.cpp.s
-
 UGM_chain.o: UGM_chain.cpp.o
 
 .PHONY : UGM_chain.o
@@ -3110,7 +3053,6 @@ help:
 	@echo "... VisualISAMExample"
 	@echo "... UGM_small.run"
 	@echo "... UGM_chain"
-	@echo "... TriangulationLOSTExample"
 	@echo "... TimeTBB.run"
 	@echo "... StereoVOExample_large"
 	@echo "... StereoVOExample.run"
@@ -3138,7 +3080,6 @@ help:
 	@echo "... ISAM2Example_SmartFactor"
 	@echo "... METISOrderingExample"
 	@echo "... test"
-	@echo "... TriangulationLOSTExample.run"
 	@echo "... ImuFactorsExample2"
 	@echo "... LocalizationExample.run"
 	@echo "... SolverComparer.run"
@@ -3348,9 +3289,6 @@ help:
 	@echo "... TimeTBB.o"
 	@echo "... TimeTBB.i"
 	@echo "... TimeTBB.s"
-	@echo "... TriangulationLOSTExample.o"
-	@echo "... TriangulationLOSTExample.i"
-	@echo "... TriangulationLOSTExample.s"
 	@echo "... UGM_chain.o"
 	@echo "... UGM_chain.i"
 	@echo "... UGM_chain.s"

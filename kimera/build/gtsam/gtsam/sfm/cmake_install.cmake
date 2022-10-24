@@ -41,8 +41,6 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/gtsam/sfm" TYPE FILE FILES
     "/home/catkin_ws/src/gtsam/gtsam/sfm/BinaryMeasurement.h"
     "/home/catkin_ws/src/gtsam/gtsam/sfm/MFAS.h"
-    "/home/catkin_ws/src/gtsam/gtsam/sfm/SfmData.h"
-    "/home/catkin_ws/src/gtsam/gtsam/sfm/SfmTrack.h"
     "/home/catkin_ws/src/gtsam/gtsam/sfm/ShonanAveraging.h"
     "/home/catkin_ws/src/gtsam/gtsam/sfm/ShonanFactor.h"
     "/home/catkin_ws/src/gtsam/gtsam/sfm/ShonanGaugeFactor.h"

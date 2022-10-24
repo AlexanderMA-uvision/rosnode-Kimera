@@ -80,7 +80,7 @@ testCallRecord_EXTERNAL_OBJECTS =
 gtsam/nonlinear/tests/testCallRecord: gtsam/nonlinear/tests/CMakeFiles/testCallRecord.dir/testCallRecord.cpp.o
 gtsam/nonlinear/tests/testCallRecord: gtsam/nonlinear/tests/CMakeFiles/testCallRecord.dir/build.make
 gtsam/nonlinear/tests/testCallRecord: CppUnitLite/libCppUnitLite.a
-gtsam/nonlinear/tests/testCallRecord: gtsam/libgtsam.so.4.2.0
+gtsam/nonlinear/tests/testCallRecord: gtsam/libgtsam.so.4.1.0
 gtsam/nonlinear/tests/testCallRecord: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 gtsam/nonlinear/tests/testCallRecord: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 gtsam/nonlinear/tests/testCallRecord: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

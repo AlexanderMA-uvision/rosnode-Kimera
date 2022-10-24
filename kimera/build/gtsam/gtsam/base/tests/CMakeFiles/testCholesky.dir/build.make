@@ -80,7 +80,7 @@ testCholesky_EXTERNAL_OBJECTS =
 gtsam/base/tests/testCholesky: gtsam/base/tests/CMakeFiles/testCholesky.dir/testCholesky.cpp.o
 gtsam/base/tests/testCholesky: gtsam/base/tests/CMakeFiles/testCholesky.dir/build.make
 gtsam/base/tests/testCholesky: CppUnitLite/libCppUnitLite.a
-gtsam/base/tests/testCholesky: gtsam/libgtsam.so.4.2.0
+gtsam/base/tests/testCholesky: gtsam/libgtsam.so.4.1.0
 gtsam/base/tests/testCholesky: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 gtsam/base/tests/testCholesky: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 gtsam/base/tests/testCholesky: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

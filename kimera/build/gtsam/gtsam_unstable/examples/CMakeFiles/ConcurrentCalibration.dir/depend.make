@@ -12,14 +12,12 @@ gtsam_unstable/examples/CMakeFiles/ConcurrentCalibration.dir/ConcurrentCalibrati
 gtsam_unstable/examples/CMakeFiles/ConcurrentCalibration.dir/ConcurrentCalibration.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Lie.h
 gtsam_unstable/examples/CMakeFiles/ConcurrentCalibration.dir/ConcurrentCalibration.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Manifold.h
 gtsam_unstable/examples/CMakeFiles/ConcurrentCalibration.dir/ConcurrentCalibration.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Matrix.h
-gtsam_unstable/examples/CMakeFiles/ConcurrentCalibration.dir/ConcurrentCalibration.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/MatrixSerialization.h
 gtsam_unstable/examples/CMakeFiles/ConcurrentCalibration.dir/ConcurrentCalibration.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/OptionalJacobian.h
 gtsam_unstable/examples/CMakeFiles/ConcurrentCalibration.dir/ConcurrentCalibration.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/SymmetricBlockMatrix.h
 gtsam_unstable/examples/CMakeFiles/ConcurrentCalibration.dir/ConcurrentCalibration.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Testable.h
 gtsam_unstable/examples/CMakeFiles/ConcurrentCalibration.dir/ConcurrentCalibration.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/ThreadsafeException.h
 gtsam_unstable/examples/CMakeFiles/ConcurrentCalibration.dir/ConcurrentCalibration.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Value.h
 gtsam_unstable/examples/CMakeFiles/ConcurrentCalibration.dir/ConcurrentCalibration.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Vector.h
-gtsam_unstable/examples/CMakeFiles/ConcurrentCalibration.dir/ConcurrentCalibration.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/VectorSerialization.h
 gtsam_unstable/examples/CMakeFiles/ConcurrentCalibration.dir/ConcurrentCalibration.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/VectorSpace.h
 gtsam_unstable/examples/CMakeFiles/ConcurrentCalibration.dir/ConcurrentCalibration.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/VerticalBlockMatrix.h
 gtsam_unstable/examples/CMakeFiles/ConcurrentCalibration.dir/ConcurrentCalibration.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/concepts.h
@@ -46,7 +44,6 @@ gtsam_unstable/examples/CMakeFiles/ConcurrentCalibration.dir/ConcurrentCalibrati
 gtsam_unstable/examples/CMakeFiles/ConcurrentCalibration.dir/ConcurrentCalibration.cpp.o: /home/catkin_ws/src/gtsam/gtsam/geometry/SOn.h
 gtsam_unstable/examples/CMakeFiles/ConcurrentCalibration.dir/ConcurrentCalibration.cpp.o: /home/catkin_ws/src/gtsam/gtsam/geometry/Unit3.h
 gtsam_unstable/examples/CMakeFiles/ConcurrentCalibration.dir/ConcurrentCalibration.cpp.o: /home/catkin_ws/src/gtsam/gtsam/global_includes.h
-gtsam_unstable/examples/CMakeFiles/ConcurrentCalibration.dir/ConcurrentCalibration.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/DotWriter.h
 gtsam_unstable/examples/CMakeFiles/ConcurrentCalibration.dir/ConcurrentCalibration.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/EliminateableFactorGraph.h
 gtsam_unstable/examples/CMakeFiles/ConcurrentCalibration.dir/ConcurrentCalibration.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/Factor.h
 gtsam_unstable/examples/CMakeFiles/ConcurrentCalibration.dir/ConcurrentCalibration.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/FactorGraph-inst.h
@@ -76,7 +73,6 @@ gtsam_unstable/examples/CMakeFiles/ConcurrentCalibration.dir/ConcurrentCalibrati
 gtsam_unstable/examples/CMakeFiles/ConcurrentCalibration.dir/ConcurrentCalibration.cpp.o: /home/catkin_ws/src/gtsam/gtsam/linear/SubgraphSolver.h
 gtsam_unstable/examples/CMakeFiles/ConcurrentCalibration.dir/ConcurrentCalibration.cpp.o: /home/catkin_ws/src/gtsam/gtsam/linear/VectorValues.h
 gtsam_unstable/examples/CMakeFiles/ConcurrentCalibration.dir/ConcurrentCalibration.cpp.o: /home/catkin_ws/src/gtsam/gtsam/linear/linearExceptions.h
-gtsam_unstable/examples/CMakeFiles/ConcurrentCalibration.dir/ConcurrentCalibration.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/GraphvizFormatting.h
 gtsam_unstable/examples/CMakeFiles/ConcurrentCalibration.dir/ConcurrentCalibration.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/LevenbergMarquardtOptimizer.h
 gtsam_unstable/examples/CMakeFiles/ConcurrentCalibration.dir/ConcurrentCalibration.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/LevenbergMarquardtParams.h
 gtsam_unstable/examples/CMakeFiles/ConcurrentCalibration.dir/ConcurrentCalibration.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/NonlinearEquality.h
@@ -88,8 +84,6 @@ gtsam_unstable/examples/CMakeFiles/ConcurrentCalibration.dir/ConcurrentCalibrati
 gtsam_unstable/examples/CMakeFiles/ConcurrentCalibration.dir/ConcurrentCalibration.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/Values-inl.h
 gtsam_unstable/examples/CMakeFiles/ConcurrentCalibration.dir/ConcurrentCalibration.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/Values.h
 gtsam_unstable/examples/CMakeFiles/ConcurrentCalibration.dir/ConcurrentCalibration.cpp.o: /home/catkin_ws/src/gtsam/gtsam/sfm/BinaryMeasurement.h
-gtsam_unstable/examples/CMakeFiles/ConcurrentCalibration.dir/ConcurrentCalibration.cpp.o: /home/catkin_ws/src/gtsam/gtsam/sfm/SfmData.h
-gtsam_unstable/examples/CMakeFiles/ConcurrentCalibration.dir/ConcurrentCalibration.cpp.o: /home/catkin_ws/src/gtsam/gtsam/sfm/SfmTrack.h
 gtsam_unstable/examples/CMakeFiles/ConcurrentCalibration.dir/ConcurrentCalibration.cpp.o: /home/catkin_ws/src/gtsam/gtsam/slam/BetweenFactor.h
 gtsam_unstable/examples/CMakeFiles/ConcurrentCalibration.dir/ConcurrentCalibration.cpp.o: /home/catkin_ws/src/gtsam/gtsam/slam/GeneralSFMFactor.h
 gtsam_unstable/examples/CMakeFiles/ConcurrentCalibration.dir/ConcurrentCalibration.cpp.o: /home/catkin_ws/src/gtsam/gtsam/slam/ProjectionFactor.h

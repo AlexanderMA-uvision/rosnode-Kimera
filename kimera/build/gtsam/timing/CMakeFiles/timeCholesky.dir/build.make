@@ -79,7 +79,7 @@ timeCholesky_EXTERNAL_OBJECTS =
 
 timing/timeCholesky: timing/CMakeFiles/timeCholesky.dir/timeCholesky.cpp.o
 timing/timeCholesky: timing/CMakeFiles/timeCholesky.dir/build.make
-timing/timeCholesky: gtsam/libgtsam.so.4.2.0
+timing/timeCholesky: gtsam/libgtsam.so.4.1.0
 timing/timeCholesky: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 timing/timeCholesky: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 timing/timeCholesky: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

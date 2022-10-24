@@ -80,7 +80,7 @@ testTriangulation_EXTERNAL_OBJECTS =
 gtsam/geometry/tests/testTriangulation: gtsam/geometry/tests/CMakeFiles/testTriangulation.dir/testTriangulation.cpp.o
 gtsam/geometry/tests/testTriangulation: gtsam/geometry/tests/CMakeFiles/testTriangulation.dir/build.make
 gtsam/geometry/tests/testTriangulation: CppUnitLite/libCppUnitLite.a
-gtsam/geometry/tests/testTriangulation: gtsam/libgtsam.so.4.2.0
+gtsam/geometry/tests/testTriangulation: gtsam/libgtsam.so.4.1.0
 gtsam/geometry/tests/testTriangulation: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 gtsam/geometry/tests/testTriangulation: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 gtsam/geometry/tests/testTriangulation: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

@@ -79,7 +79,7 @@ DiscreteBayesNet_FG_EXTERNAL_OBJECTS =
 
 examples/DiscreteBayesNet_FG: examples/CMakeFiles/DiscreteBayesNet_FG.dir/DiscreteBayesNet_FG.cpp.o
 examples/DiscreteBayesNet_FG: examples/CMakeFiles/DiscreteBayesNet_FG.dir/build.make
-examples/DiscreteBayesNet_FG: gtsam/libgtsam.so.4.2.0
+examples/DiscreteBayesNet_FG: gtsam/libgtsam.so.4.1.0
 examples/DiscreteBayesNet_FG: /usr/lib/aarch64-linux-gnu/libboost_program_options.so.1.71.0
 examples/DiscreteBayesNet_FG: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 examples/DiscreteBayesNet_FG: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0

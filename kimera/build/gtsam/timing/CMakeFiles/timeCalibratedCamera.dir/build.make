@@ -79,7 +79,7 @@ timeCalibratedCamera_EXTERNAL_OBJECTS =
 
 timing/timeCalibratedCamera: timing/CMakeFiles/timeCalibratedCamera.dir/timeCalibratedCamera.cpp.o
 timing/timeCalibratedCamera: timing/CMakeFiles/timeCalibratedCamera.dir/build.make
-timing/timeCalibratedCamera: gtsam/libgtsam.so.4.2.0
+timing/timeCalibratedCamera: gtsam/libgtsam.so.4.1.0
 timing/timeCalibratedCamera: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 timing/timeCalibratedCamera: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 timing/timeCalibratedCamera: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

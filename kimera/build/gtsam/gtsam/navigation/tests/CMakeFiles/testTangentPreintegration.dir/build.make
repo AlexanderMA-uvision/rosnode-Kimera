@@ -80,7 +80,7 @@ testTangentPreintegration_EXTERNAL_OBJECTS =
 gtsam/navigation/tests/testTangentPreintegration: gtsam/navigation/tests/CMakeFiles/testTangentPreintegration.dir/testTangentPreintegration.cpp.o
 gtsam/navigation/tests/testTangentPreintegration: gtsam/navigation/tests/CMakeFiles/testTangentPreintegration.dir/build.make
 gtsam/navigation/tests/testTangentPreintegration: CppUnitLite/libCppUnitLite.a
-gtsam/navigation/tests/testTangentPreintegration: gtsam/libgtsam.so.4.2.0
+gtsam/navigation/tests/testTangentPreintegration: gtsam/libgtsam.so.4.1.0
 gtsam/navigation/tests/testTangentPreintegration: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 gtsam/navigation/tests/testTangentPreintegration: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 gtsam/navigation/tests/testTangentPreintegration: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

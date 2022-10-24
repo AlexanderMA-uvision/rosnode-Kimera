@@ -80,7 +80,7 @@ testFourier_EXTERNAL_OBJECTS =
 gtsam/basis/tests/testFourier: gtsam/basis/tests/CMakeFiles/testFourier.dir/testFourier.cpp.o
 gtsam/basis/tests/testFourier: gtsam/basis/tests/CMakeFiles/testFourier.dir/build.make
 gtsam/basis/tests/testFourier: CppUnitLite/libCppUnitLite.a
-gtsam/basis/tests/testFourier: gtsam/libgtsam.so.4.2.0
+gtsam/basis/tests/testFourier: gtsam/libgtsam.so.4.1.0
 gtsam/basis/tests/testFourier: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 gtsam/basis/tests/testFourier: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 gtsam/basis/tests/testFourier: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

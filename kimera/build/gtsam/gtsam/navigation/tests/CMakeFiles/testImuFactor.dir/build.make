@@ -80,7 +80,7 @@ testImuFactor_EXTERNAL_OBJECTS =
 gtsam/navigation/tests/testImuFactor: gtsam/navigation/tests/CMakeFiles/testImuFactor.dir/testImuFactor.cpp.o
 gtsam/navigation/tests/testImuFactor: gtsam/navigation/tests/CMakeFiles/testImuFactor.dir/build.make
 gtsam/navigation/tests/testImuFactor: CppUnitLite/libCppUnitLite.a
-gtsam/navigation/tests/testImuFactor: gtsam/libgtsam.so.4.2.0
+gtsam/navigation/tests/testImuFactor: gtsam/libgtsam.so.4.1.0
 gtsam/navigation/tests/testImuFactor: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 gtsam/navigation/tests/testImuFactor: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 gtsam/navigation/tests/testImuFactor: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

@@ -80,7 +80,7 @@ testFrobeniusFactor_EXTERNAL_OBJECTS =
 gtsam/slam/tests/testFrobeniusFactor: gtsam/slam/tests/CMakeFiles/testFrobeniusFactor.dir/testFrobeniusFactor.cpp.o
 gtsam/slam/tests/testFrobeniusFactor: gtsam/slam/tests/CMakeFiles/testFrobeniusFactor.dir/build.make
 gtsam/slam/tests/testFrobeniusFactor: CppUnitLite/libCppUnitLite.a
-gtsam/slam/tests/testFrobeniusFactor: gtsam/libgtsam.so.4.2.0
+gtsam/slam/tests/testFrobeniusFactor: gtsam/libgtsam.so.4.1.0
 gtsam/slam/tests/testFrobeniusFactor: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 gtsam/slam/tests/testFrobeniusFactor: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 gtsam/slam/tests/testFrobeniusFactor: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

@@ -13,14 +13,12 @@ examples/CMakeFiles/InverseKinematicsExampleExpressions.dir/InverseKinematicsExa
 examples/CMakeFiles/InverseKinematicsExampleExpressions.dir/InverseKinematicsExampleExpressions.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Lie.h
 examples/CMakeFiles/InverseKinematicsExampleExpressions.dir/InverseKinematicsExampleExpressions.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Manifold.h
 examples/CMakeFiles/InverseKinematicsExampleExpressions.dir/InverseKinematicsExampleExpressions.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Matrix.h
-examples/CMakeFiles/InverseKinematicsExampleExpressions.dir/InverseKinematicsExampleExpressions.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/MatrixSerialization.h
 examples/CMakeFiles/InverseKinematicsExampleExpressions.dir/InverseKinematicsExampleExpressions.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/OptionalJacobian.h
 examples/CMakeFiles/InverseKinematicsExampleExpressions.dir/InverseKinematicsExampleExpressions.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/SymmetricBlockMatrix.h
 examples/CMakeFiles/InverseKinematicsExampleExpressions.dir/InverseKinematicsExampleExpressions.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Testable.h
 examples/CMakeFiles/InverseKinematicsExampleExpressions.dir/InverseKinematicsExampleExpressions.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/ThreadsafeException.h
 examples/CMakeFiles/InverseKinematicsExampleExpressions.dir/InverseKinematicsExampleExpressions.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Value.h
 examples/CMakeFiles/InverseKinematicsExampleExpressions.dir/InverseKinematicsExampleExpressions.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Vector.h
-examples/CMakeFiles/InverseKinematicsExampleExpressions.dir/InverseKinematicsExampleExpressions.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/VectorSerialization.h
 examples/CMakeFiles/InverseKinematicsExampleExpressions.dir/InverseKinematicsExampleExpressions.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/VectorSpace.h
 examples/CMakeFiles/InverseKinematicsExampleExpressions.dir/InverseKinematicsExampleExpressions.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/VerticalBlockMatrix.h
 examples/CMakeFiles/InverseKinematicsExampleExpressions.dir/InverseKinematicsExampleExpressions.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/concepts.h
@@ -47,13 +45,9 @@ examples/CMakeFiles/InverseKinematicsExampleExpressions.dir/InverseKinematicsExa
 examples/CMakeFiles/InverseKinematicsExampleExpressions.dir/InverseKinematicsExampleExpressions.cpp.o: /home/catkin_ws/src/gtsam/gtsam/geometry/SOn.h
 examples/CMakeFiles/InverseKinematicsExampleExpressions.dir/InverseKinematicsExampleExpressions.cpp.o: /home/catkin_ws/src/gtsam/gtsam/geometry/Unit3.h
 examples/CMakeFiles/InverseKinematicsExampleExpressions.dir/InverseKinematicsExampleExpressions.cpp.o: /home/catkin_ws/src/gtsam/gtsam/global_includes.h
-examples/CMakeFiles/InverseKinematicsExampleExpressions.dir/InverseKinematicsExampleExpressions.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/BayesNet-inst.h
-examples/CMakeFiles/InverseKinematicsExampleExpressions.dir/InverseKinematicsExampleExpressions.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/BayesNet.h
 examples/CMakeFiles/InverseKinematicsExampleExpressions.dir/InverseKinematicsExampleExpressions.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/BayesTree.h
 examples/CMakeFiles/InverseKinematicsExampleExpressions.dir/InverseKinematicsExampleExpressions.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/BayesTreeCliqueBase.h
-examples/CMakeFiles/InverseKinematicsExampleExpressions.dir/InverseKinematicsExampleExpressions.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/Conditional-inst.h
 examples/CMakeFiles/InverseKinematicsExampleExpressions.dir/InverseKinematicsExampleExpressions.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/Conditional.h
-examples/CMakeFiles/InverseKinematicsExampleExpressions.dir/InverseKinematicsExampleExpressions.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/DotWriter.h
 examples/CMakeFiles/InverseKinematicsExampleExpressions.dir/InverseKinematicsExampleExpressions.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/EliminateableFactorGraph.h
 examples/CMakeFiles/InverseKinematicsExampleExpressions.dir/InverseKinematicsExampleExpressions.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/Factor.h
 examples/CMakeFiles/InverseKinematicsExampleExpressions.dir/InverseKinematicsExampleExpressions.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/FactorGraph-inst.h
@@ -90,7 +84,6 @@ examples/CMakeFiles/InverseKinematicsExampleExpressions.dir/InverseKinematicsExa
 examples/CMakeFiles/InverseKinematicsExampleExpressions.dir/InverseKinematicsExampleExpressions.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/Expression.h
 examples/CMakeFiles/InverseKinematicsExampleExpressions.dir/InverseKinematicsExampleExpressions.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/ExpressionFactor.h
 examples/CMakeFiles/InverseKinematicsExampleExpressions.dir/InverseKinematicsExampleExpressions.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/ExpressionFactorGraph.h
-examples/CMakeFiles/InverseKinematicsExampleExpressions.dir/InverseKinematicsExampleExpressions.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/GraphvizFormatting.h
 examples/CMakeFiles/InverseKinematicsExampleExpressions.dir/InverseKinematicsExampleExpressions.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/LevenbergMarquardtOptimizer.h
 examples/CMakeFiles/InverseKinematicsExampleExpressions.dir/InverseKinematicsExampleExpressions.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/LevenbergMarquardtParams.h
 examples/CMakeFiles/InverseKinematicsExampleExpressions.dir/InverseKinematicsExampleExpressions.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/Marginals.h

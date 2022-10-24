@@ -80,7 +80,7 @@ testDiscreteFactor_EXTERNAL_OBJECTS =
 gtsam/discrete/tests/testDiscreteFactor: gtsam/discrete/tests/CMakeFiles/testDiscreteFactor.dir/testDiscreteFactor.cpp.o
 gtsam/discrete/tests/testDiscreteFactor: gtsam/discrete/tests/CMakeFiles/testDiscreteFactor.dir/build.make
 gtsam/discrete/tests/testDiscreteFactor: CppUnitLite/libCppUnitLite.a
-gtsam/discrete/tests/testDiscreteFactor: gtsam/libgtsam.so.4.2.0
+gtsam/discrete/tests/testDiscreteFactor: gtsam/libgtsam.so.4.1.0
 gtsam/discrete/tests/testDiscreteFactor: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 gtsam/discrete/tests/testDiscreteFactor: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 gtsam/discrete/tests/testDiscreteFactor: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

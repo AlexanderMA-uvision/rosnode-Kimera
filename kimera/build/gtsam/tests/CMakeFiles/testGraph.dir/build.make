@@ -80,7 +80,7 @@ testGraph_EXTERNAL_OBJECTS =
 tests/testGraph: tests/CMakeFiles/testGraph.dir/testGraph.cpp.o
 tests/testGraph: tests/CMakeFiles/testGraph.dir/build.make
 tests/testGraph: CppUnitLite/libCppUnitLite.a
-tests/testGraph: gtsam/libgtsam.so.4.2.0
+tests/testGraph: gtsam/libgtsam.so.4.1.0
 tests/testGraph: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 tests/testGraph: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 tests/testGraph: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

@@ -6,3 +6,17 @@
 
 #IncludeRegexTransform: 
 
+/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/third_party/triangle/triangle.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+math.h
+-
+kimera-vio/third_party/triangle/triangle.h
+/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/third_party/triangle/kimera-vio/third_party/triangle/triangle.h
+
+/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/third_party/triangle/triangle.h
+

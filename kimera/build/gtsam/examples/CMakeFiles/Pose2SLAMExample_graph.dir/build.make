@@ -79,7 +79,7 @@ Pose2SLAMExample_graph_EXTERNAL_OBJECTS =
 
 examples/Pose2SLAMExample_graph: examples/CMakeFiles/Pose2SLAMExample_graph.dir/Pose2SLAMExample_graph.cpp.o
 examples/Pose2SLAMExample_graph: examples/CMakeFiles/Pose2SLAMExample_graph.dir/build.make
-examples/Pose2SLAMExample_graph: gtsam/libgtsam.so.4.2.0
+examples/Pose2SLAMExample_graph: gtsam/libgtsam.so.4.1.0
 examples/Pose2SLAMExample_graph: /usr/lib/aarch64-linux-gnu/libboost_program_options.so.1.71.0
 examples/Pose2SLAMExample_graph: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 examples/Pose2SLAMExample_graph: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0

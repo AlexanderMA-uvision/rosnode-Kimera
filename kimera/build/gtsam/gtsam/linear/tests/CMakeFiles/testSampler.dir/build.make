@@ -80,7 +80,7 @@ testSampler_EXTERNAL_OBJECTS =
 gtsam/linear/tests/testSampler: gtsam/linear/tests/CMakeFiles/testSampler.dir/testSampler.cpp.o
 gtsam/linear/tests/testSampler: gtsam/linear/tests/CMakeFiles/testSampler.dir/build.make
 gtsam/linear/tests/testSampler: CppUnitLite/libCppUnitLite.a
-gtsam/linear/tests/testSampler: gtsam/libgtsam.so.4.2.0
+gtsam/linear/tests/testSampler: gtsam/libgtsam.so.4.1.0
 gtsam/linear/tests/testSampler: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 gtsam/linear/tests/testSampler: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 gtsam/linear/tests/testSampler: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

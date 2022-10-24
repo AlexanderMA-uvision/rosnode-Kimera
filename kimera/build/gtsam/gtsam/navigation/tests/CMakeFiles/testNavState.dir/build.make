@@ -80,7 +80,7 @@ testNavState_EXTERNAL_OBJECTS =
 gtsam/navigation/tests/testNavState: gtsam/navigation/tests/CMakeFiles/testNavState.dir/testNavState.cpp.o
 gtsam/navigation/tests/testNavState: gtsam/navigation/tests/CMakeFiles/testNavState.dir/build.make
 gtsam/navigation/tests/testNavState: CppUnitLite/libCppUnitLite.a
-gtsam/navigation/tests/testNavState: gtsam/libgtsam.so.4.2.0
+gtsam/navigation/tests/testNavState: gtsam/libgtsam.so.4.1.0
 gtsam/navigation/tests/testNavState: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 gtsam/navigation/tests/testNavState: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 gtsam/navigation/tests/testNavState: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

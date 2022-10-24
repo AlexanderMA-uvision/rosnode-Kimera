@@ -80,7 +80,7 @@ testIterative_EXTERNAL_OBJECTS =
 tests/testIterative: tests/CMakeFiles/testIterative.dir/testIterative.cpp.o
 tests/testIterative: tests/CMakeFiles/testIterative.dir/build.make
 tests/testIterative: CppUnitLite/libCppUnitLite.a
-tests/testIterative: gtsam/libgtsam.so.4.2.0
+tests/testIterative: gtsam/libgtsam.so.4.1.0
 tests/testIterative: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 tests/testIterative: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 tests/testIterative: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

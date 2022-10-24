@@ -80,7 +80,7 @@ testInitializePose3_EXTERNAL_OBJECTS =
 gtsam/slam/tests/testInitializePose3: gtsam/slam/tests/CMakeFiles/testInitializePose3.dir/testInitializePose3.cpp.o
 gtsam/slam/tests/testInitializePose3: gtsam/slam/tests/CMakeFiles/testInitializePose3.dir/build.make
 gtsam/slam/tests/testInitializePose3: CppUnitLite/libCppUnitLite.a
-gtsam/slam/tests/testInitializePose3: gtsam/libgtsam.so.4.2.0
+gtsam/slam/tests/testInitializePose3: gtsam/libgtsam.so.4.1.0
 gtsam/slam/tests/testInitializePose3: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 gtsam/slam/tests/testInitializePose3: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 gtsam/slam/tests/testInitializePose3: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

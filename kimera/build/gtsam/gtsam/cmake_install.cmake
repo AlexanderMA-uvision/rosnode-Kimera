@@ -53,7 +53,7 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   foreach(file
-      "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libgtsam.so.4.2.0"
+      "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libgtsam.so.4.1.0"
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libgtsam.so.4"
       )
     if(EXISTS "${file}" AND
@@ -64,11 +64,11 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     endif()
   endforeach()
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES
-    "/home/catkin_ws/build/gtsam/gtsam/libgtsam.so.4.2.0"
+    "/home/catkin_ws/build/gtsam/gtsam/libgtsam.so.4.1.0"
     "/home/catkin_ws/build/gtsam/gtsam/libgtsam.so.4"
     )
   foreach(file
-      "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libgtsam.so.4.2.0"
+      "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libgtsam.so.4.1.0"
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libgtsam.so.4"
       )
     if(EXISTS "${file}" AND
@@ -113,7 +113,6 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/catkin_ws/build/gtsam/gtsam/inference/cmake_install.cmake")
   include("/home/catkin_ws/build/gtsam/gtsam/symbolic/cmake_install.cmake")
   include("/home/catkin_ws/build/gtsam/gtsam/discrete/cmake_install.cmake")
-  include("/home/catkin_ws/build/gtsam/gtsam/hybrid/cmake_install.cmake")
   include("/home/catkin_ws/build/gtsam/gtsam/linear/cmake_install.cmake")
   include("/home/catkin_ws/build/gtsam/gtsam/nonlinear/cmake_install.cmake")
   include("/home/catkin_ws/build/gtsam/gtsam/sam/cmake_install.cmake")

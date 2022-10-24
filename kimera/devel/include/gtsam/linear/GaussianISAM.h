@@ -10,7 +10,7 @@
  * -------------------------------------------------------------------------- */
 
 /**
- * @file GaussianISAM.h
+ * @file SymbolicISAM.h
  * @date July 29, 2013
  * @author Frank Dellaert
  * @author Richard Roberts

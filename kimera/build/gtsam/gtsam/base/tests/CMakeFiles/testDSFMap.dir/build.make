@@ -80,7 +80,7 @@ testDSFMap_EXTERNAL_OBJECTS =
 gtsam/base/tests/testDSFMap: gtsam/base/tests/CMakeFiles/testDSFMap.dir/testDSFMap.cpp.o
 gtsam/base/tests/testDSFMap: gtsam/base/tests/CMakeFiles/testDSFMap.dir/build.make
 gtsam/base/tests/testDSFMap: CppUnitLite/libCppUnitLite.a
-gtsam/base/tests/testDSFMap: gtsam/libgtsam.so.4.2.0
+gtsam/base/tests/testDSFMap: gtsam/libgtsam.so.4.1.0
 gtsam/base/tests/testDSFMap: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 gtsam/base/tests/testDSFMap: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 gtsam/base/tests/testDSFMap: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

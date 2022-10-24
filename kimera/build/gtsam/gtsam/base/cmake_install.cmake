@@ -50,9 +50,11 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     "/home/catkin_ws/src/gtsam/gtsam/base/GenericValue.h"
     "/home/catkin_ws/src/gtsam/gtsam/base/Group.h"
     "/home/catkin_ws/src/gtsam/gtsam/base/Lie.h"
+    "/home/catkin_ws/src/gtsam/gtsam/base/LieMatrix.h"
+    "/home/catkin_ws/src/gtsam/gtsam/base/LieScalar.h"
+    "/home/catkin_ws/src/gtsam/gtsam/base/LieVector.h"
     "/home/catkin_ws/src/gtsam/gtsam/base/Manifold.h"
     "/home/catkin_ws/src/gtsam/gtsam/base/Matrix.h"
-    "/home/catkin_ws/src/gtsam/gtsam/base/MatrixSerialization.h"
     "/home/catkin_ws/src/gtsam/gtsam/base/OptionalJacobian.h"
     "/home/catkin_ws/src/gtsam/gtsam/base/ProductLieGroup.h"
     "/home/catkin_ws/src/gtsam/gtsam/base/SymmetricBlockMatrix.h"
@@ -61,7 +63,6 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     "/home/catkin_ws/src/gtsam/gtsam/base/ThreadsafeException.h"
     "/home/catkin_ws/src/gtsam/gtsam/base/Value.h"
     "/home/catkin_ws/src/gtsam/gtsam/base/Vector.h"
-    "/home/catkin_ws/src/gtsam/gtsam/base/VectorSerialization.h"
     "/home/catkin_ws/src/gtsam/gtsam/base/VectorSpace.h"
     "/home/catkin_ws/src/gtsam/gtsam/base/VerticalBlockMatrix.h"
     "/home/catkin_ws/src/gtsam/gtsam/base/WeightedSampler.h"
@@ -86,6 +87,14 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/gtsam/base/treeTraversal" TYPE FILE FILES
     "/home/catkin_ws/src/gtsam/gtsam/base/treeTraversal/parallelTraversalTasks.h"
     "/home/catkin_ws/src/gtsam/gtsam/base/treeTraversal/statistics.h"
+    )
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/gtsam/base/deprecated" TYPE FILE FILES
+    "/home/catkin_ws/src/gtsam/gtsam/base/deprecated/LieMatrix.h"
+    "/home/catkin_ws/src/gtsam/gtsam/base/deprecated/LieScalar.h"
+    "/home/catkin_ws/src/gtsam/gtsam/base/deprecated/LieVector.h"
     )
 endif()
 

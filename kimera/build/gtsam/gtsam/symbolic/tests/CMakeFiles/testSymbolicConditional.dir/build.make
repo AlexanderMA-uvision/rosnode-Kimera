@@ -80,7 +80,7 @@ testSymbolicConditional_EXTERNAL_OBJECTS =
 gtsam/symbolic/tests/testSymbolicConditional: gtsam/symbolic/tests/CMakeFiles/testSymbolicConditional.dir/testSymbolicConditional.cpp.o
 gtsam/symbolic/tests/testSymbolicConditional: gtsam/symbolic/tests/CMakeFiles/testSymbolicConditional.dir/build.make
 gtsam/symbolic/tests/testSymbolicConditional: CppUnitLite/libCppUnitLite.a
-gtsam/symbolic/tests/testSymbolicConditional: gtsam/libgtsam.so.4.2.0
+gtsam/symbolic/tests/testSymbolicConditional: gtsam/libgtsam.so.4.1.0
 gtsam/symbolic/tests/testSymbolicConditional: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 gtsam/symbolic/tests/testSymbolicConditional: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 gtsam/symbolic/tests/testSymbolicConditional: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

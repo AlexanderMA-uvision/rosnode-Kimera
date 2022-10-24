@@ -80,7 +80,7 @@ testBoundingConstraint_EXTERNAL_OBJECTS =
 tests/testBoundingConstraint: tests/CMakeFiles/testBoundingConstraint.dir/testBoundingConstraint.cpp.o
 tests/testBoundingConstraint: tests/CMakeFiles/testBoundingConstraint.dir/build.make
 tests/testBoundingConstraint: CppUnitLite/libCppUnitLite.a
-tests/testBoundingConstraint: gtsam/libgtsam.so.4.2.0
+tests/testBoundingConstraint: gtsam/libgtsam.so.4.1.0
 tests/testBoundingConstraint: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 tests/testBoundingConstraint: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 tests/testBoundingConstraint: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

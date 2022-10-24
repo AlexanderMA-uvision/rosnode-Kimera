@@ -80,8 +80,8 @@ testConcurrentBatchSmoother_EXTERNAL_OBJECTS =
 gtsam_unstable/nonlinear/tests/testConcurrentBatchSmoother: gtsam_unstable/nonlinear/tests/CMakeFiles/testConcurrentBatchSmoother.dir/testConcurrentBatchSmoother.cpp.o
 gtsam_unstable/nonlinear/tests/testConcurrentBatchSmoother: gtsam_unstable/nonlinear/tests/CMakeFiles/testConcurrentBatchSmoother.dir/build.make
 gtsam_unstable/nonlinear/tests/testConcurrentBatchSmoother: CppUnitLite/libCppUnitLite.a
-gtsam_unstable/nonlinear/tests/testConcurrentBatchSmoother: gtsam_unstable/libgtsam_unstable.so.4.2.0
-gtsam_unstable/nonlinear/tests/testConcurrentBatchSmoother: gtsam/libgtsam.so.4.2.0
+gtsam_unstable/nonlinear/tests/testConcurrentBatchSmoother: gtsam_unstable/libgtsam_unstable.so.4.1.0
+gtsam_unstable/nonlinear/tests/testConcurrentBatchSmoother: gtsam/libgtsam.so.4.1.0
 gtsam_unstable/nonlinear/tests/testConcurrentBatchSmoother: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 gtsam_unstable/nonlinear/tests/testConcurrentBatchSmoother: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 gtsam_unstable/nonlinear/tests/testConcurrentBatchSmoother: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

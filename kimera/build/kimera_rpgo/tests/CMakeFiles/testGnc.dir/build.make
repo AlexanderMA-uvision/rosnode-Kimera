@@ -81,8 +81,8 @@ tests/testGnc: tests/CMakeFiles/testGnc.dir/testGnc.cpp.o
 tests/testGnc: tests/CMakeFiles/testGnc.dir/build.make
 tests/testGnc: /home/catkin_ws/devel/lib/libCppUnitLite.a
 tests/testGnc: libKimeraRPGO.so
-tests/testGnc: /home/catkin_ws/devel/lib/libgtsam_unstable.so.4.2.0
-tests/testGnc: /home/catkin_ws/devel/lib/libgtsam.so.4.2.0
+tests/testGnc: /home/catkin_ws/devel/lib/libgtsam_unstable.so.4.1.0
+tests/testGnc: /home/catkin_ws/devel/lib/libgtsam.so.4.1.0
 tests/testGnc: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 tests/testGnc: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 tests/testGnc: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

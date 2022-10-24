@@ -79,7 +79,7 @@ timeSchurFactors_EXTERNAL_OBJECTS =
 
 timing/timeSchurFactors: timing/CMakeFiles/timeSchurFactors.dir/timeSchurFactors.cpp.o
 timing/timeSchurFactors: timing/CMakeFiles/timeSchurFactors.dir/build.make
-timing/timeSchurFactors: gtsam/libgtsam.so.4.2.0
+timing/timeSchurFactors: gtsam/libgtsam.so.4.1.0
 timing/timeSchurFactors: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 timing/timeSchurFactors: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 timing/timeSchurFactors: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

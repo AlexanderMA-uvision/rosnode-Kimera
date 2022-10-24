@@ -92,6 +92,17 @@ install/fast: preinstall/fast
 	/usr/bin/cmake -P cmake_install.cmake
 .PHONY : install/fast
 
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/usr/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
+
 # Special rule for the target test
 test:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
@@ -124,17 +135,6 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
-
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
 
 # Special rule for the target package
 package: preinstall
@@ -355,49 +355,19 @@ testSimulated2D.valgrind/fast:
 .PHONY : testSimulated2D.valgrind/fast
 
 # Convenience name for target.
-tests/CMakeFiles/testSerializationSlam.valgrind.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/testSerializationSlam.valgrind.dir/rule
-.PHONY : tests/CMakeFiles/testSerializationSlam.valgrind.dir/rule
+tests/CMakeFiles/testSerializationSLAM.dir/rule:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/testSerializationSLAM.dir/rule
+.PHONY : tests/CMakeFiles/testSerializationSLAM.dir/rule
 
 # Convenience name for target.
-testSerializationSlam.valgrind: tests/CMakeFiles/testSerializationSlam.valgrind.dir/rule
+testSerializationSLAM: tests/CMakeFiles/testSerializationSLAM.dir/rule
 
-.PHONY : testSerializationSlam.valgrind
+.PHONY : testSerializationSLAM
 
 # fast build rule for target.
-testSerializationSlam.valgrind/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f tests/CMakeFiles/testSerializationSlam.valgrind.dir/build.make tests/CMakeFiles/testSerializationSlam.valgrind.dir/build
-.PHONY : testSerializationSlam.valgrind/fast
-
-# Convenience name for target.
-tests/CMakeFiles/testSerializationSlam.run.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/testSerializationSlam.run.dir/rule
-.PHONY : tests/CMakeFiles/testSerializationSlam.run.dir/rule
-
-# Convenience name for target.
-testSerializationSlam.run: tests/CMakeFiles/testSerializationSlam.run.dir/rule
-
-.PHONY : testSerializationSlam.run
-
-# fast build rule for target.
-testSerializationSlam.run/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f tests/CMakeFiles/testSerializationSlam.run.dir/build.make tests/CMakeFiles/testSerializationSlam.run.dir/build
-.PHONY : testSerializationSlam.run/fast
-
-# Convenience name for target.
-tests/CMakeFiles/testSerializationSlam.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/testSerializationSlam.dir/rule
-.PHONY : tests/CMakeFiles/testSerializationSlam.dir/rule
-
-# Convenience name for target.
-testSerializationSlam: tests/CMakeFiles/testSerializationSlam.dir/rule
-
-.PHONY : testSerializationSlam
-
-# fast build rule for target.
-testSerializationSlam/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f tests/CMakeFiles/testSerializationSlam.dir/build.make tests/CMakeFiles/testSerializationSlam.dir/build
-.PHONY : testSerializationSlam/fast
+testSerializationSLAM/fast:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f tests/CMakeFiles/testSerializationSLAM.dir/build.make tests/CMakeFiles/testSerializationSLAM.dir/build
+.PHONY : testSerializationSLAM/fast
 
 # Convenience name for target.
 tests/CMakeFiles/testSubgraphPreconditioner.valgrind.dir/rule:
@@ -458,36 +428,6 @@ testRot3Optimization: tests/CMakeFiles/testRot3Optimization.dir/rule
 testRot3Optimization/fast:
 	cd /home/catkin_ws/build/gtsam && $(MAKE) -f tests/CMakeFiles/testRot3Optimization.dir/build.make tests/CMakeFiles/testRot3Optimization.dir/build
 .PHONY : testRot3Optimization/fast
-
-# Convenience name for target.
-tests/CMakeFiles/testRobust.valgrind.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/testRobust.valgrind.dir/rule
-.PHONY : tests/CMakeFiles/testRobust.valgrind.dir/rule
-
-# Convenience name for target.
-testRobust.valgrind: tests/CMakeFiles/testRobust.valgrind.dir/rule
-
-.PHONY : testRobust.valgrind
-
-# fast build rule for target.
-testRobust.valgrind/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f tests/CMakeFiles/testRobust.valgrind.dir/build.make tests/CMakeFiles/testRobust.valgrind.dir/build
-.PHONY : testRobust.valgrind/fast
-
-# Convenience name for target.
-tests/CMakeFiles/testRobust.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/testRobust.dir/rule
-.PHONY : tests/CMakeFiles/testRobust.dir/rule
-
-# Convenience name for target.
-testRobust: tests/CMakeFiles/testRobust.dir/rule
-
-.PHONY : testRobust
-
-# fast build rule for target.
-testRobust/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f tests/CMakeFiles/testRobust.dir/build.make tests/CMakeFiles/testRobust.dir/build
-.PHONY : testRobust/fast
 
 # Convenience name for target.
 tests/CMakeFiles/testPreconditioner.valgrind.dir/rule:
@@ -728,6 +668,21 @@ testGaussianISAM2: tests/CMakeFiles/testGaussianISAM2.dir/rule
 testGaussianISAM2/fast:
 	cd /home/catkin_ws/build/gtsam && $(MAKE) -f tests/CMakeFiles/testGaussianISAM2.dir/build.make tests/CMakeFiles/testGaussianISAM2.dir/build
 .PHONY : testGaussianISAM2/fast
+
+# Convenience name for target.
+tests/CMakeFiles/testSerializationSLAM.valgrind.dir/rule:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/testSerializationSLAM.valgrind.dir/rule
+.PHONY : tests/CMakeFiles/testSerializationSLAM.valgrind.dir/rule
+
+# Convenience name for target.
+testSerializationSLAM.valgrind: tests/CMakeFiles/testSerializationSLAM.valgrind.dir/rule
+
+.PHONY : testSerializationSLAM.valgrind
+
+# fast build rule for target.
+testSerializationSLAM.valgrind/fast:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f tests/CMakeFiles/testSerializationSLAM.valgrind.dir/build.make tests/CMakeFiles/testSerializationSLAM.valgrind.dir/build
+.PHONY : testSerializationSLAM.valgrind/fast
 
 # Convenience name for target.
 tests/CMakeFiles/testNonlinearISAM.dir/rule:
@@ -1105,6 +1060,21 @@ testDoglegOptimizer.run/fast:
 .PHONY : testDoglegOptimizer.run/fast
 
 # Convenience name for target.
+tests/CMakeFiles/testSerializationSLAM.run.dir/rule:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/testSerializationSLAM.run.dir/rule
+.PHONY : tests/CMakeFiles/testSerializationSLAM.run.dir/rule
+
+# Convenience name for target.
+testSerializationSLAM.run: tests/CMakeFiles/testSerializationSLAM.run.dir/rule
+
+.PHONY : testSerializationSLAM.run
+
+# fast build rule for target.
+testSerializationSLAM.run/fast:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f tests/CMakeFiles/testSerializationSLAM.run.dir/build.make tests/CMakeFiles/testSerializationSLAM.run.dir/build
+.PHONY : testSerializationSLAM.run/fast
+
+# Convenience name for target.
 tests/CMakeFiles/testGaussianFactorGraphB.dir/rule:
 	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/testGaussianFactorGraphB.dir/rule
 .PHONY : tests/CMakeFiles/testGaussianFactorGraphB.dir/rule
@@ -1208,21 +1178,6 @@ testGaussianBayesTreeB: tests/CMakeFiles/testGaussianBayesTreeB.dir/rule
 testGaussianBayesTreeB/fast:
 	cd /home/catkin_ws/build/gtsam && $(MAKE) -f tests/CMakeFiles/testGaussianBayesTreeB.dir/build.make tests/CMakeFiles/testGaussianBayesTreeB.dir/build
 .PHONY : testGaussianBayesTreeB/fast
-
-# Convenience name for target.
-tests/CMakeFiles/testRobust.run.dir/rule:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/testRobust.run.dir/rule
-.PHONY : tests/CMakeFiles/testRobust.run.dir/rule
-
-# Convenience name for target.
-testRobust.run: tests/CMakeFiles/testRobust.run.dir/rule
-
-.PHONY : testRobust.run
-
-# fast build rule for target.
-testRobust.run/fast:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f tests/CMakeFiles/testRobust.run.dir/build.make tests/CMakeFiles/testRobust.run.dir/build
-.PHONY : testRobust.run/fast
 
 # Convenience name for target.
 tests/CMakeFiles/testDoglegOptimizer.dir/rule:
@@ -2454,33 +2409,6 @@ testPreconditioner.cpp.s:
 	cd /home/catkin_ws/build/gtsam && $(MAKE) -f tests/CMakeFiles/testPreconditioner.dir/build.make tests/CMakeFiles/testPreconditioner.dir/testPreconditioner.cpp.s
 .PHONY : testPreconditioner.cpp.s
 
-testRobust.o: testRobust.cpp.o
-
-.PHONY : testRobust.o
-
-# target to build an object file
-testRobust.cpp.o:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f tests/CMakeFiles/testRobust.dir/build.make tests/CMakeFiles/testRobust.dir/testRobust.cpp.o
-.PHONY : testRobust.cpp.o
-
-testRobust.i: testRobust.cpp.i
-
-.PHONY : testRobust.i
-
-# target to preprocess a source file
-testRobust.cpp.i:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f tests/CMakeFiles/testRobust.dir/build.make tests/CMakeFiles/testRobust.dir/testRobust.cpp.i
-.PHONY : testRobust.cpp.i
-
-testRobust.s: testRobust.cpp.s
-
-.PHONY : testRobust.s
-
-# target to generate assembly for a file
-testRobust.cpp.s:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f tests/CMakeFiles/testRobust.dir/build.make tests/CMakeFiles/testRobust.dir/testRobust.cpp.s
-.PHONY : testRobust.cpp.s
-
 testRot3Optimization.o: testRot3Optimization.cpp.o
 
 .PHONY : testRot3Optimization.o
@@ -2508,32 +2436,32 @@ testRot3Optimization.cpp.s:
 	cd /home/catkin_ws/build/gtsam && $(MAKE) -f tests/CMakeFiles/testRot3Optimization.dir/build.make tests/CMakeFiles/testRot3Optimization.dir/testRot3Optimization.cpp.s
 .PHONY : testRot3Optimization.cpp.s
 
-testSerializationSlam.o: testSerializationSlam.cpp.o
+testSerializationSLAM.o: testSerializationSLAM.cpp.o
 
-.PHONY : testSerializationSlam.o
+.PHONY : testSerializationSLAM.o
 
 # target to build an object file
-testSerializationSlam.cpp.o:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f tests/CMakeFiles/testSerializationSlam.dir/build.make tests/CMakeFiles/testSerializationSlam.dir/testSerializationSlam.cpp.o
-.PHONY : testSerializationSlam.cpp.o
+testSerializationSLAM.cpp.o:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f tests/CMakeFiles/testSerializationSLAM.dir/build.make tests/CMakeFiles/testSerializationSLAM.dir/testSerializationSLAM.cpp.o
+.PHONY : testSerializationSLAM.cpp.o
 
-testSerializationSlam.i: testSerializationSlam.cpp.i
+testSerializationSLAM.i: testSerializationSLAM.cpp.i
 
-.PHONY : testSerializationSlam.i
+.PHONY : testSerializationSLAM.i
 
 # target to preprocess a source file
-testSerializationSlam.cpp.i:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f tests/CMakeFiles/testSerializationSlam.dir/build.make tests/CMakeFiles/testSerializationSlam.dir/testSerializationSlam.cpp.i
-.PHONY : testSerializationSlam.cpp.i
+testSerializationSLAM.cpp.i:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f tests/CMakeFiles/testSerializationSLAM.dir/build.make tests/CMakeFiles/testSerializationSLAM.dir/testSerializationSLAM.cpp.i
+.PHONY : testSerializationSLAM.cpp.i
 
-testSerializationSlam.s: testSerializationSlam.cpp.s
+testSerializationSLAM.s: testSerializationSLAM.cpp.s
 
-.PHONY : testSerializationSlam.s
+.PHONY : testSerializationSLAM.s
 
 # target to generate assembly for a file
-testSerializationSlam.cpp.s:
-	cd /home/catkin_ws/build/gtsam && $(MAKE) -f tests/CMakeFiles/testSerializationSlam.dir/build.make tests/CMakeFiles/testSerializationSlam.dir/testSerializationSlam.cpp.s
-.PHONY : testSerializationSlam.cpp.s
+testSerializationSLAM.cpp.s:
+	cd /home/catkin_ws/build/gtsam && $(MAKE) -f tests/CMakeFiles/testSerializationSLAM.dir/build.make tests/CMakeFiles/testSerializationSLAM.dir/testSerializationSLAM.cpp.s
+.PHONY : testSerializationSLAM.cpp.s
 
 testSimulated2D.o: testSimulated2D.cpp.o
 
@@ -2733,6 +2661,7 @@ help:
 	@echo "... install/strip"
 	@echo "... install/local"
 	@echo "... install"
+	@echo "... rebuild_cache"
 	@echo "... test"
 	@echo "... package_source"
 	@echo "... testVisualISAM2.valgrind"
@@ -2747,16 +2676,11 @@ help:
 	@echo "... testSimulated3D"
 	@echo "... testSimulated2DOriented"
 	@echo "... testSimulated2D.valgrind"
-	@echo "... testSerializationSlam.valgrind"
-	@echo "... testSerializationSlam.run"
-	@echo "... testSerializationSlam"
+	@echo "... testSerializationSLAM"
 	@echo "... testSubgraphPreconditioner.valgrind"
 	@echo "... testRot3Optimization.valgrind"
 	@echo "... testRot3Optimization.run"
 	@echo "... testRot3Optimization"
-	@echo "... testRobust.valgrind"
-	@echo "... rebuild_cache"
-	@echo "... testRobust"
 	@echo "... testPreconditioner.valgrind"
 	@echo "... testPCGSolver.valgrind"
 	@echo "... testPreconditioner.run"
@@ -2774,6 +2698,7 @@ help:
 	@echo "... testSimulated2DOriented.run"
 	@echo "... testSimulated2D.run"
 	@echo "... testGaussianISAM2"
+	@echo "... testSerializationSLAM.valgrind"
 	@echo "... testNonlinearISAM"
 	@echo "... testGeneralSFMFactorB.run"
 	@echo "... testNonlinearOptimizer.valgrind"
@@ -2800,6 +2725,7 @@ help:
 	@echo "... testIterative.run"
 	@echo "... testDoglegOptimizer.run"
 	@echo "... list_install_components"
+	@echo "... testSerializationSLAM.run"
 	@echo "... testGaussianFactorGraphB"
 	@echo "... testDoglegOptimizer.valgrind"
 	@echo "... testMarginals.run"
@@ -2807,7 +2733,6 @@ help:
 	@echo "... testPreconditioner"
 	@echo "... testGaussianBayesTreeB.valgrind"
 	@echo "... testGaussianBayesTreeB"
-	@echo "... testRobust.run"
 	@echo "... testDoglegOptimizer"
 	@echo "... testExpressionFactor"
 	@echo "... testNonlinearISAM.run"
@@ -2920,15 +2845,12 @@ help:
 	@echo "... testPreconditioner.o"
 	@echo "... testPreconditioner.i"
 	@echo "... testPreconditioner.s"
-	@echo "... testRobust.o"
-	@echo "... testRobust.i"
-	@echo "... testRobust.s"
 	@echo "... testRot3Optimization.o"
 	@echo "... testRot3Optimization.i"
 	@echo "... testRot3Optimization.s"
-	@echo "... testSerializationSlam.o"
-	@echo "... testSerializationSlam.i"
-	@echo "... testSerializationSlam.s"
+	@echo "... testSerializationSLAM.o"
+	@echo "... testSerializationSLAM.i"
+	@echo "... testSerializationSLAM.s"
 	@echo "... testSimulated2D.o"
 	@echo "... testSimulated2D.i"
 	@echo "... testSimulated2D.s"

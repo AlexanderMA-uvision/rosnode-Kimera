@@ -79,7 +79,7 @@ GenerateTrajectories_EXTERNAL_OBJECTS =
 
 GenerateTrajectories: CMakeFiles/GenerateTrajectories.dir/examples/GenerateTrajectories.cpp.o
 GenerateTrajectories: CMakeFiles/GenerateTrajectories.dir/build.make
-GenerateTrajectories: /home/catkin_ws/devel/lib/libgtsam.so.4.2.0
+GenerateTrajectories: /home/catkin_ws/devel/lib/libgtsam.so.4.1.0
 GenerateTrajectories: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 GenerateTrajectories: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 GenerateTrajectories: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

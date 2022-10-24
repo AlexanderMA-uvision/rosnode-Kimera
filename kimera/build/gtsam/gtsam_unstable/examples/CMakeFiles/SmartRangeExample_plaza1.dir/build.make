@@ -79,8 +79,8 @@ SmartRangeExample_plaza1_EXTERNAL_OBJECTS =
 
 gtsam_unstable/examples/SmartRangeExample_plaza1: gtsam_unstable/examples/CMakeFiles/SmartRangeExample_plaza1.dir/SmartRangeExample_plaza1.cpp.o
 gtsam_unstable/examples/SmartRangeExample_plaza1: gtsam_unstable/examples/CMakeFiles/SmartRangeExample_plaza1.dir/build.make
-gtsam_unstable/examples/SmartRangeExample_plaza1: gtsam_unstable/libgtsam_unstable.so.4.2.0
-gtsam_unstable/examples/SmartRangeExample_plaza1: gtsam/libgtsam.so.4.2.0
+gtsam_unstable/examples/SmartRangeExample_plaza1: gtsam_unstable/libgtsam_unstable.so.4.1.0
+gtsam_unstable/examples/SmartRangeExample_plaza1: gtsam/libgtsam.so.4.1.0
 gtsam_unstable/examples/SmartRangeExample_plaza1: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 gtsam_unstable/examples/SmartRangeExample_plaza1: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 gtsam_unstable/examples/SmartRangeExample_plaza1: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

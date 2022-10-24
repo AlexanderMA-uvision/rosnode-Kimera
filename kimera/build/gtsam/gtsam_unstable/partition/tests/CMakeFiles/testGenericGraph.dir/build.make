@@ -80,9 +80,8 @@ testGenericGraph_EXTERNAL_OBJECTS =
 gtsam_unstable/partition/tests/testGenericGraph: gtsam_unstable/partition/tests/CMakeFiles/testGenericGraph.dir/testGenericGraph.cpp.o
 gtsam_unstable/partition/tests/testGenericGraph: gtsam_unstable/partition/tests/CMakeFiles/testGenericGraph.dir/build.make
 gtsam_unstable/partition/tests/testGenericGraph: CppUnitLite/libCppUnitLite.a
-gtsam_unstable/partition/tests/testGenericGraph: gtsam_unstable/libgtsam_unstable.so.4.2.0
-gtsam_unstable/partition/tests/testGenericGraph: gtsam/libgtsam.so.4.2.0
-gtsam_unstable/partition/tests/testGenericGraph: gtsam/3rdparty/metis/libmetis/libmetis-gtsam.so
+gtsam_unstable/partition/tests/testGenericGraph: gtsam_unstable/libgtsam_unstable.so.4.1.0
+gtsam_unstable/partition/tests/testGenericGraph: gtsam/libgtsam.so.4.1.0
 gtsam_unstable/partition/tests/testGenericGraph: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 gtsam_unstable/partition/tests/testGenericGraph: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 gtsam_unstable/partition/tests/testGenericGraph: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0
@@ -94,6 +93,7 @@ gtsam_unstable/partition/tests/testGenericGraph: /usr/lib/aarch64-linux-gnu/libb
 gtsam_unstable/partition/tests/testGenericGraph: /usr/lib/aarch64-linux-gnu/libboost_chrono.so.1.71.0
 gtsam_unstable/partition/tests/testGenericGraph: /usr/lib/aarch64-linux-gnu/libtbb.so
 gtsam_unstable/partition/tests/testGenericGraph: /usr/lib/aarch64-linux-gnu/libtbbmalloc.so
+gtsam_unstable/partition/tests/testGenericGraph: gtsam/3rdparty/metis/libmetis/libmetis-gtsam.so
 gtsam_unstable/partition/tests/testGenericGraph: gtsam_unstable/partition/tests/CMakeFiles/testGenericGraph.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable testGenericGraph"
 	cd /home/catkin_ws/build/gtsam/gtsam_unstable/partition/tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/testGenericGraph.dir/link.txt --verbose=$(VERBOSE)

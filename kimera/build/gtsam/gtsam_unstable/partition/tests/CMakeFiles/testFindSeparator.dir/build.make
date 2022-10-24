@@ -80,9 +80,8 @@ testFindSeparator_EXTERNAL_OBJECTS =
 gtsam_unstable/partition/tests/testFindSeparator: gtsam_unstable/partition/tests/CMakeFiles/testFindSeparator.dir/testFindSeparator.cpp.o
 gtsam_unstable/partition/tests/testFindSeparator: gtsam_unstable/partition/tests/CMakeFiles/testFindSeparator.dir/build.make
 gtsam_unstable/partition/tests/testFindSeparator: CppUnitLite/libCppUnitLite.a
-gtsam_unstable/partition/tests/testFindSeparator: gtsam_unstable/libgtsam_unstable.so.4.2.0
-gtsam_unstable/partition/tests/testFindSeparator: gtsam/libgtsam.so.4.2.0
-gtsam_unstable/partition/tests/testFindSeparator: gtsam/3rdparty/metis/libmetis/libmetis-gtsam.so
+gtsam_unstable/partition/tests/testFindSeparator: gtsam_unstable/libgtsam_unstable.so.4.1.0
+gtsam_unstable/partition/tests/testFindSeparator: gtsam/libgtsam.so.4.1.0
 gtsam_unstable/partition/tests/testFindSeparator: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 gtsam_unstable/partition/tests/testFindSeparator: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 gtsam_unstable/partition/tests/testFindSeparator: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0
@@ -94,6 +93,7 @@ gtsam_unstable/partition/tests/testFindSeparator: /usr/lib/aarch64-linux-gnu/lib
 gtsam_unstable/partition/tests/testFindSeparator: /usr/lib/aarch64-linux-gnu/libboost_chrono.so.1.71.0
 gtsam_unstable/partition/tests/testFindSeparator: /usr/lib/aarch64-linux-gnu/libtbb.so
 gtsam_unstable/partition/tests/testFindSeparator: /usr/lib/aarch64-linux-gnu/libtbbmalloc.so
+gtsam_unstable/partition/tests/testFindSeparator: gtsam/3rdparty/metis/libmetis/libmetis-gtsam.so
 gtsam_unstable/partition/tests/testFindSeparator: gtsam_unstable/partition/tests/CMakeFiles/testFindSeparator.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/catkin_ws/build/gtsam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable testFindSeparator"
 	cd /home/catkin_ws/build/gtsam/gtsam_unstable/partition/tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/testFindSeparator.dir/link.txt --verbose=$(VERBOSE)

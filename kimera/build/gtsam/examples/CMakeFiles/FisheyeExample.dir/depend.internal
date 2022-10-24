@@ -4,7 +4,6 @@
 examples/CMakeFiles/FisheyeExample.dir/FisheyeExample.cpp.o
  /home/catkin_ws/src/gtsam/examples/FisheyeExample.cpp
  /home/catkin_ws/src/gtsam/examples/SFMdata.h
- /home/catkin_ws/src/gtsam/gtsam/base/ConcurrentMap.h
  /home/catkin_ws/src/gtsam/gtsam/base/FastDefaultAllocator.h
  /home/catkin_ws/src/gtsam/gtsam/base/FastList.h
  /home/catkin_ws/src/gtsam/gtsam/base/FastMap.h
@@ -15,14 +14,12 @@ examples/CMakeFiles/FisheyeExample.dir/FisheyeExample.cpp.o
  /home/catkin_ws/src/gtsam/gtsam/base/Lie.h
  /home/catkin_ws/src/gtsam/gtsam/base/Manifold.h
  /home/catkin_ws/src/gtsam/gtsam/base/Matrix.h
- /home/catkin_ws/src/gtsam/gtsam/base/MatrixSerialization.h
  /home/catkin_ws/src/gtsam/gtsam/base/OptionalJacobian.h
  /home/catkin_ws/src/gtsam/gtsam/base/SymmetricBlockMatrix.h
  /home/catkin_ws/src/gtsam/gtsam/base/Testable.h
  /home/catkin_ws/src/gtsam/gtsam/base/ThreadsafeException.h
  /home/catkin_ws/src/gtsam/gtsam/base/Value.h
  /home/catkin_ws/src/gtsam/gtsam/base/Vector.h
- /home/catkin_ws/src/gtsam/gtsam/base/VectorSerialization.h
  /home/catkin_ws/src/gtsam/gtsam/base/VectorSpace.h
  /home/catkin_ws/src/gtsam/gtsam/base/VerticalBlockMatrix.h
  /home/catkin_ws/src/gtsam/gtsam/base/concepts.h
@@ -46,7 +43,6 @@ examples/CMakeFiles/FisheyeExample.dir/FisheyeExample.cpp.o
  /home/catkin_ws/src/gtsam/gtsam/geometry/SOn.h
  /home/catkin_ws/src/gtsam/gtsam/geometry/Unit3.h
  /home/catkin_ws/src/gtsam/gtsam/global_includes.h
- /home/catkin_ws/src/gtsam/gtsam/inference/DotWriter.h
  /home/catkin_ws/src/gtsam/gtsam/inference/EliminateableFactorGraph.h
  /home/catkin_ws/src/gtsam/gtsam/inference/Factor.h
  /home/catkin_ws/src/gtsam/gtsam/inference/FactorGraph-inst.h
@@ -73,10 +69,8 @@ examples/CMakeFiles/FisheyeExample.dir/FisheyeExample.cpp.o
  /home/catkin_ws/src/gtsam/gtsam/linear/Scatter.h
  /home/catkin_ws/src/gtsam/gtsam/linear/SubgraphBuilder.h
  /home/catkin_ws/src/gtsam/gtsam/linear/SubgraphSolver.h
- /home/catkin_ws/src/gtsam/gtsam/linear/VectorValues.h
  /home/catkin_ws/src/gtsam/gtsam/linear/linearExceptions.h
  /home/catkin_ws/src/gtsam/gtsam/nonlinear/GaussNewtonOptimizer.h
- /home/catkin_ws/src/gtsam/gtsam/nonlinear/GraphvizFormatting.h
  /home/catkin_ws/src/gtsam/gtsam/nonlinear/NonlinearFactor.h
  /home/catkin_ws/src/gtsam/gtsam/nonlinear/NonlinearFactorGraph.h
  /home/catkin_ws/src/gtsam/gtsam/nonlinear/NonlinearOptimizer.h

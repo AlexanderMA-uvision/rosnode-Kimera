@@ -93,7 +93,7 @@ set_target_properties(CppUnitLite PROPERTIES
 # Import target "gtsam" for configuration "Release"
 set_property(TARGET gtsam APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(gtsam PROPERTIES
-  IMPORTED_LOCATION_RELEASE "/home/catkin_ws/build/gtsam/gtsam/libgtsam.so.4.2.0"
+  IMPORTED_LOCATION_RELEASE "/home/catkin_ws/build/gtsam/gtsam/libgtsam.so.4.1.0"
   IMPORTED_SONAME_RELEASE "libgtsam.so.4"
   )
 

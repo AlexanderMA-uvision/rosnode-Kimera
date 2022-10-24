@@ -855,14 +855,12 @@ CMakeFiles/KimeraRPGO.dir/src/GenericSolver.cpp.o: /home/catkin_ws/devel/include
 CMakeFiles/KimeraRPGO.dir/src/GenericSolver.cpp.o: /home/catkin_ws/devel/include/gtsam/base/Lie.h
 CMakeFiles/KimeraRPGO.dir/src/GenericSolver.cpp.o: /home/catkin_ws/devel/include/gtsam/base/Manifold.h
 CMakeFiles/KimeraRPGO.dir/src/GenericSolver.cpp.o: /home/catkin_ws/devel/include/gtsam/base/Matrix.h
-CMakeFiles/KimeraRPGO.dir/src/GenericSolver.cpp.o: /home/catkin_ws/devel/include/gtsam/base/MatrixSerialization.h
 CMakeFiles/KimeraRPGO.dir/src/GenericSolver.cpp.o: /home/catkin_ws/devel/include/gtsam/base/OptionalJacobian.h
 CMakeFiles/KimeraRPGO.dir/src/GenericSolver.cpp.o: /home/catkin_ws/devel/include/gtsam/base/SymmetricBlockMatrix.h
 CMakeFiles/KimeraRPGO.dir/src/GenericSolver.cpp.o: /home/catkin_ws/devel/include/gtsam/base/Testable.h
 CMakeFiles/KimeraRPGO.dir/src/GenericSolver.cpp.o: /home/catkin_ws/devel/include/gtsam/base/ThreadsafeException.h
 CMakeFiles/KimeraRPGO.dir/src/GenericSolver.cpp.o: /home/catkin_ws/devel/include/gtsam/base/Value.h
 CMakeFiles/KimeraRPGO.dir/src/GenericSolver.cpp.o: /home/catkin_ws/devel/include/gtsam/base/Vector.h
-CMakeFiles/KimeraRPGO.dir/src/GenericSolver.cpp.o: /home/catkin_ws/devel/include/gtsam/base/VectorSerialization.h
 CMakeFiles/KimeraRPGO.dir/src/GenericSolver.cpp.o: /home/catkin_ws/devel/include/gtsam/base/VectorSpace.h
 CMakeFiles/KimeraRPGO.dir/src/GenericSolver.cpp.o: /home/catkin_ws/devel/include/gtsam/base/VerticalBlockMatrix.h
 CMakeFiles/KimeraRPGO.dir/src/GenericSolver.cpp.o: /home/catkin_ws/devel/include/gtsam/base/concepts.h
@@ -884,7 +882,6 @@ CMakeFiles/KimeraRPGO.dir/src/GenericSolver.cpp.o: /home/catkin_ws/devel/include
 CMakeFiles/KimeraRPGO.dir/src/GenericSolver.cpp.o: /home/catkin_ws/devel/include/gtsam/geometry/SOn.h
 CMakeFiles/KimeraRPGO.dir/src/GenericSolver.cpp.o: /home/catkin_ws/devel/include/gtsam/geometry/Unit3.h
 CMakeFiles/KimeraRPGO.dir/src/GenericSolver.cpp.o: /home/catkin_ws/devel/include/gtsam/global_includes.h
-CMakeFiles/KimeraRPGO.dir/src/GenericSolver.cpp.o: /home/catkin_ws/devel/include/gtsam/inference/DotWriter.h
 CMakeFiles/KimeraRPGO.dir/src/GenericSolver.cpp.o: /home/catkin_ws/devel/include/gtsam/inference/EliminateableFactorGraph.h
 CMakeFiles/KimeraRPGO.dir/src/GenericSolver.cpp.o: /home/catkin_ws/devel/include/gtsam/inference/Factor.h
 CMakeFiles/KimeraRPGO.dir/src/GenericSolver.cpp.o: /home/catkin_ws/devel/include/gtsam/inference/FactorGraph-inst.h
@@ -915,7 +912,6 @@ CMakeFiles/KimeraRPGO.dir/src/GenericSolver.cpp.o: /home/catkin_ws/devel/include
 CMakeFiles/KimeraRPGO.dir/src/GenericSolver.cpp.o: /home/catkin_ws/devel/include/gtsam/linear/linearExceptions.h
 CMakeFiles/KimeraRPGO.dir/src/GenericSolver.cpp.o: /home/catkin_ws/devel/include/gtsam/nonlinear/DoglegOptimizer.h
 CMakeFiles/KimeraRPGO.dir/src/GenericSolver.cpp.o: /home/catkin_ws/devel/include/gtsam/nonlinear/GaussNewtonOptimizer.h
-CMakeFiles/KimeraRPGO.dir/src/GenericSolver.cpp.o: /home/catkin_ws/devel/include/gtsam/nonlinear/GraphvizFormatting.h
 CMakeFiles/KimeraRPGO.dir/src/GenericSolver.cpp.o: /home/catkin_ws/devel/include/gtsam/nonlinear/LevenbergMarquardtOptimizer.h
 CMakeFiles/KimeraRPGO.dir/src/GenericSolver.cpp.o: /home/catkin_ws/devel/include/gtsam/nonlinear/LevenbergMarquardtParams.h
 CMakeFiles/KimeraRPGO.dir/src/GenericSolver.cpp.o: /home/catkin_ws/devel/include/gtsam/nonlinear/NonlinearFactor.h
@@ -1149,13 +1145,11 @@ CMakeFiles/KimeraRPGO.dir/src/Logger.cpp.o: /home/catkin_ws/devel/include/gtsam/
 CMakeFiles/KimeraRPGO.dir/src/Logger.cpp.o: /home/catkin_ws/devel/include/gtsam/base/Lie.h
 CMakeFiles/KimeraRPGO.dir/src/Logger.cpp.o: /home/catkin_ws/devel/include/gtsam/base/Manifold.h
 CMakeFiles/KimeraRPGO.dir/src/Logger.cpp.o: /home/catkin_ws/devel/include/gtsam/base/Matrix.h
-CMakeFiles/KimeraRPGO.dir/src/Logger.cpp.o: /home/catkin_ws/devel/include/gtsam/base/MatrixSerialization.h
 CMakeFiles/KimeraRPGO.dir/src/Logger.cpp.o: /home/catkin_ws/devel/include/gtsam/base/OptionalJacobian.h
 CMakeFiles/KimeraRPGO.dir/src/Logger.cpp.o: /home/catkin_ws/devel/include/gtsam/base/Testable.h
 CMakeFiles/KimeraRPGO.dir/src/Logger.cpp.o: /home/catkin_ws/devel/include/gtsam/base/ThreadsafeException.h
 CMakeFiles/KimeraRPGO.dir/src/Logger.cpp.o: /home/catkin_ws/devel/include/gtsam/base/Value.h
 CMakeFiles/KimeraRPGO.dir/src/Logger.cpp.o: /home/catkin_ws/devel/include/gtsam/base/Vector.h
-CMakeFiles/KimeraRPGO.dir/src/Logger.cpp.o: /home/catkin_ws/devel/include/gtsam/base/VectorSerialization.h
 CMakeFiles/KimeraRPGO.dir/src/Logger.cpp.o: /home/catkin_ws/devel/include/gtsam/base/VectorSpace.h
 CMakeFiles/KimeraRPGO.dir/src/Logger.cpp.o: /home/catkin_ws/devel/include/gtsam/base/VerticalBlockMatrix.h
 CMakeFiles/KimeraRPGO.dir/src/Logger.cpp.o: /home/catkin_ws/devel/include/gtsam/base/concepts.h
@@ -1177,7 +1171,6 @@ CMakeFiles/KimeraRPGO.dir/src/Logger.cpp.o: /home/catkin_ws/devel/include/gtsam/
 CMakeFiles/KimeraRPGO.dir/src/Logger.cpp.o: /home/catkin_ws/devel/include/gtsam/geometry/SOn.h
 CMakeFiles/KimeraRPGO.dir/src/Logger.cpp.o: /home/catkin_ws/devel/include/gtsam/geometry/Unit3.h
 CMakeFiles/KimeraRPGO.dir/src/Logger.cpp.o: /home/catkin_ws/devel/include/gtsam/global_includes.h
-CMakeFiles/KimeraRPGO.dir/src/Logger.cpp.o: /home/catkin_ws/devel/include/gtsam/inference/DotWriter.h
 CMakeFiles/KimeraRPGO.dir/src/Logger.cpp.o: /home/catkin_ws/devel/include/gtsam/inference/Factor.h
 CMakeFiles/KimeraRPGO.dir/src/Logger.cpp.o: /home/catkin_ws/devel/include/gtsam/inference/FactorGraph-inst.h
 CMakeFiles/KimeraRPGO.dir/src/Logger.cpp.o: /home/catkin_ws/devel/include/gtsam/inference/FactorGraph.h
@@ -1189,7 +1182,6 @@ CMakeFiles/KimeraRPGO.dir/src/Logger.cpp.o: /home/catkin_ws/devel/include/gtsam/
 CMakeFiles/KimeraRPGO.dir/src/Logger.cpp.o: /home/catkin_ws/devel/include/gtsam/linear/LossFunctions.h
 CMakeFiles/KimeraRPGO.dir/src/Logger.cpp.o: /home/catkin_ws/devel/include/gtsam/linear/NoiseModel.h
 CMakeFiles/KimeraRPGO.dir/src/Logger.cpp.o: /home/catkin_ws/devel/include/gtsam/linear/linearExceptions.h
-CMakeFiles/KimeraRPGO.dir/src/Logger.cpp.o: /home/catkin_ws/devel/include/gtsam/nonlinear/GraphvizFormatting.h
 CMakeFiles/KimeraRPGO.dir/src/Logger.cpp.o: /home/catkin_ws/devel/include/gtsam/nonlinear/NonlinearFactor.h
 CMakeFiles/KimeraRPGO.dir/src/Logger.cpp.o: /home/catkin_ws/devel/include/gtsam/nonlinear/NonlinearFactorGraph.h
 CMakeFiles/KimeraRPGO.dir/src/Logger.cpp.o: /home/catkin_ws/devel/include/gtsam/nonlinear/PriorFactor.h
@@ -1417,14 +1409,12 @@ CMakeFiles/KimeraRPGO.dir/src/RobustSolver.cpp.o: /home/catkin_ws/devel/include/
 CMakeFiles/KimeraRPGO.dir/src/RobustSolver.cpp.o: /home/catkin_ws/devel/include/gtsam/base/Lie.h
 CMakeFiles/KimeraRPGO.dir/src/RobustSolver.cpp.o: /home/catkin_ws/devel/include/gtsam/base/Manifold.h
 CMakeFiles/KimeraRPGO.dir/src/RobustSolver.cpp.o: /home/catkin_ws/devel/include/gtsam/base/Matrix.h
-CMakeFiles/KimeraRPGO.dir/src/RobustSolver.cpp.o: /home/catkin_ws/devel/include/gtsam/base/MatrixSerialization.h
 CMakeFiles/KimeraRPGO.dir/src/RobustSolver.cpp.o: /home/catkin_ws/devel/include/gtsam/base/OptionalJacobian.h
 CMakeFiles/KimeraRPGO.dir/src/RobustSolver.cpp.o: /home/catkin_ws/devel/include/gtsam/base/SymmetricBlockMatrix.h
 CMakeFiles/KimeraRPGO.dir/src/RobustSolver.cpp.o: /home/catkin_ws/devel/include/gtsam/base/Testable.h
 CMakeFiles/KimeraRPGO.dir/src/RobustSolver.cpp.o: /home/catkin_ws/devel/include/gtsam/base/ThreadsafeException.h
 CMakeFiles/KimeraRPGO.dir/src/RobustSolver.cpp.o: /home/catkin_ws/devel/include/gtsam/base/Value.h
 CMakeFiles/KimeraRPGO.dir/src/RobustSolver.cpp.o: /home/catkin_ws/devel/include/gtsam/base/Vector.h
-CMakeFiles/KimeraRPGO.dir/src/RobustSolver.cpp.o: /home/catkin_ws/devel/include/gtsam/base/VectorSerialization.h
 CMakeFiles/KimeraRPGO.dir/src/RobustSolver.cpp.o: /home/catkin_ws/devel/include/gtsam/base/VectorSpace.h
 CMakeFiles/KimeraRPGO.dir/src/RobustSolver.cpp.o: /home/catkin_ws/devel/include/gtsam/base/VerticalBlockMatrix.h
 CMakeFiles/KimeraRPGO.dir/src/RobustSolver.cpp.o: /home/catkin_ws/devel/include/gtsam/base/concepts.h
@@ -1452,7 +1442,6 @@ CMakeFiles/KimeraRPGO.dir/src/RobustSolver.cpp.o: /home/catkin_ws/devel/include/
 CMakeFiles/KimeraRPGO.dir/src/RobustSolver.cpp.o: /home/catkin_ws/devel/include/gtsam/geometry/SOn.h
 CMakeFiles/KimeraRPGO.dir/src/RobustSolver.cpp.o: /home/catkin_ws/devel/include/gtsam/geometry/Unit3.h
 CMakeFiles/KimeraRPGO.dir/src/RobustSolver.cpp.o: /home/catkin_ws/devel/include/gtsam/global_includes.h
-CMakeFiles/KimeraRPGO.dir/src/RobustSolver.cpp.o: /home/catkin_ws/devel/include/gtsam/inference/DotWriter.h
 CMakeFiles/KimeraRPGO.dir/src/RobustSolver.cpp.o: /home/catkin_ws/devel/include/gtsam/inference/EliminateableFactorGraph.h
 CMakeFiles/KimeraRPGO.dir/src/RobustSolver.cpp.o: /home/catkin_ws/devel/include/gtsam/inference/Factor.h
 CMakeFiles/KimeraRPGO.dir/src/RobustSolver.cpp.o: /home/catkin_ws/devel/include/gtsam/inference/FactorGraph-inst.h
@@ -1486,7 +1475,6 @@ CMakeFiles/KimeraRPGO.dir/src/RobustSolver.cpp.o: /home/catkin_ws/devel/include/
 CMakeFiles/KimeraRPGO.dir/src/RobustSolver.cpp.o: /home/catkin_ws/devel/include/gtsam/nonlinear/GaussNewtonOptimizer.h
 CMakeFiles/KimeraRPGO.dir/src/RobustSolver.cpp.o: /home/catkin_ws/devel/include/gtsam/nonlinear/GncOptimizer.h
 CMakeFiles/KimeraRPGO.dir/src/RobustSolver.cpp.o: /home/catkin_ws/devel/include/gtsam/nonlinear/GncParams.h
-CMakeFiles/KimeraRPGO.dir/src/RobustSolver.cpp.o: /home/catkin_ws/devel/include/gtsam/nonlinear/GraphvizFormatting.h
 CMakeFiles/KimeraRPGO.dir/src/RobustSolver.cpp.o: /home/catkin_ws/devel/include/gtsam/nonlinear/LevenbergMarquardtOptimizer.h
 CMakeFiles/KimeraRPGO.dir/src/RobustSolver.cpp.o: /home/catkin_ws/devel/include/gtsam/nonlinear/LevenbergMarquardtParams.h
 CMakeFiles/KimeraRPGO.dir/src/RobustSolver.cpp.o: /home/catkin_ws/devel/include/gtsam/nonlinear/NonlinearFactor.h
@@ -1497,8 +1485,6 @@ CMakeFiles/KimeraRPGO.dir/src/RobustSolver.cpp.o: /home/catkin_ws/devel/include/
 CMakeFiles/KimeraRPGO.dir/src/RobustSolver.cpp.o: /home/catkin_ws/devel/include/gtsam/nonlinear/Values-inl.h
 CMakeFiles/KimeraRPGO.dir/src/RobustSolver.cpp.o: /home/catkin_ws/devel/include/gtsam/nonlinear/Values.h
 CMakeFiles/KimeraRPGO.dir/src/RobustSolver.cpp.o: /home/catkin_ws/devel/include/gtsam/sfm/BinaryMeasurement.h
-CMakeFiles/KimeraRPGO.dir/src/RobustSolver.cpp.o: /home/catkin_ws/devel/include/gtsam/sfm/SfmData.h
-CMakeFiles/KimeraRPGO.dir/src/RobustSolver.cpp.o: /home/catkin_ws/devel/include/gtsam/sfm/SfmTrack.h
 CMakeFiles/KimeraRPGO.dir/src/RobustSolver.cpp.o: /home/catkin_ws/devel/include/gtsam/slam/BetweenFactor.h
 CMakeFiles/KimeraRPGO.dir/src/RobustSolver.cpp.o: /home/catkin_ws/devel/include/gtsam/slam/PriorFactor.h
 CMakeFiles/KimeraRPGO.dir/src/RobustSolver.cpp.o: /home/catkin_ws/devel/include/gtsam/slam/dataset.h

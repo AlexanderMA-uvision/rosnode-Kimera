@@ -80,7 +80,7 @@ testDiscreteBayesTree_EXTERNAL_OBJECTS =
 gtsam/discrete/tests/testDiscreteBayesTree: gtsam/discrete/tests/CMakeFiles/testDiscreteBayesTree.dir/testDiscreteBayesTree.cpp.o
 gtsam/discrete/tests/testDiscreteBayesTree: gtsam/discrete/tests/CMakeFiles/testDiscreteBayesTree.dir/build.make
 gtsam/discrete/tests/testDiscreteBayesTree: CppUnitLite/libCppUnitLite.a
-gtsam/discrete/tests/testDiscreteBayesTree: gtsam/libgtsam.so.4.2.0
+gtsam/discrete/tests/testDiscreteBayesTree: gtsam/libgtsam.so.4.1.0
 gtsam/discrete/tests/testDiscreteBayesTree: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 gtsam/discrete/tests/testDiscreteBayesTree: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 gtsam/discrete/tests/testDiscreteBayesTree: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

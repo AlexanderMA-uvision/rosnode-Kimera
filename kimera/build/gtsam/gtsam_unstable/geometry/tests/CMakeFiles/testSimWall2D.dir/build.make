@@ -80,8 +80,8 @@ testSimWall2D_EXTERNAL_OBJECTS =
 gtsam_unstable/geometry/tests/testSimWall2D: gtsam_unstable/geometry/tests/CMakeFiles/testSimWall2D.dir/testSimWall2D.cpp.o
 gtsam_unstable/geometry/tests/testSimWall2D: gtsam_unstable/geometry/tests/CMakeFiles/testSimWall2D.dir/build.make
 gtsam_unstable/geometry/tests/testSimWall2D: CppUnitLite/libCppUnitLite.a
-gtsam_unstable/geometry/tests/testSimWall2D: gtsam_unstable/libgtsam_unstable.so.4.2.0
-gtsam_unstable/geometry/tests/testSimWall2D: gtsam/libgtsam.so.4.2.0
+gtsam_unstable/geometry/tests/testSimWall2D: gtsam_unstable/libgtsam_unstable.so.4.1.0
+gtsam_unstable/geometry/tests/testSimWall2D: gtsam/libgtsam.so.4.1.0
 gtsam_unstable/geometry/tests/testSimWall2D: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 gtsam_unstable/geometry/tests/testSimWall2D: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 gtsam_unstable/geometry/tests/testSimWall2D: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

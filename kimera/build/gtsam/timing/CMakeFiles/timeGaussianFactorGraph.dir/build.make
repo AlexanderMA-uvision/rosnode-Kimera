@@ -79,7 +79,7 @@ timeGaussianFactorGraph_EXTERNAL_OBJECTS =
 
 timing/timeGaussianFactorGraph: timing/CMakeFiles/timeGaussianFactorGraph.dir/timeGaussianFactorGraph.cpp.o
 timing/timeGaussianFactorGraph: timing/CMakeFiles/timeGaussianFactorGraph.dir/build.make
-timing/timeGaussianFactorGraph: gtsam/libgtsam.so.4.2.0
+timing/timeGaussianFactorGraph: gtsam/libgtsam.so.4.1.0
 timing/timeGaussianFactorGraph: CppUnitLite/libCppUnitLite.a
 timing/timeGaussianFactorGraph: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 timing/timeGaussianFactorGraph: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0

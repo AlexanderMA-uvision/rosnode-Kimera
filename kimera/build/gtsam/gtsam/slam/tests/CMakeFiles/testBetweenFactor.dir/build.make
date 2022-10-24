@@ -80,7 +80,7 @@ testBetweenFactor_EXTERNAL_OBJECTS =
 gtsam/slam/tests/testBetweenFactor: gtsam/slam/tests/CMakeFiles/testBetweenFactor.dir/testBetweenFactor.cpp.o
 gtsam/slam/tests/testBetweenFactor: gtsam/slam/tests/CMakeFiles/testBetweenFactor.dir/build.make
 gtsam/slam/tests/testBetweenFactor: CppUnitLite/libCppUnitLite.a
-gtsam/slam/tests/testBetweenFactor: gtsam/libgtsam.so.4.2.0
+gtsam/slam/tests/testBetweenFactor: gtsam/libgtsam.so.4.1.0
 gtsam/slam/tests/testBetweenFactor: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 gtsam/slam/tests/testBetweenFactor: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 gtsam/slam/tests/testBetweenFactor: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

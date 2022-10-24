@@ -11,13 +11,11 @@ CMakeFiles/GenerateTrajectories.dir/examples/GenerateTrajectories.cpp.o: /home/c
 CMakeFiles/GenerateTrajectories.dir/examples/GenerateTrajectories.cpp.o: /home/catkin_ws/devel/include/gtsam/base/Lie.h
 CMakeFiles/GenerateTrajectories.dir/examples/GenerateTrajectories.cpp.o: /home/catkin_ws/devel/include/gtsam/base/Manifold.h
 CMakeFiles/GenerateTrajectories.dir/examples/GenerateTrajectories.cpp.o: /home/catkin_ws/devel/include/gtsam/base/Matrix.h
-CMakeFiles/GenerateTrajectories.dir/examples/GenerateTrajectories.cpp.o: /home/catkin_ws/devel/include/gtsam/base/MatrixSerialization.h
 CMakeFiles/GenerateTrajectories.dir/examples/GenerateTrajectories.cpp.o: /home/catkin_ws/devel/include/gtsam/base/OptionalJacobian.h
 CMakeFiles/GenerateTrajectories.dir/examples/GenerateTrajectories.cpp.o: /home/catkin_ws/devel/include/gtsam/base/Testable.h
 CMakeFiles/GenerateTrajectories.dir/examples/GenerateTrajectories.cpp.o: /home/catkin_ws/devel/include/gtsam/base/ThreadsafeException.h
 CMakeFiles/GenerateTrajectories.dir/examples/GenerateTrajectories.cpp.o: /home/catkin_ws/devel/include/gtsam/base/Value.h
 CMakeFiles/GenerateTrajectories.dir/examples/GenerateTrajectories.cpp.o: /home/catkin_ws/devel/include/gtsam/base/Vector.h
-CMakeFiles/GenerateTrajectories.dir/examples/GenerateTrajectories.cpp.o: /home/catkin_ws/devel/include/gtsam/base/VectorSerialization.h
 CMakeFiles/GenerateTrajectories.dir/examples/GenerateTrajectories.cpp.o: /home/catkin_ws/devel/include/gtsam/base/VectorSpace.h
 CMakeFiles/GenerateTrajectories.dir/examples/GenerateTrajectories.cpp.o: /home/catkin_ws/devel/include/gtsam/base/VerticalBlockMatrix.h
 CMakeFiles/GenerateTrajectories.dir/examples/GenerateTrajectories.cpp.o: /home/catkin_ws/devel/include/gtsam/base/concepts.h
@@ -45,7 +43,6 @@ CMakeFiles/GenerateTrajectories.dir/examples/GenerateTrajectories.cpp.o: /home/c
 CMakeFiles/GenerateTrajectories.dir/examples/GenerateTrajectories.cpp.o: /home/catkin_ws/devel/include/gtsam/geometry/SOn.h
 CMakeFiles/GenerateTrajectories.dir/examples/GenerateTrajectories.cpp.o: /home/catkin_ws/devel/include/gtsam/geometry/Unit3.h
 CMakeFiles/GenerateTrajectories.dir/examples/GenerateTrajectories.cpp.o: /home/catkin_ws/devel/include/gtsam/global_includes.h
-CMakeFiles/GenerateTrajectories.dir/examples/GenerateTrajectories.cpp.o: /home/catkin_ws/devel/include/gtsam/inference/DotWriter.h
 CMakeFiles/GenerateTrajectories.dir/examples/GenerateTrajectories.cpp.o: /home/catkin_ws/devel/include/gtsam/inference/Factor.h
 CMakeFiles/GenerateTrajectories.dir/examples/GenerateTrajectories.cpp.o: /home/catkin_ws/devel/include/gtsam/inference/FactorGraph-inst.h
 CMakeFiles/GenerateTrajectories.dir/examples/GenerateTrajectories.cpp.o: /home/catkin_ws/devel/include/gtsam/inference/FactorGraph.h
@@ -58,15 +55,12 @@ CMakeFiles/GenerateTrajectories.dir/examples/GenerateTrajectories.cpp.o: /home/c
 CMakeFiles/GenerateTrajectories.dir/examples/GenerateTrajectories.cpp.o: /home/catkin_ws/devel/include/gtsam/linear/LossFunctions.h
 CMakeFiles/GenerateTrajectories.dir/examples/GenerateTrajectories.cpp.o: /home/catkin_ws/devel/include/gtsam/linear/NoiseModel.h
 CMakeFiles/GenerateTrajectories.dir/examples/GenerateTrajectories.cpp.o: /home/catkin_ws/devel/include/gtsam/linear/linearExceptions.h
-CMakeFiles/GenerateTrajectories.dir/examples/GenerateTrajectories.cpp.o: /home/catkin_ws/devel/include/gtsam/nonlinear/GraphvizFormatting.h
 CMakeFiles/GenerateTrajectories.dir/examples/GenerateTrajectories.cpp.o: /home/catkin_ws/devel/include/gtsam/nonlinear/NonlinearFactor.h
 CMakeFiles/GenerateTrajectories.dir/examples/GenerateTrajectories.cpp.o: /home/catkin_ws/devel/include/gtsam/nonlinear/NonlinearFactorGraph.h
 CMakeFiles/GenerateTrajectories.dir/examples/GenerateTrajectories.cpp.o: /home/catkin_ws/devel/include/gtsam/nonlinear/PriorFactor.h
 CMakeFiles/GenerateTrajectories.dir/examples/GenerateTrajectories.cpp.o: /home/catkin_ws/devel/include/gtsam/nonlinear/Values-inl.h
 CMakeFiles/GenerateTrajectories.dir/examples/GenerateTrajectories.cpp.o: /home/catkin_ws/devel/include/gtsam/nonlinear/Values.h
 CMakeFiles/GenerateTrajectories.dir/examples/GenerateTrajectories.cpp.o: /home/catkin_ws/devel/include/gtsam/sfm/BinaryMeasurement.h
-CMakeFiles/GenerateTrajectories.dir/examples/GenerateTrajectories.cpp.o: /home/catkin_ws/devel/include/gtsam/sfm/SfmData.h
-CMakeFiles/GenerateTrajectories.dir/examples/GenerateTrajectories.cpp.o: /home/catkin_ws/devel/include/gtsam/sfm/SfmTrack.h
 CMakeFiles/GenerateTrajectories.dir/examples/GenerateTrajectories.cpp.o: /home/catkin_ws/devel/include/gtsam/slam/BetweenFactor.h
 CMakeFiles/GenerateTrajectories.dir/examples/GenerateTrajectories.cpp.o: /home/catkin_ws/devel/include/gtsam/slam/dataset.h
 CMakeFiles/GenerateTrajectories.dir/examples/GenerateTrajectories.cpp.o: /home/catkin_ws/src/Kimera-RPGO/examples/GenerateTrajectories.cpp

@@ -80,8 +80,8 @@ testGaussMarkov1stOrderFactor_EXTERNAL_OBJECTS =
 gtsam_unstable/slam/tests/testGaussMarkov1stOrderFactor: gtsam_unstable/slam/tests/CMakeFiles/testGaussMarkov1stOrderFactor.dir/testGaussMarkov1stOrderFactor.cpp.o
 gtsam_unstable/slam/tests/testGaussMarkov1stOrderFactor: gtsam_unstable/slam/tests/CMakeFiles/testGaussMarkov1stOrderFactor.dir/build.make
 gtsam_unstable/slam/tests/testGaussMarkov1stOrderFactor: CppUnitLite/libCppUnitLite.a
-gtsam_unstable/slam/tests/testGaussMarkov1stOrderFactor: gtsam_unstable/libgtsam_unstable.so.4.2.0
-gtsam_unstable/slam/tests/testGaussMarkov1stOrderFactor: gtsam/libgtsam.so.4.2.0
+gtsam_unstable/slam/tests/testGaussMarkov1stOrderFactor: gtsam_unstable/libgtsam_unstable.so.4.1.0
+gtsam_unstable/slam/tests/testGaussMarkov1stOrderFactor: gtsam/libgtsam.so.4.1.0
 gtsam_unstable/slam/tests/testGaussMarkov1stOrderFactor: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 gtsam_unstable/slam/tests/testGaussMarkov1stOrderFactor: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 gtsam_unstable/slam/tests/testGaussMarkov1stOrderFactor: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

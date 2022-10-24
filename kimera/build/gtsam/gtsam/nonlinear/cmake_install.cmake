@@ -53,7 +53,6 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     "/home/catkin_ws/src/gtsam/gtsam/nonlinear/GaussNewtonOptimizer.h"
     "/home/catkin_ws/src/gtsam/gtsam/nonlinear/GncOptimizer.h"
     "/home/catkin_ws/src/gtsam/gtsam/nonlinear/GncParams.h"
-    "/home/catkin_ws/src/gtsam/gtsam/nonlinear/GraphvizFormatting.h"
     "/home/catkin_ws/src/gtsam/gtsam/nonlinear/ISAM2-impl.h"
     "/home/catkin_ws/src/gtsam/gtsam/nonlinear/ISAM2.h"
     "/home/catkin_ws/src/gtsam/gtsam/nonlinear/ISAM2Clique.h"

@@ -80,7 +80,7 @@ testCalibratedCamera_EXTERNAL_OBJECTS =
 gtsam/geometry/tests/testCalibratedCamera: gtsam/geometry/tests/CMakeFiles/testCalibratedCamera.dir/testCalibratedCamera.cpp.o
 gtsam/geometry/tests/testCalibratedCamera: gtsam/geometry/tests/CMakeFiles/testCalibratedCamera.dir/build.make
 gtsam/geometry/tests/testCalibratedCamera: CppUnitLite/libCppUnitLite.a
-gtsam/geometry/tests/testCalibratedCamera: gtsam/libgtsam.so.4.2.0
+gtsam/geometry/tests/testCalibratedCamera: gtsam/libgtsam.so.4.1.0
 gtsam/geometry/tests/testCalibratedCamera: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 gtsam/geometry/tests/testCalibratedCamera: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 gtsam/geometry/tests/testCalibratedCamera: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

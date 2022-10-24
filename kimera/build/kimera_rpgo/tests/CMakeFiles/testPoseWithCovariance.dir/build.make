@@ -81,8 +81,8 @@ tests/testPoseWithCovariance: tests/CMakeFiles/testPoseWithCovariance.dir/testPo
 tests/testPoseWithCovariance: tests/CMakeFiles/testPoseWithCovariance.dir/build.make
 tests/testPoseWithCovariance: /home/catkin_ws/devel/lib/libCppUnitLite.a
 tests/testPoseWithCovariance: libKimeraRPGO.so
-tests/testPoseWithCovariance: /home/catkin_ws/devel/lib/libgtsam_unstable.so.4.2.0
-tests/testPoseWithCovariance: /home/catkin_ws/devel/lib/libgtsam.so.4.2.0
+tests/testPoseWithCovariance: /home/catkin_ws/devel/lib/libgtsam_unstable.so.4.1.0
+tests/testPoseWithCovariance: /home/catkin_ws/devel/lib/libgtsam.so.4.1.0
 tests/testPoseWithCovariance: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 tests/testPoseWithCovariance: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 tests/testPoseWithCovariance: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

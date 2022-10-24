@@ -80,7 +80,7 @@ testPoint2_EXTERNAL_OBJECTS =
 gtsam/geometry/tests/testPoint2: gtsam/geometry/tests/CMakeFiles/testPoint2.dir/testPoint2.cpp.o
 gtsam/geometry/tests/testPoint2: gtsam/geometry/tests/CMakeFiles/testPoint2.dir/build.make
 gtsam/geometry/tests/testPoint2: CppUnitLite/libCppUnitLite.a
-gtsam/geometry/tests/testPoint2: gtsam/libgtsam.so.4.2.0
+gtsam/geometry/tests/testPoint2: gtsam/libgtsam.so.4.1.0
 gtsam/geometry/tests/testPoint2: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 gtsam/geometry/tests/testPoint2: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 gtsam/geometry/tests/testPoint2: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

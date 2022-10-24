@@ -79,7 +79,7 @@ timeIncremental_EXTERNAL_OBJECTS =
 
 timing/timeIncremental: timing/CMakeFiles/timeIncremental.dir/timeIncremental.cpp.o
 timing/timeIncremental: timing/CMakeFiles/timeIncremental.dir/build.make
-timing/timeIncremental: gtsam/libgtsam.so.4.2.0
+timing/timeIncremental: gtsam/libgtsam.so.4.1.0
 timing/timeIncremental: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 timing/timeIncremental: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 timing/timeIncremental: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

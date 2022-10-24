@@ -79,7 +79,7 @@ timeMatrix_EXTERNAL_OBJECTS =
 
 timing/timeMatrix: timing/CMakeFiles/timeMatrix.dir/timeMatrix.cpp.o
 timing/timeMatrix: timing/CMakeFiles/timeMatrix.dir/build.make
-timing/timeMatrix: gtsam/libgtsam.so.4.2.0
+timing/timeMatrix: gtsam/libgtsam.so.4.1.0
 timing/timeMatrix: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 timing/timeMatrix: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 timing/timeMatrix: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

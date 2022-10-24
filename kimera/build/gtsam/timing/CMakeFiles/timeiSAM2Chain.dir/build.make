@@ -79,7 +79,7 @@ timeiSAM2Chain_EXTERNAL_OBJECTS =
 
 timing/timeiSAM2Chain: timing/CMakeFiles/timeiSAM2Chain.dir/timeiSAM2Chain.cpp.o
 timing/timeiSAM2Chain: timing/CMakeFiles/timeiSAM2Chain.dir/build.make
-timing/timeiSAM2Chain: gtsam/libgtsam.so.4.2.0
+timing/timeiSAM2Chain: gtsam/libgtsam.so.4.1.0
 timing/timeiSAM2Chain: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 timing/timeiSAM2Chain: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 timing/timeiSAM2Chain: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

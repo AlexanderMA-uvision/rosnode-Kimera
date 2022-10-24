@@ -12,14 +12,12 @@ gtsam_unstable/examples/CMakeFiles/SmartRangeExample_plaza2.dir/SmartRangeExampl
 gtsam_unstable/examples/CMakeFiles/SmartRangeExample_plaza2.dir/SmartRangeExample_plaza2.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Lie.h
 gtsam_unstable/examples/CMakeFiles/SmartRangeExample_plaza2.dir/SmartRangeExample_plaza2.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Manifold.h
 gtsam_unstable/examples/CMakeFiles/SmartRangeExample_plaza2.dir/SmartRangeExample_plaza2.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Matrix.h
-gtsam_unstable/examples/CMakeFiles/SmartRangeExample_plaza2.dir/SmartRangeExample_plaza2.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/MatrixSerialization.h
 gtsam_unstable/examples/CMakeFiles/SmartRangeExample_plaza2.dir/SmartRangeExample_plaza2.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/OptionalJacobian.h
 gtsam_unstable/examples/CMakeFiles/SmartRangeExample_plaza2.dir/SmartRangeExample_plaza2.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/SymmetricBlockMatrix.h
 gtsam_unstable/examples/CMakeFiles/SmartRangeExample_plaza2.dir/SmartRangeExample_plaza2.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Testable.h
 gtsam_unstable/examples/CMakeFiles/SmartRangeExample_plaza2.dir/SmartRangeExample_plaza2.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/ThreadsafeException.h
 gtsam_unstable/examples/CMakeFiles/SmartRangeExample_plaza2.dir/SmartRangeExample_plaza2.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Value.h
 gtsam_unstable/examples/CMakeFiles/SmartRangeExample_plaza2.dir/SmartRangeExample_plaza2.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/Vector.h
-gtsam_unstable/examples/CMakeFiles/SmartRangeExample_plaza2.dir/SmartRangeExample_plaza2.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/VectorSerialization.h
 gtsam_unstable/examples/CMakeFiles/SmartRangeExample_plaza2.dir/SmartRangeExample_plaza2.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/VectorSpace.h
 gtsam_unstable/examples/CMakeFiles/SmartRangeExample_plaza2.dir/SmartRangeExample_plaza2.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/VerticalBlockMatrix.h
 gtsam_unstable/examples/CMakeFiles/SmartRangeExample_plaza2.dir/SmartRangeExample_plaza2.cpp.o: /home/catkin_ws/src/gtsam/gtsam/base/concepts.h
@@ -45,13 +43,9 @@ gtsam_unstable/examples/CMakeFiles/SmartRangeExample_plaza2.dir/SmartRangeExampl
 gtsam_unstable/examples/CMakeFiles/SmartRangeExample_plaza2.dir/SmartRangeExample_plaza2.cpp.o: /home/catkin_ws/src/gtsam/gtsam/geometry/SOn.h
 gtsam_unstable/examples/CMakeFiles/SmartRangeExample_plaza2.dir/SmartRangeExample_plaza2.cpp.o: /home/catkin_ws/src/gtsam/gtsam/geometry/Unit3.h
 gtsam_unstable/examples/CMakeFiles/SmartRangeExample_plaza2.dir/SmartRangeExample_plaza2.cpp.o: /home/catkin_ws/src/gtsam/gtsam/global_includes.h
-gtsam_unstable/examples/CMakeFiles/SmartRangeExample_plaza2.dir/SmartRangeExample_plaza2.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/BayesNet-inst.h
-gtsam_unstable/examples/CMakeFiles/SmartRangeExample_plaza2.dir/SmartRangeExample_plaza2.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/BayesNet.h
 gtsam_unstable/examples/CMakeFiles/SmartRangeExample_plaza2.dir/SmartRangeExample_plaza2.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/BayesTree.h
 gtsam_unstable/examples/CMakeFiles/SmartRangeExample_plaza2.dir/SmartRangeExample_plaza2.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/BayesTreeCliqueBase.h
-gtsam_unstable/examples/CMakeFiles/SmartRangeExample_plaza2.dir/SmartRangeExample_plaza2.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/Conditional-inst.h
 gtsam_unstable/examples/CMakeFiles/SmartRangeExample_plaza2.dir/SmartRangeExample_plaza2.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/Conditional.h
-gtsam_unstable/examples/CMakeFiles/SmartRangeExample_plaza2.dir/SmartRangeExample_plaza2.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/DotWriter.h
 gtsam_unstable/examples/CMakeFiles/SmartRangeExample_plaza2.dir/SmartRangeExample_plaza2.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/EliminateableFactorGraph.h
 gtsam_unstable/examples/CMakeFiles/SmartRangeExample_plaza2.dir/SmartRangeExample_plaza2.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/Factor.h
 gtsam_unstable/examples/CMakeFiles/SmartRangeExample_plaza2.dir/SmartRangeExample_plaza2.cpp.o: /home/catkin_ws/src/gtsam/gtsam/inference/FactorGraph-inst.h
@@ -88,7 +82,6 @@ gtsam_unstable/examples/CMakeFiles/SmartRangeExample_plaza2.dir/SmartRangeExampl
 gtsam_unstable/examples/CMakeFiles/SmartRangeExample_plaza2.dir/SmartRangeExample_plaza2.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/Expression-inl.h
 gtsam_unstable/examples/CMakeFiles/SmartRangeExample_plaza2.dir/SmartRangeExample_plaza2.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/Expression.h
 gtsam_unstable/examples/CMakeFiles/SmartRangeExample_plaza2.dir/SmartRangeExample_plaza2.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/ExpressionFactor.h
-gtsam_unstable/examples/CMakeFiles/SmartRangeExample_plaza2.dir/SmartRangeExample_plaza2.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/GraphvizFormatting.h
 gtsam_unstable/examples/CMakeFiles/SmartRangeExample_plaza2.dir/SmartRangeExample_plaza2.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/ISAM2.h
 gtsam_unstable/examples/CMakeFiles/SmartRangeExample_plaza2.dir/SmartRangeExample_plaza2.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/ISAM2Clique.h
 gtsam_unstable/examples/CMakeFiles/SmartRangeExample_plaza2.dir/SmartRangeExample_plaza2.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/ISAM2Params.h
@@ -109,8 +102,6 @@ gtsam_unstable/examples/CMakeFiles/SmartRangeExample_plaza2.dir/SmartRangeExampl
 gtsam_unstable/examples/CMakeFiles/SmartRangeExample_plaza2.dir/SmartRangeExample_plaza2.cpp.o: /home/catkin_ws/src/gtsam/gtsam/nonlinear/internal/JacobianMap.h
 gtsam_unstable/examples/CMakeFiles/SmartRangeExample_plaza2.dir/SmartRangeExample_plaza2.cpp.o: /home/catkin_ws/src/gtsam/gtsam/sam/RangeFactor.h
 gtsam_unstable/examples/CMakeFiles/SmartRangeExample_plaza2.dir/SmartRangeExample_plaza2.cpp.o: /home/catkin_ws/src/gtsam/gtsam/sfm/BinaryMeasurement.h
-gtsam_unstable/examples/CMakeFiles/SmartRangeExample_plaza2.dir/SmartRangeExample_plaza2.cpp.o: /home/catkin_ws/src/gtsam/gtsam/sfm/SfmData.h
-gtsam_unstable/examples/CMakeFiles/SmartRangeExample_plaza2.dir/SmartRangeExample_plaza2.cpp.o: /home/catkin_ws/src/gtsam/gtsam/sfm/SfmTrack.h
 gtsam_unstable/examples/CMakeFiles/SmartRangeExample_plaza2.dir/SmartRangeExample_plaza2.cpp.o: /home/catkin_ws/src/gtsam/gtsam/slam/BetweenFactor.h
 gtsam_unstable/examples/CMakeFiles/SmartRangeExample_plaza2.dir/SmartRangeExample_plaza2.cpp.o: /home/catkin_ws/src/gtsam/gtsam/slam/dataset.h
 gtsam_unstable/examples/CMakeFiles/SmartRangeExample_plaza2.dir/SmartRangeExample_plaza2.cpp.o: /home/catkin_ws/src/gtsam/gtsam_unstable/examples/SmartRangeExample_plaza2.cpp

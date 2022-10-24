@@ -80,7 +80,7 @@ testRangeFactor_EXTERNAL_OBJECTS =
 gtsam/sam/tests/testRangeFactor: gtsam/sam/tests/CMakeFiles/testRangeFactor.dir/testRangeFactor.cpp.o
 gtsam/sam/tests/testRangeFactor: gtsam/sam/tests/CMakeFiles/testRangeFactor.dir/build.make
 gtsam/sam/tests/testRangeFactor: CppUnitLite/libCppUnitLite.a
-gtsam/sam/tests/testRangeFactor: gtsam/libgtsam.so.4.2.0
+gtsam/sam/tests/testRangeFactor: gtsam/libgtsam.so.4.1.0
 gtsam/sam/tests/testRangeFactor: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 gtsam/sam/tests/testRangeFactor: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 gtsam/sam/tests/testRangeFactor: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0

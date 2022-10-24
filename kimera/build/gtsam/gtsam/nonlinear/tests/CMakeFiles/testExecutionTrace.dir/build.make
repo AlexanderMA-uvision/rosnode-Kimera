@@ -80,7 +80,7 @@ testExecutionTrace_EXTERNAL_OBJECTS =
 gtsam/nonlinear/tests/testExecutionTrace: gtsam/nonlinear/tests/CMakeFiles/testExecutionTrace.dir/testExecutionTrace.cpp.o
 gtsam/nonlinear/tests/testExecutionTrace: gtsam/nonlinear/tests/CMakeFiles/testExecutionTrace.dir/build.make
 gtsam/nonlinear/tests/testExecutionTrace: CppUnitLite/libCppUnitLite.a
-gtsam/nonlinear/tests/testExecutionTrace: gtsam/libgtsam.so.4.2.0
+gtsam/nonlinear/tests/testExecutionTrace: gtsam/libgtsam.so.4.1.0
 gtsam/nonlinear/tests/testExecutionTrace: /usr/lib/aarch64-linux-gnu/libboost_serialization.so.1.71.0
 gtsam/nonlinear/tests/testExecutionTrace: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0
 gtsam/nonlinear/tests/testExecutionTrace: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0
