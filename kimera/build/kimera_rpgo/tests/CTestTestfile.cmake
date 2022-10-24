@@ -1,0 +1,36 @@
+# CMake generated Testfile for 
+# Source directory: /home/catkin_ws/src/Kimera-RPGO/tests
+# Build directory: /home/catkin_ws/build/kimera_rpgo/tests
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+add_test(testGnc "/home/catkin_ws/build/kimera_rpgo/tests/testGnc")
+set_tests_properties(testGnc PROPERTIES  _BACKTRACE_TRIPLES "/home/catkin_ws/src/Kimera-RPGO/cmake/UnitTesting.cmake;118;add_test;/home/catkin_ws/src/Kimera-RPGO/cmake/UnitTesting.cmake;30;gtsamAddTestsGlob_impl;/home/catkin_ws/src/Kimera-RPGO/tests/CMakeLists.txt;2;gtsamAddTestsGlob;/home/catkin_ws/src/Kimera-RPGO/tests/CMakeLists.txt;0;")
+add_test(testIgnorePrefix "/home/catkin_ws/build/kimera_rpgo/tests/testIgnorePrefix")
+set_tests_properties(testIgnorePrefix PROPERTIES  _BACKTRACE_TRIPLES "/home/catkin_ws/src/Kimera-RPGO/cmake/UnitTesting.cmake;118;add_test;/home/catkin_ws/src/Kimera-RPGO/cmake/UnitTesting.cmake;30;gtsamAddTestsGlob_impl;/home/catkin_ws/src/Kimera-RPGO/tests/CMakeLists.txt;2;gtsamAddTestsGlob;/home/catkin_ws/src/Kimera-RPGO/tests/CMakeLists.txt;0;")
+add_test(testLandmark "/home/catkin_ws/build/kimera_rpgo/tests/testLandmark")
+set_tests_properties(testLandmark PROPERTIES  _BACKTRACE_TRIPLES "/home/catkin_ws/src/Kimera-RPGO/cmake/UnitTesting.cmake;118;add_test;/home/catkin_ws/src/Kimera-RPGO/cmake/UnitTesting.cmake;30;gtsamAddTestsGlob_impl;/home/catkin_ws/src/Kimera-RPGO/tests/CMakeLists.txt;2;gtsamAddTestsGlob;/home/catkin_ws/src/Kimera-RPGO/tests/CMakeLists.txt;0;")
+add_test(testLoadGraph "/home/catkin_ws/build/kimera_rpgo/tests/testLoadGraph")
+set_tests_properties(testLoadGraph PROPERTIES  _BACKTRACE_TRIPLES "/home/catkin_ws/src/Kimera-RPGO/cmake/UnitTesting.cmake;118;add_test;/home/catkin_ws/src/Kimera-RPGO/cmake/UnitTesting.cmake;30;gtsamAddTestsGlob_impl;/home/catkin_ws/src/Kimera-RPGO/tests/CMakeLists.txt;2;gtsamAddTestsGlob;/home/catkin_ws/src/Kimera-RPGO/tests/CMakeLists.txt;0;")
+add_test(testMultiRobot "/home/catkin_ws/build/kimera_rpgo/tests/testMultiRobot")
+set_tests_properties(testMultiRobot PROPERTIES  _BACKTRACE_TRIPLES "/home/catkin_ws/src/Kimera-RPGO/cmake/UnitTesting.cmake;118;add_test;/home/catkin_ws/src/Kimera-RPGO/cmake/UnitTesting.cmake;30;gtsamAddTestsGlob_impl;/home/catkin_ws/src/Kimera-RPGO/tests/CMakeLists.txt;2;gtsamAddTestsGlob;/home/catkin_ws/src/Kimera-RPGO/tests/CMakeLists.txt;0;")
+add_test(testMultirobotFrameAlign "/home/catkin_ws/build/kimera_rpgo/tests/testMultirobotFrameAlign")
+set_tests_properties(testMultirobotFrameAlign PROPERTIES  _BACKTRACE_TRIPLES "/home/catkin_ws/src/Kimera-RPGO/cmake/UnitTesting.cmake;118;add_test;/home/catkin_ws/src/Kimera-RPGO/cmake/UnitTesting.cmake;30;gtsamAddTestsGlob_impl;/home/catkin_ws/src/Kimera-RPGO/tests/CMakeLists.txt;2;gtsamAddTestsGlob;/home/catkin_ws/src/Kimera-RPGO/tests/CMakeLists.txt;0;")
+add_test(testPcm "/home/catkin_ws/build/kimera_rpgo/tests/testPcm")
+set_tests_properties(testPcm PROPERTIES  _BACKTRACE_TRIPLES "/home/catkin_ws/src/Kimera-RPGO/cmake/UnitTesting.cmake;118;add_test;/home/catkin_ws/src/Kimera-RPGO/cmake/UnitTesting.cmake;30;gtsamAddTestsGlob_impl;/home/catkin_ws/src/Kimera-RPGO/tests/CMakeLists.txt;2;gtsamAddTestsGlob;/home/catkin_ws/src/Kimera-RPGO/tests/CMakeLists.txt;0;")
+add_test(testPcmDoOptimize "/home/catkin_ws/build/kimera_rpgo/tests/testPcmDoOptimize")
+set_tests_properties(testPcmDoOptimize PROPERTIES  _BACKTRACE_TRIPLES "/home/catkin_ws/src/Kimera-RPGO/cmake/UnitTesting.cmake;118;add_test;/home/catkin_ws/src/Kimera-RPGO/cmake/UnitTesting.cmake;30;gtsamAddTestsGlob_impl;/home/catkin_ws/src/Kimera-RPGO/tests/CMakeLists.txt;2;gtsamAddTestsGlob;/home/catkin_ws/src/Kimera-RPGO/tests/CMakeLists.txt;0;")
+add_test(testPcmSimple "/home/catkin_ws/build/kimera_rpgo/tests/testPcmSimple")
+set_tests_properties(testPcmSimple PROPERTIES  _BACKTRACE_TRIPLES "/home/catkin_ws/src/Kimera-RPGO/cmake/UnitTesting.cmake;118;add_test;/home/catkin_ws/src/Kimera-RPGO/cmake/UnitTesting.cmake;30;gtsamAddTestsGlob_impl;/home/catkin_ws/src/Kimera-RPGO/tests/CMakeLists.txt;2;gtsamAddTestsGlob;/home/catkin_ws/src/Kimera-RPGO/tests/CMakeLists.txt;0;")
+add_test(testPoseWithCovariance "/home/catkin_ws/build/kimera_rpgo/tests/testPoseWithCovariance")
+set_tests_properties(testPoseWithCovariance PROPERTIES  _BACKTRACE_TRIPLES "/home/catkin_ws/src/Kimera-RPGO/cmake/UnitTesting.cmake;118;add_test;/home/catkin_ws/src/Kimera-RPGO/cmake/UnitTesting.cmake;30;gtsamAddTestsGlob_impl;/home/catkin_ws/src/Kimera-RPGO/tests/CMakeLists.txt;2;gtsamAddTestsGlob;/home/catkin_ws/src/Kimera-RPGO/tests/CMakeLists.txt;0;")
+add_test(testPoseWithNode "/home/catkin_ws/build/kimera_rpgo/tests/testPoseWithNode")
+set_tests_properties(testPoseWithNode PROPERTIES  _BACKTRACE_TRIPLES "/home/catkin_ws/src/Kimera-RPGO/cmake/UnitTesting.cmake;118;add_test;/home/catkin_ws/src/Kimera-RPGO/cmake/UnitTesting.cmake;30;gtsamAddTestsGlob_impl;/home/catkin_ws/src/Kimera-RPGO/tests/CMakeLists.txt;2;gtsamAddTestsGlob;/home/catkin_ws/src/Kimera-RPGO/tests/CMakeLists.txt;0;")
+add_test(testRemoveLastLoopClosure "/home/catkin_ws/build/kimera_rpgo/tests/testRemoveLastLoopClosure")
+set_tests_properties(testRemoveLastLoopClosure PROPERTIES  _BACKTRACE_TRIPLES "/home/catkin_ws/src/Kimera-RPGO/cmake/UnitTesting.cmake;118;add_test;/home/catkin_ws/src/Kimera-RPGO/cmake/UnitTesting.cmake;30;gtsamAddTestsGlob_impl;/home/catkin_ws/src/Kimera-RPGO/tests/CMakeLists.txt;2;gtsamAddTestsGlob;/home/catkin_ws/src/Kimera-RPGO/tests/CMakeLists.txt;0;")
+add_test(testRemovePriorFactors "/home/catkin_ws/build/kimera_rpgo/tests/testRemovePriorFactors")
+set_tests_properties(testRemovePriorFactors PROPERTIES  _BACKTRACE_TRIPLES "/home/catkin_ws/src/Kimera-RPGO/cmake/UnitTesting.cmake;118;add_test;/home/catkin_ws/src/Kimera-RPGO/cmake/UnitTesting.cmake;30;gtsamAddTestsGlob_impl;/home/catkin_ws/src/Kimera-RPGO/tests/CMakeLists.txt;2;gtsamAddTestsGlob;/home/catkin_ws/src/Kimera-RPGO/tests/CMakeLists.txt;0;")
+add_test(testTemporary "/home/catkin_ws/build/kimera_rpgo/tests/testTemporary")
+set_tests_properties(testTemporary PROPERTIES  _BACKTRACE_TRIPLES "/home/catkin_ws/src/Kimera-RPGO/cmake/UnitTesting.cmake;118;add_test;/home/catkin_ws/src/Kimera-RPGO/cmake/UnitTesting.cmake;30;gtsamAddTestsGlob_impl;/home/catkin_ws/src/Kimera-RPGO/tests/CMakeLists.txt;2;gtsamAddTestsGlob;/home/catkin_ws/src/Kimera-RPGO/tests/CMakeLists.txt;0;")
+add_test(testTrajectory "/home/catkin_ws/build/kimera_rpgo/tests/testTrajectory")
+set_tests_properties(testTrajectory PROPERTIES  _BACKTRACE_TRIPLES "/home/catkin_ws/src/Kimera-RPGO/cmake/UnitTesting.cmake;118;add_test;/home/catkin_ws/src/Kimera-RPGO/cmake/UnitTesting.cmake;30;gtsamAddTestsGlob_impl;/home/catkin_ws/src/Kimera-RPGO/tests/CMakeLists.txt;2;gtsamAddTestsGlob;/home/catkin_ws/src/Kimera-RPGO/tests/CMakeLists.txt;0;")

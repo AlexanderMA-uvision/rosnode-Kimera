@@ -1,0 +1,124 @@
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_lisp[0m
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target _pose_graph_tools_generate_messages_check_deps_PoseGraphNode[0m
+[  0%] Built target _pose_graph_tools_generate_messages_check_deps_PoseGraphNode
+[35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[  0%] Built target std_msgs_generate_messages_py
+[35m[1mScanning dependencies of target roscpp_generate_messages_py[0m
+[  0%] Built target roscpp_generate_messages_py
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_py[0m
+[  0%] Built target geometry_msgs_generate_messages_py
+[35m[1mScanning dependencies of target visualization_msgs_generate_messages_py[0m
+[  0%] Built target visualization_msgs_generate_messages_py
+[35m[1mScanning dependencies of target _pose_graph_tools_generate_messages_check_deps_PoseGraphEdge[0m
+[  0%] Built target _pose_graph_tools_generate_messages_check_deps_PoseGraphEdge
+[35m[1mScanning dependencies of target _pose_graph_tools_generate_messages_check_deps_PoseGraph[0m
+[  0%] Built target _pose_graph_tools_generate_messages_check_deps_PoseGraph
+[35m[1mScanning dependencies of target visualization_msgs_generate_messages_eus[0m
+[  0%] Built target visualization_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_cpp[0m
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_py[0m
+[  0%] Built target tf2_msgs_generate_messages_py
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_eus[0m
+[  0%] Built target geometry_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[  0%] Built target std_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[  0%] Built target std_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_cpp[0m
+[  0%] Built target tf2_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target visualization_msgs_generate_messages_cpp[0m
+[  0%] Built target visualization_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_cpp[0m
+[  0%] Built target actionlib_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_nodejs[0m
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target actionlib_generate_messages_cpp[0m
+[  0%] Built target actionlib_generate_messages_cpp
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_nodejs[0m
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target roscpp_generate_messages_nodejs[0m
+[  0%] Built target roscpp_generate_messages_nodejs
+[35m[1mScanning dependencies of target visualization_msgs_generate_messages_nodejs[0m
+[  0%] Built target visualization_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_lisp[0m
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_eus[0m
+[  0%] Built target actionlib_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target roscpp_generate_messages_lisp[0m
+[  0%] Built target roscpp_generate_messages_lisp
+[35m[1mScanning dependencies of target actionlib_generate_messages_lisp[0m
+[  0%] Built target actionlib_generate_messages_lisp
+[35m[1mScanning dependencies of target roscpp_generate_messages_eus[0m
+[  0%] Built target roscpp_generate_messages_eus
+[35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[  0%] Built target std_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[  0%] Built target std_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_py[0m
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_eus[0m
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target roscpp_generate_messages_cpp[0m
+[  0%] Built target roscpp_generate_messages_cpp
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_eus[0m
+[  0%] Built target tf2_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target visualization_msgs_generate_messages_lisp[0m
+[  0%] Built target visualization_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target actionlib_generate_messages_eus[0m
+[  0%] Built target actionlib_generate_messages_eus
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_cpp[0m
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target actionlib_generate_messages_nodejs[0m
+[  0%] Built target actionlib_generate_messages_nodejs
+[35m[1mScanning dependencies of target actionlib_generate_messages_py[0m
+[  0%] Built target actionlib_generate_messages_py
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_nodejs[0m
+[  0%] Built target actionlib_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_lisp[0m
+[  0%] Built target actionlib_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_lisp[0m
+[  0%] Built target tf2_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_nodejs[0m
+[  0%] Built target tf2_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_py[0m
+[  0%] Built target actionlib_msgs_generate_messages_py
+[35m[1mScanning dependencies of target pose_graph_tools_generate_messages_cpp[0m
+[  4%] [34m[1mGenerating C++ code from pose_graph_tools/PoseGraph.msg[0m
+[  9%] [34m[1mGenerating C++ code from pose_graph_tools/PoseGraphEdge.msg[0m
+[ 13%] [34m[1mGenerating C++ code from pose_graph_tools/PoseGraphNode.msg[0m
+[ 13%] Built target pose_graph_tools_generate_messages_cpp
+[35m[1mScanning dependencies of target pose_graph_tools_generate_messages_lisp[0m
+[ 18%] [34m[1mGenerating Lisp code from pose_graph_tools/PoseGraph.msg[0m
+[ 22%] [34m[1mGenerating Lisp code from pose_graph_tools/PoseGraphEdge.msg[0m
+[ 27%] [34m[1mGenerating Lisp code from pose_graph_tools/PoseGraphNode.msg[0m
+[ 27%] Built target pose_graph_tools_generate_messages_lisp
+[35m[1mScanning dependencies of target pose_graph_tools_generate_messages_py[0m
+[ 31%] [34m[1mGenerating Python from MSG pose_graph_tools/PoseGraph[0m
+[ 36%] [34m[1mGenerating Python from MSG pose_graph_tools/PoseGraphEdge[0m
+[ 40%] [34m[1mGenerating Python from MSG pose_graph_tools/PoseGraphNode[0m
+[ 45%] [34m[1mGenerating Python msg __init__.py for pose_graph_tools[0m
+[ 45%] Built target pose_graph_tools_generate_messages_py
+[35m[1mScanning dependencies of target pose_graph_tools_generate_messages_nodejs[0m
+[ 50%] [34m[1mGenerating Javascript code from pose_graph_tools/PoseGraph.msg[0m
+[ 54%] [34m[1mGenerating Javascript code from pose_graph_tools/PoseGraphEdge.msg[0m
+[ 59%] [34m[1mGenerating Javascript code from pose_graph_tools/PoseGraphNode.msg[0m
+[ 59%] Built target pose_graph_tools_generate_messages_nodejs
+[35m[1mScanning dependencies of target pose_graph_tools_generate_messages_eus[0m
+[ 63%] [34m[1mGenerating EusLisp code from pose_graph_tools/PoseGraph.msg[0m
+[ 68%] [34m[1mGenerating EusLisp code from pose_graph_tools/PoseGraphEdge.msg[0m
+[ 72%] [34m[1mGenerating EusLisp code from pose_graph_tools/PoseGraphNode.msg[0m
+[ 77%] [34m[1mGenerating EusLisp manifest code for pose_graph_tools[0m
+[ 77%] Built target pose_graph_tools_generate_messages_eus
+[35m[1mScanning dependencies of target pose_graph_tools[0m
+[ 81%] [32mBuilding CXX object CMakeFiles/pose_graph_tools.dir/src/visualizer.cpp.o[0m
+[35m[1mScanning dependencies of target pose_graph_tools_generate_messages[0m
+[ 81%] Built target pose_graph_tools_generate_messages
+[35m[1mScanning dependencies of target visualizer_node[0m
+[ 86%] [32mBuilding CXX object CMakeFiles/visualizer_node.dir/src/visualizer_node.cpp.o[0m
+[ 90%] [32mBuilding CXX object CMakeFiles/visualizer_node.dir/src/visualizer.cpp.o[0m
+[ 95%] [32m[1mLinking CXX shared library /home/catkin_ws/devel/lib/libpose_graph_tools.so[0m
+[ 95%] Built target pose_graph_tools
+[100%] [32m[1mLinking CXX executable /home/catkin_ws/devel/lib/pose_graph_tools/visualizer_node[0m
+[100%] Built target visualizer_node

@@ -1,0 +1,4 @@
+[ 60%] Built target KimeraRPGO
+[ 73%] Built target GenerateTrajectories
+[ 86%] Built target RpgoReadG2o
+[100%] Built target RpgoReadG2oIncremental

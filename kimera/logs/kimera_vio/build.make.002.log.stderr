@@ -1,0 +1,265 @@
+In file included from [01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/frontend/FrontendOutputPacketBase.h:18[m[K,
+                 from [01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/frontend/StereoVisionImuFrontend-definitions.h:17[m[K,
+                 from [01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/backend/VioBackend-definitions.h:30[m[K,
+                 from [01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/frontend/FrontendInputPacketBase.h:17[m[K,
+                 from [01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/dataprovider/DataProviderModule.h:29[m[K,
+                 from [01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/dataprovider/MonoDataProviderModule.h:34[m[K,
+                 from [01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/dataprovider/StereoDataProviderModule.h:27[m[K,
+                 from [01m[K/home/catkin_ws/src/Kimera-VIO/src/dataprovider/StereoDataProviderModule.cpp:16[m[K:
+[01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/frontend/Tracker-definitions.h:[m[K In constructor ‘[01m[KVIO::TrackerStatusSummary::TrackerStatusSummary()[m[K’:
+[01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/frontend/Tracker-definitions.h:119:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kidentity[m[K’ is not a member of ‘[01m[Kgtsam::Pose3[m[K’
+  119 |     lkf_T_k_mono_(gtsam::Pose3::[01;31m[Kidentity[m[K()),
+      |                                 [01;31m[K^~~~~~~~[m[K
+[01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/frontend/Tracker-definitions.h:120:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kidentity[m[K’ is not a member of ‘[01m[Kgtsam::Pose3[m[K’
+  120 |     lkf_T_k_stereo_(gtsam::Pose3::[01;31m[Kidentity[m[K()),
+      |                                   [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/frontend/FrontendOutputPacketBase.h:18[m[K,
+                 from [01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/frontend/StereoVisionImuFrontend-definitions.h:17[m[K,
+                 from [01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/backend/VioBackend-definitions.h:30[m[K,
+                 from [01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/frontend/FrontendInputPacketBase.h:17[m[K,
+                 from [01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/dataprovider/DataProviderModule.h:29[m[K,
+                 from [01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/dataprovider/MonoDataProviderModule.h:34[m[K,
+                 from [01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/dataprovider/RgbdDataProviderModule.h:29[m[K,
+                 from [01m[K/home/catkin_ws/src/Kimera-VIO/src/dataprovider/RgbdDataProviderModule.cpp:16[m[K:
+[01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/frontend/Tracker-definitions.h:[m[K In constructor ‘[01m[KVIO::TrackerStatusSummary::TrackerStatusSummary()[m[K’:
+[01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/frontend/Tracker-definitions.h:119:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kidentity[m[K’ is not a member of ‘[01m[Kgtsam::Pose3[m[K’
+  119 |     lkf_T_k_mono_(gtsam::Pose3::[01;31m[Kidentity[m[K()),
+      |                                 [01;31m[K^~~~~~~~[m[K
+[01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/frontend/Tracker-definitions.h:120:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kidentity[m[K’ is not a member of ‘[01m[Kgtsam::Pose3[m[K’
+  120 |     lkf_T_k_stereo_(gtsam::Pose3::[01;31m[Kidentity[m[K()),
+      |                                   [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/frontend/FrontendOutputPacketBase.h:18[m[K,
+                 from [01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/frontend/StereoVisionImuFrontend-definitions.h:17[m[K,
+                 from [01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/backend/VioBackend-definitions.h:30[m[K,
+                 from [01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/frontend/FrontendInputPacketBase.h:17[m[K,
+                 from [01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/dataprovider/DataProviderModule.h:29[m[K,
+                 from [01m[K/home/catkin_ws/src/Kimera-VIO/src/dataprovider/DataProviderModule.cpp:16[m[K:
+[01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/frontend/Tracker-definitions.h:[m[K In constructor ‘[01m[KVIO::TrackerStatusSummary::TrackerStatusSummary()[m[K’:
+[01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/frontend/Tracker-definitions.h:119:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kidentity[m[K’ is not a member of ‘[01m[Kgtsam::Pose3[m[K’
+  119 |     lkf_T_k_mono_(gtsam::Pose3::[01;31m[Kidentity[m[K()),
+      |                                 [01;31m[K^~~~~~~~[m[K
+[01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/frontend/Tracker-definitions.h:120:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kidentity[m[K’ is not a member of ‘[01m[Kgtsam::Pose3[m[K’
+  120 |     lkf_T_k_stereo_(gtsam::Pose3::[01;31m[Kidentity[m[K()),
+      |                                   [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/frontend/FrontendOutputPacketBase.h:18[m[K,
+                 from [01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/frontend/StereoVisionImuFrontend-definitions.h:17[m[K,
+                 from [01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/backend/VioBackend-definitions.h:30[m[K,
+                 from [01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/frontend/FrontendInputPacketBase.h:17[m[K,
+                 from [01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/dataprovider/DataProviderModule.h:29[m[K,
+                 from [01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/dataprovider/MonoDataProviderModule.h:34[m[K,
+                 from [01m[K/home/catkin_ws/src/Kimera-VIO/src/dataprovider/MonoDataProviderModule.cpp:18[m[K:
+[01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/frontend/Tracker-definitions.h:[m[K In constructor ‘[01m[KVIO::TrackerStatusSummary::TrackerStatusSummary()[m[K’:
+[01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/frontend/Tracker-definitions.h:119:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kidentity[m[K’ is not a member of ‘[01m[Kgtsam::Pose3[m[K’
+  119 |     lkf_T_k_mono_(gtsam::Pose3::[01;31m[Kidentity[m[K()),
+      |                                 [01;31m[K^~~~~~~~[m[K
+[01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/frontend/Tracker-definitions.h:120:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kidentity[m[K’ is not a member of ‘[01m[Kgtsam::Pose3[m[K’
+  120 |     lkf_T_k_stereo_(gtsam::Pose3::[01;31m[Kidentity[m[K()),
+      |                                   [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/frontend/FrontendOutputPacketBase.h:18[m[K,
+                 from [01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/frontend/StereoVisionImuFrontend-definitions.h:17[m[K,
+                 from [01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/backend/RegularVioBackend-definitions.h:29[m[K,
+                 from [01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/backend/RegularVioBackendParams.h:29[m[K,
+                 from [01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/pipeline/Pipeline-definitions.h:17[m[K,
+                 from [01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/dataprovider/DataProviderInterface.h:22[m[K,
+                 from [01m[K/home/catkin_ws/src/Kimera-VIO/src/dataprovider/DataProviderInterface.cpp:15[m[K:
+[01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/frontend/Tracker-definitions.h:[m[K In constructor ‘[01m[KVIO::TrackerStatusSummary::TrackerStatusSummary()[m[K’:
+[01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/frontend/Tracker-definitions.h:119:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kidentity[m[K’ is not a member of ‘[01m[Kgtsam::Pose3[m[K’
+  119 |     lkf_T_k_mono_(gtsam::Pose3::[01;31m[Kidentity[m[K()),
+      |                                 [01;31m[K^~~~~~~~[m[K
+[01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/frontend/Tracker-definitions.h:120:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kidentity[m[K’ is not a member of ‘[01m[Kgtsam::Pose3[m[K’
+  120 |     lkf_T_k_stereo_(gtsam::Pose3::[01;31m[Kidentity[m[K()),
+      |                                   [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/loopclosure/LoopClosureDetectorParams.h:24[m[K,
+                 from [01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/pipeline/Pipeline-definitions.h:25[m[K,
+                 from [01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/dataprovider/DataProviderModule.h:31[m[K,
+                 from [01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/dataprovider/MonoDataProviderModule.h:34[m[K,
+                 from [01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/dataprovider/StereoDataProviderModule.h:27[m[K,
+                 from [01m[K/home/catkin_ws/src/Kimera-VIO/src/dataprovider/StereoDataProviderModule.cpp:16[m[K:
+[01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/loopclosure/LoopClosureDetector-definitions.h:[m[K In constructor ‘[01m[KVIO::LcdOutput::LcdOutput(const Timestamp&)[m[K’:
+[01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/loopclosure/LoopClosureDetector-definitions.h:282:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kidentity[m[K’ is not a member of ‘[01m[Kgtsam::Pose3[m[K’
+  282 |         relative_pose_(gtsam::Pose3::[01;31m[Kidentity[m[K()),
+      |                                      [01;31m[K^~~~~~~~[m[K
+[01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/loopclosure/LoopClosureDetector-definitions.h:283:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kidentity[m[K’ is not a member of ‘[01m[Kgtsam::Pose3[m[K’
+  283 |         W_Pose_Map_(gtsam::Pose3::[01;31m[Kidentity[m[K()),
+      |                                   [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/loopclosure/LoopClosureDetectorParams.h:24[m[K,
+                 from [01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/pipeline/Pipeline-definitions.h:25[m[K,
+                 from [01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/dataprovider/DataProviderModule.h:31[m[K,
+                 from [01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/dataprovider/MonoDataProviderModule.h:34[m[K,
+                 from [01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/dataprovider/RgbdDataProviderModule.h:29[m[K,
+                 from [01m[K/home/catkin_ws/src/Kimera-VIO/src/dataprovider/RgbdDataProviderModule.cpp:16[m[K:
+[01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/loopclosure/LoopClosureDetector-definitions.h:[m[K In constructor ‘[01m[KVIO::LcdOutput::LcdOutput(const Timestamp&)[m[K’:
+[01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/loopclosure/LoopClosureDetector-definitions.h:282:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kidentity[m[K’ is not a member of ‘[01m[Kgtsam::Pose3[m[K’
+  282 |         relative_pose_(gtsam::Pose3::[01;31m[Kidentity[m[K()),
+      |                                      [01;31m[K^~~~~~~~[m[K
+[01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/loopclosure/LoopClosureDetector-definitions.h:283:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kidentity[m[K’ is not a member of ‘[01m[Kgtsam::Pose3[m[K’
+  283 |         W_Pose_Map_(gtsam::Pose3::[01;31m[Kidentity[m[K()),
+      |                                   [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/loopclosure/LoopClosureDetectorParams.h:24[m[K,
+                 from [01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/pipeline/Pipeline-definitions.h:25[m[K,
+                 from [01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/dataprovider/DataProviderInterface.h:22[m[K,
+                 from [01m[K/home/catkin_ws/src/Kimera-VIO/src/dataprovider/DataProviderInterface.cpp:15[m[K:
+[01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/loopclosure/LoopClosureDetector-definitions.h:[m[K In constructor ‘[01m[KVIO::LcdOutput::LcdOutput(const Timestamp&)[m[K’:
+[01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/loopclosure/LoopClosureDetector-definitions.h:282:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kidentity[m[K’ is not a member of ‘[01m[Kgtsam::Pose3[m[K’
+  282 |         relative_pose_(gtsam::Pose3::[01;31m[Kidentity[m[K()),
+      |                                      [01;31m[K^~~~~~~~[m[K
+[01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/loopclosure/LoopClosureDetector-definitions.h:283:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kidentity[m[K’ is not a member of ‘[01m[Kgtsam::Pose3[m[K’
+  283 |         W_Pose_Map_(gtsam::Pose3::[01;31m[Kidentity[m[K()),
+      |                                   [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/dataprovider/StereoDataProviderModule.h:28[m[K,
+                 from [01m[K/home/catkin_ws/src/Kimera-VIO/src/dataprovider/StereoDataProviderModule.cpp:16[m[K:
+[01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/frontend/StereoImuSyncPacket.h:[m[K At global scope:
+[01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/frontend/StereoImuSyncPacket.h:30:64:[m[K [01;31m[Kerror: [m[K‘[01m[Kidentity[m[K’ is not a member of ‘[01m[Kgtsam::Pose3[m[K’
+   30 |                const gtsam::Pose3& W_Pose_Bext = gtsam::Pose3::[01;31m[Kidentity[m[K(),
+      |                                                                [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/loopclosure/LoopClosureDetectorParams.h:24[m[K,
+                 from [01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/pipeline/Pipeline-definitions.h:25[m[K,
+                 from [01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/dataprovider/DataProviderModule.h:31[m[K,
+                 from [01m[K/home/catkin_ws/src/Kimera-VIO/src/dataprovider/DataProviderModule.cpp:16[m[K:
+[01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/loopclosure/LoopClosureDetector-definitions.h:[m[K In constructor ‘[01m[KVIO::LcdOutput::LcdOutput(const Timestamp&)[m[K’:
+[01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/loopclosure/LoopClosureDetector-definitions.h:282:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kidentity[m[K’ is not a member of ‘[01m[Kgtsam::Pose3[m[K’
+  282 |         relative_pose_(gtsam::Pose3::[01;31m[Kidentity[m[K()),
+      |                                      [01;31m[K^~~~~~~~[m[K
+[01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/loopclosure/LoopClosureDetector-definitions.h:283:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kidentity[m[K’ is not a member of ‘[01m[Kgtsam::Pose3[m[K’
+  283 |         W_Pose_Map_(gtsam::Pose3::[01;31m[Kidentity[m[K()),
+      |                                   [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/loopclosure/LoopClosureDetectorParams.h:24[m[K,
+                 from [01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/pipeline/Pipeline-definitions.h:25[m[K,
+                 from [01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/dataprovider/DataProviderModule.h:31[m[K,
+                 from [01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/dataprovider/MonoDataProviderModule.h:34[m[K,
+                 from [01m[K/home/catkin_ws/src/Kimera-VIO/src/dataprovider/MonoDataProviderModule.cpp:18[m[K:
+[01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/loopclosure/LoopClosureDetector-definitions.h:[m[K In constructor ‘[01m[KVIO::LcdOutput::LcdOutput(const Timestamp&)[m[K’:
+[01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/loopclosure/LoopClosureDetector-definitions.h:282:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kidentity[m[K’ is not a member of ‘[01m[Kgtsam::Pose3[m[K’
+  282 |         relative_pose_(gtsam::Pose3::[01;31m[Kidentity[m[K()),
+      |                                      [01;31m[K^~~~~~~~[m[K
+[01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/loopclosure/LoopClosureDetector-definitions.h:283:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kidentity[m[K’ is not a member of ‘[01m[Kgtsam::Pose3[m[K’
+  283 |         W_Pose_Map_(gtsam::Pose3::[01;31m[Kidentity[m[K()),
+      |                                   [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/frontend/FrontendOutputPacketBase.h:18[m[K,
+                 from [01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/frontend/StereoVisionImuFrontend-definitions.h:17[m[K,
+                 from [01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/backend/RegularVioBackend-definitions.h:29[m[K,
+                 from [01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/backend/RegularVioBackendParams.h:29[m[K,
+                 from [01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/pipeline/Pipeline-definitions.h:17[m[K,
+                 from [01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/dataprovider/DataProviderInterface.h:22[m[K,
+                 from [01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/dataprovider/EurocDataProvider.h:32[m[K,
+                 from [01m[K/home/catkin_ws/src/Kimera-VIO/src/dataprovider/EurocDataProvider.cpp:17[m[K:
+[01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/frontend/Tracker-definitions.h:[m[K In constructor ‘[01m[KVIO::TrackerStatusSummary::TrackerStatusSummary()[m[K’:
+[01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/frontend/Tracker-definitions.h:119:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kidentity[m[K’ is not a member of ‘[01m[Kgtsam::Pose3[m[K’
+  119 |     lkf_T_k_mono_(gtsam::Pose3::[01;31m[Kidentity[m[K()),
+      |                                 [01;31m[K^~~~~~~~[m[K
+[01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/frontend/Tracker-definitions.h:120:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kidentity[m[K’ is not a member of ‘[01m[Kgtsam::Pose3[m[K’
+  120 |     lkf_T_k_stereo_(gtsam::Pose3::[01;31m[Kidentity[m[K()),
+      |                                   [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/loopclosure/LoopClosureDetectorParams.h:24[m[K,
+                 from [01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/pipeline/Pipeline-definitions.h:25[m[K,
+                 from [01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/dataprovider/DataProviderInterface.h:22[m[K,
+                 from [01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/dataprovider/EurocDataProvider.h:32[m[K,
+                 from [01m[K/home/catkin_ws/src/Kimera-VIO/src/dataprovider/EurocDataProvider.cpp:17[m[K:
+[01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/loopclosure/LoopClosureDetector-definitions.h:[m[K In constructor ‘[01m[KVIO::LcdOutput::LcdOutput(const Timestamp&)[m[K’:
+[01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/loopclosure/LoopClosureDetector-definitions.h:282:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kidentity[m[K’ is not a member of ‘[01m[Kgtsam::Pose3[m[K’
+  282 |         relative_pose_(gtsam::Pose3::[01;31m[Kidentity[m[K()),
+      |                                      [01;31m[K^~~~~~~~[m[K
+[01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/loopclosure/LoopClosureDetector-definitions.h:283:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kidentity[m[K’ is not a member of ‘[01m[Kgtsam::Pose3[m[K’
+  283 |         W_Pose_Map_(gtsam::Pose3::[01;31m[Kidentity[m[K()),
+      |                                   [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/dataprovider/EurocDataProvider.h:34[m[K,
+                 from [01m[K/home/catkin_ws/src/Kimera-VIO/src/dataprovider/EurocDataProvider.cpp:17[m[K:
+[01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/frontend/StereoImuSyncPacket.h:[m[K At global scope:
+[01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/frontend/StereoImuSyncPacket.h:30:64:[m[K [01;31m[Kerror: [m[K‘[01m[Kidentity[m[K’ is not a member of ‘[01m[Kgtsam::Pose3[m[K’
+   30 |                const gtsam::Pose3& W_Pose_Bext = gtsam::Pose3::[01;31m[Kidentity[m[K(),
+      |                                                                [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/home/catkin_ws/src/Kimera-VIO/src/dataprovider/EurocDataProvider.cpp:17[m[K:
+[01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/dataprovider/EurocDataProvider.h:[m[K In constructor ‘[01m[KVIO::EurocDataProvider::EurocDataProvider(const string&, const int&, const int&, const VIO::VioParams&)[m[K’:
+[01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/dataprovider/EurocDataProvider.h:220:11:[m[K [01;35m[Kwarning: [m[K‘[01m[KVIO::EurocDataProvider::final_k_[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+  220 |   FrameId [01;35m[Kfinal_k_[m[K;    // end frame
+      |           [01;35m[K^~~~~~~~[m[K
+[01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/dataprovider/EurocDataProvider.h:205:13:[m[K [01;35m[Kwarning: [m[K  ‘[01m[KVIO::VioParams VIO::EurocDataProvider::vio_params_[m[K’ [[01;35m[K-Wreorder[m[K]
+  205 |   VioParams [01;35m[Kvio_params_[m[K;
+      |             [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/catkin_ws/src/Kimera-VIO/src/dataprovider/EurocDataProvider.cpp:57:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+   57 | [01;35m[KEurocDataProvider[m[K::EurocDataProvider(const std::string& dataset_path,
+      | [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/catkin_ws/src/Kimera-VIO/src/dataprovider/EurocDataProvider.cpp:[m[K In member function ‘[01m[Kbool VIO::EurocDataProvider::parseImuData(const string&, const string&)[m[K’:
+[01m[K/home/catkin_ws/src/Kimera-VIO/src/dataprovider/EurocDataProvider.cpp:250:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[KEigen::EigenBase<Eigen::Matrix<double, 6, 1> >::Index[m[K’ {aka ‘[01m[Klong int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  250 |     for (size_t i = 0u; [01;35m[Ki < gyr_acc_data.size() + 1u[m[K; i++) {
+      |                         [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/common/vio_types.h:12[m[K,
+                 from [01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/common/VioNavState.h:27[m[K,
+                 from [01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/dataprovider/EurocDataProvider.h:30[m[K,
+                 from [01m[K/home/catkin_ws/src/Kimera-VIO/src/dataprovider/EurocDataProvider.cpp:17[m[K:
+[01m[K/home/catkin_ws/src/Kimera-VIO/src/dataprovider/EurocDataProvider.cpp:[m[K In member function ‘[01m[Kbool VIO::EurocDataProvider::parseGtData(const string&, const string&)[m[K’:
+[01m[K/home/catkin_ws/src/Kimera-VIO/src/dataprovider/EurocDataProvider.cpp:328:56:[m[K [01;31m[Kerror: [m[K‘[01m[Kidentity[m[K’ is not a member of ‘[01m[Kgtsam::Pose3[m[K’
+  328 |   CHECK(gt_data_.body_Pose_prism_.equals(gtsam::Pose3::[01;31m[Kidentity[m[K()))
+      |                                                        [01;31m[K^~~~~~~~[m[K
+[01m[K/home/catkin_ws/src/Kimera-VIO/src/dataprovider/EurocDataProvider.cpp:383:38:[m[K [01;35m[Kwarning: [m[K‘[01m[Kgtsam::Vector gtsam::Rot3::quaternion() const[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+  383 |     gtsam::Vector q = rot.quaternion([01;35m[K)[m[K;
+      |                                      [01;35m[K^[m[K
+In file included from [01m[K/home/catkin_ws/devel/include/gtsam/geometry/Pose3.h:24[m[K,
+                 from [01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/dataprovider/EurocDataProvider.h:28[m[K,
+                 from [01m[K/home/catkin_ws/src/Kimera-VIO/src/dataprovider/EurocDataProvider.cpp:17[m[K:
+[01m[K/home/catkin_ws/devel/include/gtsam/geometry/Rot3.h:526:29:[m[K [01;36m[Knote: [m[Kdeclared here
+  526 |     Vector GTSAM_DEPRECATED [01;36m[Kquaternion[m[K() const;
+      |                             [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/catkin_ws/src/Kimera-VIO/src/dataprovider/EurocDataProvider.cpp:[m[K In member function ‘[01m[Kconst VIO::InitializationPerformance VIO::EurocDataProvider::getInitializationPerformance(const std::vector<long int>&, const std::vector<gtsam::Pose3>&, const VIO::VioNavState&, const Vector3&)[m[K’:
+[01m[K/home/catkin_ws/src/Kimera-VIO/src/dataprovider/EurocDataProvider.cpp:632:21:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<long int>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  632 |   for (int i = 1; [01;35m[Ki < timestamps.size()[m[K; i++) {
+      |                   [01;35m[K~~^~~~~~~~~~~~~~~~~~~[m[K
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+compilation terminated.
+make[2]: *** [CMakeFiles/kimera_vio.dir/build.make:76: CMakeFiles/kimera_vio.dir/src/dataprovider/DataProviderInterface.cpp.o] Error 1
+make[2]: *** Deleting file 'CMakeFiles/kimera_vio.dir/src/dataprovider/DataProviderInterface.cpp.o'
+make[2]: *** Waiting for unfinished jobs....
+In file included from [01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/common/VioNavState.h:27[m[K,
+                 from [01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/backend/VioBackend-definitions.h:28[m[K,
+                 from [01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/frontend/FrontendInputPacketBase.h:17[m[K,
+                 from [01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/dataprovider/DataProviderModule.h:29[m[K,
+                 from [01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/dataprovider/MonoDataProviderModule.h:34[m[K,
+                 from [01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/dataprovider/RgbdDataProviderModule.h:29[m[K,
+                 from [01m[K/home/catkin_ws/src/Kimera-VIO/src/dataprovider/RgbdDataProviderModule.cpp:16[m[K:
+[01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/common/vio_types.h:[m[K At global scope:
+[01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/common/vio_types.h:70:13:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid VIO::getValidKeypointsFromStatusKeypointsCV(const StatusKeypointsCV&, VIO::KeypointsCV*)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+   70 | static void [01;35m[KgetValidKeypointsFromStatusKeypointsCV[m[K(
+      |             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/common/VioNavState.h:27[m[K,
+                 from [01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/backend/VioBackend-definitions.h:28[m[K,
+                 from [01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/frontend/FrontendInputPacketBase.h:17[m[K,
+                 from [01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/dataprovider/DataProviderModule.h:29[m[K,
+                 from [01m[K/home/catkin_ws/src/Kimera-VIO/src/dataprovider/DataProviderModule.cpp:16[m[K:
+[01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/common/vio_types.h:[m[K At global scope:
+[01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/common/vio_types.h:70:13:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid VIO::getValidKeypointsFromStatusKeypointsCV(const StatusKeypointsCV&, VIO::KeypointsCV*)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+   70 | static void [01;35m[KgetValidKeypointsFromStatusKeypointsCV[m[K(
+      |             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/common/VioNavState.h:27[m[K,
+                 from [01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/backend/VioBackend-definitions.h:28[m[K,
+                 from [01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/frontend/FrontendInputPacketBase.h:17[m[K,
+                 from [01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/dataprovider/DataProviderModule.h:29[m[K,
+                 from [01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/dataprovider/MonoDataProviderModule.h:34[m[K,
+                 from [01m[K/home/catkin_ws/src/Kimera-VIO/src/dataprovider/MonoDataProviderModule.cpp:18[m[K:
+[01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/common/vio_types.h:[m[K At global scope:
+[01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/common/vio_types.h:70:13:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid VIO::getValidKeypointsFromStatusKeypointsCV(const StatusKeypointsCV&, VIO::KeypointsCV*)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+   70 | static void [01;35m[KgetValidKeypointsFromStatusKeypointsCV[m[K(
+      |             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/kimera_vio.dir/build.make:115: CMakeFiles/kimera_vio.dir/src/dataprovider/RgbdDataProviderModule.cpp.o] Error 1
+make[2]: *** [CMakeFiles/kimera_vio.dir/build.make:89: CMakeFiles/kimera_vio.dir/src/dataprovider/DataProviderModule.cpp.o] Error 1
+make[2]: *** [CMakeFiles/kimera_vio.dir/build.make:102: CMakeFiles/kimera_vio.dir/src/dataprovider/MonoDataProviderModule.cpp.o] Error 1
+In file included from [01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/common/VioNavState.h:27[m[K,
+                 from [01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/backend/VioBackend-definitions.h:28[m[K,
+                 from [01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/frontend/FrontendInputPacketBase.h:17[m[K,
+                 from [01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/dataprovider/DataProviderModule.h:29[m[K,
+                 from [01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/dataprovider/MonoDataProviderModule.h:34[m[K,
+                 from [01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/dataprovider/StereoDataProviderModule.h:27[m[K,
+                 from [01m[K/home/catkin_ws/src/Kimera-VIO/src/dataprovider/StereoDataProviderModule.cpp:16[m[K:
+[01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/common/vio_types.h:70:13:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid VIO::getValidKeypointsFromStatusKeypointsCV(const StatusKeypointsCV&, VIO::KeypointsCV*)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+   70 | static void [01;35m[KgetValidKeypointsFromStatusKeypointsCV[m[K(
+      |             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/kimera_vio.dir/build.make:128: CMakeFiles/kimera_vio.dir/src/dataprovider/StereoDataProviderModule.cpp.o] Error 1
+In file included from [01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/common/VioNavState.h:27[m[K,
+                 from [01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/dataprovider/EurocDataProvider.h:30[m[K,
+                 from [01m[K/home/catkin_ws/src/Kimera-VIO/src/dataprovider/EurocDataProvider.cpp:17[m[K:
+[01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/common/vio_types.h:[m[K At global scope:
+[01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/common/vio_types.h:70:13:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid VIO::getValidKeypointsFromStatusKeypointsCV(const StatusKeypointsCV&, VIO::KeypointsCV*)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+   70 | static void [01;35m[KgetValidKeypointsFromStatusKeypointsCV[m[K(
+      |             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/kimera_vio.dir/build.make:141: CMakeFiles/kimera_vio.dir/src/dataprovider/EurocDataProvider.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:1495: CMakeFiles/kimera_vio.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

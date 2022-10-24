@@ -1,0 +1,43 @@
+[  2%] Built target gtest
+[  3%] [32mBuilding CXX object CMakeFiles/kimera_vio.dir/src/dataprovider/DataProviderInterface.cpp.o[0m
+[  4%] [32mBuilding CXX object CMakeFiles/kimera_vio.dir/src/dataprovider/DataProviderModule.cpp.o[0m
+[  5%] [32mBuilding CXX object CMakeFiles/kimera_vio.dir/src/dataprovider/RgbdDataProviderModule.cpp.o[0m
+[  6%] [32mBuilding CXX object CMakeFiles/kimera_vio.dir/src/dataprovider/MonoDataProviderModule.cpp.o[0m
+[  6%] [32mBuilding CXX object CMakeFiles/kimera_vio.dir/src/dataprovider/StereoDataProviderModule.cpp.o[0m
+In file included from [01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/dataprovider/StereoDataProviderModule.h:27[m[K,
+                 from [01m[K/home/catkin_ws/src/Kimera-VIO/src/dataprovider/StereoDataProviderModule.cpp:16[m[K:
+[01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/dataprovider/MonoDataProviderModule.h:32:10:[m[K [01;31m[Kfatal error: [m[Kglog/logging.h: No such file or directory
+   32 | #include [01;31m[K<glog/logging.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+In file included from [01m[K/home/catkin_ws/src/Kimera-VIO/src/dataprovider/MonoDataProviderModule.cpp:18[m[K:
+[01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/dataprovider/MonoDataProviderModule.h:32:10:[m[K [01;31m[Kfatal error: [m[Kglog/logging.h: No such file or directory
+   32 | #include [01;31m[K<glog/logging.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/kimera_vio.dir/build.make:128: CMakeFiles/kimera_vio.dir/src/dataprovider/StereoDataProviderModule.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[2]: *** [CMakeFiles/kimera_vio.dir/build.make:102: CMakeFiles/kimera_vio.dir/src/dataprovider/MonoDataProviderModule.cpp.o] Error 1
+In file included from [01m[K/home/catkin_ws/src/Kimera-VIO/src/dataprovider/DataProviderModule.cpp:16[m[K:
+[01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/dataprovider/DataProviderModule.h:27:10:[m[K [01;31m[Kfatal error: [m[Kglog/logging.h: No such file or directory
+   27 | #include [01;31m[K<glog/logging.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/kimera_vio.dir/build.make:89: CMakeFiles/kimera_vio.dir/src/dataprovider/DataProviderModule.cpp.o] Error 1
+In file included from [01m[K/home/catkin_ws/src/Kimera-VIO/src/dataprovider/RgbdDataProviderModule.cpp:16[m[K:
+[01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/dataprovider/RgbdDataProviderModule.h:27:10:[m[K [01;31m[Kfatal error: [m[Kglog/logging.h: No such file or directory
+   27 | #include [01;31m[K<glog/logging.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/kimera_vio.dir/build.make:115: CMakeFiles/kimera_vio.dir/src/dataprovider/RgbdDataProviderModule.cpp.o] Error 1
+In file included from [01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/frontend/CameraParams.h:25[m[K,
+                 from [01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/frontend/Camera.h:25[m[K,
+                 from [01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/dataprovider/DataProviderInterface.h:20[m[K,
+                 from [01m[K/home/catkin_ws/src/Kimera-VIO/src/dataprovider/DataProviderInterface.cpp:15[m[K:
+[01m[K/home/catkin_ws/src/Kimera-VIO/include/kimera-vio/pipeline/PipelineParams.h:14:10:[m[K [01;31m[Kfatal error: [m[Kglog/logging.h: No such file or directory
+   14 | #include [01;31m[K<glog/logging.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/kimera_vio.dir/build.make:76: CMakeFiles/kimera_vio.dir/src/dataprovider/DataProviderInterface.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:1495: CMakeFiles/kimera_vio.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

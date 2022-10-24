@@ -1,0 +1,542 @@
+[01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteBayesNet.cpp:57:2:[m[K [01;35m[Kwarning: [m[K#warning "DiscreteBayesNet::optimize (deprecated) does not compute MPE!" [[01;35m[K-Wcpp[m[K]
+   57 | #[01;35m[Kwarning[m[K "DiscreteBayesNet::optimize (deprecated) does not compute MPE!"
+      |  [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteBayesNet.h:22[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteBayesNet.cpp:19[m[K:
+[01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteDistribution.h:[m[K In member function ‘[01m[Ksize_t gtsam::DiscreteDistribution::solve() const[m[K’:
+[01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteDistribution.h:97:56:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksize_t gtsam::DiscreteConditional::solve(const gtsam::DiscreteValues&) const[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   97 |   size_t GTSAM_DEPRECATED solve() const { return Base::[01;35m[Ksolve[m[K({}); }
+      |                                                        [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteBayesNet.h:21[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteBayesNet.cpp:19[m[K:
+[01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteConditional.h:231:27:[m[K [01;36m[Knote: [m[Kdeclared here
+  231 |   size_t GTSAM_DEPRECATED [01;36m[Ksolve[m[K(const DiscreteValues& parentsValues) const;
+      |                           [01;36m[K^~~~~[m[K
+In file included from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteBayesNet.h:22[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteBayesNet.cpp:19[m[K:
+[01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteDistribution.h:97:64:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksize_t gtsam::DiscreteConditional::solve(const gtsam::DiscreteValues&) const[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   97 |   size_t GTSAM_DEPRECATED solve() const { return Base::solve({}[01;35m[K)[m[K; }
+      |                                                                [01;35m[K^[m[K
+In file included from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteBayesNet.h:21[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteBayesNet.cpp:19[m[K:
+[01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteConditional.h:231:27:[m[K [01;36m[Knote: [m[Kdeclared here
+  231 |   size_t GTSAM_DEPRECATED [01;36m[Ksolve[m[K(const DiscreteValues& parentsValues) const;
+      |                           [01;36m[K^~~~~[m[K
+[01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteBayesNet.cpp:[m[K In member function ‘[01m[Kgtsam::DiscreteValues gtsam::DiscreteBayesNet::optimize() const[m[K’:
+[01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteBayesNet.cpp:49:25:[m[K [01;35m[Kwarning: [m[K‘[01m[Kgtsam::DiscreteValues gtsam::DiscreteBayesNet::optimize(gtsam::DiscreteValues) const[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   49 |   return optimize(result[01;35m[K)[m[K;
+      |                         [01;35m[K^[m[K
+In file included from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteBayesNet.cpp:19[m[K:
+[01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteBayesNet.h:146:37:[m[K [01;36m[Knote: [m[Kdeclared here
+  146 |     DiscreteValues GTSAM_DEPRECATED [01;36m[Koptimize[m[K(DiscreteValues given) const;
+      |                                     [01;36m[K^~~~~~~~[m[K
+[01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteBayesNet.cpp:[m[K In member function ‘[01m[Kgtsam::DiscreteValues gtsam::DiscreteBayesNet::optimize(gtsam::DiscreteValues) const[m[K’:
+[01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteBayesNet.cpp:60:38:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid gtsam::DiscreteConditional::solveInPlace(gtsam::DiscreteValues*) const[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   60 |     conditional->solveInPlace(&result[01;35m[K)[m[K;
+      |                                      [01;35m[K^[m[K
+In file included from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteBayesNet.h:21[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteBayesNet.cpp:19[m[K:
+[01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteConditional.h:232:25:[m[K [01;36m[Knote: [m[Kdeclared here
+  232 |   void GTSAM_DEPRECATED [01;36m[KsolveInPlace[m[K(DiscreteValues* parentsValues) const;
+      |                         [01;36m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteBayesNet.h:22[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteBayesTree.h:23[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteBayesTree.cpp:23[m[K:
+[01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteDistribution.h:[m[K In member function ‘[01m[Ksize_t gtsam::DiscreteDistribution::solve() const[m[K’:
+[01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteDistribution.h:97:56:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksize_t gtsam::DiscreteConditional::solve(const gtsam::DiscreteValues&) const[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   97 |   size_t GTSAM_DEPRECATED solve() const { return Base::[01;35m[Ksolve[m[K({}); }
+      |                                                        [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteBayesNet.h:21[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteBayesTree.h:23[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteBayesTree.cpp:23[m[K:
+[01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteConditional.h:231:27:[m[K [01;36m[Knote: [m[Kdeclared here
+  231 |   size_t GTSAM_DEPRECATED [01;36m[Ksolve[m[K(const DiscreteValues& parentsValues) const;
+      |                           [01;36m[K^~~~~[m[K
+In file included from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteBayesNet.h:22[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteBayesTree.h:23[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteBayesTree.cpp:23[m[K:
+[01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteDistribution.h:97:64:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksize_t gtsam::DiscreteConditional::solve(const gtsam::DiscreteValues&) const[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   97 |   size_t GTSAM_DEPRECATED solve() const { return Base::solve({}[01;35m[K)[m[K; }
+      |                                                                [01;35m[K^[m[K
+In file included from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteBayesNet.h:21[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteBayesTree.h:23[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteBayesTree.cpp:23[m[K:
+[01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteConditional.h:231:27:[m[K [01;36m[Knote: [m[Kdeclared here
+  231 |   size_t GTSAM_DEPRECATED [01;36m[Ksolve[m[K(const DiscreteValues& parentsValues) const;
+      |                           [01;36m[K^~~~~[m[K
+In file included from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteDistribution.cpp:18[m[K:
+[01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteDistribution.h:[m[K In member function ‘[01m[Ksize_t gtsam::DiscreteDistribution::solve() const[m[K’:
+[01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteDistribution.h:97:56:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksize_t gtsam::DiscreteConditional::solve(const gtsam::DiscreteValues&) const[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   97 |   size_t GTSAM_DEPRECATED solve() const { return Base::[01;35m[Ksolve[m[K({}); }
+      |                                                        [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteDistribution.h:20[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteDistribution.cpp:18[m[K:
+[01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteConditional.h:231:27:[m[K [01;36m[Knote: [m[Kdeclared here
+  231 |   size_t GTSAM_DEPRECATED [01;36m[Ksolve[m[K(const DiscreteValues& parentsValues) const;
+      |                           [01;36m[K^~~~~[m[K
+In file included from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteDistribution.cpp:18[m[K:
+[01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteDistribution.h:97:64:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksize_t gtsam::DiscreteConditional::solve(const gtsam::DiscreteValues&) const[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   97 |   size_t GTSAM_DEPRECATED solve() const { return Base::solve({}[01;35m[K)[m[K; }
+      |                                                                [01;35m[K^[m[K
+In file included from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteDistribution.h:20[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteDistribution.cpp:18[m[K:
+[01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteConditional.h:231:27:[m[K [01;36m[Knote: [m[Kdeclared here
+  231 |   size_t GTSAM_DEPRECATED [01;36m[Ksolve[m[K(const DiscreteValues& parentsValues) const;
+      |                           [01;36m[K^~~~~[m[K
+In file included from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteBayesNet.h:22[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteEliminationTree.h:21[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteEliminationTree.cpp:20[m[K:
+[01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteDistribution.h:[m[K In member function ‘[01m[Ksize_t gtsam::DiscreteDistribution::solve() const[m[K’:
+[01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteDistribution.h:97:56:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksize_t gtsam::DiscreteConditional::solve(const gtsam::DiscreteValues&) const[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   97 |   size_t GTSAM_DEPRECATED solve() const { return Base::[01;35m[Ksolve[m[K({}); }
+      |                                                        [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteBayesNet.h:21[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteEliminationTree.h:21[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteEliminationTree.cpp:20[m[K:
+[01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteConditional.h:231:27:[m[K [01;36m[Knote: [m[Kdeclared here
+  231 |   size_t GTSAM_DEPRECATED [01;36m[Ksolve[m[K(const DiscreteValues& parentsValues) const;
+      |                           [01;36m[K^~~~~[m[K
+In file included from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteBayesNet.h:22[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteEliminationTree.h:21[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteEliminationTree.cpp:20[m[K:
+[01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteDistribution.h:97:64:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksize_t gtsam::DiscreteConditional::solve(const gtsam::DiscreteValues&) const[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   97 |   size_t GTSAM_DEPRECATED solve() const { return Base::solve({}[01;35m[K)[m[K; }
+      |                                                                [01;35m[K^[m[K
+In file included from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteBayesNet.h:21[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteEliminationTree.h:21[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteEliminationTree.cpp:20[m[K:
+[01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteConditional.h:231:27:[m[K [01;36m[Knote: [m[Kdeclared here
+  231 |   size_t GTSAM_DEPRECATED [01;36m[Ksolve[m[K(const DiscreteValues& parentsValues) const;
+      |                           [01;36m[K^~~~~[m[K
+In file included from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteBayesNet.h:22[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteBayesTree.h:23[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteFactorGraph.cpp:19[m[K:
+[01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteDistribution.h:[m[K In member function ‘[01m[Ksize_t gtsam::DiscreteDistribution::solve() const[m[K’:
+[01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteDistribution.h:97:56:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksize_t gtsam::DiscreteConditional::solve(const gtsam::DiscreteValues&) const[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   97 |   size_t GTSAM_DEPRECATED solve() const { return Base::[01;35m[Ksolve[m[K({}); }
+      |                                                        [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteBayesNet.h:21[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteBayesTree.h:23[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteFactorGraph.cpp:19[m[K:
+[01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteConditional.h:231:27:[m[K [01;36m[Knote: [m[Kdeclared here
+  231 |   size_t GTSAM_DEPRECATED [01;36m[Ksolve[m[K(const DiscreteValues& parentsValues) const;
+      |                           [01;36m[K^~~~~[m[K
+In file included from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteBayesNet.h:22[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteBayesTree.h:23[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteFactorGraph.cpp:19[m[K:
+[01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteDistribution.h:97:64:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksize_t gtsam::DiscreteConditional::solve(const gtsam::DiscreteValues&) const[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   97 |   size_t GTSAM_DEPRECATED solve() const { return Base::solve({}[01;35m[K)[m[K; }
+      |                                                                [01;35m[K^[m[K
+In file included from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteBayesNet.h:21[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteBayesTree.h:23[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteFactorGraph.cpp:19[m[K:
+[01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteConditional.h:231:27:[m[K [01;36m[Knote: [m[Kdeclared here
+  231 |   size_t GTSAM_DEPRECATED [01;36m[Ksolve[m[K(const DiscreteValues& parentsValues) const;
+      |                           [01;36m[K^~~~~[m[K
+In file included from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteLookupDAG.h:20[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteFactorGraph.h:22[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteJunctionTree.h:21[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteJunctionTree.cpp:20[m[K:
+[01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteDistribution.h:[m[K In member function ‘[01m[Ksize_t gtsam::DiscreteDistribution::solve() const[m[K’:
+[01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteDistribution.h:97:56:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksize_t gtsam::DiscreteConditional::solve(const gtsam::DiscreteValues&) const[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   97 |   size_t GTSAM_DEPRECATED solve() const { return Base::[01;35m[Ksolve[m[K({}); }
+      |                                                        [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteDistribution.h:20[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteLookupDAG.h:20[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteFactorGraph.h:22[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteJunctionTree.h:21[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteJunctionTree.cpp:20[m[K:
+[01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteConditional.h:231:27:[m[K [01;36m[Knote: [m[Kdeclared here
+  231 |   size_t GTSAM_DEPRECATED [01;36m[Ksolve[m[K(const DiscreteValues& parentsValues) const;
+      |                           [01;36m[K^~~~~[m[K
+In file included from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteLookupDAG.h:20[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteFactorGraph.h:22[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteJunctionTree.h:21[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteJunctionTree.cpp:20[m[K:
+[01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteDistribution.h:97:64:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksize_t gtsam::DiscreteConditional::solve(const gtsam::DiscreteValues&) const[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   97 |   size_t GTSAM_DEPRECATED solve() const { return Base::solve({}[01;35m[K)[m[K; }
+      |                                                                [01;35m[K^[m[K
+In file included from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteDistribution.h:20[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteLookupDAG.h:20[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteFactorGraph.h:22[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteJunctionTree.h:21[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteJunctionTree.cpp:20[m[K:
+[01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteConditional.h:231:27:[m[K [01;36m[Knote: [m[Kdeclared here
+  231 |   size_t GTSAM_DEPRECATED [01;36m[Ksolve[m[K(const DiscreteValues& parentsValues) const;
+      |                           [01;36m[K^~~~~[m[K
+In file included from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteBayesNet.h:22[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteLookupDAG.cpp:19[m[K:
+[01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteDistribution.h:[m[K In member function ‘[01m[Ksize_t gtsam::DiscreteDistribution::solve() const[m[K’:
+[01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteDistribution.h:97:56:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksize_t gtsam::DiscreteConditional::solve(const gtsam::DiscreteValues&) const[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   97 |   size_t GTSAM_DEPRECATED solve() const { return Base::[01;35m[Ksolve[m[K({}); }
+      |                                                        [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteBayesNet.h:21[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteLookupDAG.cpp:19[m[K:
+[01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteConditional.h:231:27:[m[K [01;36m[Knote: [m[Kdeclared here
+  231 |   size_t GTSAM_DEPRECATED [01;36m[Ksolve[m[K(const DiscreteValues& parentsValues) const;
+      |                           [01;36m[K^~~~~[m[K
+In file included from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteBayesNet.h:22[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteLookupDAG.cpp:19[m[K:
+[01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteDistribution.h:97:64:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksize_t gtsam::DiscreteConditional::solve(const gtsam::DiscreteValues&) const[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   97 |   size_t GTSAM_DEPRECATED solve() const { return Base::solve({}[01;35m[K)[m[K; }
+      |                                                                [01;35m[K^[m[K
+In file included from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteBayesNet.h:21[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteLookupDAG.cpp:19[m[K:
+[01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteConditional.h:231:27:[m[K [01;36m[Knote: [m[Kdeclared here
+  231 |   size_t GTSAM_DEPRECATED [01;36m[Ksolve[m[K(const DiscreteValues& parentsValues) const;
+      |                           [01;36m[K^~~~~[m[K
+In file included from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteBayesNet.h:22[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam/hybrid/HybridBayesNet.cpp:18[m[K:
+[01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteDistribution.h:[m[K In member function ‘[01m[Ksize_t gtsam::DiscreteDistribution::solve() const[m[K’:
+[01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteDistribution.h:97:56:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksize_t gtsam::DiscreteConditional::solve(const gtsam::DiscreteValues&) const[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   97 |   size_t GTSAM_DEPRECATED solve() const { return Base::[01;35m[Ksolve[m[K({}); }
+      |                                                        [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteBayesNet.h:21[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam/hybrid/HybridBayesNet.cpp:18[m[K:
+[01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteConditional.h:231:27:[m[K [01;36m[Knote: [m[Kdeclared here
+  231 |   size_t GTSAM_DEPRECATED [01;36m[Ksolve[m[K(const DiscreteValues& parentsValues) const;
+      |                           [01;36m[K^~~~~[m[K
+In file included from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteBayesNet.h:22[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam/hybrid/HybridBayesNet.cpp:18[m[K:
+[01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteDistribution.h:97:64:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksize_t gtsam::DiscreteConditional::solve(const gtsam::DiscreteValues&) const[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   97 |   size_t GTSAM_DEPRECATED solve() const { return Base::solve({}[01;35m[K)[m[K; }
+      |                                                                [01;35m[K^[m[K
+In file included from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteBayesNet.h:21[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam/hybrid/HybridBayesNet.cpp:18[m[K:
+[01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteConditional.h:231:27:[m[K [01;36m[Knote: [m[Kdeclared here
+  231 |   size_t GTSAM_DEPRECATED [01;36m[Ksolve[m[K(const DiscreteValues& parentsValues) const;
+      |                           [01;36m[K^~~~~[m[K
+In file included from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteBayesNet.h:22[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam/hybrid/HybridBayesTree.cpp:21[m[K:
+[01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteDistribution.h:[m[K In member function ‘[01m[Ksize_t gtsam::DiscreteDistribution::solve() const[m[K’:
+[01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteDistribution.h:97:56:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksize_t gtsam::DiscreteConditional::solve(const gtsam::DiscreteValues&) const[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   97 |   size_t GTSAM_DEPRECATED solve() const { return Base::[01;35m[Ksolve[m[K({}); }
+      |                                                        [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteBayesNet.h:21[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam/hybrid/HybridBayesTree.cpp:21[m[K:
+[01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteConditional.h:231:27:[m[K [01;36m[Knote: [m[Kdeclared here
+  231 |   size_t GTSAM_DEPRECATED [01;36m[Ksolve[m[K(const DiscreteValues& parentsValues) const;
+      |                           [01;36m[K^~~~~[m[K
+In file included from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteBayesNet.h:22[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam/hybrid/HybridBayesTree.cpp:21[m[K:
+[01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteDistribution.h:97:64:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksize_t gtsam::DiscreteConditional::solve(const gtsam::DiscreteValues&) const[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   97 |   size_t GTSAM_DEPRECATED solve() const { return Base::solve({}[01;35m[K)[m[K; }
+      |                                                                [01;35m[K^[m[K
+In file included from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteBayesNet.h:21[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam/hybrid/HybridBayesTree.cpp:21[m[K:
+[01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteConditional.h:231:27:[m[K [01;36m[Knote: [m[Kdeclared here
+  231 |   size_t GTSAM_DEPRECATED [01;36m[Ksolve[m[K(const DiscreteValues& parentsValues) const;
+      |                           [01;36m[K^~~~~[m[K
+In file included from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteBayesNet.h:22[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteEliminationTree.h:21[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam/hybrid/HybridGaussianFactorGraph.cpp:23[m[K:
+[01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteDistribution.h:[m[K In member function ‘[01m[Ksize_t gtsam::DiscreteDistribution::solve() const[m[K’:
+[01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteDistribution.h:97:56:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksize_t gtsam::DiscreteConditional::solve(const gtsam::DiscreteValues&) const[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   97 |   size_t GTSAM_DEPRECATED solve() const { return Base::[01;35m[Ksolve[m[K({}); }
+      |                                                        [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteBayesNet.h:21[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteEliminationTree.h:21[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam/hybrid/HybridGaussianFactorGraph.cpp:23[m[K:
+[01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteConditional.h:231:27:[m[K [01;36m[Knote: [m[Kdeclared here
+  231 |   size_t GTSAM_DEPRECATED [01;36m[Ksolve[m[K(const DiscreteValues& parentsValues) const;
+      |                           [01;36m[K^~~~~[m[K
+In file included from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteBayesNet.h:22[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteEliminationTree.h:21[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam/hybrid/HybridGaussianFactorGraph.cpp:23[m[K:
+[01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteDistribution.h:97:64:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksize_t gtsam::DiscreteConditional::solve(const gtsam::DiscreteValues&) const[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   97 |   size_t GTSAM_DEPRECATED solve() const { return Base::solve({}[01;35m[K)[m[K; }
+      |                                                                [01;35m[K^[m[K
+In file included from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteBayesNet.h:21[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteEliminationTree.h:21[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam/hybrid/HybridGaussianFactorGraph.cpp:23[m[K:
+[01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteConditional.h:231:27:[m[K [01;36m[Knote: [m[Kdeclared here
+  231 |   size_t GTSAM_DEPRECATED [01;36m[Ksolve[m[K(const DiscreteValues& parentsValues) const;
+      |                           [01;36m[K^~~~~[m[K
+In file included from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteLookupDAG.h:20[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteFactorGraph.h:22[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/examples/UGM_chain.cpp:23[m[K:
+[01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteDistribution.h:[m[K In member function ‘[01m[Ksize_t gtsam::DiscreteDistribution::solve() const[m[K’:
+[01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteDistribution.h:97:56:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksize_t gtsam::DiscreteConditional::solve(const gtsam::DiscreteValues&) const[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   97 |   size_t GTSAM_DEPRECATED solve() const { return Base::[01;35m[Ksolve[m[K({}); }
+      |                                                        [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteDistribution.h:20[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteLookupDAG.h:20[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteFactorGraph.h:22[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/examples/UGM_chain.cpp:23[m[K:
+[01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteConditional.h:231:27:[m[K [01;36m[Knote: [m[Kdeclared here
+  231 |   size_t GTSAM_DEPRECATED [01;36m[Ksolve[m[K(const DiscreteValues& parentsValues) const;
+      |                           [01;36m[K^~~~~[m[K
+In file included from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteLookupDAG.h:20[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteFactorGraph.h:22[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/examples/UGM_chain.cpp:23[m[K:
+[01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteDistribution.h:97:64:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksize_t gtsam::DiscreteConditional::solve(const gtsam::DiscreteValues&) const[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   97 |   size_t GTSAM_DEPRECATED solve() const { return Base::solve({}[01;35m[K)[m[K; }
+      |                                                                [01;35m[K^[m[K
+In file included from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteDistribution.h:20[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteLookupDAG.h:20[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteFactorGraph.h:22[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/examples/UGM_chain.cpp:23[m[K:
+[01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteConditional.h:231:27:[m[K [01;36m[Knote: [m[Kdeclared here
+  231 |   size_t GTSAM_DEPRECATED [01;36m[Ksolve[m[K(const DiscreteValues& parentsValues) const;
+      |                           [01;36m[K^~~~~[m[K
+In file included from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteLookupDAG.h:20[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteFactorGraph.h:22[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/examples/UGM_small.cpp:21[m[K:
+[01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteDistribution.h:[m[K In member function ‘[01m[Ksize_t gtsam::DiscreteDistribution::solve() const[m[K’:
+[01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteDistribution.h:97:56:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksize_t gtsam::DiscreteConditional::solve(const gtsam::DiscreteValues&) const[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   97 |   size_t GTSAM_DEPRECATED solve() const { return Base::[01;35m[Ksolve[m[K({}); }
+      |                                                        [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteDistribution.h:20[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteLookupDAG.h:20[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteFactorGraph.h:22[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/examples/UGM_small.cpp:21[m[K:
+[01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteConditional.h:231:27:[m[K [01;36m[Knote: [m[Kdeclared here
+  231 |   size_t GTSAM_DEPRECATED [01;36m[Ksolve[m[K(const DiscreteValues& parentsValues) const;
+      |                           [01;36m[K^~~~~[m[K
+In file included from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteLookupDAG.h:20[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteFactorGraph.h:22[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/examples/UGM_small.cpp:21[m[K:
+[01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteDistribution.h:97:64:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksize_t gtsam::DiscreteConditional::solve(const gtsam::DiscreteValues&) const[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   97 |   size_t GTSAM_DEPRECATED solve() const { return Base::solve({}[01;35m[K)[m[K; }
+      |                                                                [01;35m[K^[m[K
+In file included from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteDistribution.h:20[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteLookupDAG.h:20[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteFactorGraph.h:22[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/examples/UGM_small.cpp:21[m[K:
+[01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteConditional.h:231:27:[m[K [01;36m[Knote: [m[Kdeclared here
+  231 |   size_t GTSAM_DEPRECATED [01;36m[Ksolve[m[K(const DiscreteValues& parentsValues) const;
+      |                           [01;36m[K^~~~~[m[K
+In file included from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteLookupDAG.h:20[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteFactorGraph.h:22[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/examples/DiscreteBayesNetExample.cpp:19[m[K:
+[01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteDistribution.h:[m[K In member function ‘[01m[Ksize_t gtsam::DiscreteDistribution::solve() const[m[K’:
+[01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteDistribution.h:97:56:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksize_t gtsam::DiscreteConditional::solve(const gtsam::DiscreteValues&) const[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   97 |   size_t GTSAM_DEPRECATED solve() const { return Base::[01;35m[Ksolve[m[K({}); }
+      |                                                        [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteDistribution.h:20[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteLookupDAG.h:20[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteFactorGraph.h:22[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/examples/DiscreteBayesNetExample.cpp:19[m[K:
+[01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteConditional.h:231:27:[m[K [01;36m[Knote: [m[Kdeclared here
+  231 |   size_t GTSAM_DEPRECATED [01;36m[Ksolve[m[K(const DiscreteValues& parentsValues) const;
+      |                           [01;36m[K^~~~~[m[K
+In file included from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteLookupDAG.h:20[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteFactorGraph.h:22[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/examples/DiscreteBayesNetExample.cpp:19[m[K:
+[01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteDistribution.h:97:64:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksize_t gtsam::DiscreteConditional::solve(const gtsam::DiscreteValues&) const[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   97 |   size_t GTSAM_DEPRECATED solve() const { return Base::solve({}[01;35m[K)[m[K; }
+      |                                                                [01;35m[K^[m[K
+In file included from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteDistribution.h:20[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteLookupDAG.h:20[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteFactorGraph.h:22[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/examples/DiscreteBayesNetExample.cpp:19[m[K:
+[01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteConditional.h:231:27:[m[K [01;36m[Knote: [m[Kdeclared here
+  231 |   size_t GTSAM_DEPRECATED [01;36m[Ksolve[m[K(const DiscreteValues& parentsValues) const;
+      |                           [01;36m[K^~~~~[m[K
+In file included from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteLookupDAG.h:20[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteFactorGraph.h:22[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/examples/HMMExample.cpp:19[m[K:
+[01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteDistribution.h:[m[K In member function ‘[01m[Ksize_t gtsam::DiscreteDistribution::solve() const[m[K’:
+[01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteDistribution.h:97:56:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksize_t gtsam::DiscreteConditional::solve(const gtsam::DiscreteValues&) const[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   97 |   size_t GTSAM_DEPRECATED solve() const { return Base::[01;35m[Ksolve[m[K({}); }
+      |                                                        [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteDistribution.h:20[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteLookupDAG.h:20[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteFactorGraph.h:22[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/examples/HMMExample.cpp:19[m[K:
+[01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteConditional.h:231:27:[m[K [01;36m[Knote: [m[Kdeclared here
+  231 |   size_t GTSAM_DEPRECATED [01;36m[Ksolve[m[K(const DiscreteValues& parentsValues) const;
+      |                           [01;36m[K^~~~~[m[K
+In file included from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteLookupDAG.h:20[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteFactorGraph.h:22[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/examples/HMMExample.cpp:19[m[K:
+[01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteDistribution.h:97:64:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksize_t gtsam::DiscreteConditional::solve(const gtsam::DiscreteValues&) const[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   97 |   size_t GTSAM_DEPRECATED solve() const { return Base::solve({}[01;35m[K)[m[K; }
+      |                                                                [01;35m[K^[m[K
+In file included from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteDistribution.h:20[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteLookupDAG.h:20[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteFactorGraph.h:22[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/examples/HMMExample.cpp:19[m[K:
+[01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteConditional.h:231:27:[m[K [01;36m[Knote: [m[Kdeclared here
+  231 |   size_t GTSAM_DEPRECATED [01;36m[Ksolve[m[K(const DiscreteValues& parentsValues) const;
+      |                           [01;36m[K^~~~~[m[K
+In file included from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteLookupDAG.h:20[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteFactorGraph.h:22[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/examples/DiscreteBayesNet_FG.cpp:25[m[K:
+[01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteDistribution.h:[m[K In member function ‘[01m[Ksize_t gtsam::DiscreteDistribution::solve() const[m[K’:
+[01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteDistribution.h:97:56:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksize_t gtsam::DiscreteConditional::solve(const gtsam::DiscreteValues&) const[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   97 |   size_t GTSAM_DEPRECATED solve() const { return Base::[01;35m[Ksolve[m[K({}); }
+      |                                                        [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteDistribution.h:20[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteLookupDAG.h:20[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteFactorGraph.h:22[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/examples/DiscreteBayesNet_FG.cpp:25[m[K:
+[01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteConditional.h:231:27:[m[K [01;36m[Knote: [m[Kdeclared here
+  231 |   size_t GTSAM_DEPRECATED [01;36m[Ksolve[m[K(const DiscreteValues& parentsValues) const;
+      |                           [01;36m[K^~~~~[m[K
+In file included from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteLookupDAG.h:20[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteFactorGraph.h:22[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/examples/DiscreteBayesNet_FG.cpp:25[m[K:
+[01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteDistribution.h:97:64:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksize_t gtsam::DiscreteConditional::solve(const gtsam::DiscreteValues&) const[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   97 |   size_t GTSAM_DEPRECATED solve() const { return Base::solve({}[01;35m[K)[m[K; }
+      |                                                                [01;35m[K^[m[K
+In file included from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteDistribution.h:20[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteLookupDAG.h:20[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteFactorGraph.h:22[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/examples/DiscreteBayesNet_FG.cpp:25[m[K:
+[01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteConditional.h:231:27:[m[K [01;36m[Knote: [m[Kdeclared here
+  231 |   size_t GTSAM_DEPRECATED [01;36m[Ksolve[m[K(const DiscreteValues& parentsValues) const;
+      |                           [01;36m[K^~~~~[m[K
+In file included from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteBayesNet.h:22[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam_unstable/discrete/CSP.cpp:9[m[K:
+[01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteDistribution.h:[m[K In member function ‘[01m[Ksize_t gtsam::DiscreteDistribution::solve() const[m[K’:
+[01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteDistribution.h:97:56:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksize_t gtsam::DiscreteConditional::solve(const gtsam::DiscreteValues&) const[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   97 |   size_t GTSAM_DEPRECATED solve() const { return Base::[01;35m[Ksolve[m[K({}); }
+      |                                                        [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteBayesNet.h:21[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam_unstable/discrete/CSP.cpp:9[m[K:
+[01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteConditional.h:231:27:[m[K [01;36m[Knote: [m[Kdeclared here
+  231 |   size_t GTSAM_DEPRECATED [01;36m[Ksolve[m[K(const DiscreteValues& parentsValues) const;
+      |                           [01;36m[K^~~~~[m[K
+In file included from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteBayesNet.h:22[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam_unstable/discrete/CSP.cpp:9[m[K:
+[01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteDistribution.h:97:64:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksize_t gtsam::DiscreteConditional::solve(const gtsam::DiscreteValues&) const[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   97 |   size_t GTSAM_DEPRECATED solve() const { return Base::solve({}[01;35m[K)[m[K; }
+      |                                                                [01;35m[K^[m[K
+In file included from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteBayesNet.h:21[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam_unstable/discrete/CSP.cpp:9[m[K:
+[01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteConditional.h:231:27:[m[K [01;36m[Knote: [m[Kdeclared here
+  231 |   size_t GTSAM_DEPRECATED [01;36m[Ksolve[m[K(const DiscreteValues& parentsValues) const;
+      |                           [01;36m[K^~~~~[m[K
+In file included from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteLookupDAG.h:20[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteFactorGraph.h:22[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam_unstable/discrete/Scheduler.cpp:10[m[K:
+[01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteDistribution.h:[m[K In member function ‘[01m[Ksize_t gtsam::DiscreteDistribution::solve() const[m[K’:
+[01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteDistribution.h:97:56:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksize_t gtsam::DiscreteConditional::solve(const gtsam::DiscreteValues&) const[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   97 |   size_t GTSAM_DEPRECATED solve() const { return Base::[01;35m[Ksolve[m[K({}); }
+      |                                                        [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteDistribution.h:20[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteLookupDAG.h:20[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteFactorGraph.h:22[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam_unstable/discrete/Scheduler.cpp:10[m[K:
+[01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteConditional.h:231:27:[m[K [01;36m[Knote: [m[Kdeclared here
+  231 |   size_t GTSAM_DEPRECATED [01;36m[Ksolve[m[K(const DiscreteValues& parentsValues) const;
+      |                           [01;36m[K^~~~~[m[K
+In file included from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteLookupDAG.h:20[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteFactorGraph.h:22[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam_unstable/discrete/Scheduler.cpp:10[m[K:
+[01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteDistribution.h:97:64:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksize_t gtsam::DiscreteConditional::solve(const gtsam::DiscreteValues&) const[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   97 |   size_t GTSAM_DEPRECATED solve() const { return Base::solve({}[01;35m[K)[m[K; }
+      |                                                                [01;35m[K^[m[K
+In file included from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteDistribution.h:20[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteLookupDAG.h:20[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteFactorGraph.h:22[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam_unstable/discrete/Scheduler.cpp:10[m[K:
+[01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteConditional.h:231:27:[m[K [01;36m[Knote: [m[Kdeclared here
+  231 |   size_t GTSAM_DEPRECATED [01;36m[Ksolve[m[K(const DiscreteValues& parentsValues) const;
+      |                           [01;36m[K^~~~~[m[K
+In file included from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteLookupDAG.h:20[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteFactorGraph.h:22[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam_unstable/discrete/CSP.h:10[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam_unstable/discrete/Scheduler.h:10[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam_unstable/discrete/examples/schedulingExample.cpp:11[m[K:
+[01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteDistribution.h:[m[K In member function ‘[01m[Ksize_t gtsam::DiscreteDistribution::solve() const[m[K’:
+[01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteDistribution.h:97:56:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksize_t gtsam::DiscreteConditional::solve(const gtsam::DiscreteValues&) const[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   97 |   size_t GTSAM_DEPRECATED solve() const { return Base::[01;35m[Ksolve[m[K({}); }
+      |                                                        [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteDistribution.h:20[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteLookupDAG.h:20[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteFactorGraph.h:22[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam_unstable/discrete/CSP.h:10[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam_unstable/discrete/Scheduler.h:10[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam_unstable/discrete/examples/schedulingExample.cpp:11[m[K:
+[01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteConditional.h:231:27:[m[K [01;36m[Knote: [m[Kdeclared here
+  231 |   size_t GTSAM_DEPRECATED [01;36m[Ksolve[m[K(const DiscreteValues& parentsValues) const;
+      |                           [01;36m[K^~~~~[m[K
+In file included from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteLookupDAG.h:20[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteFactorGraph.h:22[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam_unstable/discrete/CSP.h:10[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam_unstable/discrete/Scheduler.h:10[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam_unstable/discrete/examples/schedulingExample.cpp:11[m[K:
+[01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteDistribution.h:97:64:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksize_t gtsam::DiscreteConditional::solve(const gtsam::DiscreteValues&) const[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   97 |   size_t GTSAM_DEPRECATED solve() const { return Base::solve({}[01;35m[K)[m[K; }
+      |                                                                [01;35m[K^[m[K
+In file included from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteDistribution.h:20[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteLookupDAG.h:20[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteFactorGraph.h:22[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam_unstable/discrete/CSP.h:10[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam_unstable/discrete/Scheduler.h:10[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam_unstable/discrete/examples/schedulingExample.cpp:11[m[K:
+[01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteConditional.h:231:27:[m[K [01;36m[Knote: [m[Kdeclared here
+  231 |   size_t GTSAM_DEPRECATED [01;36m[Ksolve[m[K(const DiscreteValues& parentsValues) const;
+      |                           [01;36m[K^~~~~[m[K
+In file included from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteLookupDAG.h:20[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteFactorGraph.h:22[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam_unstable/discrete/CSP.h:10[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam_unstable/discrete/Scheduler.h:10[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam_unstable/discrete/examples/schedulingQuals12.cpp:11[m[K:
+[01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteDistribution.h:[m[K In member function ‘[01m[Ksize_t gtsam::DiscreteDistribution::solve() const[m[K’:
+[01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteDistribution.h:97:56:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksize_t gtsam::DiscreteConditional::solve(const gtsam::DiscreteValues&) const[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   97 |   size_t GTSAM_DEPRECATED solve() const { return Base::[01;35m[Ksolve[m[K({}); }
+      |                                                        [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteDistribution.h:20[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteLookupDAG.h:20[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteFactorGraph.h:22[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam_unstable/discrete/CSP.h:10[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam_unstable/discrete/Scheduler.h:10[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam_unstable/discrete/examples/schedulingQuals12.cpp:11[m[K:
+[01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteConditional.h:231:27:[m[K [01;36m[Knote: [m[Kdeclared here
+  231 |   size_t GTSAM_DEPRECATED [01;36m[Ksolve[m[K(const DiscreteValues& parentsValues) const;
+      |                           [01;36m[K^~~~~[m[K
+In file included from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteLookupDAG.h:20[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteFactorGraph.h:22[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam_unstable/discrete/CSP.h:10[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam_unstable/discrete/Scheduler.h:10[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam_unstable/discrete/examples/schedulingQuals12.cpp:11[m[K:
+[01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteDistribution.h:97:64:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksize_t gtsam::DiscreteConditional::solve(const gtsam::DiscreteValues&) const[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   97 |   size_t GTSAM_DEPRECATED solve() const { return Base::solve({}[01;35m[K)[m[K; }
+      |                                                                [01;35m[K^[m[K
+In file included from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteDistribution.h:20[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteLookupDAG.h:20[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteFactorGraph.h:22[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam_unstable/discrete/CSP.h:10[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam_unstable/discrete/Scheduler.h:10[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam_unstable/discrete/examples/schedulingQuals12.cpp:11[m[K:
+[01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteConditional.h:231:27:[m[K [01;36m[Knote: [m[Kdeclared here
+  231 |   size_t GTSAM_DEPRECATED [01;36m[Ksolve[m[K(const DiscreteValues& parentsValues) const;
+      |                           [01;36m[K^~~~~[m[K
+In file included from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteLookupDAG.h:20[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteFactorGraph.h:22[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam_unstable/discrete/CSP.h:10[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam_unstable/discrete/Scheduler.h:10[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam_unstable/discrete/examples/schedulingQuals13.cpp:11[m[K:
+[01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteDistribution.h:[m[K In member function ‘[01m[Ksize_t gtsam::DiscreteDistribution::solve() const[m[K’:
+[01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteDistribution.h:97:56:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksize_t gtsam::DiscreteConditional::solve(const gtsam::DiscreteValues&) const[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   97 |   size_t GTSAM_DEPRECATED solve() const { return Base::[01;35m[Ksolve[m[K({}); }
+      |                                                        [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteDistribution.h:20[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteLookupDAG.h:20[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteFactorGraph.h:22[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam_unstable/discrete/CSP.h:10[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam_unstable/discrete/Scheduler.h:10[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam_unstable/discrete/examples/schedulingQuals13.cpp:11[m[K:
+[01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteConditional.h:231:27:[m[K [01;36m[Knote: [m[Kdeclared here
+  231 |   size_t GTSAM_DEPRECATED [01;36m[Ksolve[m[K(const DiscreteValues& parentsValues) const;
+      |                           [01;36m[K^~~~~[m[K
+In file included from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteLookupDAG.h:20[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteFactorGraph.h:22[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam_unstable/discrete/CSP.h:10[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam_unstable/discrete/Scheduler.h:10[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam_unstable/discrete/examples/schedulingQuals13.cpp:11[m[K:
+[01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteDistribution.h:97:64:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksize_t gtsam::DiscreteConditional::solve(const gtsam::DiscreteValues&) const[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   97 |   size_t GTSAM_DEPRECATED solve() const { return Base::solve({}[01;35m[K)[m[K; }
+      |                                                                [01;35m[K^[m[K
+In file included from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteDistribution.h:20[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteLookupDAG.h:20[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteFactorGraph.h:22[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam_unstable/discrete/CSP.h:10[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam_unstable/discrete/Scheduler.h:10[m[K,
+                 from [01m[K/home/catkin_ws/src/gtsam/gtsam_unstable/discrete/examples/schedulingQuals13.cpp:11[m[K:
+[01m[K/home/catkin_ws/src/gtsam/gtsam/discrete/DiscreteConditional.h:231:27:[m[K [01;36m[Knote: [m[Kdeclared here
+  231 |   size_t GTSAM_DEPRECATED [01;36m[Ksolve[m[K(const DiscreteValues& parentsValues) const;
+      |                           [01;36m[K^~~~~[m[K

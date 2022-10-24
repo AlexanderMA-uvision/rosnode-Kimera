@@ -1,0 +1,11 @@
+fatal: detected dubious ownership in repository at '/home/catkin_ws/build/kimera_vio/external/googletest-src'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/catkin_ws/build/kimera_vio/external/googletest-src
+[31m[1mCMake Error[0m at /home/catkin_ws/build/kimera_vio/external/googletest-download/googletest-prefix/tmp/googletest-gitupdate.cmake:10 (message):
+  Failed to get the hash for HEAD
+
+
+make[3]: *** [CMakeFiles/googletest.dir/build.make:97: googletest-prefix/src/googletest-stamp/googletest-update] Error 1
+make[2]: *** [CMakeFiles/Makefile2:76: CMakeFiles/googletest.dir/all] Error 2
+make[1]: *** [Makefile:84: all] Error 2

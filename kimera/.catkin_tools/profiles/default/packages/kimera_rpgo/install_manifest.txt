@@ -1,0 +1,16 @@
+/home/catkin_ws/devel/lib/libKimeraRPGO.so
+/home/catkin_ws/devel/lib/cmake/KimeraRPGO/KimeraRPGOTargets.cmake
+/home/catkin_ws/devel/lib/cmake/KimeraRPGO/KimeraRPGOTargets-release.cmake
+/home/catkin_ws/devel/include/KimeraRPGO/Logger.h
+/home/catkin_ws/devel/include/KimeraRPGO/GenericSolver.h
+/home/catkin_ws/devel/include/KimeraRPGO/outlier/OutlierRemoval.h
+/home/catkin_ws/devel/include/KimeraRPGO/outlier/Pcm.h
+/home/catkin_ws/devel/include/KimeraRPGO/utils/GeometryUtils.h
+/home/catkin_ws/devel/include/KimeraRPGO/utils/TypeUtils.h
+/home/catkin_ws/devel/include/KimeraRPGO/utils/GraphUtils.h
+/home/catkin_ws/devel/include/KimeraRPGO/RobustSolver.h
+/home/catkin_ws/devel/include/KimeraRPGO/SolverParams.h
+/home/catkin_ws/devel/include/KimeraRPGO/max_clique_finder/graphIO.h
+/home/catkin_ws/devel/include/KimeraRPGO/max_clique_finder/findClique.h
+/home/catkin_ws/devel/lib/cmake/KimeraRPGO/KimeraRPGOConfig.cmake
+/home/catkin_ws/devel/lib/cmake/KimeraRPGO/KimeraRPGOConfigVersion.cmake

@@ -1,0 +1,61 @@
+[35m[1mScanning dependencies of target dbow2_src[0m
+[ 12%] [34m[1mCreating directories for 'dbow2_src'[0m
+[ 25%] [34m[1mPerforming download step (git clone) for 'dbow2_src'[0m
+Cloning into 'dbow2_src'...
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+[ 37%] [34m[1mNo patch step for 'dbow2_src'[0m
+[ 50%] [34m[1mNo update step for 'dbow2_src'[0m
+[ 62%] [34m[1mPerforming configure step for 'dbow2_src'[0m
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found OpenCV: /home/catkin_ws/devel (found version "3.4.2") 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/catkin_ws/build/dbow2_catkin/dbow2_src-prefix/src/dbow2_src
+[ 75%] [34m[1mPerforming build step for 'dbow2_src'[0m
+make[3]: warning: jobserver unavailable: using -j1.  Add '+' to parent make rule.
+[35m[1mScanning dependencies of target DBoW2[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/DBoW2.dir/src/BowVector.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/DBoW2.dir/src/FBrief.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/DBoW2.dir/src/FORB.cpp.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/DBoW2.dir/src/FeatureVector.cpp.o[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/DBoW2.dir/src/QueryResults.cpp.o[0m
+[ 85%] [32mBuilding CXX object CMakeFiles/DBoW2.dir/src/ScoringObject.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libDBoW2.so[0m
+[100%] Built target DBoW2
+[ 87%] [34m[1mPerforming install step for 'dbow2_src'[0m
+make[3]: warning: jobserver unavailable: using -j1.  Add '+' to parent make rule.
+[100%] Built target DBoW2
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Installing: /home/catkin_ws/devel/lib/libDBoW2.so
+-- Set runtime path of "/home/catkin_ws/devel/lib/libDBoW2.so" to ""
+-- Installing: /home/catkin_ws/devel/include/DBoW2
+-- Installing: /home/catkin_ws/devel/include/DBoW2/FClass.h
+-- Installing: /home/catkin_ws/devel/include/DBoW2/FSurf64.h
+-- Installing: /home/catkin_ws/devel/include/DBoW2/FeatureVector.h
+-- Installing: /home/catkin_ws/devel/include/DBoW2/FBrief.h
+-- Installing: /home/catkin_ws/devel/include/DBoW2/ScoringObject.h
+-- Installing: /home/catkin_ws/devel/include/DBoW2/DBoW2.h
+-- Installing: /home/catkin_ws/devel/include/DBoW2/TemplatedVocabulary.h
+-- Installing: /home/catkin_ws/devel/include/DBoW2/FORB.h
+-- Installing: /home/catkin_ws/devel/include/DBoW2/BowVector.h
+-- Installing: /home/catkin_ws/devel/include/DBoW2/QueryResults.h
+-- Installing: /home/catkin_ws/devel/include/DBoW2/TemplatedDatabase.h
+-- Installing: /home/catkin_ws/devel/include/DBoW2/DBoW2Config.cmake
+-- Installing: /home/catkin_ws/devel/lib/cmake/DBoW2/DBoW2Config.cmake
+[100%] [34m[1mCompleted 'dbow2_src'[0m
+[100%] Built target dbow2_src

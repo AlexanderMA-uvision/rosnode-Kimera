@@ -1,0 +1,241 @@
+[ 12%] [34m[1mPerforming build step for 'opengv_src'[0m
+make[3]: warning: -j8 forced in submake: resetting jobserver mode.
+[  0%] [32mBuilding CXX object CMakeFiles/opengv.dir/src/absolute_pose/modules/main.cpp.o[0m
+[  1%] [32mBuilding CXX object CMakeFiles/opengv.dir/src/relative_pose/CentralRelativeAdapter.cpp.o[0m
+[  2%] [32mBuilding CXX object CMakeFiles/opengv.dir/src/relative_pose/NoncentralRelativeAdapter.cpp.o[0m
+[  3%] [32mBuilding CXX object CMakeFiles/opengv.dir/src/relative_pose/modules/main.cpp.o[0m
+[  3%] [32mBuilding CXX object CMakeFiles/opengv.dir/src/relative_pose/methods.cpp.o[0m
+[  4%] [32mBuilding CXX object CMakeFiles/opengv.dir/src/relative_pose/CentralRelativeWeightingAdapter.cpp.o[0m
+[  5%] [32mBuilding CXX object CMakeFiles/opengv.dir/src/relative_pose/CentralRelativeMultiAdapter.cpp.o[0m
+[  6%] [32mBuilding CXX object CMakeFiles/opengv.dir/src/relative_pose/NoncentralRelativeMultiAdapter.cpp.o[0m
+[  7%] [32mBuilding CXX object CMakeFiles/opengv.dir/src/triangulation/methods.cpp.o[0m
+[  8%] [32mBuilding CXX object CMakeFiles/opengv.dir/src/point_cloud/methods.cpp.o[0m
+[  9%] [32mBuilding CXX object CMakeFiles/opengv.dir/src/point_cloud/PointCloudAdapter.cpp.o[0m
+[  9%] [32mBuilding CXX object CMakeFiles/opengv.dir/src/sac_problems/absolute_pose/AbsolutePoseSacProblem.cpp.o[0m
+[ 10%] [32mBuilding CXX object CMakeFiles/opengv.dir/src/sac_problems/absolute_pose/MultiNoncentralAbsolutePoseSacProblem.cpp.o[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/opengv.dir/src/sac_problems/relative_pose/CentralRelativePoseSacProblem.cpp.o[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/opengv.dir/src/sac_problems/relative_pose/NoncentralRelativePoseSacProblem.cpp.o[0m
+[ 13%] [32mBuilding CXX object CMakeFiles/opengv.dir/src/sac_problems/relative_pose/RotationOnlySacProblem.cpp.o[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/opengv.dir/src/sac_problems/relative_pose/TranslationOnlySacProblem.cpp.o[0m
+[ 15%] [32mBuilding CXX object CMakeFiles/opengv.dir/src/sac_problems/relative_pose/EigensolverSacProblem.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/opengv.dir/src/sac_problems/relative_pose/MultiCentralRelativePoseSacProblem.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/opengv.dir/src/sac_problems/relative_pose/MultiNoncentralRelativePoseSacProblem.cpp.o[0m
+[ 17%] [32mBuilding CXX object CMakeFiles/opengv.dir/src/sac_problems/point_cloud/PointCloudSacProblem.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/opengv.dir/src/absolute_pose/MACentralAbsolute.cpp.o[0m
+[ 19%] [32mBuilding CXX object CMakeFiles/opengv.dir/src/absolute_pose/MANoncentralAbsolute.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/opengv.dir/src/relative_pose/MACentralRelative.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/opengv.dir/src/relative_pose/MANoncentralRelative.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/opengv.dir/src/relative_pose/MANoncentralRelativeMulti.cpp.o[0m
+[ 23%] [32mBuilding CXX object CMakeFiles/opengv.dir/src/point_cloud/MAPointCloud.cpp.o[0m
+[ 23%] [32m[1mLinking CXX static library lib/libopengv.a[0m
+[ 64%] Built target opengv
+[35m[1mScanning dependencies of target random_generators[0m
+[ 65%] [32mBuilding CXX object CMakeFiles/random_generators.dir/test/random_generators.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/random_generators.dir/test/experiment_helpers.cpp.o[0m
+[ 67%] [32mBuilding CXX object CMakeFiles/random_generators.dir/test/time_measurement.cpp.o[0m
+[ 68%] [32m[1mLinking CXX static library lib/librandom_generators.a[0m
+[ 68%] Built target random_generators
+[35m[1mScanning dependencies of target test_point_cloud_sac[0m
+[35m[1mScanning dependencies of target test_Sturm[0m
+[35m[1mScanning dependencies of target test_noncentral_absolute_pose_sac[0m
+[35m[1mScanning dependencies of target test_relative_pose_rotationOnly_sac[0m
+[35m[1mScanning dependencies of target test_point_cloud[0m
+[35m[1mScanning dependencies of target test_triangulation[0m
+[35m[1mScanning dependencies of target test_eigensolver_sac[0m
+[35m[1mScanning dependencies of target test_multi_noncentral_relative_pose_sac[0m
+[ 69%] [32mBuilding CXX object CMakeFiles/test_triangulation.dir/test/test_triangulation.cpp.o[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/test_point_cloud.dir/test/test_point_cloud.cpp.o[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/test_Sturm.dir/test/test_Sturm.cpp.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/test_noncentral_absolute_pose_sac.dir/test/test_noncentral_absolute_pose_sac.cpp.o[0m
+[ 73%] [32mBuilding CXX object CMakeFiles/test_point_cloud_sac.dir/test/test_point_cloud_sac.cpp.o[0m
+[ 74%] [32mBuilding CXX object CMakeFiles/test_eigensolver_sac.dir/test/test_eigensolver_sac.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/test_multi_noncentral_relative_pose_sac.dir/test/test_multi_noncentral_relative_pose_sac.cpp.o[0m
+[ 76%] [32mBuilding CXX object CMakeFiles/test_relative_pose_rotationOnly_sac.dir/test/test_relative_pose_rotationOnly_sac.cpp.o[0m
+[ 77%] [32m[1mLinking CXX executable bin/test_Sturm[0m
+[ 77%] Built target test_Sturm
+[35m[1mScanning dependencies of target test_absolute_pose[0m
+[ 78%] [32mBuilding CXX object CMakeFiles/test_absolute_pose.dir/test/test_absolute_pose.cpp.o[0m
+[ 79%] [32m[1mLinking CXX executable bin/test_point_cloud[0m
+[ 79%] Built target test_point_cloud
+[35m[1mScanning dependencies of target test_absolute_pose_sac[0m
+[ 80%] [32m[1mLinking CXX executable bin/test_triangulation[0m
+[ 81%] [32mBuilding CXX object CMakeFiles/test_absolute_pose_sac.dir/test/test_absolute_pose_sac.cpp.o[0m
+[ 81%] Built target test_triangulation
+[35m[1mScanning dependencies of target test_noncentral_absolute_pose[0m
+[ 82%] [32mBuilding CXX object CMakeFiles/test_noncentral_absolute_pose.dir/test/test_noncentral_absolute_pose.cpp.o[0m
+[ 83%] [32m[1mLinking CXX executable bin/test_point_cloud_sac[0m
+[ 84%] [32m[1mLinking CXX executable bin/test_noncentral_absolute_pose_sac[0m
+[ 84%] Built target test_point_cloud_sac
+[35m[1mScanning dependencies of target test_multi_noncentral_absolute_pose_sac[0m
+[ 84%] Built target test_noncentral_absolute_pose_sac
+[35m[1mScanning dependencies of target test_eigensolver[0m
+[ 85%] [32m[1mLinking CXX executable bin/test_eigensolver_sac[0m
+[ 86%] [32mBuilding CXX object CMakeFiles/test_multi_noncentral_absolute_pose_sac.dir/test/test_multi_noncentral_absolute_pose_sac.cpp.o[0m
+[ 87%] [32mBuilding CXX object CMakeFiles/test_eigensolver.dir/test/test_eigensolver.cpp.o[0m
+[ 87%] Built target test_eigensolver_sac
+[35m[1mScanning dependencies of target test_relative_pose_rotationOnly[0m
+[ 88%] [32m[1mLinking CXX executable bin/test_multi_noncentral_relative_pose_sac[0m
+[ 89%] [32mBuilding CXX object CMakeFiles/test_relative_pose_rotationOnly.dir/test/test_relative_pose_rotationOnly.cpp.o[0m
+[ 89%] Built target test_multi_noncentral_relative_pose_sac
+[ 90%] [32m[1mLinking CXX executable bin/test_relative_pose_rotationOnly_sac[0m
+[35m[1mScanning dependencies of target test_relative_pose[0m
+[ 90%] Built target test_relative_pose_rotationOnly_sac
+[ 91%] [32mBuilding CXX object CMakeFiles/test_relative_pose.dir/test/test_relative_pose.cpp.o[0m
+[35m[1mScanning dependencies of target test_relative_pose_sac[0m
+[ 92%] [32mBuilding CXX object CMakeFiles/test_relative_pose_sac.dir/test/test_relative_pose_sac.cpp.o[0m
+[ 93%] [32m[1mLinking CXX executable bin/test_noncentral_absolute_pose[0m
+[ 93%] [32m[1mLinking CXX executable bin/test_absolute_pose[0m
+[ 93%] Built target test_noncentral_absolute_pose
+[35m[1mScanning dependencies of target test_noncentral_relative_pose_sac[0m
+[ 94%] [32mBuilding CXX object CMakeFiles/test_noncentral_relative_pose_sac.dir/test/test_noncentral_relative_pose_sac.cpp.o[0m
+[ 94%] Built target test_absolute_pose
+[35m[1mScanning dependencies of target test_noncentral_relative_pose[0m
+[ 95%] [32mBuilding CXX object CMakeFiles/test_noncentral_relative_pose.dir/test/test_noncentral_relative_pose.cpp.o[0m
+[ 96%] [32m[1mLinking CXX executable bin/test_absolute_pose_sac[0m
+[ 97%] [32m[1mLinking CXX executable bin/test_relative_pose_rotationOnly[0m
+[ 97%] Built target test_relative_pose_rotationOnly
+[ 98%] [32m[1mLinking CXX executable bin/test_eigensolver[0m
+[ 98%] Built target test_absolute_pose_sac
+[ 98%] [32m[1mLinking CXX executable bin/test_relative_pose[0m
+[ 98%] Built target test_eigensolver
+[ 98%] Built target test_relative_pose
+[ 98%] [32m[1mLinking CXX executable bin/test_multi_noncentral_absolute_pose_sac[0m
+[ 98%] Built target test_multi_noncentral_absolute_pose_sac
+[ 99%] [32m[1mLinking CXX executable bin/test_relative_pose_sac[0m
+[ 99%] Built target test_relative_pose_sac
+[ 99%] [32m[1mLinking CXX executable bin/test_noncentral_relative_pose[0m
+[ 99%] Built target test_noncentral_relative_pose
+[100%] [32m[1mLinking CXX executable bin/test_noncentral_relative_pose_sac[0m
+[100%] Built target test_noncentral_relative_pose_sac
+[ 25%] [34m[1mPerforming install step for 'opengv_src'[0m
+make[3]: warning: jobserver unavailable: using -j1.  Add '+' to parent make rule.
+[ 64%] Built target opengv
+[ 68%] Built target random_generators
+[ 70%] Built target test_Sturm
+[ 72%] Built target test_point_cloud_sac
+[ 74%] Built target test_point_cloud
+[ 76%] Built target test_eigensolver_sac
+[ 78%] Built target test_triangulation
+[ 80%] Built target test_multi_noncentral_relative_pose_sac
+[ 82%] Built target test_noncentral_absolute_pose_sac
+[ 84%] Built target test_relative_pose_rotationOnly_sac
+[ 85%] Built target test_absolute_pose
+[ 87%] Built target test_absolute_pose_sac
+[ 89%] Built target test_noncentral_absolute_pose
+[ 90%] Built target test_multi_noncentral_absolute_pose_sac
+[ 92%] Built target test_eigensolver
+[ 94%] Built target test_relative_pose_rotationOnly
+[ 95%] Built target test_relative_pose
+[ 97%] Built target test_relative_pose_sac
+[ 99%] Built target test_noncentral_relative_pose_sac
+[100%] Built target test_noncentral_relative_pose
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Installing: /home/catkin_ws/devel/lib/libopengv.a
+-- Installing: /home/catkin_ws/devel/lib/cmake/opengv-1.0/opengvConfig.cmake
+-- Installing: /home/catkin_ws/devel/lib/cmake/opengv-1.0/opengvConfigVersion.cmake
+-- Installing: /home/catkin_ws/devel/lib/cmake/opengv-1.0/opengvTargets.cmake
+-- Installing: /home/catkin_ws/devel/lib/cmake/opengv-1.0/opengvTargets-release.cmake
+-- Up-to-date: /home/catkin_ws/devel/include
+-- Installing: /home/catkin_ws/devel/include/opengv
+-- Installing: /home/catkin_ws/devel/include/opengv/sac
+-- Installing: /home/catkin_ws/devel/include/opengv/sac/Lmeds.hpp
+-- Installing: /home/catkin_ws/devel/include/opengv/sac/SampleConsensusProblem.hpp
+-- Installing: /home/catkin_ws/devel/include/opengv/sac/implementation
+-- Installing: /home/catkin_ws/devel/include/opengv/sac/implementation/Lmeds.hpp
+-- Installing: /home/catkin_ws/devel/include/opengv/sac/implementation/SampleConsensusProblem.hpp
+-- Installing: /home/catkin_ws/devel/include/opengv/sac/implementation/SampleConsensus.hpp
+-- Installing: /home/catkin_ws/devel/include/opengv/sac/implementation/MultiSampleConsensus.hpp
+-- Installing: /home/catkin_ws/devel/include/opengv/sac/implementation/MultiSampleConsensusProblem.hpp
+-- Installing: /home/catkin_ws/devel/include/opengv/sac/implementation/MultiRansac.hpp
+-- Installing: /home/catkin_ws/devel/include/opengv/sac/implementation/Ransac.hpp
+-- Installing: /home/catkin_ws/devel/include/opengv/sac/SampleConsensus.hpp
+-- Installing: /home/catkin_ws/devel/include/opengv/sac/MultiSampleConsensus.hpp
+-- Installing: /home/catkin_ws/devel/include/opengv/sac/MultiSampleConsensusProblem.hpp
+-- Installing: /home/catkin_ws/devel/include/opengv/sac/MultiRansac.hpp
+-- Installing: /home/catkin_ws/devel/include/opengv/sac/Ransac.hpp
+-- Installing: /home/catkin_ws/devel/include/opengv/types.hpp
+-- Installing: /home/catkin_ws/devel/include/opengv/Indices.hpp
+-- Installing: /home/catkin_ws/devel/include/opengv/point_cloud
+-- Installing: /home/catkin_ws/devel/include/opengv/point_cloud/MAPointCloud.hpp
+-- Installing: /home/catkin_ws/devel/include/opengv/point_cloud/PointCloudAdapter.hpp
+-- Installing: /home/catkin_ws/devel/include/opengv/point_cloud/methods.hpp
+-- Installing: /home/catkin_ws/devel/include/opengv/point_cloud/PointCloudAdapterBase.hpp
+-- Installing: /home/catkin_ws/devel/include/opengv/OptimizationFunctor.hpp
+-- Installing: /home/catkin_ws/devel/include/opengv/triangulation
+-- Installing: /home/catkin_ws/devel/include/opengv/triangulation/methods.hpp
+-- Installing: /home/catkin_ws/devel/include/opengv/absolute_pose
+-- Installing: /home/catkin_ws/devel/include/opengv/absolute_pose/AbsoluteAdapterBase.hpp
+-- Installing: /home/catkin_ws/devel/include/opengv/absolute_pose/MACentralAbsolute.hpp
+-- Installing: /home/catkin_ws/devel/include/opengv/absolute_pose/MANoncentralAbsolute.hpp
+-- Installing: /home/catkin_ws/devel/include/opengv/absolute_pose/NoncentralAbsoluteAdapter.hpp
+-- Installing: /home/catkin_ws/devel/include/opengv/absolute_pose/AbsoluteMultiAdapterBase.hpp
+-- Installing: /home/catkin_ws/devel/include/opengv/absolute_pose/NoncentralAbsoluteMultiAdapter.hpp
+-- Installing: /home/catkin_ws/devel/include/opengv/absolute_pose/modules
+-- Installing: /home/catkin_ws/devel/include/opengv/absolute_pose/modules/gpnp3
+-- Installing: /home/catkin_ws/devel/include/opengv/absolute_pose/modules/gpnp3/modules.hpp
+-- Installing: /home/catkin_ws/devel/include/opengv/absolute_pose/modules/gpnp1
+-- Installing: /home/catkin_ws/devel/include/opengv/absolute_pose/modules/gpnp1/modules.hpp
+-- Installing: /home/catkin_ws/devel/include/opengv/absolute_pose/modules/gpnp2
+-- Installing: /home/catkin_ws/devel/include/opengv/absolute_pose/modules/gpnp2/modules.hpp
+-- Installing: /home/catkin_ws/devel/include/opengv/absolute_pose/modules/upnp4.hpp
+-- Installing: /home/catkin_ws/devel/include/opengv/absolute_pose/modules/gpnp5
+-- Installing: /home/catkin_ws/devel/include/opengv/absolute_pose/modules/gpnp5/modules.hpp
+-- Installing: /home/catkin_ws/devel/include/opengv/absolute_pose/modules/gp3p
+-- Installing: /home/catkin_ws/devel/include/opengv/absolute_pose/modules/gp3p/modules.hpp
+-- Installing: /home/catkin_ws/devel/include/opengv/absolute_pose/modules/main.hpp
+-- Installing: /home/catkin_ws/devel/include/opengv/absolute_pose/modules/gpnp4
+-- Installing: /home/catkin_ws/devel/include/opengv/absolute_pose/modules/gpnp4/modules.hpp
+-- Installing: /home/catkin_ws/devel/include/opengv/absolute_pose/modules/upnp2.hpp
+-- Installing: /home/catkin_ws/devel/include/opengv/absolute_pose/modules/Epnp.hpp
+-- Installing: /home/catkin_ws/devel/include/opengv/absolute_pose/methods.hpp
+-- Installing: /home/catkin_ws/devel/include/opengv/absolute_pose/CentralAbsoluteAdapter.hpp
+-- Installing: /home/catkin_ws/devel/include/opengv/math
+-- Installing: /home/catkin_ws/devel/include/opengv/math/roots.hpp
+-- Installing: /home/catkin_ws/devel/include/opengv/math/gauss_jordan.hpp
+-- Installing: /home/catkin_ws/devel/include/opengv/math/Sturm.hpp
+-- Installing: /home/catkin_ws/devel/include/opengv/math/quaternion.hpp
+-- Installing: /home/catkin_ws/devel/include/opengv/math/cayley.hpp
+-- Installing: /home/catkin_ws/devel/include/opengv/math/arun.hpp
+-- Installing: /home/catkin_ws/devel/include/opengv/sac_problems
+-- Installing: /home/catkin_ws/devel/include/opengv/sac_problems/point_cloud
+-- Installing: /home/catkin_ws/devel/include/opengv/sac_problems/point_cloud/PointCloudSacProblem.hpp
+-- Installing: /home/catkin_ws/devel/include/opengv/sac_problems/absolute_pose
+-- Installing: /home/catkin_ws/devel/include/opengv/sac_problems/absolute_pose/MultiNoncentralAbsolutePoseSacProblem.hpp
+-- Installing: /home/catkin_ws/devel/include/opengv/sac_problems/absolute_pose/AbsolutePoseSacProblem.hpp
+-- Installing: /home/catkin_ws/devel/include/opengv/sac_problems/relative_pose
+-- Installing: /home/catkin_ws/devel/include/opengv/sac_problems/relative_pose/TranslationOnlySacProblem.hpp
+-- Installing: /home/catkin_ws/devel/include/opengv/sac_problems/relative_pose/MultiNoncentralRelativePoseSacProblem.hpp
+-- Installing: /home/catkin_ws/devel/include/opengv/sac_problems/relative_pose/EigensolverSacProblem.hpp
+-- Installing: /home/catkin_ws/devel/include/opengv/sac_problems/relative_pose/NoncentralRelativePoseSacProblem.hpp
+-- Installing: /home/catkin_ws/devel/include/opengv/sac_problems/relative_pose/RotationOnlySacProblem.hpp
+-- Installing: /home/catkin_ws/devel/include/opengv/sac_problems/relative_pose/CentralRelativePoseSacProblem.hpp
+-- Installing: /home/catkin_ws/devel/include/opengv/sac_problems/relative_pose/MultiCentralRelativePoseSacProblem.hpp
+-- Installing: /home/catkin_ws/devel/include/opengv/relative_pose
+-- Installing: /home/catkin_ws/devel/include/opengv/relative_pose/RelativeAdapterBase.hpp
+-- Installing: /home/catkin_ws/devel/include/opengv/relative_pose/NoncentralRelativeMultiAdapter.hpp
+-- Installing: /home/catkin_ws/devel/include/opengv/relative_pose/CentralRelativeMultiAdapter.hpp
+-- Installing: /home/catkin_ws/devel/include/opengv/relative_pose/MANoncentralRelativeMulti.hpp
+-- Installing: /home/catkin_ws/devel/include/opengv/relative_pose/CentralRelativeAdapter.hpp
+-- Installing: /home/catkin_ws/devel/include/opengv/relative_pose/RelativeMultiAdapterBase.hpp
+-- Installing: /home/catkin_ws/devel/include/opengv/relative_pose/MACentralRelative.hpp
+-- Installing: /home/catkin_ws/devel/include/opengv/relative_pose/CentralRelativeWeightingAdapter.hpp
+-- Installing: /home/catkin_ws/devel/include/opengv/relative_pose/modules
+-- Installing: /home/catkin_ws/devel/include/opengv/relative_pose/modules/fivept_kneip
+-- Installing: /home/catkin_ws/devel/include/opengv/relative_pose/modules/fivept_kneip/modules.hpp
+-- Installing: /home/catkin_ws/devel/include/opengv/relative_pose/modules/fivept_stewenius
+-- Installing: /home/catkin_ws/devel/include/opengv/relative_pose/modules/fivept_stewenius/modules.hpp
+-- Installing: /home/catkin_ws/devel/include/opengv/relative_pose/modules/eigensolver
+-- Installing: /home/catkin_ws/devel/include/opengv/relative_pose/modules/eigensolver/modules.hpp
+-- Installing: /home/catkin_ws/devel/include/opengv/relative_pose/modules/sixpt
+-- Installing: /home/catkin_ws/devel/include/opengv/relative_pose/modules/sixpt/modules.hpp
+-- Installing: /home/catkin_ws/devel/include/opengv/relative_pose/modules/main.hpp
+-- Installing: /home/catkin_ws/devel/include/opengv/relative_pose/modules/ge
+-- Installing: /home/catkin_ws/devel/include/opengv/relative_pose/modules/ge/modules.hpp
+-- Installing: /home/catkin_ws/devel/include/opengv/relative_pose/modules/fivept_nister
+-- Installing: /home/catkin_ws/devel/include/opengv/relative_pose/modules/fivept_nister/modules.hpp
+-- Installing: /home/catkin_ws/devel/include/opengv/relative_pose/methods.hpp
+-- Installing: /home/catkin_ws/devel/include/opengv/relative_pose/NoncentralRelativeAdapter.hpp
+-- Installing: /home/catkin_ws/devel/include/opengv/relative_pose/MANoncentralRelative.hpp
+[ 37%] [34m[1mCompleted 'opengv_src'[0m
+[100%] Built target opengv_src

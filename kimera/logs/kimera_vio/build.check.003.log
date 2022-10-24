@@ -1,0 +1,37 @@
+[36m--[0m ==============================================================
+[36m--[0m ====================  Dependencies ===========================
+[36m--[0m Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: filesystem serialization regex timer date_time thread
+[36m--[0m Found installed version of gflags: /home/catkin_ws/devel/lib/cmake/gflags
+[36m--[0m Detected gflags version: 2.2.1
+[36m--[0m Failed to find installed glog CMake configuration, searching for glog build directories exported with CMake.
+[36m--[0m Failed to find an installed/exported CMake configuration for glog, will perform search for installed glog components.
+[36m--[0m Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found suitable version "1.71.0", minimum required is "1.65") found components: serialization system filesystem thread program_options date_time timer chrono regex
+[36m--[0m GTSAM include directory:  /home/catkin_ws/devel/lib/cmake/GTSAM/../../../include
+[36m--[0m Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0")
+[36m--[0m Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found suitable version "1.71.0", minimum required is "1.65") found components: serialization system filesystem thread program_options date_time timer chrono regex
+[36m--[0m GTSAM include directory:  /home/catkin_ws/devel/lib/cmake/GTSAM/../../../include
+[36m--[0m GTSAM include directory:  /home/catkin_ws/devel/lib/cmake/GTSAM/../../../include
+[36m--[0m Vocabulary file exists, will not download.
+[36m--[0m Pangolin not found.
+fatal: detected dubious ownership in repository at '/home/catkin_ws/build/kimera_vio/external/googletest-src'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/catkin_ws/build/kimera_vio/external/googletest-src
+[31m[1mCMake Error[0m at /home/catkin_ws/build/kimera_vio/external/googletest-download/googletest-prefix/tmp/googletest-gitupdate.cmake:10 (message):
+  Failed to get the hash for HEAD
+
+
+make[3]: *** [CMakeFiles/googletest.dir/build.make:97: googletest-prefix/src/googletest-stamp/googletest-update] Error 1
+make[2]: *** [CMakeFiles/Makefile2:76: CMakeFiles/googletest.dir/all] Error 2
+make[1]: *** [Makefile:84: all] Error 2
+[36m--[0m ===============================================================
+[36m--[0m ================  Configuration Options  ======================
+[36m--[0m CMAKE_CXX_COMPILER_ID type                : GNU
+[36m--[0m CMAKE_CXX_COMPILER_VERSION                : 9.4.0
+[36m--[0m Build flags
+[36m--[0m   Build type                              : Release
+[36m--[0m   C compilation flags (Release)           :  -O3 -DNDEBUG
+[36m--[0m   C++ compilation flags (Release)         :  -O3 -DNDEBUG
+[36m--[0m Configuring done
+[36m--[0m Generating done
+[36m--[0m Build files have been written to: /home/catkin_ws/build/kimera_vio

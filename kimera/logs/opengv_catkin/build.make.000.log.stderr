@@ -1,0 +1,19 @@
+Cloning into 'opengv_src'...
+Already on 'master'
+Submodule 'python/pybind11' (https://github.com/pybind/pybind11.git) registered for path 'python/pybind11'
+Cloning into '/home/catkin_ws/build/opengv_catkin/opengv_src-prefix/src/opengv_src/python/pybind11'...
+Submodule 'tools/clang' (https://github.com/wjakob/clang-cindex-python3) registered for path 'python/pybind11/tools/clang'
+Cloning into '/home/catkin_ws/build/opengv_catkin/opengv_src-prefix/src/opengv_src/python/pybind11/tools/clang'...
+make[3]: warning: -j8 forced in submake: resetting jobserver mode.
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+compilation terminated.
+make[5]: *** [CMakeFiles/opengv.dir/build.make:63: CMakeFiles/opengv.dir/src/absolute_pose/modules/main.cpp.o] Error 1
+make[5]: *** Waiting for unfinished jobs....
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+compilation terminated.
+make[5]: *** [CMakeFiles/opengv.dir/build.make:427: CMakeFiles/opengv.dir/src/relative_pose/modules/main.cpp.o] Error 1
+make[4]: *** [CMakeFiles/Makefile2:589: CMakeFiles/opengv.dir/all] Error 2
+make[3]: *** [Makefile:141: all] Error 2
+make[2]: *** [CMakeFiles/opengv_src.dir/build.make:113: opengv_src-prefix/src/opengv_src-stamp/opengv_src-build] Error 2
+make[1]: *** [CMakeFiles/Makefile2:304: CMakeFiles/opengv_src.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2
